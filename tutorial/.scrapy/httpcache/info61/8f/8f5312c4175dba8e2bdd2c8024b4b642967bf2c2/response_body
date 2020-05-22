@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>清青灰色右衽马蹄袖金线绣九龙夏官服-藏品-闽台缘</title>
+   
+        <meta content="闽台缘" name="keywords" />
+    <meta content="闽台缘" name="description" />
+    <link rel="stylesheet" href="/templates/mty/style/reset.css"/>
+<link rel="stylesheet" href="/templates/mty/style/main.css"/>
+<link rel="stylesheet" href="/templates/mty/style/tipso.min.css"/>
+<link rel="stylesheet" href="/templates/mty/style/jquery.mCustomScrollbar.css"/>
+<script src="/templates/mty/js/jquery-1.7.1.min.js"></script>
+<script src="/templates/mty/js/nav.js"></script>
+<script src="/templates/mty/js/banner_home.js"></script>
+
+<link rel="stylesheet" href="/templates/mty/lightbox/themes/default/jquery.lightbox.css"/>
+<script src="/templates/mty/lightbox/jquery.lightbox.min.js"></script>
+
+<script src="/templates/mty/js/tipso.min.js"></script>
+<!--[if lt IE 9]>
+<script src="/templates/mty/js/html5shiv.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/scripts/CeanLib.js"></script>
+<script type='text/javascript' src='/templates/mty/js/jquery.prettyPhoto.js'></script>
+<link rel='stylesheet' href='/templates/mty/style/prettyPhoto.css'/>
+<script type="text/javascript" src="/templates/mty/js/picture.js"></script>
+<link rel="stylesheet" href="/templates/mty/style/sidenav.css"/>
+<script src="/scripts/CeanLib.js"></script>
+</head>
+<body>
+<header>
+ 
+  <div class="top">
+    <ul class="notice">
+      <p><span>周一闭馆，开放时间：9:00-17:00（16:30起停止入场） 服务QQ: 1241943398</span></p>
+    </ul>
+    <ul class="lang">
+      <li><input type="text" placeholder="搜索" id="keywords" name="keywords" onkeydown="if(event.keyCode==13){SiteSearch('/search.aspx', '#keywords');return false};"/><input type="button"  onclick="SiteSearch('/search.aspx', '#keywords');"/></li>
+      <a href="/english/index.aspx">繁體中文</a><a href="http://old.mtybwg.org.cn/" target="_blank">旧版简体</a><a href="/index.aspx">简体中文</a>
+    </ul>
+  </div>
+
+  <nav>
+    <ul class="nav">
+      <li class="nLi">
+        <h3><a href="/index.aspx">首页</a><span></span></h3>
+      </li>
+      <li class="nLi">
+        <h3><a href="/news/0-1.aspx">资讯</a></h3>
+        <ul class="sub">
+          <a href="/news/102-1.aspx">本馆动态</a>
+          <a href="/news/91-1.aspx">两岸交流</a>
+        </ul>
+      </li>
+      <li class="nLi">
+        <h3><a href="/zhanlan.aspx">展览</a></h3>
+        <ul class="sub">
+          <a href="/zhanlan/105-1.aspx">基本陈列</a>
+          
+          <a href="/zhanlan/104-1.aspx">临时展览</a>
+          
+          <a href="/zhanlan/103-1.aspx">虚拟展厅</a>
+          
+        </ul>
+      </li>
+      <li class="nLi">
+        <h3><a href="/cangpin.aspx">藏品</a><span></span></h3>
+        <ul class="sub">
+          
+          <a href="/cangpin/164-1.aspx">典藏精选</a>
+          
+          <a href="/cangpin/113-1.aspx">陶瓷器类</a>
+          
+          <a href="/cangpin/112-1.aspx">金属器类</a>
+          
+          <a href="/cangpin/111-1.aspx">书画文献类</a>
+          
+          <a href="/cangpin/110-1.aspx">织绣类</a>
+          
+          <a href="/cangpin/109-1.aspx">漆器、竹木雕类</a>
+          
+          <a href="/cangpin/108-1.aspx">石器石刻石雕类</a>
+          
+          <a href="/cangpin/107-1.aspx">宝玉石器类</a>
+          
+          <a href="/cangpin/106-1.aspx">雕塑造像类</a>
+          
+          <a href="/cangpin/286-1.aspx">粿印类</a>
+          
+          <a href="/cangpin/282-1.aspx">偶戏类</a>
+          
+        </ul>
+      </li>
+      <li class="nLi">
+        <h3><a href="/xuanjiao/0-1.aspx">宣教</a></h3>
+        <ul class="sub">
+           
+          <a href="/xuanjiao/117-1.aspx">社教活动</a>
+          
+          <a href="/xuanjiao/116-1.aspx">数字课堂</a>
+          
+          <a href="/xuanjiao/115-1.aspx">志愿者园地</a>
+          
+          <a href="/xuanjiao/114-1.aspx">博物馆之友</a>
+          
+        </ul>
+      </li>
+      <li class="nLi">
+        <h3><a href="/ puzhao/detail/pudiejieshao.aspx">谱牒</a></h3>
+        <ul class="sub">
+          <a href="/ puzhao/detail/pudiejieshao.aspx">谱牒中心介绍</a>
+          <a href="/xingshiliuyuan.aspx">姓氏源流</a>
+          <a href="/check.aspx">族谱信息查询</a>
+          <a href="/puzhao/120-1.aspx">族谱相关活动</a>
+        </ul>
+      </li>
+      <li class="nLi">
+        <h3><a href="/xueshu/0-1.aspx">学术</a></h3>
+        <ul class="sub">
+         
+          <a href="/xueshu/150-1.aspx">学术动态</a>
+          
+          <a href="/xueshu/149-1.aspx">学术成果</a>
+          
+        </ul>
+      </li>
+      <li class="nLi">
+        <h3><a href="/gongxiangziliaoku/0-1.aspx">共享</a></h3>
+        <ul class="sub"> <a href="/gongxiangziliaoku/156-1.aspx">涉台文物保护工程</a><a href="/gongxiangziliaoku/153-1.aspx">文物知识普及</a><a href="/gongxiangziliaoku/362-1.aspx">闽台渊源</a><a href="/gongxiangziliaoku/155-1.aspx">宝岛台湾</a><a href="/gongxiangziliaoku/154-1.aspx">重要文件</a><a href="/video/289-1.aspx">视频中心</a>
+        </ul>
+      </li>
+      <li class="nLi n_store">
+        <h3><a href="/gonggao/0-1.aspx">公告</a></h3>
+      </li>
+      <li class="nLi">
+        <h3><a href="/message.aspx">留言板</a></h3>
+      </li>
+      <li class="nLi">
+        <h3><a href="/about.aspx">关于闽台缘</a></h3>
+        <ul class="sub">
+          
+            <a href="/about/924.aspx">简介</a>
+          
+            <a href="/about/245.aspx">机构设置</a>
+          
+          <a href="/about/246-1.aspx">大事记</a>
+          <a href="/about/248-1.aspx">博物馆脚印</a>
+          <a href="/about/151-1.aspx">参观指南</a>
+          <a href="/order.aspx">预约</a>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+
+<div class="bannercon">
+      <a href="#" class="prev" title=""></a>
+      <a href="javascript:;" class="next" title=""></a>
+  <div class="m_banner">
+    <a href="http://www.mtybwg.org.cn/news/show/1958.aspx" class="banner" style=" background-image: url(/upload/201912/11/201912110910346837.jpg);" id="banner1"></a>
+   
+    <a href="" class="banner" style=" background-image: url(/upload/201909/12/201909121634103745.jpg);" id="banner1"></a>
+   
+    <a href="" class="banner" style=" background-image: url(/upload/201905/31/201905311125028098.png);" id="banner1"></a>
+   
+    <a href="http://www.mtybwg.org.cn/zhanlan/show/1918.aspx" class="banner" style=" background-image: url(/upload/201904/03/201904031109526508.jpg);" id="banner1"></a>
+   
+    <a href="http://www.mtybwg.org.cn/zhanlan/show/1900.aspx" class="banner" style=" background-image: url(/upload/201901/21/201901211057136768.jpg);" id="banner1"></a>
+   
+    <a href="http://www.mtybwg.org.cn/gongxiangziliaoku/show/1692.aspx" class="banner" style=" background-image: url(/upload/201711/24/201711240944488850.jpg);" id="banner1"></a>
+   
+    <a href="" class="banner" style=" background-image: url(/upload/201607/26/201607261027546208.jpg);" id="banner1"></a>
+   
+  </div>
+
+</div>
+    <div class="interwrap">
+  <!--leftside-->
+  <div class="leftside">
+    <p class="chltitle">藏品</p>
+    <div class="col-left sidebar-nav" style="width:230px;">
+      <ul id="left-menu">
+          
+        <li><a href="/cangpin/164-1.aspx">典藏精选</a><span class="fa fa-caret-right"></span>
+            
+          </li>
+        
+        <li><a href="/cangpin/113-1.aspx">陶瓷器类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/253-1.aspx">瓷器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/252-1.aspx">陶器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/112-1.aspx">金属器类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/258-1.aspx">其他金属器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/257-1.aspx">锡器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/256-1.aspx">铁器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/255-1.aspx">铜器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/254-1.aspx">金银器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/111-1.aspx">书画文献类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/263-1.aspx">票据<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/262-1.aspx">邮品<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/261-1.aspx">名人遗物<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/260-1.aspx">档案文书<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/259-1.aspx">碑拓<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/170-1.aspx">书法<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/169-1.aspx">绘画<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/168-1.aspx">古籍图书<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/110-1.aspx">织绣类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/265-1.aspx">刺绣品<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/264-1.aspx">纺织品<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/109-1.aspx">漆器、竹木雕类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/269-1.aspx">其它杂项<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/268-1.aspx">木雕<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/267-1.aspx">竹雕<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/266-1.aspx">漆器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/108-1.aspx">石器石刻石雕类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/273-1.aspx">砖瓦<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/272-1.aspx">标本化石<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/271-1.aspx">石刻<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/270-1.aspx">石器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/107-1.aspx">宝玉石器类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/277-1.aspx">玉石<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/276-1.aspx">玻璃<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/275-1.aspx">玺印<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/274-1.aspx">玉器<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/106-1.aspx">雕塑造像类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/281-1.aspx">石雕造像<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/280-1.aspx">瓷雕造像<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/279-1.aspx">木雕造像<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/278-1.aspx">泥塑造像<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/286-1.aspx">粿印类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/288-1.aspx">木粿印<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/287-1.aspx">瓷粿印<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+        <li><a href="/cangpin/282-1.aspx">偶戏类</a><span class="fa fa-caret-right"></span>
+            
+                <ul>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/285-1.aspx">掌中木偶<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/284-1.aspx">提线木偶<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                     <li>
+                       <a onclick="location.href = this.href;" href="/cangpin/283-1.aspx">木偶头<span class="fa fa-caret-right"></span></a>
+                         
+                      </li>
+                
+                    </ul>
+              
+          </li>
+        
+      </ul>
+    </div>
+  <div class="schcon">
+      <ul class="keywd"><label>藏品</label><input type="text" name="txtcangpinkey" id="txtcangpinkey" /><input type="button" name="btnsearchcp" id="btnsearchcp" onclick="search_cangpin();" /></ul>
+      <ul class="form">
+        <label>朝代</label>
+        <div class="footer-select">
+          <select id="ddlchaodai" name="ddlchaodai" class="footer_sel">
+           <option selected value="">请选择朝代</option>
+<option value="夏">夏</option>
+<option value="商">商</option>
+<option value="周">周</option>
+<option value="秦">秦</option>
+<option value="西汉">西汉</option>
+<option value="东汉">东汉</option>
+<option value="南北朝">南北朝</option>
+<option value="隋">隋</option>
+<option value="唐">唐</option>
+<option value="五代">五代</option>
+<option value="宋">宋</option>
+<option value="辽金">辽金</option>
+<option value="元">元</option>
+<option value="明">明</option>
+<option value="清">清</option>
+<option value="民国">民国</option>
+<option value="近代">近代</option>
+<option value="现代">现代</option>
+          </select>
+        </div>
+      </ul>
+    </div>
+  </div>
+    
+  <div class="rightcon">
+    <ul class="infolist">
+     
+      
+      <div class="pictureDIV">
+        <div class="spec-preview">
+          
+            <li><a rel="prettyPhoto[portfolio]" class="portfolio-image-link portfolio-columns" href="/upload/201511/25/201511251129055663.jpg"><img class="preload-image displayed-image" src="/upload/201511/25/thumb_201511251129055663.jpg" width="348" height="348"/></a></li>
+          
+        </div>
+        <div class="spec-scroll">
+          <a class="prev">&lt;</a><a class="next">&gt;</a>
+          <div class="items">
+            <ul>
+              <li><a><img src="/upload/201511/25/thumb_201511251129055663.jpg" width="200" height="120"/></a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="briefcon">
+        <h1>清青灰色右衽马蹄袖金线绣九龙夏官服</h1>
+        <ul class="sumy">
+          <li>时代：</li>
+          <li>规格：通长208.3，通高138.5</li>
+          <li><p class="MsoNormal" style="white-space:normal;margin:0cm 0cm 0pt;line-height:32px;">
+	级别：二级<o:p></o:p>
+</p>
+<p class="MsoNormal" style="white-space:normal;margin:0cm 0cm 0pt;line-height:32px;">
+	质地：细苧<o:p></o:p>
+</p>
+<p class="MsoNormal" style="white-space:normal;margin:0cm 0cm 0pt;line-height:32px;">
+	规格：通长208.3，通高138.5
+</p></li>
+        </ul>
+      </div>
+      <div class="pluscon">
+        <h3 class="tpc">细节</h3>
+        <ul class="con">
+          器物描述：圆领、右衽、长袖、青灰色，前后两处开片，袍身以金线绣九盘龙及织云水纹，下织三色斜纹，领绣五小金龙纹，袖中部织环状纹，领口、袖口滚边，细苧精织。此系清代高官（一二品官）夏天穿用的袍服。
+        </ul>
+      </div>
+    </ul>
+  </div>
+</div>
+<footer>
+  <a href="#" class="backToTop"></a>
+  <ul class="btmtree">
+    <span class="icon_sy"></span>
+    <a href="/link.aspx">友情链接</a>|
+    <a href="/about.aspx">联系方式</a>|
+    <a href="/about.aspx">关于我们</a>|
+    <p>Copyright © 2006-2016 中国闽台缘博物馆 All Rights Reserved</p>
+    <!--a href="/upload/201601/15/201601151657052576.png" class="lightbox icon_wx"></a-->
+    <p id="tip1" class="lightbox icon_wx" data-tipso="<img src=/upload/201601/15/201601151657052576.png>"></p>
+    <!--a href="/upload/201601/15/201601151657118372.jpg" class="lightbox icon_sl"></a-->
+    <p id="tip2" class="lightbox icon_sl" data-tipso="<img src=/upload/201601/15/201601151657118372.jpg>"></p>
+  </ul>
+  <ul class="links">
+  </ul>
+</footer>
+
+<script src="/templates/mty/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<!--fellow-->
+<script src="/templates/mty/js/imagesloaded.pkgd.min.js"></script>
+<script src="/templates/mty/js/wookmark.js"></script>
+<script src="/templates/mty/js/totop.js"></script>
+<script src="/templates/mty/js/functions.js"></script>
+
+
+
+</body>
+</html>

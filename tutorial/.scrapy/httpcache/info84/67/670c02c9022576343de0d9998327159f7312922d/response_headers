@@ -1,0 +1,9 @@
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Server: Microsoft-IIS/7.5
+X-Aspnet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Date: Thu, 21 May 2020 14:10:14 GMT
+Set-Cookie: ASP.NET_SessionId=fp5dqu0dam1utwrsvbabe4wb; path=/; HttpOnly

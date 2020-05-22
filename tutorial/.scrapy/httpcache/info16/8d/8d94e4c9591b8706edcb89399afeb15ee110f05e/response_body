@@ -1,0 +1,172 @@
+﻿﻿﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>天津自然博物馆</title>
+<meta name="description" content="天津自然博物馆新馆位于天津文化中心、原天津博物馆内，是中国第一个主题单元化、全景式展示的自然探索、科学体验、科学教育的自然史博物馆。">
+<meta name="keywords" content="天津自然博物馆,天津文化中心,北疆博物院">
+<link href="templates/zr/images/tjzrbwg.ico" rel="shortcut icon"/>
+<link href="templates/zr/css/css.css" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+<script language="javascript">
+    function show(id) {
+        //document.getElementById("child1").style.display = "none";
+        document.getElementById("child" + id).style.display = "block";
+    }
+    function hide(id) {
+        document.getElementById("child" + id).style.display = "none";
+        //document.getElementById("child1").style.display = "block";
+    }
+</script>
+<body>
+<script type="text/javascript">
+    function check_seachkey(){
+        var key=$("#seach_key").val();
+        if(!key){
+            alert("请输入查询的关键词！！！");
+            return false;
+        }
+    }
+</script>
+<div id="topcontent">
+    <div id="top">
+        <a id="toplink1" href="/"></a>
+        <form action="index.php?p=seach_list" method="post" onSubmit="return check_seachkey()">
+        <input type="text" class="keyword" id="seach_key" name="key">
+        <input type="submit" class="sb" id="ctl00_sb" value="" name="ctl00$sb">
+        </form>
+    </div>
+    <div id="nav">
+        <ul>
+
+            <li style="width:166px;"><a onmouseout="hide(1)" onmouseover="show(1)" class="minijianweibei" href="index.php?p=cgfw&lanmu=1">参观服务<span>Visit and service</span></a>
+                <ul onmouseout="hide(1);" onmouseover="show(1)" id="child1" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&id=6&lanmu=1">开放时间与预约</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&id=7&lanmu=1">交通攻略</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&id=8&lanmu=1">参观须知</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&id=9&lanmu=1">服务信息</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&id=11&lanmu=1">联系我们</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&id=18&lanmu=1">友情链接</a></li>
+                                        <li><a class="minijianweibei" href="http://ticket.tjnhm.com">参观预约</a></li>
+                </ul>
+            </li>
+
+
+            <li style="width:166px;"><a onmouseout="hide(2)" onmouseover="show(2)" class="minijianweibei" href="index.php?p=zlxx&lanmu=2">展览信息<span>Exhibition information</span></a>
+                <ul onmouseout="hide(2);" onmouseover="show(2)" id="child2" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=zlxx&c_id=5&lanmu=2">临展资讯</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=zlxx&c_id=1&lanmu=2">常设陈列</a></li>
+                                    </ul>
+            </li>
+
+
+            <li style="width:166px;"><a onmouseout="hide(3)" onmouseover="show(3)" class="minijianweibei" href="index.php?p=jyhd&lanmu=3">教育活动<span>Education and activities</span></a>
+                <ul onmouseout="hide(3);" onmouseover="show(3)" id="child3" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=jyhd&lanmu=3&c_id=5">科普传播</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=jyhd&lanmu=3&c_id=14">第二课堂</a></li>
+                                    </ul>
+            </li>
+
+
+            <li style="width:166px;"><a onmouseout="hide(4)" onmouseover="show(4)" class="minijianweibei" href="index.php?p=kxyj&lanmu=4">研究收藏<span>Scientific research</span></a>
+                <ul onmouseout="hide(4);" onmouseover="show(4)" id="child4" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=kxyj&lanmu=4&c_id=15">学术动态</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=kxyj&lanmu=4&c_id=16">馆藏珍品</a></li>
+                                    </ul>
+            </li>
+
+
+            <li style="width:166px;"><a onmouseout="hide(5)" onmouseover="show(5)" class="minijianweibei" href="index.php?p=wbdt&lanmu=5">文博动态<span>Cultural dynamics</span></a>
+                <ul onmouseout="hide(5);" onmouseover="show(5)" id="child5" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=wbdt&lanmu=5&c_id=9">本馆快讯</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=wbdt&lanmu=5&c_id=13">文博信息</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=wbdt&lanmu=5&c_id=17">党建专栏</a></li>
+                                    </ul>
+            </li>
+
+
+            <li style="width:166px; padding:0px; background:none;"><a onmouseout="hide(6)" onmouseover="show(6)" class="minijianweibei" href="index.php?p=about&lanmu=6">关于我们<span>About us</span></a>
+                <ul onmouseout="hide(6);" onmouseover="show(6)" id="child6" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=about&id=12&lanmu=6">博物馆概况</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=about&id=13&lanmu=6">百年自博</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=about&id=14&lanmu=6">机构设置</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=about&id=15&lanmu=6">加入自博</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=about&id=17&lanmu=6">天津自然博物馆章程</a></li>
+                                    </ul>
+            </li>
+
+            <li style="width:166px; padding:0px; background:none;">
+                <a target="_blank" class="minijianweibei" href="http://bj.tjnhm.com">进入北疆<span>Beijiang</span></a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<div id="pagediv">
+    <script>        //document.getElementById("child1").style.display = "block";</script>
+
+    <div id="aboutus_content">
+
+        <div id="aboutus_tt">
+            <div id="aboutus_nav">
+                
+                                <a href="index.php?p=kxyj&lanmu=4&c_id=15" class="minijianweibei" >学术动态</a>
+                                <a href="index.php?p=kxyj&lanmu=4&c_id=16" class="minijianweibei"  id="left_s" >馆藏珍品</a>
+                            </div>
+            
+            <div id="tt" class="minijianweibei">研究收藏<strong>Education and activities</strong></div>
+            <div id="path">当前位置 &gt; 首页 &gt; 研究收藏 &gt; 馆藏珍品 </div>
+        </div>
+
+        <div id="news_content">
+            
+            
+            <ul class="index_news" style="display:block;">
+                                <li><a href="index.php?p=kxyj_show&id=1260" title=""><span>2018-09-14</span>海蓝宝石 </a></li>
+                                <li><a href="index.php?p=kxyj_show&id=1251" title=""><span>2018-09-07</span>黑线芋螺 </a></li>
+                                <li><a href="index.php?p=kxyj_show&id=1243" title=""><span>2018-08-30</span>刘氏原白鲟 </a></li>
+                                <li><a href="index.php?p=kxyj_show&id=1233" title=""><span>2018-08-23</span>高冠变色龙 </a></li>
+                                <li><a href="index.php?p=kxyj_show&id=1227" title=""><span>2018-08-17</span>中华鲟 </a></li>
+                                <li><a href="index.php?p=kxyj_show&id=1219" title=""><span>2018-08-10</span>师氏中华弓鳍鱼 </a></li>
+                                <li><a href="index.php?p=kxyj_show&id=1209" title=""><span>2018-08-03</span>中部鬃狮蜥 </a></li>
+                                <li><a href="index.php?p=kxyj_show&id=1203" title=""><span>2018-07-27</span>尖吻鲈 </a></li>
+                            </ul>
+
+            <div id="page">
+                <a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=1">首页</a><a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=9">上一页</a><a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=5">5</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=6">6</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=7">7</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=8">8</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=9">9</a>
+<a class="select">10</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=11">11</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=12">12</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=13">13</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=14">14</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=15">15</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=16">16</a>
+<a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=11">下一页</a><a  href="/index.php?p=kxyj&lanmu=4&c_id=16&page=18">尾页</a><a>10/18页</a><div class="clear"></div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div id="bot" style="background: url('templates/zr//images/bodybg3.jpg') top left repeat !important; color: white">
+
+    <img src="templates/zr/images/botlogo.png">
+    地址：友谊路31号，银河广场(近平江道)&#12288<br>
+    <img src="templates/zr/images/tel.png" style="margin: 10px auto 5px auto">
+    版权所有：天津自然博物馆  技术支持：才略科技&#12288;<a href="http://www.beian.miit.gov.cn">备案信息：津ICP备14004277</a> </div>
+</div>
+
+</body>
+</html>

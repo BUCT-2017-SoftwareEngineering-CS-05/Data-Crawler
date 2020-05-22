@@ -1,0 +1,363 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="黑龙江省博物馆">
+<meta name="description" content="黑龙江省博物馆">
+<title>十大镇馆之宝之三：南宋《蚕织图》</title>
+<link href="/css/museum.css" rel="stylesheet" type="text/css">
+
+<script src="/js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript"> 
+function displaySubMenu(li) { 
+	var subMenu = li.getElementsByTagName("ul")[0]; 
+	subMenu.style.display = "block"; 
+} 
+function hideSubMenu(li) { 
+	var subMenu = li.getElementsByTagName("ul")[0]; 
+	subMenu.style.display = "none"; 
+} 
+</script> 
+
+
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+ $(function () {
+
+            var v = document.getElementById("Timer");
+            var myDate = new Date();
+            var dayNames = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+            var time = myDate.getFullYear() + "年 " + (myDate.getMonth()+1) + "月" + myDate.getDate() + "日 " + dayNames[myDate.getDay()];
+            v.textContent = time;
+        })
+     function find()
+        {
+            var m;
+            m = document.getElementById("search_key").value;
+            if (m.length > 0)
+                {
+window.location.href = "/search/Scripts/search/search.html?cid=1&key=" + encodeURI (m);
+                }
+           
+        }
+</script>
+<div id="topbg">
+<div id="topnav">
+<div class="date fl"><span id="Timer">2020年 5月20日 星期三</span>
+</div>
+
+<div id="search" class="rl">
+ <span class="search_w">全文检索</span><input type="text" value="" onfocus="if (value ==''){value =''}" onblur="if (value ==''){value=''}" placeholder="" style="float:left; height:20px;" id="search_key">  
+<input type="image" value="全文搜索" src="/images/bnt-ss.gif" border"0"="" style="float:left;" onclick="find()" width="38" height="25">
+</div>
+<!--搜索end-->
+
+<div class="app rl">
+<ul class="hongs">
+<li></li>
+<li></li>
+</ul>
+</div>
+
+</div> 
+</div> <!--顶部导航end-->
+
+
+<!--顶部导航end-->
+
+<div id="centerbg"><!--背景图片 end-->
+<script type="text/javascript"> 
+function displaySubMenu(li) { 
+	var subMenu = li.getElementsByTagName("ul")[0]; 
+	subMenu.style.display = "block"; 
+} 
+function hideSubMenu(li) { 
+	var subMenu = li.getElementsByTagName("ul")[0]; 
+	subMenu.style.display = "none"; 
+} 
+</script> 
+
+
+<div class="toppic"></div>
+
+<div id="nav-box">
+<ul id="navigation"> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/" target="_blank">首页</a> 
+ </li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/lbgk" target="_blank">龙博概况</a> 
+<ul> 
+<li><a href="http://www.hljmuseum.com/system/200910/101021.html">龙博简介</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201802/103133.html">馆长致辞</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201612/102322.html">组织机构</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102323.html">历史沿革</a></li> 
+</ul> 
+</li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/zxzx" target="_blank">资讯在线</a> 
+<ul> 
+<li><a href="/zxzx/lbkx">龙博快讯</a></li> 
+<li><a href="/zxzx/zlyhdyg">传历史记忆</a></li> 
+<li><a href="/zxzx/cpzj">藏品征集</a></li> 
+<li><a href="/zxzx/wbzl">文博纵览</a></li> 
+</ul> 
+</li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/cpgz" target="_blank">藏品工作</a> 
+<ul> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/cpgz/cpxs" target="_blank">藏品欣赏</a> 
+<ul> 
+<li><a href="/cpgz/cpxs/zgzb">镇馆之宝</a></li> 
+<li><a href="/cpgz/cpxs/lsww">历史文物</a></li> 
+<li><a href="/cpgz/cpxs/zrbb">自然标本</a></li> 
+<li><a href="/cpgz/cpxs/yscp">艺术藏品</a></li>
+<li><a href="/cpgz/cpxs/wxzl">文献资料</a></li>
+
+</ul> 
+</li> 
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<!--<a href="/cpgz/cpbh" target="_blank">藏品保护</a>-->
+<ul> 
+<li><a href="#">文物修复与复制</a></li> 
+<li><a href="#">标本制作</a></li> 
+<li><a href="#">古生物修复装架</a></li> 
+<li><a href="#">预防性保护</a></li> 
+<li><a href="#">数字化保护</a></li> 
+</ul> 
+</li> 
+</ul> 
+</li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/clzl" target="_blank">陈列展览</a> 
+<ul> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/clzl/jbcl" target="_blank">基本陈列</a> 
+<ul> 
+<li><a href="/clzl/jbcl/lscl">历史陈列</a></li> 
+<li><a href="/clzl/jbcl/zrcl">自然陈列</a></li> 
+<li><a href="/clzl/jbcl/eqbwg">俄侨博物馆</a></li> 
+<li><a href="/clzl/jbcl/dsmys">邓散木艺术</a></li> 
+<li><a href="/clzl/jbcl/yzxbxhcl">于志学冰雪画</a></li>
+<li><a href="/clzl/jbcl/fyxzfg">枫叶小镇分馆</a></li> 
+</ul> 
+</li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+<a href="/clzl/lszl" target="_blank">临时展览</a>
+<ul> 
+<li><a href="/clzl/lszl/myyx">每月一星</a></li>
+<li><a href="/clzl/lszl/myyxian">每月一县</a></li>
+<li><a href="/clzl/lszl/hsjtz">寒暑假特展</a></li>
+<li><a href="/clzl/lszl/yjzl">交流展览</a></li>
+<li><a href="/clzl/lszl/fyzl">非遗展览</a></li>
+<li><a href="/clzl/lszl/mczl">其他展览</a></li>
+</ul>
+</li> 
+<li><a href="http://www.hljmuseum.com/web/Ebook/EBook.aspx?id=38" target="_blank">展览超市</a> </li> 
+</ul> 
+</li> 
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/bwgjy" target="_blank">博物馆教育</a> 
+<ul> 
+<li><a href="/bwgjy/lbjy">龙博教育</a></li> 
+<li><a href="/bwgjy/ldbwg">流动博物馆</a></li> 
+<li><a href="/bwgjy/hqzrr">环球自然日</a></li> 
+<li><a href="/bwgjy/jjypx">讲解员培训</a></li> 
+<li><a href="/bwgjy/zyzhd">志愿者活动</a></li>
+</ul> 
+</li>
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/xskj" target="_blank">学术空间</a> 
+<ul> 
+<li><a href="/xskj/ttyjl">探讨与交流</a></li> 
+<li><a href="/xskj/ktyj">课题研究</a></li> 
+<!--<li><a href="/xskj/xsdt">学术动态</a></li>--> 
+<li><a href="/xskj/wbjt">业务讲座</a></li> 
+</ul> 
+</li>
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="http://www.hljmuseum.com/web/Ebook/WenChuangMain.aspx">龙博纸媒</a> 
+<ul> 
+<li><a href="http://www.hljmuseum.com/web/Ebook/EBook.aspx?id=53">龙博图书</a></li> 
+<li><a href="http://www.hljmuseum.com/web/Ebook/EBook.aspx?id=55">馆　　报</a></li> 
+
+</ul> 
+</li>
+
+<li><a href="/wctd/wccp">文创产品</a></li>
+
+<li> <a href="/htwb" target="_blank">黑土文博</a></li>
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="http://www.hljmuseum.com/system/201708/102053.html" target="_blank">参观服务</a>
+<ul> 
+<li><a href="http://www.hljmuseum.com/system/201708/102053.html">开放时间</a></li> 
+<li><a href="https://hljsbwg.hdwbcloud.com" target="_blank">参观预约</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102055.html">交通地理</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102056.html">参观导览</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102057.html">观众须知</a></li> 
+<li><a href="http://www.hljmuseum.com/system/200910/101827.html">文物鉴定</a></li> 
+<li><a href="http://www.hljmuseum.com/system/200910/101829.html">文物总店</a></li> 
+<li><a href="http://www.hljmuseum.com/system/200910/101830.html">游客中心</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102252.html">联系龙博</a></li>   
+</ul> 
+</li>
+
+<li><a href="/slfw" target="_blank">四零服务</a></li>
+
+</ul>--&gt; 
+</div>
+<!--导航 end-->
+<!--导航 end-->
+
+
+<div id="content">
+<div id="erji-cent">
+<div class="erji-left fl">
+<div class="bread">当前位置: <a href="/index.html">博物馆</a> &gt;  <a href="/cpgz/index.html">藏品工作</a> &gt;  <a href="/cpgz/cpxs/index.html">藏品欣赏</a> &gt;  <a href="/cpgz/cpxs/zgzb/index.html">镇馆之宝</a></div>
+<div class="end-k">
+<h2>十大镇馆之宝之三：南宋《蚕织图》</h2>
+<h4>发布日期：2015-10-13　　新闻来源：　　编辑：冯拓菲 蒋  萃 杨  旭</h4>
+<div class="duanluo">
+    <p>　　<!--img_domain_start--><!--img_domain_end--><!--img_domain_start--><!--img_domain_end--><span style="font-size:16px;"><!--img_domain_start--></span> </p><center><img alt="" src="/att/news/201510/13/347099450516.jpg" width="590" height="214"> </center> <center><img alt="" src="/att/news/201510/13/347116547494.jpg" width="590" height="214"> </center> <center><img style="border-bottom:0px;border-left:0px;border-top:0px;border-right:0px;" src="http://221.208.195.113:8095/att/news/201510/13/347153395602.jpg" width="590" height="214"></center> <center>&nbsp;</center> <p align="left"><span style="font-family:Microsoft YaHei;font-size:16px;">　　 </span></p><div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 黑龙江省博物馆藏《蚕织图》，卷轴，绢本、线描、淡彩。全长<span lang="EN-US">1100</span>厘米，画心纵<span lang="EN-US">518</span>厘米、横<span lang="EN-US">27.5</span>厘米，跋纵<span lang="EN-US">460</span>厘米、横<span lang="EN-US">28.7</span>厘米，绘制时代南宋。</span></div>
+<div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 作者楼璹<span lang="EN-US">(1089</span>—<span lang="EN-US">1162)</span>，字寿玉，一字国器，卒于<span lang="EN-US">1162</span>年，<span lang="EN-US">73</span>岁，官至右朝仪大夫，初佐婺州幕，后任於潜令，他的耕织图，就是在任於潜县令内绘制的，由近臣推荐给宋高宗，根据传记上的时间推算，他献图应是在高宗奠都杭州前不久。据《鄞县志》楼璹传记载：“楼璹除於潜县，笃意民事，为耕织二图。耕自浸种至入仓，凡二十一事，织自浴蚕至剪帛，凡廿四事。事为之图，系以五言诗各一章，章八句” 。宋高宗即位临安(今浙江杭州)后，为巩固政权，即下重农桑之诏，楼璹进献的《耕织图》，很得宋高宗赏识和喜爱。曾藏诸御府，其后又命翰林图画院摹绘此图。《宋史•艺文志四》记载：“楼璹耕织图一卷，高宗阅后，即令嘉奖，并敕翰林画院摹之。”清代乾隆年间，楼璹的耕织图还藏在清宫，乾隆时的阮葵生在《茶余客话》中记载：“宋於潜令楼璹作《耕织图》以献思陵，每图各系五言八句诗。余在内廷，得见其真迹，诗皆小楷书。”此卷所绘内容，是江浙一带的蚕织户自“腊月浴蚕”开始，纺织至“下机入箱”为止的养蚕、织帛生产过程。此卷无题诗、无款、人物线描风格也不尽相同，再据跋语所记，可以确定为当时翰林图画院的摹本，图下所注小字为宋高宗吴皇后所书，皇后奖励蚕织，以示仪范天下。吴皇后，《宋史》有传，并见于《四朝闻见录》等书，是宋高宗的继配，她博学经史，善于书翰，其书绝似宋高宗。<span lang="EN-US"><!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></span></span></div>
+<div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">　　长卷由24个场景组成：腊月浴蚕；清明日暖种；摘叶、体喂；谷雨前第一眠；第二眠；第三眠；暖蚕；大眠；忙采叶；眠起喂大叶；拾巧上山；箔簇装山；㶸茧；下茧、约茧；剥茧；称茧、盐茧瓮藏；生缫；蚕蛾出种；谢神供丝；络垛、纺绩；经靷、籰子；挽花；做纬、织作；下机、入箱。长卷第一段是“浴蚕”，能起选种和消毒作用。“㶸茧”是在成蚕吐丝做茧期间，人工在蚕室内加温，并调节湿度，画面上是立满簇山的蚕宝宝，地中间放着炭火盆，一老者蹲在火盆旁，续碳调火，旁有水盆，用来调节湿度，画中都高脚灯台，表明需要日夜精心护理。“盐茧瓮藏”，是蓄茧的科学技术措施之一，画面上三口大瓮，两口已经用泥封好，一口敞开待装茧放盐，画中三男子，一人在桌前收茧，一人在称茧，一人在和泥，远处桌上有装盐的碗。这一蓄茧技术，在我国最早见于北魏贾思勰所著《齐民要术》：“用盐杀茧，易缫而丝韧。”徐光启《农政全书》中《蚕书》记载：“凡浥茧，列埋大瓮地上，瓮中先铺竹，次以大桐叶覆之，乃铺茧一重，以十斤为率，掺盐二两，上又以桐叶平铺。以此重重隔之，以至满瓮，然后密盖，以泥封之。这样可使蚕丝明亮柔韧，卷上只画了三人操作，却把瓮藏方法表现的简单明了。<span lang="EN-US"><o:p></o:p></span></span></div>
+<div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">　　画卷前半部由“腊月浴蚕”到“盐茧瓮藏”，画的是养蚕过程，后半部所画除“蚕蛾出种”和“谢神供丝”两段外，其余七段画的是缫丝织帛的过程。画面前半部注写的比较详细，在画面上难以表现的，如清明日暖种，幼蚕至成蚕每眠所需时间、所应节气、色泽变化，如何切叶喂养，如何拾巧上山等，都配合画面，用小楷标出内容并加注解。后半部所画的纺织过程，包括纺织机具和技术，画的比较详细，但注解比较简单，只有标题而无说明。所绘生缫、络垛、经靷、挽花、做纬等缫丝用具，织帛机具和操作技术，后世虽有改进，其原理相近。特别是“挽花’’一段中的机具，画上的挽花部分所绘提花机，有高起花楼，提花工正在忙于挽提经线，织机中间托有衢盘(目板)，下面垂吊衢脚<span lang="EN-US">(</span>铅锤)，上有两老鸦翅<span lang="EN-US">(</span>提刀<span lang="EN-US">)</span>，并有卷布轴等等。整个结构相当复杂。提花机自商周以来虽有古文献记载，但对花机的机件结构都记录不详，更难得图像记载，我馆《蚕织图》上第一次详细绘出提花机的机体、结构和操作方法，比《天工开物》、《农政全书》所记载提花机早<span lang="EN-US">400</span>余年。<span lang="EN-US"><o:p></o:p></span></span></div>
+<div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">　　长卷的布局，以一长廊式的长屋贯穿画卷始终，以所绘蚕织<span lang="EN-US">24</span>事为尾。长屋用简明的界笔画出屋瓦、斗栱、梁柱、窗牖，以长廊式为背景，结构简单重复，易有呆板枯燥之感，画家在摘叶、大眠、约茧、瓮藏等场面的长屋外部，缀以忙碌的人物，消除呆板枯燥的感觉。画家又将长屋中部断开，画入“忙采叶”的场面，使人在展卷观赏时，破除了大长廊从头至尾给人的单调之感。<span lang="EN-US"><o:p></o:p></span></span></div>
+<div style="text-indent:24pt;margin:0cm 0cm 0pt;mso-char-indent-count:2.0;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">全卷共绘<span lang="EN-US">74</span>人，形神兼备，对比鲜明。妇女<span lang="EN-US">41</span>人，中老年男子<span lang="EN-US">23</span>人，少年<span lang="EN-US">3</span>人，少女<span lang="EN-US">5</span>人，婴儿两人。在中老年男子中除“谢神供丝”一节，有一头带东坡巾、身穿绿袍者外，其他<span lang="EN-US">22</span>人皆头上裹着低短的黑色巾子，这是《宋史•舆服志》上所记载限制庶民幞头、巾子尺寸的反映。中青年和老年妇女除“谢神供丝”中有一披粉帛者外，其她<span lang="EN-US">40</span>人都不披帛，但服装花色多种多样，不尽相同，服饰均为宋装。在缫丝织帛部分画面中，有一粉衣蓝裙束腰的女子，曾出现于“生缫”、“挽花”和“织作”等操作中，此女应该是有专门技术的女工。在“忙采叶”中，一中年男子，袒露左臂，自肩至腕刺一青色蟠龙图案，反映出当时宋代江浙一带尚有谢神、纹身的社会风俗习惯。<span lang="EN-US"><o:p></o:p></span></span></div>
+<div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">　　此卷包首是宋代鸟兽繁华地缂丝，引首与前隔水骑缝钤“蕉林书屋”印。前隔水钤“长宜子孙”和“孙承泽印”。前隔水与画心骑缝上有一印不识，下钤“清河私印”，又下一印不识。画首钤有“乾隆御览之宝”、“石渠宝笈”、“三希堂精鉴玺”、“宜子孙”、“御书房鉴藏宝”、画尾钤有“嘉庆御览之宝”、“宣统御览之宝”、“蕉林梁氏书画之印”、画尾与后隔水上部压押缝章不清，中钤“乾隆鉴赏”、“宣统鉴赏”、“无逸斋精鉴玺”、下有押缝章两个，不清。后隔水钤有“蕉林鉴定”、“北海孙氏珍藏书画印”。后隔水与卷尾押缝章有“棠邨”、“蕉林居士”二印。另在卷尾三个接缝处也钤有“棠邨”、“蕉林居士”印。<span lang="EN-US"><o:p></o:p></span></span></div>
+<div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">　　卷尾有元代郑子有、鲜于枢、明代宋濂、刘崧、清代乾隆帝、孙承泽等九家跋语。此卷先后收藏于元代余小谷，明代吴某家，清为梁清标、孙承泽。乾隆时入内府，著录于《石渠宝笈•初编》、《故宫已佚书画目》。<span lang="EN-US">20</span>世纪<span lang="EN-US">30</span>年代，该画卷由爱信觉罗·溥仪携至东北。<span lang="EN-US">1945</span>年后散落民间，<span lang="EN-US">1947</span>年大庆市民冯义信购得，<span lang="EN-US">1983</span>年他将此画捐献给黑龙江省博物馆收藏。<span lang="EN-US"><o:p></o:p></span></span></div>
+<div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;">　　《蚕织图》长卷是中国古代绘画艺术的瑰宝，<span lang="EN-US">1983</span>年<span lang="EN-US">7</span>月，经故宫博物院著名书画鉴定专家徐邦达、刘九庵、王以坤等鉴定，称“此卷为文物一级甲品之最，视国宝而无愧，垂青史而不逊矣”。这件描绘八百年前蚕织的图卷，对于我国蚕织技术史具有弥足珍贵的记录，此画卷为研究、了解我国南宋时期社会经济、手工艺技术、风俗习尚及我国绘画的现实主义传统手法等方面，提供了丰富多彩、生动形象的珍贵史料。<span lang="EN-US"><o:p></o:p></span></span></div>
+<div style="margin:0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="font-family:'微软雅黑','sans-serif';font-size:12pt;" lang="EN-US"><o:p>&nbsp;</o:p></span></div>
+<p align="left"> </p><p align="left">
+</p><p align="left"></p><p></p>
+    </div>
+
+
+<script type="text/javascript" src="http://111.40.217.165:8095/Scripts/jquery.js"></script>
+<script src="http://111.40.217.165:8095/Scripts/flowplayer/flowplayer-3.2.11.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+        window.onload = function () {
+          $('div[flv]').each(function () {
+             $(this).css('width',$(this).attr('width')).css('height',$(this).attr('height')).css('margin','0 auto');
+          flowplayer($(this).attr('id'), "http://111.40.217.165:8095/Scripts/flowplayer/flowplayer-3.2.12.swf", {
+               clip: {
+                 url: $(this).attr('flv'),
+                 autoPlay: false
+               }
+            });
+           });
+        }
+</script>
+
+<div class="clear f14 huis">&nbsp;&nbsp;&nbsp;&nbsp;未经授权，不得转载</div>
+
+<!-- JiaThis Button BEGIN -->
+
+<div class="jiathis_style_24x24 rl Jushang">
+<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div><div class="rl Jushang f14 huis">分享到：</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+</div><!--细览 end-->
+
+
+<div class="xly-down clear">
+			
+				<input style=" margin:0 10px;" name="打印" type="submit" value="打印" onclick="self.print()">
+			
+				<input style="margin:0 10px;" name="关闭当前页面" type="submit" value="关闭窗口" onclick="window.close()">
+			
+		</div>
+
+
+</div><!--左侧 end-->
+
+<div class="erji-right rl">
+<div class="column01">
+<div class="titlebg">
+  <div class="txt bai"><a href="/zxzx/lbkx" target="_blank">龙博快讯</a></div></div>
+  <ul class="titlist">
+<li><a href="/system/201909/104732.html" target="_blank">黑龙江省文化和旅游厅领导到黑龙江省博物馆检查安全工作</a></li><li><a href="/system/201909/104728.html" target="_blank">黑龙江省博物馆开展新招募志愿者岗前培训活动</a></li><li><a href="/system/201909/104726.html" target="_blank">黑龙江省博物馆“三远离一倡导”展览走进黑龙江省艺术职业学院</a></li><li><a href="/system/201909/103726.html" target="_blank">“诠释经典——程十发《阿Q画传》原作展” 在上海程十发艺术馆开幕</a></li><li><a href="/system/201909/103725.html" target="_blank">重要通知</a></li><li><a href="/system/201909/103722.html" target="_blank">庆祝中华人民共和国成立七十周年 黑龙江省博物馆推出“《瞬间之美》——夏富祥摄影作品展”</a></li>
+  </ul>
+</div>
+
+<div class="column01">
+<div class="titlebg">
+  <div class="txt bai"><a href="/clzl/lszl/myyx/" target="_blank">每月一星</a></div></div>
+  <ul class="titlist">
+<li><a href="/system/201909/104730.html" target="_blank">“每月一星”系列展览之121期：双鹿纹玉佩</a></li><li><a href="/system/201909/103721.html" target="_blank">可爱毛茸茸的松鼠</a></li><li><a href="/system/201907/103676.html" target="_blank">每月一星系列展览之一百一十八：人物故事铜镜</a></li><li><a href="/system/201906/103663.html" target="_blank">每月一星系列展览之一百一十七：“丁香枝头春意闹”特展</a></li><li><a href="/system/201904/103634.html" target="_blank">每月一星系列展览之一百一十六：镜泊游鱼</a></li><li><a href="/system/201903/103593.html" target="_blank">每月一星系列展览之一百一十五：文字瓦</a></li>
+  </ul>
+</div>
+
+<div class="column01">
+<div class="titlebg">
+  <div class="txt bai"><a href="/bwgjy/lbjy" target="_blank">龙博教育</a></div></div>
+  <ul class="titlist">
+<li><a href="/system/201909/103714.html" target="_blank">玩艺坊：手绘陶猪纹样彩色瓦当</a></li><li><a href="/system/201908/103708.html" target="_blank">玩艺坊：中国印之印章杯</a></li><li><a href="/system/201908/103699.html" target="_blank">玩艺坊：手绘陶猪纹样彩色瓦当</a></li><li><a href="/system/201907/103683.html" target="_blank">玩艺坊：镂刻坐龙杯</a></li><li><a href="/system/201907/103681.html" target="_blank">历史的记忆：畅游在龙博  说说俄文化</a></li><li><a href="/system/201907/103678.html" target="_blank">玩艺坊：手绘陶猪纹样彩色瓦当</a></li>
+  </ul>
+</div>
+
+<div class="column01">
+<div class="titlebg">
+  <div class="txt bai"><a href="/xskj/ttyjl" target="_blank">探讨与交流</a></div></div>
+  <ul class="titlist">
+<li><a href="/system/201707/102861.html" target="_blank">中国博物馆协会出版专业委员会2017年年会综述</a></li><li><a href="/system/201607/102527.html" target="_blank">谈哈尔滨历史文化的共生性和多元化</a></li><li><a href="/system/201510/101933.html" target="_blank">延伸博物馆服务功能   满足群众文化需求</a></li><li><a href="/system/201510/101932.html" target="_blank">将受众引进来，让博物馆走出去——谈新时期博物馆教育理念的与时俱进</a></li><li><a href="/system/201510/101931.html" target="_blank">拓展服务范围　创新办展模式——黑龙江省博物馆服务基层纪实</a></li><li><a href="/system/201510/101930.html" target="_blank">黑龙江省博物馆自然类藏品征集方式浅析</a></li>
+  </ul>
+</div>
+
+
+</div><!--右侧 end-->
+
+<!--右侧 end-->
+
+<div class="clear"></div>
+</div>
+
+<div id="foot-bq">黑ICP备09058955号 Copyright （c） 2009 hljmuseum.com 黑龙江省博物馆 版权所有<br>
+
+地址：南岗区红军街64号 电话：0451-53644151　传真：0451-53622745 邮编：150001　东北网制作<br>
+
+开馆时间：周二至周日；9:00～16:30（15:30停止发票）<br>
+年均访问量：412871人次<br>
+
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=23010302000146" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/images/beian.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#FFFFFF;">黑公网安备 23010302000146号</p></a>	 
+</div>
+
+
+<div style="display:none">
+<script type="text/javascript">document.write(unescape("%3Cscript src='http://tongji.dbw.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));</script><script src="http://tongji.dbw.cn/webdig.js?z=1" type="text/javascript"></script>
+<script type="text/javascript">wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")</script>
+</div>
+
+
+<div style="text-align:center">
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/10/000/0000/60673098/CA100000000606730980003.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=34BE6A643E116E5CE053012819AC5A5E" target="_blank"><img id="imgConac" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1" vspace="0" hspace="0" border="0"></a></span><script src="http://dcs.conac.cn/js/10/000/0000/60673098/CA100000000606730980003.js" type="text/javascript"></script><span id="_ideConac"></span>
+</div>
+		 
+
+</div><!--内容区 End-->
+
+<div class="clear"></div>
+</div>
+
+
+<script src="/search/Scripts/hit/hit.ashx" type="text/javascript"></script>
+<script src="/search/Scripts/hit/hit.ashx" type="text/javascript"></script>
+
+
+
+</body></html>

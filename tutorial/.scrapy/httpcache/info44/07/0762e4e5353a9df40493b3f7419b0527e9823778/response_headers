@@ -1,0 +1,9 @@
+Content-Type: text/html
+Server: nginx
+Cache-Control: max-age=86400
+Cache-Control: no-cache
+Cache-Control: private
+Date: Wed, 20 May 2020 08:15:05 GMT
+Expires: Thu, 21 May 2020 08:15:05 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip

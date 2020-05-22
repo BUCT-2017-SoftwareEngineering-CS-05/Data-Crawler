@@ -1,0 +1,427 @@
+<html><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title> -  - 苏州博物馆</title>
+    <meta content="苏州,苏博,苏州博物馆,博物馆,museum,苏州新闻" name="Keywords">
+    <meta name="description" content="苏州博物馆是地方历史艺术性博物馆。馆址为太平天国忠王李秀成王府遗址。是全国重点文物保护单位。2006年10月建成新馆，设计者为著名的建筑大师贝聿铭。">
+    <link href="https://www.szmuseum.com/StaticFile/Images/favorite.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://www.szmuseum.com/StaticFile/Styles/common.css" type="text/css" rel="stylesheet">
+    <script src="https://www.szmuseum.com/StaticFile/Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="https://www.szmuseum.com/StaticFile/Scripts/imgReady.js" type="text/javascript"></script>
+    <script src="https://www.szmuseum.com/StaticFile/Scripts/imgstyle.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://www.szmuseum.com/StaticFile/Scripts/jQuery.layer/skin/layer.css" id="layui_layer_skinlayercss" style=""></head>
+<body>
+    <link href="https://www.szmuseum.com/StaticFile/Scripts/jQuery.layer/skin/layer.css" rel="stylesheet" type="text/css">
+<script src="https://www.szmuseum.com/StaticFile/Scripts/jQuery.layer/layer.js" type="text/javascript"></script>
+<script src="https://www.szmuseum.com/StaticFile/Scripts/jquery.reveal.js" type="text/javascript"></script>
+<script src="https://www.szmuseum.com/StaticFile/Scripts/md5.js" type="text/javascript"></script>
+<script src="https://www.szmuseum.com/StaticFile/Scripts/account.js" type="text/javascript"></script>
+<div class="head">
+    <div class="headtop">
+        <div class="headuser">
+            <span><a href="/Other/FullTextSearchIndex" target="_blank">搜索</a></span><i></i>
+            
+			<span><a href="#" onclick="showNotice3();">志愿者报名</a></span><i></i>
+            <span><a href="/Other/Leaveword" target="_blank">留言簿</a></span>| <span>
+                <a href="/Other/Questionnaire/ReleaseSurvey" target="_blank">问卷调查</a>
+            </span>| <span>
+                <a href="/News/Details/ContactUs" target="_blank">
+                    联系我们
+                </a>
+            </span><i></i>
+                <span id="ulLogin">
+                    <a id="login" href="#" data-reveal-id="myModal">登录</a>| <a href="/Account/Register">
+                        注册
+                    </a>
+                </span><i></i>
+                <input type="hidden" id="isLogin" value="0">
+ <span>
+                <a href="/Home/Index">中文</a>| <a href="/En/Home/Index" style="padding-right: 0;">
+                    English
+                </a>
+            </span>
+        </div>
+        
+    </div>
+    <div class="headcenter">
+        <a href="/Home/Index">
+            <div class="logo">
+            </div>
+        </a>
+        <div class="menu">
+            <ul>
+                <li><a href="/Home/Index">首页</a></li>
+                <li><a href="/News/Index/GZZC">资讯</a></li>
+                <li>
+                    <a href="/Exhibition/Index">
+                        展览
+                    </a>
+                </li>
+                <li>
+                    <a href="/Collection/Index">
+                        馆藏
+                    </a>
+                </li>
+                <li>
+                    <a href="/ArtGoods/Index">
+                        文创
+                    </a>
+                </li>
+                <li>
+                    <a href="/Activity/Index">
+                        活动
+                    </a>
+                </li>
+                <li>
+                    <a href="/ForbiddenCityCollege/Index">
+                        故宫学院（苏州）
+                    </a>
+                </li>
+                <li>
+                    <a href="/Ancient/Details/gjgjj">
+                        古籍图书馆
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <!--导航栏-->
+    <div id="top">
+    </div>
+    <!--导航栏end-->
+</div>
+<div class="cont100">
+    <div id="myModal" class="reveal-modal">
+<form action="/Account/Login" class="cont-login" id="user_form_0" method="post" target="pass_reg_iframe_0"><input name="__RequestVerificationToken" type="hidden" value="lPMDnQrwVSUNCBaTxvx5GleuzM00421dT7cNzj1uQEDf8XL4HrHCtYlOb5YUHsEoY5osw9CWrxA8rIUH39maZGVbTzu7g/aDvw/lrAsiblyxuzjN4PQdReX/8BZt9HkQgPzMvi8qWrKdcWY4DveM1O9gBkf1I4DbW4DTMCZtKWA=">            <h1>
+                <span>用户登录</span><a href="/Account/Register">立即注册</a>
+            </h1>
+            <p>
+                <i></i>
+                <input type="text" value="手机号/用户名/邮箱" onclick="show()" onblur="hide()" id="userName" autocomplete="false">
+            </p>
+            <p style="margin-bottom: 10px;">
+                <i class="password"></i>
+                <input type="password" value="" id="pwd" autocomplete="false">
+            </p>
+            <p style="margin: 0 auto;">
+                <span class="login-error"></span><a class="findpassword" href="/Account/FindPassword">
+                    找回密码
+                </a>
+            </p>
+            <p style="margin-top: 0;">
+                <span class="yellowbtn logbtn" id="btnLogin">登录</span>
+            </p>
+</form>        <a class="close-reveal-modal">×</a>
+    </div>
+</div>
+<!----------------------苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告 弹出框 start---------------------->
+    <div class="Masklayer" id="Masklayer3">
+        <div class="Masklayerbox Masklayerboxwidth" style="width: 800px; height: 320px;">
+            <h1 style="text-align:center;">
+                苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告
+
+            </h1>
+            <div class="exhibitcent" style="height: 200px;">
+                <div class="exhword" style="height: 200px;">
+                    <div class="exhwordcent">
+                        <p style="font-size: 15px;text-indent: 25px;">
+                            各位尊敬的观众及市民朋友：
+                        </p>
+                        <p style="font-size: 15px;text-indent: 25px;">                            因新型冠状病毒肺炎疫情的发展，苏州博物馆2020年度新志愿者招募工作将推迟启动，具体启动时间请关注苏州博物馆官网或微信公众平台发布的通知。
+                        </p>
+                        <p style="font-size: 15px;text-indent: 25px;">                            感谢广大观众及市民朋友一直以来对苏博志愿社的关心与支持，苏博志愿社的全体志愿者也将持续提升服务水平，用热情、专业和耐心服务更多苏博观众。
+                        </p>
+						<p style="font-size: 15px;text-indent: 25px;">
+						同舟共济，共克时艰，相信我们定会战胜疫情！
+                        </p>
+						 <p style="font-size: 15px;text-align: right;">
+							苏州博物馆
+						</p>	
+						<p style="font-size: 15px;text-align: right;">
+							2020年2月7日
+						</p>
+                    </div>
+                </div>
+            </div>   
+			<div class="Masklayerboxbot Masklayerboxbotsf">                
+                <div class="conmitbtn" style="background: #cfcdce;color: #000;cursor: pointer;" onclick="closeNotice3();">
+                    关闭
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告 弹出框 end---------------------->
+<script type="text/javascript">
+	
+	//显示苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告
+    function showNotice3() {
+		$("#Masklayer3").show();
+    }
+
+    //关闭苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告
+    function closeNotice3() {
+        $("#Masklayer3").hide();
+    }
+
+</script>
+    <div class="navimg gcww">
+    </div>
+    <div class="continner">
+        <!--上部列表-->
+        <div class="contleft">
+    <ul class="leftlist" id="ulLeftList">
+    </ul>
+</div>
+
+        
+        <!--上部列表结束-->
+        <!--中间内容-->
+        <div class="contright">
+            <ul class="gcimglist clearfix">
+            </ul>
+            <div id="pager" class="digg">
+                
+                
+            </div>
+            <!--中间内容结束-->
+        </div>
+    </div>
+    <!--详情结束-->
+    <!--详情结束-->
+    <div class="both">
+</div>
+<div class="link">
+    <div class="cont1 clearfix">
+        <span>友情链接：</span><a href="http://www.dpm.org.cn/" target="_blank">故宫博物院</a> <a href="http://www.britishmuseum.org/" target="_blank">大英博物馆</a><a href="http://www.szzzy.cn/" target="_blank">拙政园</a><a href="/Other/Link" target="_blank" class="more" style="margin-right: 0;">更多&gt;&gt;</a>
+    </div>
+</div>
+<div class="bottomnav">
+    <div class="cont1 clearfix" id="divBottom">
+        <!--        <ul class="qrcode">
+            <li>
+                <img src="/images/qr.png" /><br />
+                关注微信</li>
+            <li>
+                <img src="/images/qr.png" /><br />
+                关注微信</li>
+        </ul>-->
+        <ul class="menulist ">
+            <li><a href="/News/Index/GZZC" target="_self">资讯</a></li>
+            <li><a href="/News/Index/GZZC" target="_self">馆长致辞</a></li>
+            
+            <li><a href="/News/Details/decc8df6-3a5b-44f0-8bd7-cbf9f7e2a06d" target="_self">组织结构</a></li>
+            <li><a href="/News/Index/Dynamic" target="_self">最新动态</a></li>
+            <li><a href="/News/Index/OpenGuide" target="_self">开放信息</a></li>
+            <li><a href="/News/Index/LibraryJournal" target="_self">馆刊 / 年鉴</a></li>
+            <li><a href="/News/Index/DonorList" target="_self">捐赠者名录</a></li>
+            <li><a href="/News/Index/Memorabilia" target="_self">大事记</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/Exhibition/Index" target="_self">展览</a></li>
+            <li><a href="/Exhibition/Index" target="_self">基本陈列</a></li>
+            <li><a href="/Exhibition/Temporary" target="_self">临时展览</a></li>
+            <li><a href="/Exhibition/Another" target="_self">赴外展览</a></li>
+            <li><a href="/Exhibition/Other/FolkCustomExhibition" target="_self">民俗博物馆</a></li>
+            <li><a href="/Exhibition/Other/Guoyunlou" target="_self">过云楼陈列馆</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/Collection/Index" target="_self">馆藏</a></li>
+            <li><a href="/Collection/List/ltgb" target="_self">两塔瑰宝</a></li>
+            <li><a href="/Collection/List/mqsh" target="_self">书画</a></li>
+            <li><a href="/Collection/List/cq" target="_self">陶瓷</a></li>
+            <li><a href="/Collection/List/gyp" target="_self">工艺品</a></li>
+            <li><a href="/Collection/List/xy" target="_self">铜器</a></li>
+            <li><a href="/Collection/List/zwfch" target="_self">忠王府彩画</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/AcademicResearch/List/zgqs" target="_self">学术研究</a></li>
+            <li><a href="/AcademicResearch/List/zgqs" target="_self">征稿启事</a></li>
+            <li><a href="/AcademicResearch/Index/xssl" target="_self">学术沙龙</a></li>
+            <li><a href="/AcademicResearch/List/xscg" target="_self">学术成果</a></li>
+            <li><a href="/AcademicResearch/Index/yjkt" target="_self">研究课题</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/ArtGoods/Index" target="_self">文创</a></li>
+            <li><a href="/ArtGoods/Index" target="_self">文创产品</a></li>
+            
+            <li><a href="/ArtGoods/Details/sdjs" target="_self">商店介绍</a></li>
+            <li><a href="/ArtGoods/Details/gl" target="_self">概览</a></li>
+            <li><a href="/ArtGoods/List/xgzx" target="_self">相关资讯</a></li>
+            <li><a href="/ArtGoods/Details/lxwm" target="_self">联系我们</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/Activity/Index" target="_self">活动</a></li>
+            <li><a href="/Activity/Index" target="_self">教育活动</a></li>
+            <li><a href="/Activity/Index/wbjz?type=1" target="_self">文博讲座</a></li>
+            <li><a href="/Activity/MuseumDay/BWGR" target="_self">国际博物馆日</a></li>
+            <li><a href="/PaintingLetter/Index/HXZX" target="_blank">画信在线</a></li>
+            <li><a href="/Activity/VolunteerHome/zyzzj" target="_self">志愿者之家</a></li>
+            <li><a href="/Activity/VolunteerHome/hyzj" target="_self">会员之家</a></li>
+            <li><a href="/Activity/VideoList/jcsp" target="_self">精彩视频</a> </li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/ForbiddenCityCollege/Index" target="_self">故宫学院（苏州）</a></li>
+            <li><a href="/ForbiddenCityCollege/Index" target="_self">学院动态</a></li>
+            <li><a href="/ForbiddenCityCollege/Index/yyfa" target="_self">运营方案</a></li>
+            <li><a href="/ForbiddenCityCollege/Index/lsh" target="_self">理事会</a></li>
+            <li><a href="/ForbiddenCityCollege/Activity/hdyy" target="_self">活动预约</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/Ancient/Details/gjgjj">古籍图书馆</a> </li>
+            <li><a href="/Ancient/Details/gjgjj">古籍馆简介</a> </li>
+            <li><a href="/Ancient/Details/dzfw">读者服务</a> </li>
+            <li><a href="http://ilas.szmuseum.com:8030/" target="_blank">Ilas书目查询</a> </li>
+            <li><a href="/Ancient/BookList/zggj">珍贵古籍书影</a> </li>
+            <li><a href="/Ancient/NewBookList/xstj">新书推介</a> </li>
+        </ul>
+        <ul class="menulist" style="width: 66px;">
+            <li><a href="/Other/Leaveword" target="_blank">交流互动</a></li>
+            <li><a href="/Other/LeavewordForm/ReleaseMessage" target="_blank">发布留言</a></li>
+            <li><a href="/Other/Leaveword" target="_blank">留言列表</a></li>
+            <li><a href="/Other/Questionnaire/ReleaseSurvey" target="_blank">观众调查</a></li>
+            <li><a onclick="VisitPer();" href="javascript:void(0)">个人预约</a></li>
+            <li><a onclick="VisitTeam();" href="javascript:void(0)">团队预约</a></li>
+            <li><a href="/Other/News/Meeting" target="_blank">历届会议</a></li>
+            
+        </ul>
+    </div>
+</div>
+<div class="bottom">
+    <div class="bottomcent">
+        <ul>
+			<li>
+				 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257378952'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1257378952%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1257378952"><a href="https://www.cnzz.com/stat/website.php?web_id=1257378952" target="_blank" title="站长统计"><img src="http://icon.cnzz.com/img/pic.gif" vspace="0" hspace="0" border="0"></a></span><script src=" http://s4.cnzz.com/z_stat.php?id=1257378952&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1257378952&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+			</li>
+            <li><i class="address"></i><span>苏州市东北街204号</span></li>
+            <li><i class="telephone"></i><span>0512-67575666</span></li>
+            <li><i class="mail"></i><span>215001 </span></li>
+            <li style="margin-right: 0">
+                <p>
+                    © 2010-2020 苏州博物馆 版权所有 <a href="http://beian.miit.gov.cn/" target="_blank">苏ICP备06052086号</a></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="izl-rmenu izl-rmenu1" id="totop" style="display: none;">
+    <div class="btn btn-top">
+    </div>
+</div>
+    <script src="https://www.szmuseum.com/StaticFile/Scripts/ScrollToTop.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+    //跳转到个人预约
+    function VisitPer() {
+        if ($("#isLogin").val() == "0") {
+            $("#login").click();
+        } else {
+            window.open("/Account/VenuesReservation");
+        }
+
+        window.open("/Account/VenuesReservation");
+
+        
+    }
+
+    //跳转到团队预约
+    function VisitTeam() {
+        if ($("#isLogin").val() == "0") {
+            $("#login").click();
+        } else {
+            window.open("/Account/TeamReservation");
+        }
+
+        
+    }
+
+    //申请会员
+    function f_RegisterVip() {
+        if ($("#isLogin").val() == "0") {
+            $("#login").click();
+        } else {
+            if ($("#IsVip").val() == "1") {
+                layer.alert('您已是会员。', { icon: 2 });
+            }
+            else if ($("#IsVip").val() == "2") {
+                layer.alert('您的会员权益将在次日七点生效。', { icon: 2 });
+            }
+            else {
+                window.open("/Activity/VipInfoForm");
+            }
+        }
+
+        
+    }
+
+    </script>
+
+
+
+<script type="text/javascript">
+
+    //显示详情
+    function GetCollectionDetail(objId, objCountId, guid) {
+        //        $(".collectdetailbg").fadeIn("fast");
+        //        $("body").css("overflow", "hidden");
+        $("#" + objId).fadeIn("fast");
+        $("body").css("overflow", "hidden");
+
+        //动态刷新阅读次数
+        $.ajax({
+            url: '/News/GetVisitCount?id=' + guid + '&ParentType=Archives',
+            type: 'GET',
+            success: function (data) {
+                $("#" + objCountId).html(data + " 次");
+            }
+        });
+    }
+
+    $(".collectdetail_close").click(function () {
+        $(".collectdetailbg").fadeOut("fast");
+        $("body").css("overflow", "auto");
+    });
+
+    //图片居中
+    //    $(".gcimglist li img").each(function () {
+    //        if ($.browser.msie && ($.browser.version == "7.0" || $.browser.version == "8.0" || $.browser.version == "6.0")) {
+    //            GetImg(this, '206', '190');
+    //        } else {
+    //            GetImgFirst(this, '206', '190');
+    //        }
+    //    });
+
+    //收藏
+    function Favorite(fguid, objGuid) {
+        if (fguid == "") {
+            $.ajax({
+                url: '/Collection/AddFavorite?objGuid=' + objGuid + '&rnd=' + Math.random(),
+                type: 'POST',
+                success: function (data) {
+                    if (data.success == true) {
+                        var strHtml = '<i class="add" onclick="Favorite(\'' + data.guid + '\',\'' + objGuid + '\');">收藏 (' + data.FavoriteCount + ')</i>';
+                        $("#divFavorite" + objGuid).html(strHtml);
+                    } else {
+                        layer.alert("收藏失败", { icon: 2 });
+                    }
+                },
+                error: function () {
+                }
+            });
+        } else {
+            $.ajax({
+                url: '/Collection/DeleteFavorite?guid=' + fguid + '&objGuid=' + objGuid + '&rnd=' + Math.random(),
+                type: 'POST',
+                success: function (data) {
+                    if (data.success == true) {
+                        var strHtml = '<i onclick="Favorite(\'\',\'' + objGuid + '\');">收藏 (' + data.FavoriteCount + ')</i>';
+                        $("#divFavorite" + objGuid).html(strHtml);
+                    } else {
+                        layer.alert("取消收藏失败", { icon: 2 });
+                    }
+                },
+                error: function () {
+                }
+            });
+        }
+    }
+</script>
+</body></html>

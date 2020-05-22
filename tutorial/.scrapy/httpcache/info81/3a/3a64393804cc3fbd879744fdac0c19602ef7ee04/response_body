@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>尖状器</title>
+    <link rel="stylesheet" type="text/css" href="/skin/default/css/style.css">
+    <script type="text/javascript" src="/skin/default/js/koala.min.1.5.js"></script>
+    <script type="text/javascript" src="/skin/default/js/jquery-1.4.2.min.js"></script>
+</head>
+
+<body><!-----head----->
+<style type="text/css">
+    #gongao{width:650px;height:50px;overflow:hidden;line-height:50px;font-size:16px;font-family:'Microsoft YaHei';color:#DD2936;float: left;}
+    #gongao #scroll_begin, #gongao #scroll_end{display:inline}
+</style>
+<script type="text/javascript">
+    function ScrollImgLeft(){
+        var speed=50;
+        var scroll_begin = document.getElementById("scroll_begin");
+        var scroll_end = document.getElementById("scroll_end");
+        var scroll_div = document.getElementById("scroll_div");
+        scroll_end.innerHTML=scroll_begin.innerHTML;
+        function Marquee(){
+            if(scroll_end.offsetWidth-scroll_div.scrollLeft<=0)
+                scroll_div.scrollLeft-=scroll_begin.offsetWidth;
+            else
+                scroll_div.scrollLeft++;
+        }
+        var MyMar=setInterval(Marquee,speed);
+        scroll_div.onmouseover=function() {clearInterval(MyMar);}
+        scroll_div.onmouseout=function() {MyMar=setInterval(Marquee,speed);}
+    }
+</script>
+<div class="yk_top" style="height:80px;">
+    <!-----导航----->
+    <div class="daohang">
+        <ul>
+            <li><a href="/yk/">首页</a></li>
+            <li><a href="/yk/tongzhi/">通知</a></li>
+
+            <li><a href="/yk/zhanlan/">展览</a>
+                <ul>
+                    <li><a href="/yk/zhanlan/badachenlie/">常设展览</a></li><li><a href="/yk/zhanlan/linshizhanlan/">特设展览</a></li><li><a href="/yk/zhanlan/zuixinzhanlan/">交流展览</a></li>                </ul>
+            </li>
+            <li><a href="/yk/cangpin/">藏品</a>
+                <ul>
+                    <li><a href="/Jingzhou_VR/TourWeaver_jingzhouVR.html">虚拟展厅</a></li><li><a href="/yk/cangpin/guobaoxinshang/">国宝欣赏</a></li>                </ul>
+            </li>
+            <li><a href="/yk/fuwu/">服务</a>
+                <ul>
+                    <li><a href="/yk/fuwu/lvyoushangdian/">旅游商店</a></li><li><a href="/yk/fuwu/chuyuechuwu/">楚乐楚舞</a></li>                </ul>
+            </li>
+            <li><a href="/yk/zhishi/">知识</a>
+                <ul>
+                    <li><a href="/yk/zhishi/lishizhishi/">历史知识</a></li><li><a href="/yk/zhishi/wenwuzhishi/">文物知识</a></li>                </ul>
+            </li>
+            <li><a href="/yk/huodong1/">活动</a></li>
+            <li><a href="/yk/yingxiang/">映像</a></li>
+        </ul>
+    </div>
+
+    <div class="head_l mt"><img src="/skin/default/images/logo.png" width="223" height="54" /></div>
+</div>
+<!-----head----->
+
+<!-----导航----->
+<div class="yk_dh">
+    <div class="yk_top">
+
+        <div class="tongzhi">通知：</div>
+        <div id="gongao">
+            <div style="width:650px;height:50px;margin:0 auto;white-space: nowrap;overflow:hidden;" id="scroll_div" class="scroll_div">
+                <div id="scroll_begin" class="scroll_begin">
+                    <script>
+                        document.write("<script type='text/javascript' src='/d/js/js/1499241230.js?t="+Math.random()+"'><"+"/script>");
+                    </script>
+                </div>
+                <div id="scroll_end"></div>
+            </div>
+            <script type="text/javascript">ScrollImgLeft();</script>
+        </div>
+
+        <div class="yk_r"><a href="/yw/">业务版首页→</a></div>
+        <div class="dh_ss">
+            <form name="searchform" method="post" action="/e/search/index.php">
+                <input type="hidden" name="show" value="title,smalltext">
+                <input name="keyboard" class="ss" type="text" placeholder="请输入标题关键字"/>
+                <input name="Submit" type="image" src="/skin/default/images/ss.png" />
+            </form>
+        </div>
+
+
+    </div>
+</div>
+<!-----导航----->
+
+
+
+<div style="line-height:54px;">&nbsp;</div>
+<div class="adress1">当前位置：<a href="/index.html">首页</a>&nbsp;>&nbsp;<a href="/yk/">游客</a>&nbsp;>&nbsp;<a href="/yk/cangpin/">藏品</a>&nbsp;>&nbsp;<a href="/yk/cangpin/guobaoxinshang/">国宝欣赏</a>&nbsp;>&nbsp;<a href="/yk/cangpin/guobaoxinshang/shiqi/">石器</a></div>
+<div style="line-height:15px;">&nbsp;</div>
+
+
+<div class="gbxs"> 
+  <div class="yknr_mav">
+         <div class="content"><center><h1>尖状器</h1></center></div>
+         <div class="content" style="background:#F2F2F2;"><center><span>发布时间：2009-08-05</span><span>来源：荆州博物馆</span><span>点击：<script src=/e/public/ViewClick/?classid=39&id=926&addclick=1></script></span></center></div>
+         <div class="content">
+             <p align="center"><font color="#000000">尖状器 </font></p>
+<p align="center"><img src="/d/file/cp/shiqi/2013-12-04/4f6ce5653a29bc7a28857d2734a13e96.jpg" alt="20130910095027313752.jpg" width="400" height="300" /></p>
+<p><span style="FONT-FAMILY: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><span style="FONT-FAMILY: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><font size="2"><span style="FONT-FAMILY: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><span style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-bidi-font-size: 12.0pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><font size="2"><font color="#000000"><span style="FONT-FAMILY: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"> </span></font></font> </span></span></font></span></span></p>
+<p class="MsoNormal" style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 18pt; mso-char-indent-count: 2.0"><font size="2"><span style="color: rgb(0, 0, 0);"><font size="2"><font face=""><span style="font-size: 9pt; font-family: 宋体;">旧石器时代晚期</span><span lang="EN-US" style="font-size: 9pt;"> ，</span><span style="font-size: 9pt; font-family: 宋体;">长</span><span lang="EN-US" style="font-size: 9pt;">15.2</span><span style="font-size: 9pt; font-family: 宋体;">、宽</span><span lang="EN-US" style="font-size: 9pt;">7</span><span style="font-size: 9pt; font-family: 宋体;">、厚</span><span lang="EN-US" style="font-size: 9pt;">4.4</span><span style="font-size: 9pt; font-family: 宋体;">厘米。</span><span style="font-size: 9pt; font-family: 宋体;">荆州市荆州区鸡公山遗址出土。鸡公山旧石器时代遗址出土的尖状器，原料的选择比较讲究，多选用椭圆形和长条形的砾石加工，岩性多选择石英岩和石英砂岩，石器的个体一般较大。如这件尖状器的加工已经定型化，系用长条形砾石加工而成，背面和两侧面为自然砾石面，另一面为劈裂面，其制作方法是将长条形砾石纵向一分为二，在其中的一块上，由劈裂面向背面（砾石面）锤击，在背面一端左右各形成一个大石片疤，两疤相交成一脊棱，利用石片疤做台面，向劈裂面打击，形成左右对称的两斜刃，使尖端突出，尾端保留有较长的自然砾石面作为柄部。</span></font></font></span></font></p>
+<p><font size="2"> </font></p>
+<p> </p>         </div>
+      </div>
+</div>
+
+
+
+
+<!---------foot--------->
+<div class="yk_foot">
+    <div class="yk_top">
+    <div style="line-height:13px;">&nbsp;</div>
+        <center><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="80" align="left"><img src="/skin/default/images/b.png" width="52" height="64" /></td>
+    <td align="left" valign="middle">免费开放时间（节假日不闭馆） 周二至周日上午 9:00 开馆 16:00 停止发票 17:00 闭馆 周一闭馆<br />
+      主办：荆州博物馆  地址：湖北省荆州市荆中路166号  邮编：434020  电话：0716-8494808  传真：0716-8496338  E-mail:22296754@qq.com  鄂ICP备13013709号-1</td>
+  </tr>
+</table></center>
+
+    </div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?100c0cff8779ab49d58212d82a9ea66c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!---------foot--------->
+
+</body>
+</html>

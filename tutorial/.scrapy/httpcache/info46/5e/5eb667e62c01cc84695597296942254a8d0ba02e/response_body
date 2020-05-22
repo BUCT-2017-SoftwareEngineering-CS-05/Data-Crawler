@@ -1,0 +1,989 @@
+<html><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>馆藏 - 两塔瑰宝 - 苏州博物馆</title>
+    <meta content="苏州,苏博,苏州博物馆,博物馆,museum,苏州新闻" name="Keywords">
+    <meta name="description" content="苏州博物馆是地方历史艺术性博物馆。馆址为太平天国忠王李秀成王府遗址。是全国重点文物保护单位。2006年10月建成新馆，设计者为著名的建筑大师贝聿铭。">
+    <link href="https://www.szmuseum.com/StaticFile/Images/favorite.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://www.szmuseum.com/StaticFile/Styles/common.css" type="text/css" rel="stylesheet">
+    <script src="https://www.szmuseum.com/StaticFile/Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="https://www.szmuseum.com/StaticFile/Scripts/imgReady.js" type="text/javascript"></script>
+    <script src="https://www.szmuseum.com/StaticFile/Scripts/imgstyle.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://www.szmuseum.com/StaticFile/Scripts/jQuery.layer/skin/layer.css" id="layui_layer_skinlayercss" style=""></head>
+<body>
+    <link href="https://www.szmuseum.com/StaticFile/Scripts/jQuery.layer/skin/layer.css" rel="stylesheet" type="text/css">
+<script src="https://www.szmuseum.com/StaticFile/Scripts/jQuery.layer/layer.js" type="text/javascript"></script>
+<script src="https://www.szmuseum.com/StaticFile/Scripts/jquery.reveal.js" type="text/javascript"></script>
+<script src="https://www.szmuseum.com/StaticFile/Scripts/md5.js" type="text/javascript"></script>
+<script src="https://www.szmuseum.com/StaticFile/Scripts/account.js" type="text/javascript"></script>
+<div class="head">
+    <div class="headtop">
+        <div class="headuser">
+            <span><a href="/Other/FullTextSearchIndex" target="_blank">搜索</a></span><i></i>
+            
+			<span><a href="#" onclick="showNotice3();">志愿者报名</a></span><i></i>
+            <span><a href="/Other/Leaveword" target="_blank">留言簿</a></span>| <span>
+                <a href="/Other/Questionnaire/ReleaseSurvey" target="_blank">问卷调查</a>
+            </span>| <span>
+                <a href="/News/Details/ContactUs" target="_blank">
+                    联系我们
+                </a>
+            </span><i></i>
+                <span id="ulLogin">
+                    <a id="login" href="#" data-reveal-id="myModal">登录</a>| <a href="/Account/Register">
+                        注册
+                    </a>
+                </span><i></i>
+                <input type="hidden" id="isLogin" value="0">
+ <span>
+                <a href="/Home/Index">中文</a>| <a href="/En/Home/Index" style="padding-right: 0;">
+                    English
+                </a>
+            </span>
+        </div>
+        
+    </div>
+    <div class="headcenter">
+        <a href="/Home/Index">
+            <div class="logo">
+            </div>
+        </a>
+        <div class="menu">
+            <ul>
+                <li><a href="/Home/Index">首页</a></li>
+                <li><a href="/News/Index/GZZC">资讯</a></li>
+                <li>
+                    <a href="/Exhibition/Index">
+                        展览
+                    </a>
+                </li>
+                <li class="hover">
+                    <a href="/Collection/Index">
+                        馆藏
+                    </a>
+                </li>
+                <li>
+                    <a href="/ArtGoods/Index">
+                        文创
+                    </a>
+                </li>
+                <li>
+                    <a href="/Activity/Index">
+                        活动
+                    </a>
+                </li>
+                <li>
+                    <a href="/ForbiddenCityCollege/Index">
+                        故宫学院（苏州）
+                    </a>
+                </li>
+                <li>
+                    <a href="/Ancient/Details/gjgjj">
+                        古籍图书馆
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <!--导航栏-->
+    <div id="top">
+    </div>
+    <!--导航栏end-->
+</div>
+<div class="cont100">
+    <div id="myModal" class="reveal-modal">
+<form action="/Account/Login" class="cont-login" id="user_form_0" method="post" target="pass_reg_iframe_0"><input name="__RequestVerificationToken" type="hidden" value="Fm7+ZdYTBOHpgYoDFmobg1DrqTVcX3oI2ciZldxZDC702RalXwcvBIr2XD5fdPFzsfvsyr3xAgk1aVm47ULkKt8W0IVkC6/IWBqZtm6Spj3IuKBjerKeHWjgUfv1MjZ17NkhK4HcnnoVccxuH8OYwkBQr1PCpfG2ka9pCAPH6gE=">            <h1>
+                <span>用户登录</span><a href="/Account/Register">立即注册</a>
+            </h1>
+            <p>
+                <i></i>
+                <input type="text" value="手机号/用户名/邮箱" onclick="show()" onblur="hide()" id="userName" autocomplete="false">
+            </p>
+            <p style="margin-bottom: 10px;">
+                <i class="password"></i>
+                <input type="password" value="" id="pwd" autocomplete="false">
+            </p>
+            <p style="margin: 0 auto;">
+                <span class="login-error"></span><a class="findpassword" href="/Account/FindPassword">
+                    找回密码
+                </a>
+            </p>
+            <p style="margin-top: 0;">
+                <span class="yellowbtn logbtn" id="btnLogin">登录</span>
+            </p>
+</form>        <a class="close-reveal-modal">×</a>
+    </div>
+</div>
+<!----------------------苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告 弹出框 start---------------------->
+    <div class="Masklayer" id="Masklayer3">
+        <div class="Masklayerbox Masklayerboxwidth" style="width: 800px; height: 320px;">
+            <h1 style="text-align:center;">
+                苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告
+
+            </h1>
+            <div class="exhibitcent" style="height: 200px;">
+                <div class="exhword" style="height: 200px;">
+                    <div class="exhwordcent">
+                        <p style="font-size: 15px;text-indent: 25px;">
+                            各位尊敬的观众及市民朋友：
+                        </p>
+                        <p style="font-size: 15px;text-indent: 25px;">                            因新型冠状病毒肺炎疫情的发展，苏州博物馆2020年度新志愿者招募工作将推迟启动，具体启动时间请关注苏州博物馆官网或微信公众平台发布的通知。
+                        </p>
+                        <p style="font-size: 15px;text-indent: 25px;">                            感谢广大观众及市民朋友一直以来对苏博志愿社的关心与支持，苏博志愿社的全体志愿者也将持续提升服务水平，用热情、专业和耐心服务更多苏博观众。
+                        </p>
+						<p style="font-size: 15px;text-indent: 25px;">
+						同舟共济，共克时艰，相信我们定会战胜疫情！
+                        </p>
+						 <p style="font-size: 15px;text-align: right;">
+							苏州博物馆
+						</p>	
+						<p style="font-size: 15px;text-align: right;">
+							2020年2月7日
+						</p>
+                    </div>
+                </div>
+            </div>   
+			<div class="Masklayerboxbot Masklayerboxbotsf">                
+                <div class="conmitbtn" style="background: #cfcdce;color: #000;cursor: pointer;" onclick="closeNotice3();">
+                    关闭
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告 弹出框 end---------------------->
+<script type="text/javascript">
+	
+	//显示苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告
+    function showNotice3() {
+		$("#Masklayer3").show();
+    }
+
+    //关闭苏州博物馆关于推迟启动2020年度新志愿者招募工作的公告
+    function closeNotice3() {
+        $("#Masklayer3").hide();
+    }
+
+</script>
+    <div class="navimg gcww">
+    </div>
+    <div class="continner">
+        <!--上部列表-->
+        <div class="contleft">
+    <ul class="leftlist" id="ulLeftList">
+            <li class="current"><a href="/Collection/List/ltgb">
+                两塔瑰宝 </a></li>
+            <li><a href="/Collection/List/mqsh">
+                书画 </a></li>
+            <li><a href="/Collection/List/cq">
+                陶瓷 </a></li>
+            <li><a href="/Collection/List/gyp">
+                工艺品 </a></li>
+            <li><a href="/Collection/List/xy">
+                铜器 </a></li>
+            <li><a href="/Collection/List/zwfch">
+                忠王府彩画 </a></li>
+    </ul>
+</div>
+
+        
+        <!--上部列表结束-->
+        <!--中间内容-->
+        <div class="contright">
+            <ul class="gcimglist clearfix">
+                    <li onclick="GetCollectionDetail('div23c7c15d-f939-4283-bfdb-ade78a0a59e7','spVisitCount23c7c15d-f939-4283-bfdb-ade78a0a59e7','23c7c15d-f939-4283-bfdb-ade78a0a59e7');">
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20151028101425hWV729.jpg">
+                        </i>
+                        <p>
+                            真珠舍利宝幢
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('divd88d6be3-e933-433f-a537-4c4ee45a5afe','spVisitCountd88d6be3-e933-433f-a537-4c4ee45a5afe','d88d6be3-e933-433f-a537-4c4ee45a5afe');">
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_2015061504505002li3c.jpg">
+                        </i>
+                        <p>
+                            [宋]铜佛坐像
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('div923f0930-e715-44c1-8ab2-4ca7d9463105','spVisitCount923f0930-e715-44c1-8ab2-4ca7d9463105','923f0930-e715-44c1-8ab2-4ca7d9463105');">
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20151028100935rLmnKt.jpg">
+                        </i>
+                        <p>
+                            [宋]盛真珠舍利宝幢内木函
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('diva8ba07e5-f07b-4eb9-a270-c680494b1474','spVisitCounta8ba07e5-f07b-4eb9-a270-c680494b1474','a8ba07e5-f07b-4eb9-a270-c680494b1474');">
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20150615044720QXN4E6.jpg">
+                        </i>
+                        <p>
+                            [宋]雕版印刷《妙法莲华经》
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('divd68bc55e-42a4-4656-9e2d-e3781d39428e','spVisitCountd68bc55e-42a4-4656-9e2d-e3781d39428e','d68bc55e-42a4-4656-9e2d-e3781d39428e');">
+                            <a href="https://www.szmuseum.com/3DWEB/A022.html" class="threed" target="_blank" title="点击查看三维文物" onclick="event.stopPropagation();">
+                            </a>
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20150615044442a7ToBt.jpg">
+                        </i>
+                        <p>
+                            [宋]楠木经箱
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('div55a05306-7f00-4c26-a2f5-10e0dd77b050','spVisitCount55a05306-7f00-4c26-a2f5-10e0dd77b050','55a05306-7f00-4c26-a2f5-10e0dd77b050');">
+                            <a href="https://www.szmuseum.com/3DWEB/A038.html" class="threed" target="_blank" title="点击查看三维文物" onclick="event.stopPropagation();">
+                            </a>
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20150615044332fjtcvh.jpg">
+                        </i>
+                        <p>
+                            [宋]铜十一面观音
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('div7883274f-75ac-41ea-b731-d1029d039d49','spVisitCount7883274f-75ac-41ea-b731-d1029d039d49','7883274f-75ac-41ea-b731-d1029d039d49');">
+                            <a href="https://www.szmuseum.com/3DWEB/A047.html" class="threed" target="_blank" title="点击查看三维文物" onclick="event.stopPropagation();">
+                            </a>
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20150615044202qu1vzB.jpg">
+                        </i>
+                        <p>
+                            [宋]针刺佛像铜镜
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('divc0fc494a-94e8-4ec9-a07d-c66351bb6870','spVisitCountc0fc494a-94e8-4ec9-a07d-c66351bb6870','c0fc494a-94e8-4ec9-a07d-c66351bb6870');">
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20150615044101ow2xwr.jpg">
+                        </i>
+                        <p>
+                            [宋]浮雕佛像石函
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('div9b3ef414-258b-47c8-9db1-d995e857a9a6','spVisitCount9b3ef414-258b-47c8-9db1-d995e857a9a6','9b3ef414-258b-47c8-9db1-d995e857a9a6');">
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20150615043917xs3TRv.jpg">
+                        </i>
+                        <p>
+                            [宋]五节石函
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('divf1b229d2-f723-492d-9fc8-70522bd6c7fa','spVisitCountf1b229d2-f723-492d-9fc8-70522bd6c7fa','f1b229d2-f723-492d-9fc8-70522bd6c7fa');">
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20150615043510zeOlGe.jpg">
+                        </i>
+                        <p>
+                            铜地藏菩萨坐像
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('divb3f02b5c-82fb-476e-874e-52ec9988a0e4','spVisitCountb3f02b5c-82fb-476e-874e-52ec9988a0e4','b3f02b5c-82fb-476e-874e-52ec9988a0e4');">
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20150615043500ZkkPLa.jpg">
+                        </i>
+                        <p>
+                            [宋]铜如来佛像
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('diva70ed441-04d1-425e-b7ed-77f90109ddff','spVisitCounta70ed441-04d1-425e-b7ed-77f90109ddff','a70ed441-04d1-425e-b7ed-77f90109ddff');">
+                            <a href="https://www.szmuseum.com/3DWEB/A040.html" class="threed" target="_blank" title="点击查看三维文物" onclick="event.stopPropagation();">
+                            </a>
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20151027102806n7Vsil.jpg">
+                        </i>
+                        <p>
+                            [五代]秘色瓷莲花碗
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('div43f93afb-33c4-4445-8657-6d187963d846','spVisitCount43f93afb-33c4-4445-8657-6d187963d846','43f93afb-33c4-4445-8657-6d187963d846');">
+                            <a href="https://www.szmuseum.com/3DWEB/A024.html" class="threed" target="_blank" title="点击查看三维文物" onclick="event.stopPropagation();">
+                            </a>
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20151027103131hRUGc0.jpg">
+                        </i>
+                        <p>
+                            [宋]嵌螺甸经箱
+                        </p>
+                    </li>
+                    <li onclick="GetCollectionDetail('dive44b3a5c-5b60-4d7a-9b71-ebd2d3315cc9','spVisitCounte44b3a5c-5b60-4d7a-9b71-ebd2d3315cc9','e44b3a5c-5b60-4d7a-9b71-ebd2d3315cc9');">
+                            <a href="https://www.szmuseum.com/3DWEB/A042.html" class="threed" target="_blank" title="点击查看三维文物" onclick="event.stopPropagation();">
+                            </a>
+                        <i>
+                            <img src="http://file.szmuseum.com:8023/文章管理缩略图/s_20151027104224O8ojnb.jpg">
+                        </i>
+                        <p>
+                            [五代]铜质大金涂塔
+                        </p>
+                    </li>
+            </ul>
+            <div id="pager" class="digg">
+                <ul class="pages" id="pager"><li class="disabled"><a disabled="disabled">首页</a></li><li class="disabled"><a disabled="disabled">上一页</a></li><li class="active"><a href="/Collection/List/ltgb?page=1">1</a></li><li class="disabled"><a disabled="disabled">下一页</a></li><li class="disabled"><a disabled="disabled">尾页</a></li></ul>
+                
+            </div>
+            <!--中间内容结束-->
+        </div>
+    </div>
+    <!--详情结束-->
+        <div class="collectdetailbg" id="div23c7c15d-f939-4283-bfdb-ade78a0a59e7">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        真珠舍利宝幢
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年10月28日</span>
+                        浏览次数：<span id="spVisitCount23c7c15d-f939-4283-bfdb-ade78a0a59e7"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p align="center"> <img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20151028/20151028101414_5736.jpg"> </p> <p style="text-align:center;"> 通高122.6厘米 </p> <p> 1978年4月12日，三个顽童登上岌岌可危的瑞光古塔掏鸟蛋时，在宝塔的第三层意外发现了一个封存已久的宝藏，宝幢即是其中之一。宝幢置于黑色外木函内,木函的正面立墙上有两排白漆楷书：“瑞光院第三层塔内真珠舍利宝幢”。宝幢的主体用楠木构成，分须弥座、佛宫、刹三个部分。须弥座呈八边形，下有双层方涩，向上弧状收束。中间分置银狮、半圆雕供养人及木狮。须弥座上周置勾栏，内作大海，须弥山从中耸起，一条满身缀珠的九头龙在山与海之间盘旋。海面升起八朵木制祥云，云头分别站木雕四天王、四天女。佛宫在须弥山的顶端，宫外有八大护法天神守卫。宫中为碧地金书八角经幢，分别以真、草、隶、篆书阴刻填金七佛之名，及梵语“南无摩诃般若波罗密”，意即“大智慧可达彼岸乐土”。 经幢中间是一只用来供奉舍利子的浅清色葫芦形瓷瓶及两张雕版印《大隋求陀罗尼》。幢顶的佛龛内置一尊木雕趺坐佛祖像。佛宫外有八根殿柱，柱上承八角形斗拱梁房殿顶及戗角。殿顶又设漆龛，内盛金质宝瓶。华龛上罩一八角形金银丝串珠华盖，盖上有鎏金银丝编小龙八条。 华盖上部为刹，以白玉、水晶及金银制成。八条银链从刹上垂下并与华盖八角相连。刹顶是一颗直径为3.4厘米的大水晶球，球两侧用银丝缠绕，金光闪闪，意示“佛光普照”。 真珠舍利宝幢，选材名贵，构思独特，造型优美，综合了当时木雕、描金、玉雕、穿珠以及金银细工等专业技术，整个宝幢共用珍珠四万余颗，凝聚了当时能工巧匠的智慧与心血，是一件珍贵的宗教艺术品。 </p> <p> <br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="divd88d6be3-e933-433f-a537-4c4ee45a5afe">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]铜佛坐像
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCountd88d6be3-e933-433f-a537-4c4ee45a5afe"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="color:#666666;font-family:Arial;" align="center"> <span style="color:#000000;"><span style="color:#000000;"><img src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615165043_3475.jpg" alt=""><br> </span></span> </p> <p style="color:#666666;font-family:Arial;" align="center"> <span style="color:#000000;"><span style="color:#000000;">高19．2厘米</span></span> </p> <p style="color:#666666;font-family:Arial;" align="left"> <span><span><br> <span style="color:#000000;">   1956年在苏州虎丘云岩寺塔第三层发现。螺髻，双耳垂肩，身着袒右袈裟，结跏趺坐于圆形蒲团座上，背而出一环纽，未见背光。</span></span></span> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="div923f0930-e715-44c1-8ab2-4ca7d9463105">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]盛真珠舍利宝幢内木函
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCount923f0930-e715-44c1-8ab2-4ca7d9463105"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="color:#666666;font-family:Arial;text-indent:2em;" align="center"> <span style="color:#000000;"><span style="color:#000000;"><img src="http://file.szmuseum.com:8022/文章富文本文件/image/20151028/20151028100943_3861.jpg" alt=""><br> </span></span> </p> <p style="text-align:center;"> 宽42.5厘米  高123厘米 </p> <p> 1978年发现于苏州瑞光寺塔第三层天宫，真珠舍利宝幢就安置在这只内木函之中。内木函用银杏木制成，为五节正方形套叠式。在它内壁书有“大中祥符六年(1013年)四月十八日记”字样，外壁画有彩绘四天王像，为罕见的宋画精品。 </p> <p> 四天王像比例均匀，面部表情夸张，形象生动，气势雄壮。丰富的天然色彩，使画面具有真实感和运动感。画中还处处可见唐代画圣吴道子的遗风，笔墨浑厚雄健，用柳叶描法，线条生动流畅，富有变化，使整幅画达到了近乎完美的境界。 </p> <br> <br> <p> <br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="diva8ba07e5-f07b-4eb9-a270-c680494b1474">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]雕版印刷《妙法莲华经》
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCounta8ba07e5-f07b-4eb9-a270-c680494b1474"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="color:#666666;font-family:Arial;text-indent:2em;" align="center"> <span style="color:#000000;"><span style="color:#000000;"><img src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615164714_0045.jpg" alt=""><br> </span></span> </p> <p style="color:#666666;font-family:Arial;text-indent:2em;" align="center"> <span style="color:#000000;"><span style="color:#000000;">纵16.9～l7.1厘米  每卷长51.5～55.5厘米  通长277～339厘米</span></span> </p> <p style="color:#666666;font-family:Arial;text-indent:2em;" align="left"> <span><span><br> <span style="color:#000000;">   1978年在瑞光寺塔第三层塔心砖龛天宫内发现。为卷轴装，原七卷，其中第六卷被毁。页面不设边框，字体书法端正，刻工精细，可以和开宝年间蜀刻官本相媲美。每卷引首以横长14～16厘米的碧纸为包首。</span><br> <span style="color:#000000;">    这部《妙法莲华经》是我国现存最早的佛经刻本，在我国古代印刷史上占有重要的地位。</span></span></span> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="divd68bc55e-42a4-4656-9e2d-e3781d39428e">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]楠木经箱
+                            <a href="https://www.szmuseum.com/3DWEB/A022.html" class="threed" target="_blank" title="点击查看三维文物"></a>
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCountd68bc55e-42a4-4656-9e2d-e3781d39428e"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="text-align:center;color:#666666;font-family:Arial;"><span style="color:#000000;"><img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615164436_3465.jpg"><br> </span> </p><p style="text-align:center;">束腰长37.8厘米 宽19.2厘米 高21厘米</p><p style="text-align:center;color:#666666;font-family:Arial;"><span style="color:#000000;"> </span> </p><p>楠木制作。箱底垫有丝织物，外涂器，各部边缘和接缝处都镶包银质鎏金花边，极为工细。这只经箱大体完整，镂金工艺精妙，箱上记载制作艺人姓氏更属可贵。1956年于苏州虎丘云岩寺塔发现，现藏苏州博物馆。</p><p><br> </p><p><br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="div55a05306-7f00-4c26-a2f5-10e0dd77b050">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]铜十一面观音
+                            <a href="https://www.szmuseum.com/3DWEB/A038.html" class="threed" target="_blank" title="点击查看三维文物"></a>
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCount55a05306-7f00-4c26-a2f5-10e0dd77b050"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="text-align:center;color:#666666;font-family:Arial;"><span style="color:#000000;"><img style="width:218px;height:308px;" alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615164324_9234.jpg" width="449" height="639"><br> </span> </p><p style="text-align:center;">高23.5厘米</p><p style="text-align:center;color:#666666;font-family:Arial;"><span style="color:#000000;"> </span> </p><p>两尊十一面观音像大体相同。观音像立于束腰莲花台上，一脚向侧前略伸，身穿天衣，一条飘带轻轻搭在右手上，左手持一宝瓶。全身配有璎珞、耳珰、颈饰、胸饰、臂钏、腕钏等各种珠宝佩带装饰，一条珠链从项颈处斜长至足背。身式略呈“S”形，姿态优美。</p><p><br> </p><p><br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="div7883274f-75ac-41ea-b731-d1029d039d49">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]针刺佛像铜镜
+                            <a href="https://www.szmuseum.com/3DWEB/A047.html" class="threed" target="_blank" title="点击查看三维文物"></a>
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCount7883274f-75ac-41ea-b731-d1029d039d49"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p><img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615164155_6423.jpg"> </p><p style="text-align:center;">直径16.2厘米</p><p style="text-align:center;color:#666666;font-family:Arial;"><span style="color:#000000;"> </span> </p><p>针刺佛像,有“曹庶昇舍入塔”六字。</p><p><br> </p><p><br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="divc0fc494a-94e8-4ec9-a07d-c66351bb6870">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]浮雕佛像石函
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCountc0fc494a-94e8-4ec9-a07d-c66351bb6870"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <div align="center"> <img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615164054_4868.jpg"> </div> <p style="text-align:center;"> 长46厘米 宽26.5厘米 高25厘米 </p> <p style="text-align:left;color:#666666;font-family:Arial;" align="center"> <span style="color:#000000;"> </span> </p> <p> 1956年在苏州虎丘云岩寺塔第二层发现。系有六块裁好的砚石板榫合而成，平面长方形，盝顶，函身每面浮雕佛像五尊，底部四周刻如意云纹花边，函盖内面涂成漆地。石函内原置鎏金镂花包边楠木经箱。 </p> <br> <p> <br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="div9b3ef414-258b-47c8-9db1-d995e857a9a6">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]五节石函
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCount9b3ef414-258b-47c8-9db1-d995e857a9a6"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="color:#666666;font-family:Arial;" align="center"> <span style="color:#000000;"><img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615163909_4828.jpg"><br> </span> </p> <p style="color:#666666;font-family:Arial;" align="center"> <span style="color:#000000;">顶部边长22.5厘米 底部边长27厘米 通高44.1厘米</span> </p> <p style="color:#666666;text-indent:2em;font-family:Arial;" align="left"> <span style="color:#000000;">1956年在苏州虎丘云岩寺塔第三层发现。石函平面方形，下广上狭，分五节叠落而成，无雕刻，内原置铁函。</span> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="divf1b229d2-f723-492d-9fc8-70522bd6c7fa">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        铜地藏菩萨坐像
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCountf1b229d2-f723-492d-9fc8-70522bd6c7fa"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="text-align:center;color:#666666;text-indent:0px;"><img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615163200_7492.jpg"> </p><p style="text-align:center;color:#666666;text-indent:0px;"><span style="color:#000000;">通高21厘米</span> </p><p style="text-align:left;color:#666666;text-indent:2em;"><span style="color:#000000;">铜地藏菩萨坐像发现于瑞光寺塔第三层塔心的天宫中。其貌似沉寂端庄，阔额长耳，表情慈悲，身披袈裟，衣纹流畅。半跏坐于长方形座上，左足下踏着莲花台。右手持一宝珠，左手置于膝上。</span> </p><p style="text-align: left; color: rgb(102, 102, 102); text-indent: 2em;"><span style="color:#000000;">据佛书记载，地藏菩萨托胎为新罗国王子，生于中国唐朝武则天时期，姓金名乔觉，自幼出家。在唐玄宗时来到中国，入安徽九华山苦行修炼。</span> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="divb3f02b5c-82fb-476e-874e-52ec9988a0e4">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]铜如来佛像
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月15日</span>
+                        浏览次数：<span id="spVisitCountb3f02b5c-82fb-476e-874e-52ec9988a0e4"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="color:#666666;text-indent:0px;" align="center"> <span><img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150615/20150615163015_6292.jpg"></span> </p> <p style="text-align:center;"> 高16厘米 </p> <p> 1978年于瑞光寺塔第三层塔心的天宫中发现。佛像皆螺发肉髻，但在雕刻处理上各不相同。形态颇为修美，肩圆臂瘦削，胸肌结实，结跏跌坐于束腰莲花台上。 </p> <p> 相传释迦穆尼在菩提树下进入禅思，修悟怔道，采用的就是这种姿势，因此佛教通常以全跏坐为如来坐，身后皆有显示光明的火焰纹背光。 </p> <p> <br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="diva70ed441-04d1-425e-b7ed-77f90109ddff">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [五代]秘色瓷莲花碗
+                            <a href="https://www.szmuseum.com/3DWEB/A040.html" class="threed" target="_blank" title="点击查看三维文物"></a>
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月11日</span>
+                        浏览次数：<span id="spVisitCounta70ed441-04d1-425e-b7ed-77f90109ddff"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="text-align:center;"><strong style="line-height:1.5;">[五代]秘色瓷莲花碗</strong> </p><p style="text-align:center;"><img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150611/20150611170549_0784.jpg"> </p><p style="text-align:center;">碗高8.9厘米     口径13.9厘米    盏托高6.6厘米</p><p style="text-align:center;">口径14.9厘米     底径9.3厘米    通高13.5厘米</p><p>1956年在苏州虎丘云岩寺塔第三层发现。这件越窑秘色青瓷莲花碗由碗和盏托两部分组成。碗为直口深腹圈足，盏托形状如豆，盘口外翻，束腰，圈足外撇。碗身外壁、盏托盘面和圈足均饰重瓣莲花，如浅浮雕状凸起，构思巧妙，恰如一朵盛开的莲花。从露胎处可见瓷胎呈灰白色，细腻致密，颗粒均匀纯净。特别是它的釉色滋润内敛，呈现出玉一般的温润感，被认为是五代、北宋年间秘色瓷标准器。</p><p><br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="div43f93afb-33c4-4445-8657-6d187963d846">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [宋]嵌螺甸经箱
+                            <a href="https://www.szmuseum.com/3DWEB/A024.html" class="threed" target="_blank" title="点击查看三维文物"></a>
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月11日</span>
+                        浏览次数：<span id="spVisitCount43f93afb-33c4-4445-8657-6d187963d846"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="text-align:center;"><strong style="line-height:1.5;">[宋]嵌螺甸经箱</strong> </p><p style="text-align:center;"><img src="http://file.szmuseum.com:8022/文章富文本文件/image/20151027/20151027224004_9798.jpg" alt=""> </p><p style="text-align:center;">长34.8厘米 宽13.7厘米 高12.7厘米</p><p>经箱分盖、身、台三部分。盖为盝顶长方形套盖，盖面图案在散花中聚成三朵团花，中间镶半圆形水晶，并点缀五彩宝石。四周斜坡和边沿嵌有瑞花、菱形环带花纹间以蝴蝶和飞鸟状钿片。箱身壁面四周嵌缠枝形石榴、牡丹等花卉，寓意“子孙满堂”。台座采用须弥座形式，设16个凹形台门，中有堆漆描金瑞草，金碧辉煌。</p><p><br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+        <div class="collectdetailbg" id="dive44b3a5c-5b60-4d7a-9b71-ebd2d3315cc9">
+            <i class="collectdetail_close"></i>
+            <div class="collectdetailbox clearfix">
+                <div class="content">
+                    <h1 id="htitle">
+                        [五代]铜质大金涂塔
+                            <a href="https://www.szmuseum.com/3DWEB/A042.html" class="threed" target="_blank" title="点击查看三维文物"></a>
+                    </h1>
+                    <div class="contip">
+                        时间：<span id="spPublicDate">2015年06月11日</span>
+                        浏览次数：<span id="spVisitCounte44b3a5c-5b60-4d7a-9b71-ebd2d3315cc9"></span>
+                    </div>
+                    <div id="divContent" class="divContent">
+                        <p style="text-align:center;"><img alt="" src="http://file.szmuseum.com:8022/文章富文本文件/image/20150611/20150611102310_1226.jpg"> </p><p style="text-align:center;">通高36.8厘米 塔座15厘米*15厘米</p><p style="text-align:center;color:#666666;text-indent:0px;"></p><p>塔为四方形，可拆卸，整个塔大致可分五部分，从上到下分别为：塔刹、蕉叶形插角、塔身、铜盖及带有四面十六个罗汉像的须弥座，整个塔身雕刻系印度风格，各面刻有佛教故事，蕉叶形插角外侧共刻故事三十二则，内侧分立四大天王像。塔刹占全塔比例约三分之一，刹座为莲形覆钵，刹身有相轮五重。</p><p><br> </p><p><br> </p>
+                    </div>
+                    <!-- 分享与收藏-->
+                    <div class="GCToolshare Toolshare">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_24x24" style="padding-top: 10px; float: left;">
+                            
+                        </div>
+                        
+                        <!-- JiaThis Button END -->
+                        <!--start收藏-->
+                        
+                        <!--end收藏-->
+                    </div>
+                    <!-- end分享与收藏-->
+                </div>
+            </div>
+        </div>
+    <!--详情结束-->
+    <div class="both">
+</div>
+<div class="link">
+    <div class="cont1 clearfix">
+        <span>友情链接：</span><a href="http://www.dpm.org.cn/" target="_blank">故宫博物院</a> <a href="http://www.britishmuseum.org/" target="_blank">大英博物馆</a><a href="http://www.szzzy.cn/" target="_blank">拙政园</a><a href="/Other/Link" target="_blank" class="more" style="margin-right: 0;">更多&gt;&gt;</a>
+    </div>
+</div>
+<div class="bottomnav">
+    <div class="cont1 clearfix" id="divBottom">
+        <!--        <ul class="qrcode">
+            <li>
+                <img src="/images/qr.png" /><br />
+                关注微信</li>
+            <li>
+                <img src="/images/qr.png" /><br />
+                关注微信</li>
+        </ul>-->
+        <ul class="menulist ">
+            <li><a href="/News/Index/GZZC" target="_self">资讯</a></li>
+            <li><a href="/News/Index/GZZC" target="_self">馆长致辞</a></li>
+            
+            <li><a href="/News/Details/decc8df6-3a5b-44f0-8bd7-cbf9f7e2a06d" target="_self">组织结构</a></li>
+            <li><a href="/News/Index/Dynamic" target="_self">最新动态</a></li>
+            <li><a href="/News/Index/OpenGuide" target="_self">开放信息</a></li>
+            <li><a href="/News/Index/LibraryJournal" target="_self">馆刊 / 年鉴</a></li>
+            <li><a href="/News/Index/DonorList" target="_self">捐赠者名录</a></li>
+            <li><a href="/News/Index/Memorabilia" target="_self">大事记</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/Exhibition/Index" target="_self">展览</a></li>
+            <li><a href="/Exhibition/Index" target="_self">基本陈列</a></li>
+            <li><a href="/Exhibition/Temporary" target="_self">临时展览</a></li>
+            <li><a href="/Exhibition/Another" target="_self">赴外展览</a></li>
+            <li><a href="/Exhibition/Other/FolkCustomExhibition" target="_self">民俗博物馆</a></li>
+            <li><a href="/Exhibition/Other/Guoyunlou" target="_self">过云楼陈列馆</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/Collection/Index" target="_self">馆藏</a></li>
+            <li><a href="/Collection/List/ltgb" target="_self">两塔瑰宝</a></li>
+            <li><a href="/Collection/List/mqsh" target="_self">书画</a></li>
+            <li><a href="/Collection/List/cq" target="_self">陶瓷</a></li>
+            <li><a href="/Collection/List/gyp" target="_self">工艺品</a></li>
+            <li><a href="/Collection/List/xy" target="_self">铜器</a></li>
+            <li><a href="/Collection/List/zwfch" target="_self">忠王府彩画</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/AcademicResearch/List/zgqs" target="_self">学术研究</a></li>
+            <li><a href="/AcademicResearch/List/zgqs" target="_self">征稿启事</a></li>
+            <li><a href="/AcademicResearch/Index/xssl" target="_self">学术沙龙</a></li>
+            <li><a href="/AcademicResearch/List/xscg" target="_self">学术成果</a></li>
+            <li><a href="/AcademicResearch/Index/yjkt" target="_self">研究课题</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/ArtGoods/Index" target="_self">文创</a></li>
+            <li><a href="/ArtGoods/Index" target="_self">文创产品</a></li>
+            
+            <li><a href="/ArtGoods/Details/sdjs" target="_self">商店介绍</a></li>
+            <li><a href="/ArtGoods/Details/gl" target="_self">概览</a></li>
+            <li><a href="/ArtGoods/List/xgzx" target="_self">相关资讯</a></li>
+            <li><a href="/ArtGoods/Details/lxwm" target="_self">联系我们</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/Activity/Index" target="_self">活动</a></li>
+            <li><a href="/Activity/Index" target="_self">教育活动</a></li>
+            <li><a href="/Activity/Index/wbjz?type=1" target="_self">文博讲座</a></li>
+            <li><a href="/Activity/MuseumDay/BWGR" target="_self">国际博物馆日</a></li>
+            <li><a href="/PaintingLetter/Index/HXZX" target="_blank">画信在线</a></li>
+            <li><a href="/Activity/VolunteerHome/zyzzj" target="_self">志愿者之家</a></li>
+            <li><a href="/Activity/VolunteerHome/hyzj" target="_self">会员之家</a></li>
+            <li><a href="/Activity/VideoList/jcsp" target="_self">精彩视频</a> </li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/ForbiddenCityCollege/Index" target="_self">故宫学院（苏州）</a></li>
+            <li><a href="/ForbiddenCityCollege/Index" target="_self">学院动态</a></li>
+            <li><a href="/ForbiddenCityCollege/Index/yyfa" target="_self">运营方案</a></li>
+            <li><a href="/ForbiddenCityCollege/Index/lsh" target="_self">理事会</a></li>
+            <li><a href="/ForbiddenCityCollege/Activity/hdyy" target="_self">活动预约</a></li>
+        </ul>
+        <ul class="menulist">
+            <li><a href="/Ancient/Details/gjgjj">古籍图书馆</a> </li>
+            <li><a href="/Ancient/Details/gjgjj">古籍馆简介</a> </li>
+            <li><a href="/Ancient/Details/dzfw">读者服务</a> </li>
+            <li><a href="http://ilas.szmuseum.com:8030/" target="_blank">Ilas书目查询</a> </li>
+            <li><a href="/Ancient/BookList/zggj">珍贵古籍书影</a> </li>
+            <li><a href="/Ancient/NewBookList/xstj">新书推介</a> </li>
+        </ul>
+        <ul class="menulist" style="width: 66px;">
+            <li><a href="/Other/Leaveword" target="_blank">交流互动</a></li>
+            <li><a href="/Other/LeavewordForm/ReleaseMessage" target="_blank">发布留言</a></li>
+            <li><a href="/Other/Leaveword" target="_blank">留言列表</a></li>
+            <li><a href="/Other/Questionnaire/ReleaseSurvey" target="_blank">观众调查</a></li>
+            <li><a onclick="VisitPer();" href="javascript:void(0)">个人预约</a></li>
+            <li><a onclick="VisitTeam();" href="javascript:void(0)">团队预约</a></li>
+            <li><a href="/Other/News/Meeting" target="_blank">历届会议</a></li>
+            
+        </ul>
+    </div>
+</div>
+<div class="bottom">
+    <div class="bottomcent">
+        <ul>
+			<li>
+				 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257378952'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1257378952%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1257378952"><a href="https://www.cnzz.com/stat/website.php?web_id=1257378952" target="_blank" title="站长统计"><img src="http://icon.cnzz.com/img/pic.gif" vspace="0" hspace="0" border="0"></a></span><script src=" http://s4.cnzz.com/z_stat.php?id=1257378952&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1257378952&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+			</li>
+            <li><i class="address"></i><span>苏州市东北街204号</span></li>
+            <li><i class="telephone"></i><span>0512-67575666</span></li>
+            <li><i class="mail"></i><span>215001 </span></li>
+            <li style="margin-right: 0">
+                <p>
+                    © 2010-2020 苏州博物馆 版权所有 <a href="http://beian.miit.gov.cn/" target="_blank">苏ICP备06052086号</a></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="izl-rmenu izl-rmenu1" id="totop" style="display: none;">
+    <div class="btn btn-top">
+    </div>
+</div>
+    <script src="https://www.szmuseum.com/StaticFile/Scripts/ScrollToTop.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+    //跳转到个人预约
+    function VisitPer() {
+        if ($("#isLogin").val() == "0") {
+            $("#login").click();
+        } else {
+            window.open("/Account/VenuesReservation");
+        }
+
+        window.open("/Account/VenuesReservation");
+
+        
+    }
+
+    //跳转到团队预约
+    function VisitTeam() {
+        if ($("#isLogin").val() == "0") {
+            $("#login").click();
+        } else {
+            window.open("/Account/TeamReservation");
+        }
+
+        
+    }
+
+    //申请会员
+    function f_RegisterVip() {
+        if ($("#isLogin").val() == "0") {
+            $("#login").click();
+        } else {
+            if ($("#IsVip").val() == "1") {
+                layer.alert('您已是会员。', { icon: 2 });
+            }
+            else if ($("#IsVip").val() == "2") {
+                layer.alert('您的会员权益将在次日七点生效。', { icon: 2 });
+            }
+            else {
+                window.open("/Activity/VipInfoForm");
+            }
+        }
+
+        
+    }
+
+    </script>
+
+
+
+<script type="text/javascript">
+
+    //显示详情
+    function GetCollectionDetail(objId, objCountId, guid) {
+        //        $(".collectdetailbg").fadeIn("fast");
+        //        $("body").css("overflow", "hidden");
+        $("#" + objId).fadeIn("fast");
+        $("body").css("overflow", "hidden");
+
+        //动态刷新阅读次数
+        $.ajax({
+            url: '/News/GetVisitCount?id=' + guid + '&ParentType=Archives',
+            type: 'GET',
+            success: function (data) {
+                $("#" + objCountId).html(data + " 次");
+            }
+        });
+    }
+
+    $(".collectdetail_close").click(function () {
+        $(".collectdetailbg").fadeOut("fast");
+        $("body").css("overflow", "auto");
+    });
+
+    //图片居中
+    //    $(".gcimglist li img").each(function () {
+    //        if ($.browser.msie && ($.browser.version == "7.0" || $.browser.version == "8.0" || $.browser.version == "6.0")) {
+    //            GetImg(this, '206', '190');
+    //        } else {
+    //            GetImgFirst(this, '206', '190');
+    //        }
+    //    });
+
+    //收藏
+    function Favorite(fguid, objGuid) {
+        if (fguid == "") {
+            $.ajax({
+                url: '/Collection/AddFavorite?objGuid=' + objGuid + '&rnd=' + Math.random(),
+                type: 'POST',
+                success: function (data) {
+                    if (data.success == true) {
+                        var strHtml = '<i class="add" onclick="Favorite(\'' + data.guid + '\',\'' + objGuid + '\');">收藏 (' + data.FavoriteCount + ')</i>';
+                        $("#divFavorite" + objGuid).html(strHtml);
+                    } else {
+                        layer.alert("收藏失败", { icon: 2 });
+                    }
+                },
+                error: function () {
+                }
+            });
+        } else {
+            $.ajax({
+                url: '/Collection/DeleteFavorite?guid=' + fguid + '&objGuid=' + objGuid + '&rnd=' + Math.random(),
+                type: 'POST',
+                success: function (data) {
+                    if (data.success == true) {
+                        var strHtml = '<i onclick="Favorite(\'\',\'' + objGuid + '\');">收藏 (' + data.FavoriteCount + ')</i>';
+                        $("#divFavorite" + objGuid).html(strHtml);
+                    } else {
+                        layer.alert("取消收藏失败", { icon: 2 });
+                    }
+                },
+                error: function () {
+                }
+            });
+        }
+    }
+</script>
+</body></html>

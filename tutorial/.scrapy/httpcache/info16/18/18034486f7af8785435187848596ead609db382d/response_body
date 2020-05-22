@@ -1,0 +1,205 @@
+<html><head></head><body>﻿﻿
+
+
+
+<meta charset="utf-8">
+<title>天津自然博物馆</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="templates/zr/images/tjzrbwg.ico" rel="shortcut icon">
+<link href="templates/zr/css/css.css" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<script language="javascript">
+    function show(id) {
+        //document.getElementById("child1").style.display = "none";
+        document.getElementById("child" + id).style.display = "block";
+    }
+    function hide(id) {
+        document.getElementById("child" + id).style.display = "none";
+        //document.getElementById("child1").style.display = "block";
+    }
+</script>
+
+<script type="text/javascript">
+    function check_seachkey(){
+        var key=$("#seach_key").val();
+        if(!key){
+            alert("请输入查询的关键词！！！");
+            return false;
+        }
+    }
+</script>
+<div id="topcontent">
+    <div id="top">
+        <a id="toplink1" href="/"></a>
+        <form action="index.php?p=seach_list" method="post" onsubmit="return check_seachkey()">
+        <input type="text" class="keyword" id="seach_key" name="key">
+        <input type="submit" class="sb" id="ctl00_sb" value="" name="ctl00$sb">
+        </form>
+    </div>
+    <div id="nav">
+        <ul>
+
+            <li style="width:166px;"><a onmouseout="hide(1)" onmouseover="show(1)" class="minijianweibei" href="index.php?p=cgfw&amp;lanmu=1">参观服务<span>Visit and service</span></a>
+                <ul onmouseout="hide(1);" onmouseover="show(1)" id="child1" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&amp;id=6&amp;lanmu=1">开放时间与预约</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&amp;id=7&amp;lanmu=1">交通攻略</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&amp;id=8&amp;lanmu=1">参观须知</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&amp;id=9&amp;lanmu=1">服务信息</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&amp;id=11&amp;lanmu=1">联系我们</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=cgfw&amp;id=18&amp;lanmu=1">友情链接</a></li>
+                                        <li><a class="minijianweibei" href="http://ticket.tjnhm.com">参观预约</a></li>
+                </ul>
+            </li>
+
+
+            <li style="width:166px;"><a onmouseout="hide(2)" onmouseover="show(2)" class="minijianweibei" href="index.php?p=zlxx&amp;lanmu=2">展览信息<span>Exhibition information</span></a>
+                <ul onmouseout="hide(2);" onmouseover="show(2)" id="child2" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=zlxx&amp;c_id=5&amp;lanmu=2">临展资讯</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=zlxx&amp;c_id=1&amp;lanmu=2">常设陈列</a></li>
+                                    </ul>
+            </li>
+
+
+            <li style="width:166px;"><a onmouseout="hide(3)" onmouseover="show(3)" class="minijianweibei" href="index.php?p=jyhd&amp;lanmu=3">教育活动<span>Education and activities</span></a>
+                <ul onmouseout="hide(3);" onmouseover="show(3)" id="child3" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=jyhd&amp;lanmu=3&amp;c_id=5">科普传播</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=jyhd&amp;lanmu=3&amp;c_id=14">第二课堂</a></li>
+                                    </ul>
+            </li>
+
+
+            <li style="width:166px;"><a onmouseout="hide(4)" onmouseover="show(4)" class="minijianweibei" href="index.php?p=kxyj&amp;lanmu=4">研究收藏<span>Scientific research</span></a>
+                <ul onmouseout="hide(4);" onmouseover="show(4)" id="child4" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=kxyj&amp;lanmu=4&amp;c_id=15">学术动态</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=kxyj&amp;lanmu=4&amp;c_id=16">馆藏珍品</a></li>
+                                    </ul>
+            </li>
+
+
+            <li style="width:166px;"><a onmouseout="hide(5)" onmouseover="show(5)" class="minijianweibei" href="index.php?p=wbdt&amp;lanmu=5">文博动态<span>Cultural dynamics</span></a>
+                <ul onmouseout="hide(5);" onmouseover="show(5)" id="child5" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=wbdt&amp;lanmu=5&amp;c_id=9">本馆快讯</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=wbdt&amp;lanmu=5&amp;c_id=13">文博信息</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=wbdt&amp;lanmu=5&amp;c_id=17">党建专栏</a></li>
+                                    </ul>
+            </li>
+
+
+            <li style="width:166px; padding:0px; background:none;"><a onmouseout="hide(6)" onmouseover="show(6)" class="minijianweibei" href="index.php?p=about&amp;lanmu=6">关于我们<span>About us</span></a>
+                <ul onmouseout="hide(6);" onmouseover="show(6)" id="child6" style="display: none;">
+                    
+                                        <li><a class="minijianweibei" href="index.php?p=about&amp;id=12&amp;lanmu=6">博物馆概况</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=about&amp;id=13&amp;lanmu=6">百年自博</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=about&amp;id=14&amp;lanmu=6">机构设置</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=about&amp;id=15&amp;lanmu=6">加入自博</a></li>
+                                        <li><a class="minijianweibei" href="index.php?p=about&amp;id=17&amp;lanmu=6">天津自然博物馆章程</a></li>
+                                    </ul>
+            </li>
+
+            <li style="width:166px; padding:0px; background:none;">
+                <a target="_blank" class="minijianweibei" href="http://bj.tjnhm.com">进入北疆<span>Beijiang</span></a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<div id="pagediv">
+    <script>        //document.getElementById("child1").style.display = "block";</script>
+
+    <div id="aboutus_content">
+        <div id="aboutus_tt">
+            <div id="aboutus_nav">
+                
+                            </div>
+            <div id="tt" class="minijianweibei">研究收藏<strong>Education and activities</strong></div>
+            <div id="path">当前位置 &gt; 首页 &gt; 研究收藏 &gt; 馆藏珍品</div>
+        </div>
+        <div id="aboutus_text">
+            <h1 style=" text-align:center; display:block; font-size:14px; margin:0; padding:0;">沧海桑田，岩芯见证</h1>
+            <p style="text-indent:24pt;">
+	<span style="font-family:NSimSun;font-size:16px;">天津的</span><span style="font-family:NSimSun;font-size:16px;">贝壳堤与美国圣路</span><span style="font-family:NSimSun;font-size:16px;">易期</span><span style="font-family:NSimSun;font-size:16px;">安那州贝壳堤、南美苏里南贝壳堤</span><span style="font-family:NSimSun;font-size:16px;">并列</span><span style="font-family:NSimSun;font-size:16px;">，是世界三大</span><span style="font-family:NSimSun;font-size:16px;">贝壳堤</span><span style="font-family:NSimSun;font-size:16px;">之一，在国际第四纪地质研究中占有重要的位置。</span> 
+</p>
+<p style="text-indent:24pt;">
+	<span style="font-family:NSimSun;font-size:16px;">研究表明</span><span style="font-family:NSimSun;font-size:16px;">天津地区过去曾遭</span><span style="font-family:NSimSun;font-size:16px;">受</span><span style="font-family:NSimSun;font-size:16px;">多次海侵</span><span style="font-family:NSimSun;font-size:16px;">，其中</span><span style="font-family:NSimSun;font-size:16px;">主要的</span><span style="font-family:NSimSun;font-size:16px;">有</span><span style="font-family:NSimSun;font-size:16px;">四次，</span><span style="font-family:NSimSun;font-size:16px;">并在渤海平原留下保存完整的四条</span><span style="font-family:NSimSun;font-size:16px;">贝壳</span><span style="font-family:NSimSun;font-size:16px;">堤。</span><span style="font-family:NSimSun;font-size:16px;">它们呈</span><span style="font-family:NSimSun;font-size:16px;">东西</span><span style="font-family:NSimSun;font-size:16px;">排列、南北走向，沿着同渤海湾现代</span><span style="font-family:NSimSun;font-size:16px;">海岸线</span><span style="font-family:NSimSun;font-size:16px;">大体一致的方向，由北向南断断续续地绵延着。</span> 
+</p>
+<p style="text-indent:24pt;" align="center">
+	<span style="font-family:NSimSun;font-size:16px;"><img alt="" src="uploadfile/image/20171228/20171228032647_44573.jpg" width="600" height="930"></span> 
+</p>
+<p style="text-indent:24pt;" align="center">
+	<img alt="" src="uploadfile/image/20171228/20171228032723_15594.jpg" width="600" height="590"> 
+</p>
+<p style="text-indent:24pt;" align="center">
+	<span style="font-family:NSimSun;font-size:16px;"><strong>图中方框所示为该套岩芯标本取得地点</strong></span> 
+</p>
+<p style="text-indent:24pt;" align="left">
+	<span style="font-family:NSimSun;font-size:16px;">该套沉积物柱状岩芯标本是2013年12月13日于天津市大港区子牙新河河堤边钻取，坐标38°39′18.65″N &nbsp; 117°28′20.85″E。</span> 
+</p>
+<p style="text-indent:24pt;" align="center">
+	<span style="font-family:NSimSun;font-size:16px;"><img alt="" src="uploadfile/image/20171228/20171228032914_91455.jpg" width="700" height="525"></span> 
+</p>
+<span style="font-family:NSimSun;font-size:16px;"> 
+<p style="text-indent:24pt;" align="center">
+	<strong>陈列中的岩芯标本</strong> 
+</p>
+<p style="text-indent:24pt;" align="center">
+	<img alt="" src="uploadfile/image/20171228/20171228033156_50457.jpg" width="700" height="525"> 
+</p>
+<p style="text-indent:24pt;" align="center">
+	<strong>岩芯标本示意图</strong> 
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp; 标本分段解读：
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp; 0-1米 &nbsp; &nbsp; &nbsp; 为回填土
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp; 1-3米 &nbsp; &nbsp; &nbsp; 盐沼层，粘土质，为近2000年以来的沿海低地盐沼沉积
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp; 3-6米 &nbsp; &nbsp; &nbsp; 潮间带，粘土质粉砂，距今约3000-2000年间的潮间带沉积
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp; 6-15米 &nbsp; &nbsp; &nbsp;海侵层，粉砂质，距今约7000-3000年间的浅海沉积
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp; 15-18米 &nbsp; &nbsp;泥炭层，距今约8000年之前的沿海植物死亡后被覆盖形成的泥炭沉积
+</p>
+<p>
+	&nbsp;&nbsp;&nbsp; 18-25米 &nbsp; &nbsp;陆相层，硬粘土质，距今约10000年前的末次冰期寒冷环境的河湖沉积
+</p>
+<p>
+	<br>
+</p>
+</span>
+            <div class="nepv">
+                <a href="javascript:void(0)">上一条：</a>
+                                <a href="index.php?p=kxyj_show&amp;id=955&amp;lanmu=&amp;c_id=16">野猪</a>
+                
+                <br>
+
+                <a href="javascript:void(0)">下一条：</a>
+                                <a href="index.php?p=jyhd_show&amp;id=929&amp;lanmu=&amp;c_id=16">南丹陨石</a>
+                            </div>
+            <div style="text-align:center;"><a href="javascript:window.history.go(-1);">返回</a></div>
+        </div>
+    </div>
+
+    <div id="bot" style="background: url('templates/zr//images/bodybg3.jpg') top left repeat !important; color: white">
+
+    <img src="templates/zr/images/botlogo.png">
+    地址：友谊路31号，银河广场(近平江道)　<br>
+    <img src="templates/zr/images/tel.png" style="margin: 10px auto 5px auto">
+    版权所有：天津自然博物馆  技术支持：才略科技　<a href="http://www.beian.miit.gov.cn">备案信息：津ICP备14004277</a> </div>
+</div>
+
+
+</body></html>

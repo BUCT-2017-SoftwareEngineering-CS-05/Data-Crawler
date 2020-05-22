@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>连发弩</title>
+    <link rel="stylesheet" type="text/css" href="/skin/default/css/style.css">
+    <script type="text/javascript" src="/skin/default/js/koala.min.1.5.js"></script>
+    <script type="text/javascript" src="/skin/default/js/jquery-1.4.2.min.js"></script>
+</head>
+
+<body><!-----head----->
+<style type="text/css">
+    #gongao{width:650px;height:50px;overflow:hidden;line-height:50px;font-size:16px;font-family:'Microsoft YaHei';color:#DD2936;float: left;}
+    #gongao #scroll_begin, #gongao #scroll_end{display:inline}
+</style>
+<script type="text/javascript">
+    function ScrollImgLeft(){
+        var speed=50;
+        var scroll_begin = document.getElementById("scroll_begin");
+        var scroll_end = document.getElementById("scroll_end");
+        var scroll_div = document.getElementById("scroll_div");
+        scroll_end.innerHTML=scroll_begin.innerHTML;
+        function Marquee(){
+            if(scroll_end.offsetWidth-scroll_div.scrollLeft<=0)
+                scroll_div.scrollLeft-=scroll_begin.offsetWidth;
+            else
+                scroll_div.scrollLeft++;
+        }
+        var MyMar=setInterval(Marquee,speed);
+        scroll_div.onmouseover=function() {clearInterval(MyMar);}
+        scroll_div.onmouseout=function() {MyMar=setInterval(Marquee,speed);}
+    }
+</script>
+<div class="yk_top" style="height:80px;">
+    <!-----导航----->
+    <div class="daohang">
+        <ul>
+            <li><a href="/yk/">首页</a></li>
+            <li><a href="/yk/tongzhi/">通知</a></li>
+
+            <li><a href="/yk/zhanlan/">展览</a>
+                <ul>
+                    <li><a href="/yk/zhanlan/badachenlie/">常设展览</a></li><li><a href="/yk/zhanlan/linshizhanlan/">特设展览</a></li><li><a href="/yk/zhanlan/zuixinzhanlan/">交流展览</a></li>                </ul>
+            </li>
+            <li><a href="/yk/cangpin/">藏品</a>
+                <ul>
+                    <li><a href="/Jingzhou_VR/TourWeaver_jingzhouVR.html">虚拟展厅</a></li><li><a href="/yk/cangpin/guobaoxinshang/">国宝欣赏</a></li>                </ul>
+            </li>
+            <li><a href="/yk/fuwu/">服务</a>
+                <ul>
+                    <li><a href="/yk/fuwu/lvyoushangdian/">旅游商店</a></li><li><a href="/yk/fuwu/chuyuechuwu/">楚乐楚舞</a></li>                </ul>
+            </li>
+            <li><a href="/yk/zhishi/">知识</a>
+                <ul>
+                    <li><a href="/yk/zhishi/lishizhishi/">历史知识</a></li><li><a href="/yk/zhishi/wenwuzhishi/">文物知识</a></li>                </ul>
+            </li>
+            <li><a href="/yk/huodong1/">活动</a></li>
+            <li><a href="/yk/yingxiang/">映像</a></li>
+        </ul>
+    </div>
+
+    <div class="head_l mt"><img src="/skin/default/images/logo.png" width="223" height="54" /></div>
+</div>
+<!-----head----->
+
+<!-----导航----->
+<div class="yk_dh">
+    <div class="yk_top">
+
+        <div class="tongzhi">通知：</div>
+        <div id="gongao">
+            <div style="width:650px;height:50px;margin:0 auto;white-space: nowrap;overflow:hidden;" id="scroll_div" class="scroll_div">
+                <div id="scroll_begin" class="scroll_begin">
+                    <script>
+                        document.write("<script type='text/javascript' src='/d/js/js/1499241230.js?t="+Math.random()+"'><"+"/script>");
+                    </script>
+                </div>
+                <div id="scroll_end"></div>
+            </div>
+            <script type="text/javascript">ScrollImgLeft();</script>
+        </div>
+
+        <div class="yk_r"><a href="/yw/">业务版首页→</a></div>
+        <div class="dh_ss">
+            <form name="searchform" method="post" action="/e/search/index.php">
+                <input type="hidden" name="show" value="title,smalltext">
+                <input name="keyboard" class="ss" type="text" placeholder="请输入标题关键字"/>
+                <input name="Submit" type="image" src="/skin/default/images/ss.png" />
+            </form>
+        </div>
+
+
+    </div>
+</div>
+<!-----导航----->
+
+
+
+<div style="line-height:54px;">&nbsp;</div>
+<div class="adress1">当前位置：<a href="/index.html">首页</a>&nbsp;>&nbsp;<a href="/yk/">游客</a>&nbsp;>&nbsp;<a href="/yk/cangpin/">藏品</a>&nbsp;>&nbsp;<a href="/yk/cangpin/guobaoxinshang/">国宝欣赏</a>&nbsp;>&nbsp;<a href="/yk/cangpin/guobaoxinshang/qimuqi/">漆木器</a></div>
+<div style="line-height:15px;">&nbsp;</div>
+
+
+<div class="gbxs"> 
+  <div class="yknr_mav">
+         <div class="content"><center><h1>连发弩</h1></center></div>
+         <div class="content" style="background:#F2F2F2;"><center><span>发布时间：2009-08-03</span><span>来源：荆州博物馆</span><span>点击：<script src=/e/public/ViewClick/?classid=41&id=972&addclick=1></script></span></center></div>
+         <div class="content">
+             <p align="center">连发弩</p>
+<p align="center"><img src="/d/file/cp/qimq/2013-12-04/31c34521771f17b9cd7d35d39485308b.jpg" alt="20130910101843114740.jpg" width="600" height="488" /></p>
+<p align="left">    战国,高17.3cm，长29cm,荆州秦家咀47号楚墓出土,连发弩由矢匣和机体两部分组成。机件为铜质；矢匣为木质，呈长方形，前端下缘有两个半圆形发射孔，匣内有三个储矢的槽，两侧为竖槽，可储矢九支，中间为水平槽，可并列放置二矢。拉满木弓，扣动技机，水平槽内的二矢即由前端的发射孔射出，与此同时，两侧的储矢则又自动跳至水平槽内以供第二次射击用。弩机上还设有钩弦用"牙"、瞄准用的"望山"、扳机用的"悬刀"等等。</p>         </div>
+      </div>
+</div>
+
+
+
+
+<!---------foot--------->
+<div class="yk_foot">
+    <div class="yk_top">
+    <div style="line-height:13px;">&nbsp;</div>
+        <center><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="80" align="left"><img src="/skin/default/images/b.png" width="52" height="64" /></td>
+    <td align="left" valign="middle">免费开放时间（节假日不闭馆） 周二至周日上午 9:00 开馆 16:00 停止发票 17:00 闭馆 周一闭馆<br />
+      主办：荆州博物馆  地址：湖北省荆州市荆中路166号  邮编：434020  电话：0716-8494808  传真：0716-8496338  E-mail:22296754@qq.com  鄂ICP备13013709号-1</td>
+  </tr>
+</table></center>
+
+    </div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?100c0cff8779ab49d58212d82a9ea66c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!---------foot--------->
+
+</body>
+</html>

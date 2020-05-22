@@ -1,0 +1,10 @@
+Access-Control-Allow-Methods: *
+Set-Cookie: ASP.NET_SessionId=gdyzes1doxrehe1lxlekn4kq; path=/; HttpOnly
+Content-Type: text/html; charset=utf-8
+X-Powered-By: ASP.NET
+Access-Control-Allow-Headers: *
+Server: Microsoft-IIS/7.5
+Date: Thu, 21 May 2020 13:53:31 GMT
+Cache-Control: private
+X-Aspnetmvc-Version: 4.0
+Access-Control-Allow-Origin: *

@@ -1,0 +1,18 @@
+Content-Encoding: gzip
+Via: c32.l2cn1837(303,200-0,M), c52.l2cn1837(304,0), vc2.cn1775(319,200-0,M), vc10.cn1775(321,0)
+X-Sqd-Ctime: 0
+Pragma: no-cache
+X-Sqd-Gstime: 1589726587
+X-Sqd-Stime: Sun, 17 May 2020 14:43:07 GMT
+Cache-Control: no-cache
+X-Powered-By: Qinsoft.net
+Vary: Accept-Encoding
+Eagleid: 6f306b9e15897265867864986e
+Set-Cookie: PHPSESSID=d9kv3962lq82mics8gresd2u1j; path=/
+Set-Cookie: saw_terminal=default; path=/
+Date: Sun, 17 May 2020 14:43:07 GMT
+Timing-Allow-Origin: *
+X-Cache: MISS TCP_MISS dirn:-2:-2
+Content-Type: text/html; charset=utf-8
+Server: Tengine
+Expires: Thu, 19 Nov 1981 08:52:00 GMT

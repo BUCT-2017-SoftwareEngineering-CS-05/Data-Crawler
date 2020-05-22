@@ -1,0 +1,298 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>化石标本-化石标本</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2">
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/images/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="bookmark" href="/favicon.ico"> 
+<script type="text/javascript" src="/ks_inc/jquery.js"></script>
+<script type="text/javascript" src="/ks_inc/common.js"></script><link rel="stylesheet" href="http://www.coalmus.org.cn/ks_inc/dialog/skins/opera.css?4.1.7"><script src="/ks_inc/dialog/jquery.artDialog.js?skin=opera"></script><script src="/ks_inc/dialog/plugins/iframeTools.js"></script>
+<script type="text/javascript" src="/js/menu.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+//改变图片大小
+//function resizepic(thispic)
+//{ 
+//if(thispic.width>1000) thispic.width=1000; 
+//}
+$(document).ready(function(){
+	$('.imagelist').find('img').each(function(){
+	  if (this.width>1000) this.width=1000;
+	});
+});
+
+</script>
+</head>
+<body> 
+<!-- 在线客服 开始 -->
+<div id="tops"></div>
+<!--头部start-->
+<div class="head">
+    <div class="top1">
+        <div id="topbox">
+            <div id="login">
+	<!--弹窗式登录代码--->
+	 <script type="text/javascript">
+	 function ShowPopLogin(){ ShowLogin(); }
+	jQuery(document).ready(function(){
+		  jQuery.getScript("http://www.coalmus.org.cn/user/userlogin.asp?action=checklogin&s=1",function(){
+		    jQuery("#showuserlogin").html(user.loginstr);
+		  });
+	  })
+	 </script>
+	 <span id="showuserlogin">加载中...</span>
+	 <!--登录结束--->
+	</div> 
+            <div class="topz">
+                   <li><a href="http://www.coalmus.org.cn/html/product__1608.html">在线购票</a></li>
+                   <li><a href="/plus/map.asp">网站地图</a></li>
+             </div>
+        </div>
+    </div>
+<div class="top2">
+    <div class="hearer">
+          <div class="logo"><a href="http://www.coalmus.org.cn/" target="_blank"><img src="/images/logo.png" alt="logo" border="0" align="absmiddle"></a></div>
+          <div class="menu">
+                <ul>
+                    <li><a href="/">首页</a></li>
+                    <li><a href="http://www.coalmus.org.cn/html/list_1237.html">简介</a>
+                      <ul> 
+<li><a href="http://www.coalmus.org.cn/html/gywm/aboutus.html">本馆概况</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/gywm/contact.html">馆长致辞</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/jj/lrld.html" target="_blank">历任领导</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1652.html" target="_blank">章　程</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/gywm/lawnotice.html">机构设置</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1555.html" target="_blank">大事记</a></li>
+</ul>
+                    </li>
+                    <li><a href="http://www.coalmus.org.cn/html/list_1628.html">新闻</a>
+                      <ul> 
+<li><a href="http://www.coalmus.org.cn/html/list_1542.html">最新动态</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1543.html">图片报道</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1581.html">领导关怀</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1545.html">视频报道</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1546.html">最新公告</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1647.html">媒体聚焦</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1657.html">教育活动</a></li>
+</ul>
+                    </li>
+                    <li><a href="http://www.coalmus.org.cn/html/list_1612.html">陈列</a>
+                      <ul> 
+<li><a href="http://www.coalmus.org.cn/html/list_1613.html" target="_blank">序厅</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1614.html" target="_blank">煤的生成馆</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1615.html" target="_blank">煤炭与人类馆</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1616.html" target="_blank">煤炭文献馆</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1618.html" target="_blank">模拟矿井</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1619.html" target="_blank">煤炭精品馆</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1620.html" target="_blank">古代壁画</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1659.html" target="_blank">临时展览</a></li>
+</ul>
+                    </li>
+                    <li><a href="http://www.coalmus.org.cn/html/list_1548.html">收藏</a>
+                      <ul> 
+<li><a href="http://www.coalmus.org.cn/html/list_1556.html" target="_blank">煤种标本</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1557.html" target="_blank">化石标本</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1558.html" target="_blank">岩矿标本</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1559.html" target="_blank">煤精制品</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1560.html" target="_blank">书画珍藏</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1561.html" target="_blank">英模铜像</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1562.html" target="_blank">矿山文物</a></li>
+</ul>
+                    </li>
+                    <li><a href="http://www.coalmus.org.cn/html/list_1610.html">研究</a>
+                      <ul> 
+<li><a href="http://www.coalmus.org.cn/html/list_1551.html" target="_blank">煤炭科普</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1544.html" target="_blank">学术交流</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1630.html" target="_blank">煤炭文献</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1650.html" target="_blank">学术成果</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1651.html" target="_blank">科研项目</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/yj/xswyh.html" target="_blank">学术委员会</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1550.html" target="_blank">视频展示</a></li>
+</ul>
+                    </li>
+                    <li><a href="http://www.coalmus.org.cn/html/list_1667.html">法规</a></li>
+                    <li><a href="http://www.coalmus.org.cn/html/list_1540.html">服务</a>
+                      <ul> 
+<li><a href="http://www.coalmus.org.cn/html/zxgp/fwzn.html" target="_blank">服务指南</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/list_1605.html" target="_blank">志愿者之家</a></li>
+ 
+<li><a href="/ask" target="_blank">游客问答</a></li>
+ 
+<li><a href="http://www.coalmus.org.cn/html/product__1608.html" target="_blank">在线购票</a></li>
+</ul>
+                    </li>
+              </ul>
+          </div>
+          <div class="search">
+              <form name="searchform" action="/plus/search/index.asp" method="post">
+              <input name="key" id="key" type="text" class="search-input" value="请输入搜索关键字" onfocus="if (value =='请输入搜索关键字'){value =''}" onblur="if (value ==''){value='请输入搜索关键字'}">
+              <input name="Input" type="submit" onclick="return(checksearch())" class="search-btn" value="搜索">
+              </form>
+           </div>
+    </div>
+  </div>
+</div>
+<!--头部end-->
+<div class="clear"></div>
+<div class="clear blank120"></div>
+<div id="wrap">
+   <div class="navigation">您当前位置：<a href="http://www.coalmus.org.cn/">中国煤炭博物馆</a> &gt;&gt; <a href="http://www.coalmus.org.cn/html/list_1548.html">收藏</a> &gt;&gt; <a href="http://www.coalmus.org.cn/html/list_1557.html">化石标本</a> &gt;&gt; 浏览图片</div>
+   <div class="picnr">
+       <div class="title">化石标本</div>
+       <div class="del">
+         <span>发布时间：2007/4/23</span>
+         <span>点击数：<script language="Javascript" src="http://www.coalmus.org.cn/item/GetHits.asp?Action=Count&amp;GetFlag=0&amp;m=2&amp;ID=588"></script>0次</span>
+         <span>总张数：0张</span>
+         <span>作者：佚名</span>
+         <span><script src="/item/gethits.asp?action=commentnum&amp;PostId=0&amp;M=2&amp;ID=588"></script></span>
+         <span><a href="/User/User_Favorite.asp?Action=Add&amp;ChannelID=2&amp;InfoID=588" target="_blank">收藏</a></span>
+         <span><a href="http://www.coalmus.org.cn/Item/Vote.asp?m=2&amp;ID=588">投它一票</a></span>
+       </div>
+       <div style=" height:1px; overflow:hidden; background:#f1f1f1;"></div>
+       <div class="clear"></div>
+       <div class="picnrbox">
+               <div class="showpic">
+	    <div class="imglist">
+	    <div><img title="" class="scrollLoading swipebox" href="http://www.coalmus.org.cn/UploadFiles/2016-01/200742318145962118.jpg" alt="" style="cursor:pointer;background:url(http://www.coalmus.org.cn/images/default/loading.gif) no-repeat center;" data-url="http://www.coalmus.org.cn/UploadFiles/2016-01/200742318145962118.jpg" src="http://www.coalmus.org.cn/UploadFiles/2016-01/200742318145962118.jpg" border="0"><div class="imgtitle"></div></div>
+	    </div>
+		<link rel="stylesheet" href="http://www.coalmus.org.cn/ks_inc/Swipebox/swipebox.css">
+		<script src="http://www.coalmus.org.cn/ks_inc/Swipebox/jquery.swipebox.js"></script>
+		<script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+		</script>
+		<script type="text/javascript" src="http://www.coalmus.org.cn/ks_inc/jquery.scrollLoading.js"></script>
+		<script type="text/javascript"> 
+		$(function() {
+			$(".scrollLoading").scrollLoading();	
+		});
+		</script>
+
+	    
+	</div>
+               <div class="clear blank10"></div>
+               <div class="nph_intro"></div>
+               <div class="clear blank10"></div>
+               <div class="nph_tj">
+                 <ul>
+                     <span>上一图集：<a href="http://www.coalmus.org.cn/html/hsbb_1557_587.html" title="化石标本">化石标本</a></span>
+                     <span>下一图集：<a href="http://www.coalmus.org.cn/html/hsbb_1557_589.html" title="化石标本">化石标本</a></span>
+                 </ul>
+               </div>
+            </div>
+    </div>
+<div class="clear blank10"></div>
+<!--相关图片-->
+<div class="xgphoto">
+      <div class="title">相关图集</div>
+      <div class="xgphotobox">
+          <ul><table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_893.html" target="_blank" title="我馆参加“秦晋豫冀”四省博物馆理论与实践研讨会"><img src="http://www.coalmus.org.cn/UploadFiles/2016-11/2/2016111200461310811.jpg" class="pic" alt="我馆参加“秦晋豫冀”四省博物馆理论与实践研讨会" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_893.html" target="_blank" title="我馆参加“秦晋豫冀”四省博物馆理论与实践研讨会">我馆参加“秦晋豫冀”四省博物馆</a></div>
+</td>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_892.html" target="_blank" title="“9.27世界旅游日”我馆“煤海探秘”景区 实行头道门票免费优惠活动"><img src="http://www.coalmus.org.cn/UploadFiles/2016-11/2/2016111200415443563.jpg" class="pic" alt="“9.27世界旅游日”我馆“煤海探秘”景区 实行头道门票免费优惠活动" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_892.html" target="_blank" title="“9.27世界旅游日”我馆“煤海探秘”景区 实行头道门票免费优惠活动">“9.27世界旅游日”我馆“煤海探</a></div>
+</td>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_818.html" target="_blank" title="与会代表参观模拟矿井"><img src="http://www.coalmus.org.cn/UploadFiles/2016-01/2009101293347332.jpg" class="pic" alt="与会代表参观模拟矿井" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_818.html" target="_blank" title="与会代表参观模拟矿井">与会代表参观模拟矿井</a></div>
+</td>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_817.html" target="_blank" title="与会代表参观“煤海探秘游”"><img src="http://www.coalmus.org.cn/UploadFiles/2016-01/2009101293135365.jpg" class="pic" alt="与会代表参观“煤海探秘游”" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_817.html" target="_blank" title="与会代表参观“煤海探秘游”">与会代表参观“煤海探秘游”</a></div>
+</td>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_816.html" target="_blank" title="自然博协专业委员会2009年年会会场"><img src="http://www.coalmus.org.cn/UploadFiles/2016-01/2009101292631993.jpg" class="pic" alt="自然博协专业委员会2009年年会会场" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_816.html" target="_blank" title="自然博协专业委员会2009年年会会场">自然博协专业委员会2009年年会会</a></div>
+</td>
+</tr>
+<tr>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_815.html" target="_blank" title="与会代表“煤海探秘游”"><img src="http://www.coalmus.org.cn/UploadFiles/2016-01/200910129268806.jpg" class="pic" alt="与会代表“煤海探秘游”" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_815.html" target="_blank" title="与会代表“煤海探秘游”">与会代表“煤海探秘游”</a></div>
+</td>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_814.html" target="_blank" title="与会代表考察世界文化遗产——平遥古城"><img src="http://www.coalmus.org.cn/UploadFiles/2016-01/2009101292343397.jpg" class="pic" alt="与会代表考察世界文化遗产——平遥古城" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_814.html" target="_blank" title="与会代表考察世界文化遗产——平遥古城">与会代表考察世界文化遗产——平</a></div>
+</td>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_813.html" target="_blank" title="与会代表考察乔家大院"><img src="http://www.coalmus.org.cn/UploadFiles/2016-01/2009101292010255.jpg" class="pic" alt="与会代表考察乔家大院" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_813.html" target="_blank" title="与会代表考察乔家大院">与会代表考察乔家大院</a></div>
+</td>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_812.html" target="_blank" title="与会代表考察世界文化遗产——五台山"><img src="http://www.coalmus.org.cn/UploadFiles/2016-01/200910129188889.jpg" class="pic" alt="与会代表考察世界文化遗产——五台山" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_812.html" target="_blank" title="与会代表考察世界文化遗产——五台山">与会代表考察世界文化遗产——五</a></div>
+</td>
+<td style="text-align:center;padding-bottom:2px;" width="20%">
+<div class="image"><a href="http://www.coalmus.org.cn/html/tpbd_1543_811.html" target="_blank" title="省领导为“国家一级博物馆”“国家AAAA级旅游景区“揭牌"><img src="http://www.coalmus.org.cn/UploadFiles/2016-01/2009925205640594.jpg" class="pic" alt="省领导为“国家一级博物馆”“国家AAAA级旅游景区“揭牌" width="130" height="90" border="0" align="absmiddle"></a></div>
+<div class="t"><a href="http://www.coalmus.org.cn/html/tpbd_1543_811.html" target="_blank" title="省领导为“国家一级博物馆”“国家AAAA级旅游景区“揭牌">省领导为“国家一级博物馆”“国</a></div>
+</td>
+</tr>
+</tbody></table>
+</ul>
+      </div>
+</div>
+<!--网友评论-->
+<div class="clear blank10"></div>
+<div class="xgphoto">
+  <div class="title">网友评论</div>
+  <div class="commentbox">
+      <ul>
+		<div id="c_588"></div><div id="p_588" style="text-align:right"></div>
+		<script src="http://www.coalmus.org.cn/ks_inc/Comment.page.js"></script><script type="text/javascript" defer="">var from3g=0;Page(1,2,'588','Show',10,'http://www.coalmus.org.cn/');</script><script src="http://www.coalmus.org.cn/plus/digmood/Comment.asp?Action=Write&amp;PostId=0&amp;ChannelID=2&amp;InfoID=588"></script><style>.comment_write_table,.comment_write_table textarea,.comment_write_table a{color:#666}.comment_write_table textarea,.comment_write_table .textbox{padding:2px;color:#999;border:1px solid #cccccc;}</style><table class="comment_write_table" width="100%" cellspacing="0" cellpadding="0" border="0" align="center"><form name="form1" action="http://www.coalmus.org.cn/plus/digmood/Comment.asp?Action=WriteSave" method="post"></form><input type="hidden" value="2" name="ChannelID"><input type="hidden" value="588" name="InfoID"><tbody><tr>  <td style="padding:10px;">  <div style="font-size:14px;height:30px;line-height:30px;text-align:left;"><strong>已有 <span style="color:brown;font-weight:bold" class="cmtnum"></span> 条跟帖</strong><a href="http://www.coalmus.org.cn/plus/digmood/Comment.asp?ChannelID=2&amp;InfoID=588" style="color:brown">(点击查看)</a></div><textarea style="font-size:14px;padding:5px;width:98%;height:90px;overflow:auto;" onfocus="if(this.value=='文明上网，请对您的发言负责！'){this.value=''}" onblur="if(this.value==''){this.value='文明上网，请对您的发言负责！'}" name="C_Content" rows="4" id="C_Content" wrap="PHYSICAL">文明上网，请对您的发言负责！</textarea></td></tr>  <tr><td nowrap="">  <div style="margin-left:10px;text-align:left;"> 用户名：<input onfocus="if(this.value=='匿名'){this.value='';}" class="textbox" maxlength="15" name="AnounName" type="text" id="AnounName" value="匿名" style="width:70px"> <a href="http://www.coalmus.org.cn/user/reg/"><u>注册</u></a><span id="pp"> 密码：<input class="textbox" name="Pass" size="8" type="password" id="Pass" value=""></span>&nbsp;认证码：<script>writeVerifyCode("http://www.coalmus.org.cn/",0)</script><span style="position: relative;"><input name="Verifycode" id="Verifycode" tabindex="2" maxlength="5" size="6" class="textbox" onblur="if(!seccodefocus) {document.getElementById('codebox2').style.display='none';}" onfocus="showverifycode(2)" autocomplete="off"><div class="verifybox" style="position:absolute;display:none;cursor: pointer;width: 124px; height: 44px;left:0px;top:40px;z-index:10009;padding:0;" id="codebox2" onmouseout="seccodefocus = 0" onmouseover="seccodefocus = 1"><img src="http://www.coalmus.org.cn/plus/verifycode.asp?time=0.001" id="vcodeimg2" title="看不清点这里刷新" onclick="showverifycode(2);" width="145"></div></span><span id="nm"><span style="display:none"><label><input onclick="if(this.checked==true){document.getElementById('Pass').disabled=true;document.getElementById('pp').style.display='none';}else{if(document.getElementById('AnounName').value=='匿名'){document.getElementById('AnounName').value='';}document.getElementById('Pass').disabled=false;document.getElementById('pp').style.display='';}" type="checkbox" value="1" name="Anonymous" id="Anonymous">匿名</label></span></span><input type="hidden" name="sC_Content" id="sC_Content"><input type="submit" id="SubmitComment" name="SubmitComment" value="确认发表" style="padding:2px" onclick="checkcommentform();return false"></div>&nbsp;<label><input onclick="return(checkbindweibo());" type="checkbox" value="1" name="transweibo" id="transweibo">同时转播到我的微博</label></td></tr></tbody></table></ul>
+  </div>
+</div>
+<!--图片主体end-->
+</div>
+<div class="clear blank10"></div>
+<div class="copyright">
+    <div class="copymain">
+中国煤炭博物馆<br>
+地址：山西省太原市迎泽西大街2号  <script src="http://s95.cnzz.com/stat.php?id=4314517&amp;web_id=4314517" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=4314517&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=4314517" target="_blank" title="站长统计">站长统计</a>  <a href="http://webscan.360.cn/index/checkwebsite/url/www.coalmus.org.cn" name="665bdb450ed3569609f6e46f0aba3283">360网站安全检测平台</a><br>
+<a href="http://www.miitbeian.gov.cn" target="_blank">晋ICP备05002949号</a><img src="/images/beian.png"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14010002001542" target="_blank">晋公网安备14010002001542号</a>
+<script src="http://www.coalmus.org.cn/plus/wss/online.asp?Referer=" +escape(document.referrer)="" type="text/javascript"></script>总在线：<font color="red"><b>5</b></font> 人 用户：<font color="blue"><b>0</b></font> 人 游客：<b>5</b> 人
+<br>
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/06/000/0000/41059879/CA060000000410598790002.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=54158C15538B2A07E053012819ACC09E" target="_blank"><img id="imgConac" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1" vspace="0" hspace="0" border="0"></a></span><script src="http://dcs.conac.cn/js/06/000/0000/41059879/CA060000000410598790002.js" type="text/javascript"></script><span id="_ideConac"></span>
+    </div>
+</div>
+
+
+<div style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background: rgb(255, 255, 255) none repeat scroll 0% 0%;"></div></body></html>

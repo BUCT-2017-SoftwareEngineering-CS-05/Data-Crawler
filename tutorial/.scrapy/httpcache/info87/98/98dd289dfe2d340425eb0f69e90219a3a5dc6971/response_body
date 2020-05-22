@@ -1,0 +1,436 @@
+<html><head>
+    <meta charset="UTF-8">
+    <title>长沙简牍博物馆-文化讲堂</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="http://www.chinajiandu.cn/Contents/Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <!--样式表-->
+    <link rel="stylesheet" type="text/css" href="http://www.chinajiandu.cn/Contents/Styles/main.css">
+    <link rel="stylesheet" type="text/css" href="http://www.chinajiandu.cn/Contents/Styles/inner.css">
+    <script src="http://www.chinajiandu.cn/Contents/Scripts/common.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<!--适用：
+    去图：最新公告，学术研究，学术交流，文物保护
+    留图： 简博资讯，学界动态，党建园地
+
+-->
+
+<body>
+    <div class="header">
+    <div class="allcenter">
+        <a class="logo" href="/Home/Index"><img src="http://www.chinajiandu.cn/Contents/Images/main/logo.png" alt="长沙简牍博物馆"></a>
+        <ul class="menu normalfont">
+                        <li class=" ">
+                            <a href="/Home/Index">首页</a>
+
+                        </li>
+                        <li class="menu-survey ">
+                            <a href="/Survey/Index">概况</a>
+
+                                <ul class="secmenu">
+                                        <li class=""><a href="/News/Details/bgjs">本馆简介</a></li>
+                                        <li class=""><a href="/News/Details/gzzc">馆长致辞</a></li>
+                                        <li class=""><a href="/News/Details/jgsz">机构设置</a></li>
+                                        <li class=""><a href="/News/Details/xswyh">学术委员会</a></li>
+                                        <li class=""><a href="/News/Details/dsj">大事记</a></li>
+                                        <li class=""><a href="/News/Details/bwgzc">博物馆章程</a></li>
+                                        <li class=""><a href="/News/Details/ryq">荣誉墙</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/News/Index">资讯</a>
+
+                                <ul class="secmenu">
+                                        <li class=""><a href="/News/List/zxgg">最新公告</a></li>
+                                        <li class=""><a href="/News/List/zxgs">馆务公示</a></li>
+                                        <li class=""><a href="/News/List/jbzx">简博资讯</a></li>
+                                        <li class=""><a href="/News/Details/fw">服务</a></li>
+                                        <li class=""><a href="/News/List/xjdt">学界动态</a></li>
+                                        <li class=""><a href="/News/List/djyd">党建园地</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/Exhibition/Index">展览</a>
+
+                                <ul class="secmenu">
+                                        <li class=""><a href="/Exhibition/BList/jbcl">基本陈列</a></li>
+                                        <li class=""><a href="/Exhibition/BList/wwtz">文物特展</a></li>
+                                        <li class=""><a href="/Exhibition/TList/lszl">临时展览</a></li>
+                                        <li class=""><a href="/Exhibition/TList/dwzl">对外展览</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/Collection/List/wj">典藏</a>
+
+                                <ul class="secmenu">
+                                        <li class=""><a href="/Collection/List/wj">吴简</a></li>
+                                        <li class=""><a href="/Collection/List/xhj">西汉简</a></li>
+                                        <li class=""><a href="/Collection/List/dhj">东汉简</a></li>
+                                        <li class=""><a href="/Collection/List/yym">渔阳墓出土文物</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/News/List/xsyj">学术</a>
+
+                                <ul class="secmenu">
+                                        <li class=""><a href="/News/List/xsyj">学术研究</a></li>
+                                        <li class=""><a href="/News/List/xsjl">学术交流</a></li>
+                                        <li class=""><a href="/Academic/BookList/xsqk">学术期刊</a></li>
+                                        <li class=""><a href="/News/List/wwbh">文物保护</a></li>
+                                </ul>
+                        </li>
+                        <li class=" active">
+                            <a href="/News/List/whjt">活动</a>
+
+                                <ul class="secmenu">
+                                        <li class="active"><a href="/News/List/whjt">文化讲堂</a></li>
+                                        <li class=""><a href="/News/List/jbjlb">简博俱乐部</a></li>
+                                        <li class=""><a href="/News/List/zyzzj">志愿者之家</a></li>
+                                        <li class=""><a href="/News/List/xxjjy">小小讲解员</a></li>
+                                </ul>
+                        </li>
+                        <li class="menu-learn ">
+                            <a href="/News/Details/cswj">学会</a>
+
+                                <ul class="secmenu">
+                                        <li class=""><a href="/News/Details/cswj">长沙简牍研究会</a></li>
+                                        <li class=""><a href="/News/Details/hnsbxsj">湖南省博协教育专委会</a></li>
+                                        <li class=""><a href="/News/Details/gjmqqbhjd">国家木漆器保护基地长沙工作站</a></li>
+                                        <li class=""><a href="/News/Details/ggyjy">故宫研究院长沙简牍研究中心</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/ArtGoods/List/ArtGoods">文创</a>
+
+                        </li>
+        </ul>
+        <div class="right">
+            <div class="status">
+                <span>
+                        <a href="http://appt.chinajiandu.cn/Account/Login">登录</a>
+                        <a href="http://appt.chinajiandu.cn/Account/Register" target="_blank">注册</a>
+                </span>
+                <span><a href="/Interaction/Leaveword">留言板</a></span>
+            </div>
+            <div class="searchbox">
+                <input type="text" id="txtKey"><i onclick="f_seachH();"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="channelno" value="whjt">
+<input type="hidden" id="channelname" value="文化讲堂">
+<input type="hidden" id="userid" value="0">
+<input type="hidden" id="username" value="访客">
+<script type="text/javascript">
+    function f_seachH() {
+        var text = $("#txtKey").val();
+        var url = "/Other/FullTextSearch?typeOther=ALL&text=" + text;
+        window.open(url);
+    }
+
+    //注销
+    function Logout() {
+        $.ajax({
+            url: '/AjaxAccount/LogOut',
+            type: 'POST',
+            success: function () {
+                location.reload();
+            }
+        });
+    }
+</script>
+        <div class="innercont">
+            <div class="allcenter clearfix">
+                <div class="innertitle">
+                    <h3 class="maintitle boldfont"><i></i>文化讲堂<i></i></h3>
+                        <a href="javascript:void();" class="back" onclick="javascript: history.back();">返回</a>
+                </div>
+                    <ul class="tempexhlist newslist">
+                            <li>
+                                <a href="/News/Details/whjt?nid=221">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">精神家园，百姓课堂 长沙市民文化遗产讲堂</h3>
+                                        <div class="detail">
+                                            <p>长沙市民文化遗产讲堂是长沙简牍博物馆自2008年6月开始推出的公益性知识讲座。已成功举办历史文化、宗教哲学、艺术民俗、文物鉴赏、文化遗产、非遗文化、时事政治等各类讲座140余场，现场听众超过...</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2018-06-11</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=740">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | 全国篆刻名家来长沙开讲了（10月12日-10月13日）</h3>
+                                        <div class="detail">
+                                            <p>为隆重庆祝中华人民共和国成立七十周年，展示当代篆刻艺术创作成果，推动湖南篆刻发展，扩大湖南篆刻文化知识普及，长沙简牍博物馆联合岳麓印社举办全国名家篆刻艺术系列讲座，系列讲座分别由著名书法篆刻...</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2019-10-14</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=855">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | 还原历史变迁，共享文化融合——简牍文化漫谈（9月21日）</h3>
+                                        <div class="detail">
+                                            <p>讲座时间：2019年9月21日10:00-12:00讲座地点：长沙简牍博物馆多功能厅主讲人：宋少华、雷长巍</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2019-09-23</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=854">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | “砖”心“砖”意——《华夏印记》展览汉砖专题文化沙龙（6月17日）</h3>
+                                        <div class="detail">
+                                            <p>6月17日晚，长沙简牍博物馆联合大涤艺术空间，策划举办了《华夏印记——砖瓦·简牍·钱币》展览配套文化沙龙——“砖心砖意——汉砖专题文化沙龙”，来自社会各界文化爱好者30余人参加。大涤艺术空间...</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2019-06-18</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=853">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | 说古代砖瓦（5月23日）</h3>
+                                        <div class="detail">
+                                            <p>讲座时间：2019年5月23日10:30讲座地点：长沙简牍博物馆《华夏印记》展厅主讲人：野云、林杰、王勇</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2019-05-24</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=848">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | 沧桑中国之宋元明清第四十四期（12月20日）</h3>
+                                        <div class="detail">
+                                            <p>讲座时间：2018年12月20日19:15-21:15讲座地点：长沙万代大酒店多功能厅主讲人：符笑汀</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2018-12-21</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=603">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | 沧桑中国之宋元明清第四十三期（12月13日）</h3>
+                                        <div class="detail">
+                                            <p>讲座地址：长沙万代大酒店7楼多功能厅讲座时间：2018年12月13日（周四）晚19：15-21:15秋瑾（1875年11月8日－1907年7月15日），女，中国女权和女学思想的倡导者 ，近代...</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2018-12-12</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=595">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | 沧桑中国之宋元明清第四十二期（12月6日）</h3>
+                                        <div class="detail">
+                                            <p>讲座时间：2018年12月6日（周四）晚19：15-21:15讲座地点：长沙万代大酒店7楼多功能厅1901年《辛丑条约》订立后，帝国主义列强加强了对中国的政治控制和经济掠夺，清政府则完全成为...</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2018-12-06</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=847">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | 沧桑中国之宋元明清第四十期（11月22日）</h3>
+                                        <div class="detail">
+                                            <p>讲座时间：2018年11月22日19:15-21:15讲座地点：长沙万代大酒店多功能厅主讲人：符笑汀</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2018-11-23</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/News/Details/whjt?nid=579">
+                                    <div class="cont">
+                                        <h3 class="ellipsis">市民讲堂 | 沧桑中国之宋元明清第三十九期（11月15日）</h3>
+                                        <div class="detail">
+                                            <p>讲座时间：2018年11月15日（周四）晚19：15-21:15讲座地点：长沙万代大酒店7楼多功能厅中日甲午战争（日本称：日清战争，朝鲜半岛称：清日战争，西方国家称：Sino-Japanes...</p>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <p>2018-11-14</p>
+                                        <i></i>
+                                    </div>
+                                </a>
+                            </li>
+                    </ul>
+
+                <div id="pager" class="digg">
+                    
+<!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+<ul class="pages" data-invalidpageerrmsg="Page index is invalid" data-outrangeerrmsg="Page index is out of range" data-pagecount="6" data-pageparameter="page" data-pagerid="Webdiyer.MvcPager" data-urlformat="/News/List/whjt?page=__page__" id="pager"><li class="disabled"><a disabled="disabled">首页</a></li><li class="disabled"><a disabled="disabled">上一页</a></li><li class="active"><a href="javascript:void();">1</a></li><li><a href="/News/List/whjt?page=2">2</a></li><li><a href="/News/List/whjt?page=3">3</a></li><li><a href="/News/List/whjt?page=4">4</a></li><li><a href="/News/List/whjt?page=5">5</a></li><li><a href="/News/List/whjt?page=6">...</a></li><li><a href="/News/List/whjt?page=2">下一页</a></li><li><a href="/News/List/whjt?page=6">尾页</a></li></ul>
+<!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://en.webdiyer.com)-->
+
+                </div>
+            </div>
+        </div>
+    <div class="footer clearfix">
+    <div class="allcenter">
+        <div class="share">
+            <div>
+                <a href="https://weibo.com/chinajiandu" target="_blank"><img src="http://www.chinajiandu.cn/Contents/Images/main/weibo.jpg" alt="微博"></a>
+            </div>
+            <div class="wechat">
+                <img src="http://www.chinajiandu.cn/Contents/Images/main/wechat.jpg" alt="微信">
+                <div class="imgbox"><img src="http://www.chinajiandu.cn/Contents/Images/main/wechat-code.jpg"></div>
+            </div>
+            <p>关注微博、微信公众号您的掌中博物馆<span style="display: none;">测试</span></p>
+        </div>
+        <div class="box">
+                <p>地址：长沙市天心区白沙路92号</p>
+                            <p>预约电话：0731-85425680 85425676</p>
+            <div class="friendlink">
+                <p id="link_name">友情链接</p>
+                <div class="arrow">&gt;</div>
+                <div class="opts" id="divLinks" style="display: none;"><a href="http://www.qinhan.org.cn/" target="_blank">秦汉文化网</a><a href="http://bamboo.lib.cuhk.edu.hk/" target="_blank">郭店楚简资料库</a><a href="http://www.tsinghua.edu.cn/publish/cetrp/index.html" target="_blank">清华大学出土文献研究与保护中心</a><a href="汉字发展与应用研究中心" target="_blank">复旦大学出土文献与古文字研究中心</a><a href="http://www.xianqin.org/" target="_blank">先秦史研究室</a><a href="http://hz.ahu.edu.cn/" target="_blank">汉字发展与应用研究中心</a><a href="http://www.bsm.org.cn/" target="_blank">武汉大学简帛网</a><a href="http://www.hnmuseum.com/" target="_blank">湖南省博物馆</a><a href="http://www.capitalmuseum.org.cn/" target="_blank">首都博物馆</a><a href="http://www.chnmuseum.cn/" target="_blank">国家博物馆</a><a href="http://www.dpm.org.cn/Home.html" target="_blank">故宫博物院</a><a href="http://www.wenwuchina.com/" target="_blank">中国文物网</a><a href="http://www.sarft.gov.cn/" target="_blank">国家新闻出版广电总局</a></div>
+            </div>
+            <p class="copyright">
+Copyright © 2019 长沙简牍博物馆.                                     <br>
+					<a href="http://beian.miit.gov.cn/" target="_blank" style="color:#a07c4c;">湘ICP备13001806号-1</a>
+				<span class="sydw">
+		<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/19/282/0000/60571989/CA192820000605719890001.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=277597CAF6FA47FCE053022819AC0FC5" target="_blank"><img id="imgConac" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1" vspace="0" hspace="0" border="0"></a></span><script src="http://dcs.conac.cn/js/19/282/0000/60571989/CA192820000605719890001.js" type="text/javascript"></script><span id="_ideConac"></span>
+		</span>
+            </p>
+        </div>
+        <ul class="foot-menu left clearfix">
+                        <li>
+                            <span><a href="/Survey/Index">概况</a><i>&gt;</i></span>
+                                <a class="twoline" href="/News/Details/bgjs">本馆简介</a>
+                                <a class="twoline" href="/News/Details/gzzc">馆长致辞</a>
+                                <a class="twoline" href="/News/Details/jgsz">机构设置</a>
+                                <a class="twoline" href="/News/Details/xswyh">学术委员会</a>
+                                <a class="twoline" href="/News/Details/dsj">大事记</a>
+                                <a class="twoline" href="/News/Details/bwgzc">博物馆章程</a>
+                                <a class="twoline" href="/News/Details/ryq">荣誉墙</a>
+                        </li>
+                        <li>
+                            <span><a href="/News/Index">资讯</a><i>&gt;</i></span>
+                                <a href="/News/List/zxgg">最新公告</a>
+                                <a href="/News/List/zxgs">馆务公示</a>
+                                <a href="/News/List/jbzx">简博资讯</a>
+                                <a href="/News/Details/fw">服务</a>
+                                <a href="/News/List/xjdt">学界动态</a>
+                                <a href="/News/List/djyd">党建园地</a>
+                        </li>
+                        <li>
+                            <span><a href="/Exhibition/Index">展览</a><i>&gt;</i></span>
+                                <a href="/Exhibition/BList/jbcl">基本陈列</a>
+                                <a href="/Exhibition/BList/wwtz">文物特展</a>
+                                <a href="/Exhibition/TList/lszl">临时展览</a>
+                                <a href="/Exhibition/TList/dwzl">对外展览</a>
+                        </li>
+                        <li>
+                            <span><a href="/Collection/List/wj">典藏</a><i>&gt;</i></span>
+                                <a href="/Collection/List/wj">吴简</a>
+                                <a href="/Collection/List/xhj">西汉简</a>
+                                <a href="/Collection/List/dhj">东汉简</a>
+                                <a href="/Collection/List/yym">渔阳墓出土文物</a>
+                        </li>
+                        <li>
+                            <span><a href="/News/List/xsyj">学术</a><i>&gt;</i></span>
+                                <a href="/News/List/xsyj">学术研究</a>
+                                <a href="/News/List/xsjl">学术交流</a>
+                                <a href="/Academic/BookList/xsqk">学术期刊</a>
+                                <a href="/News/List/wwbh">文物保护</a>
+                        </li>
+                        <li>
+                            <span><a href="/News/List/whjt">活动</a><i>&gt;</i></span>
+                                <a href="/News/List/whjt">文化讲堂</a>
+                                <a href="/News/List/jbjlb">简博俱乐部</a>
+                                <a href="/News/List/zyzzj">志愿者之家</a>
+                                <a href="/News/List/xxjjy">小小讲解员</a>
+                        </li>
+                        <li>
+                            <span><a href="/News/Details/cswj">学会</a><i>&gt;</i></span>
+                                <a class="twoline" href="/News/Details/cswj">长沙简牍研究会</a>
+                                <a class="twoline" href="/News/Details/hnsbxsj">湖南省博协教育专委会</a>
+                                <a class="twoline" href="/News/Details/gjmqqbhjd">国家木漆器保护基地长沙工作站</a>
+                                <a class="twoline" href="/News/Details/ggyjy">故宫研究院长沙简牍研究中心</a>
+                        </li>
+                        <li>
+                            <span><a href="/ArtGoods/List/ArtGoods">文创</a><i>&gt;</i></span>
+                        </li>
+        </ul>
+		
+    </div>
+</div>
+<script type="text/javascript">
+    $(".friendlink").on("click", function (e) {
+        e.stopPropagation();
+        var arrow = $(".friendlink .arrow");
+        var opts = $(".friendlink .opts");
+        if (arrow.hasClass("active")) {
+            arrow.removeClass("active");
+            opts.hide();
+        } else {
+            arrow.addClass("active");
+            opts.show();
+            $(document).one("click", function () {
+                arrow.removeClass("active");
+                opts.hide();
+            });
+        }
+    });
+    $(function () {
+        if ($.browser.msie && parseInt($.browser.version) === 8) {
+            $(".foot-menu > li:nth-child(2n)").css("width", "460px");
+        }
+
+        f_getLink();
+    });
+
+    //获取友情链接
+    function f_getLink() {
+        $.ajax({
+            url: "/AjaxCommon/GetLinks",
+            type: "POST",
+            datatype: "json",
+            success: function (jdata) {
+                var strHtml = '';
+                for (var i = 0; i < jdata.data.length; i++) {
+                    strHtml += '<a href="' + (jdata.data[i].LinkUrl == null ? "" : jdata.data[i].LinkUrl) + '" target="_blank">' + jdata.data[i].Title + '</a>';
+                }
+                $("#divLinks").html(strHtml);
+            }
+        });
+    }
+</script>
+
+
+
+<script type="text/javascript">
+    changeSize(".tempexhlist li .imgstyle");
+</script></body></html>

@@ -1,0 +1,197 @@
+<html class=""><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title>九一八历史博物馆</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+  <!--[if IE]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <link rel="shortcut icon" href="/museum/views/default/resource/images/favicon.ico">
+    <link href="/museum/views/default/resource/css/normalize.min.css" rel="stylesheet">
+    <link href="/museum/views/default/resource/css/style.min.css" rel="stylesheet">
+       <!--[if lt IE 9]>
+        <script src="/museum/views/default/resource/js/speedup.js" type="text/javascript"></script>
+        <script src="/museum/views/default/resource/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+        <script src="/museum/views/default/resource/js/jquery-2.1.4.min.js" type="text/javascript"></script><!--<![endif]-->
+
+     
+   
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+
+<body>
+    <div class="row banner">
+    <div style="height:152px;position: relative">
+        <div id="flashContent" style="margin-top:0px;text-align: center;z-index:999">
+            <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/
+swflash.cab#version=9,0,28,0" z-index="0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1100" height="280">
+                <param name="movie" value="/museum/views/default/resource/swf/top03281.swf">
+                <param name="quality" value="high">
+                <param name="wmode" value="transparent">
+                <embed pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" src="/museum/views/default/resource/swf/top03281.swf" type="application/x-shockwave-flash" wmode="Transparent" quality="high" width="1100" height="280">
+            </object>
+        </div>
+        <div class="search-form" style="position: relative;z-index:1000;">
+            <div><a href="/index.php"><span>中文</span></a>|<a href="/index.php/article/listarticle/pid/222/rel/tabs/sidebar/sidebar"><span>English</span></a>|<a href="/index.php/article/listarticle/pid/224/rel/tabs/sidebar/sidebar"><span>日本語</span></a></div>
+            <form action="/index.php/search/index" method="post">
+                 <div class="right">
+                    <input type="text" name="title" value="">
+                    <input type="submit" value="搜索">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <div class="menu row ">
+        <div id="menu">
+            <ul class="sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;"><li class=""><a href="/index.php/index/index" target="_self">首页</a></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">馆情纵览</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/103/rel/detail/sidebar/sidebar" target="_self">馆长致辞</a></li><li class=""><a href="/index.php/article/listarticle/pid/104/rel/detail/sidebar/sidebar" target="_self">场馆简介</a></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">组织机构</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/107/rel/detail/sidebar/sidebar" target="_self">领导班子</a></li><li class=""><a href="/index.php/article/listarticle/pid/108/rel/detail/sidebar/sidebar" target="_self">部门设置</a></li><li class=""><a href="/index.php/article/listarticle/pid/233/rel/list/sidebar/sidebar" target="_self">章程制度</a></li></ul></li><li class=""><a href="/index.php/article/listarticle/pid/109/rel/timeline/sidebar/sidebar" target="_self">大事记</a></li></ul></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">资讯快报</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/111/rel/list/sidebar/sidebar" target="_self">工作动态</a></li><li class=""><a href="/index.php/article/listarticle/pid/112/rel/null/sidebar/sidebar" target="_self">媒体报道</a></li><li class=""><a href="/index.php/article/listarticle/pid/113/rel/null/sidebar/sidebar" target="_self">时事要闻</a></li><li class=""><a href="/index.php/article/listarticle/pid/115/rel/thumb/sidebar/sidebar" target="_self">视频播报</a></li></ul></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">陈列展馆</a><ul style="display: none;"><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">基本陈列</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/195/rel/thumb/sidebar/sidebar" target="_self">九一八历史陈列</a></li><li class=""><a href="/index.php/quanjing/index" target="_self">数字展馆</a></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">儿童体验馆</a><ul style="display: none;"><li class=""><a href="/index.php/et/index" target="_blank">全景展示</a></li><li class=""><a href="/index.php/article/listarticle/pid/230/rel/null/sidebar/sidebar" target="_self">简介</a></li></ul></li></ul></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">专题展览</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/194/rel/thumb/sidebar/sidebar" target="_self">展览回顾</a></li><li class=""><a href="/index.php/article/listarticle/pid/118/rel/media/sidebar/sidebar" target="_self">现在展览</a></li><li class=""><a href="/index.php/article/listarticle/pid/121/rel/thumb/sidebar/sidebar" target="_self">输出展览</a></li><li class=""><a href="/index.php/hr/index" target="_blank">《中国东北的韩人抗日斗争》全景展示</a></li><li class=""><a href="/index.php/bd/index" target="_blank">宝岛烽火</a></li></ul></li></ul></li><li class="active"><a href="javascript:void(0);" target="_self" class="sf-with-ul">文物典藏</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/125/rel/detail/sidebar/sidebar" target="_self">收藏概述</a></li><li class=""><a href="/index.php/article/listarticle/pid/126/rel/thumb/sidebar/sidebar" target="_self">重要藏品</a></li><li class=""><a href="/index.php/article/listarticle/pid/127/rel/thumb/sidebar/sidebar" target="_self">珍贵史料</a></li><li class=""><a href="/index.php/article/listarticle/pid/128/rel/thumb/sidebar/sidebar" target="_self">艺术作品</a></li><li class=""><a href="/index.php/article/listarticle/pid/130/rel/null/sidebar/sidebar" target="_self">文物捐赠</a></li><li class=""><a href="/index.php/article/listarticle/pid/131/rel/detail/sidebar/sidebar" target="_self">文物常识</a></li><li class=""><a href="/index.php/article/listarticle/pid/129/rel/detail/sidebar/sidebar" target="_self">征集公告</a></li></ul></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">学术研究</a><ul style="display: none;"><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">研究机构</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/135/rel/tabs/sidebar/sidebar" target="_self">九一八研究中心</a></li><li class=""><a href="/index.php/article/listarticle/pid/136/rel/tabs/sidebar/sidebar" target="_self">二战盟军战俘研究中心</a></li><li class=""><a href="/index.php/article/listarticle/pid/137/rel/tabs/sidebar/sidebar" target="_self">学术委员会</a></li></ul></li><li class=""><a href="/index.php/article/listarticle/pid/138/rel/thumb/sidebar/sidebar" target="_self">专家学者</a></li><li class=""><a href="/index.php/article/listarticle/pid/139/rel/null/sidebar/sidebar" target="_self">学术论坛</a></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">学术成果</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/142/rel/thumb/sidebar/sidebar" target="_blank">馆刊</a></li><li class=""><a href="/index.php/article/listarticle/pid/143/rel/thumb/sidebar/sidebar" target="_self">“九一八”研究</a></li><li class=""><a href="/index.php/article/listarticle/pid/141/rel/thumb/sidebar/sidebar" target="_self">学术专著</a></li><li class=""><a href="/index.php/article/listarticle/pid/238/rel/null/sidebar/sidebar" target="_self">学术信息</a></li></ul></li><li class=""><a href="/index.php/article/listarticle/pid/237/rel/null/sidebar/sidebar" target="_self">科研服务</a></li></ul></li><li class="dangxing"><a href="/index.php/dangjian/index" target="_blank">党性教育</a></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">宣传教育</a><ul style="display: none;"><li class=""><a href="/index.php/education/mingjingList/sidebar/sidebar/pid/198" target="_self">勿忘九一八撞钟鸣警仪式</a></li><li class=""><a href="/index.php/article/listarticle/pid/234/rel/list/sidebar/sidebar" target="_self">网络教育</a></li><li class=""><a href="/index.php/article/listarticle/pid/152/rel/detail/sidebar/sidebar" target="_self">主题活动</a></li><li class=""><a href="/index.php/article/listarticle/pid/153/rel/detail/sidebar/sidebar" target="_self">送展大篷车</a></li><li class=""><a href="/index.php/article/listarticle/pid/154/rel/detail/sidebar/sidebar" target="_self">抗战大讲堂</a></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">辽海讲坛-爱国讲座</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/156/rel/detail/sidebar/sidebar" target="_self">预告</a></li><li class=""><a href="/index.php/article/listarticle/pid/158/rel/detail/sidebar/sidebar" target="_self">讲座介绍</a></li><li class=""><a href="/index.php/article/listarticle/pid/157/rel/detail/sidebar/sidebar" target="_self">讲座风采</a></li></ul></li><li class=""><a href="/index.php/article/listarticle/pid/167/rel/null/sidebar/sidebar" target="_self">社会共建</a></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">志愿者服务</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/207/rel/tabs/sidebar/sidebar" target="_self">志愿者管理办法</a></li><li class=""><a href="/index.php/article/listarticle/pid/160/rel/null/sidebar/sidebar" target="_self">志愿者风采</a></li></ul></li><li class=""><a href="/index.php/article/listarticle/pid/166/rel/null/sidebar/sidebar" target="_self">博物馆之友</a></li></ul></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">抗战历史</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/148/rel/thumb/sidebar/sidebar" target="_self">东北抗战英烈</a></li><li class=""><a href="/index.php/article/listarticle/pid/149/rel/null/sidebar/sidebar" target="_self">东北抗战故事</a></li><li class=""><a href="/index.php/article/listarticle/pid/145/rel/tablist/sidebar/sidebar" target="_self">东北史实真相</a></li><li class=""><a href="/index.php/article/listarticle/pid/182/rel/null/sidebar/sidebar" target="_self">东北抗战文学</a></li><li class=""><a href="/index.php/music/index/sidebar/sidebar" target="_self">抗战歌曲</a></li><li class=""><a href="/index.php/article/listarticle/pid/181/rel/thumb/sidebar/sidebar" target="_self">抗战影片</a></li><li class=""><a href="/index.php/article/listarticle/pid/150/rel/null/sidebar/sidebar" target="_self">亲历亲证</a></li></ul></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">分馆介绍</a><ul style="display: none;"><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">沈阳二战盟军战俘营旧址陈列馆</a><ul style="display: none;"><li class="zfy"><a href="/index.php/article/listarticle/pid/201/rel/detail/sidebar/sidebar" target="_self">简介</a></li><li class=""><a href="/index.php/article/listarticle/pid/227/rel/list/sidebar/sidebar" target="_self">馆情动态</a></li><li class=""><a href="/index.php/article/listarticle/pid/235/rel/null/sidebar/sidebar" target="_self">视频动态</a></li><li class=""><a href="/index.php/article/listarticle/pid/220/rel/detail/sidebar/sidebar" target="_self">参观服务</a></li><li class="zfy"><a href="/index.php/article/listarticle/pid/196/rel/thumb/sidebar/sidebar" target="_self">基本陈列</a></li><li class="zfy"><a href="/index.php/article/listarticle/pid/204/rel/thumb/sidebar/sidebar" target="_self">历史人物</a></li><li class="zfy"><a href="/index.php/article/listarticle/pid/205/rel/list/sidebar/sidebar" target="_self">重大事件</a></li><li class=""><a href="/index.php/article/listarticle/pid/218/rel/tabs/sidebar/sidebar" target="_self">老兵名单</a></li><li class="zfy"><a href="/index.php/article/listarticle/pid/203/rel/tabs/sidebar/sidebar" target="_self">老兵回访</a></li></ul></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">沈阳审判日本战犯法庭旧址陈列馆</a><ul style="display: none;"><li class="spft"><a href="/index.php/article/listarticle/pid/199/rel/detail/sidebar/sidebar" target="_self">简介</a></li><li class=""><a href="/index.php/article/listarticle/pid/225/rel/list/sidebar/sidebar" target="_self">馆情动态</a></li><li class=""><a href="/index.php/article/listarticle/pid/236/rel/null/sidebar/sidebar" target="_self">视频动态</a></li><li class=""><a href="/index.php/article/listarticle/pid/219/rel/detail/sidebar/sidebar" target="_self">参观服务</a></li><li class="spft"><a href="/index.php/article/listarticle/pid/197/rel/thumb/sidebar/sidebar" target="_self">基本陈列</a></li><li class="spft"><a href="/index.php/article/listarticle/pid/147/rel/thumb/sidebar/sidebar" target="_self">历史人物</a></li><li class="spft"><a href="/index.php/article/listarticle/pid/146/rel/null/sidebar/sidebar" target="_self">重大事件</a></li><li class="zfy"><a href="/index.php/article/listarticle/pid/228/rel/tabs/sidebar/sidebar" target="_self">战犯笔录</a></li></ul></li></ul></li><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">公共服务</a><ul style="display: none;"><li class=""><a href="javascript:void(0);" target="_self" class="sf-with-ul">参观服务</a><ul style="display: none;"><li class=""><a href="/index.php/article/listarticle/pid/171/rel/detail/sidebar/sidebar" target="_self">参观须知</a></li><li class=""><a href="/index.php/article/listarticle/pid/170/rel/detail/sidebar/sidebar" target="_self">开放时间</a></li><li class=""><a href="/index.php/article/listarticle/pid/169/rel/detail/sidebar/sidebar" target="_self">场馆分布</a></li><li class=""><a href="/index.php/article/listarticle/pid/176/rel/detail/sidebar/sidebar" target="_self">交通地理</a></li><li class=""><a href="/index.php/article/listarticle/pid/174/rel/detail/sidebar/sidebar" target="_self">预约服务</a></li></ul></li><li class=""><a href="/index.php/article/listarticle/pid/208/rel/detail/sidebar/sidebar" target="_self">文创产品</a></li></ul></li><li class=""><a href="/index.php/memorial/index" target="_self">网上纪念</a></li></ul>
+        </div>
+</div>
+<script src="/museum/views/default/resource/K/js/plugin/superfish/js/superfish.min.js"></script>
+<script type="text/javascript">
+    $('ul.sf-menu').superfish({
+        hoverClass: 'sfHover', //当鼠标掠过时的class
+        // pathClass: 'overideThisToUse', // 激活的菜单项的class
+        pathLevels: 3,    // 菜单级数
+        delay: 100,    // 下拉菜单在鼠标离开时自动隐藏时间。默认是800毫秒
+        animation:   {opacity:'show'}, // 动画效果，参考Jquery的动画jQuery's .animate()
+        speed: 'normal',  // 动画速度， 参考Jquery的动画jQuery's .animate()
+        dropShadows: false   // 阴影效果，关闭用‘false'
+        //  onInit: function (){},  // 初始化的回调函数
+        //  onBeforeShow: function (){}, // 子菜单显示前回调函数
+        //   onShow: function (){}, // 子菜单显示时回调函数
+        //   onHide: function (){}  // 子菜单隐藏时回调函数
+    });
+</script>
+    <div class="bg">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="content">
+                    <div class="mypanel second">
+                        <div class="mypanel-title"> <ul class="breadcrumb"><span>当前位置：</span> <li><a href="/index.php/article/listarticle/pid/126/rel/">文物典藏</a></li><li class="active">重要藏品</li></ul></div>
+                                                            <div class="mypanel-content row museum ">
+                                                                        <div class="row  article" id="article">
+                                            <a class="topmenu" href="/index.php/article/listarticle/pid/126/rel/list/sidebar/sidebar">返回目录</a>
+
+                                        <div class="article_title">
+    抗日战争时期日军望远镜
+</div>
+<div class="article_setitle">
+    <span>【发布日期：2016-09-21 15:16:43】【</span><span>浏览次数：1598】</span>
+</div>
+
+                                        <div class="article_content">
+                                            <div style="display: block;padding:10px;">
+                                                <div class="row">
+                                                    <div class="bx-wrapper" style="max-width: 250px;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative;"><div class="bx-loading"></div><ul id="marquee" style="height: 240px; overflow: hidden; margin: 0px auto; width: 315%; position: relative;">
+                                                                                                                    <li style="float: left; list-style: outside none none; position: relative; width: 240px; margin-right: 6px;"><a href="/public/uploads/images/2016/09/21/20160921151615591g.jpg" class="fancybox" rel="pics" style="display:block;text-align: center"> <img src="/public//uploads/images/2016/09/21/20160921151615591g.jpg" alt="" style="height:200px;margin:0 auto;"></a>
+                                                            </li>
+                                                                                                            </ul></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link">1</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="article_content" style="border: none">
+                                                <p>长9.5厘米。望远镜是战争中必备之物，是军官指挥权力的象征。1945年日本投降时，侵华日军冈村宁次在交出手枪、军刀的同时，还被中国方面要求交出望远镜，可见望远镜在军中的地位十分重要。</p>
+
+                                                <div class="clear"></div>
+                                            </div>
+
+                                            <div class="row clearfix prev">
+                                                                                                    <span> 上一篇：<a href="/index.php/article/detail/uuid/15ab0116-25e8-4cc6-bc0e-e79fd930e3cf/sidebar/sidebar">
+                                                            日俄战争时期日本制“旅顺纪念”银碟</a></span>
+                                                                                                    </div>
+                                            <div class="row clearfix next">
+                                                                                                    <span> 下一篇：<a href="/index.php/article/detail/uuid/e4c0704d-31be-4136-ab75-8279e7d29892/sidebar/sidebar">
+                                                            抗日战争时期“关东军司令官梅津美治郎视察纪念”木塔</a></span>
+                                                                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar">
+                                                            <div class="mypanel">
+    <div class="mypanel-title"><span class="panel-title">工作动态</span><a class="/index.php/article/listarticle/pid/111/rel/list/sidebar/sidebar"><span class="panel-more">更多&gt;&gt;</span></a></div>
+    <div class="mypanel-content">
+        <div class="gzdt">正在载入中。。。</div>
+    </div>
+</div>
+<div class="mypanel">
+    <div class="mypanel-title"><span class="panel-title">时事要闻</span><a class="/index.php/article/listarticle/pid/113/rel/null/sidebar/sidebar}"><span class="panel-more">更多&gt;&gt;</span></a></div>
+    <div class="mypanel-content">
+        <div class="xwdt">正在载入中。。。</div>
+
+
+    </div>
+</div>
+<div class="mypanel spbbside">
+    <div class="mypanel-title"><span class="panel-title">视频播报</span><a href="article/listarticle/pid/115/rel/thumb/sidebar/sidebar"><span class="panel-more">更多&gt;&gt;</span></a></div>
+    <div class="mypanel-content">
+        <div class="spbbdiv">正在载入中。。。</div>
+    </div>
+</div>
+<script type="text/javascript">
+        jQuery(".gzdt").load('/index.php/article_sidebar/gzdt');
+        jQuery(".xwdt").load('/index.php/article_sidebar/xwdt');
+        jQuery(".spbbdiv").load('/index.php/article_sidebar/spbb');
+</script>
+
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix row">
+    <div class="footer" style="text-align: center;color: #ffffff;">
+        <p>版权所有：沈阳“九·一八”历史博物馆@2015-2016 CopyRight All Right Reserved. <a href="http://www.beian.miit.gov.cn">辽ICP备10003323号-1</a></p>
+        <p>地址：辽宁省沈阳市大东区望花南街46号 邮政编码：110044
+        </p>
+        <p>024-88331017 Email:918bgs@163.com</p>
+        <p align="center"><a href="http://bszs.conac.cn/sitename?method=show&amp;id=12A19E112DBA6492E053022819AC27FC"><img src="/museum/views/default/resource/images/blue.png"> </a>
+        </p>
+       
+       
+    </div>
+</div>
+
+            
+            <link href="/museum/views/default/resource/K/js/plugin/tocible/jquery.tocible.css" type="text/css" rel="stylesheet">
+            <script src="/museum/views/default/resource/K/js/plugin/tocible/jquery.tocible.min.js"></script>
+            <link href="/museum/views/default/resource/K/js/plugin/bxslider/bxslider.css" type="text/css" rel="stylesheet">
+            <script src="/museum/views/default/resource/K/js/plugin/bxslider/bxslider.min.js"></script>
+            <link href="/museum/views/default/resource/K/js/plugin/fancybox/jquery.fancybox.css" type="text/css" rel="stylesheet">
+            <script src="/museum/views/default/resource/K/js/plugin/fancybox/jquery.fancybox.pack.js"></script>
+
+            <script type="text/javascript">
+                jQuery('#marquee').bxSlider({
+                    slideWidth: 250,
+                    minSlides: 1,
+                    maxSlides: 1,
+                    moveSlides: 1,
+                    slideMargin: 6,
+                    //mode:'vertical', //默认的是水平
+                    displaySlideQty: 1, //显示li的个数
+                    moveSlideQty: 1, //移动li的个数
+                    captions: true, //自动控制
+                    auto: true,
+                    controls: true, //隐藏左右按钮
+                    autoHover: true
+                });
+                jQuery(document).ready(function ($) {
+                    $(".fancybox").fancybox({
+                        openEffect: 'none',
+                        closeEffect: 'none',
+
+                        helpers: {
+                            title: {
+                                type: 'inside'
+                            }
+                        }
+                    });
+                });
+            </script>
+            </body></html>

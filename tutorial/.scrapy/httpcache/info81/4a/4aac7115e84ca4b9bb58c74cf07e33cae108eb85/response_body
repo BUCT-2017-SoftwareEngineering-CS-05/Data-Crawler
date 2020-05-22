@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>藏品</title>
+<meta name="Keywords" content="" />
+<meta name="Description"  content="" />
+<link rel="stylesheet" type="text/css" href="/skin/default/css/style.css">
+<script type="text/javascript" src="/skin/default/js/koala.min.1.5.js"></script>
+<script type="text/javascript" src="/skin/default/js/jquery-1.4.2.min.js"></script>
+</head>
+
+<body>
+<!-----head----->
+<style type="text/css">
+    #gongao{width:650px;height:50px;overflow:hidden;line-height:50px;font-size:16px;font-family:'Microsoft YaHei';color:#DD2936;float: left;}
+    #gongao #scroll_begin, #gongao #scroll_end{display:inline}
+</style>
+<script type="text/javascript">
+    function ScrollImgLeft(){
+        var speed=50;
+        var scroll_begin = document.getElementById("scroll_begin");
+        var scroll_end = document.getElementById("scroll_end");
+        var scroll_div = document.getElementById("scroll_div");
+        scroll_end.innerHTML=scroll_begin.innerHTML;
+        function Marquee(){
+            if(scroll_end.offsetWidth-scroll_div.scrollLeft<=0)
+                scroll_div.scrollLeft-=scroll_begin.offsetWidth;
+            else
+                scroll_div.scrollLeft++;
+        }
+        var MyMar=setInterval(Marquee,speed);
+        scroll_div.onmouseover=function() {clearInterval(MyMar);}
+        scroll_div.onmouseout=function() {MyMar=setInterval(Marquee,speed);}
+    }
+</script>
+<div class="yk_top" style="height:80px;">
+    <!-----导航----->
+    <div class="daohang">
+        <ul>
+            <li><a href="/yk/">首页</a></li>
+            <li><a href="/yk/tongzhi/">通知</a></li>
+
+            <li><a href="/yk/zhanlan/">展览</a>
+                <ul>
+                    <li><a href="/yk/zhanlan/badachenlie/">常设展览</a></li><li><a href="/yk/zhanlan/linshizhanlan/">特设展览</a></li><li><a href="/yk/zhanlan/zuixinzhanlan/">交流展览</a></li>                </ul>
+            </li>
+            <li><a href="/yk/cangpin/">藏品</a>
+                <ul>
+                    <li><a href="/Jingzhou_VR/TourWeaver_jingzhouVR.html">虚拟展厅</a></li><li><a href="/yk/cangpin/guobaoxinshang/">国宝欣赏</a></li>                </ul>
+            </li>
+            <li><a href="/yk/fuwu/">服务</a>
+                <ul>
+                    <li><a href="/yk/fuwu/lvyoushangdian/">旅游商店</a></li><li><a href="/yk/fuwu/chuyuechuwu/">楚乐楚舞</a></li>                </ul>
+            </li>
+            <li><a href="/yk/zhishi/">知识</a>
+                <ul>
+                    <li><a href="/yk/zhishi/lishizhishi/">历史知识</a></li><li><a href="/yk/zhishi/wenwuzhishi/">文物知识</a></li>                </ul>
+            </li>
+            <li><a href="/yk/huodong1/">活动</a></li>
+            <li><a href="/yk/yingxiang/">映像</a></li>
+        </ul>
+    </div>
+
+    <div class="head_l mt"><img src="/skin/default/images/logo.png" width="223" height="54" /></div>
+</div>
+<!-----head----->
+
+<!-----导航----->
+<div class="yk_dh">
+    <div class="yk_top">
+
+        <div class="tongzhi">通知：</div>
+        <div id="gongao">
+            <div style="width:650px;height:50px;margin:0 auto;white-space: nowrap;overflow:hidden;" id="scroll_div" class="scroll_div">
+                <div id="scroll_begin" class="scroll_begin">
+                    <script>
+                        document.write("<script type='text/javascript' src='/d/js/js/1499241230.js?t="+Math.random()+"'><"+"/script>");
+                    </script>
+                </div>
+                <div id="scroll_end"></div>
+            </div>
+            <script type="text/javascript">ScrollImgLeft();</script>
+        </div>
+
+        <div class="yk_r"><a href="/yw/">业务版首页→</a></div>
+        <div class="dh_ss">
+            <form name="searchform" method="post" action="/e/search/index.php">
+                <input type="hidden" name="show" value="title,smalltext">
+                <input name="keyboard" class="ss" type="text" placeholder="请输入标题关键字"/>
+                <input name="Submit" type="image" src="/skin/default/images/ss.png" />
+            </form>
+        </div>
+
+
+    </div>
+</div>
+<!-----导航----->
+
+
+
+<div class="lb_mav">
+   <!--右边-->
+      <div class="tz_r" style="background:url(/images/22222.jpg) no-repeat top center;">
+        <ul>
+         <div class="tz_r_first">
+           <div class="tz_r_first_up">藏品</div>
+           <ul class="xwdt">
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/923.html" title="越王州勾剑">越王州勾剑</a></LI>
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/924.html" title="铜簋">铜簋</a></LI>
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/925.html" title="铜大口尊">铜大口尊</a></LI>
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/927.html" title="铜人骑骆驼灯">铜人骑骆驼灯</a></LI>
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/933.html" title="铜虎子">铜虎子</a></LI>
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/992.html" title="“兵辟太岁”戈">“兵辟太岁”戈</a></LI>
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/993.html" title="铜虎尊">铜虎尊</a></LI>
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/994.html" title="铜鼎">铜鼎</a></LI>
+               
+               <LI><span>[2009-08-19]</span>· <a href="/yk/cangpin/guobaoxinshang/qingtongqi/2017-08-21/997.html" title="铜提梁壶">铜提梁壶</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/913.html" title="青瓷荷叶盖罐">青瓷荷叶盖罐</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/914.html" title="彩陶碗&nbsp;">彩陶碗&nbsp;</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/915.html" title="彩陶器座">彩陶器座</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/916.html" title="彩陶纺轮">彩陶纺轮</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/917.html" title="陶塑动物之一陶狗、陶猴">陶塑动物之一陶狗、陶猴</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/918.html" title="陶人&nbsp;">陶人&nbsp;</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/shiqi/2017-08-21/926.html" title="尖状器">尖状器</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/shiqi/2017-08-21/928.html" title="尖状器（旧石器时代&nbsp;&nbsp;荆州鸡公山遗址出土）">尖状器（旧石器时代&nbsp;&nbsp;荆州鸡公山遗址出土）</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/shiqi/2017-08-21/929.html" title="砍砸器（旧石器时代&nbsp;&nbsp;荆州鸡公山遗址出土）">砍砸器（旧石器时代&nbsp;&nbsp;荆州鸡公山遗址出土）</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/shiqi/2017-08-21/930.html" title="石钺">石钺</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/shiqi/2017-08-21/931.html" title="石刀">石刀</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/shiqi/2017-08-21/932.html" title="石钺">石钺</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/950.html" title="陶塑动物之二陶鸟">陶塑动物之二陶鸟</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/951.html" title="陶塑动物之三陶象">陶塑动物之三陶象</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/952.html" title="刻符陶臼（石家河文化）">刻符陶臼（石家河文化）</a></LI>
+               
+               <LI><span>[2009-08-05]</span>· <a href="/yk/cangpin/guobaoxinshang/taociqi/2017-08-21/959.html" title="陶盘（石家河文化）">陶盘（石家河文化）</a></LI>
+               
+           </ul>
+           
+           <div class="fy"><a title="Total record">&nbsp;<b>56</b> </a>&nbsp;&nbsp;&nbsp;<b>1</b>&nbsp;<a href="/yk/cangpin/index_2.html">2</a>&nbsp;<a href="/yk/cangpin/index_3.html">3</a>&nbsp;<a href="/yk/cangpin/index_2.html">下一页</a>&nbsp;<a href="/yk/cangpin/index_3.html">尾页</a></div>
+         </div>
+        </ul>
+      </div>
+      <!--右边-->
+      
+      <!--左边-->
+      <div class="jyzn_l">
+        <div class="jyzn_l_up">藏品</div>
+         <ul>
+             <li><a href="/Jingzhou_VR/TourWeaver_jingzhouVR.html">虚拟展厅</a></li><li><a href="/yk/cangpin/guobaoxinshang/">国宝欣赏</a></li>         </ul>
+      </div>
+     <!--左边-->
+</div>
+
+
+
+
+<!---------foot--------->
+<div class="yk_foot">
+    <div class="yk_top">
+    <div style="line-height:13px;">&nbsp;</div>
+        <center><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="80" align="left"><img src="/skin/default/images/b.png" width="52" height="64" /></td>
+    <td align="left" valign="middle">免费开放时间（节假日不闭馆） 周二至周日上午 9:00 开馆 16:00 停止发票 17:00 闭馆 周一闭馆<br />
+      主办：荆州博物馆  地址：湖北省荆州市荆中路166号  邮编：434020  电话：0716-8494808  传真：0716-8496338  E-mail:22296754@qq.com  鄂ICP备13013709号-1</td>
+  </tr>
+</table></center>
+
+    </div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?100c0cff8779ab49d58212d82a9ea66c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!---------foot--------->
+
+</body>
+</html>

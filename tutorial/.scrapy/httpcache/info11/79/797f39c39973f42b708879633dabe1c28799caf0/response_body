@@ -1,0 +1,1208 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link type="text/css" rel="stylesheet" href="../../../images/base_v2018.css">
+	<link type="text/css" rel="stylesheet" href="../../../images/zhanlan_gb2018.css">
+	<link href="../../../images/dropdown.css" rel="stylesheet" type="text/css">
+	<script src="https://hm.baidu.com/hm.js?d8512e191052092ef1dd135588660448"></script><script src="../../../images/jquery-1.12.4.min.js"></script>
+	<script src="../../../images/dropdown.js"></script>
+	<script src="../../../images/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="../../../images/jquery.nicescroll.js"></script>
+	<script src="../../../images/jquery.xdomainrequest.min.js"></script>
+
+	<title>藏品分类</title>
+
+
+	<script type="text/javascript">
+
+
+
+	function getParameter(param){  
+									var query = window.location.search; 
+									var iLen = param.length;
+									var iStart = query.indexOf(param); 
+									if (iStart == -1) 
+										return "";  
+									iStart += iLen + 1;  
+									var iEnd = query.indexOf("&", iStart);  
+									if (iEnd == -1)  
+										return query.substring(iStart);  
+									return query.substring(iStart, iEnd);
+								}
+
+
+
+
+
+					//控制检索范围的字段
+					var chnlslimit = "73";
+					//分类检索的固定字段
+					var chnls="73";
+					var SearchScope ="DOCTITLE";
+					var TimeScope = null;
+					var SortOrder = "+RELEVANCE";
+					var SearchWord =null;
+					//开始查询的位置 以0为开始
+					var PageNum =1;
+					var PageSize =20;
+					//文章数量
+					var recordCount=0;
+					//藏品分类，0为所有
+					var cutsize=200;
+					//检索花费时间
+					var spendTime=1;
+					var classification="";
+					var niandai='';
+					var zhidi='';
+					var pinlei='';
+					var notchnls=null
+					var wwfl=getParameter("wwfl");//文物分类
+					var xsfl="";//下属分类
+					
+				function searchStart(value) {
+				  var PageNum =1;
+							  SearchWord =null;
+					var values = value.split('=');
+				if("PageNum"==values[0]){
+						PageNum=values[1];
+					}else if("xsfl"==values[0]){
+					xsfl=values[1];
+					}else{
+					}
+				
+				  
+					//分类chnls需要的栏目id
+					
+					if($("#niandai").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')!="" && $("#niandai").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')){
+					classification+=$("#niandai").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')+",";
+					}
+					if($("#pinlei").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')!="" && $("#pinlei").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')){
+					classification+=$("#pinlei").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')+",";
+					}
+					if($("#zhidi").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')!="" && $("#zhidi").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')){
+					classification+=$("#zhidi").next('.cz-dropbox').find('.cz-dropbox-input').attr('value')+",";
+					}
+					classification+=wwfl;
+					if(xsfl!=""){
+					classification+=","+xsfl;
+					}
+					SearchWord=$("#word").val()
+									
+					 if(classification == ''){
+						classification = '0'
+					 }    
+
+					if(SearchWord==null||SearchWord==""||SearchWord=="请输入藏品关键词"){
+					SearchWord='';
+					}
+						$.ajax({
+						url: "/SearchAll",
+						data: {
+							//控制检索范围的字段
+							"chnlslimit" :chnlslimit,
+							//检索范围
+							"SearchScope": SearchScope,
+							//时间范围
+							"TimeScope": TimeScope,
+							//排列方式
+							"SortOrder": SortOrder,
+							//检索词
+							"SearchWord": SearchWord,
+							//显示多少条
+							"PageSize": PageSize,
+							//第几页
+							"PageNum":PageNum,
+							//分类检索固定字段
+							"chnls":chnls,
+							"classification":classification,
+							 "cutsize":cutsize,
+							 "notchnls":notchnls
+						},
+						success: function(value) {
+							
+							
+							var t="";
+							
+							var j= eval('(' + value + ')');
+							
+							
+							var ulHtml="";
+							for(var i = 0; i < j.length; i++) {
+							
+								
+								ulHtml+='<li><dl>';
+								
+								ulHtml+='<dt><a  target="_blank"   href="'+j[i]["dOCPUBURL"]+'" title="'+j[i]['dOCTITLE']+'"><img src="'+j[i]["slt"]+'" alt="" /></a></dt><dd><a  target="_blank"   href="'+j[i]["dOCPUBURL"]+'" title="'+j[i]['dOCTITLE']+'">';
+							   
+							   
+								if(j[i]["nd"]==undefined||j[i]["nd"]==""){
+								 ulHtml+='<span >&nbsp;</span>';
+								 // console.log("执行了");
+								}else{
+                                                                 var reg = new RegExp(",","g");
+								 ulHtml+='<span >'+j[i]["nd"].replace(reg,"·")+'</span>';
+								}
+								
+								 // console.log(j[i]["nd"]);
+							
+								if(j[i]["dOCTITLE"].length>15){
+								j[i]["dOCTITLE"]=j[i]["dOCTITLE"].substr(0,14)+"...";
+								ulHtml+='<p>'+j[i]["dOCTITLE"]+'</p></a></dd></dl></a></li>';
+								}else{
+								ulHtml+='<p>'+j[i]["dOCTITLE"]+'</p></a></dd></dl></li>';
+								}
+								
+								
+							}
+						
+							$("#ulHtml").html(ulHtml);
+							
+							classification="";
+													SearchWord =null;
+						},
+						error: function() {
+							alert("error");
+
+						}
+						});
+					
+					$.ajax({
+						url: "/Getsum",
+						data: {
+							//分类chnls需要的栏目id
+							"chnlslimit":chnlslimit,
+							//检索范围
+							"SearchScope":SearchScope,
+							//时间范围
+							"TimeScope":TimeScope,
+							//排列方式
+							"SortOrder":SortOrder,
+							//检索词
+							"SearchWord":SearchWord,
+							//显示多少条
+							"PageSize":PageSize,
+							//第几页
+							"PageNum":PageNum,
+							//需要检索的栏目id
+							"chnls":chnls,
+							"classification":classification,
+													"cutsize":cutsize
+						},
+						success: function(value) {
+							var j= eval('(' + value + ')');
+							var a=j[0]["sum"]+":用时"+(j[1]["spendTime"]/1000)+"秒";
+							
+							recordCount=j[0]["sum"];
+							spendTime=(j[1]["spendTime"]/1000);
+							
+							//$("#spendTimeAndSum").html("找到约"+recordCount+"条结果（用时"+spendTime+"秒）");
+							
+							var pageString =showpage(PageNum,recordCount,PageSize);
+							$("#showpage").html(pageString);
+							
+						
+						},
+						error: function() {
+							alert("error");
+
+						}
+					});
+					
+					
+
+					
+					
+
+				}
+			</script><script>
+			   function keyup_submit(e){ 
+				   var evt = window.event || e; 
+					if (evt.keyCode == 13){
+					 //回车事件
+					 searchStart('0')
+				   }
+				 }
+		  </script></head>
+
+
+
+
+
+
+
+	
+			 
+
+
+
+	<body class="cp-body">
+	<!--header_menu-->
+	<!--header_menu-->
+<style type="text/css">
+    /*.logo a img{width: 210px; height: 75px;}
+    a.cf_youiangya{ width: 50px; height: 50px; display: block; position: absolute; right: 63px; top: 13px; padding: 0px;  }*/
+    .logo a img{width: 210px; height: 75px;}
+    .menu-rgt{height: 110px;margin-top: 0;}
+    a.cf_youiangya{ width: 50px; display: block; position: absolute; right: 72px; top: 13px; padding: 0px; }
+    a.cf_weixin{width: 50px;  display: block; position: absolute; right: 70px; top: 60px; padding: 0px; }
+    a.cf_weibo{width: 50px; display: block; position: absolute; right: 12px; top: 60px; padding: 0px; }
+    a.cf_weibo>img,a.cf_weixin>img{height: 30px;}
+</style>
+<div class="header" style="width: 100%;">
+    <div class="main">
+        <div class="menu-box">
+            <div class="logo"><a href="http://www.chnmuseum.cn/" ignoreapd="TRUE" title="国家博物馆"><img src="/images/header-logo.png" title="国家博物馆" alt="国家博物馆"></a></div>
+            <div class="menu">
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/" ignoreapd="TRUE" title="首页">首页</a></dt>
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/zj/" title="征集">征集</a></dt>
+   
+                </dl>
+                
+                <dl class="cur">
+                    <dt><a href="http://www.chnmuseum.cn/zp/" title="保管">保管</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/yj/" title="研究">研究</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/zl/" title="展览">展览</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/fw/" title="社教">社教</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/wc/" title="文创">文创</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/cg/" title="服务">服务</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/dj/" title="学习">学习</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/sp/" title="视频">视频</a></dt>
+   
+                </dl>
+                
+            </div>
+            <div class="menu-rgt">
+<!--
+                <a class="header-login" href="#" title="登录/注册">
+                    <span>登录/注册</span>
+                </a>
+                <a class="header-share" href="#" title="分享网站">
+                    <span>分享网站</span>
+                </a>
+ -->
+                <!--<a href="http://old.chnmuseum.cn/" target="_blank" style="position: absolute; display: block; width: 50px; top: 0px; right: 150px; font-size: 19px; color: #fff; padding:0px; height: 40px;">旧版网站</a>-->
+                <a href="http://en.chnmuseum.cn/" class="cf_EnglishBtn" target="_blank"><img src="/images/en_20200220.png"></a>
+                <a href="https://webmail.chnmuseum.cn" class="cf_youiangya" target="_blank"></a>
+                <span class="header-search" style="border:0px;"><img src="/images/search_20200220.png"></span>
+                <!--<a class="header-lang"  title="导航">
+              
+                </a> -->     
+<script>
+function search(){
+var searchword=$("#searchword").val();
+if(searchword!="")
+window.open("/qwjs/?searchword="+searchword);
+}
+</script>
+                <div class="header-search-box">
+                    <input onkeydown="keyup_submit(event);" class="search-ipt" type="text" id="searchword" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}">
+                    <span class="search-btn" onclick="search()"></span>
+                </div>
+                <a href="http://www.chnmuseum.cn/shxg/wbwx/202003/t20200314_206563.shtml" class="cf_weixin" target="_blank"><img src="/images/icon-weixin.png"></a>
+                <a href="https://weibo.com/chnmuseum" class="cf_weibo" target="_blank"><img src="/images/icon-weibo.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+$(document).ready(function(){
+        var nvdqlujing=window.location.pathname;
+        var nvdqstrs=new Array();
+
+        nvdqstrs=nvdqlujing.split("/");
+
+        var navnubtwo=nvdqstrs[1];
+
+
+        switch (navnubtwo) 
+        { 
+           case "zj":
+          $(".menu dl").eq(1).addClass("cur"); 
+      $("body").addClass("cj_zjbg"); 
+          break; 
+          case "zp":
+          $(".menu dl").eq(2).addClass("cur"); 
+      $("body").addClass("cp-body"); 
+          break; 
+          case "yj":
+          $(".menu dl").eq(3).addClass("cur"); 
+      $("body").addClass("yj-body"); 
+          break; 
+          case "zl":
+          $(".menu dl").eq(4).addClass("cur"); 
+      $("body").addClass("cj_zlbobg"); 
+          break; 
+          case "fw":
+          $(".menu dl").eq(5).addClass("cur"); 
+      $("body").addClass("fwbody");
+          break; 
+          case "wc":
+          $(".menu dl").eq(6).addClass("cur"); 
+      $("body").addClass("fwbody"); 
+          break; 
+          case "cg":
+          $(".menu dl").eq(7).addClass("cur"); 
+      $("body").addClass("visit-body"); 
+          break; 
+          case "dj":
+          $(".menu dl").eq(8).addClass("cur"); 
+      $("body").addClass("qj-body");
+          break;  
+          case "sp":
+          $(".menu dl").eq(9).addClass("cur"); 
+      $("body").addClass("qj-body");
+          break;  
+        }
+
+
+    });
+
+
+// $(".menu dl").hover(function(){
+//     $(this).addClass("cur").siblings().removeClass("cur");  
+// },function(){
+//     $(this).removeClass("cur");
+// })
+//弹出搜索框
+$(".header-search img").click(function(event){
+     event.stopPropagation();
+    $(".header-search-box").attr("show","true")
+    $(".header-search-box").animate({'right':'0','opacity':'1'},1000);
+});
+$(".search-ipt,.search-btn").click(function(event){event.stopPropagation();});
+$(document).click(function(event){
+    if($(".header-search-box").attr("show")=="true"){
+        $(".header-search-box").animate({'right':'-382','opacity':'0'},1000);
+    }
+    event.stopPropagation();
+})
+
+
+function keyup_submit(e){ 
+   var evt = window.event || e; 
+    if (evt.keyCode == 13){
+     //回车事件
+     search()
+   }
+ }
+</script>
+<!--/header_menu-->
+	<!--/header_menu-->
+	<!--位置-->
+	<div class="cj_ercom_wai cj_huise cj_pb25">
+<!--	<div class="cj_wz_list">
+		当前位置：<a href="../../../" target="_self" title="首页">首页</a><span>></span><a href="../../" target="_self" title="保管">保管</a><span>></span><a href="../" target="_self" title="馆藏精品">馆藏精品</a><span>></span><a class="cj_wz_active3">藏品分类</a>
+	</div>  -->
+<div class="cj_wz_list">
+		当前位置：<a href="../../../" target="_self" title="首页">首页</a><span>&gt;</span><a href="../../" target="_self" title="保管">保管</a><span>&gt;</span><a class="cj_wz_active3">藏品分类</a>
+	</div>
+	</div>
+
+	<!--/位置-->
+
+
+
+
+	<div class="sm_shujuwai" id="topdoc"><img class="sm_shuimg" src="./201903/W020190407466843644567.jpg"><dl class="sm_shujw_biao"><dt><span class="left_huixin"></span>革命文物<span class="right_huixin"></span></dt><dd>雕塑是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl></div>
+
+
+
+
+
+	<!--标题-->
+	<div class="cj_vd_erlanmuye cj_xianbore" style="padding-top: 0px;">
+
+	<style type="text/css">
+		.cangpin_fenglei{background-color: #e9e9e9; padding: 40px 65px 25px 144px; overflow: hidden; position: relative; }
+		.cangpin_fenglei a{ font-size: 20px; font-family: "宋体"; font-weight: bold; float: left; color: #666; margin-left: 25px; cursor: pointer; margin-bottom: 15px; }
+		.sm_shujuwai{position: relative; width: 1200px; height: 396px; background-color: #647562; margin: 0px auto; overflow: hidden;} 
+		.sm_shujw_biao{width: 552px; margin-left: 96px; margin-top: 80px; position:relative; z-index:100000;}
+		.sm_shujw_biao dt{font-size: 30px; color: #fff; font-family:"宋体"; font-weight:bold;}
+		.sm_shujw_biao dd{font-size: 16px; color: #fff; line-height: 28px; padding-top:30px; display:none}
+		.sm_shuimg{position: absolute; top: 0px; left: 0px; width: 1200px; height: 396px;}
+		.left_huixin{background-image: url(../images/cp_title_left.png);width: 22px;height: 22px;display: inline-block; margin-right: 20px;}
+		.right_huixin{background-image: url(../images/cp_title_right.png);width: 22px;height: 22px;display: inline-block; margin-left: 20px;}
+		a.quanbu_active1{color: #4c6549; text-decoration: underline;}
+		a.quanbu_active2{color: #ac2714;text-decoration: underline;}
+		a.quanbu_active3{color: #2b2626;text-decoration: underline;}
+		a.quanbu_active4{color: #bc8038;text-decoration: underline;}
+		a.quanbu_active5{color: #602e5f;text-decoration: underline;}
+		a.quanbu_active6{color: #006484;text-decoration: underline;}
+		a.quanbu_active7{color: #728d18;text-decoration: underline;}
+		a.quanbu_active8{color: #8f6f0c;text-decoration: underline;}
+		a.quanbu_active9{color: #2046c1;text-decoration: underline;}
+		a.quanbu_active10{color: #8b368e;text-decoration: underline;}
+	</style>
+
+<div class="cangpin_fenglei" id="xsflid" style="display: none;"><a onclick="checkall()" style="position: absolute; top: 40px; left: 79px; " class="quanbu_active2">全部</a><a onclick="searchStart(&quot;xsfl=388&quot;)">展览大类英文</a> <a onclick="searchStart(&quot;xsfl=132&quot;)">艺术作品细分</a> <a onclick="searchStart(&quot;xsfl=138&quot;)">近现代文物细分</a> <a onclick="searchStart(&quot;xsfl=147&quot;)">古代文物细分</a> <a onclick="searchStart(&quot;xsfl=1&quot;)">质地</a> <a onclick="searchStart(&quot;xsfl=22&quot;)">品类</a> <a onclick="searchStart(&quot;xsfl=49&quot;)">年代</a> <a onclick="searchStart(&quot;xsfl=131&quot;)">展览类别</a> <a onclick="searchStart(&quot;xsfl=257&quot;)">文物类别</a> <a onclick="searchStart(&quot;xsfl=314&quot;)">临时展分类</a> <a onclick="searchStart(&quot;xsfl=379&quot;)">临时展分类英文</a> <a onclick="searchStart(&quot;xsfl=321&quot;)">下属分类</a> </div>
+
+
+
+
+
+
+
+		<div class="cp_search_select" style="padding-top: 30px;display:none">
+			<div class="select">
+				<select name=":niandai" id="niandai" style="width: 0px; margin: 0px; padding: 0px; border: medium none; float: left;">
+					<option value="">请选择年代</option>
+					  
+					<option value="50">旧石器</option>
+					  
+					<option value="51">新石器</option>
+					  
+					<option value="74">夏</option>
+					  
+					<option value="75">商</option>
+					  
+					<option value="76">西周</option>
+					  
+					<option value="77">商周时期</option>
+					  
+					<option value="78">春秋</option>
+					  
+					<option value="79">夏至春秋</option>
+					  
+					<option value="80">战国</option>
+					  
+					<option value="81">秦</option>
+					  
+					<option value="82">汉</option>
+					  
+					<option value="83">三国</option>
+					  
+					<option value="84">晋</option>
+					  
+					<option value="85">南北朝</option>
+					  
+					<option value="104">隋</option>
+					  
+					<option value="105">唐</option>
+					  
+					<option value="106">五代十国</option>
+					  
+					<option value="124">宋</option>
+					  
+					<option value="125">元</option>
+					  
+					<option value="126">明</option>
+					  
+					<option value="127">清</option>
+					  
+					<option value="128">近代</option>
+					  
+					<option value="129">现当代</option>
+					  
+					<option value="130">其他</option>
+					
+				</select>
+			<div class="cz-dropbox cj_xiao130" tabindex="0"><span class="cz-dropbox-caption">请选择年代</span><div class="cz-icon-dropdown"></div><div class="cz-droplist" style="width: 160px; height: 224px; top: 30px;"><ul></ul></div><input class="cz-dropbox-input" type="hidden" name="niandai" value=""></div></div>
+			<div class="select">
+				<select name=":zhidi" id="zhidi" style="width: 0px; margin: 0px; padding: 0px; border: medium none; float: left;">
+					<option value="">请选择质地</option>
+					  
+					 <option value="2">石质</option>
+					  
+					 <option value="3">玉质</option>
+					  
+					 <option value="4">砖瓦</option>
+					  
+					 <option value="5">陶制</option>
+					  
+					 <option value="6">瓷质</option>
+					  
+					 <option value="7">铜制</option>
+					  
+					 <option value="8">铁质</option>
+					  
+					 <option value="9">金银</option>
+					  
+					 <option value="10">其他金属</option>
+					  
+					 <option value="11">牙骨角</option>
+					  
+					 <option value="12">草木竹</option>
+					  
+					 <option value="13">漆质</option>
+					  
+					 <option value="14">玻璃</option>
+					  
+					 <option value="15">珐琅</option>
+					  
+					 <option value="16">织绣</option>
+					  
+					 <option value="17">皮革</option>
+					  
+					 <option value="18">纸质</option>
+					  
+					 <option value="19">化学合成</option>
+					  
+					 <option value="20">其他</option>
+					  
+					 <option value="21">泥质</option>
+					  
+					 <option value="196">画像砖</option>
+					  
+					 <option value="197">钱币</option>
+					  
+					 <option value="198">书画</option>
+					
+				</select>
+			<div class="cz-dropbox cj_xiao130" tabindex="0"><span class="cz-dropbox-caption">请选择质地</span><div class="cz-icon-dropdown"></div><div class="cz-droplist" style="width: 160px; height: 224px; top: 30px;"><ul></ul></div><input class="cz-dropbox-input" type="hidden" name="zhidi" value=""></div></div>
+			<div class="select">
+				<select name=":pinlei" id="pinlei" style="width: 0px; margin: 0px; padding: 0px; border: medium none; float: left;">
+					<option value="">请选择品类</option>
+					  
+					 <option value="23">生产工具</option>
+					  
+					 <option value="24">生活用品</option>
+					  
+					 <option value="25">建筑构件</option>
+					  
+					 <option value="26">交通工具</option>
+					  
+					 <option value="27">医疗卫生</option>
+					  
+					 <option value="28">书画</option>
+					  
+					 <option value="29">文献</option>
+					  
+					 <option value="30">雕塑造像</option>
+					  
+					 <option value="31">邮品</option>
+					  
+					 <option value="32">照片底片</option>
+					  
+					 <option value="33">音像制品</option>
+					  
+					 <option value="34">文体娱乐</option>
+					  
+					 <option value="35">货币</option>
+					  
+					 <option value="36">印章</option>
+					  
+					 <option value="37">证章符号</option>
+					  
+					 <option value="38">证件票据</option>
+					  
+					 <option value="39">旗帜牌匾</option>
+					  
+					 <option value="40">机械仪器</option>
+					  
+					 <option value="41">高科技</option>
+					  
+					 <option value="42">兵器武器</option>
+					  
+					 <option value="43">民族民俗</option>
+					  
+					 <option value="44">宗教用品</option>
+					  
+					 <option value="45">模型</option>
+					  
+					 <option value="46">其他</option>
+					  
+					 <option value="47">丧葬用品</option>
+					  
+					 <option value="48">祭器礼器</option>
+					
+				</select>
+			<div class="cz-dropbox cj_xiao130" tabindex="0"><span class="cz-dropbox-caption">请选择品类</span><div class="cz-icon-dropdown"></div><div class="cz-droplist" style="width: 160px; height: 224px; top: 30px;"><ul></ul></div><input class="cz-dropbox-input" type="hidden" name="pinlei" value=""></div></div>
+
+			<div class="search"><input onkeydown="keyup_submit(event);" id="word" class="txt" type="text" value="请输入藏品关键词" onfocus="if (value =='请输入藏品关键词'){value =''}" onblur="if (value ==''){value='请输入藏品关键词'}"><input class="btn" type="submit" onclick="searchStart('0')"></div>
+		</div>
+	</div>
+	<!--/标题-->
+
+
+
+	<!--正在展出-->
+	<div class="cj_ercom_wai cj_bg_write cj_vio_padd3">
+
+			<div class="cj_cpsjjk">
+				<ul class="cj_com_zhanchu cj_mb20" id="ulHtml"><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_25822.shtml" title="清朝宣统皇帝溥仪退位诏书"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218756268618513.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_25822.shtml" title="清朝宣统皇帝溥仪退位诏书"><span>近代</span><p>清朝宣统皇帝溥仪退位诏书</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26429.shtml" title="方声洞在黄花岗起义前夕致父绝笔书"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218767890673082.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26429.shtml" title="方声洞在黄花岗起义前夕致父绝笔书"><span>近代</span><p>方声洞在黄花岗起义前夕致父绝...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26463.shtml" title="上海共产党早期组织出版由陈望道翻译的《共产党宣言》第一个中文全译本"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218768514369182.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26463.shtml" title="上海共产党早期组织出版由陈望道翻译的《共产党宣言》第一个中文全译本"><span>现当代</span><p>上海共产党早期组织出版由陈望...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26495.shtml" title="李大钊亲笔自述(定稿)"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218769040132927.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26495.shtml" title="李大钊亲笔自述(定稿)"><span>现当代</span><p>李大钊亲笔自述(定稿)</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26518.shtml" title="“中华苏维埃共和国中央执行委员会”银印"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218769732295095.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26518.shtml" title="“中华苏维埃共和国中央执行委员会”银印"><span>现当代</span><p>“中华苏维埃共和国中央执行委...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26613.shtml" title="《远东国际军事法庭审判书》(英文)"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218771408644110.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26613.shtml" title="《远东国际军事法庭审判书》(英文)"><span>现当代</span><p>《远东国际军事法庭审判书》(...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26645.shtml" title="淮海战役中董力生支前用的独轮车"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218771982355586.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_26645.shtml" title="淮海战役中董力生支前用的独轮车"><span>现当代</span><p>淮海战役中董力生支前用的独轮车</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28733.shtml" title="廖仲恺为护法筹款印发的签名函"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218803641890776.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28733.shtml" title="廖仲恺为护法筹款印发的签名函"><span>近代</span><p>廖仲恺为护法筹款印发的签名函</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28881.shtml" title="河北兴隆黄土坡群众自“无人区”逃至山林中生活用的木碗"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806203047987.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28881.shtml" title="河北兴隆黄土坡群众自“无人区”逃至山林中生活用的木碗"><span>现当代</span><p>河北兴隆黄土坡群众自“无人区...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28882.shtml" title="吉林辽源煤矿工人牛世清的工票"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806219639860.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28882.shtml" title="吉林辽源煤矿工人牛世清的工票"><span>现当代</span><p>吉林辽源煤矿工人牛世清的工票</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28884.shtml" title="吉鸿昌摘录父亲遗嘱“作官即不许发财”烧制的纪念碗"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806251596661.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28884.shtml" title="吉鸿昌摘录父亲遗嘱“作官即不许发财”烧制的纪念碗"><span>现当代</span><p>吉鸿昌摘录父亲遗嘱“作官即不...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28885.shtml" title="《中国人民对日作战的基本纲领》"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806268049213.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28885.shtml" title="《中国人民对日作战的基本纲领》"><span>现当代</span><p>《中国人民对日作战的基本纲领》</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28886.shtml" title="最早全文刊发《义勇军进行曲》的《电通画报》第一期"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806284236290.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28886.shtml" title="最早全文刊发《义勇军进行曲》的《电通画报》第一期"><span>现当代</span><p>最早全文刊发《义勇军进行曲》...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28887.shtml" title="瓦窑堡会议通过的《目前政治形势与党的任务决议》"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806300167914.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28887.shtml" title="瓦窑堡会议通过的《目前政治形势与党的任务决议》"><span>现当代</span><p>瓦窑堡会议通过的《目前政治形...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28889.shtml" title="中国共产党为公布国共合作宣言"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806332690050.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28889.shtml" title="中国共产党为公布国共合作宣言"><span>现当代</span><p>中国共产党为公布国共合作宣言</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28890.shtml" title="八路军第129师在响堂铺战斗中缴获日军的钢盔"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806349414261.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28890.shtml" title="八路军第129师在响堂铺战斗中缴获日军的钢盔"><span>现当代</span><p>八路军第129师在响堂铺战斗...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28891.shtml" title="晋冀鲁豫边区太行四分区民兵制造的地雷"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806365125846.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28891.shtml" title="晋冀鲁豫边区太行四分区民兵制造的地雷"><span>现当代</span><p>晋冀鲁豫边区太行四分区民兵制...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28892.shtml" title="1941年5月中共中央批准颁布的《陕甘宁边区施政纲领》"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806383911554.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28892.shtml" title="1941年5月中共中央批准颁布的《陕甘宁边区施政纲领》"><span>现当代</span><p>1941年5月中共中央批准颁...</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28893.shtml" title="毛泽东为大生产运动的题词"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806399700068.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28893.shtml" title="毛泽东为大生产运动的题词"><span>现当代</span><p>毛泽东为大生产运动的题词</p></a></dd></dl></li><li><dl><dt><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28894.shtml" title="《新民主主义论》"><img src="http://www.chnmuseum.cn/zp/zpml/201812//P020181218806418551460.jpg" alt=""></a></dt><dd><a target="_blank" href="http://www.chnmuseum.cn/zp/zpml/201812/t20181218_28894.shtml" title="《新民主主义论》"><span>现当代</span><p>《新民主主义论》</p></a></dd></dl></li></ul>
+
+				<div class="cj_clear"></div>
+				<div class="cj_page2" id="showpage"><a class="cj_shang6" style="width:70px">上一页</a><a class="cj_pg_active6">1</a><a href="javascript:void(0)" onclick="searchStart('PageNum=2')">2</a><a class="cj_shang6" href="javascript:void(0)" onclick="searchStart('PageNum=2')" style="width:70px">下一页</a><span class="tebie_gong">共2页&nbsp;|&nbsp;共24个结果</span></div>
+
+
+			</div>
+
+	</div>
+	<!--/正在展出-->
+
+
+	<!--展览简讯-->
+	<!-- <div class="cj_ercom_wai cj_bg_write cj_vio_padd" style='padding: 0px 0px 50px;'>
+</div>
+<!--
+<div class="cj_ercom_wai cj_bg_write cj_vio_padd">
+	<div class="cj_jianxunwai">
+		<ul>
+			<li class="cj_jxw_bg1"><a href="http://www.chnmuseum.cn/fw/zlxz/zxxz/"><img alt="展览简讯" src="/images/cj_ww1_gb2018.png" /></a></li>
+			<li class="cj_jxw_bg2"><a href="http://www.chnmuseum.cn/cg/cgxz/"><img alt="参观须知" src="/images/cj_ww2_gb2018.png" /></a></li>
+			<li class="cj_jxw_bg3"><a href=""><img alt="展馆藏品" src="/images/cj_ww3_gb2018.png" /></a></li>
+			<li class="cj_jxw_bg4"><a href="../../zl/zlsq/201901/t20190102_37011.shtml" target='_blank'><img alt="展览申请" src="../../images/cj_ww4_gb2018.png" /></a></li>
+
+			       </ul>
+	</div>
+
+</div>
+--> --&gt;
+	<!--/展览简讯-->
+	<!--footer-->
+	<!--footer-->
+<div class="footer" style="width: 100%;">
+    <div class="main" style="width:800px;">
+        <div style="">
+            <div>
+                <div class="footer-txt" style="text-align: left;position: relative;color: #cacaca;">
+                    中国国家博物馆融媒矩阵：
+                </div>
+                <ul class="footerEwmUl">
+                	<li>
+                	   <img src="/images/wx1Ewm20200314.png">
+                	   <p>微信服务号</p>
+                	</li>
+                	<li>
+                	   <img src="/images/wx2Ewm20200314.png">
+                	   <p>微信订阅号</p>
+                	</li>
+                	<li>
+                	   <img src="/images/wbEwm20200314.png">
+                	   <p>新浪微博</p>
+                	</li>
+                	<li>
+                	   <img src="/images/dyEwm20200314.png">
+                	   <p>抖音短视频</p>
+                	</li>
+                </ul>
+                <div class="footer-link" style="text-align: left; border-bottom: 1px solid #adadad;">
+                    <!--<a class="header-lang" title="网站导航">网站导航</a>-->
+                    <a style="padding-left:0px;" href="http://www.chnmuseum.cn/shxg/yqlj/" title="友情链接">友情链接</a>
+                    <a href="http://www.chnmuseum.cn/sp/" title="国博视频">国博视频</a>
+                    <a href="http://www.chnmuseum.cn/cg/lybd/" title="留言板">留言板</a>
+                    <a href="http://www.chnmuseum.cn/shxg/lxwm/" title="联系我们">联系我们</a>
+                    <a href="http://www.chnmuseum.cn/shxg/bqsm/" title="版权声明">版权声明</a>
+                    <a href="http://www.chnmuseum.cn/shxg/yszc/" title="隐私政策">隐私政策</a>
+                    <a style="background:none; padding-right: 0px;" href="http://www.chnmuseum.cn/shxg/wjdc/" title="问卷调查">问卷调查</a>
+
+                </div>
+
+                <div class="footer-txt" style="text-align: left;position: relative;">
+                    <p style="text-align: left;">
+                        <span style="padding-left:0px;">中国国家博物馆版权所有</span>|
+                        <span>网站维护：新闻传播处</span><!--|<span>技术支持：<a  href='http://www.trs.com.cn/' target='_blank' style='color:#cacaca;'>北京拓尔思信息技术股份有限公司</a> </span>-->
+                        
+                    </p>
+                    <p style="text-align: left;">
+                        <span style="padding-left:0px;">京ICP备05008885号</span>|
+                        <span>京公网安备11010102003012号</span>|
+                        <span style="padding-right: 0px;">EMAIL：service@chnmuseum.cn</span>
+                    </p>
+                    <div style="display: inline-block;margin-left: 40px;position: absolute;right:0;top:20px">
+                      <a href="//bszs.conac.cn/sitename?method=show&amp;id=30E0CF203BE827D8E053022819AC57DB" target="_blank"><img src="/images/blue.png"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div style="float: right;">
+                <ul class="ft_xiamian_jiand">
+                    <li ><a href="https://weibo.com/chnmuseum/" target="_blank"><img src="/images/ft_20190410_icon1.png" /></a></li>
+                    <li class="ft_teshuxu">
+                        <a href="javascript:void(0);"><img src="/images/ft_20190410_icon2.png" /></a>
+                        <div class="ft_ying_weixin"><img src="/images/ft_20190410_wei2.jpg" /><img src="/images/ft_20190410_wei1.jpg" /></div>
+                    </li>
+                    <li style="display: none;"><a href=""><img src="/images/ft_20190410_icon3.png" /></a></li>
+                </ul>
+            </div>-->
+        </div>
+        <div class="footer-logo"><img src="/images/footer-logo.png" title="国家博物馆" alt="国家博物馆"></div>
+    </div>
+</div>
+<!--/footer-->
+
+
+<div class="nav_eject_Box">
+    <div class="nav_eject_close"></div>
+    <div class="nav_eject_center">
+        <ul class="nav_eject_Tul">
+                
+                <li><a href="http://www.chnmuseum.cn/zj/" title="征集">征集</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/zp/" title="保管">保管</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/yj/" title="研究">研究</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/zl/" title="展览">展览</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/fw/" title="社教">社教</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/wc/" title="文创">文创</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/cg/" title="服务">服务</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/dj/" title="学习">学习</a></li>
+                
+        </ul>
+        <ul class="nav_eject_Bul">
+            <li class="nav_eject_Bli">
+                <ul>
+                <li><a id="quanjing3" value="3" onclick="gotoquanjing3()" title="职能介绍">职能简介</a></li>
+                <li><a href="../../gbgk/gzzc/" title="馆长致辞">馆长致辞</a></li>
+                <li><a href="http://www.chnmuseum.cn/zx/" title="要闻">要闻</a></li>
+                <li><a href="http://www.chnmuseum.cn/sp/" title="视频">国博视频</a></li>
+                <li><a id="quanjing0" value="0" onclick="gotoquanjing0()" title="正在展出">历史沿革</a></li>
+                <li><a id="quanjing1" value="1" onclick="gotoquanjing1()" title="历任领导">历任领导</a></li>
+                <li><a id="quanjing2" value="2" onclick="gotoquanjing2()" title="现任领导">现任领导</a></li>
+                   
+                </ul>
+            </li>
+            <li class="nav_eject_Bli">
+                <ul>
+                    <li><a href="/Portals/0/web/zt/cangpin/" title="藏品总目">藏品总目</a></li>
+                     <li><a href="http://www.chnmuseum.cn/zp/zpml/" title="馆藏精品">馆藏精品</a></li>
+
+                </ul>
+            </li>
+            <li class="nav_eject_Bli">
+                <ul><li><a href="http://www.chnmuseum.cn/yj/zjxz/" title="专家学者">专家学者</a></li>
+                                        <li><a href="" title="科研课题">科研课题</a></li>
+                                        
+                    <li><a href="" title="学术专著">学术专著</a></li>
+                    <li><a href="http://www.chnmuseum.cn/yj/xscg/xslw/" title="学术论文">学术论文</a></li>
+                                        
+                    <li><a href="http://www.chnmuseum.cn/yj/gbjt/" title="国博讲堂">国博讲堂</a></li><li><a href="" title="馆刊">馆刊</a></li>
+
+                    
+                </ul>
+            </li>
+            <li class="nav_eject_Bli">
+                <ul>
+                    <li><a id="zhanlan0" value="0" onclick="gotofuwi0()" title="正在展出">正在展出</a></li>
+                    <li><a id="zhanlan1" value="1" onclick="gotofuwi1()" title="展览预告">展览预告</a></li>
+                    <li><a id="zhanlan2" value="2" onclick="gotofuwi2()" title="展览回顾">展览回顾</a></li>
+                    <li><a href="/Portals/0/web/vr/index.html" title="网上展览">网上展览</a></li>
+                    <li><a href="http://www.chnmuseum.cn/zl/zlsq/" title="展览申请">展览申请</a></li>
+                </ul>
+            </li>
+           
+            <li class="nav_eject_Bli">
+                <ul>
+                    <li><a href="http://www.chnmuseum.cn/fw/hd/zxhd/" title="最新活动">最新活动</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/ggjy/jyhdjs/" title="教育活动">教育活动</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/ggjy/wzgbjww/" title="我在国博讲文物">我在国博讲文物</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/ggjy/gb100j/" title="馆校合作">馆校合作</a></li>
+                                                       </ul>
+            </li>
+            
+            
+                        <li class="nav_eject_Bli">
+                <ul>
+                                      
+                    <li><a href="https://zggjbwg.tmall.com/" title="国博文创">国博文创</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/gbwc/" title="馆属企业">馆属企业</a></li>
+                    <li><a href="http://www.chnmuseum.cn/wc/ipsq/" title="IP授权">IP授权</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/zlxz/" title="资料下载">资料下载</a></li>
+                  
+                </ul>
+            </li>
+            
+            
+             <li class="nav_eject_Bli">
+                <ul>
+                    <li><a href="http://www.chnmuseum.cn/cg/" title="开放时间">开放时间</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit_rgfs','','','true');" title="入馆方式">入馆方式</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-jtdl','','','true');" title="交通地理">交通地理</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-cgxz','','','true');" title="参观须知">参观须知</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-ssyfw','','','true');" title="设施与服务">设施与服务</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-dlfw','','','true');" title="导览服务">导览服务</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-ztfb','','','true');" title="展厅分布">展厅分布</a></li>
+                </ul>
+            </li>
+            <li class="nav_eject_Bli" style="border: 0px none;">
+                <ul>
+                    
+                </ul>
+            </li>
+      <!--      <li class="nav_eject_Bli">
+                <ul>
+                    <li><a href="http://www.chnmuseum.cn/sp/gbzp/" title="精品文物">精品文物</a></li>
+                    <li><a href="http://www.chnmuseum.cn/sp/gbzl/" title="展览视频">展览视频</a></li>
+                    <li><a href="http://www.chnmuseum.cn/sp/gbjt_150/" title="国博讲堂">国博讲堂</a></li>
+
+                </ul>
+            </li> -->
+        </ul>
+    </div>
+</div>
+
+
+
+
+<script>
+$(function(){
+    var windowwidth=$(window).width();
+      if(windowwidth<1200){
+       $(".header,.footer").css("width","1200px");
+      }else{
+       $(".header,.footer").css("width","100%");
+      }
+    $(window).resize(function(){
+     var windowwidth=$(window).width();
+      if(windowwidth<1200){
+       $(".header,.footer").css("width","1200px");
+      }else{
+       $(".header,.footer").css("width","100%");
+      }
+      
+    });
+
+/*导航弹出层 开始*/
+   
+    $('.nav_eject_Bul .nav_eject_Bli:last-child').css('border','0');
+    $('.header-lang').click(function(){
+        
+         $('.nav_eject_Box').show();
+          var windowHeight = $(window).height();
+         //var navejectcenterH = $('.nav_eject_center').height();
+         //$('.nav_eject_center').css('margin-top',(windowHeight-navejectcenterH)*0.5+'px')
+    })
+    $('.nav_eject_close').click(function(){
+        $('.nav_eject_Box').hide();
+    })
+    /*导航弹出层 结束*/
+
+
+    $('.nav_eject_Bul li a').click(function(){
+        $('.nav_eject_Box').hide();
+    })
+
+
+    $(".ft_teshuxu").hover(function(){
+        $(".ft_ying_weixin").show(); 
+    },function(){
+        $(".ft_ying_weixin").hide(); 
+    })
+
+})
+
+
+
+    var zl_jiekou="http://www.chnmuseum.cn/zl/?";
+    var zl_maodian="#zl_zzzl";
+
+    function gotofuwi0(){
+        var zhanlan0 = $("#zhanlan0").attr("value")
+        location.href=zl_jiekou+"tex="+encodeURI(zhanlan0)+zl_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+    function gotofuwi1(){
+        var zhanlan1 = $("#zhanlan1").attr("value")
+        location.href=zl_jiekou+"tex="+encodeURI(zhanlan1)+zl_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+    function gotofuwi2(){
+        var zhanlan2 = $("#zhanlan2").attr("value")
+        location.href=zl_jiekou+"tex="+encodeURI(zhanlan2)+zl_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+
+
+    var qj_jiekou="http://www.chnmuseum.cn/";
+    var qj_maodian="#qj_lishil";
+    var qj_maodianzl="#znjdlsj";
+
+    function gotoquanjing0(){
+        var quanjing0 = $("#quanjing0").attr("value")
+        location.href=qj_jiekou+"tex="+encodeURI(quanjing0)+qj_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+
+    function gotoquanjing1(){
+        var quanjing1 = $("#quanjing1").attr("value")
+        location.href=qj_jiekou+"tex="+encodeURI(quanjing1)+qj_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+    function gotoquanjing2(){
+        var quanjing2 = $("#quanjing2").attr("value")
+        location.href=qj_jiekou+"tex="+encodeURI(quanjing2)+qj_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+
+    function gotoquanjing3(){
+        var quanjing3 = $("#quanjing3").attr("value")
+        location.href=qj_jiekou+"tex="+encodeURI(quanjing3)+qj_maodianzl;
+        $('.nav_eject_Box').hide();
+    }
+
+    //20200517修改去掉链接qjgb
+  $(function() {
+        $(".zljsCBox a").each(function(){
+          var dstxghrem=$(this).attr("href").substring(5, 0);
+
+          if(dstxghrem=="/qjgb"){
+            var dstxghreh=$(this).attr("href").substring(5);
+            $(this).attr("href",dstxghreh)
+          }
+
+        });
+  });
+
+</script>
+
+<!--网脉-->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=2797" async="async" defer="defer"></script>
+
+<!--百度-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d8512e191052092ef1dd135588660448";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+	<!--/footer-->
+
+	<script type="text/javascript">
+		$(function(){
+			$(".cp_slide_box").slide({mainCell:".cp_slide ul",autoPlay:true});
+			$(".cp_slide_box2").slide({mainCell:".cp_slide2 ul",autoPlay:true});
+			
+			$('#niandai').dropdown({ item_height: 28, max_row: 8 });
+			$('#zhidi').dropdown({ item_height: 28, max_row: 8 });
+			$('#pinlei').dropdown({ item_height: 28, max_row: 8 });
+			$('#mingcheng').dropdown({ item_height: 28, max_row: 8 });
+			
+			$(".cp_search_box .cp_title span").hover(function(){
+				$(this).addClass('cur').siblings(".cp_search_box .cp_title span").removeClass('cur');
+				var i=$(this).index(".cp_search_box .cp_title span");
+				$(".cp_search_box .pic_main").eq(i).show().siblings(".cp_search_box .pic_main").hide();
+				$(".cp_search_box .cp_title .more").eq(i).show().siblings(".cp_search_box .cp_title .more").hide();
+			})  ;
+		});
+
+
+		//鼠标经过图片放大效果
+		$(function () {
+			$('.cj_com_zhanchu li dl').hover(function(){
+				$(this).find('img').stop().animate({width:272, height:204, marginTop:-10, marginLeft:-10},600);
+			},function(){
+				$(this).find('img').stop().animate({width:252, height:189, marginTop:0, marginLeft:0},500);
+			});
+		})
+
+		//鼠标经过图片放大效果
+		$(function () {
+			$('.cj_jianxunwai ul li').hover(function(){
+				$(this).find('img').stop().animate({width:300, marginTop:-20, marginLeft:-20},600);
+			},function(){
+				$(this).find('img').stop().animate({width:250, marginTop:0, marginLeft:0},500);
+			});
+
+		});
+
+
+
+	</script>
+
+
+	<script>
+	   
+		window.onload = function() {
+		
+
+		}  
+
+	function checkall(){
+		//wwfl=getParameter("wwfl");//文物分类
+		//window.location.href="/cpjs_cpfl/?wwfl="+wwfl;
+		//var url_href=window.location.href;
+		//window.location.href(url_href);
+		window.location.reload()
+		
+	}
+
+
+
+
+	$().ready(function(){
+													
+							SearchWord=getParameter("searchword");
+							 // classification=getParameter("classification");
+							 //SearchWord=decodeURI(SearchWord);
+							 // niandai=getParameter("niandai");
+							 //  zhidi=getParameter("zhidi");
+							 // pinlei=getParameter("pinlei");
+							wwfl=getParameter("wwfl");//文物分类
+							var topnum=0;
+							var topimgdoc="";
+							var xsfldoc="";
+							var colorxuan="";
+							var colorlei=new Array("quanbu_active1","quanbu_active2","quanbu_active3","quanbu_active4","quanbu_active5","quanbu_active6","quanbu_active7","quanbu_active8","quanbu_active9","quanbu_active10")
+
+
+							var toptext=new Array(
+							"<img class='sm_shuimg' src='./201903/W020190327564112431967.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>考古发掘品<span class='right_huixin'></span></dt><dd>&nbsp;雕塑是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl>",
+							
+							"<img class='sm_shuimg' src='./201903/W020190407466843644567.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>革命文物<span class='right_huixin'></span></dt><dd>雕塑是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl>",
+							"<img class='sm_shuimg' src='./201903/W020190404049755442683.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>传世品<span class='right_huixin'></span></dt><dd>雕塑是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl>",
+							"<img class='sm_shuimg' src='./201903/W020190327591568998243.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>货币<span class='right_huixin'></span></dt><dd>货币是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl>",
+							"<img class='sm_shuimg' src='./201903/W020190402535653465686.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>民族民俗文物<span class='right_huixin'></span></dt><dd>雕塑是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl>",
+							"<img class='sm_shuimg' src='./201903/W020190327591245139233.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>古籍文献碑帖<span class='right_huixin'></span></dt><dd>雕塑是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl>",
+							"<img class='sm_shuimg' src='./201903/W020190327574384362066.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>外国文物<span class='right_huixin'></span></dt><dd>雕塑是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl>",
+							"<img class='sm_shuimg' src='./201903/W020190327591073493223.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>艺术品<span class='right_huixin'></span></dt><dd>雕塑是造型艺术的主要门类之一，是雕刻与塑造的总称。雕刻多施于木、石、金属等材质之上，塑造则以泥土为主要材料。中国古代雕塑源远流长，不同时期、不同地域风格各有差异。新石器时代的陶塑与玉石雕刻，夏商周三代的青铜器铸造，秦汉陶俑、陵墓石雕与画像砖石，魏晋南北朝石窟造像等各具特色。隋唐各类雕塑臻至大成，呈现出全面繁荣状态。宋元明清注重意趣的表现，雕塑面貌更加多样化与个性化，并涌现出一批杰出的雕塑艺术家。</dd> </dl>",
+							"<img class='sm_shuimg' src='./201903/W020190407467221327931.jpg' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>国史文物<span class='right_huixin'></span></dt><dd>&nbsp;1</dd> </dl>",
+							"<img class='sm_shuimg' src='./201903/W020190402527874743815.png' /><dl class='sm_shujw_biao'><dt><span class='left_huixin'></span>其他<span class='right_huixin'></span></dt><dd>&nbsp;1</dd> </dl>"
+							);
+							
+
+							
+							
+							var xsfldoclist=new Array(
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=362\")\'>石器</a> <a  onclick=\'searchStart(\"xsfl=363\")\'>玉器</a> <a  onclick=\'searchStart(\"xsfl=364\")\'>陶器</a> <a  onclick=\'searchStart(\"xsfl=365\")\'>瓷器</a> <a  onclick=\'searchStart(\"xsfl=366\")\'>铜器</a> <a  onclick=\'searchStart(\"xsfl=367\")\'>铁器</a> <a  onclick=\'searchStart(\"xsfl=368\")\'>金属器</a> <a  onclick=\'searchStart(\"xsfl=369\")\'>牙骨器</a> <a  onclick=\'searchStart(\"xsfl=370\")\'>砖瓦</a> <a  onclick=\'searchStart(\"xsfl=371\")\'>石刻</a> <a  onclick=\'searchStart(\"xsfl=372\")\'>漆木家具</a> <a  onclick=\'searchStart(\"xsfl=373\")\'>丝织品</a> <a  onclick=\'searchStart(\"xsfl=374\")\'>印章</a> <a  onclick=\'searchStart(\"xsfl=375\")\'>书画</a> <a  onclick=\'searchStart(\"xsfl=376\")\'>徽章</a> <a  onclick=\'searchStart(\"xsfl=377\")\'>杂项</a> <a  onclick=\'searchStart(\"xsfl=378\")\'>舆图</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> ",
+							"<a onclick='checkall()' style='position: absolute; top: 40px; left: 79px; '>全部</a><a  onclick=\'searchStart(\"xsfl=388\")\'>展览大类英文</a> <a  onclick=\'searchStart(\"xsfl=132\")\'>艺术作品细分</a> <a  onclick=\'searchStart(\"xsfl=138\")\'>近现代文物细分</a> <a  onclick=\'searchStart(\"xsfl=147\")\'>古代文物细分</a> <a  onclick=\'searchStart(\"xsfl=1\")\'>质地</a> <a  onclick=\'searchStart(\"xsfl=22\")\'>品类</a> <a  onclick=\'searchStart(\"xsfl=49\")\'>年代</a> <a  onclick=\'searchStart(\"xsfl=131\")\'>展览类别</a> <a  onclick=\'searchStart(\"xsfl=257\")\'>文物类别</a> <a  onclick=\'searchStart(\"xsfl=314\")\'>临时展分类</a> <a  onclick=\'searchStart(\"xsfl=379\")\'>临时展分类英文</a> <a  onclick=\'searchStart(\"xsfl=321\")\'>下属分类</a> "
+							
+							);
+							
+							
+							
+							
+							var top=new Array("341","342","343","344","345","346","347","348","349","350")
+							
+							for(var i=0;i<=9;i++){
+							if(wwfl==top[i]){
+							topimgdoc=toptext[i];
+							xsfldoc=xsfldoclist[i];
+							colorxuan=colorlei[i];
+							
+							}
+							}
+
+							
+
+
+
+							$(function(){
+								var dangqianc=$(".cangpin_fenglei a:first").attr("class");
+								$('.cangpin_fenglei a').click(function(){
+									$(this).addClass(dangqianc).siblings().removeClass(dangqianc);
+								})
+							})
+
+							
+							$("#xsflid").html(xsfldoc);
+							$("#topdoc").html(topimgdoc);
+							$(".cangpin_fenglei a:first").addClass(colorxuan);
+							
+							
+							if(wwfl!="343"){
+							$("#xsflid").css("display","none");
+							}
+							
+							
+							
+							
+							if(wwfl!=""){
+												   
+													
+													if(niandai!=undefined&&niandai!=""){
+													   //$("#niandai").val(niandai);
+													   selectNumber('niandai',niandai)
+													}
+													if(zhidi!=undefined&&zhidi!=""){
+													   //$("#zhidi").val(zhidi);
+													   selectNumber('zhidi',zhidi)
+													}
+													if(pinlei!=undefined&&pinlei!=""){
+												
+													   //$("#pinlei").val(pinlei);
+													   selectNumber('pinlei',pinlei)
+													}
+													if(SearchWord!=undefined&&SearchWord!=""){
+													$("#word").val(SearchWord);
+													}
+												   
+												   
+												   
+												   
+													
+													searchStart('0');
+												   }
+
+							   function selectNumber(id,value){
+									var num = value;   //获取input中输入的数字
+									var numbers = $("#"+id).find("option"); //获取select下拉框的所有值
+									for (var j = 1; j < numbers.length; j++) {
+										if ($(numbers[j]).val() == num) {
+											$(numbers[j]).attr("selected", "selected");
+											$("#"+id).next('.cz-dropbox').find('span.cz-dropbox-caption').text($(numbers[j]).text())
+											$("#"+id).next('.cz-dropbox').find('.cz-dropbox-input').val(num)
+										}
+									 } 
+								}
+
+					
+
+				
+						
+	 
+			});
+
+
+	   
+	</script>
+
+
+
+
+	
+	</body></html>

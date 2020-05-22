@@ -1,0 +1,658 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>文博讲座-邯郸市博物馆</title>
+<meta content="邯郸博物馆" name="Keywords">
+<meta content="邯郸市博物馆成立于1984年，是河北省爱国主义教育基地和国家重点博物馆，主体建筑的前身是1968年建成的“毛泽东思想胜利万岁邯郸展览馆”，现为河北省文物保护单位，2009年获得国家二级博物馆资格。" name="Description">
+<link rel="stylesheet" href="css/base.css" />
+<SCRIPT language=javascript> 
+function ShowPage()
+{
+	formpage.submit();
+}
+</SCRIPT>
+</head>
+
+<body>
+
+<Link rel="stylesheet" type="text/css" href="css/menu1.css"-- />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script language="javascript"> 
+function addfavor(url,title) {
+if(confirm("网站名称："+title+"\n网址："+url+"\n确定添加收藏?")){
+var ua = navigator.userAgent.toLowerCase();
+if(ua.indexOf("msie 8")>-1){
+external.AddToFavoritesBar(url,title,'IT有道');//IE8
+}else{
+try {
+window.external.addFavorite(url, title);
+} catch(e) {
+try {
+window.sidebar.addPanel(title, url, "");//firefox
+} catch(e) {
+alert("加入收藏失败，请使用Ctrl+D进行添加");
+}
+}
+}
+}
+return false;
+}
+
+</script>
+<script> 
+function writeDateInfo()
+{
+ var day="";
+ var month="";
+ var ampm="";
+ var ampmhour="";
+ var myweekday="";
+ var year="";
+ mydate=new Date();
+ myweekday=mydate.getDay();
+ mymonth=mydate.getMonth()+1;
+ myday= mydate.getDate();
+ myyear= mydate.getYear();
+ year=(myyear > 200) ? myyear : 1900 + myyear;
+ if(myweekday == 0)
+ weekday=" 星期日";
+ else if(myweekday == 1)
+ weekday=" 星期一";
+ else if(myweekday == 2)
+ weekday=" 星期二";
+ else if(myweekday == 3)
+ weekday=" 星期三";
+ else if(myweekday == 4)
+ weekday=" 星期四";
+ else if(myweekday == 5)
+ weekday=" 星期五";
+ else if(myweekday == 6)
+ weekday=" 星期六";
+ document.write(year+"年"+mymonth+"月"+myday+"日"+weekday);
+}
+</script>
+
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_showHideLayers() { //v6.0
+var i,p,v,obj,args=MM_showHideLayers.arguments;
+for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { 
+v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function show(id)
+{
+	
+		document.getElementById("menu1").className="menunormal";
+	
+	document.getElementById("menu2").className="menunormal";
+	
+	document.getElementById("menu3").className="menunormal";
+	
+	document.getElementById("menu4").className="menunormal";
+	
+	document.getElementById("menu5").className="menunormal";
+	
+	document.getElementById("menu6").className="menunormal";
+	
+	document.getElementById("menu7").className="menunormal";
+	
+	document.getElementById("menu"+id).className="menuhover";
+}
+//-->
+</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="height:132px;">
+  	<td >
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
+          <tr>
+            <td valign="top">
+            	<table width="1025" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td style="padding-top:29px;padding-bottom:16px;"><img src="img/logo.jpg" border="0" /></td>
+                      <td valign="top" align="right" class="shoucangtd">
+
+
+
+<a href="index.asp"  style="color:#000;">中文版</a> | <a href="indexen.asp" style="color:#000;">English</a> | 
+                        
+
+
+                    	<a href="#" onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hdmuseum.org/');" style="color:#000;">设为首页</a> | <a href="javascript:window.external.AddFavorite('http://www.hdmuseum.org/','邯郸市博物馆')" style="color:#000;">加入收藏</a>
+                        
+                    </td>
+                  </tr>
+                </table>
+                <table width="1025" border="0"  cellspacing="0" cellpadding="0" align="center" height="47px;">
+                          <tr>
+                          <td><img src="img/menuleft.jpg" /></td>
+                            <td style="background:url(img/menubg.jpg) repeat-x;height:47px;">
+                            	<div class="nav">
+<ul>
+<li id="menu1" onmouseover="show(1)"><a href="index.asp">网站首页</a></li>
+<li class="nline40"></li>
+<li class="nline"></li>
+<li class="nline40"></li>
+<li  id="menu2" onmouseover="show(2)"><a href="about.asp?id=41" >概况</a>
+<ul  class="shumenuclass1111">
+<li><a href="about.asp?id=196"  style="height:30px;line-height:30px;text-align:center;">历史沿革&nbsp;</a></li>
+<li><a href="about.asp?id=120"  style="height:30px;line-height:30px;text-align:center;">大事记&nbsp;</a></li>
+<!--
+<li><a href="piclist.asp?cd=43"  style="width:120px;height:30px;line-height:30px;text-align:center;">实力展示&nbsp;</a></li>
+-->
+</ul>
+</li>
+<li class="nline40"></li>
+<li class="nline"></li>
+<li class="nline40"></li>
+<li  id="menu3" onmouseover="show(3)"><a href="newslist.asp?cd=2" >参观</a>
+<ul  class="shumenuclass1111">
+<li><a href="newsinfo.asp?id=285"  style="height:30px;line-height:30px;text-align:center;">导览&nbsp;</a></li>
+<li><a href="jjyuyue.asp?cd=42"  style="height:30px;line-height:30px;text-align:center;">讲解预约&nbsp;</a></li>
+<li><a href="zlyuyue.asp?cd=42"  style="height:30px;line-height:30px;text-align:center;">活动预约&nbsp;</a></li>
+
+</ul>
+</li>
+<li class="nline40"></li>
+<li class="nline"></li>
+<li class="nline40"></li>
+<li  id="menu4" onmouseover="show(4)"><a href="product.asp?cd=5" >展览</a>
+<ul  class="shumenuclass1111">
+
+<li style="height:30px;line-height:30px;text-align:center;"><a href="product.asp?cd=45" title="正在展出">正在展出</a></li>
+  
+<li style="height:30px;line-height:30px;text-align:center;"><a href="product.asp?cd=47" title="常设陈列">常设陈列</a></li>
+  
+<li style="height:30px;line-height:30px;text-align:center;"><a href="product.asp?cd=48" title="临时展览">临时展览</a></li>
+  
+</ul>
+</li>
+<li class="nline40"></li>
+<li class="nline"></li>
+<li class="nline40"></li>
+<li  id="menu7" onmouseover="show(7)"><a href="newslist.asp?cd=25" >资讯</a>
+<ul  class="shumenuclass1111">
+
+<li style="height:30px;line-height:30px;text-align:center;"><a href="newslist.asp?cd=61" title="综合新闻">综合新闻</a></li>
+  
+<li style="height:30px;line-height:30px;text-align:center;"><a href="newslist.asp?cd=62" title="邯博公告">邯博公告</a></li>
+  
+<li style="height:30px;line-height:30px;text-align:center;"><a href="newslist.asp?cd=63" title="馆内动态">馆内动态</a></li>
+  
+<li style="height:30px;line-height:30px;text-align:center;"><a href="newslist.asp?cd=64" title="预决算公开">预决算公开</a></li>
+  
+</ul>
+</li>
+<li class="nline40"></li>
+<li class="nline"></li>
+<li class="nline40"></li>
+<li  id="menu5" onmouseover="show(5)"><a href="newslist.asp?cd=6" class="navhover">公共教育</a>
+<ul  class="shumenuclass1111">
+<li><a href="newslist.asp?cd=50"  style="height:30px;line-height:30px;text-align:center;">志愿者&nbsp;</a></li>
+<li><a href="newslist.asp?cd=51"  style="height:30px;line-height:30px;text-align:center;">文博讲座&nbsp;</a></li>
+<li><a href="newslist.asp?cd=52"  style="height:30px;line-height:30px;text-align:center;">社教活动&nbsp;</a></li>
+
+</ul>
+</li>
+<li class="nline40"></li>
+<li class="nline"></li>
+<li class="nline40"></li>
+<li  id="menu6" onmouseover="show(6)"><a href="newslist.asp?cd=22" >学术</a>
+<ul  class="shumenuclass1111">
+<li><a href="newslist.asp?cd=53"  style="height:30px;line-height:30px;text-align:center;">学术成果&nbsp;</a></li>
+<li><a href="newslist.asp?cd=54"  style="height:30px;line-height:30px;text-align:center;">本馆出版&nbsp;</a></li>
+
+</ul>
+</li>
+</ul>
+</div>
+                            
+                            </td>
+                            <td><img src="img/menuright.jpg" /></td>
+                          </tr>
+                        </table>
+
+
+            </td>
+          </tr>
+        </table>
+
+    </td>
+   </tr>
+</table>
+	
+
+
+
+<table width="1025" border="0" cellspacing="0" cellpadding="0" align="center" style="height:10px;margin-top:10px;margin-bottom:10px;">
+  <tr>
+    <td>
+ <a><img src="UploadFiles/image/20201149153.jpg" border="0" width="1025" height="132"/></a>
+    </td>
+  </tr>
+</table>
+
+<table width="1025" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td height="10"></td>
+  </tr>
+</table>
+<table width="1025" border="0" cellspacing="0" cellpadding="0" align="center"  bgcolor="#FFFFFF">
+  <tr>
+     <td valign="top" width="190">
+     <table width="190" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+		<td class="leftalzs" height="28" align="right">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+			  	<td class="leftmenutitle" align="left"><a href="newslist.asp?cd=6">公共教育</a></td>
+				<td align="right"><a href="newslist.asp?cd=6"><img src="images/more.png" border=0/></a></td>
+			  </tr>
+			</table>
+		</td>
+  </tr>
+  <tr>
+	<td align="center" style="border:1px solid #C6DBEC;"  valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
+				
+                  <tr style="background:#FFFDFE;" height="32">
+					<td class="leftpronormaltd" onMouseOver="this.className='leftprohovtd';" onMouseOut="this.className='leftpronormaltd';" align="left" style="padding-left:40px;"><a href="newslist.asp?cd=50">志愿者</a></td>
+				  </tr>
+                  
+				  <tr>
+				  	<td height="1" align="center"  style="background:#DFDFDF;"></td>
+				  </tr>
+                  
+                  <tr style="background:#FFFDFE;" height="32">
+					<td class="leftpronormaltd" onMouseOver="this.className='leftprohovtd';" onMouseOut="this.className='leftpronormaltd';" align="left" style="padding-left:40px;"><a href="newslist.asp?cd=51">文博讲座</a></td>
+				  </tr>
+                  
+				  <tr>
+				  	<td height="1" align="center"  style="background:#DFDFDF;"></td>
+				  </tr>
+                  
+                  <tr style="background:#FFFDFE;" height="32">
+					<td class="leftpronormaltd" onMouseOver="this.className='leftprohovtd';" onMouseOut="this.className='leftpronormaltd';" align="left" style="padding-left:40px;"><a href="newslist.asp?cd=52">社教活动</a></td>
+				  </tr>
+                  
+				</table>
+	</td>
+  </tr>
+</table>
+<!--
+<table width="250" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td height="8"></td>
+  </tr>
+</table>
+<table width="250" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+		<td class="leftalzs" height="27" align="right">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tr>
+			  	<td class="leftmenutitle" align="left"><a href="newslist.asp?cd=2">热点资讯</a></td>
+				<td align="right"><a href="newslist.asp?cd=2"><img src="images/more.png" border=0/></a></td>
+			  </tr>
+			</table>
+		</td>
+  </tr>
+  <tr>
+	<td align="center" style="border:1px solid #C6DBEC;" height="258" valign="top">
+		<table width="96%" border="0" cellspacing="0" cellpadding="0" align="center" style="font-size:12px;color:#585858;line-height:25px;margin-top:5px;margin-bottom:5px;" id="hzhb1">
+		
+		  <tr>
+			<td align="left" height="30" style="padding-left:5px;">
+			·
+			<a href="newsinfo.asp?id=285" class="newslinkindex" title="导览">
+			 导览
+			</a>
+			</td>
+			<td width="50" class="leftfbdate">06-27</td>
+		  </tr>
+		   <tr>
+			<td colspan="2" height="1"></td>
+		   </tr>
+		   
+		  <tr>
+			<td align="left" height="30" style="padding-left:5px;">
+			·
+			<a href="newsinfo.asp?id=284" class="newslinkindex" title="展览预约">
+			 展览预约
+			</a>
+			</td>
+			<td width="50" class="leftfbdate">06-27</td>
+		  </tr>
+		   <tr>
+			<td colspan="2" height="1"></td>
+		   </tr>
+		   
+		  <tr>
+			<td align="left" height="30" style="padding-left:5px;">
+			·
+			<a href="newsinfo.asp?id=283" class="newslinkindex" title="讲解预约">
+			 讲解预约
+			</a>
+			</td>
+			<td width="50" class="leftfbdate">06-27</td>
+		  </tr>
+		   <tr>
+			<td colspan="2" height="1"></td>
+		   </tr>
+		   
+		</table>
+	</td>
+  </tr>
+</table>
+-->
+  </td>
+  <td width="10"></td>
+    <td>
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+            	<td  style="background:#EDEDED;padding-top:10px;padding-bottom:10px;">
+                    <table width="96%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+                    			<tr>
+                                	<td colspan="3" height="10"></td>
+                                </tr>
+                              <tr>
+                                <td style="padding-left:20px;padding-right:20px;;color:#191919;font-weight:bold;font-size:18px;font-family:'微软雅黑','黑体';">文博讲座&nbsp;&nbsp;<span class="nyerji"><a href="newslist.asp?cd=50">志愿者</a> | <a href="newslist.asp?cd=51">文博讲座</a> | <a href="newslist.asp?cd=52">社教活动</a></span></td>
+                                <td class="localtdclass" align="right" style="padding-right:10px;">
+                                 <span>当前位置: <a href="index.asp" class="wzlinkn">首页</a>  > 公共教育 > 文博讲座 </span>
+                                </td>
+                              </tr>
+                                       <tr>
+                    <td colspan="3" height=1 style="background:#DFDFDF;"></td>
+                   </tr>
+                            </table>
+                            <table width="96%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+                              <tr>
+                                <td valign="top" >
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <!--
+                                      <tr>
+                                        <td style="height:40px;line-height:40px;font-size:14px;font-weight:bold;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td style="padding-left:20px;width:100px;color:#191919;font-weight:bold;font-size:18px;font-family:'微软雅黑','黑体';">文博讲座</td>
+                                            <td class="localtdclass" align="right" style="padding-right:10px;">
+                                             <span>当前位置: <a href="index.asp" class="wzlinkn">首页</a>  > 公共教育 > 文博讲座 </span>
+                                            </td>
+                                          </tr>
+                                        </table>
+                    
+                                        </td>
+                                      </tr>
+                                         <tr>
+                                        <td style="background:url(img/lineb.jpg) repeat-x;height:9px;"></td>
+                                      </tr>
+                                      -->
+                                      <tr>
+                                        <td  class="righttableborder" valign="top" height="401">
+                                            <table width="98%" border="0" cellspacing="0" cellpadding="0" align="center" style="font-size:12px;line-height:23px;color:#585858;margin-top:3px;margin-bottom:3px;">
+                                                <tr>
+                                                    <td  valign="top" style="padding-top:7px;">
+                                                        <table width="94%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                          
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=607" class="newslink" title="讲座预告：《荀子生平与邯郸文化》">
+                                                            讲座预告：《荀子生平与邯郸文化》
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览7763次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2017-05-11 15:01:51</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=601" class="newslink" title="《邺城佛造像艺术鉴赏》公益讲座">
+                                                            《邺城佛造像艺术鉴赏》公益讲座
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3711次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2017-04-29 15:41:39</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=582" class="newslink" title="《传太极文化，做太极传人》公益讲座">
+                                                            《传太极文化，做太极传人》公益讲座
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3045次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2017-02-15 16:32:29</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=561" class="newslink" title="邯郸市博物馆元旦书法公益讲座">
+                                                            邯郸市博物馆元旦书法公益讲座
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3044次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2016-12-15 10:45:31</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=557" class="newslink" title="讲座通知《慈禧过邯郸的前前后后---庚子西狩与两宫回銮图片漫谈（一）》">
+                                                            讲座通知《慈禧过邯郸的前前后后---庚子西狩与两宫回銮图...
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3517次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2016-10-26 17:28:45</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=556" class="newslink" title="博物馆讲座通知《卫生救护》">
+                                                            博物馆讲座通知《卫生救护》
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3385次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2016-10-26 17:23:45</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=555" class="newslink" title="博物馆讲座通知：从考古调查看邻水窑与彭城窑观台窑之关系(二）">
+                                                            博物馆讲座通知：从考古调查看邻水窑与彭城窑观台窑之关系(...
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3358次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2016-10-26 17:12:01</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=554" class="newslink" title="本周讲座题目：磁山文化">
+                                                            本周讲座题目：磁山文化
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3157次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2016-10-14 14:38:11</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=553" class="newslink" title="邯郸市博物馆讲座通知：从考古调查看邻水窑与彭城窑观台窑之关系">
+                                                            邯郸市博物馆讲座通知：从考古调查看邻水窑与彭城窑观台窑之...
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览2257次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2016-10-14 14:34:03</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=516" class="newslink" title="2015年12月19日讲座《探析磁州窑绵延千载的历史原因》">
+                                                            2015年12月19日讲座《探析磁州窑绵延千载的历史原因...
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3646次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2015-12-14 18:54:33</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                           <tr  onMouseOver="this.style.backgroundColor='#F1EFEF';" onMouseOut="this.style.backgroundColor='#ffffff';">
+                                                            <td align="left" height="30"  style="padding-left:10px;">·							
+                                                            
+                                                    <a href="newsinfo.asp?id=513" class="newslink" title="2015年12月13日讲座《博物馆发展史》预告">
+                                                            2015年12月13日讲座《博物馆发展史》预告
+                                                            </a>
+                                                            </td>
+                                                            <td class="leftfbdate">浏览3632次</td>
+                                                            <td width="200" align="right" class="leftfbdate" style="padding-right:10px;">2015-12-03 17:29:11</td>
+                                                          </tr>
+                                                               <tr>
+                                <td style="background:url(img/newsline.jpg) repeat-x;height:1px;" colspan="3"></td>
+                              </tr>
+                                                            
+                                                        </table>
+                    
+                                                        <table width="96%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                        <tr>
+                                                            <td height="10"></td>
+                                                         </tr>
+                                                            <tr>
+                                                            <td  class="pagelistbottom" align="center">
+                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0"><form name="formpage" method="post" action=?cd=51&><tr><td height="30" class="padding7"><strong>&nbsp;&nbsp;共<font color=red>26</font>条&nbsp;&nbsp;&nbsp;当前是第<font color=red>2</font>页/共<font color=red>3</font>页</strong></td><td align="right" class="padding3"><a href=?cd=51&page=1>首页</a>&nbsp;&nbsp;<a href=?cd=51&page=1>上一页</a>&nbsp;&nbsp;<a href=?cd=51&page=3>下一页</a>&nbsp;&nbsp;<a href=?cd=51&page=3>末页</a>&nbsp;&nbsp;<select name="page" onChange="ShowPage()"><option>跳转页面到...</option><option value=1>┝『第1页』</option><option value=2>┝『第2页』</option><option value=3>┝『第3页』</option></select></td></tr></form></table>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            
+                            
+                                        </td>
+                                      </tr>
+                                    </table>
+                                </td>
+                              </tr>
+                            </table>
+                  </td>
+                </tr>
+             </table>
+	</td>
+  </tr>
+</table>
+<table width="1025" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center">
+  <tr>
+	<td height="10"></td>
+  </tr>
+</table>
+
+<table width="1025" border="0" cellspacing="0" cellpadding="0" align="center" style="height:48px;">
+  <tr>
+    <td valign="middle">
+		<table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+         <tr>
+          	<td height="8" ></td>
+          </tr>
+        <tr>
+        	<td class="footcopyleft">
+            <a href="#">返回顶部</a> | <a href="about.asp?id=41">博物馆简介</a> | <a href="newslist.asp?cd=25">最新动态</a> | <a href="newslist.asp?cd=55">下载中心</a> | <a href="liuyan.asp">留言中心</a>
+            </td>
+          </tr>
+		  <tr>
+			<td class="footcopyright" align="left">
+			Copyright &#169; <a href="http://www.hdmuseum.org/" target="_blank">www.hdmuseum.org</a>. All Rights Reserved. <a href="http://www.beian.miit.gov.cn/" target="_blank">冀ICP备10021346号 </a><span style="display:none;" id="__kindeditor_bookmark_end_3__"></span>&nbsp; <br />
+地址：河北省邯郸市中华北大街45号 &nbsp;电话：0310-3012739<br />
+邮编：056002 &nbsp; <a href="http://www.hdcg.net/" target="_blank">技术支持：晨光网络</a>&nbsp;&nbsp;您是第 <span style="color:#FF000A;">3964803</span> 位访客<br>
+<div style="width:300px;margin:0 auto; padding:0px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13040302000860" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="images/gonganbeian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; ">冀公网安备 13040302000860号</p></a><br>
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/05/107/0000/41490979/CA051070000414909790001.js' type='text/javascript'%3E%3C/script%3E"));</script>		 	</div>
+			</td>
+		  </tr>
+            <tr>
+          	<td height="8"></td>
+          </tr>
+		</table>
+	</td>
+    <td align="left">
+    <img src="img/erweima.jpg" />
+    </td>
+    <td style="font-size:14px;color:#666666;">
+    扫描微信二维码,关注我们。获得最新的展览资讯
+    </td>
+  </tr>
+</table>
+
+    
+
+
+
+</body>
+</html>

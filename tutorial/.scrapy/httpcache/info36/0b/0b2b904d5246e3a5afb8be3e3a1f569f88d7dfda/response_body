@@ -1,0 +1,356 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="黑龙江省博物馆">
+<meta name="description" content="黑龙江省博物馆">
+<title>十大镇馆之宝之九：松花江猛犸象化石骨架</title>
+<link href="/css/museum.css" rel="stylesheet" type="text/css">
+
+<script src="/js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript"> 
+function displaySubMenu(li) { 
+	var subMenu = li.getElementsByTagName("ul")[0]; 
+	subMenu.style.display = "block"; 
+} 
+function hideSubMenu(li) { 
+	var subMenu = li.getElementsByTagName("ul")[0]; 
+	subMenu.style.display = "none"; 
+} 
+</script> 
+
+
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+ $(function () {
+
+            var v = document.getElementById("Timer");
+            var myDate = new Date();
+            var dayNames = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+            var time = myDate.getFullYear() + "年 " + (myDate.getMonth()+1) + "月" + myDate.getDate() + "日 " + dayNames[myDate.getDay()];
+            v.textContent = time;
+        })
+     function find()
+        {
+            var m;
+            m = document.getElementById("search_key").value;
+            if (m.length > 0)
+                {
+window.location.href = "/search/Scripts/search/search.html?cid=1&key=" + encodeURI (m);
+                }
+           
+        }
+</script>
+<div id="topbg">
+<div id="topnav">
+<div class="date fl"><span id="Timer">2020年 5月20日 星期三</span>
+</div>
+
+<div id="search" class="rl">
+ <span class="search_w">全文检索</span><input type="text" value="" onfocus="if (value ==''){value =''}" onblur="if (value ==''){value=''}" placeholder="" style="float:left; height:20px;" id="search_key">  
+<input type="image" value="全文搜索" src="/images/bnt-ss.gif" border"0"="" style="float:left;" onclick="find()" width="38" height="25">
+</div>
+<!--搜索end-->
+
+<div class="app rl">
+<ul class="hongs">
+<li></li>
+<li></li>
+</ul>
+</div>
+
+</div> 
+</div> <!--顶部导航end-->
+
+
+<!--顶部导航end-->
+
+<div id="centerbg"><!--背景图片 end-->
+<script type="text/javascript"> 
+function displaySubMenu(li) { 
+	var subMenu = li.getElementsByTagName("ul")[0]; 
+	subMenu.style.display = "block"; 
+} 
+function hideSubMenu(li) { 
+	var subMenu = li.getElementsByTagName("ul")[0]; 
+	subMenu.style.display = "none"; 
+} 
+</script> 
+
+
+<div class="toppic"></div>
+
+<div id="nav-box">
+<ul id="navigation"> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/" target="_blank">首页</a> 
+ </li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/lbgk" target="_blank">龙博概况</a> 
+<ul> 
+<li><a href="http://www.hljmuseum.com/system/200910/101021.html">龙博简介</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201802/103133.html">馆长致辞</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201612/102322.html">组织机构</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102323.html">历史沿革</a></li> 
+</ul> 
+</li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/zxzx" target="_blank">资讯在线</a> 
+<ul> 
+<li><a href="/zxzx/lbkx">龙博快讯</a></li> 
+<li><a href="/zxzx/zlyhdyg">传历史记忆</a></li> 
+<li><a href="/zxzx/cpzj">藏品征集</a></li> 
+<li><a href="/zxzx/wbzl">文博纵览</a></li> 
+</ul> 
+</li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/cpgz" target="_blank">藏品工作</a> 
+<ul> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/cpgz/cpxs" target="_blank">藏品欣赏</a> 
+<ul> 
+<li><a href="/cpgz/cpxs/zgzb">镇馆之宝</a></li> 
+<li><a href="/cpgz/cpxs/lsww">历史文物</a></li> 
+<li><a href="/cpgz/cpxs/zrbb">自然标本</a></li> 
+<li><a href="/cpgz/cpxs/yscp">艺术藏品</a></li>
+<li><a href="/cpgz/cpxs/wxzl">文献资料</a></li>
+
+</ul> 
+</li> 
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<!--<a href="/cpgz/cpbh" target="_blank">藏品保护</a>-->
+<ul> 
+<li><a href="#">文物修复与复制</a></li> 
+<li><a href="#">标本制作</a></li> 
+<li><a href="#">古生物修复装架</a></li> 
+<li><a href="#">预防性保护</a></li> 
+<li><a href="#">数字化保护</a></li> 
+</ul> 
+</li> 
+</ul> 
+</li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/clzl" target="_blank">陈列展览</a> 
+<ul> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/clzl/jbcl" target="_blank">基本陈列</a> 
+<ul> 
+<li><a href="/clzl/jbcl/lscl">历史陈列</a></li> 
+<li><a href="/clzl/jbcl/zrcl">自然陈列</a></li> 
+<li><a href="/clzl/jbcl/eqbwg">俄侨博物馆</a></li> 
+<li><a href="/clzl/jbcl/dsmys">邓散木艺术</a></li> 
+<li><a href="/clzl/jbcl/yzxbxhcl">于志学冰雪画</a></li>
+<li><a href="/clzl/jbcl/fyxzfg">枫叶小镇分馆</a></li> 
+</ul> 
+</li> 
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+<a href="/clzl/lszl" target="_blank">临时展览</a>
+<ul> 
+<li><a href="/clzl/lszl/myyx">每月一星</a></li>
+<li><a href="/clzl/lszl/myyxian">每月一县</a></li>
+<li><a href="/clzl/lszl/hsjtz">寒暑假特展</a></li>
+<li><a href="/clzl/lszl/yjzl">交流展览</a></li>
+<li><a href="/clzl/lszl/fyzl">非遗展览</a></li>
+<li><a href="/clzl/lszl/mczl">其他展览</a></li>
+</ul>
+</li> 
+<li><a href="http://www.hljmuseum.com/web/Ebook/EBook.aspx?id=38" target="_blank">展览超市</a> </li> 
+</ul> 
+</li> 
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/bwgjy" target="_blank">博物馆教育</a> 
+<ul> 
+<li><a href="/bwgjy/lbjy">龙博教育</a></li> 
+<li><a href="/bwgjy/ldbwg">流动博物馆</a></li> 
+<li><a href="/bwgjy/hqzrr">环球自然日</a></li> 
+<li><a href="/bwgjy/jjypx">讲解员培训</a></li> 
+<li><a href="/bwgjy/zyzhd">志愿者活动</a></li>
+</ul> 
+</li>
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="/xskj" target="_blank">学术空间</a> 
+<ul> 
+<li><a href="/xskj/ttyjl">探讨与交流</a></li> 
+<li><a href="/xskj/ktyj">课题研究</a></li> 
+<!--<li><a href="/xskj/xsdt">学术动态</a></li>--> 
+<li><a href="/xskj/wbjt">业务讲座</a></li> 
+</ul> 
+</li>
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="http://www.hljmuseum.com/web/Ebook/WenChuangMain.aspx">龙博纸媒</a> 
+<ul> 
+<li><a href="http://www.hljmuseum.com/web/Ebook/EBook.aspx?id=53">龙博图书</a></li> 
+<li><a href="http://www.hljmuseum.com/web/Ebook/EBook.aspx?id=55">馆　　报</a></li> 
+
+</ul> 
+</li>
+
+<li><a href="/wctd/wccp">文创产品</a></li>
+
+<li> <a href="/htwb" target="_blank">黑土文博</a></li>
+
+<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+<a href="http://www.hljmuseum.com/system/201708/102053.html" target="_blank">参观服务</a>
+<ul> 
+<li><a href="http://www.hljmuseum.com/system/201708/102053.html">开放时间</a></li> 
+<li><a href="https://hljsbwg.hdwbcloud.com" target="_blank">参观预约</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102055.html">交通地理</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102056.html">参观导览</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102057.html">观众须知</a></li> 
+<li><a href="http://www.hljmuseum.com/system/200910/101827.html">文物鉴定</a></li> 
+<li><a href="http://www.hljmuseum.com/system/200910/101829.html">文物总店</a></li> 
+<li><a href="http://www.hljmuseum.com/system/200910/101830.html">游客中心</a></li> 
+<li><a href="http://www.hljmuseum.com/system/201510/102252.html">联系龙博</a></li>   
+</ul> 
+</li>
+
+<li><a href="/slfw" target="_blank">四零服务</a></li>
+
+</ul>--&gt; 
+</div>
+<!--导航 end-->
+<!--导航 end-->
+
+
+<div id="content">
+<div id="erji-cent">
+<div class="erji-left fl">
+<div class="bread">当前位置: <a href="/index.html">博物馆</a> &gt;  <a href="/cpgz/index.html">藏品工作</a> &gt;  <a href="/cpgz/cpxs/index.html">藏品欣赏</a> &gt;  <a href="/cpgz/cpxs/zgzb/index.html">镇馆之宝</a></div>
+<div class="end-k">
+<h2>十大镇馆之宝之九：松花江猛犸象化石骨架</h2>
+<h4>发布日期：2015-10-13　　新闻来源：　　编辑：冯拓菲 蒋  萃 杨  旭</h4>
+<div class="duanluo">
+    <p>　　<!--img_domain_start--></p><div align="left"><img style="border-bottom:0px;border-left:0px;border-top:0px;border-right:0px;" src="/att/news/201510/13/336752728717.jpg" width="435" height="612"> <p><span style="font-size:16px;">　　 <span style="font-family:Microsoft YaHei;font-size:18px;">1973年3月，黑龙江省肇源县三站乡松花江中游北岸的一级阶地上，发现了一具完整的猛犸象化石，这是中国发现的第一具完整猛犸象化石。这具猛犸象身高3.33米，体长5.45米，门齿长2.05米，臼齿显示出它是一只老象，专家们根据这头古象的骨骼特征，同时也是为纪念它的出土地——古松花江畔，最后定名为“松花江猛犸象”。为了弄清它的确切年代，博物馆专门请中科院考古研究所作了C14测定，断定其年代为距今21200土600年。</span></span></p>
+ <p><span style="font-family:Microsoft YaHei;font-size:18px;">　　松花江猛犸象属长鼻目，真象类，它是猛犸象家族中个体最大的一类。猛犸象生活在欧洲、亚洲和北美洲的寒冷地区，时代为更新世晚期，它在地球上曾繁盛一时，到距今约l万年前的全新世绝灭。</span></p>
+ <p><span style="font-family:Microsoft YaHei;font-size:18px;">　　肇源发现的这具猛码象经科研人员精心修复和装架，于1975年在黑龙江省博物馆正式展出，在当时引起了国内外极大的轰动。后来这具猛码象又在全国十几个省进行过巡展，它还作为中国人民的友好使者，在日本、加拿大等国展出。时光如梭，一晃40年过去了，这具猛码象化石依然雄风不减，屹立在黑龙江省博物馆的古生物展览</span><span style="font-family:Microsoft YaHei;font-size:18px;">大厅中，迎接来自世界各地的宾客。</span><span style="font-family:Microsoft YaHei;font-size:18px;"> </span></p>
+</div>
+<!--img_domain_end--><p></p>
+    </div>
+
+
+<script type="text/javascript" src="http://111.40.217.165:8095/Scripts/jquery.js"></script>
+<script src="http://111.40.217.165:8095/Scripts/flowplayer/flowplayer-3.2.11.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+        window.onload = function () {
+          $('div[flv]').each(function () {
+             $(this).css('width',$(this).attr('width')).css('height',$(this).attr('height')).css('margin','0 auto');
+          flowplayer($(this).attr('id'), "http://111.40.217.165:8095/Scripts/flowplayer/flowplayer-3.2.12.swf", {
+               clip: {
+                 url: $(this).attr('flv'),
+                 autoPlay: false
+               }
+            });
+           });
+        }
+</script>
+
+<div class="clear f14 huis">&nbsp;&nbsp;&nbsp;&nbsp;未经授权，不得转载</div>
+
+<!-- JiaThis Button BEGIN -->
+
+<div class="jiathis_style_24x24 rl Jushang">
+<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div><div class="rl Jushang f14 huis">分享到：</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+</div><!--细览 end-->
+
+
+<div class="xly-down clear">
+			
+				<input style=" margin:0 10px;" name="打印" type="submit" value="打印" onclick="self.print()">
+			
+				<input style="margin:0 10px;" name="关闭当前页面" type="submit" value="关闭窗口" onclick="window.close()">
+			
+		</div>
+
+
+</div><!--左侧 end-->
+
+<div class="erji-right rl">
+<div class="column01">
+<div class="titlebg">
+  <div class="txt bai"><a href="/zxzx/lbkx" target="_blank">龙博快讯</a></div></div>
+  <ul class="titlist">
+<li><a href="/system/201909/104732.html" target="_blank">黑龙江省文化和旅游厅领导到黑龙江省博物馆检查安全工作</a></li><li><a href="/system/201909/104728.html" target="_blank">黑龙江省博物馆开展新招募志愿者岗前培训活动</a></li><li><a href="/system/201909/104726.html" target="_blank">黑龙江省博物馆“三远离一倡导”展览走进黑龙江省艺术职业学院</a></li><li><a href="/system/201909/103726.html" target="_blank">“诠释经典——程十发《阿Q画传》原作展” 在上海程十发艺术馆开幕</a></li><li><a href="/system/201909/103725.html" target="_blank">重要通知</a></li><li><a href="/system/201909/103722.html" target="_blank">庆祝中华人民共和国成立七十周年 黑龙江省博物馆推出“《瞬间之美》——夏富祥摄影作品展”</a></li>
+  </ul>
+</div>
+
+<div class="column01">
+<div class="titlebg">
+  <div class="txt bai"><a href="/clzl/lszl/myyx/" target="_blank">每月一星</a></div></div>
+  <ul class="titlist">
+<li><a href="/system/201909/104730.html" target="_blank">“每月一星”系列展览之121期：双鹿纹玉佩</a></li><li><a href="/system/201909/103721.html" target="_blank">可爱毛茸茸的松鼠</a></li><li><a href="/system/201907/103676.html" target="_blank">每月一星系列展览之一百一十八：人物故事铜镜</a></li><li><a href="/system/201906/103663.html" target="_blank">每月一星系列展览之一百一十七：“丁香枝头春意闹”特展</a></li><li><a href="/system/201904/103634.html" target="_blank">每月一星系列展览之一百一十六：镜泊游鱼</a></li><li><a href="/system/201903/103593.html" target="_blank">每月一星系列展览之一百一十五：文字瓦</a></li>
+  </ul>
+</div>
+
+<div class="column01">
+<div class="titlebg">
+  <div class="txt bai"><a href="/bwgjy/lbjy" target="_blank">龙博教育</a></div></div>
+  <ul class="titlist">
+<li><a href="/system/201909/103714.html" target="_blank">玩艺坊：手绘陶猪纹样彩色瓦当</a></li><li><a href="/system/201908/103708.html" target="_blank">玩艺坊：中国印之印章杯</a></li><li><a href="/system/201908/103699.html" target="_blank">玩艺坊：手绘陶猪纹样彩色瓦当</a></li><li><a href="/system/201907/103683.html" target="_blank">玩艺坊：镂刻坐龙杯</a></li><li><a href="/system/201907/103681.html" target="_blank">历史的记忆：畅游在龙博  说说俄文化</a></li><li><a href="/system/201907/103678.html" target="_blank">玩艺坊：手绘陶猪纹样彩色瓦当</a></li>
+  </ul>
+</div>
+
+<div class="column01">
+<div class="titlebg">
+  <div class="txt bai"><a href="/xskj/ttyjl" target="_blank">探讨与交流</a></div></div>
+  <ul class="titlist">
+<li><a href="/system/201707/102861.html" target="_blank">中国博物馆协会出版专业委员会2017年年会综述</a></li><li><a href="/system/201607/102527.html" target="_blank">谈哈尔滨历史文化的共生性和多元化</a></li><li><a href="/system/201510/101933.html" target="_blank">延伸博物馆服务功能   满足群众文化需求</a></li><li><a href="/system/201510/101932.html" target="_blank">将受众引进来，让博物馆走出去——谈新时期博物馆教育理念的与时俱进</a></li><li><a href="/system/201510/101931.html" target="_blank">拓展服务范围　创新办展模式——黑龙江省博物馆服务基层纪实</a></li><li><a href="/system/201510/101930.html" target="_blank">黑龙江省博物馆自然类藏品征集方式浅析</a></li>
+  </ul>
+</div>
+
+
+</div><!--右侧 end-->
+
+<!--右侧 end-->
+
+<div class="clear"></div>
+</div>
+
+<div id="foot-bq">黑ICP备09058955号 Copyright （c） 2009 hljmuseum.com 黑龙江省博物馆 版权所有<br>
+
+地址：南岗区红军街64号 电话：0451-53644151　传真：0451-53622745 邮编：150001　东北网制作<br>
+
+开馆时间：周二至周日；9:00～16:30（15:30停止发票）<br>
+年均访问量：412871人次<br>
+
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=23010302000146" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/images/beian.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#FFFFFF;">黑公网安备 23010302000146号</p></a>	 
+</div>
+
+
+<div style="display:none">
+<script type="text/javascript">document.write(unescape("%3Cscript src='http://tongji.dbw.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));</script><script src="http://tongji.dbw.cn/webdig.js?z=1" type="text/javascript"></script>
+<script type="text/javascript">wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")</script>
+</div>
+
+
+<div style="text-align:center">
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/10/000/0000/60673098/CA100000000606730980003.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=34BE6A643E116E5CE053012819AC5A5E" target="_blank"><img id="imgConac" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1" vspace="0" hspace="0" border="0"></a></span><script src="http://dcs.conac.cn/js/10/000/0000/60673098/CA100000000606730980003.js" type="text/javascript"></script><span id="_ideConac"></span>
+</div>
+		 
+
+</div><!--内容区 End-->
+
+<div class="clear"></div>
+</div>
+
+
+<script src="/search/Scripts/hit/hit.ashx" type="text/javascript"></script>
+<script src="/search/Scripts/hit/hit.ashx" type="text/javascript"></script>
+
+
+
+</body></html>

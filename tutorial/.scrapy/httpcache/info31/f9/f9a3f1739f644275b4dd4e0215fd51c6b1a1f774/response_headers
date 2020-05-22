@@ -1,0 +1,9 @@
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Pragma: no-cache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Server: Microsoft-IIS/7.5
+Date: Tue, 19 May 2020 17:25:17 GMT
+X-Powered-By: PHP/5.2.17
+Content-Type: text/html;charset=utf-8

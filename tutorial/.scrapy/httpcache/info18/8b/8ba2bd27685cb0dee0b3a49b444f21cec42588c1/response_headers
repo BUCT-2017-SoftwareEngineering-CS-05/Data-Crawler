@@ -1,0 +1,9 @@
+X-Frame-Options: SAMEORIGIN
+Accept-Ranges: bytes
+Server: Microsoft-IIS/7.5
+Cache-Control: private
+Last-Modified: Fri, 15 May 2020 11:35:24 GMT
+Set-Cookie: security_session_verify=016e2e7a9f1b00a735ea3d39b526a8ee; expires=Fri, 22-May-20 18:41:42 GMT; path=/; HttpOnly
+Etag: "d581c0ecac2ad61:0"
+Date: Tue, 19 May 2020 10:41:42 GMT
+Content-Type: text/html

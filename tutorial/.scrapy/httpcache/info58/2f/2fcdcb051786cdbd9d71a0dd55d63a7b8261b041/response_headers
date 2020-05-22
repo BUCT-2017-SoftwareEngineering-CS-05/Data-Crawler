@@ -1,0 +1,10 @@
+Content-Type: text/html
+Hittype: TCP_REFRESH_MISS
+Age: 0
+Content-Encoding: gzip
+Dnion-Transfer-Encoding: 1
+Date: Wed, 20 May 2020 12:47:44 GMT
+Server-Info: DnionATS
+Vary: Accept-Encoding
+Via: http/1.1 XNOP015-CMC-CT-CNC-JSCZ-P-12-129 (DLC-6.1.26), http/1.1 CMC-HNCD-C-164-157 (DLC-6.1.31)
+Server: OPTIMUS/1.11.2.4_21
