@@ -1,7 +1,0 @@
-Cache-Control: private
-Expires: Thu, 01 Jan 1970 08:00:00 CST
-X-Frame-Options: SAMEORIGIN
-Set-Cookie: JSESSIONID=456660FF77E0FE9B62D17002C196D9F9; Path=/museum; Secure; HttpOnly
-Content-Type: text/html;charset=UTF-8
-Content-Language: zh-CN
-Date: Tue, 19 May 2020 18:01:30 GMT

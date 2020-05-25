@@ -1,8 +1,0 @@
-Cache-Control: private
-Content-Type: text/html; charset=utf-8
-Server: Microsoft-IIS/7.5
-Set-Cookie: yunsuo_session_verify=b160ed192cea78241a577bfd2e1f1f9c; expires=Sun, 24-May-20 00:41:11 GMT; path=/; HttpOnly
-Set-Cookie: ASP.NET_SessionId=fghwqgmiasicpyxvctdi2kba; path=/; HttpOnly; SameSite=Lax
-X-Powered-By: ASP.NET
-X-Frame-Options: SAMEORIGIN
-Date: Wed, 20 May 2020 16:41:11 GMT

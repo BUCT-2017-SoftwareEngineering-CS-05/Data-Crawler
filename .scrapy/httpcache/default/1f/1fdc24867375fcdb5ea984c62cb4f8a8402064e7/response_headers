@@ -1,9 +1,0 @@
-Cache-Control: private
-Content-Type: text/html
-Content-Encoding: gzip
-Vary: Accept-Encoding
-Server: Microsoft-IIS/7.5
-Set-Cookie: security_session_verify=7c3972caf0cf012325a4a591c826de35; expires=Fri, 22-May-20 23:47:16 GMT; path=/; HttpOnly
-Set-Cookie: ASPSESSIONIDASABDQCT=PMKHAMPBHKBMCMONBIDMOCJF; path=/
-X-Powered-By: WAF/2.0
-Date: Tue, 19 May 2020 15:47:16 GMT
