@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>井冈山革命博物馆群众路线教育</title>
+<meta name="generator" content="" />
+<meta name="author" content="" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="templates/default/style/webstyle.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="templates/default/js/jquery.min.js"></script>
+<script type="text/javascript" src="templates/default/js/top.js"></script>
+</head>
+<body>
+<!-- header-->
+﻿<link href="templates/default/style/webstyle.css" type="text/css" rel="stylesheet" />
+
+<link href="templates/default/img/global.css" rel="stylesheet" type="text/css">
+<link href="templates/default/img/home.css" rel="stylesheet" type="text/css">
+<div id="top">
+    <div id="head">
+        <div id="logo">
+	<div class="txt"  style="float:right; color:#FFF; padding-top:10px;"><a href="javascript:;" onclick="AddFavorite();return false;"  style="color:#FFF">加入收藏</a><span>|</span>
+    <a href="http://www.jgsgmbwg.com/message.php" style="color:#FFF">留言中心</a></div>
+	<div class="search">
+		<form name="search" id="search" method="get" action="search.php">
+			<input type="text" name="keyword" id="keyword" title="输入关键字进行搜索" value="" class="key" />
+			<button type="submit" id="search_btn" class="sub"><span>搜索</span></button>
+		</form>
+	</div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+<div class="navArea">
+	<div class="navBg">
+		<ul class="nav">
+			<li><a href="index.php">首　页</a><ul class="nav_sub"></ul></li><li><a href="about.php">井博概况</a><ul class="nav_sub"><li><a href="about.php?cid=3">井博简介</a></li><li><a href="abouts.php?cid=14">机构设置</a></li><li><a href="about.php?cid=15">领导班子</a></li><li><a href="abouts.php?cid=16">重大纪事</a></li><li><a href="abouts.php?cid=17">“一号工程”建设</a></li></ul></li><li><a href="news.php">快讯速递</a><ul class="nav_sub"><li><a href="news.php?cid=18">井冈新闻</a></li><li><a href="news.php?cid=19">井博快讯</a></li><li><a href="news.php?cid=20">同业快讯</a></li><li><a href="news.php?cid=21">理事天地</a></li><li><a href="news.php?cid=22">反腐倡廉</a></li><li><a href="news.php?cid=23">政策法规</a></li><li><a href="news.php?cid=26">三进三解三促</a></li><li><a href="news.php?cid=72">群众路线教育 </a></li></ul></li><li><a href="bwg.php">数字博物馆</a><ul class="nav_sub"><li><a href="bwg.php?cid=6">美术精品</a></li><li><a href="about.php?cid=27">电子导航图</a></li><li><a href="bwgnews.php?cid=28">影视厅</a></li><li><a href="bwgnews.php?cid=7">基本陈列</a></li><li><a href="bwgnews.php?cid=71">典藏珍品</a></li></ul></li><li><a href="qsyd.php?cid=29">青少园地</a><ul class="nav_sub"><li><a href="qsyd.php?cid=30">知识问答</a></li><li><a href="qsyd.php?cid=31">红色歌谣</a></li><li><a href="qsyd.php?cid=32">重要文献</a></li><li><a href="qsyd.php?cid=33">理论研究</a></li></ul></li><li><a href="xscl.php?cid=34">学术长廊 </a><ul class="nav_sub"><li><a href="xscl.php?cid=35">纪实探索 </a></li><li><a href="xscl.php?cid=36">历史资料</a></li><li><a href="xscl.php?cid=37">文博之窗</a></li><li><a href="xscl.php?cid=38">摇篮</a></li></ul></li><li><a href="jzjj.php?cid=44">旧址旧居</a><ul class="nav_sub"><li><a href="jzjj.php?cid=45">黄洋界</a></li><li><a href="jzjj.php?cid=46">茨坪</a></li><li><a href="jzjj.php?cid=47">茅坪</a></li><li><a href="jzjj.php?cid=48">龙市</a></li><li><a href="jzjj.php?cid=49">五井</a></li><li><a href="jzjj.php?cid=50">黄坳</a></li><li><a href="jzjj.php?cid=51">纪念建筑</a></li><li><a href="jzjj.php?cid=52">其它</a></li></ul></li><li><a href="jsjy.php?cid=53">精神家园</a><ul class="nav_sub"><li><a href="jsjy.php?cid=54">红军传人</a></li><li><a href="jsjy.php?cid=55">参观瞻仰</a></li><li><a href="jsjy.php?cid=56">千里寻故地</a></li><li><a href="jsjy.php?cid=57">井冈山精神</a></li><li><a href="jsjy.php?cid=58">党建专栏</a></li><li><a href="jsjy.php?cid=59">志愿者风彩</a></li><li><a href="jsjy.php?cid=60">科学发展观</a></li><li><a href="jsjy.php?cid=61">历史概况</a></li><li><a href="jsjy.php?cid=62">燃情岁月</a></li><li><a href="jsjy.php?cid=63">井冈人物</a></li><li><a href="jsjy.php?cid=64">大事纪文字篇</a></li><li><a href="jsjys.php?cid=65">大事纪动画篇</a></li></ul></li><li><a href="jgwh.php?cid=66">文化井冈</a><ul class="nav_sub"><li><a href="jgwh.php?cid=67">文艺作品</a></li><li><a href="jgwh.php?cid=68">五彩井冈山</a></li><li><a href="jgwh.php?cid=69">井冈民俗</a></li><li><a href="jgwh.php?cid=70">井冈诗词</a></li></ul></li>		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+
+$(function(){
+
+	/*当前页面导航高亮*/
+	var href = window.location.href.split('/')[window.location.href.split('/').length-1].substr(0,4);
+	if(href.length > 0){
+		$(function(){
+			$("ul.nav a:first[href^='"+href+"']").attr("class","on");
+			if($("ul.nav a:first[href^='"+href+"']").size() == 0){
+				$("ul.nav a:first[href^='index']").attr("class","on");
+			}
+		});
+	}else{
+		$(function(){$("ul.nav a:first[href^='index']").attr("class","on")});
+	}
+
+	/*下拉菜单*/
+	$(".nav li").hover(function(){
+		$(this).parents(".nav > li").find("a:first").addClass("on2");
+		$(this).find("ul:first").show(); //鼠标滑过查找li下面的第一个ul显示
+	},function(){
+		var navobj = $(this).find("ul:first");
+		navobj.hide();
+
+		//鼠标离开隐藏li下面的ul
+		if(navobj.attr("class") == "nav_sub")
+		{
+			$(this).find("a:first").removeClass("on2");
+		}
+	})
+
+	//给li下面ul是s的样式的前一个同辈元素添加css
+	$(".nav li ul li ul").prev().addClass("t");
+})
+
+
+//加入收藏
+function AddFavorite(){
+	if(document.all){
+		try{
+			window.external.addFavorite(window.location.href,document.title);
+		}catch(e){
+			alert("加入收藏失败，请使用Ctrl+D进行添加！");
+		}
+	}else if(window.sidebar){
+		window.sidebar.addPanel(document.title, window.location.href, "");
+	}else{
+		alert("加入收藏失败，请使用Ctrl+D进行添加！");
+	}
+}
+</script><!-- /header-->
+<!-- banner-->
+<div class="subBanner"> <img src="templates/default/images/ym2.gif" /> </div>
+<!-- /banner-->
+<!-- notice-->
+<div class="subnotice"><strong>网站公告：</strong>井冈山革命博物馆改版，新网站上线了，欢迎浏览！</div>
+<!-- /notice-->
+<!-- mainbody-->
+<div class="subBody">
+	<div class="subTitle"> <span class="catname">群众路线教育</span> <span class="fr">您当前所在位置：<a href="/jgs">首页</a>&nbsp;&gt;&nbsp;<a href="news.php">快讯速递</a>&nbsp;&gt;&nbsp;<a href="">群众路线教育</a></span>
+		<div class="cl"></div>
+	</div>
+	<div class="OneOfTwo">
+		<div class="subCont">
+			<ul class="news_list2">
+							<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5235" style="color:;font-weight:;">井冈山革命博物馆深入开展党的群众路线教育实践活动实施方案</a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5236" style="color:;font-weight:;">关于成立井冈山革命博物馆党总支党的群众路线 教育实践活动领导小组的通知  </a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5237" style="color:;font-weight:;">我馆认真收看党的群众路线教育实践活动电视电话会</a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5238" style="color:;font-weight:;">关于确定井冈山革命博物馆领导班子成员党的群众路线教育实践 活动联系点的通知 </a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5239" style="color:;font-weight:;">井冈山革命博物馆教育实践活动领导小组成员及办公室工作人员信息表</a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5240" style="color:;font-weight:;">“二次创业”行大道   风清气正好扬帆</a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5241" style="color:;font-weight:;">冬日暖阳慰心田</a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5242" style="color:;font-weight:;">井冈山精神宣讲报告团赴福建等地宣讲  </a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5243" style="color:;font-weight:;">唐定华副局长在大井旧居调研  </a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5244" style="color:;font-weight:;">关于开展“学习伟人风范 树牢群众观点” 集体学习活动的通知  </a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5245" style="color:;font-weight:;">陈敏局长在黄洋界景区调研</a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5246" style="color:;font-weight:;">1+1=群众满意</a></span>
+				 </li>
+						<li> <span class="class" style="float:right">分类：<a href="news.php?cid=72">群众路线教育</a></span><span class="time" style="float:right">2014-04-11</span> <span class="title"><a href="newsshow.php?cid=72&id=5247" style="color:;font-weight:;">车队“瘦身”快    专座“跑腿”忙</a></span>
+				 </li>
+						</ul>
+			<div class="page_list"><a href="?cid=72&page=1" title="第一页">&lt;&lt;</a><a href="?cid=72&page=2" title="上一页">&lt;</a><a href="?cid=72&page=1" class="num" title="第 1 页">1</a><a href="?cid=72&page=2" class="num" title="第 2 页">2</a><a href="javascript:;" class="on">3</a><a href="javascript:;" title="已是最后一页">&gt;</a><a href="javascript:;" title="已是最后一页">&gt;&gt;</a></div>		</div>
+	</div>
+	<div class="TwoOfTwo">
+		<div class="left-nav">
+	<div class="left-nav-bt">快讯速递</div>
+	<ul>
+		<li><a href="news.php?cid=18">井冈新闻</a></li><li><a href="news.php?cid=19">井博快讯</a></li><li><a href="news.php?cid=20">同业快讯</a></li><li><a href="news.php?cid=21">理事天地</a></li><li><a href="news.php?cid=22">反腐倡廉</a></li><li><a href="news.php?cid=23">政策法规</a></li><li><a href="news.php?cid=26">三进三解三促</a></li><li><a href="news.php?cid=72">群众路线教育 </a></li>  	</ul>
+</div>
+<div class="search_l">
+	<div class="search">
+		<form name="search" id="search" method="get" action="search.php">
+			<input type="text" name="keyword" id="keyword" title="搜索" value="" class="key" />
+			<button type="submit" id="search_btn" class="sub"><span>搜索</span></button>
+		</form>
+	</div>
+	<div class="cl"></div>
+</div>
+<div class="contact"> 
+    <p><span style=" color:#FFF; font-size:16px;">中国·井冈山革命博物馆</span></p>
+	地址:江西省<span>井冈山</span>茨坪红军南路<br />
+电话:0796-6552248/6555625<br />
+Email:jgsbwg@163.com<br />
+邮编：343600 
+</div>
+	</div>
+	<div class="cl"></div>
+</div>
+<!-- /mainbody-->
+<!-- footer-->
+﻿<div id="bottom">
+	<div id="footer">
+    	<div id="copyright">
+        <p style="border-bottom: 1px solid #302B2B; padding-bottom:40px;"><span style="font-size:15px; font-weight:bold;">中国·井冈山革命博物馆</span><br/><br/>
+        地址：江西省井冈山茨坪红军南路<br/>
+        电话:0796-6552248/6555625<br/>
+        Email:jgsgmbwg@163.com <br/>
+        邮编：343600<br/>
+         </p>
+        <br/>
+        <p>技术支持：<a href="http://www.ja001.com" target="_blank" style="color:#939393">吉安中信网络公司</a></p>	
+        <p><a href="http://www.miibeian.gov.cn" style="color:#939393">赣ICP备07004184号</a></p>
+        <p>您是第<script src="../count/count.asp"></script> 位浏览本网站的宾客</p>
+        </div>
+        
+        <div id="contact">
+<div class="fmenu">
+            	<ul><li><a href="about.php"><span style="font-size:16px; font-weight:bold;">井博概况</span></a></li><li><a href="about.php?cid=3">井博简介</a></li><li><a href="abouts.php?cid=14">机构设置</a></li><li><a href="about.php?cid=15">领导班子</a></li><li><a href="abouts.php?cid=16">重大纪事</a></li><li><a href="abouts.php?cid=17">“一号工程”建设</a></li></ul></div><div class="fmenu">
+            	<ul><li><a href="news.php"><span style="font-size:16px; font-weight:bold;">快讯速递</span></a></li><li><a href="news.php?cid=18">井冈新闻</a></li><li><a href="news.php?cid=19">井博快讯</a></li><li><a href="news.php?cid=20">同业快讯</a></li><li><a href="news.php?cid=21">理事天地</a></li><li><a href="news.php?cid=22">反腐倡廉</a></li><li><a href="news.php?cid=23">政策法规</a></li><li><a href="news.php?cid=26">三进三解三促</a></li><li><a href="news.php?cid=72">群众路线教育 </a></li></ul></div><div class="fmenu">
+            	<ul><li><a href="bwg.php"><span style="font-size:16px; font-weight:bold;">数字博物馆</span></a></li><li><a href="bwg.php?cid=6">美术精品</a></li><li><a href="about.php?cid=27">电子导航图</a></li><li><a href="bwgnews.php?cid=28">影视厅</a></li><li><a href="bwgnews.php?cid=7">基本陈列</a></li><li><a href="bwgnews.php?cid=71">典藏珍品</a></li></ul></div><div class="fmenu">
+            	<ul><li><a href="qsyd.php?cid=29"><span style="font-size:16px; font-weight:bold;">青少园地</span></a></li><li><a href="qsyd.php?cid=30">知识问答</a></li><li><a href="qsyd.php?cid=31">红色歌谣</a></li><li><a href="qsyd.php?cid=32">重要文献</a></li><li><a href="qsyd.php?cid=33">理论研究</a></li></ul></div><div class="fmenu">
+            	<ul><li><a href="xscl.php?cid=34"><span style="font-size:16px; font-weight:bold;">学术长廊 </span></a></li><li><a href="xscl.php?cid=35">纪实探索 </a></li><li><a href="xscl.php?cid=36">历史资料</a></li><li><a href="xscl.php?cid=37">文博之窗</a></li><li><a href="xscl.php?cid=38">摇篮</a></li></ul></div><div class="fmenu">
+            	<ul><li><a href="hsly.php?cid=39"><span style="font-size:16px; font-weight:bold;">红色旅游</span></a></li><li><a href="hsly.php?cid=40">交通信息</a></li><li><a href="hsly.php?cid=41">票价服务</a></li><li><a href="hsly.php?cid=42">免费开放</a></li><li><a href="hsly.php?cid=43">服务设施</a></li></ul></div><div class="fmenu">
+            	<ul><li><a href="jzjj.php?cid=44"><span style="font-size:16px; font-weight:bold;">旧址旧居</span></a></li><li><a href="jzjj.php?cid=45">黄洋界</a></li><li><a href="jzjj.php?cid=46">茨坪</a></li><li><a href="jzjj.php?cid=47">茅坪</a></li><li><a href="jzjj.php?cid=48">龙市</a></li><li><a href="jzjj.php?cid=49">五井</a></li><li><a href="jzjj.php?cid=50">黄坳</a></li><li><a href="jzjj.php?cid=51">纪念建筑</a></li><li><a href="jzjj.php?cid=52">其它</a></li></ul></div><div class="fmenu">
+            	<ul><li><a href="jsjy.php?cid=53"><span style="font-size:16px; font-weight:bold;">精神家园</span></a></li><li><a href="jsjy.php?cid=54">红军传人</a></li><li><a href="jsjy.php?cid=55">参观瞻仰</a></li><li><a href="jsjy.php?cid=56">千里寻故地</a></li><li><a href="jsjy.php?cid=57">井冈山精神</a></li><li><a href="jsjy.php?cid=58">党建专栏</a></li><li><a href="jsjy.php?cid=59">志愿者风彩</a></li><li><a href="jsjy.php?cid=60">科学发展观</a></li><li><a href="jsjy.php?cid=61">历史概况</a></li><li><a href="jsjy.php?cid=62">燃情岁月</a></li><li><a href="jsjy.php?cid=63">井冈人物</a></li><li><a href="jsjy.php?cid=64">大事纪文字篇</a></li><li><a href="jsjys.php?cid=65">大事纪动画篇</a></li></ul></div><div class="fmenu">
+            	<ul><li><a href="jgwh.php?cid=66"><span style="font-size:16px; font-weight:bold;">文化井冈</span></a></li><li><a href="jgwh.php?cid=67">文艺作品</a></li><li><a href="jgwh.php?cid=68">五彩井冈山</a></li><li><a href="jgwh.php?cid=69">井冈民俗</a></li><li><a href="jgwh.php?cid=70">井冈诗词</a></li></ul></div>                
+            </div>
+        </div>	 	
+    </div>
+</div><!-- /footer-->
+</body>
+</html>

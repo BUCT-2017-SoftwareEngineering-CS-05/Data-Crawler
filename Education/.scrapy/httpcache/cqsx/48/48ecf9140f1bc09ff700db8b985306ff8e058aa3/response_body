@@ -1,0 +1,480 @@
+<html><head>
+    <base href="http://www.3gmuseum.cn:80/">
+    <title>重庆中国三峡博物馆</title>
+    <link rel="icon" href="/resource/images/logo/titlelogo.png" type="image/x-icon">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<link rel="stylesheet" href="/resource/css/web/edu/education.css">
+	<link href="/resource/css/admin/page/pagination.css" rel="stylesheet">
+	
+
+<script type="text/javascript" src="/resource/js/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/resource/ace/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/resource/js/jq/jqPaginator.js"></script>
+<script type="text/javascript" src="/resource/js/layer/layer.min.js"></script><link type="text/css" rel="stylesheet" href="http://www.3gmuseum.cn/resource/js/layer//skin/layer.css" id="skinlayercss">
+<script type="text/javascript" src="/resource/js/web/common.js"></script>
+<script type="text/javascript" src="/resource/js/web/user/login.js"></script>
+<script type="text/javascript" src="/resource/js/web/site/siteInfo.js"></script>
+<script type="text/javascript" src="/resource/js/web/dopost.js"></script>
+<link rel="stylesheet" href="/resource/css/web/index/reset.css">
+<link rel="stylesheet" href="/resource/css/web/index/content.css">
+<link href="/resource/css/admin/page/pagination.css" rel="stylesheet">
+
+  </head>
+  
+  <body>
+    
+  	
+
+<link href="/resource/css/web/index/header.css" rel="stylesheet" type="text/css">
+<header class="fixed">
+
+        <div id="header" class="header" data-user="" data-websurl="" data-websurleh="" data-volunteerflag="" data-userno="">
+            <div class="zlight-nav clearFloat">
+                <div class="logo floatLeft">
+                    <img src="resource/images/web/common/logo.png" style="width: 100%;">
+                </div>
+                <div class="header_items floatLeft">
+	                <ul id="zlight-main-nav"><li class="ative"><a href="#"><div class="header_item_li">首页</div></a></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=402880b25a3bb962015a3bc512212223&amp;itemsonno=1"><div class="header_item_li">概览</div></a><ul class="zlight-submenu"><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=402880b25a3bb962015a3bc512212223&amp;itemsonno=12121212">简介</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=402880b25a3bb962015a3bc512212223&amp;itemsonno=40288cd55eccfc08015f0e6fe0ae001b">机构信息</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=402880b25a3bb962015a3bc512212223&amp;itemsonno=402880b25a3bb8d4554g512512212251">大事记</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=15151515&amp;itemsonno=1"><div class="header_item_li">资讯</div></a><ul class="zlight-submenu"><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=15151515&amp;itemsonno=16161616161616161616161616161616">新闻</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=15151515&amp;itemsonno=408522321g32232f2a2s322332615232">党建</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=15151515&amp;itemsonno=402880e55acaa7d1015acaad931a0000">公告</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=1"><div class="header_item_li">典藏</div></a><ul class="zlight-submenu"><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=402880b25a3bb962015a3bc512601205">镇馆之宝</a></li><li><a href="web/item/toCollectImg.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=402880b25a3bb962015a3bd051601205">精品鉴赏</a></li><li><a href="web/collection/toCollection.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=4028809a5ffb19aa015ffb1ef0a20005">三维藏品</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=4028808a5e3b12de015e3b22ed940000">藏品公开</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=402880eb6020ca74016020d6c89b0015">藏品征集</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=23&amp;itemsonno=1"><div class="header_item_li">展览</div></a><ul class="zlight-submenu"><li><a href="web/exhibitionHallOften/longExhibition.do?itemno=23&amp;itemsonno=25434353">临时展览</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=23&amp;itemsonno=24">常设展览</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=23&amp;itemsonno=20">虚拟展览</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=26&amp;itemsonno=1"><div class="header_item_li">教育</div></a><ul class="zlight-submenu"><li><a href="web/activity/newactivity.do?itemno=26&amp;itemsonno=34324333">活动预告</a></li><li><a href="web/activity/educationReview.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014">精彩回顾</a></li><li><a href="web/activity/educationOnline.do?itemno=26&amp;itemsonno=40288cd561bcd4e40161c6ec109f1501">线上教育</a></li><li><a href="web/activity/educationTogether.do?itemno=26&amp;itemsonno=49">馆校共建</a></li><li><a href="web/activity/schemeCollect.do?itemno=26&amp;itemsonno=40288a11649687d101649726a27400ce">方案征集</a></li><li><a href="web/activity/itinerantEXhibition.do?itemno=26&amp;itemsonno=40288a11649687d10164972678c700cc">巡展服务</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=27&amp;itemsonno=1"><div class="header_item_li">研究</div></a><ul class="zlight-submenu"><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=27&amp;itemsonno=40288cd560c5e9bb0160d3953f8b0db7">科研成果</a></li><li><a href="web/item/toPdfLoad.do?itemno=27&amp;itemsonno=28">长江文明</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=27&amp;itemsonno=29">学术动态</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=21111111&amp;itemsonno=1"><div class="header_item_li">服务</div></a><ul class="zlight-submenu"><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=21111111&amp;itemsonno=32323232323232323232323232323232">参观指南</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=21111111&amp;itemsonno=34343434343434343434343434343434">便民服务</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=21111111&amp;itemsonno=33">讲解服务</a></li><li><a href="web/questionnaire/toQuestionnaire.do?itemno=21111111&amp;itemsonno=36333333">问卷调查</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=40288cd560e49a050160f7f0fec31d98&amp;itemsonno=1"><div class="header_item_li">交流</div></a><ul class="zlight-submenu"><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=40288cd560e49a050160f7f0fec31d98&amp;itemsonno=40288cd560e49a050160f8508ce51e25">馆际交流</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=40288cd560e49a050160f7f0fec31d98&amp;itemsonno=40288cd560e49a050160f85102ef1e27">出国境展览</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=40288cd560e49a050160f7f0fec31d98&amp;itemsonno=40288cd560e49a050160f851a6521e2d">国际学术交流</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=1"><div class="header_item_li">资源</div></a><ul class="zlight-submenu"><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=4028809a5f37daec015f37e460b70000">视听导览</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=8280819a60d452fe0160d45fe33b0014">老照片</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=402880b25ab1da82015ab1dfbb670001">视频</a></li><li><a href="web/ancient/toAncient.do?itemno=50&amp;itemsonno=8280819a60d452fe0160d46016c00016">古籍</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=40288cd560d4e2af0160d871c5610747">动画</a></li><li><a href="http://3gmuseum.cn:8080/tpi65?itemno=50&amp;itemsonno=40288cd56bdaac55016c03f8ac3c3437">三峡文化资源库</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=37&amp;itemsonno=1"><div class="header_item_li">文创</div></a><ul class="zlight-submenu"><li><a href="web/product/toCulturalProduct.do?itemno=37&amp;itemsonno=40288a116462d9330164630fd7ad001e">文创产品</a></li><li><a href="web/match/tomatch.do?itemno=37&amp;itemsonno=2c8481ec5becb5f4015bfb82119d002b">文创大赛</a></li></ul></li><li class="zlight-dropdown"><a href="web/item/findleftitemByitemnoCenter.do?itemno=402880e859001f37015900238f2e0000&amp;itemsonno=1"><div class="header_item_li">博物馆之友</div></a><ul class="zlight-submenu"><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=402880e859001f37015900238f2e0000&amp;itemsonno=39">志愿者</a></li><li><a href="web/item/findleftitemByitemnoCenter.do?itemno=402880e859001f37015900238f2e0000&amp;itemsonno=40">会员</a></li></ul></li></ul>
+                </div>
+                <div class="loginbox floatLeft">
+                    <p><a href="javascript:changeLang('简体中文')">中文</a>&nbsp;|&nbsp;<a href="javascript:changeLang('English')">ENGLISH</a></p>
+                    <p class="login"><a onclick="showCommentBox()">登录</a> <a onclick="getUrl()" target="_blank">注册</a></p>
+                    <p class="logined" style="display:none;"><a onclick="loginout()" style="margin-left:20px;">退出</a></p>
+                </div>
+                
+                
+			<div class="overCurtain"></div>
+			<div class="hide-center">
+			    <div id="formhead">
+			        <div id="formhead-title">用户 登录</div>
+			        <button type="button" id="close">X</button>
+			    </div>
+			    <div id="formbody">
+			        <div class="loginUserName">
+			            <input id="loginName" name="userName" class="loginInput" placeholder="登录名/手机号" type="text" value="">
+			        </div>
+			        <div class="loginPassword">
+			            <input id="password" name="password" class="loginInput" placeholder="密码" type="password" style="border-bottom-right-radius:5px;">
+			        </div>
+			        <div class="loginPassword">
+			            <input id="loginKpa" name="loginKpa" class="loginInput" placeholder="验证码" type="text" style="width:120px;">
+			            <i class="success"></i>
+			            <img id="kaptchaImage" src="/kaptcha/getKaptchaImage.do" style="vertical-align: middle;" title="点击刷新">
+			        </div>
+			        <div id="formfoot">
+			            <button id="BSignIn" onclick="confirmUpdate()" type="submit">登录</button>
+			            <button style="margin-left:50px;" id="BSignIn" onclick="registe()" type="submit">去注册</button>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+</header>
+<input value="26                              " type="hidden" id="js-itemno">
+<input value="" type="hidden" id="js-itemsonno">
+<input value="40288a28642b691a01642b6f7f430014" type="hidden" id="js-itemparentno">
+<input value="" type="hidden" class="js-topparentno">
+<script src="/resource/js/web/common/header.js"></script>
+<script src="/resource/js/md5.js"></script>
+<script type="text/javascript">
+		/*控制搜索页面的跳转，当前页面是搜索页面则刷新当前页面，否则打开新的页面*/
+		$("#Header_search").click(function() {
+			var currentUrl = window.location.pathname;
+			var searchcondition = $(".js_searchcondition").val()
+			if(currentUrl=="/web/tosearch.do"){
+				window.location.href = "/web/tosearch.do?searchcondition="+encodeURI($(".js_searchcondition").val());
+			}else{
+				doPost("web/tosearch.do",{"searchcondition":searchcondition});
+			}
+		});
+	
+	$(function(){
+		$.post("web/user/getTag.do", { "tagtype": "Header_" },
+          function(data){
+	          for(var i in data){
+	          	$("#"+data[i].tagName).html(data[i].tagValue);
+	          }
+          }, "json");
+	});
+	
+	function changeLang(type){
+		$.post("web/user/changeLang.do", { "langtype":type},
+          function(data){
+          	if(type=="简体中文"){
+          		location.href="/";
+          	}else{
+          		location.href="/web/item/findleftitemByitemnoCenter.do?itemno=402880b25a49f552015a4ac05b850000&itemsonno=1"
+          	}
+         }, "json");
+	}
+ 	function getUrl(){
+ 		var pathname =location.pathname;
+		if(pathname=="/"||pathname==null){							
+			window.location.href="web/user/toregister.do";
+		}else if(pathname=="/web/user/register.do"){
+			window.location.reload();
+		}else{
+	 		var search = location.search;
+	 		
+			window.location.href="web/user/register.do?url="+encodeURIComponent(pathname+search); 		
+		}
+	};
+	 // 点击打开登录页面
+	function showCommentBox(){		
+		$(".hide-center").fadeIn("slow");
+		$(".overCurtain").fadeIn("slow");					
+	}
+	//关闭登录页面
+	$("#close").click(function () {
+	    $(".hide-center").fadeOut("slow")
+	    $(".overCurtain").fadeOut("slow")
+	});
+	//刷新验证码
+	$("#kaptchaImage").click(function () {
+	    $(this).prop("src","/kaptcha/getKaptchaWebImage.do");
+	});
+	$("#loginKpa").on("blur",function(){
+		var kpa=$("#loginKpa").val();
+		checkKPA(kpa);
+	});
+	
+	function checkKPA(kpa){
+		if(kpa==''||kpa==null){
+	    	showTips('请输入验证码!',2500,0);
+	    }else{
+	    	var param = {};
+			param.kpa = kpa;
+			$.ajax({
+	            type: "post",
+	            url : "/kaptcha/checkKPA.do",
+	            dataType: "json",
+	            data: param,
+	        	success: function(data){
+	        		if (data.code!=200) {
+						showTips(data.msg,2500,0);
+					}
+	        	}
+	       });
+	    }
+	}
+	//登录提交
+	function confirmUpdate(){
+		 var loginName = $("#loginName").val();
+		 var password=$("#password").val();
+		 var kpa=$("#loginKpa").val();
+		 var map={};
+		    if(loginName==''||loginName==null){
+		    	showTips('请输入登录名!',2500,0);
+		    }else if(password==''||password==null){
+		    	showTips('请输入密码!',2500,0);
+		    }else if(kpa==''|| kpa==null){
+		    	showTips('请输入验证码!',2500,0);
+		    }else{
+		        map.username=loginName;
+		        map.pwd = md5(password);
+		        map.kpa = kpa;
+		        $.ajax({
+		            type: "post",
+		            url : "web/user/login.do",
+		            dataType:'json',
+		            data: map,
+	            	success: function(data){		                
+		                if(data.status == 0){		                 
+		                    showTips(data.msg,2500,0);
+		                    return false;
+		                }else{
+		                	location.reload();
+		                	$(".loginname").text(data.s_loginname);
+		            		$(".login").hide();
+		            		$(".logined").show();		            		
+		            		layer.closeAll();
+		                }
+	            	}
+		        });
+		    }
+		}
+	//去注册
+	function registe(){
+		window.location="/web/user/toregister.do";
+	}
+	//退出登录状态
+	function loginout(){
+		 $.ajax({
+	            type: "post",
+	            url : "web/user/loginOut.do",
+	            dataType:'json',
+         		success: function(data){		                
+	                if(data.data == 1){		                 
+	                	location.reload();
+	                }else{	                
+	                }
+         	}
+	        
+		 });
+	}
+
+</script>
+
+  	
+
+<div class="pageBgp">
+	
+		<img src="http://www.3gmuseum.cn/web_upfile/ee030c64-b284-4942-94a0-20b2ce0bc249.png">
+		
+</div>
+		<div class="">
+		    <div class="content">
+		        <div class="nav_head">
+		            <ul id="nav_ul"><li><a href="web/activity/newactivity.do?itemno=26&amp;itemsonno=34324333"><h4>活动预告</h4></a></li><li class="nav_selected"><a href="web/activity/educationReview.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014"><h4>精彩回顾</h4></a></li><li><a href="web/activity/educationOnline.do?itemno=26&amp;itemsonno=40288cd561bcd4e40161c6ec109f1501"><h4>线上教育</h4></a></li><li><a href="web/activity/educationTogether.do?itemno=26&amp;itemsonno=49"><h4>馆校共建</h4></a></li><li><a href="web/activity/schemeCollect.do?itemno=26&amp;itemsonno=40288a11649687d101649726a27400ce"><h4>方案征集</h4></a></li><li><a href="web/activity/itinerantEXhibition.do?itemno=26&amp;itemsonno=40288a11649687d10164972678c700cc"><h4>巡展服务</h4></a></li></ul>
+		        </div>
+		        <div class="edu_review">
+		            <ul class="edu_review_list"><li><a href="web/article/toArticleNo.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014&amp;articleno=40288cd56565be75016585212dbf2a20&amp;pageindex=1"><div class="activity_review clearFloat" data_articleno="40288cd56565be75016585212dbf2a20" data_pageindexno="1"><div class="review_date floatLeft"><span class="monthDay">08/29</span><span class="year">&nbsp;&nbsp;&nbsp;2018</span></div><div class="review_detail floatLeft"><p class="biaoti">暑期，宋居“时代小先生”为自己送上了一份最珍贵的开学礼物</p><p class="summary">八月份的末尾，多姿多彩的暑期生活即将结束。2018年8月27日，共17位第四期“时代小先生”培训班考</p></div></div></a></li><li><a href="web/article/toArticleNo.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014&amp;articleno=40288cd56565be7501657a2f423b1bed&amp;pageindex=2"><div class="activity_review clearFloat" data_articleno="40288cd56565be7501657a2f423b1bed" data_pageindexno="2"><div class="review_date floatLeft"><span class="monthDay">08/27</span><span class="year">&nbsp;&nbsp;&nbsp;2018</span></div><div class="review_detail floatLeft"><p class="biaoti">回顾|童梦启航——小小讲解员新苗班、新草班结业啦！</p><p class="summary">大暑的蝉鸣唱响了梦想，清脆的童声绽放着自信的光芒，火热的重庆40度高温，依然抵挡不住孩子们求学的渴望</p></div></div></a></li><li><a href="web/article/toArticleNo.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014&amp;articleno=40288cd5639114680164887f589f0e8f&amp;pageindex=3"><div class="activity_review clearFloat" data_articleno="40288cd5639114680164887f589f0e8f" data_pageindexno="3"><div class="review_date floatLeft"><span class="monthDay">07/11</span><span class="year">&nbsp;&nbsp;&nbsp;2018</span></div><div class="review_detail floatLeft"><p class="biaoti">重庆宋庆龄旧居陈列馆2018年第四期“时代小先生”培训班简报</p><p class="summary">作为中国宋庆龄基金会“时代小先生示范基地”的重庆中国三峡博物馆重庆宋庆龄旧居，为了更好的发挥基地作用</p></div></div></a></li><li><a href="web/article/toArticleNo.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014&amp;articleno=40288cd5639114680164739d5e4d7656&amp;pageindex=4"><div class="activity_review clearFloat" data_articleno="40288cd5639114680164739d5e4d7656" data_pageindexno="4"><div class="review_date floatLeft"><span class="monthDay">07/07</span><span class="year">&nbsp;&nbsp;&nbsp;2018</span></div><div class="review_detail floatLeft"><p class="biaoti">回顾｜此刻，历史与艺术的种子正在博物馆里悄然发芽！</p><p class="summary">此刻，历史与艺术的种子正在博物馆里悄然发芽。在博物馆的暑期课里，我们的小小创造者们，正在课堂上不断地</p></div></div></a></li><li><a href="web/article/toArticleNo.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014&amp;articleno=40288cd5639114680163fbf4b9f77845&amp;pageindex=5"><div class="activity_review clearFloat" data_articleno="40288cd5639114680163fbf4b9f77845" data_pageindexno="5"><div class="review_date floatLeft"><span class="monthDay">06/14</span><span class="year">&nbsp;&nbsp;&nbsp;2018</span></div><div class="review_detail floatLeft"><p class="biaoti">“弘扬伟人精神 讲好中国故事”演讲比赛初赛暨2017-2018年度优秀时代小先生表彰活动</p><p class="summary">在重庆市第九届文化遗产宣传月期间，为进一步加大历史文化遗产宣传，在广大青少年儿童中弘扬爱国主义精神、</p></div></div></a></li><li><a href="web/article/toArticleNo.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014&amp;articleno=40288cd5639114680163f8251a8a7501&amp;pageindex=6"><div class="activity_review clearFloat" data_articleno="40288cd5639114680163f8251a8a7501" data_pageindexno="6"><div class="review_date floatLeft"><span class="monthDay">06/13</span><span class="year">&nbsp;&nbsp;&nbsp;2018</span></div><div class="review_detail floatLeft"><p class="biaoti">让博物馆“走出去” 让文物“活起来”——白鹤梁水下博物馆开展巡展及研学系列活动</p><p class="summary">2018年4月16日，白鹤梁水下博物馆开启了“崇尚科技.传播文明”的巡展及研学系列活动。本次活动通过</p></div></div></a></li></ul> 
+		             <div class="pagination-wrap">
+						<ul class="pagination clearFloat"><li class="first disabled" jp-role="first" jp-data="1"><a href="javascript:;">首页</a></li><li class="prev disabled" jp-role="prev" jp-data="0"><a href="javascript:;">上一页</a></li><li class="page1 active" jp-role="page" jp-data="1"><a href="javascript:;">1</a></li><li class="page1" jp-role="page" jp-data="2"><a href="javascript:;">2</a></li><li class="page1" jp-role="page" jp-data="3"><a href="javascript:;">3</a></li><li class="page1" jp-role="page" jp-data="4"><a href="javascript:;">4</a></li><li class="page1" jp-role="page" jp-data="5"><a href="javascript:;">5</a></li><li class="page1" jp-role="page" jp-data="6"><a href="javascript:;">6</a></li><li class="page1" jp-role="page" jp-data="7"><a href="javascript:;">7</a></li><li class="next" jp-role="next" jp-data="2"><a href="javascript:;">下一页</a></li><li class="last" jp-role="last" jp-data="11"><a href="javascript:;">末页</a></li></ul>
+					</div>     
+		        </div>   
+		    </div>
+		</div>
+
+
+<link href="/resource/css/web/index/footer.css" rel="stylesheet" type="text/css">
+<div class="footer">		
+	<div class="contentBottom">
+		<div class="clearFloat">
+			<div class="contentBottom_box1 floatLeft">
+				<div class="fast-track clearFloat">
+					<ul class="fast-track-ul_left"><li><span class="first_item">概览<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=402880b25a3bb962015a3bc512212223&amp;itemsonno=12121212"><span class="color_white">简介</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=402880b25a3bb962015a3bc512212223&amp;itemsonno=40288cd55eccfc08015f0e6fe0ae001b"><span class="color_white">机构信息</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=402880b25a3bb962015a3bc512212223&amp;itemsonno=402880b25a3bb8d4554g512512212251"><span class="color_white">大事记</span></a></span></li><li><span class="first_item">资讯<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=15151515&amp;itemsonno=16161616161616161616161616161616"><span class="color_white">新闻</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=15151515&amp;itemsonno=408522321g32232f2a2s322332615232"><span class="color_white">党建</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=15151515&amp;itemsonno=402880e55acaa7d1015acaad931a0000"><span class="color_white">公告</span></a></span></li><li><span class="first_item">典藏<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=402880b25a3bb962015a3bc512601205"><span class="color_white">镇馆之宝</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/toCollectImg.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=402880b25a3bb962015a3bd051601205"><span class="color_white">精品鉴赏</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/collection/toCollection.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=4028809a5ffb19aa015ffb1ef0a20005"><span class="color_white">三维藏品</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=4028808a5e3b12de015e3b22ed940000"><span class="color_white">藏品公开</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=4086522052551f21g55h1d25a1s2s1g5&amp;itemsonno=402880eb6020ca74016020d6c89b0015"><span class="color_white">藏品征集</span></a></span></li><li><span class="first_item">展览<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/exhibitionHallOften/longExhibition.do?itemno=23&amp;itemsonno=25434353"><span class="color_white">临时展览</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=23&amp;itemsonno=24"><span class="color_white">常设展览</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=23&amp;itemsonno=20"><span class="color_white">虚拟展览</span></a></span></li><li><span class="first_item">教育<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/activity/newactivity.do?itemno=26&amp;itemsonno=34324333"><span class="color_white">活动预告</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/activity/educationReview.do?itemno=26&amp;itemsonno=40288a28642b691a01642b6f7f430014"><span class="color_white">精彩回顾</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/activity/educationOnline.do?itemno=26&amp;itemsonno=40288cd561bcd4e40161c6ec109f1501"><span class="color_white">线上教育</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/activity/educationTogether.do?itemno=26&amp;itemsonno=49"><span class="color_white">馆校共建</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/activity/schemeCollect.do?itemno=26&amp;itemsonno=40288a11649687d101649726a27400ce"><span class="color_white">方案征集</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/activity/itinerantEXhibition.do?itemno=26&amp;itemsonno=40288a11649687d10164972678c700cc"><span class="color_white">巡展服务</span></a></span></li></ul>
+					<ul class="fast-track-ul_right"><li><span class="first_item">研究<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=27&amp;itemsonno=40288cd560c5e9bb0160d3953f8b0db7"><span class="color_white">科研成果</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/toPdfLoad.do?itemno=27&amp;itemsonno=28"><span class="color_white">长江文明</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=27&amp;itemsonno=29"><span class="color_white">学术动态</span></a></span></li><li><span class="first_item">服务<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=21111111&amp;itemsonno=32323232323232323232323232323232"><span class="color_white">参观指南</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=21111111&amp;itemsonno=34343434343434343434343434343434"><span class="color_white">便民服务</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=21111111&amp;itemsonno=33"><span class="color_white">讲解服务</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/questionnaire/toQuestionnaire.do?itemno=21111111&amp;itemsonno=36333333"><span class="color_white">问卷调查</span></a></span></li><li><span class="first_item">交流<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=40288cd560e49a050160f7f0fec31d98&amp;itemsonno=40288cd560e49a050160f8508ce51e25"><span class="color_white">馆际交流</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=40288cd560e49a050160f7f0fec31d98&amp;itemsonno=40288cd560e49a050160f85102ef1e27"><span class="color_white">出国境展览</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=40288cd560e49a050160f7f0fec31d98&amp;itemsonno=40288cd560e49a050160f851a6521e2d"><span class="color_white">国际学术交流</span></a></span></li><li><span class="first_item">资源<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=4028809a5f37daec015f37e460b70000"><span class="color_white">视听导览</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=8280819a60d452fe0160d45fe33b0014"><span class="color_white">老照片</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=402880b25ab1da82015ab1dfbb670001"><span class="color_white">视频</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/ancient/toAncient.do?itemno=50&amp;itemsonno=8280819a60d452fe0160d46016c00016"><span class="color_white">古籍</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=50&amp;itemsonno=40288cd560d4e2af0160d871c5610747"><span class="color_white">动画</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="http://3gmuseum.cn:8080/tpi65?itemno=50&amp;itemsonno=40288cd56bdaac55016c03f8ac3c3437"><span class="color_white">三峡文化资源库</span></a></span></li><li><span class="first_item">文创<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/product/toCulturalProduct.do?itemno=37&amp;itemsonno=40288a116462d9330164630fd7ad001e"><span class="color_white">文创产品</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/match/tomatch.do?itemno=37&amp;itemsonno=2c8481ec5becb5f4015bfb82119d002b"><span class="color_white">文创大赛</span></a></span></li><li><span class="first_item">博物馆之友<span class="cutLine"></span></span><span class="second_item"><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=402880e859001f37015900238f2e0000&amp;itemsonno=39"><span class="color_white">志愿者</span></a><span class="cutLine"></span><a class="channel_a" target="_blank" href="web/item/findleftitemByitemnoCenter.do?itemno=402880e859001f37015900238f2e0000&amp;itemsonno=40"><span class="color_white">会员</span></a></span></li></ul>
+					<div class="clearFloat"></div>
+				</div>
+				<div id="friend_link" "="">
+					<p style="font-size: 18px; margin-left:10px;color:#fff;font-weight: bold;">友情链接</p>
+					<ul id="friend_link_ul"><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.cqbhl.com.cn/">白鹤梁水下博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.dpm.org.cn/index1024768.html">故宫博物院</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.chnmuseum.cn/">中国国家博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.shanghaimuseum.net">上海博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.lnmuseum.com.cn/">辽宁省博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.hbww.org/home/Index.aspx">湖北省博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.sxhm.com/">陕西历史博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.chnmus.net/">河南博物院</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.hnmuseum.com">湖南省博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.njmuseum.com/html/default.html">南京博物院</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.szmuseum.com/">苏州博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.hongbowang.net/">弘博网</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.zhejiangmuseum.com/">浙江省博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.shanximuseum.com/">山西博物院</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.sdmuseum.com/">山东博物馆</a></li><li><a class="freLink color_white" width="140" height="33" target="_blank" href="http://www.gdmuseum.com/">广东省博物馆</a></li></ul>
+				</div>
+			</div>
+			<div class="siteCode floatLeft">
+				<div class="codes_box">
+					<div class="codes"><img src="/resource/images/web/indeximg/code/weifu.jpg"><p>官方微信服务号</p></div>
+					<img class="codesImg" src="/resource/images/web/indeximg/code/weifu.jpg">
+				</div>
+				<div class="codes_box">
+					<div class="codes"><img src="/resource/images/web/indeximg/code/weiding.jpg"><p>官方微信订阅号</p></div>
+					<img class="codesImg" src="/resource/images/web/indeximg/code/weiding.jpg">
+				</div>
+				<div class="codes_box">
+					<div class="codes"><img src="/resource/images/web/indeximg/code/weibo.png"><p>官方新浪微博</p></div>
+					<img class="codesImg" src="/resource/images/web/indeximg/code/weibo.png">
+				</div>
+				<div class="codes_box">
+					<div class="codes"><img src="/resource/images/web/indeximg/code/download_app.png"><p>官方App下载</p></div>
+					<img class="codesImg" src="/resource/images/web/indeximg/code/download_app.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="part7">
+		<div>
+			<div class="institution_logo">
+				<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='http://dcs.conac.cn/js/04/000/0000/60885793/CA040000000608857930005.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=54A23D357C832C0FE053022819AC950F" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1"></a></span><script src="http://dcs.conac.cn/js/04/000/0000/60885793/CA040000000608857930005.js" type="text/javascript"></script><span id="_ideConac"></span>
+			</div>
+			<div class="commulication">
+				<ul class="commulication_ul">
+					<li class="commulication_li"><p>咨询服务：023-63679066/63679067 (周一除外)</p></li>
+					<li class="commulication_li" style="padding-left:30px;"><p>涉案文物鉴定：023-63679223/63679224 (工作日期间)</p></li><br>
+					<li class="commulication_li"><p>行政办公：023-63679011/63679012 (工作日期间)</p></li>
+					<li class="commulication_li" style="padding-left:30px;"><p>总值班室：023-63679000 (节假日期间)</p></li><br>
+					<li class="commulication_li"><p>地址：重庆市渝中区人民路236号  | 版权所有：重庆中国三峡博物馆</p>
+					</li>
+					<li class="commulication_li" style="padding-left: 10px;">
+						<a href="http://beian.miit.gov.cn/" target="_blank" style="color:#fff;">&nbsp;渝ICP备 05005919-1号</a> |
+						<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50010302002728" style="display:inline-block;text-decoration:none;">
+							<img src="/resource/images/web/index/webRecord.png" style="float:left"> <span style="line-height:20px;margin-left: 5px; color:#fff;">渝公网安备 50010302002728号</span>
+						</a>
+						<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254436347'%3E%3C/span%3E%3Cscript  src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254436347%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1254436347"><a href="https://www.cnzz.com/stat/website.php?web_id=1254436347" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></span><script src=" http://s11.cnzz.com/z_stat.php?id=1254436347&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1254436347&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+					</li>
+					<div style="clear:both;"></div>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="/resource/js/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	findLink();
+	getFastTrak();
+	
+	//删除意外产生的div
+	function removeerrordiv(){
+		//取出最后一个div
+		var styleinfo = $("body>div:last").attr("style");
+		if(styleinfo == "color: rgb(255, 255, 255); position: fixed; top: 0px; left: 0px; z-index: 100000;"){
+			$("body>div:last").remove();
+			clearInterval(timeint);
+		}
+	}
+	
+	var timeint = setInterval(removeerrordiv,50);
+	
+});
+
+
+
+function findLink(){
+
+	$.post("web/link/findAllLinks.do", function(data){	
+		var link=""
+		 for(var i in data){ 
+		     link +="<li><a class='freLink color_white' width=140 height=33 target='_blank' href='"+data[i].url+"'>"+data[i].name+"</a></li>";
+		  }
+		    $("#friend_link_ul").html(link); 
+	      }, "json");      	
+}
+
+function  getFastTrak(){
+	$.post("web/item/findFastItem.do",{"itemno":"1"},function(data){
+		var list=data.list;
+		var html1="";
+		var html2="";
+   		for(var i=0;i<list.length;i++){
+   			var parent = list[i].parent;
+	   		var children = list[i].children;
+	   		var loginuser = $("#header").attr("data-user");
+   			if(i<=4){  				 	   			
+   				if (parent.name == "我的"||parent.name == "Personal"){
+   					
+   	   			}else{ 					
+   	   				html1+="<li ><span class='first_item'>"+parent.name.trim()+"<span class='cutLine'></span></span><span class='second_item'>";
+   	   				if(children !=null){
+   	   					for(var j=0;j<children.length;j++){
+   	   	   					var type1 = children[j];
+   	   	   					if(j>=children.length-1){
+   	   	   						html1 +="<a class='channel_a' target='_blank' href='"+type1.itemUrl+"?itemno="+type1.parentNo.trim()+"&itemsonno="+type1.recNo.trim()+"'><span  class='color_white'>"+type1.name.trim()+"</span></a>";
+   	   	   					}else{
+   	   	   						html1 +="<a class='channel_a' target='_blank' href='"+type1.itemUrl+"?itemno="+type1.parentNo.trim()+"&itemsonno="+type1.recNo.trim()+"'><span class='color_white'>"+type1.name.trim()+"</span></a><span class='cutLine'></span>";
+   	   	   					}
+   	   	   				}
+   	   				}else {
+   						html1 += "<a class='channel_a' target='_blank' href='"+parent.itemUrl+"?itemno="+parent.parentNo.trim()+"&itemsonno="+parent.recNo.trim()+"'><span class='color_white'>"+parent.name.trim()+"</span></a>";
+   					}
+   	   				html1 +="</span></li>";	
+   	   			}
+   	   			$(".fast-track-ul_left").html(html1);
+   			}else{
+   				if(parent.name == "我的"||parent.name == "Personal"){
+   					
+   	   			}else{ 					
+ 	   				html2+="<li ><span class='first_item'>"+parent.name.trim()+"<span class='cutLine'></span></span><span class='second_item'>";
+ 	   				if(children !=null){
+ 	   					for(var j=0;j<children.length;j++){
+ 	   	   					var type1 = children[j];
+ 	   	   					if(j>=children.length-1){
+ 	   	   						html2 +="<a class='channel_a' target='_blank' href='"+type1.itemUrl+"?itemno="+type1.parentNo.trim()+"&itemsonno="+type1.recNo.trim()+"'><span class='color_white'>"+type1.name.trim()+"</span></a>";
+ 	   	   					}else{
+ 	   	   						html2 +="<a class='channel_a' target='_blank' href='"+type1.itemUrl+"?itemno="+type1.parentNo.trim()+"&itemsonno="+type1.recNo.trim()+"'><span class='color_white'>"+type1.name.trim()+"</span></a><span class='cutLine'></span>";
+ 	   	   					}
+ 	   	   				}
+ 	   				}else {
+ 						html2 += "<a class='channel_a' target='_blank' href='"+parent.itemUrl+"?itemno="+parent.parentNo.trim()+"&itemsonno="+parent.recNo.trim()+"'><span class='color_white'>"+parent.name.trim()+"</span></a>";
+ 					}
+ 	   				html2 +="</span></li>";	
+   	   			$(".fast-track-ul_right").html(html2);
+   	   			}
+   			} 	
+		}
+	},"json");
+}
+
+
+$(".codes_box").mouseover(function(){
+	$(this).find(".codesImg").css("display","block");
+}).mouseout(function(){
+	$(this).find(".codesImg").css("display","none");
+});
+</script>
+<script src="/resource/js/web/education/education.js"></script> 
+<script type="text/javascript" src="/resource/js/jq/jqPaginator.js"></script>
+<script type="text/javascript">
+	//栏目编号
+	var itemNo = $("#js-itemparentno").val(); 
+	//父级栏目编号
+	var parentItemNo = $("#js-itemno").val();
+	var type = '';
+	$(function(){
+		getEduItems(itemNo, parentItemNo);
+		var pagenumber = 1;
+		var pagesize = 6;
+		loadData(pagenumber,pagesize);
+	})
+    $(".edu_review_list li").on("mouseover",function () {
+        $(this).find("p.biaoti").addClass("fontColor_blue");
+    }).on("mouseout",function () {
+        $(this).find("p.biaoti").removeClass("fontColor_blue");
+    });
+	
+	//获取精彩回顾
+	function loadData(pagenumber,pagesize){
+		var params = {};
+		params.itemno = itemNo;
+		params.pageNumber = pagenumber;
+		params.pageSize = pagesize;
+		$.ajax({
+			url: 'web/article/findArticleAndPage.do',
+	        async: false,
+	        type: 'post',
+	        data: params,
+	        dataType: 'json',
+	        success: function (data) {
+	        	var count = data.count;
+	        	 var totalPages =count%pagesize==0?count/pagesize:count/pagesize+1;
+	     		totalPages = parseInt(totalPages);
+	            var html = '';
+	            $(".edu_review_list").html(html);
+	            for (var i = 0; i < data.list.length; i++) {
+	                var createtime =data.list[i].releasetime.substr(0,10);
+	                var reg = /^(\d{4})-(\d{1,2})-(\d{1,2})$/;
+	                var createtime_year, createtime_date;
+	                if (createtime.match(reg)){
+	                    createtime_year = RegExp.$1;
+	                    createtime_date = RegExp.$2 +"/"+RegExp.$3;
+	                }
+	                var pageindexno = (pagenumber-1)*pagesize+i+1;
+	                var content=getChinese(data.list[i].contents)
+
+	                html += "<li><a href='web/article/toArticleNo.do?itemno="+parentItemNo.trim()+"&itemsonno="+itemNo.trim()+"&articleno="+data.list[i].recno.trim()
+	                		+"&pageindex="+pageindexno+"'><div class='activity_review clearFloat' data_articleno="+data.list[i].recno+" data_pageindexno="+pageindexno
+	                		+"><div class='review_date floatLeft'><span class='monthDay'>"+createtime_date+"</span><span class='year'>&nbsp;&nbsp;&nbsp;"
+	                		+createtime_year+"</span></div><div class='review_detail floatLeft'><p class='biaoti'>"+data.list[i].subject+"</p><p class='summary'>"
+	                		+content.substring(0,50)+"</p></div></div></li>";
+	            }
+	            $(".edu_review_list").html(html);
+	            
+	         // 分页
+	    		pageNationDo(totalPages, pagenumber, pagesize);
+	        }
+	    });
+	}
+	
+	/**
+	 * 分页
+	 * @param index
+	 * @returns {Boolean}
+	 */
+	function selectPageCallback(index){
+		loadData(index);
+		return false;
+	}
+	//过滤html标签(数据库中保存的)
+	 function getChinese(str) {
+	   str = str.replace(/<\/?[^>]*>/g, '');//去除HTML tag
+	   str = str.replace(/[ | ]*\n/g, '\n');//去除行尾空白
+	   str = str.replace(/\n[\s| | ]*\r/g, '\n');//去除多余空行
+	   str = str.replace(/\s/g, '');//去除多余空行
+	   str = str.replace(/&nbsp;/ig, '');//去掉&nbsp;
+	   return str;
+	 };
+ </script>
+ 
+
+</body></html>

@@ -1,0 +1,609 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" "><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="HandheldFriendly" content="true">
+<title>社会教育 - 西安半坡博物馆</title>
+<meta name="keywords" content="西安半坡博物馆">
+<meta name="description" content="西安半坡博物馆">
+
+<link rel="stylesheet" type="text/css" href="/statics/css/css.css">
+<link rel="stylesheet" type="text/css" href="/statics/css/in.css">
+<link rel="stylesheet" type="text/css" href="/statics/css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="/statics/css/animate.css">
+<link rel="stylesheet" type="text/css" href="/statics/css/jquery.mmenu.all.css">
+<link rel="stylesheet" type="text/css" href="/statics/css/set1.css">
+<link rel="stylesheet" type="text/css" href="/statics/css/dh1.css">
+
+
+
+<script src="https://hm.baidu.com/hm.js?6facec39e9576385a0b5c4322f70c8a4"></script><script type="text/javascript" src="/statics/js/js/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="/statics/js/js/common.js"></script>
+<script type="text/javascript" src="/statics/js/js/owl.carousel.js" charset="utf-8"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6facec39e9576385a0b5c4322f70c8a4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body><nav id="menu" class="mm-menu mm-vertical mm-offcanvas mm-right mm-hasnavbar-top-1 mm-theme-dark" aria-hidden="true"><div class="mm-navbars-top"><div class="mm-navbar mm-navbar-size-1"><div class="mm-search"><input placeholder="Search" type="text" autocomplete="off"></div></div></div><div class="mm-panels"><div class="mm-panel mm-vertical mm-hasnavbar" id="mm-1"><div class="mm-navbar"><a class="mm-title">导航菜单</a></div><ul class="mm-listview">
+                        <li><a href="https://bpmuseum.com">首页</a></li>
+                         
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-2" aria-owns="mm-2" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (关于我们)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1">关于我们</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-2" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=11">半坡简介</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1">章程</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1">历史沿革</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1">投诉建议</a></li>
+                                                        </ul></div>
+                                                </li>
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-3" aria-owns="mm-3" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (新闻中心)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=15">新闻中心</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-3" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=15">半坡新闻</a></li>
+                                                        </ul></div>
+                                                </li>
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-4" aria-owns="mm-4" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (陈列展览)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3">陈列展览</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-4" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3">基本陈列</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3">临时展览</a></li>
+                                                        </ul></div>
+                                                </li>
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-5" aria-owns="mm-5" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (藏品展示)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=19">藏品展示</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-5" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=19">生产工具</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=20">生活器具</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=21">装饰藏品</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=40">其他藏品</a></li>
+                                                        </ul></div>
+                                                </li>
+                                                                        <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=5">文创产品</a></li>
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-6" aria-owns="mm-6" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (科学研究)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=6">科学研究</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-6" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=22">学术活动</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=23">科研成果</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=24">科研服务</a></li>
+                                                        </ul></div>
+                                                </li>
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-7" aria-owns="mm-7" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (社会教育)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=7">社会教育</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-7" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=25">史前工场</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=26">原始部落快乐行</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=27">其他活动</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=41">学校教育</a></li>
+                                                        </ul></div>
+                                                </li>
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-8" aria-owns="mm-8" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (服务指南)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8">服务指南</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-8" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8">售票时间</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8">地图导读</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8">票务信息</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8">交通路线</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8">游览须知</a></li>
+                                                        </ul></div>
+                                                </li>
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-9" aria-owns="mm-9" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (学会单位)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=9">学会单位</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-9" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=32">中国博物馆协会西安培训中心</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=33">陕西省博物馆协会社教专业委员会</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=34">中国博物馆协会史前遗址博物馆专业委员会</a></li>
+                                                        </ul></div>
+                                                </li>
+                                                                        <li class="mm-vertical"><a class="mm-next" href="#mm-10" aria-owns="mm-10" aria-haspopup="true"><span class="mm-sronly">Toggle submenu (志愿者活动)</span></a><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37">志愿者活动</a>
+                                                    <div class="mm-panel mm-hidden mm-vertical" id="mm-10" aria-hidden="true"><ul class="mm-listview">
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=35">志愿者管理章程</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=36">志愿者服务须知</a></li>
+                                                            <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37">志愿者活动</a></li>
+                                                        </ul></div>
+                                                </li>
+                                            </ul><div class="mm-noresultsmsg mm-hidden">No results found.</div></div></div>
+                    
+                </nav>
+
+<div id="mm-0" class="mm-page mm-slideout"><div class="top-box change_height">
+    <div class="common-width">
+        <div class="top">
+            <div class="top-logo">
+            <a href="https://bpmuseum.com" title="西安半坡博物馆"><img src="/uploadfile/2018/0726/20180726104333776.png"></a>
+            </div>
+            
+            <div id="page" class="">
+                <div class="phone_nav">
+                    <a href="#menu"><span></span></a>
+                </div>
+                
+            </div> 
+
+            <div class="top-navb"> 
+            
+                <div class="top-sousuo">
+                    <div class="top-sousuo-yy">
+                    <a href="https://bpmuseum.com"><img src="/statics/images/cn.png" alt="中文" title="中文"></a>
+                    <a href="https://bpmuseum.com/en"><img src="/statics/images/en.png" alt="English" title="English"></a>
+                    </div>
+                    <div class="top-sousuo-ss">
+                    <form action="https://bpmuseum.com/index.php" method="get" id="myform">
+                        <input type="hidden" name="m" value="content">
+                        <input type="hidden" name="c" value="search">
+                        <input type="hidden" name="a" value="index">
+                        <input type="hidden" name="siteid" value="1">
+                        <input type="text" value="请输入关键词" name="q" onfocus="this.value=''" onblur="if(!value){value=defaultValue;}">
+                        <button type="button" onclick="showRegist()" id="but"></button>
+                    </form>
+                    </div>
+                    <script type="text/javascript">
+                    function showRegist(){
+                        $('#myform').submit();
+                    }
+                   </script>
+                </div>
+            
+                <div class="top-nav">
+                 
+                    <ul class="pc_nav cl">
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1">关于我们</a>
+                                                        <div class="xldiv">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=11">半坡简介</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1&amp;kid=12">章程</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1&amp;kid=13">历史沿革</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1&amp;kid=14">投诉建议</a>
+                                                        </div>
+                                                    </li>
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=15">新闻中心</a>
+                                                        <div class="xldiv">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=15">半坡新闻</a>
+                                                        </div>
+                                                    </li>
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3">陈列展览</a>
+                                                        <div class="xldiv">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3&amp;kid=17">基本陈列</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3&amp;kid=18">临时展览</a>
+                                                        </div>
+                                                    </li>
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=19">藏品展示</a>
+                                                        <div class="xldiv" style="display: none; height: 130.4px; padding-top: 20px; margin-top: 0px; padding-bottom: 20px; margin-bottom: 0px;">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=19">生产工具</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=20">生活器具</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=21">装饰藏品</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=40">其他藏品</a>
+                                                        </div>
+                                                    </li>
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=5">文创产品</a>
+                        </li>
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=6">科学研究</a>
+                                                        <div class="xldiv">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=22">学术活动</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=23">科研成果</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=24">科研服务</a>
+                                                        </div>
+                                                    </li>
+                                                                        <li class="gaoliang">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=7">社会教育</a>
+                                                        <div class="xldiv">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=25">史前工场</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=26">原始部落快乐行</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=27">其他活动</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=41">学校教育</a>
+                                                        </div>
+                                                    </li>
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8">服务指南</a>
+                                                        <div class="xldiv">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=28">售票时间</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=29">地图导读</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=30">票务信息</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=31">交通路线</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=42">游览须知</a>
+                                                        </div>
+                                                    </li>
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=9">学会单位</a>
+                                                        <div class="xldiv">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=32">中国博物馆协会西安培训中心</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=33">陕西省博物馆协会社教专业委员会</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=34">中国博物馆协会史前遗址博物馆专业委员会</a>
+                                                        </div>
+                                                    </li>
+                                                                        <li class="">
+                            <a class="waia" href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37">志愿者活动</a>
+                                                        <div class="xldiv">
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=35">志愿者管理章程</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=36">志愿者服务须知</a>
+                                                            <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37">志愿者活动</a>
+                                                        </div>
+                                                    </li>
+                                            </ul>
+                                    </div>
+            </div>
+            <div class="clear"></div>
+           
+        </div>
+    </div>
+</div><div class="clearfloat"></div><div class="ny-banner">
+  <img src="/uploadfile/2018/0726/20180726114913116.jpg" alt="社会教育">
+    <div class="ny-bt">
+    <h3>社会教育</h3>
+    </div>
+</div><div class="shehui-box wow fadeInUp animated" style="visibility: visible;">
+    <div class="common-width">
+        <div class="shehui">
+            <div class="xinwen-bt">
+             <h3><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=25"><img src="/statics/images/shehui-bt1.jpg" alt="史前工场" title="史前工场"></a></h3>
+             <span><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=25"><img src="/statics/images/more.jpg" alt="史前工场" title="更多"></a></span>   
+            </div>
+            <div class="shehui-nr">
+                <div class="shehui-bt">
+                                        <ul>
+                                                <li class="casehover">
+                            <h3><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=25&amp;id=718" title="西安半坡博物馆史前工场部赴福建省开展研学交流活动">西安半坡博物馆史前工场部赴福建省开展研学交流活动</a></h3>
+                            <p> 2018年12月3日—9日，西安半坡博物馆史前工场部前往福建省开展研学交流活动。 12月4日下午，我们走进福州市闽侯县第二实验小学，针对小...</p>
+                        </li>
+                                                <li>
+                            <h3><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=25&amp;id=716" title="西安半坡博物馆史前工场赴浙江杭州开展全国研学基地交流活动">西安半坡博物馆史前工场赴浙江杭州开展全国研学基地交流活动</a></h3>
+                            <p> 浙江省是长江流域中国古代文明的发源地之一。浙江境内已发现新石器时代遗址100多处，有距今7000年的河姆渡文化、距今6000年的马家浜文化...</p>
+                        </li>
+                                                <li>
+                            <h3><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=461" title="史前工场项目预约">史前工场项目预约</a></h3>
+                            <p>1、西安半坡博物馆史前工场青少年教育活动：名称：史前工场主题：穿越石器时代 玩转史前工场适合对象：5——15岁青少年活动时间：上午9:00...</p>
+                        </li>
+                                                <li>
+                            <h3><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=449" title="西安半坡博物馆“史前工场”青少年体验活动开幕了！！！">西安半坡博物馆“史前工场”青少年体验活动开幕了！！！</a></h3>
+                            <p>西安半坡博物馆是我国第一座史前聚落遗址博物馆，保存着黄河流域一座典型的母系氏族聚落遗址——半坡遗址，距今已有六千多年。西安半坡博物...</p>
+                        </li>
+                                                <div class="clear"></div>
+                    </ul>
+                                    </div>
+                <div class="clear"></div>
+                                <div class="shehui-nrr">
+                                    <div class="shehui-tp">
+                        <div class="shehui-tp-img"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=25&amp;id=718" title="西安半坡博物馆史前工场部赴福建省开展研学交流活动" class="imghover"><img src="/uploadfile/2019/0102/20190102105438645.jpg"></a></div>
+                        <div class="shehui-tp-tit"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=25&amp;id=718" title="西安半坡博物馆史前工场部赴福建省开展研学交流活动">西安半坡博物馆史前工场部赴福建省开展研学交流活动</a></div>
+                    </div>
+                                    <div class="shehui-tp">
+                        <div class="shehui-tp-img"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=25&amp;id=716" title="西安半坡博物馆史前工场赴浙江杭州开展全国研学基地交流活动" class="imghover"><img src="/uploadfile/2018/1204/20181204050306835.jpg"></a></div>
+                        <div class="shehui-tp-tit"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=25&amp;id=716" title="西安半坡博物馆史前工场赴浙江杭州开展全国研学基地交流活动">西安半坡博物馆史前工场赴浙江杭州开展全国研学基地交流活动</a></div>
+                    </div>
+                                    <div class="shehui-tp">
+                        <div class="shehui-tp-img"><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=461" title="史前工场项目预约" class="imghover"><img src=""></a></div>
+                        <div class="shehui-tp-tit"><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=461" title="史前工场项目预约">史前工场项目预约</a></div>
+                    </div>
+                                    <div class="shehui-tp">
+                        <div class="shehui-tp-img"><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=449" title="西安半坡博物馆“史前工场”青少年体验活动开幕了！！！" class="imghover"><img src="http://bpmuseum.com/upload/images/2013/9/2794829128.jpg"></a></div>
+                        <div class="shehui-tp-tit"><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=449" title="西安半坡博物馆“史前工场”青少年体验活动开幕了！！！">西安半坡博物馆“史前工场”青少年体验活动开幕了！！！</a></div>
+                    </div>
+                    
+                </div>
+                                <script>
+                  $(".shehui-bt li:first").addClass("casehover");
+                  $(".shehui-nrr .shehui-tp").eq(0).show();
+                  $(".shehui-bt li").hover(function () {
+                      $(this).addClass("casehover").siblings().removeClass("casehover");
+                      $(".shehui-nrr .shehui-tp").hide().eq($(this).index()).show();
+                  }, function () {
+                  });
+                </script> 
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div><div class="shehui01-box wow fadeInUp animated" style="visibility: visible;">
+    <div class="common-width">
+        <div class="shehui01">
+            <div class="shehui01-bt">
+                <ul>
+                    <li class="casehover"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=26" title="原始部落快乐行"><img src="/statics/images/shehui-bt2.jpg" alt="原始部落快乐行" title="原始部落快乐行"></a></li>
+                    <li><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=27" title="其他活动"><img src="/statics/images/shehui-bt3.jpg" alt="其他活动" title="其他活动"></a></li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="shehui01-nrr">
+                <div class="shehui01-tp">
+                                    <ul>
+                                            <li>
+                            <div class="shehui01-tp-img"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=26&amp;id=728" title="“原始部落快乐行”走进西安铁一中分校" class="imghover"><img src="/uploadfile/2019/1106/20191106041932938.jpg"></a></div>
+                            <div class="shehui01-tp-txt">
+                                <span>2019-11-06</span>
+                                <h3><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=26&amp;id=728" title="“原始部落快乐行”走进西安铁一中分校">“原始部落快乐行”走进西安铁一中分校</a></h3>
+                                <p> 2019年11月5日下午，西安半坡博物馆受邀将品牌教育项目原始部落快乐行带进西安铁一中分校，为近五百名初一学生和老师呈现了一堂精彩的史...</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <div class="shehui01-tp-img"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=26&amp;id=724" title=" “原始部落快乐行”进校园 ——走进灞桥区神鹿坊小学、东城三小" class="imghover"><img src="/uploadfile/2019/0418/20190418035700120.jpg"></a></div>
+                            <div class="shehui01-tp-txt">
+                                <span>2019-04-18</span>
+                                <h3><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=26&amp;id=724" title=" “原始部落快乐行”进校园 ——走进灞桥区神鹿坊小学、东城三小"> “原始部落快乐行”进校园 ——走进灞桥区神鹿坊小学、东城三小</a></h3>
+                                <p> 2019年4月17、18日西安半坡博物馆品牌教育项目原始部落快乐行先后走进灞桥区神鹿坊小学和东城三小，为两 校千余名师生带来了生动有趣、...</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <div class="shehui01-tp-img"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=26&amp;id=720" title="半坡“新石器学堂”走进汉中" class="imghover"><img src="/uploadfile/2019/0104/20190104042307821.jpg"></a></div>
+                            <div class="shehui01-tp-txt">
+                                <span>2018-12-17</span>
+                                <h3><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=26&amp;id=720" title="半坡“新石器学堂”走进汉中">半坡“新石器学堂”走进汉中</a></h3>
+                                <p> 2018年12月12日至13日，西安半坡博物馆教育人员携品牌教育项目原始部落快乐行和学校课程新石器学堂走进了汉中市实验中学和中山街小学，在...</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <div class="shehui01-tp-img"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=26&amp;id=679" title="“原始部落快乐行”走进曲江二小" class="imghover"><img src="/uploadfile/2018/1118/20181118053811571.jpg"></a></div>
+                            <div class="shehui01-tp-txt">
+                                <span>2018-11-18</span>
+                                <h3><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=26&amp;id=679" title="“原始部落快乐行”走进曲江二小">“原始部落快乐行”走进曲江二小</a></h3>
+                                <p>原始部落快乐行之半坡人的一天走进西安曲江第二小学 2018年5月16日，西安半坡博物馆宣教部一行9人在西安曲江第二小学开展品牌教育项目原始...</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <div class="shehui01-tp-img"><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=452" title="半坡博物馆“原始部落快乐行”走进武警西安支队" class="imghover"><img src="http://bpmuseum.com/upload/images/2013/11/22131052773.jpg"></a></div>
+                            <div class="shehui01-tp-txt">
+                                <span>2018-10-18</span>
+                                <h3><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=452" title="半坡博物馆“原始部落快乐行”走进武警西安支队">半坡博物馆“原始部落快乐行”走进武警西安支队</a></h3>
+                                <p>    10月15日下午，西安半坡博物馆馆长张礼智带领“原始部落快乐行”团队走进武警西安市支队新训大队，为七百余名武警战士送去了一场文...</p>
+                            </div>
+                        </li>
+                                                <li>
+                            <div class="shehui01-tp-img"><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=406" title="半坡博物馆《原始部落快乐行》走进水流中心小学" class="imghover"><img src="http://www.wenwu.gov.cn/bbs/UploadFile/2013-3/201332717253614266.jpg"></a></div>
+                            <div class="shehui01-tp-txt">
+                                <span>2018-10-18</span>
+                                <h3><a href="http://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=15&amp;id=406" title="半坡博物馆《原始部落快乐行》走进水流中心小学">半坡博物馆《原始部落快乐行》走进水流中心小学</a></h3>
+                                <p> 继半坡博物馆“原始部落快乐行”在2012年多次成功举办后，2013年3月26日，西安半坡博物馆“原始部落快乐行”团队在副馆长张希玲的带领下...</p>
+                            </div>
+                        </li>
+                            
+                    </ul>
+                                        <div class="about-more">
+                     <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=26">+</a>
+                    </div>
+                </div>
+                <div class="shehui01-tp" style="display:none">
+                                        <ul>
+                                            <li>
+                            <div class="shehui01-tp-img"><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=27&amp;id=683" title="半坡优秀文化进社区" class="imghover"><img src="/uploadfile/2018/1118/20181118055522405.jpg"></a></div>
+                            <div class="shehui01-tp-txt">
+                                <span>2018-04-30</span>
+                                <h3><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=27&amp;id=683" title="半坡优秀文化进社区">半坡优秀文化进社区</a></h3>
+                                <p> 2018年4月28日，西安半坡博物馆宣教部携带着精心准备的展板、宣传册、文物复仿制品以及奖品纪念品等，走进西安市建筑构件厂社区，为这里...</p>
+                            </div>
+                        </li>
+                            
+                    </ul>
+                                        <div class="about-more">
+                     <a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=27">+</a>
+                    </div>
+                </div>
+            </div>
+            <script>
+              $(".shehui01-bt li:first").addClass("casehover");
+              $(".shehui01-nrr .shehui01-tp").eq(0).show();
+              $(".shehui01-bt li").hover(function () {
+                  $(this).addClass("casehover").siblings().removeClass("casehover");
+                  $(".shehui01-nrr .shehui01-tp").hide().eq($(this).index()).show();
+              }, function () {
+              });
+            </script> 
+            <div class="clear"></div>
+        </div>
+    </div>
+</div><div class="shehui02-box wow fadeInUp" id="41" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;">
+    <div class="common-width">
+        <div class="shehui02">
+            <div class="shehui02-nr">
+                <div class="shehui02-l">
+                    <dl>
+                        <dt><img src="/statics/images/man.png" alt=""></dt>
+                        <dd>
+                            <h3><span>12306</span>人</h3>
+                            <p>每日参观人数</p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="shehui02-r">
+                    <dl>
+                        <dt><img src="/statics/images/man1.png" alt=""></dt>
+                        <dd>
+                            <h3><span>360</span>人</h3>
+                            <p>未成年人数</p>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="foot-box">
+    <div class="common-width">
+        <div class="foot">
+            <div class="foot-u">
+                <div class="foot-u-l">
+                 
+                  <ul>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1" title="关于我们">关于我们</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=11" title="半坡简介">半坡简介</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1&amp;kid=12" title="章程">章程</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1&amp;kid=13" title="历史沿革">历史沿革</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=1&amp;kid=14" title="投诉建议">投诉建议</a></dd>
+                                                        </dl>
+                                                </li>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=15" title="新闻中心">新闻中心</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=15" title="半坡新闻">半坡新闻</a></dd>
+                                                        </dl>
+                                                </li>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3" title="陈列展览">陈列展览</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3&amp;kid=17" title="基本陈列">基本陈列</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=3&amp;kid=18" title="临时展览">临时展览</a></dd>
+                                                        </dl>
+                                                </li>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=19" title="藏品展示">藏品展示</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=19" title="生产工具">生产工具</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=20" title="生活器具">生活器具</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=21" title="装饰藏品">装饰藏品</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=40" title="其他藏品">其他藏品</a></dd>
+                                                        </dl>
+                                                </li>
+                                                <li>
+                                                </li>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=6" title="科学研究">科学研究</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=22" title="学术活动">学术活动</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=23" title="科研成果">科研成果</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=24" title="科研服务">科研服务</a></dd>
+                                                        </dl>
+                                                </li>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=7" title="社会教育">社会教育</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=25" title="史前工场">史前工场</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=26" title="原始部落快乐行">原始部落快乐行</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=27" title="其他活动">其他活动</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=41" title="学校教育">学校教育</a></dd>
+                                                        </dl>
+                                                </li>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8" title="服务指南">服务指南</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=28" title="售票时间">售票时间</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=29" title="地图导读">地图导读</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=30" title="票务信息">票务信息</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=31" title="交通路线">交通路线</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=8&amp;kid=42" title="游览须知">游览须知</a></dd>
+                                                        </dl>
+                                                </li>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=9" title="学会单位">学会单位</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=32" title="中国博物馆协会西安培训中心">中国博物馆协会西安培训中心</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=33" title="陕西省博物馆协会社教专业委员会">陕西省博物馆协会社教专业委员会</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=34" title="中国博物馆协会史前遗址博物馆专业委员会">中国博物馆协会史前遗址博物馆专业委员会</a></dd>
+                                                        </dl>
+                                                </li>
+                                                <li>
+                                                                            <dl>
+                                <dt><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37" title="志愿者活动">志愿者活动</a></dt>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=35" title="志愿者管理章程">志愿者管理章程</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=36" title="志愿者服务须知">志愿者服务须知</a></dd>
+                                                            <dd><a href="https://bpmuseum.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=37" title="志愿者活动">志愿者活动</a></dd>
+                                                        </dl>
+                                                </li>
+                                            </ul>
+                                  </div>
+                <div class="foot-u-r">
+                  <div class="foot-u-rr">
+                  <h3>网站访问量</h3>
+                    <p> <span id=""> 227443 </span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-d">
+                <div class="foot-d-l">Copyright@ 2018版权所有 西安半坡博物馆 陕ICP备06012157号 地址：西安市东郊半坡路155号  联系电话：029-62815385  投诉电话：18729251954  邮编：710038  传真：029-62815405<br>
+        地址：西安市东郊半坡路155号&nbsp;&nbsp;联系电话：029-62815385&nbsp;&nbsp;投诉电话：18729251954&nbsp;&nbsp;邮编：710038&nbsp;&nbsp;传真：029-62815405
+                </div>
+                <div class="foot-d-r">Made in Allwww.cn<a href="https://www.allwww.cn/" target="_blank">&lt;易网&gt;</a>
+                </div>
+            </div>
+        </div>
+  </div>
+</div><div class="foot1-box">
+    <div class="common-width">
+        <div class="foot1">
+        Copyright@ 2018版权所有 西安半坡博物馆<br> 
+        陕ICP备06012157号<br>
+        地址：西安市东郊半坡路155号<br>  
+        联系电话：029-62815385<br>传真：029-62815405
+        </div>
+	</div>
+</div><div class="ding"><a title="回顶部"><img src="/statics/images/huiding1.jpg"></a></div></div>
+
+<script>
+$(".top-nav .pc_nav li").hover(function(){
+  $(this).find(".xldiv").stop().slideDown();
+},function(){
+  $(this).find(".xldiv").stop().slideUp();
+})
+</script>
+
+
+
+<!--  -->
+
+<script type="text/javascript">
+        var kid = 0;
+        $(document).ready(function (){  
+        switch(kid){
+            case 41:
+                $('html, body').animate({  
+                    scrollTop: $("#41").offset().top - 50
+                }, 2000);  
+            break;
+        }
+    }); 
+</script>
+
+
+
+
+
+
+<style>
+.ding{ position:fixed; bottom:100px; right:2%;}
+
+</style>
+
+
+<script>
+  $(".ding").click(function(){
+      $("html,body").animate({scrollTop:0});
+  });
+</script>
+
+
+<script type="text/javascript" src="/statics/js/js/wow.min.js"></script>
+<script type="text/javascript" src="/statics/js/js/asd.js"></script>
+<script type="text/javascript">
+$(function(){
+  new WOW().init();
+  NProgress.start();
+  NProgress.done();
+})
+</script>
+<script type="text/javascript" src="/statics/js/js/jquery.mmenu.all.js"></script><!--侧边导航 js-->
+<script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#menu").mmenu({
+               "slidingSubmenus": false,
+               "offCanvas": {
+                  "position": "right"
+               },
+               "extensions": [
+                  "theme-dark"
+               ],
+               "navbars": [
+                  {
+                     "position": "top",
+                     "content": [
+                        "searchfield"
+                     ]
+                  }
+               ]
+            });
+         })
+</script>
+
+
+
+ <div id="mm-blocker" class="mm-slideout"></div></body></html>

@@ -1,0 +1,262 @@
+<html><head> 
+  <link href="/sitesources/hnsbwy/upload/201810/20181024192757661.png" rel="SHORTCUT ICON"> 
+  <meta name="SiteName" content="河南博物院"> 
+  <meta name="SiteDomain" content=""> 
+  <meta name="SiteIDCode" content="hnsbwy"> 
+  <meta name="ColumnName" content="社教活动"> 
+  <meta name="ColumnDescription" content="社教活动"> 
+  <meta name="ColumnKeywords" content="社教活动"> 
+  <meta name="ColumnType" content="社教活动"> 
+  <title>社教活动</title> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <link rel="stylesheet" href="/static/lib/bootstrap/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="/static/wza/css/wza-style.css"> 
+  <link rel="stylesheet" href="/static/cms/pagination.css"> 
+  <script src="//hm.baidu.com/hm.js?5d867eb71eb3bfefe2fd61a2d93397be"></script><script src="/static/lib/jquery/jquery.min.js"></script> 
+  <script src="/static/cms/htmlImport.js"></script> 
+  <link href="/static/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen"> 
+  <script type="text/javascript" src="/static/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" charset="UTF-8"></script> 
+  <script type="text/javascript" src="/static/lib/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script> 
+  <script src="/static/lib/bootstrap/js/bootstrap.min.js"></script> 
+  <script src="/static/cms/cms_catalog_pagination.js"></script> 
+  <script src="/static/cms/cms_article_pagination.js"></script> 
+  <script src="/static/cms/cms_bootstrap_tabMore.js"></script> 
+  <script src="/static/lib/jquery/jquery.validate.min.js"></script> 
+  <script src="/static/lib/jquery/jquery.validate.messages.zh-CN.js"></script> 
+  <script src="/static/sgplayer/jwplayer.js"></script> 
+  <script src="/static/sgplayer/jwplayer.html5.js"></script><style type="text/css"></style> 
+  <script src="/static/js/language.js"></script> 
+  <script src="/static/js/jquery.cookie.js"></script> 
+  <script src="/static/js/normalprotal.js"></script> 
+  <script src="/static/js/float2.js"></script> 
+  <script src="/static/js/eject.js"></script> 
+  <script src="/static/cms/ejectNew.js"></script> 
+  <script src="/static/js/visit.js"></script> 
+  <script src="/sitesources/hnsbwy/theme/uxtheme10001/js/jquery.SuperSlide.2.1.1.js"></script> 
+  <script src="/sitesources/hnsbwy/theme/uxtheme10001/js/jianfan.js"></script> 
+  <script type="text/javascript" src="/sitesources/hnsbwy/theme/uxtheme10001/js/statics_chnmus.js"></script> 
+  <script src="/sitesources/hnsbwy/theme/uxtheme10001/js/qrcode.min.js"></script> 
+  <link href="/sitesources/hnsbwy/theme/uxtheme10001/css/style.css" type="text/css" rel="stylesheet"> 
+  <script src="/sitesources/hnsbwy/theme/uxtheme10001/js/custom.js"></script> 
+  <link href="/sitesources/hnsbwy/css/grayscale.css" type="text/css" rel="stylesheet"> 
+  <script>var siteCode='hnsbwy'</script> 
+ <script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=441664"></script><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style0_24.css"></head> 
+ <body><div class="wza" id="wcagnav" style="top: 0px;text-align:center; display: none;"><div class="wza-input-area"><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/1.png" alt="纯文本模式"><input class="wza-input" id="cwbtd" title="纯文本通道" value="纯文本模式" type="button"></label><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/2.png" alt="页面放大"><input class="wza-input" id="ymfd" title="页面放大" value="页面放大" type="button"></label><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/3.png" alt="页面缩小"><input class="wza-input" id="ymsx" title="页面缩小" value="页面缩小" type="button"></label><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/4.png" alt="文字放大"><input class="wza-input" id="wzfd" title="文字放大" value="文字放大" type="button"></label><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/5.png" alt="文字缩小"><input class="wza-input" id="wzsx" title="文字缩小" value="文字缩小" type="button"></label><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/6.png" alt="高对比度"><input class="wza-input" id="wzacolor" title="高对比度" value="高对比度" type="button"></label><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/7.png" alt="开启辅助线"><input class="wza-input" id="wzaline" title="开启辅助线" value="开启辅助线" type="button"></label><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/8.png" alt="重置"><input class="wza-input" id="wzareset" title="重置" value="重置" type="button"></label><label class="wza-block"><img class="icon wzaimg" src="/static/wza/images/9.png" alt="关闭"><input class="wza-input" id="wzakg" title="关闭" value="关闭" type="button"></label></div></div>
+  <div class="view cm"> 
+ <header class="i_header"> 
+  <div class="view cm"> 
+   <div class="i_header_box"> 
+    <div class="view2" data-pageid="8a030a7328ec418b92c1c0f1e2b57df4">
+     <div class="i_header_con"> 
+      <a href="http://gov.hawh.cn/"><span class="i_header_con_span">河南省文化和旅游厅</span></a> 
+      <a href="http://www.haww.gov.cn/"><span class="i_header_con_span">河南省文物局</span></a> 
+      <div class="i_header_img">
+       <img src="/sitesources/hnsbwy/theme/uxtheme10001/images/logo.png">
+      </div> 
+      <!-- 模式及搜索框 --> 
+      <div class="i_header_types"> 
+       <a href="/sitesources/hnsbwy/app/hnsbwy.apk" class="i_header_type">手机APP</a> 
+       <a id="translateLink" href="javascript:translatePage();" class="i_header_type">繁体中文</a> 
+       <a href="http://english.chnmus.net/" class="i_header_type" target="_blank">English</a> 
+       <!-- <div class="i_header_search">
+						<input type="text" placeholder="请输入关键字"><button class="i_header_s"></button>
+					</div> --> 
+       <form class="i_header_search" action="/search/SolrSearch/s" method="post" target="_blank"> 
+        <input name="q" type="text" placeholder="请输入关键字" autocomplete="off" id="valley-search-input" class="pull-left fhh_sear"> 
+        <button id="valley-search-btn" class="i_header_s" type="submit"></button> 
+       </form> 
+      </div> 
+     </div>
+    </div> 
+   </div> 
+   <div class="i_nav"> 
+    <div class="view2" data-pageid="a018e8d8a8b642b2ab863798c617f1a6">
+     <ul class="i_nav_ul"> 
+      <li class=""><a href="/sitesources/hnsbwy/page_pc/index.html">首页</a></li> 
+      <li><a href="/sitesources/hnsbwy/page_pc/bygl/index.html">本院概览</a></li> 
+      <li><a href="/sitesources/hnsbwy/page_pc/wbzx/yndt/list1.html">文博资讯</a></li> 
+      <li><a href="/sitesources/hnsbwy/page_pc/clzl/index.html">陈列展览</a></li> 
+      <li><a href="/sitesources/hnsbwy/page_pc/dzjp/index.html">典藏精品</a></li> 
+      <li class="i_nav_li_active"><a href="/sitesources/hnsbwy/page_pc/xsyj/xshd/list1.html">学术研究</a></li> 
+      <li><a href="/sitesources/hnsbwy/page_pc/gzfw/fwzn/index.html">公众服务</a></li> 
+      <li class=""><a href="/sitesources/hnsbwy/page_pc/ppjy/list1.html">品牌教育</a></li> 
+      <li><a href="/sitesources/hnsbwy/page_pc/wwbh/zzwwbhjd/list1.html">文物保护</a></li> 
+      <li><a href="/sitesources/hnsbwy/page_pc/wcfw/index.html">文创天地</a></li> 
+     </ul>
+    </div> 
+   </div> 
+  </div> 
+ </header> 
+</div>
+  <div class="view cm"> 
+ <div class="row clearfix" style="display: none;"> 
+ </div> 
+</div> 
+  <div class="view cm"> 
+   <div class="lanmu_img"> 
+    <div class="view2" data-pageid="a2762c0f5afd4828b3b512c8b9388a20"> 
+     <h3 class="lanmu_title"> 品牌教育 </h3> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="view cm"> 
+   <div class="i_content"> 
+    <div class="i_content_mainBox"> 
+     <div class="view cm"> 
+      <div class="row clearfix"> 
+       <div class="col-md-12"> 
+        <div class="view2" data-pageid="d63d78d632064f89ba24553667e20649"> 
+         <div class="local" style="display:none;"> 
+          <ul> 
+           <span>当前位置：</span> 
+           <li><a href="/sitesources/hnsbwy/page_pc/index.html">主页</a></li> 
+           <li><a href="/sitesources/hnsbwy/page_pc/ppjy/index.html">&gt;品牌教育</a></li> 
+           <li><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/index.html">&gt;社教活动</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="view cm"> 
+      <div class="fenye_con"> 
+       <div class="wbzx_l"> 
+        <div class="view2" data-pageid="ef192ed8b3d54190937011ff1bfaf3c4"> 
+         <h3> 品牌教育 </h3> 
+         <ul class="edu_ul"> 
+          <!-- 是标题栏目 --> 
+          <li class=""> <a target="_blank" href="/sitesources/hnsbwy/page_pc/ppjy/zylswhxjt/xjtdt/index.html"> <img src="/sitesources/hnsbwy/upload/201809/20180911151857391.png"><span style="display:inline-block; float:right; width:100px; line-height:27px;">中原历史文化宣讲团</span> </a> </li> 
+          <!-- 不是标题栏目-是普通栏目或者虚拟栏目 --> 
+          <li class="edu_active"> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/index.html"> <img src="/sitesources/hnsbwy/upload/201809/20180911151937489.png"> <span style="display:inline-block; float:right; width:100px; line-height:27px;">社教活动</span> </a> </li> 
+          <!-- 不是标题栏目-是普通栏目或者虚拟栏目 --> 
+          <li class=""> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjyjjpxjd/index.html"> <img src="/sitesources/hnsbwy/upload/201809/20180911151713294.png"> <span style="display:inline-block; float:right; width:100px; line-height:27px;">河南讲解培训基地</span> </a> </li> 
+          <!-- 是标题栏目 --> 
+          <li class=""> <a target="_blank" href="http://hnmus.ghlearning.com/"> <img src="/sitesources/hnsbwy/upload/201809/20180911151924653.png"><span style="display:inline-block; float:right; width:100px; line-height:27px;">在线教育</span> </a> </li> 
+          <!-- 不是标题栏目-是普通栏目或者虚拟栏目 --> 
+          <li class=""> <a href="/sitesources/hnsbwy/page_pc/ppjy/sqsehdj/index.html"> <img src="/sitesources/hnsbwy/upload/201809/20180911151645258.png"> <span style="display:inline-block; float:right; width:100px; line-height:27px;">暑期少儿活动节</span> </a> </li> 
+          <!-- 不是标题栏目-是普通栏目或者虚拟栏目 --> 
+          <li class=""> <a href="/sitesources/hnsbwy/page_pc/ppjy/zygxjt/index.html"> <img src="/sitesources/hnsbwy/upload/201809/20180911151813229.png"> <span style="display:inline-block; float:right; width:100px; line-height:27px;">中原国学讲坛</span> </a> </li> 
+          <!-- 不是标题栏目-是普通栏目或者虚拟栏目 --> 
+          <li class=""> <a href="/sitesources/hnsbwy/page_pc/ppjy/lsjs/index.html"> <img src="/sitesources/hnsbwy/upload/201809/20180911151910492.png"> <span style="display:inline-block; float:right; width:100px; line-height:27px;">历史教室</span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="wbzx_r"> 
+        <div class="view2" data-pageid="e576f3a0dca24a3a8bb99a89c2fb16ed" data-type="articles"> 
+         <div class="colInfoBox" id="articleListTable" num="5"> 
+          <p class="wbzx_r_title"><span class="wbzx_r_title_span">社教活动</span></p> 
+          <div class="colRightOne" style="display: none;"></div> 
+          <div class="colRightOne" style="display: none;"></div> 
+          <div class="colRightOne" style="display: none;"></div> 
+          <ul> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article0a17db608cc84cd0862efed0f8aad638.html" title="河南博物院传统文化育苗工程活动进校园获赞" target="_blank"> 河南博物院传统文化育苗工程活动进校园获赞 </a></h5> <em class="colInfoDate">2019-05-17</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5月15日下午，郑州市纬一路小学操场上欢声笑语、掌声阵阵，河南博物院传统文化育苗工程“萌娃约会博物馆... ...</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article0a17db608cc84cd0862efed0f8aad638.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article1a07b52b78724359aefe301f01b03771.html" title="河南博物院校外实践活动公告" target="_blank"> 河南博物院校外实践活动公告 </a></h5> <em class="colInfoDate">2017-11-22</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article1a07b52b78724359aefe301f01b03771.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/articlece4171cfdebf494dab26daf62ed33864.html" title="华夏古乐团元宵节答谢知音专场音乐会成功举办" target="_blank"> 华夏古乐团元宵节答谢知音专场音乐会成功举办 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/articlece4171cfdebf494dab26daf62ed33864.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article758c1ff1792f4cc68808267daad9f5e9.html" title="插花艺术展在河南博物院历史教室开展" target="_blank"> 插花艺术展在河南博物院历史教室开展 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article758c1ff1792f4cc68808267daad9f5e9.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article2116df7879e04a60bdc684b8e088962b.html" title="河南博物院院外历史教室在郑州四中如期开讲" target="_blank"> 河南博物院院外历史教室在郑州四中如期开讲 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article2116df7879e04a60bdc684b8e088962b.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article56ef84cd809d4a0c8fde4700aece1f82.html" title="河南省博物馆教育培训基地2017年第一期培训班开班" target="_blank"> 河南省博物馆教育培训基地2017年第一期培训班开班 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article56ef84cd809d4a0c8fde4700aece1f82.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article0c774261deb742989705917aa96c5c90.html" title="郑州四中历史教室举办“探秘国宝”系列讲座" target="_blank"> 郑州四中历史教室举办“探秘国宝”系列讲座 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article0c774261deb742989705917aa96c5c90.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/articledcc9014590074aa6a4aeb9190cfe6676.html" title="“中原历史文化宣讲团”走进河南牧业经济学院" target="_blank"> “中原历史文化宣讲团”走进河南牧业经济学院 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/articledcc9014590074aa6a4aeb9190cfe6676.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article62aaf02938dc45cd81697b7d36518f0a.html" title="河南省博物馆学会召开第七届四次常务理事会会议" target="_blank"> 河南省博物馆学会召开第七届四次常务理事会会议 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article62aaf02938dc45cd81697b7d36518f0a.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: list-item;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article8be55fba69184871b6a11ff8336d8e58.html" title="河南省博物馆社会教育培训基地2017年第一期培训班圆满结束" target="_blank"> 河南省博物馆社会教育培训基地2017年第一期培训班圆满结束 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article8be55fba69184871b6a11ff8336d8e58.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: none;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article3462885ef7914d0b92a3bc36a0c185db.html" title="“中原历史文化宣讲团”走进河南省实验小学" target="_blank"> “中原历史文化宣讲团”走进河南省实验小学 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article3462885ef7914d0b92a3bc36a0c185db.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: none;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article2a6449efae5542afaa0f791ac3b366c6.html" title="河南博物院两部门获执行国家“欢乐春节”任务先进单位称号" target="_blank"> 河南博物院两部门获执行国家“欢乐春节”任务先进单位称号 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article2a6449efae5542afaa0f791ac3b366c6.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: none;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article0bb9d81e57cb4fffacd43f15e93989b5.html" title="河南博物院承办“环球自然日——青少年自然科学挑战活动”正式启动" target="_blank"> 河南博物院承办“环球自然日——青少年自然科学挑战活动”正式启... ... </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article0bb9d81e57cb4fffacd43f15e93989b5.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: none;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article4ee38657f68e40bfabc0eb8e91645e4d.html" title="第五届河南省博物馆文创大赛采风专家报告会举行" target="_blank"> 第五届河南省博物馆文创大赛采风专家报告会举行 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article4ee38657f68e40bfabc0eb8e91645e4d.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: none;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/articleb353f5a8c1294355b661afe9e797e091.html" title="全国文物交流学术培训——展览策划培训班开班" target="_blank"> 全国文物交流学术培训——展览策划培训班开班 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/articleb353f5a8c1294355b661afe9e797e091.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: none;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article4e32930d27934655b9471fe2cbf70f7e.html" title="中原历史文化宣讲团实验中学专属体验学程圆满结束" target="_blank"> 中原历史文化宣讲团实验中学专属体验学程圆满结束 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article4e32930d27934655b9471fe2cbf70f7e.html" class="detail">详情 &gt;&gt;</a> </li> 
+           <li class="colRightOne" style="display: none;"> <h5><i>·</i><a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article15e14fda4aeb4329974b2a793a130b77.html" title="河南博物院与郑州航院本科生校外实习基地签约揭牌" target="_blank"> 河南博物院与郑州航院本科生校外实习基地签约揭牌 </a></h5> <em class="colInfoDate">2017-11-09</em> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> <a href="/sitesources/hnsbwy/page_pc/ppjy/sjhd/article15e14fda4aeb4329974b2a793a130b77.html" class="detail">详情 &gt;&gt;</a> </li> 
+          </ul> 
+          <div class="clear" style="clear:both"></div> 
+         <nav style="text-align:right"><ul class="pagination"><li class="disabled"><span aria-label="Previous"><span aria-hidden="true">首页</span></span></li><li class="disabled"><span aria-label="Previous"><span aria-hidden="true">上一页</span></span></li><li class="active"><span class="page_current" title="1">1<span class="sr-only">(current)</span></span></li><li><a class="page_num" title="2" href="list2.html">2</a></li><li><a class="page_num" title="3" href="list3.html">3</a></li><li><a class="page_num" title="4" href="list4.html">4</a></li><li><a class="page_num" title="5" href="list5.html">5</a></li><li><a href="list2.html" aria-label="Next"><span aria-hidden="true">下一页</span></a></li><li><a href="list5.html" aria-label="Previous"><span aria-hidden="true">尾页</span></a></li><li><a class="jumpToSel">共5页,&nbsp;跳到第<input id="pagenum" value="1" type="text" size="3" onkeyup="checkPageVal(this.value,5);" maxlength="9">页,&nbsp;<input type="button" value="go" onclick="goPage();"></a></li></ul></nav></div> 
+         <script type="text/javascript">
+			var scriptJsonPath = "/sitesources/hnsbwy/page_pc/ppjy/sjhd/script.json";
+			$.getJSON('/sitesources/hnsbwy/page_pc/ppjy/sjhd/script.json', function(data){
+				$('div[data-type=articles]').find('.colRightOne').hide();
+				$('div[data-type=articles]').find('.colRightOne').slice(data.currentIndex, data.rows + data.currentIndex).show();
+				$('.colInfoBox').show();
+				var s = pagination(data.endPage - data.startPage + 1, data.endPage + 2 - data.startPage - parseInt($('#articleListTable').attr('num')));
+				$('#articleListTable').append(s);
+				$('#articleListTable').show();
+			});
+		</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div>  
+  <div class="view cm"> 
+ <div class="i_footer_box"> 
+  <div class="i_footer_con"> 
+   <div style="overflow:hidden; max-height:180px" class="i_footer_con_l"> 
+    <div class="view2" data-pageid="a9f50cbd01ed426296bbf4d8c30c52ba"> 
+     <div class="i_footer_con_l_img"> 
+      <img src="/sitesources/hnsbwy/theme/uxtheme10001/images/index_ewm1.png"> 河南博物院微信公众号 
+     </div> 
+     <p>Copyright 2011-2014 河南博物院 All Rights Reserved</p> 
+     <p><a style=" color: #F1B1B1;" href="http://beian.miit.gov.cn" target="_blank">豫ICP备16018131号</a><img src="/sitesources/hnsbwy/theme/uxtheme10001/images/index_ft_09.png" style="margin:0 10px;">
+      <!-- 访问量：<span id="visitcountDiv" visitid="75ff9a14638e49c394fe0172f0ea1864"></span></p> --> </p>
+     <p>纪检监察举报电话：63511063</p> 
+     <p>政风行风建设热线：63511063</p> 
+     <div class="i_footer_imgs"> 
+      <a style="cursor: pointer" href="http://bszs.conac.cn/sitename?method=show&amp;id=542CE0E9290D069AE053012819AC5301" target="_blank"><img src="/sitesources/hnsbwy/theme/uxtheme10001/images/index_ft_04.png"></a> 
+      <img src="/sitesources/hnsbwy/theme/uxtheme10001/images/index_ft_05.png"> 
+      <img src="/sitesources/hnsbwy/theme/uxtheme10001/images/index_ft_06.png"> 
+     </div> 
+     <p style="position: relative;top: -40px;left: 113px;">院长信箱：xiaolinma_director@vip.163.com</p> 
+     <p style="position: relative;top: -40px;left: 113px;">办公室信箱：hnbwybgs@126.com</p>
+    </div> 
+   </div> 
+   <div class="i_footer_con_r"> 
+    <div class="view cm"> 
+     <div class="i_footer_con_r_selects" style="position: relative;"> 
+      <p class="i_footer_con_r_select"> <span class="links" style="background-image: url(&quot;/sitesources/hnsbwy/theme/uxtheme10001/images/index_ft_08.png&quot;);" sitesources="" hnsbwy="" theme="" uxtheme10001="" images="" index_ft_08.png");"="">友情链接</span> </p> 
+      <p class="i_footer_con_r_select"> <span class="links">本网专栏</span> </p> 
+      <div class="i_footer_con_r_con"> 
+       <div class="view2" data-pageid="dfdbc76e49c944a183e18a11c19e32a5"> 
+        <div class="i_footer_con_r_museums" style="display: block;"> 
+         <a href="https://www.npm.gov.tw/" target="_blank"> <span class="i_footer_con_r_museum">台北故宫博物院</span> </a> 
+         <a href="http://www.gdmuseum.com/" target="_blank"> <span class="i_footer_con_r_museum">广东省博物馆</span> </a> 
+         <a href="http://www.scmuseum.cn/" target="_blank"> <span class="i_footer_con_r_museum">四川博物院</span> </a> 
+         <a href="http://museum.fjsen.com/" target="_blank"> <span class="i_footer_con_r_museum">福建博物院</span> </a> 
+         <a href="http://www.shanximuseum.com/" target="_blank"> <span class="i_footer_con_r_museum">山西博物院</span> </a> 
+         <a href="http://www.narahaku.go.jp/" target="_blank"> <span class="i_footer_con_r_museum">日本奈良博物馆</span> </a> 
+         <a href="http://www.lnmuseum.com.cn/" target="_blank"> <span class="i_footer_con_r_museum">辽宁省博物馆</span> </a> 
+         <a href="http://www.capitalmuseum.org.cn/" target="_blank"> <span class="i_footer_con_r_museum">首都博物馆</span> </a> 
+         <a href="http://www.njmuseum.com/html/default.html" target="_blank"> <span class="i_footer_con_r_museum">南京博物院</span> </a> 
+         <a href="http://www.hebeimuseum.org.cn/" target="_blank"> <span class="i_footer_con_r_museum">河北博物院</span> </a> 
+         <a href="http://www.sxhm.com/" target="_blank"> <span class="i_footer_con_r_museum">陕西历史博物馆</span> </a> 
+         <a href="http://www.hnmuseum.com/" target="_blank"> <span class="i_footer_con_r_museum">湖南省博物馆</span> </a> 
+         <a href="https://www.shanghaimuseum.net/museum/frontend/" target="_blank"> <span class="i_footer_con_r_museum">上海博物馆</span> </a> 
+         <a href="http://jinshasitemuseum.com/" target="_blank"> <span class="i_footer_con_r_museum">成都金沙遗址博物馆</span> </a> 
+         <a href="http://www.zhejiangmuseum.com/zjbwg/index.html" target="_blank"> <span class="i_footer_con_r_museum">浙江省博物院</span> </a> 
+        </div> 
+       </div> 
+       <div class="view2" data-pageid="e47de0969dbb409987a0def6ed252259"> 
+        <div class="i_footer_con_r_zhuanlan"> 
+         <a href="/sitesources/hnsbwy/page_pc/ppjy/zylswhxjt/xjtjj/articlee7f8b909a64648d387578c796f7cf2ea.html" target="_blank"> <span class="i_footer_con_r_museum">中原历史文化宣讲团</span> </a> 
+         <a href="/sitesources/hnsbwy/page_pc/ppjy/sjyjjpxjd/articleb1d0171459894ab0997e5d4309538bd8.html" target="_blank"> <span class="i_footer_con_r_museum">河南讲解培训基地</span> </a> 
+         <a href="/sitesources/hnsbwy/page_pc/lwzsj/zt/bshyfjd/article72132e5b7c1c4282b0d08e26e6e07434.html" target="_blank"> <span class="i_footer_con_r_museum">河南博物院博士后创新实践基地</span> </a> 
+         <a href="/sitesources/hnsbwy/page_pc/hnsbwg/index.html" target="_blank"> <span class="i_footer_con_r_museum">河南省博物馆学会</span> </a> 
+         <a href="/bxwyh/node_1157.htm" target="_blank"> <span class="i_footer_con_r_museum">中国博物馆协会安全专业委员会</span> </a> 
+         <a href="/hdzt/node_17201.htm" target="_blank"> <span class="i_footer_con_r_museum">中原国学讲坛</span> </a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="i_footer_con_l_img" style="position: absolute;right: 0;top: 0;text-align: center;"> 
+       <img src="/sitesources/hnsbwy/theme/uxtheme10001/images/index_ewm2.png" class="mCS_img_loaded"> 河南博物院官方微博 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div>
+ 
+</body></html>

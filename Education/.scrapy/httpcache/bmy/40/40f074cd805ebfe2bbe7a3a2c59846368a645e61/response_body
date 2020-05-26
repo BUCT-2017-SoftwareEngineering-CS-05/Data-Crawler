@@ -1,0 +1,260 @@
+<html lang="zh-cmn-Hans"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/favicon.ico">
+  <link rel="stylesheet" href="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/lib/paginationjs-master/dist/pagination.css">
+  <link rel="stylesheet" href="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/lib/busy-load-master/dist/app.min.css">
+  <link rel="stylesheet" href="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/css/news/news-more.css">
+  <style>
+    
+  </style>
+  <title>更多</title>
+<script src="http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=441685"></script><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style0_32.css?v=5090ac8b.css"></head>
+<body>
+  <div class="head">
+    <div class="headBox">
+      <div class="logo">
+        <a href="http://www.bmy.com.cn/html/public/index.html"><img src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/img/exhibition/logo.png" alt=""></a>
+      </div>
+      <div class="nav">
+	<a href="http://www.bmy.com.cn/html/public/index.html">首页</a>
+      <a href="http://www.bmy.com.cn/html/public/dl/0f082ba612ca4ebc8ffe58958470c487.html">导览</a>
+     <a href="http://www.bmy.com.cn/html/public/xw/586d7f12fa624eab8b60dad235323c9a.html">资讯</a>
+      <a href="http://www.bmy.com.cn/html/public/zl/70c3ad1f3b3444cf84b1a8b8301fe093.html">展览</a>
+      <a href="http://www.bmy.com.cn/html/public/jy/c5c2ef446a8e46e9848b8e264e0f187b.html">教育</a>
+      <a href="http://www.bmy.com.cn/html/public/kg/1d79d48207e14b1abf120bc29a6133fd.html">考古</a>
+      <a href="http://www.bmy.com.cn/html/public/wc/042cda56d9404486b31395dd434315d4.html">文创</a>
+      </div>
+      <div class="icon">
+        <div class="cn now"><a href="javascript:;">CN</a></div>
+        <div class="en"><a href="http://www.bmy.com.cn/2015new/bmyweb/">EN</a></div>
+        <div class="search">
+          <input type="text">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="centerBox" style="position: relative;">
+  <img alt="" class="titleHonor" src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/img/news-more/eduTitle.png">
+  <div class="itemBox">
+    
+	 
+		 
+			
+			
+			 <div class="item">
+			  <a href="http://www.bmy.com.cn/html/public/jy/jyhd/8a3bfc5abf0d4596b27437b11dbdefc9.html">
+				<i><img src="http://www.bmy.com.cn/file/mobileuploadFile/contentImgs/20191127/c34cb093b4c54f6f9129e77ce909cae0.jpg" alt="加载失败"></i>
+				<p>
+				  <span>秦陵博物院圆满完成年度大学生教学实习工作</span>
+				  <span>2019-12-12</span>
+				</p>
+			  </a>
+			</div>
+		
+			
+			
+			 <div class="item">
+			  <a href="http://www.bmy.com.cn/html/public/jy/jyhd/713ab3cf41b44339a571b4726c7357c4.html">
+				<i><img src="http://www.bmy.com.cn/file/mobileuploadFile/contentImgs/20191127/605920cee6cc4a8981ca33350eea91bf.jpg" alt="加载失败"></i>
+				<p>
+				  <span>秦陵博物院公众考古活动走进韩峪小学</span>
+				  <span>2019-12-12</span>
+				</p>
+			  </a>
+			</div>
+		
+			
+			
+			 <div class="item">
+			  <a href="http://www.bmy.com.cn/html/public/jy/jyhd/8b4f3b0ffeed4ad6acc57ac0ddffd004.html">
+				<i><img src="http://www.bmy.com.cn/file/mobileuploadFile/contentImgs/20191127/a55164fb729d4f91804fb2b27ccf6c13.jpg" alt="加载失败"></i>
+				<p>
+				  <span>秦陵博物院开展“探秘秦始皇陵”公众考古活动</span>
+				  <span>2019-12-12</span>
+				</p>
+			  </a>
+			</div>
+		
+			
+			
+			 <div class="item">
+			  <a href="http://www.bmy.com.cn/html/public/jy/jyhd/7e2d6a0f37854beda3df5cd336e481ac.html">
+				<i><img src="http://www.bmy.com.cn/file/mobileuploadFile/contentImgs/20191127/6e20a18d8ab14d539f0a830768341cbd.jpg" alt="加载失败"></i>
+				<p>
+				  <span>“平天下——秦的统一”展览推出特色教育活动</span>
+				  <span>2019-12-12</span>
+				</p>
+			  </a>
+			</div>
+		
+	 
+	 
+    </div>
+
+
+  <div class="wrapper"><div class="paginationjs"><div class="paginationjs-pages"><ul><li class="paginationjs-prev disabled"><a></a></li><li class="paginationjs-page J-paginationjs-page act" data-num="1"><a>1</a></li><li class="paginationjs-next disabled"><a></a></li></ul></div></div></div>
+</div>
+
+
+ <div class="footer">
+    <div class="container">
+      <img src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/img/index/logo2.png" alt="">
+      <img src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/img/index/shui.png" alt="">
+      <div class="info">
+        <p>秦始皇帝陵博物院 版权所有</p>
+        <p><a href="http://www.beian.miit.gov.cn" target="_blank">陕ICP备05007537号</a>  Copyright © 2015 BMY.COM.CN All Rights Reserved</p>
+        <p><span class="jinghui"></span>&nbsp;&nbsp;&nbsp; 陕公网安备 61011302000661号</p>
+  
+        <div class="imgBox">
+          <a href="http://bszs.conac.cn/sitename?method=show&amp;id=39DD87A1540811DDE053022819AC7570" target="_brank">
+            <img src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/img/index/shiYe.png" alt="">
+          </a>
+            <img src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/img/index/zhaoCuo.png" alt="" onclick="window.location.href='http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/entry/pages/form.html'" style="cursor: pointer;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script type="text/template" id="list">
+    <%if(page.pd.code === '005002002') {%>
+  
+	
+      <% for(var i = 0; i<list.length; i++) { %>
+        <%var item = list[i]; var path = 'http://www.bmy.com.cn/file/'%>
+		<%var newpath='/bmy-websitems-1.0-SNAPSHOT/bmy/newslist.do?id=' %>
+		 <div class="item">
+          <a href="<%= newpath+item.content_id+'&code='+page.pd.code%>">
+            <i><img src="<%=  path+item.picture%>" alt="加载失败"></i>
+            <p>
+              <span title="<%= item.title%>"><%= item.title%></span>
+              <span><%= item.publishtime%></span>
+            </p>
+          </a>
+		  
+        </div>
+      <%}%>
+	  
+	 <%} else {%>
+	 
+		 <% for(var i = 0; i<list.length; i++) { %>
+			<%var item = list[i]; var htmlpath = 'http://www.bmy.com.cn/html/'%>
+			<%var path = 'http://www.bmy.com.cn/file/'%>
+			 <div class="item">
+			  <a href="<%= htmlpath+item.htmlpath%>">
+				<i><img src="<%= path+item.picture%>" alt="加载失败"></i>
+				<p>
+				  <span><%= item.title%></span>
+				  <span><%= item.publishtime%></span>
+				</p>
+			  </a>
+			</div>
+		<%}%>
+	 
+	 <%}%>
+    </script>
+
+
+
+
+
+
+
+    <script src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/lib/jquery-1.7.2.min.js"></script>
+    <script src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/common/js/common.js"></script>
+    <script src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/lib/template-web.js"></script>
+    <script src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/lib/paginationjs-master/dist/pagination.min.js"></script>
+    <script src="http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/lib/busy-load-master/dist/app.min.js"></script>
+    <script>
+      $(function () {
+         globSearch('http://'+window.location.host+'/bmy-websitems-1.0-SNAPSHOT/static/site/public/pages/searchList.html', 'ads122s1a3d12s1da1w4s1qr41s4gg1j')
+        var obj = parseQueryString()
+
+        if (obj.mode ==='教育活动') {
+          $('.titleHonor').attr('src', 'http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/img/news-more/eduTitle.png')
+        } else if(obj.mode ==='资讯') {
+          $('.titleHonor').attr('src', 'http://www.bmy.com.cn/bmy-websitems-1.0-SNAPSHOT/static/site/public/img/news-more/newsTitle.png')
+        }
+
+        // 发送ajax 传递的参数
+        var params = {
+          currentPage: 1,
+          showCount: 15,
+          code: obj.code
+        }
+
+
+        // 加载页面时首次请求数据
+        getData(params, function (data) {
+          
+          // 模板引擎渲染
+          $('.itemBox').html(template('list', data))
+
+          randePage(data)
+        })
+
+        // ajax 获取数据
+        function getData(params, callback) {
+          $('.centerBox').busyLoad("show", {
+            background: "rgba(0, 0, 0, 0.21)",
+            spinner: "circles",
+            animation: "slide"
+
+          })
+          $.ajax({
+            type: "get",
+            url: "/bmy-websitems-1.0-SNAPSHOT/bmy/list.do",
+            data: params,
+            dataType: "json",
+            success: function (data) {
+
+              for (var i = 0; i < data.list.length; i++) {
+                data.list[i].publishtime = fmtDate(data.list[i].publishtime)
+              }
+              $('.centerBox').busyLoad("hide")
+              callback(data)
+            }
+          });
+        }
+
+        var flag = false
+        function randePage(data) {
+          $('.wrapper').pagination({
+            // 渲染分页的页码
+            dataSource: function () {
+              var result = [];
+              for (var i = 1; i < data.page.totalPage * data.page.showCount; i++) {
+                result.push(i);
+              }
+              return result;
+            }(),
+            // 每页的数据条数15
+            pageSize: data.page.showCount,
+            activeClassName: 'act',
+            nextText: '',
+            prevText: '',
+            callback: function (data, pagination) {
+
+              params.currentPage = pagination.pageNumber
+              if (flag) {
+              getData(params, function (data) {
+                // 避免放进入页面首次调用数据是重复渲染数据
+                  $('.itemBox').html(template('list', data))
+                })
+              }
+              flag = true
+
+
+            }
+          })
+        }
+      })
+    </script>
+
+
+</body></html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>【西安博物院】_文化讲坛</title>
+    <meta name="Author" content="丁志强" />
+    <meta name="keywords" content="网站,博物院" />
+    <meta name="description" content="博物院" />
+<link href="http://www.xabwy.com/Templates/Default/xabwy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    <!--     
+        function trim(str){  
+           return str.replace(/(^\s*)|(\s*$)/g, "");
+        }  
+        
+        function Search()
+        {
+            
+            var txt = document.all.search_text;
+            var down = document.all.search_li;
+            
+                        
+            if (trim(txt.value) == "")
+            {
+                alert('请输入查询关键字!');
+                return;
+            }
+            
+            var typ = "title";
+            
+            switch(down.selectedIndex)
+            {
+                case 0: typ ="Title";break;
+                case 1: typ ="Detail";break;
+                case 2: typ ="Writer";break; 
+                case 3: typ ="KeyWords";break; 
+                default: break;               
+            }
+            //ID=133其中133为栏目中任意一个存在的栏目id
+            document.location="http://www.xabwy.com/SitePage.aspx?ID=133&VID=-1&Url=SiteSearch.html&SearchKey="+txt.value+"&SearchType="+typ;
+            
+        }
+    //-->
+    </script>
+</head>
+
+<body>
+<!--PART00开始-->
+<div id="part00">
+	<!--TOP开始-->
+    <div id="TOP">
+      <table width="100%" border="0">
+        <tr>
+          <td align="right" class="text_010da1" style="padding-right:30px; padding-top:40px;"><a href="index.aspx">中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="Project.aspx?NID=000002&Url=index.html" target="_blank">English</a></td>
+        </tr>
+        <tr>
+          <td align="right"><table width="39%" border="0">
+            <tr>
+              <td width="17%" class="text_010da1">新闻搜索</td>
+              <td width="46%"><input type="text" name="search_text" id="search_text" /></td>
+              <td width="24%"><select name="search_li" id="search_li">
+                <option value="按标题">按标题</option>
+                <option>按内容</option>
+                <option>按作者</option>
+                <option>关键字</option>
+              </select>
+              </td>
+              <td width="13%"><input type="image" name="imageField" onclick="Search();" id="imageField" src="http://www.xabwy.com/Templates/Default/images/sousuo_submit.png" /></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+  	<!--TOP结束-->
+    <!--菜单开始-->
+    <div id="menu">
+   	  <div id="menu_lmname">
+      	<ul>
+        	<li><a href="index.aspx">西博首页</a></li>
+          <li><a href="SitePage.aspx?ID=130">文物鉴赏</a></li>
+          <li><a href="SitePage.aspx?ID=138">西博景观</a></li>
+          <li><a href="SitePage.aspx?ID=216">社教活动</a></li>
+          <li><a href="SitePage.aspx?ID=162">西博动态</a></li>
+          <li><a href="SitePage.aspx?ID=143">为您服务</a></li>
+        </ul>
+      </div>
+    </div>
+  	<!--菜单结束-->
+    
+    <!--BODY 开始处-->
+    <div id="part_body">
+   	  <div id="part_body01">
+      	<div id="top02">
+      	  <div id="part01">
+          
+      	    <!--栏目页主版Tbody面开始-->
+      	    
+            <div id="Tbody">
+           	  <div id="mainContent-topimg"> </div>
+                <div id="mainContent">
+               	  <div id="sidebar">
+               	    <div id="LeftTit"><img src="http://www.xabwy.com/Templates/Default/images/sidebar_top_lmlb.gif" width="234" height="71" /></div>
+           	     
+                 <!--子栏目名称-->
+                  <div id="LeftNav3">
+                       <!-- <ul><li><a href = 'http://www.xabwy.com/SitePage.aspx?ID=163'> 西博公告</a></li><li><a href = 'http://www.xabwy.com/SitePage.aspx?ID=164'> 媒体报道</a></li><li><a href = 'http://www.xabwy.com/SitePage.aspx?ID=165'> 文博届快讯</a></li></ul>-->
+                       <ul></ul>
+                  </div>
+                 <!--搜索-->   
+                  <div id="sideSearch">
+                        <input name="提交" type="button" value="搜索" class="buttonsearch2" onclick="window.open('http://www.xabwy.com/SitePage.aspx?ID=133&VID=-1&Url=SiteSearch.html&SearchKey='+document.getElementById('searchKey').value+'&SearchType=KeyWords')" />
+                        <input id="searchKey" name="searchKey" type="text" class="inputsearch2" />
+                    </div>
+                  
+                  <!--开放时间-->	
+                  <div id="sideCGZN">
+                     <div class="pad10">
+                        
+                        开放时间：
+<br /><br />3月15日至10月31日
+<br />发票时间：9∶00—17∶00
+<br />18∶00清园；
+<br /><br />11月1日至次年3月14日
+<br />发票时间：9∶00—16∶30
+<br />17∶30清园。
+<br /><br />每周二闭馆（国家法定节假日除外） 
+<br /><br />
+                        咨询电话：029-87803591
+                        
+                        <br /><br />
+                        馆址：西安市友谊西路72号
+                    </div>
+                    </div>
+                  
+                 </div>
+                  
+                  <!--右主版面内容开始-->
+                  <div id="innermainContent">
+                  	<!--当前位置-->
+                    <div class="pageconer">
+                        <div class="mainbarTop">
+                        </div>
+                        <div class="mainbarInfo">
+                            <!--当前位置：<a href='http://www.xabwy.com/Index.aspx'>  首页 </a> >> <a href = 'http://www.xabwy.com/SitePage.aspx?ID=162'> 西博快讯 </a>-->
+                            当前位置：<a href='http://www.xabwy.com/Index.aspx'>  首页 </a> >>  <a href = 'http://www.xabwy.com/SitePage.aspx?ID=216'> 社教活动 </a> >> <a href = 'http://www.xabwy.com/SitePage.aspx?ID=217'> 文化讲坛 </a>
+                      </div>
+                        <div class="mainbarBottom">
+                        </div>
+                    </div>
+                 	
+                    <!--头条信息
+                    <div class="infolist01">
+                   	  <div class="top"></div>
+                      <div class="mid">
+                         暂无公告，请在后台添加公告！<div class="right"><div class='Mtitle'><div class='MtitleNameCN'>西安博物院</div></div><div class='Mtitlecontent'>西安博物院位于西安城南2公里处，占地面积245亩。院址以著名唐代建筑、全国重点文物保护单位小雁塔为中心，整体按文物鉴赏、旅游观光、综合服务三大功能区设计，形成了一个集博物馆、名胜古迹、城市公园为一体、文化气氛浓厚的高品位的历史文化休闲场所。</div><div class='Mfoot'><a href='http://www.xianmuseum.org' target='_blank''>【 详细内容 】</a></div></div><div class="left"><img src='http://www.xabwy.com/Images/UpLoad/20080927035808.JPG' width='300' height='194' /></a></div>
+                      </div>
+                      <div class="bot"></div>
+                    </div>
+                   -->
+                    
+                     
+                    
+                    <!--园区景观-->
+                    <div class="infolist01">
+                   	  <div class="top"></div>
+                      <div class="mid">
+                          <div class='Mtitle'>
+                                <div class='MtitleNameCN'>文化讲坛</div><!--<div class='MtitleMore'><a href='http://www.xabwy.com/SitePage.aspx?ID=139'><img src="http://www.xabwy.com/Templates/Default/images/more01.gif" /></a></div>-->
+                        </div>
+                            
+                          <!--  <div class="list03">
+                    	<ul>
+                        	<li><span>[2011-2-03]</span><a href="#">全国未成年人思想全国未成年人思想道德建设工作测评道德建设工作测评</a></li>
+                            <li><span>[2011-2-03]</span><a href="#">全国未成年人思想道德建设工作测评</a></li>
+                            <li><span>[2011-2-03]</span><a href="#">全国未成年人思想全国未成年人思想道德建设工作测评道德建设工作测评</a></li>
+                            <li><span>[2011-2-03]</span><a href="#">全国未成年人思想道德建设工作测评</a></li>
+                            <li><span>[2011-2-03]</span><a href="#">全国未成年人思全国未成年人思想道德建设工作测评想道德建设工作测评</a></li>
+                            <li><span>[2011-2-03]</span><a href="#">全国</a></li>
+                        </ul>
+                        
+                   	  </div>-->
+                            
+                            <div class='list03'><ul><li><span>[2010-01-13]</span><a href='http://www.xabwy.com/Statics/2020.01/947.html'>西安博物院2010年第一期文化大讲堂</a></li><li><span>[2009-10-20]</span><a href='http://www.xabwy.com/Statics/2020.01/946.html'>走进中学课堂讲授西安历史文化</a></li><li><span>[2008-11-20]</span><a href='http://www.xabwy.com/Statics/2020.01/857.html'>西北大学李建超教授做关于“西安城市历史发展与变迁”的专题讲座</a></li><li><span>[2008-09-13]</span><a href='http://www.xabwy.com/Statics/2020.01/856.html'>中国汉民族服饰与成人礼公益讲座</a></li><li><span>[2008-09-11]</span><a href='http://www.xabwy.com/Statics/2020.01/854.html'>西安博物院宣讲小分队到西北大学开办文化讲堂</a></li></ul><div align='right' style=" margin-top:15px;"><div>当前10/5页&nbsp;每页20条&nbsp;共85条&nbsp;[<a href='http://www.xabwy.com/sitepage.aspx?id=217&page=1'>首页</a>]&nbsp;[<a href='http://www.xabwy.com/sitepage.aspx?id=217&page=9'>上一页</a>]&nbsp;[<span disabled='disabled'>下一页</span>]&nbsp;[<span disabled='disabled'>末页</span>]&nbsp;转到：<input id='GoToPage_Box' type='text' style='width:60px' value='10' />&nbsp;<input id='GoToPage_Btn' type='button' value='转' onclick="gotoThisPage('http://www.xabwy.com/sitepage.aspx?id=217&page=',5);" /></div></div></div><script language='javascript' type='text/javascript' src='http://www.xabwy.com/Js/Common.js'></script>
+                      </div>
+                      <div class="bot"></div>
+                    </div>
+                    
+                                     
+                  </div>
+                  <!--右主版面内容结束-->
+              </div>
+          </div>
+            <!--栏目页主版面结束-->
+      	  </div>
+      	</div>
+        <div id="bottom01"><!--part01结束处--></div>
+      </div>
+    </div>
+  <!--BODY 结束处-->
+</div>
+     <!--foot 开始-->
+        <div id="foot">
+            <div id="footleft">
+            </div>
+            <div id="footmiddle">
+                <div id="footlink">
+                    <a href="http://www.xabwy.com/SitePage.aspx?ID=181">友情链接</a> | <a href="http://www.xabwy.com/SitePage.aspx?ID=171">
+                        联系我们</a> | <a href="http://www.xabwy.com/SitePage.aspx?ID=173">网站导航</a>
+                    | <a href="http://www.xabwy.com/SitePage.aspx?ID=172">法律声明</a> | <a href="http://www.xabwy.com/SitePage.aspx?ID=198">招贤纳士</a>
+                </div>
+                <div id="footinfo">
+                       3月15日至10月31日，发票时间为9∶00—17∶00，18∶00清园；&nbsp;&nbsp;11月1日至次年3月14日，发票时间为9∶00—16∶30，17∶30清园。&nbsp;&nbsp;每周二闭馆（国家法定节假日除外）<br />
+                    咨询电话：029-87803591&nbsp;&nbsp; 馆址：西安市友谊西路72号                </div>
+                <div id="copyright">
+                    西安博物院 版权所有 陕ICP备09000979号 技术支持：<a href="#">时代润迅</a>                  </div>
+            </div>
+            <div id="footright">
+         
+            </div>
+        </div>
+        <!--foot 结束-->
+<!--PART00结束-->
+</body>
+</html>

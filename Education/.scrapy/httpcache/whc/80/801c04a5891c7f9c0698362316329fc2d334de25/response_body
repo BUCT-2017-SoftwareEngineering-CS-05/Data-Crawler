@@ -1,0 +1,387 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta name="author" content="http://www.shuwon.com">
+	<meta name="keywords" content="成都武侯祠|武侯祠官网|武侯祠博物馆">
+	<meta name="description" content="武侯祠位于成都市武侯区，肇始于公元223年修建刘备惠陵时，它是中国唯一的一座君臣合祀祠庙和最负盛名的诸葛亮、刘备及蜀汉英雄纪念地，也是全国影响最大的三国遗迹博物馆。">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<title>博物馆与教育|成都武侯祠博物馆</title>
+	<link href="style/whc.shuwon.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="style/myfocus.css">
+	<script src="https://hm.baidu.com/hm.js?93bfd5ef8ea164318251a95aa2e2d10b"></script><script src="http://pingjs.qq.com/h5/stats.js?v2.0.2" name="MTAH5" sid="500614694"></script><script>
+		navTarget = [2,3];
+	</script>
+	<style>
+		.cd .r .t:after{ left: 190px;}
+	</style>
+	<!--[if lt IE 9]><script type="text/javascript">document.location="ie.html"</script><![endif]-->
+</head>
+<body style="">
+<section class="subContainer active">
+	<section class="subHeader"><div class="overHeader">
+	<h1><a href="index.html"><img src="images/logoBlack.png" width="100%" alt="武侯祠官方网站"></a></h1>
+	<nav>
+		<ul>
+			<li class="has">
+				<a class="links fadIN" href="index.html">首页</a>
+			</li>
+			<li>
+				<a class="links fadIN" href="about.html">参观导览</a>
+				<div class="menus">
+					<a class="fadIN" href="about.html">导览</a>
+					<a class="fadIN" href="visit2.html">陈列展览</a>
+					<a class="fadIN" href="cultrue-relic.html">文物精粹</a>
+				</div>
+			</li>
+			<!--<a href="explan.html">我来讲三国</a>-->
+			<li class="active">
+				<a class="links fadIN" href="class3.html">青少年园地</a>
+				<div class="menus" style="">
+					<a class="fadIN" href="class3.html">三国小学堂</a>
+					<a class="fadIN" href="commentator.html">小小讲解员</a>
+					<a class="fadIN" href="class4.html">小喜神</a>
+					<a class="fadIN active" href="school.html">博物馆与教育</a>
+				</div>
+			</li>
+			<li class="has">
+				<a class="links fadIN " href="http://research.wuhouci.net.cn/" target="_blank">三国研究</a>
+				<div class="menus w">
+					<a class="fadIN " href="http://research.wuhouci.net.cn/node/355.jspx" target="_blank">文博知识库</a>
+					<a class="fadIN " href="http://research.wuhouci.net.cn/node/348.jspx" target="_blank">文物藏品</a>
+					<a class="fadIN " href="http://research.wuhouci.net.cn/node/358.jspx" target="_blank">遗存考察</a>
+					<a class="fadIN " href="http://research.wuhouci.net.cn/node/350.jspx" target="_blank">研究中心</a>
+					<a class="fadIN " href="http://research.wuhouci.net.cn/node/380.jspx" target="_blank">专家园地</a>
+				</div>
+				
+			</li>
+			<li>
+				<a class="links fadIN" href="visit-top.html">展览活动</a>
+				<div class="menus a">
+					<a class="fadIN" href="visit-top.html">主题展览</a>
+					<a class="fadIN" href="visit-top1.html">文化活动</a>
+					<a class="fadIN" href="online_exhibition.html">网上展厅</a>
+					<a class="fadIN" href="art.html">益州画社</a>
+				</div>
+			</li>
+			<li>
+				<a class="links fadIN" href="visit-ticket.html">资讯信息</a>
+				<div class="menus a">
+					<a class="fadIN" href="visit-ticket.html">博物馆指南</a>
+					<a class="fadIN" href="whc-news.html">博物馆动态</a>
+					<a class="fadIN" href="dzgz.html">党建工作</a>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<div class="version">
+		<a class="active" href="http://www.wuhouci.net.cn/index.html" target="_blank">中文</a>
+		<a href="http://en.wuhouci.net.cn" target="_blank">ENGLISH</a>
+		<a href="http://jp.wuhouci.net.cn" target="_blank">日本語</a>
+		<a href="http://ko.wuhouci.net.cn" target="_blank">한국어</a>
+	</div>
+</div>
+
+<div id="navToggle" class=" index">
+	<span></span>
+	<span></span>
+	<span></span>
+</div>
+<div class="mod-gnav-folding">
+	<ul>
+		<li>
+			<a href="index.html">首页</a>
+		</li>
+		<li>
+			<a href="javascript:void(0)">参观导览</a>
+			<div class="nav-one">
+				
+					<a href="about.html">导览</a>
+				
+					<a href="visit2.html">陈列展览</a>
+				
+					<a href="cultrue-relic.html">文物精粹</a>
+				
+			</div>
+		</li>
+		<li>
+			<a href="javascript:void(0)">青少年园地</a>
+			<div class="nav-one">
+				
+					<a href="class3.html">三国小学堂</a>
+				
+					<a href="commentator.html">小小讲解员</a>
+				
+					<a href="class4.html">小喜神</a>
+				
+					<a href="school.html">博物馆与教育</a>
+				
+			</div>
+		</li>
+		<li>
+			<!-- reg-login -->
+			<a href="http://research.wuhouci.net.cn/">三国研究</a>
+			<div class="nav-one">
+				
+					<a href="http://research.wuhouci.net.cn/node/347.jspx" target="_blank">文博知识库</a>
+				
+					<a href="http://research.wuhouci.net.cn/node/348.jspx" target="_blank">文物藏品</a>
+				
+					<a href="http://research.wuhouci.net.cn/node/358.jspx" target="_blank">遗存考察</a>
+				
+					<a href="http://research.wuhouci.net.cn/node/350.jspx" target="_blank">研究中心</a>
+				
+					<a href="http://research.wuhouci.net.cn/node/380.jspx" target="_blank">专家园地</a>
+				
+			</div>
+			
+		</li>
+		<li>
+			<a href="javascript:void(0)">展览活动</a>
+			<div class="nav-one">
+				
+					<a href="visit-top.html">主题展览</a>
+				
+					<a href="visit-top1.html">文化活动</a>
+					<a class="fadIN" href="online_exhibition.html">网上展厅</a>
+					<a class="fadIN" href="art.html">益州画社</a>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:void(0)">资讯信息</a>
+			<div class="nav-one">
+				
+					<a href="visit-ticket.html">博物馆指南</a>
+				
+					<a href="whc-news.html">博物馆动态</a>
+				
+			</div>
+		</li>
+	</ul>
+
+	<div class="m_search">
+		<input type="text" placeholder="输入关键字">
+		<label>搜索</label>
+	</div>
+	<div class="version m_v">
+		<a href="http://www.wuhouci.net.cn/index.html" target="_blank" class="active">中文</a>
+		<a href="http://en.wuhouci.net.cn" target="_blank">ENGLISH</a>
+		<a href="http://jp.wuhouci.net.cn" target="_blank">日本語</a>
+		<a href="http://ko.wuhouci.net.cn" target="_blank">한국어</a>
+	</div>
+</div>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?93bfd5ef8ea164318251a95aa2e2d10b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></section>
+	
+	
+	<section class="subBanner" style="background-image: url(images/banner5.jpg); margin-top: 0px;">
+		<a href="school-order.html" class="sendForm s1" target="_blank">预约登记表</a>
+		<a href="school-form.html" class="sendForm s2" target="_blank">参观问卷调查表</a>
+	</section>	
+	
+	<div class="cd">
+		
+	    <div id="focus">
+	      	<div class="loading active"><img src="images/loading.gif" alt="请稍候..."></div>
+		    <div class="pic">
+		        <ul>
+		        	
+		        </ul>
+		        <script id="olLi" type="text/html">
+					{{each picture_tp as value i}}
+						<li><img src="{{picture_tp[i].face}}" thumb="" alt="" text="" /></li>
+					{{/each}}
+				</script>
+				
+		    </div>
+	    </div>
+	    	
+		<div class="r">
+			<div class="t sch">博物馆与教育</div>
+			<div class="d">
+				 	
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div class="stBox"> <a>教学视频</a></div>
+		<div class="lms">
+			<ul>
+				
+			</ul>
+			<script id="lmsList" type="text/html">
+				{{each video_list as value i}}
+					<li data-url = "{{video_list[i].videourl}}" data-id = "{{video_list[i].id}}">
+						<div class="thum">
+							<img src="{{video_list[i].face}}" width="100%">
+							<div class="icon"></div>
+						</div>
+						<div class="title">
+							<b>主&nbsp;&nbsp;&nbsp;&nbsp;题：{{video_list[i].title}}</b>
+							<b>主讲人：{{video_list[i].announcer}}</b>
+						</div>
+					</li>
+				{{/each}}
+			</script>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!--版权信息-->
+	<div id="footer"><section class="footerBox">
+	<footer class="footer">
+		<div class="l">
+			<div class="title mob-hide">成都武侯祠博物馆</div>
+			<div class="title mob-show">© 2019 成都武侯祠博物馆  版权所有 </div>
+
+			<div class="des"><p>地址：中国.成都市武侯祠大街231号</p>　　<p>电话：+86-028-85552397(业务)、85535951(票务)、85593818(网站)</p></div>
+			<div class="des">
+				<p>邮编：610041　　E-Mail：cdwuhouci@163.com　　&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010702001532" target="_blank" class="jcba">川公网安备 51010702001532号</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn" class="icp" target="_blank">蜀ICP备17044214号-1</a> </p>      
+				<p>成都武侯祠博物馆版权所有</p>
+				<a href="http://www.shuwon.com/" target="_blank" class="sw">网站建设：蜀美网络</a>
+			</div>
+			
+		</div>
+		<div class="r">
+			<div class="t"></div>
+			<div class="p"><img src="images/ewm.jpg" width="100%">
+				<p>武侯祠官方微信</p>
+			</div>
+		</div>
+	</footer>	
+</section>
+
+<section class="copyright">
+	<div class="friendLinks">友情链接：<span></span></div>
+	<div class="links">
+		<!--<a href="http://www.scmuseum.cn/" target="_blank">四川博物院</a>-->
+		<a href="http://www.cddfct.com/" target="_blank">成都杜甫草堂博物馆</a>
+		<a href="http://www.jinshasitemuseum.com/" target="_blank">成都金沙遗址博物馆</a>
+		<a href="http://www.cdmuseum.com/" target="_blank">成都博物馆</a>
+		<a href="http://www.cdylbwg.org/" target="_blank">成都永陵博物馆</a>
+		
+	</div>
+	<!--<a href="javascript:void(0);">显示更多</a>-->
+	<a href="sitemap.html" class="webMap fadIN">网站地图</a>
+</section>	
+<script>
+	var _mtac = {};
+	(function() {
+		var mta = document.createElement("script");
+		mta.src = "http://pingjs.qq.com/h5/stats.js?v2.0.2";
+		mta.setAttribute("name", "MTAH5");
+		mta.setAttribute("sid", "500614694");
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(mta, s);
+	})();
+	
+	
+	// $(".icp").click(function(){
+	// 	window.open("");
+	// })
+	</script>
+
+</div>
+	
+	<div class="navBar sub"><a href="http://www.wuhouci.net.cn/notice-detail.html#id=1823" target="_blank" class="e" id="notice_common" src="http://www.wuhouci.net.cn/notice-detail.html#id=1823">
+	
+</a>
+<!-- <a href="user.html" class="member" target="_blank"></a> -->
+<a href="visit-ticket.html" class="b"></a>
+<a href="visit-traffic.html" class="c"></a>
+<a class="d" href="wechat.html"><div class="wechat"><img src="images/ewm.jpg" width="100%"><p>武侯祠微信</p></div></a></div>
+	
+	<div class="lightBox videolg">
+		<div class="lgVideo">
+			<video width="800" height="450" src="" id="media"></video>
+			<div class="videoBtns"></div>
+			<div class="close">关闭视频</div>
+		</div>
+	</div>
+</section>
+<div class="loading active"><span style="width: 100%;"></span></div>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/nav.js"></script><div class="mc"></div><div class="backTop animate"></div>
+<script src="js/template.js"></script>
+<script type="text/javascript" src="js/myfocus-2.0.4.min.js"></script>
+<script>
+	window.onload = function(){
+		whc.loadcompele();
+		$.post("/api/school/list",{id:11},function(data){
+			if (data.result) {
+				whc.loadcompele();
+				$(".cd .r .d").html(data.data.school_list[0].content)
+				var html = template('olLi', data.data.school_list[0]);
+				$("#focus .pic ul").html(html)
+				$('#focus').myFocus({
+					width:600,
+					height:400,
+					auto:true
+				});	
+			}
+			
+		})
+		
+		$.post("/api/video/list",{category_id:4,pageSize:100},function(data){
+			if (data.result) {
+				var htmls = template('lmsList', data.data);
+				$(".lms ul").html(htmls)
+				
+				$(".info .boxes").click(function(){
+					$(this).addClass("active").siblings().removeClass("active");
+				})
+				
+				var video = document.getElementById("media");
+				$(".videoBtns").click(function(){
+					$(this).toggleClass("active");
+					if ($(this).hasClass("active")) {
+						video.play();
+					}else{
+						video.pause();
+					}
+				})
+				
+				$(".close").click(function(){
+					video.pause();
+					$(".videoBtns").removeClass("active");
+					$(".videolg").fadeOut();
+				})
+				$(".lms ul li").click(function(){
+					window.open("school-show.html" + "#id=" + $(this).attr("data-id") + "");
+				})
+				
+			}
+		})	
+		$(".stBox a").click(function(){
+			$(this).addClass("active").siblings().removeClass("active");
+			if ($(this).index() == 0) {
+				$(".hzb").slideDown();
+				$(".wjdc").slideUp();
+			}else{
+				$(".hzb").slideUp();
+				$(".wjdc").slideDown(300);
+			}
+		})
+		if ($(window).width() < 768) {
+			$("#media").attr({"controls":"controls"});	
+		}
+	}
+	
+	
+	
+	
+	
+</script>
+</body></html>

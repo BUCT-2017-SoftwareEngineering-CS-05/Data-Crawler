@@ -1,0 +1,209 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>活动</title>
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<link rel="stylesheet" type="text/css" href="/skin/default/css/style.css">
+<script src="https://hm.baidu.com/hm.js?100c0cff8779ab49d58212d82a9ea66c"></script><script type="text/javascript" src="/skin/default/js/koala.min.1.5.js"></script>
+<script type="text/javascript" src="/skin/default/js/jquery-1.4.2.min.js"></script>
+</head>
+
+<body>
+<!-----head----->
+<style type="text/css">
+    #gongao{width:650px;height:50px;overflow:hidden;line-height:50px;font-size:16px;font-family:'Microsoft YaHei';color:#DD2936;float: left;}
+    #gongao #scroll_begin, #gongao #scroll_end{display:inline}
+</style>
+<script type="text/javascript">
+    function ScrollImgLeft(){
+        var speed=50;
+        var scroll_begin = document.getElementById("scroll_begin");
+        var scroll_end = document.getElementById("scroll_end");
+        var scroll_div = document.getElementById("scroll_div");
+        scroll_end.innerHTML=scroll_begin.innerHTML;
+        function Marquee(){
+            if(scroll_end.offsetWidth-scroll_div.scrollLeft<=0)
+                scroll_div.scrollLeft-=scroll_begin.offsetWidth;
+            else
+                scroll_div.scrollLeft++;
+        }
+        var MyMar=setInterval(Marquee,speed);
+        scroll_div.onmouseover=function() {clearInterval(MyMar);}
+        scroll_div.onmouseout=function() {MyMar=setInterval(Marquee,speed);}
+    }
+</script>
+<div class="yk_top" style="height:80px;">
+    <!-----导航----->
+    <div class="daohang">
+        <ul>
+            <li><a href="/yk/">首页</a></li>
+            <li><a href="/yk/tongzhi/">通知</a></li>
+
+            <li><a href="/yk/zhanlan/">展览</a>
+                <ul>
+                    <li><a href="/yk/zhanlan/badachenlie/">常设展览</a></li><li><a href="/yk/zhanlan/linshizhanlan/">特设展览</a></li><li><a href="/yk/zhanlan/zuixinzhanlan/">交流展览</a></li>                </ul>
+            </li>
+            <li><a href="/yk/cangpin/">藏品</a>
+                <ul>
+                    <li><a href="/Jingzhou_VR/TourWeaver_jingzhouVR.html">虚拟展厅</a></li><li><a href="/yk/cangpin/guobaoxinshang/">国宝欣赏</a></li>                </ul>
+            </li>
+            <li><a href="/yk/fuwu/">服务</a>
+                <ul>
+                    <li><a href="/yk/fuwu/lvyoushangdian/">旅游商店</a></li><li><a href="/yk/fuwu/chuyuechuwu/">楚乐楚舞</a></li>                </ul>
+            </li>
+            <li><a href="/yk/zhishi/">知识</a>
+                <ul>
+                    <li><a href="/yk/zhishi/lishizhishi/">历史知识</a></li><li><a href="/yk/zhishi/wenwuzhishi/">文物知识</a></li>                </ul>
+            </li>
+            <li><a href="/yk/huodong1/">活动</a></li>
+            <li><a href="/yk/yingxiang/">映像</a></li>
+        </ul>
+    </div>
+
+    <div class="head_l mt"><img src="/skin/default/images/logo.png" width="223" height="54"></div>
+</div>
+<!-----head----->
+
+<!-----导航----->
+<div class="yk_dh">
+    <div class="yk_top">
+
+        <div class="tongzhi">通知：</div>
+        <div id="gongao">
+            <div style="width:650px;height:50px;margin:0 auto;white-space: nowrap;overflow:hidden;" id="scroll_div" class="scroll_div">
+                <div id="scroll_begin" class="scroll_begin">
+                    <script>
+                        document.write("<script type='text/javascript' src='/d/js/js/1499241230.js?t="+Math.random()+"'><"+"/script>");
+                    </script><script type="text/javascript" src="/d/js/js/1499241230.js?t=0.1804927368071072"></script><a href="/yk/tongzhi/2020-04-09/1718.html">2019年底爆发的新冠肺炎疫情，是新中国成立以来在我国发生的传播速度最快、感染范围最广、防控难度最大的一次重大突发公共卫生事件。荆州人民坚守阵地，广东、海南医疗队千里驰</a>
+                </div>
+                <div id="scroll_end">
+                    <script>
+                        document.write("<script type='text/javascript' src='/d/js/js/1499241230.js?t="+Math.random()+"'><"+"/script>");
+                    </script><script type="text/javascript" src="/d/js/js/1499241230.js?t=0.1804927368071072"></script><a href="/yk/tongzhi/2020-04-09/1718.html">2019年底爆发的新冠肺炎疫情，是新中国成立以来在我国发生的传播速度最快、感染范围最广、防控难度最大的一次重大突发公共卫生事件。荆州人民坚守阵地，广东、海南医疗队千里驰</a>
+                </div>
+            </div>
+            <script type="text/javascript">ScrollImgLeft();</script>
+        </div>
+
+        <div class="yk_r"><a href="/yw/">业务版首页→</a></div>
+        <div class="dh_ss">
+            <form name="searchform" method="post" action="/e/search/index.php">
+                <input type="hidden" name="show" value="title,smalltext">
+                <input name="keyboard" class="ss" type="text" placeholder="请输入标题关键字">
+                <input name="Submit" type="image" src="/skin/default/images/ss.png">
+            </form>
+        </div>
+
+
+    </div>
+</div>
+<!-----导航----->
+
+
+
+<div class="lb_mav">
+   <!--右边-->
+      <div class="tz_r" style="background:url(/images/22222.jpg) no-repeat top center;">
+        <ul>
+         <div class="tz_r_first">
+           <div class="tz_r_first_up">活动</div>
+           <ul class="xwdt">
+               
+               <li><span>[2017-05-12]</span>· <a href="/yk/huodong1/2017-08-21/1394.html" title="“荆楚瑰宝趣味讲堂”走进荆州市政府机关幼儿园">“荆楚瑰宝趣味讲堂”走进荆州市政府机关幼儿园</a></li>
+               
+               <li><span>[2017-05-10]</span>· <a href="/yk/huodong1/2017-08-21/1392.html" title="荆州博物馆携手兴汉汉剧团 走进校园共庆博物馆日">荆州博物馆携手兴汉汉剧团 走进校园共庆博物馆日</a></li>
+               
+               <li><span>[2017-05-04]</span>· <a href="/yk/huodong1/2017-08-21/1390.html" title="荆州博物馆宣教部开展业务学习为讲解员充电">荆州博物馆宣教部开展业务学习为讲解员充电</a></li>
+               
+               <li><span>[2017-04-26]</span>· <a href="/yk/huodong1/2017-08-21/1388.html" title="“荆楚瑰宝趣味讲堂”之楚国的精兵利器">“荆楚瑰宝趣味讲堂”之楚国的精兵利器</a></li>
+               
+               <li><span>[2017-04-14]</span>· <a href="/yk/huodong1/2017-08-21/1384.html" title="春天游园——相约荆州博物馆">春天游园——相约荆州博物馆</a></li>
+               
+               <li><span>[2017-04-10]</span>· <a href="/yk/huodong1/2017-08-21/1381.html" title="“荆楚瑰宝趣味讲堂”之楚国漆器瑰宝猪形酒具盒">“荆楚瑰宝趣味讲堂”之楚国漆器瑰宝猪形酒具盒</a></li>
+               
+               <li><span>[2017-03-31]</span>· <a href="/yk/huodong1/2017-08-21/1380.html" title="忆“上巳·清明”——走进八岭山镇小学社教活动">忆“上巳·清明”——走进八岭山镇小学社教活动</a></li>
+               
+               <li><span>[2016-08-20]</span>· <a href="/yk/huodong1/2018-01-29/1501.html" title="姨妈姨爹们，荆州博物馆邀请您来参观、看表演啦！">姨妈姨爹们，荆州博物馆邀请您来参观、看表演啦！</a></li>
+               
+               <li><span>[2016-07-01]</span>· <a href="/yk/huodong1/2018-01-29/1500.html" title="“荆博文物风采”主题绘画比赛开始啦！">“荆博文物风采”主题绘画比赛开始啦！</a></li>
+               
+               <li><span>[2016-04-07]</span>· <a href="/yk/huodong1/2017-08-21/1298.html" title="沙市一中社会实践基地在我馆挂牌成立">沙市一中社会实践基地在我馆挂牌成立</a></li>
+               
+               <li><span>[2016-03-26]</span>· <a href="/yk/huodong1/2018-01-29/1502.html" title="荆州博物馆即将举办“五一”人文知识讲座">荆州博物馆即将举办“五一”人文知识讲座</a></li>
+               
+               <li><span>[2016-03-21]</span>· <a href="/yk/huodong1/2017-08-21/1297.html" title="荆楚瑰宝趣味讲堂">荆楚瑰宝趣味讲堂</a></li>
+               
+               <li><span>[2016-01-05]</span>· <a href="/yk/huodong1/2016-01-05/1509.html" title="荆州博物馆接纳学生社会实践公告">荆州博物馆接纳学生社会实践公告</a></li>
+               
+               <li><span>[2016-01-05]</span>· <a href="/yk/huodong1/2018-01-29/1503.html" title="“荆楚瑰宝 趣味课堂”即将开讲啦！">“荆楚瑰宝 趣味课堂”即将开讲啦！</a></li>
+               
+               <li><span>[2015-10-12]</span>· <a href="/yk/huodong1/2018-01-29/1498.html" title="文物修复我在行  ——荆州未成年人模拟文物修复活动">文物修复我在行  ——荆州未成年人模拟文物修复活动</a></li>
+               
+               <li><span>[2015-10-08]</span>· <a href="/yk/huodong1/2018-01-29/1497.html" title="“我是你的眼睛----关爱盲人共浴阳光”活动">“我是你的眼睛----关爱盲人共浴阳光”活动</a></li>
+               
+               <li><span>[2015-06-02]</span>· <a href="/yk/huodong1/2018-01-29/1496.html" title="“我是小小讲解员”活动">“我是小小讲解员”活动</a></li>
+               
+               <li><span>[2015-05-10]</span>· <a href="/yk/huodong1/2018-01-29/1495.html" title=" 荆州博物馆走进沙市中学 开展“国际博物馆日”主题活动"> 荆州博物馆走进沙市中学 开展“国际博物馆日”主题活动</a></li>
+               
+               <li><span>[2015-05-08]</span>· <a href="/yk/huodong1/2018-01-29/1494.html" title="荆州博物馆国际博物馆日系列活动   “你好，地球——为珍稀树木挂牌” 、“知古鉴今——民间藏品鉴赏”">荆州博物馆国际博物馆日系列活动   “你好，地球——为珍稀树木挂牌” 、“知古鉴今——民间藏品鉴赏”</a></li>
+               
+               <li><span>[2015-03-10]</span>· <a href="/yk/huodong1/2018-01-29/1493.html" title="“让我的声音做你的眼睛” ——省地两馆牵手盲人朋友开展活动实施方案">“让我的声音做你的眼睛” ——省地两馆牵手盲人朋友开展活动实施方案</a></li>
+               
+               <li><span>[2015-02-01]</span>· <a href="/yk/huodong1/2018-01-29/1499.html" title="在校学生社会实践活动方式">在校学生社会实践活动方式</a></li>
+               
+               <li><span>[2015-01-06]</span>· <a href="/yk/huodong1/2018-01-29/1492.html" title="望山桥一号楚墓考古开放日活动">望山桥一号楚墓考古开放日活动</a></li>
+               
+               <li><span>[2014-10-30]</span>· <a href="/yk/huodong1/2018-01-29/1490.html" title="荆州博物馆邀您一起走进考古发掘现场">荆州博物馆邀您一起走进考古发掘现场</a></li>
+               
+               <li><span>[2014-07-16]</span>· <a href="/yk/huodong1/2018-01-29/1489.html" title="荆州博物馆暑期亲子游——文物名称书写大赛规则说明">荆州博物馆暑期亲子游——文物名称书写大赛规则说明</a></li>
+               
+               <li><span>[2014-06-29]</span>· <a href="/yk/huodong1/2018-01-29/1488.html" title="暑期亲子游——文物名称书写大赛活动预告">暑期亲子游——文物名称书写大赛活动预告</a></li>
+               
+           </ul>
+           
+           <div class="fy"><a title="Total record">&nbsp;<b>108</b> </a>&nbsp;&nbsp;<a href="/yk/huodong1/index.html">首页</a>&nbsp;<a href="/yk/huodong1/index_3.html">上一页</a>&nbsp;<a href="/yk/huodong1/index_2.html">2</a>&nbsp;<a href="/yk/huodong1/index_3.html">3</a>&nbsp;<b>4</b>&nbsp;<a href="/yk/huodong1/index_5.html">5</a>&nbsp;<a href="/yk/huodong1/index_5.html">下一页</a>&nbsp;<a href="/yk/huodong1/index_5.html">尾页</a></div>
+         </div>
+        </ul>
+      </div>
+      <!--右边-->
+      
+      <!--左边-->
+      <div class="jyzn_l">
+        <div class="jyzn_l_up">活动</div>
+         <ul>
+             <li><a href="/yk/tongzhi/">通知</a></li><li><a href="/yk/zhanlan/">展览</a></li><li><a href="/yk/cangpin/">藏品</a></li><li><a href="/yk/fuwu/">服务</a></li><li><a href="/yk/zhishi/">知识</a></li><li><a href="/yk/huodong1/">活动</a></li><li><a href="/yk/yingxiang/">映像</a></li>         </ul>
+      </div>
+     <!--左边-->
+</div>
+
+
+
+
+<!---------foot--------->
+<div class="yk_foot">
+    <div class="yk_top">
+    <div style="line-height:13px;">&nbsp;</div>
+        <center><table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td width="80" align="left"><img src="/skin/default/images/b.png" width="52" height="64"></td>
+    <td align="left" valign="middle">免费开放时间（节假日不闭馆） 周二至周日上午 9:00 开馆 16:00 停止发票 17:00 闭馆 周一闭馆<br>
+      主办：荆州博物馆  地址：湖北省荆州市荆中路166号  邮编：434020  电话：0716-8494808  传真：0716-8496338  E-mail:22296754@qq.com  鄂ICP备13013709号-1</td>
+  </tr>
+</tbody></table></center>
+
+    </div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?100c0cff8779ab49d58212d82a9ea66c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!---------foot--------->
+
+
+
+</body></html>

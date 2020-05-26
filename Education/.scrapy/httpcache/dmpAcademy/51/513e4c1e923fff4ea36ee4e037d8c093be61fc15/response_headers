@@ -1,0 +1,17 @@
+Date: Sun, 17 May 2020 12:55:51 GMT
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: acw_tc=7b39758215897201507566933e92b7cbcd32e590f5cec55398a794383fe2e9;path=/;HttpOnly;Max-Age=1800
+Set-Cookie: PHPSESSID=7198677add1dbdc91c4656259c16ce50; path=/
+Set-Cookie: saw_terminal=default; path=/
+Set-Cookie: Secure
+X-Powered-By: PHP/5.6.30
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000
+Referer-Policy: origin
+Content-Security-Policy: frame-ancestors 'self'
+X-Permitted-Cross-Domain-Policies:  "master-only"
+X-Xss-Protection: 1; mode=block;
+X-Download-Options: SAMEORIGIN
+Content-Encoding: gzip

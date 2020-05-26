@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>社教活动-郑州博物馆</title>
+<link id="css" rel="stylesheet" type="text/css" href="/css/n_css.css">
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/n_hope.js"></script>
+</head>
+<body>
+<div class="head">
+	<ul>
+    	<div class="logo"><img src="/images/logo.png" /></div>
+        <div class="nav">
+        	<li><a href="/index">网站首页</a></li>
+            <li><a href="/article1_list.html">郑博动态</a></li>
+            <li><a href="/tickets/2.html">参观须知</a></li>
+            <li><a href="/display9_list.html">郑博展览</a></li>
+            <li><a href="/collection5_list.html">典藏文物</a></li>
+			<li><a href="/article3_list.html">学术研究</a></li>
+            <li><a href="/article4_list.html">社教活动</a></li>
+            <li><a href="/about/4.html">联系我们</a></li>
+        </div>
+        <div class="tel">
+        	<div class="tel_icon"><img src="/images/tel.png" /></div>
+        	<div class="tel_con">
+            <p>团体预约电话&nbsp;&nbsp;0371-67438090</p>
+            <p>转分机8088</p>
+        	</div>
+        </div>
+    </ul>
+</div>
+<div class="banner"><img src="/images/n_banner.jpg" /></div><div id="n_lm" class="n_lm">
+	<ul>
+    		<li ><a href="/article1_list.html">郑博动态</a></li>
+    		<li ><a href="/article2_list.html">郑博公告</a></li>
+    		<li ><a href="/article3_list.html">学术研究</a></li>
+    		<li class="e60012"><a href="/article4_list.html">社教活动</a></li>
+        </ul>
+</div>
+<!--<div class="n_select">
+<script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=6340243829943845099' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+</div>-->
+<div class="n_box">
+	<div class="n_news_list">
+    	<div class="n_new_box">
+        	<a href="/article/550.html"><p class="n_new_box_t">春节社教活动——郑博小剧场之“鼎鼎奇遇记”</p>
+            <p class="n_new_box_c">以郑州出土的国家一级文物及世界文化遗产历史遗址为基础，拟人化10个人物造型，以舞台剧的表演形式，展示郑州地区文明在漫漫历史长河中的重要作用。</p></a>
+        </div>
+    	<div class="n_new_date"><p>02-01<br />2019</p></div>
+    </div>
+	<div class="n_news_list">
+    	<div class="n_new_box">
+        	<a href="/article/520.html"><p class="n_new_box_t">国庆节主题社会教育活动“国旗，让我托举你！”</p>
+            <p class="n_new_box_c">在庄严肃穆的氛围下开展有关国旗、国旗法知识宣讲，参与举国旗、唱国歌爱国主义教育活动。呼应国庆主题，增强民族自豪感和名族自信心。</p></a>
+        </div>
+    	<div class="n_new_date"><p>10-01<br />2018</p></div>
+    </div>
+	<div class="n_news_list">
+    	<div class="n_new_box">
+        	<a href="/article/515.html"><p class="n_new_box_t">月是故乡明 情是家乡浓——郑州成语故事拔萃</p>
+            <p class="n_new_box_c">3000多年前，中原腹地郑州是中华文化的话语高地。中华文化的重要组成部分——成语，她是历史史实的概括，文化的传承，语言、古训、名言的精华，民间俗谚的演变。古往今来，她已广泛地</p></a>
+        </div>
+    	<div class="n_new_date"><p>09-24<br />2018</p></div>
+    </div>
+	<div class="n_news_list">
+    	<div class="n_new_box">
+        	<a href="/article/73.html"><p class="n_new_box_t">我们的节日——七夕节之七仙女话乞巧节</p>
+            <p class="n_new_box_c">农历七月初七，是汉族的传统节日“七夕节”，又叫“乞巧节”、“七巧节”或“七姐诞”。古代女子希望以牛郎织女为榜样，所以每逢七姐诞，她们都会向七姐献祭，祈求自己能够心灵手巧、</p></a>
+        </div>
+    	<div class="n_new_date"><p>08-17<br />2018</p></div>
+    </div>
+	<div class="n_news_list">
+    	<div class="n_new_box">
+        	<a href="/article/17.html"><p class="n_new_box_t">阿富汗王子讲丝绸之路上的舶来品——建筑系列</p>
+            <p class="n_new_box_c">由社教专员扮演阿富汗王子，以通俗易懂的方式讲述同一时期，中国与阿富汗地区在建筑上的区别。以城市规模、规划思想、城市布局、建筑风格、建筑材质五方面对比不同，从而使观众以轻松</p></a>
+        </div>
+    	<div class="n_new_date"><p>04-15<br />2018</p></div>
+    </div>
+	<div class="n_news_list">
+    	<div class="n_new_box">
+        	<a href="/article/18.html"><p class="n_new_box_t">阿富汗王子讲丝绸之路上的舶来品——蔬果系列</p>
+            <p class="n_new_box_c">由社教专员扮演阿富汗王子，以红、黄、绿、紫四个色块为基础，用生动风趣的语言，讲述经丝绸之路舶来的四种蔬菜和四种瓜果，对比舶来品对中国普通百姓的影响，感受饮食文化。</p></a>
+        </div>
+    	<div class="n_new_date"><p>06-19<br />2018</p></div>
+    </div>
+	<div class="n_news_list">
+    	<div class="n_new_box">
+        	<a href="/article/19.html"><p class="n_new_box_t">&quot;我们的节日——端午节&quot;之彩虹福绳手工创作</p>
+            <p class="n_new_box_c">活动对象以小朋友为主，15人左右，先由社教专员向小朋友们介绍端午节的来历，讲述和端午有关的小故事，然后教小朋友动手制作&quot;彩虹福绳&quot;，了解传统文化，感受传统习俗。</p></a>
+        </div>
+    	<div class="n_new_date"><p>06-17<br />2018</p></div>
+    </div>
+<div class="h_50"></div>
+<div id="fenye"></div>
+</div>
+<div class="foot">
+	<p class="amount">网站访问量：<span>1</span><span>3</span><span>9</span><span>2</span><span>5</span><span>3</span><span>1</span></p>
+    <p class="foot_con">Copyright郑州博物馆.All Rights Reserved.<br />郑州博物馆地址：郑州市嵩山南路168号    团体预约电话：0371-67438090转分机8088 </p>
+	<div style="position:absolute; width:80px; height:80px; left:50%; margin-top:-120px; margin-left:-230px;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/17/251/0000/40670096/CA172510000406700960002.js ' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</div>
+<div class="footadd"><a href="http://www.hnzzmuseum.com/article/72.html">郑州市文明行为促进条例</a></div></body>
+</html>

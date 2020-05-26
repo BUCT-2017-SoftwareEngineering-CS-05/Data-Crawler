@@ -1,0 +1,481 @@
+<html class="x-border-box x-strict"><head>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>上海博物馆</title>
+<link rel="icon" type="image/vnd.microsoft.icon" href="/museum/images/media/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/museum/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/museum/bootstrap-frontend/css/bootstrap.min.css">
+<link rel="stylesheet" href="/museum/bootstrap-frontend/css/bootstrap.min.css" media="print">
+<link rel="stylesheet" type="text/css" href="/museum/bootstrap-dialog/css/bootstrap-dialog.min.css">
+<link rel="stylesheet" type="text/css" href="/museum/jquery-selectBox/jquery.selectBox.css">
+<link rel="stylesheet" type="text/css" href="/museum/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" type="text/css" href="/museum/simplyscroll/jquery.simplyscroll.css">
+<link rel="stylesheet" type="text/css" href="/museum/flexpaper/css/flexpaper.css">
+<link rel="stylesheet" type="text/css" href="/museum/metisMenu/metisMenu.css">
+<link rel="stylesheet" type="text/css" href="/museum/css/menu-frontend.css">
+<link rel="stylesheet" type="text/css" href="/museum/css/select-frontend.css">
+<link rel="stylesheet" type="text/css" href="/museum/css/yidong-museum.css">
+<link rel="stylesheet" type="text/css" href="/museum/css/yidong-museum-member.css">
+<link rel="stylesheet" type="text/css" href="/museum/css-frontend/top.css">
+<link href="/museum/css-frontend/jquery-webox.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/museum/js/jspatch.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/museum/js/html5shiv.min.js"></script>
+<script type="text/javascript" src="/museum/js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/museum/js/ext-all.js"></script>
+<script type="text/javascript" src="/museum/js/locale/ext-lang-zh_CN.js"></script>
+<script type="text/javascript" src="/museum/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/museum/js/jquery.form.min.js"></script>
+<script type="text/javascript" src="/museum/bootstrap-frontend/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/museum/bootstrap-dialog/js/bootstrap-dialog.min.js"></script>
+<script type="text/javascript" src="/museum/jquery-selectBox/jquery.selectBox.js"></script>
+<script type="text/javascript" src="/museum/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="/museum/simplyscroll/jquery.simplyscroll.js"></script>
+<script type="text/javascript" src="/museum/flexpaper/js/flexpaper.js"></script>
+<script type="text/javascript" src="/museum/flexpaper/js/flexpaper_handlers.js"></script>
+<script type="text/javascript" src="/museum/metisMenu/metisMenu.js"></script>
+<script type="text/javascript" src="/museum/js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="/museum/js/jquery.pin.js"></script>
+<script type="text/javascript" src="/museum/js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="/museum/js/sly.min.js"></script>
+<!-- 
+<script type="text/javascript" src="/museum/flowplayer/flowplayer-3.2.13.min.js"></script>
+ -->
+<script src="/museum/js-frontend/jquery-webox.js"></script>
+<script type="text/javascript">
+function initialData(list, params) {
+	list.empty();
+	list.data('params', params);
+	list.data('offset', 0);
+}
+
+function appendData(list) {
+	var url = list.data('url');
+	var params = list.data('params');
+	var offset = list.data('offset');
+	var limit = list.data('limit');
+	$.ajax({
+		url: url,
+		method: 'POST',
+		data: $.extend(params, {
+			offset: offset,
+			limit: limit
+		}),
+		success: function(result) {
+			list.append(result);
+			list.data('offset', offset + limit);
+		}
+	});
+}
+
+function myFlowplayer(id) {
+	flowplayer(id, '/museum/flowplayer/flowplayer-3.2.18.swf');
+}
+
+var heightForBackToTopButton = 649;
+function scrollCallbackForBackToTopButton() {
+	if ($(window).scrollTop() > heightForBackToTopButton)
+		$('#back-to-top-button').fadeIn();
+	else
+		$('#back-to-top-button').fadeOut();
+}
+
+$.ajaxSetup({
+	cache: false
+});
+
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_DANGER] = '出错信息';
+BootstrapDialog.DEFAULT_TEXTS['OK'] = '确定';
+BootstrapDialog.DEFAULT_TEXTS['CANCEL'] = '取消';
+
+$(function() {
+	var pageCategoryCode = $('body').data('pageCategoryCode');
+	if (Ext.isDefined(pageCategoryCode))
+		Ext.Ajax.request({
+			url: '/museum/pageview/hit.action',
+			params: {
+				pageCategoryCode: pageCategoryCode
+			},
+			callback: function(options, success, response) {
+				if (success) {
+					var result = Ext.decode(response.responseText);
+					if (!result.success)
+						BootstrapDialog.danger(result.msg);
+				} else {
+					BootstrapDialog.danger('连接失败');
+				}
+			}
+		});
+});
+</script>
+
+<script type="text/javascript">
+	$(function() {
+		
+		
+		$('#content').masonry({
+			itemSelector: '.item',
+			gutter: 16
+		});
+		
+		$('#latest ul').mCustomScrollbar({
+			theme: 'minimal-dark'
+		});
+	});
+</script>
+</head>
+<body data-page-category-code="MAIN" id="ext-gen1018" class="x-body x-webkit x-chrome x-reset">
+
+
+<div class="container">
+<div id="header" class="row">
+	<form action="/museum/frontend/fulltextsearch/full-text-search.action" method="post" class="col-md-12">
+		<span><input type="text" name="fullSearchText" value="" id="fullSearchText" class="text-field1" style="width: 180px;" autocomplete="off"><input type="image" src="/museum/images-frontend/search.gif" class="text-field1-addon"></span>
+		<!-- 
+		
+			<span><a href="/museum/frontend/member/login.action">登录</a> | <a href="/museum/frontend/member/register.action">立即加入</a></span>
+		
+		-->
+		
+		<span><a href="/museum/frontend/en/index.action">ENG</a> | <a href="/museum/frontend/index.action">中文</a></span>
+		<span><a href="/cn/preengage/engageLogin.do?cmd=checkLogin">签约旅行社</a></span>
+		
+		
+<span><a href="http://218.80.218.39:8080/sbjsp">直播</a></span>
+		
+	</form>
+</div>
+</div>
+<div id="menu-outer">
+<div class="container" style="width: 1200px !important;">
+<div id="menu" class="row">
+	<div class="col-sm-4">
+		<a href="/museum/frontend/index.action"><img id="logo" src="/museum/images-frontend/logo.gif" class="img-responsive center-block"></a>
+	</div>
+	<ul class="col-sm-8">
+		<li class="fuwu"><a href="/museum/frontend/visit/index.action">服务</a></li>
+		<li>|</li>
+		<li class="info"><a href="/museum/frontend/infomation/index.action">资讯</a></li>
+		<li>|</li>
+		<li class="activity"><a href="/education/show/show.action">活动</a></li>
+		<li>|</li>
+		<li class="collection"><a href="/museum/frontend/collection/index.action">典藏</a></li>
+		<li>|</li>
+		<li class="display"><a href="/museum/frontend/display/index.action">展示</a></li>
+		<li>|</li>
+		<li class="yanjiu"><a href="/museum/frontend/research/index.action">研究</a></li>
+		<li class="yanjiu"><a href="https://reservation.shanghaimuseum.net/BpsWebSale/Perform" target="_blank">参观预约</a></li>
+	</ul>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div id="banner" class="carousel slide row" data-ride="carousel">
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+	
+		<div class="item active">
+			<a href="https://www.shanghaimuseum.net/museum/frontend/articles/I00004267.html" target="_blank">
+			<img src="/museum/show-resource.action?id=21642" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="https://www.shanghaimuseum.net/museum/frontend/articles/I00004261.html" target="_blank">
+			<img src="/museum/show-resource.action?id=21633" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="https://www.shanghaimuseum.net/museum/frontend/display/exhibition-info-out-line-detail.action?exhibitionCode=E00004092" target="_blank">
+			<img src="/museum/show-resource.action?id=21635" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="https://www.shanghaimuseum.net/museum/frontend/articles/I00004252.html" target="_blank">
+			<img src="/museum/show-resource.action?id=21627" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="https://www.shanghaimuseum.net/museum/frontend/articles/I00004246.html" target="_blank">
+			<img src="/museum/show-resource.action?id=21624" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="https://www.shanghaimuseum.net/resource/museum_files/show_files/20200109103635233/index.html" target="_blank">
+			<img src="/museum/show-resource.action?id=21608" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="http://www.shanghaimuseum.net/museum/frontend/articles/I00004114.html" target="_blank">
+			<img src="/museum/show-resource.action?id=20495" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="http://www.shanghaimuseum.net/resource/museum_files/show_files//20180413121021872/index.html" target="_blank">
+			<img src="/museum/show-resource.action?id=20506" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="http://www.shanghaimuseum.net/resource/museum_files/show_files//20180904140700387/index.html" target="_blank">
+			<img src="/museum/show-resource.action?id=20517" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="https://www.shanghaimuseum.net/museum/dongqichang/index.html" target="_blank">
+			<img src="/museum/show-resource.action?id=21573" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="http://www.shanghaimuseum.net/resource/museum_files/show_files/20160706084735542/index.html" target="_blank">
+			<img src="/museum/show-resource.action?id=329" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="http://www.shanghaimuseum.net/resource/museum_files/show_files/20180316100826831/index.html" target="_blank">
+			<img src="/museum/show-resource.action?id=20503" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		<div class="item ">
+			<a href="https://www.shanghaimuseum.net/museum/frontend/articles/I00004254.html" target="_blank">
+			<img src="/museum/show-resource.action?id=21628" class="img-responsive center-block">
+			</a>
+		</div>
+	
+		
+	</div>
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li class="active" data-target="#banner" data-slide-to="0">1</li>
+		<li data-target="#banner" data-slide-to="1">2</li>
+		<li data-target="#banner" data-slide-to="2">3</li>
+		<li data-target="#banner" data-slide-to="3">4</li>
+		<li data-target="#banner" data-slide-to="4">5</li>
+		<li data-target="#banner" data-slide-to="5">6</li>
+	</ol>
+	<!-- Controls -->
+	<a href="#banner" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	<a href="#banner" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+</div>
+<div class="container">
+<div id="arrow-down" class="row">
+	<a href="#content"><img src="/museum/images-frontend/down.gif" class="img-responsive center-block"></a>
+</div>
+<div id="content" class="row" style="position: relative; height: 748px;">
+	<div class="item" style="position: absolute; left: 0px; top: 16px;">
+		<div id="openning" class="small-wide-rectangle" style="padding-top: 2px; height: 126px;">
+			<a href="/museum/frontend/visit/open-info.action">
+			<h4 style="margin-top: 5px; margin-bottom: 5px;">开放信息</h4></a>
+			<p>
+				<a href="https://reservation.shanghaimuseum.net/BpsWebSale/Perform" target="_blank" style="color: #f3cf45;">观众须网络实名制预约参观</a><br>
+				疫情防控期间每日限流2000人<br>
+				免费开放，南门入北门出<br>（每周一闭馆，除国定假日外）<br>9:00—17:00, 16:00后停止入场
+			</p>
+		</div>
+	</div>
+	<div class="item" style="position: absolute; left: 244px; top: 16px;">
+		<a href="/museum/frontend/collection/index.action"><img src="/museum/show-resource.action?id=15" class="square"></a>
+		<div class="thumbnail-label">典藏精选</div>
+	</div>
+	<div class="item" style="position: absolute; left: 488px; top: 16px;">
+		<a href="https://www.shanghaimuseum.net/education/show/show.action"><img src="/museum/show-resource.action?id=21" class="wide-rectangle"></a>
+		<div class="thumbnail-label">活动</div>
+	</div>
+	<div class="item" style="position: absolute; left: 0px; top: 158px;">
+	<!-- 
+		<a href="www.shanghaimuseum.net/treasure"><img src="/museum/show-resource.action?id=22" class="narrow-rectangle" /></a>
+		<div class="thumbnail-label">珍品百选</div>
+	 -->
+	 	<a href="http://www.shanghaimuseum.net/treasure"><img src="/museum/show-resource.action?id=22" class="narrow-rectangle" style="height: 330px;"></a>
+		<div class="thumbnail-label">珍品百选</div>
+	</div>
+	<div class="item" style="position: absolute; left: 244px; top: 260px;">
+		<a href="/museum/frontend/infomation/video-index.action"><img src="/museum/show-resource.action?id=16" class="square"></a>
+		<div class="thumbnail-label">视频</div>
+	</div>
+	<div class="item" style="position: absolute; left: 488px; top: 260px;">
+		<a href="/museum/frontend/display/route.action"><img src="/museum/show-resource.action?id=17" class="square"></a>
+		<div class="thumbnail-label">推荐路线</div>
+	</div>
+	<div class="item" style="position: absolute; left: 732px; top: 260px;">
+		<a href="/museum/frontend/shop/about-us-new.action"><img src="/museum/show-resource.action?id=18" class="square"></a>
+		<div class="thumbnail-label">上博商店</div>
+	</div>
+	<div class="item" style="position: absolute; left: 0px; top: 504px;">
+		<a href="/museum/frontend/infomation/desktop.action?productsType=2"><img src="/museum/show-resource.action?id=19" class="square"></a>
+		<div class="thumbnail-label">数字产品</div>
+	</div>
+	<div class="item" style="position: absolute; left: 244px; top: 504px;">
+		<a href="http://www.shanghaimuseum.net/onlineEdu/frontend/index.action"><img src="/museum/show-resource.action?id=20" class="wide-rectangle"></a>
+		<div class="thumbnail-label">远程教育</div>
+	</div>
+	<div class="item" style="position: absolute; left: 732px; top: 504px;">
+		<div id="latest" class="square">
+			<a href="/museum/frontend/infomation/news.action"><h4>最新消息</h4></a>
+			<ul class="mCustomScrollbar _mCS_1 mCS-autoHide" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
+				
+					<li>2020-05-17<br><a href="/museum/frontend/articles/I00004267.html">春风千里 诗画江南</a></li>
+				
+					<li>2020-04-28<br><a href="/museum/frontend/articles/I00004266.html">高斋隽友——胡可敏捐赠文房供石展今日开幕</a></li>
+				
+					<li>2020-04-21<br><a href="/museum/frontend/articles/I00004261.html">上海博物馆东馆展陈概念方案国际征集公告</a></li>
+				
+					<li>2020-04-15<br><a href="/museum/frontend/articles/I00004260.html">上海博物馆书法馆临时闭馆调整</a></li>
+				
+					<li>2020-04-02<br><a href="/museum/frontend/articles/I00004259.html">上海博物馆公开招聘公告</a></li>
+				
+					<li>2020-03-20<br><a href="/museum/frontend/articles/I00004258.html">上海博物馆2020年展览计划调整</a></li>
+				
+					<li>2020-03-15<br><a href="/museum/frontend/articles/I00004257.html">上海博物馆参观预约常见问题Q&amp;A</a></li>
+				
+					<li>2020-03-13<br><a href="/museum/frontend/articles/I00004256.html">上海博物馆今天恢复对外开放   开放九个展厅 三大特展共延期</a></li>
+				
+					<li>2020-03-12<br><a href="/museum/frontend/articles/I00004254.html">上海博物馆恢复开放公告</a></li>
+				
+					<li>2020-03-10<br><a href="/museum/frontend/articles/I00004253.html">上海博物馆东馆项目全面复工</a></li>
+				
+					<li>2020-02-20<br><a href="/museum/frontend/articles/I00004252.html">上海博物馆东馆“古代文明探索宫” 概念设计方案征集公告</a></li>
+				
+					<li>2020-02-05<br><a href="/museum/frontend/articles/I00004248.html">最新 | 上海博物馆延迟开馆公告</a></li>
+				
+					<li>2020-02-04<br><a href="/museum/frontend/articles/I00004247.html">【公告】上海博物馆2020年度部门预算及财政支出项目绩效目标公开</a></li>
+				
+					<li>2020-02-06<br><a href="/museum/frontend/articles/I00004246.html">坚定信心，同舟共济，我们永远站在一起！&nbsp;</a></li>
+				
+					<li>2020-02-05<br><a href="/museum/frontend/articles/I00004243.html">上海博物馆闭馆公告</a></li>
+				
+					<li>2020-01-23<br><a href="/museum/frontend/articles/I00004241.html">上海博物馆应对新型冠状病毒感染肺炎疫情的进一步防控措施</a></li>
+				
+					<li>2020-01-23<br><a href="/museum/frontend/articles/I00004240.html">上海博物馆关于应对新型冠状病毒感染肺炎疫情的防控措施</a></li>
+				
+					<li>2020-01-14<br><a href="/museum/frontend/articles/I00004236.html">“灵鼠兆丰年”鼠年迎春特展1月14日起正式亮相上博</a></li>
+				
+					<li>2020-01-13<br><a href="/museum/frontend/articles/I00004235.html">上海博物馆2020年度展览计划</a></li>
+				
+					<li>2019-12-16<br><a href="/museum/frontend/articles/I00004234.html">“沧海之虹：唐招提寺鉴真文物与东山魁夷隔扇画展”开幕</a></li>
+				
+			</div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; display: block; height: 18px; max-height: 140px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></ul>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+	$(function() {
+		var outboundDropdown = $('#outbound-dropdown');
+		outboundDropdown.selectBox({
+			keepInViewport: false
+		});
+		outboundDropdown.selectBox('refresh');
+		outboundDropdown.selectBox().change(function() {
+			if (!Ext.isEmpty($(this).val()))
+				window.open($(this).val());
+		});
+	});
+</script>
+<div id="footer-wrapper">
+<div id="footer" class="container">
+<div class="row">
+	<div class="col-sm-3">
+		<h4>上海博物馆地址</h4>
+		<p>中华人民共和国<br>上海市黄浦区人民大道201号</p>
+		<h4>全年开放时间</h4>
+		<p>9:00—17:00<br>16:00后停止入场<br>全年免费开放，南门入北门出<br>（每周一闭馆，除国定假日外）</p>
+		<h4>联系电话</h4>
+		<p>021-63723500</p>
+		<h4>电子邮箱</h4>
+		<p>webmaster@shanghai-museum.org</p>
+	</div>
+	<div id="website-map" class="col-sm-6">
+		<h4>网站地图</h4>
+		<p class="prefix">
+			<a href="/museum/frontend/index.action" class="a_footer">首页</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/visit/index.action" class="a_footer">服务</a> |
+			<a href="/museum/frontend/visit/location.action">位置周边</a>
+			<a href="/museum/frontend/visit/open-info.action">开放信息</a>
+			<a href="/museum/frontend/visit/facilities.action">馆内设施</a>
+			<a href="/museum/frontend/visit/service.action">服务项目</a>
+			<a href="/museum/frontend/visit/shop.action">商业设施</a>
+			<a href="mailto:webmaster@shanghai-museum.org">联系我们</a>
+		</p>
+		<p class="prefix">
+			<a href="/education/show/show.action?link=0" class="a_footer">活动</a> |
+			<a href="/education/show/show.action?link=0">全部活动</a>
+			<a href="/education/show/show.action?link=2">专题讲座</a>
+			<a href="/education/show/show.action?link=3">专题导览</a>
+			<a href="/education/show/show.action?link=4">中小学假期活动</a>
+			<a href="/education/show/show.action?link=7">文化考察</a>
+			<a href="/education/show/show.action?link=8">艺术欣赏</a>
+			<a href="#">志愿者之家</a>
+			<a href="/education/show/show.action?link=13">其他</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/collection/index.action" class="a_footer">典藏</a> |
+			<a href="/museum/frontend/collection/collection-list.action" target="">典藏精选</a>
+			<a href="/museum/frontend/collection/month-treasure-list.action">每月一珍</a>
+			<a href="/museum/frontend/member/my-favorite.action">我的收藏</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/display/index.action" class="a_footer">展示 </a>|
+			<a href="/museum/frontend/display/route-info-grand.action">陈列大观</a>
+			<a href="/museum/frontend/display/exhibition-info-out-line.action">特别展览</a>
+			<a href="/museum/frontend/display/exhibition-info-on-line.action">网上展览</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/research/index.action" class="a_footer">研究 </a>|
+			<a href="/museum/frontend/research/research.action?researchTypeCode=CATALOG">学术目录</a>
+			<a href="/museum/frontend/research/research.action?researchTypeCode=JOURNAL">学术专刊</a>
+			<a href="#">学术讲堂</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/infomation/index.action" class="a_footer">资讯</a> |
+			<a href="/museum/frontend/infomation/introduction.action">本馆介绍</a>
+			<a href="/museum/frontend/infomation/news.action">新闻动态</a>
+			<a href="/museum/frontend/infomation/video.action">媒体资源</a>
+			<a href="/museum/frontend/infomation/desktop.action?productsType=2">数字产品</a>
+		</p>
+	</div>
+	<div id="outbound" class="col-sm-3">
+		<select id="outbound-dropdown" class="my-dropdown-list-style1 selectBox" style="width: 200px; display: none;">
+			<option value="" selected="">友情链接</option>
+			<option value="http://www.eastday.com">东方网</option>
+			<option value="http://www.chnmus.net">河南博物馆</option>
+			<option value="http://www.njmuseum.com">南京博物馆</option>
+			<option value="http://www.dpm.org.cn">故宫博物院</option>
+			<option value="http://www.ccrnews.com.cn">中国文物信息网</option>
+			<option value="http://www.ccacc.org.cn">中国文化遗产动漫作品大赛</option>
+			<option value="http://www.jinshasitemuseum.com">金沙遗址博物馆</option>
+			<option value="http://masterpieces.asemus.museum">杰作收藏在线</option>
+		</select><a class="selectBox my-dropdown-list-style1 selectBox-dropdown" title="" tabindex="0" style="width: 200px; display: inline-block;"><span class="selectBox-label" style="width: 170px;">友情链接</span><span class="selectBox-arrow"></span></a>
+	</div>
+</div>
+<div class="row">
+	<div id="copyright" class="col-sm-12">Copyright © 2015 ShanghaiMuseum.net 上海博物馆 版权所有 备案号：沪ICP备10003390号-4</div>
+</div>
+</div>
+</div>
+<div id="back-to-top-button">
+	<a href="#content"><span class="glyphicon glyphicon-chevron-up"></span></a>
+</div>
+
+
+
+<ul class="selectBox-dropdown-menu selectBox-options my-dropdown-list-style1-selectBox-dropdown-menu selectBox-selectBox-dropdown-menu" style="display: none;"><li class="selectBox-selected"><a rel="">友情链接</a></li><li><a rel="http://www.eastday.com">东方网</a></li><li><a rel="http://www.chnmus.net">河南博物馆</a></li><li><a rel="http://www.njmuseum.com">南京博物馆</a></li><li><a rel="http://www.dpm.org.cn">故宫博物院</a></li><li><a rel="http://www.ccrnews.com.cn">中国文物信息网</a></li><li><a rel="http://www.ccacc.org.cn">中国文化遗产动漫作品大赛</a></li><li><a rel="http://www.jinshasitemuseum.com">金沙遗址博物馆</a></li><li><a rel="http://masterpieces.asemus.museum">杰作收藏在线</a></li></ul></body></html>

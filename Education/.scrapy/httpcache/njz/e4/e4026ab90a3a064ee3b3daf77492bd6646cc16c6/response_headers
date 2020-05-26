@@ -1,0 +1,9 @@
+Server: nginx/1.15.5
+Date: Tue, 19 May 2020 18:46:12 GMT
+Content-Type: text/html; charset=utf-8
+Set-Cookie: PHPSESSID=ug57rhnd1tggqbogicmrfkbd13; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Cache-Control: private
+X-Powered-By: ThinkPHP
+X-Frame-Options: SAMEORIGIN

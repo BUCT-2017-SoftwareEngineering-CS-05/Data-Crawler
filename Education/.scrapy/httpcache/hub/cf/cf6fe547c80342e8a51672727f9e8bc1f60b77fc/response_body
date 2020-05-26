@@ -1,0 +1,749 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><title>
+	湖北省博物馆,湖北省文物考古研究所
+</title><meta content="湖北省,湖北省博物馆,博物馆,museum,湖北省新闻" name="Keywords"><meta name="description"><link href="../Images/favorite.ico" rel="shortcut icon" type="image/x-icon"><link href="../Styles/common.css" rel="stylesheet" type="text/css">
+    <script src="../Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="../Scripts/common.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.pager/jquery.pager.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var PNo = getUrlParam("PNo");          //父级栏目编码
+        var No = getUrlParam("No");              //栏目编码
+        var CNo = getUrlParam("CNo");         //子栏目编码
+        var Guid = getUrlParam("Guid");       //文章guid
+        var Type = getUrlParam("type");       //类型
+    </script>
+<link rel="stylesheet" href="http://www.hbww.org/Scripts/jQuery.layer/skin/layer.css" id="layui_layer_skinlayercss" style=""></head>
+<body>
+    <!--===========网站头部============-->
+    <script src="../Scripts/jquery.reveal.js" type="text/javascript"></script>
+<script src="../Scripts/main.js" type="text/javascript"></script>
+<div class="head">
+    <div class="headcenter">
+        <a href="../index.html">
+            <div class="logo">
+            </div>
+        </a>
+        <div class="headuser">
+            <!--<span><a href="/Home/Index.aspx">简体中文</a>| </span>-->
+            <span><a id="StranLink" href="javascript:StranBody()" name="StranLink" title="點擊以繁體中文方式瀏覽">繁體中文</a>| </span><span><a href="../Home/EnglishIndex.aspx">
+                ENGLISH</a></span>
+            <!--<span><a href="http://old.hbww.org/" target="_blank">访问旧版本</a></span>-->
+            <span id="ulLogin"><a id="login" href="#" data-reveal-id="myModal">登录</a> <a href="../PersonalCenter/Register.aspx">
+                注册</a> </span>
+            <!--    <div class="searchdiv">
+                <input type="text" class="searchtxt" /><i onclick="SearchData();" class="searchbtn"></i></div>-->
+        </div>
+    </div>
+    <div class="headtitle">
+        <ul class="headtitlelist1">
+            <li><a href="/Home/Index.aspx">首页</a>|</li>
+            <li><a href="/Views/Detail.aspx?PNo=Service&amp;No=JJ&amp;type=Single">概况</a>|
+                <div class="headtitlelist2">
+                    <a href="/Views/Detail.aspx?PNo=Service&amp;No=GZZC&amp;type=Single"><i>馆所长致辞</i></a> <a href="/Views/Detail.aspx?PNo=Service&amp;No=JJ&amp;type=Single"><i>馆所简介</i></a> <a href="/Views/Detail.aspx?PNo=Service&amp;No=JG&amp;type=Single">
+                            <i>组织机构</i></a> <a href="/Views/Detail.aspx?PNo=Service&amp;No=YG&amp;type=Single"><i>历史沿革</i></a>
+                    <a href="/Views/Detail.aspx?PNo=Service&amp;No=DSJ&amp;type=List"><i>大事记</i></a> <a href="/Views/XswyhList.aspx?PNo=Service&amp;No=XSWYH">
+                        <i>学术委员会</i></a>
+                    <!--<a href="javascript:void(0);" onclick="layer.alert('闭馆期间暂停预约...', { icon: 6 });">网上预约</a>-->
+                </div>
+            </li>
+            <li><a href="/Views/News.aspx?PNo=News&amp;No=BWGJX&amp;type=List">资讯</a>|
+                <div class="headtitlelist2">
+                    <a href="/Views/News.aspx?PNo=News&amp;No=BWGJX&amp;type=List"><i>新闻动态</i></a> <a href="/Views/News.aspx?PNo=News&amp;No=DFJS&amp;type=List">
+                        <i>党风建设</i></a> <a href="/Views/News.aspx?PNo=News&amp;No=KGJX&amp;type=List"><i>招标公告</i></a>
+                    <a href="/Views/News.aspx?PNo=News&amp;No=FLFG&amp;type=List"><i>法律法规</i></a> <a href="/Views/News.aspx?PNo=News&amp;No=MTGZ&amp;type=List">
+                        <i>媒体关注</i></a>
+                </div>
+            </li>
+            <li><a href="/Views/ExhibitionIndex.aspx?PNo=Exhibition&amp;No=Exhibition&amp;type=Default">
+                展览</a>|
+                <div class="headtitlelist2">
+                    <a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=LSZL&amp;type=List"><i>临时展览</i></a>
+                    <a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=ZLHG&amp;type=List"><i>国内交流</i></a>
+                    <a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=WZJL&amp;type=List"><i>境外交流</i></a>
+                    <a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=CSZL&amp;type=List"><i>常设展览</i></a>
+                   <!-- <a href="javascript:void(0);" onclick="layer.alert('正在建设中...', { icon: 6 });"><i>虚拟展览</i></a>-->
+                   <a href="https://720yun.com/t/7evknh2mpi9?scene_id=32101206" target="_blank"><i>虚拟展览</i></a>
+                </div>
+            </li>
+            <li><a href="/Views/News.aspx?PNo=Archaeology&amp;No=KGCZ&amp;type=List">考古</a>|
+                <div class="headtitlelist2">
+                    <a href="/Views/News.aspx?PNo=Archaeology&amp;No=KGCZ&amp;type=List"><i>考古传真</i></a>
+                    <!--<a href="/Views/News.aspx?PNo=Archaeology&No=KGYJ&type=List">
+                        <i>考古研究</i></a>
+                    <a href="/Views/News.aspx?PNo=Archaeology&No=JHKG&type=List">-->
+                    <a href="http://kg.hbww.org/Home/Index" target="_blank"><i>江汉考古</i></a>
+                </div>
+            </li>
+            <li class="chose"><a href="/Views/Activity.aspx?PNo=Education&amp;No=HD&amp;type=List">教育</a>|
+                <div class="headtitlelist2 headtitlelistshow" style="display: block;">
+                    <a href="/Views/Activity.aspx?PNo=Education&amp;No=HD&amp;type=List"><i>礼乐学堂</i></a> <a href="/Views/Activity.aspx?PNo=Education&amp;No=JZ&amp;type=List" class="chose">
+                        <i>讲座</i></a> <a href="/Views/News.aspx?PNo=Education&amp;No=ZYZ&amp;type=List"><i>志愿者</i></a>
+                    <a href="/Views/Detail.aspx?PNo=Education&amp;No=BWGZY&amp;type=Single"><i>博物馆之友</i></a>
+                </div>
+            </li>
+            <li><a href="/Views/ArtGoodsIndex.aspx?PNo=Winchance&amp;No=Winchance&amp;type=Default">文创</a>|
+                <div class="headtitlelist2">
+                    <a href="/Views/ArtGoods.aspx?PNo=Winchance&amp;No=ZBCP&amp;type=List"><i>文化创意产品</i></a>
+                    <a href="/Views/ArtGoods.aspx?PNo=Winchance&amp;No=CQ&amp;type=List"><i>传统仿制经典</i></a>
+                </div>
+            </li>
+            <li><a href="/Views/CollectionIndex.aspx?PNo=Collection&amp;No=Collection&amp;type=Default">
+                典藏</a>|
+                <div class="headtitlelist2">
+                    <a href="/Views/Collection.aspx?PNo=Collection&amp;No=GZZQ&amp;type=List"><i>镇馆之宝</i></a>
+                    <a href="/Views/Collection.aspx?PNo=Collection&amp;No=QT&amp;type=List"><i>青铜器</i></a> <a href="/Views/Collection.aspx?PNo=Collection&amp;No=CQMQ&amp;type=List"><i>漆木器</i></a>
+                    <a href="/Views/Collection.aspx?PNo=Collection&amp;No=JYQ&amp;type=List"><i>金、银器</i></a>
+                    <a href="/Views/Collection.aspx?PNo=Collection&amp;No=ZJ&amp;type=List"><i>竹简</i></a> <a href="/Views/Collection.aspx?PNo=Collection&amp;No=YQ&amp;type=List"><i>玉器</i></a> <a href="/Views/Collection.aspx?PNo=Collection&amp;No=TCQ&amp;type=List">
+                            <i>陶、瓷器</i></a> <a href="/Views/Collection.aspx?PNo=Collection&amp;No=SH&amp;type=List"><i>书画</i></a>
+                    <!--<a href="/Views/News.aspx?PNo=Collection&No=WB&type=List"><i>文保</i></a>-->
+                </div>
+            </li>
+            <li><a href="/Views/Detail.aspx?PNo=leam&amp;No=YQZWH&amp;type=Single">学会</a>|
+                <!--<div class="headtitlelist2">
+            <a href="/Views/Detail.aspx?PNo=Service&No=GZZC&type=Single"><i>馆所长致辞</i></a> 
+            <a href="/Views/Detail.aspx?PNo=Service&No=JJ&type=Single"><i>馆所简介</i></a> 
+            <a href="/Views/Detail.aspx?PNo=Service&No=JG&type=Single"><i>组织机构</i></a>
+            <a href="/Views/Detail.aspx?PNo=Service&No=YG&type=Single"><i>历史沿革</i></a>
+             <a href="/Views/Detail.aspx?PNo=Service&No=DSJ&type=List"><i>大事记</i></a>
+             <a href="/Views/Detail.aspx?PNo=Service&No=XSWYH&type=Single"><i>学术委员会</i></a> 
+            </div>-->
+            </li>
+            <li><a href="/Views/News.aspx?PNo=Yanjiu&amp;No=BwgYanjiu&amp;type=List">研究</a>
+                <div class="headtitlelist2">
+                    <a href="/Views/News.aspx?PNo=Yanjiu&amp;No=BwgYanjiu&amp;type=List"><i>博物馆研究</i></a> <a href="/Views/News.aspx?PNo=Yanjiu&amp;No=KgYanjiu&amp;type=List"><i>考古研究</i></a> <a href="/Views/News.aspx?PNo=Yanjiu&amp;No=WbYanjiu&amp;type=List">
+                            <i>文保研究</i></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="headline">
+    </div>
+</div>
+<div id="myModal" class="reveal-modal">
+    <form id="user_form_0" class="cont-login" method="post" target="pass_reg_iframe_0" action="#">
+    <h1>
+        <span>用户登录</span><a href="../PersonalCenter/Register.aspx">立即注册</a></h1>
+    <p>
+        <i></i>
+        <input type="text" value="手机号/用户名/邮箱" onclick="show()" onblur="hide()" id="userName"></p>
+    <p style="margin-bottom: 10px;">
+        <i class="password"></i>
+        <input type="password" value="" id="pwd"></p>
+    <p style="margin: 0 auto; height: 20px;">
+        <!--<a class="findpassword" href="../Views/FindPassword.aspx">找回密码</a>-->
+    </p>
+    <p style="margin: 0 auto;">
+        <span class="yellowbtn logbtn" id="btnLogin">登录</span>
+    </p>
+    </form>
+    <a class="close-reveal-modal">×</a>
+</div>
+<!--===========网站头部end===========-->
+<script type="text/javascript">
+    //获取登录用户信息
+    GetLoginUser();
+</script>
+<script src="../Scripts/jQuery.layer/layer.js" type="text/javascript"></script>
+<link href="../Scripts/jQuery.layer/skin/layer.css" rel="stylesheet" type="text/css">
+<link href="../Scripts/jQuery.layer/skin/seaning/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+    $(".headtitlelist1 li").hover(function () {
+        $($(".headtitlelist1 li").find(".headtitlelist2")).hide();
+        $($(this).find(".headtitlelist2")).show();
+    }, function () {
+        $($(this).find(".headtitlelist2")).hide();
+        $($(".headtitlelist1 li").find(".headtitlelistshow")).show();
+    });
+
+    //主菜单选中样式
+    //    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|opera mini|opera mobile|appleWebkit.*mobile|mobile/i.test(navigator.userAgent)) {
+    //        $("head").append("<link>");
+    //        css = $("head").children(":last");
+    //        css.attr({
+    //            rel: "stylesheet",
+    //            type: "text/css",
+    //            href: "../Styles/wapcommon.css"
+    //        });
+    //    }
+
+    $(document).ready(function () {
+        ChangeNavStyle();
+
+        function ChangeNavStyle() {
+
+            var nav = $(".headtitle");
+            if (nav == null) {
+                return;
+            } else {
+                var links = $(".headtitle ul.headtitlelist1 li");
+                var currenturl = window.location.href;
+                var currentPNo = getQueryStrings("PNo", currenturl);
+                var currentNo = getQueryStrings("No", currenturl);
+                var index = false;
+                if (currentPNo == null) { //不属于8大栏目
+                    return;
+                } else {
+                    for (var i = 0; i < links.length; i++) {
+                        if (index == false) {
+                            var lilen = $(links[i]).find("a");
+                            for (var k = 0; k < lilen.length; k++) {
+                                var linkurl = $(lilen[k]).attr("href");
+                                if (linkurl == undefined) {
+                                    return;
+                                }
+                                var linkPNo = getQueryStrings("PNo", linkurl);
+                                if (linkPNo == currentPNo) {
+                                    var last = i;
+                                    index = true;
+
+                                    $(links[last]).addClass("chose");
+                                    $($(links[last]).find(".headtitlelist2")).show();
+                                    if (currentNo == currentPNo) {
+                                        $($(links[last]).find(".headtitlelist2")).addClass("headtitlelistshow");
+                                    } else {
+                                        var headtitlelist2_a = $($(links[last]).find(".headtitlelist2 a"));
+                                        for (var j = 0; j < headtitlelist2_a.length; j++) {
+                                            var headtitlelist2_ahref = $(headtitlelist2_a[j]).attr("href");
+                                            var linkNo = getQueryStrings("No", headtitlelist2_ahref);
+                                            if (linkNo == currentNo) {
+                                                $(headtitlelist2_a[j]).addClass("chose");
+                                                $($(links[last]).find(".headtitlelist2")).addClass("headtitlelistshow");
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    });
+</script>
+<script>
+    ///简繁体转换
+
+    //此转换代码转贴自网络特此说明
+    var Default_isFT = 0        //默认是否繁体，0-简体，1-繁体
+    var StranIt_Delay = 50      //翻译延时毫秒（设这个的目的是让网页先流畅的显现出来）
+    //－－－－－－－代码开始，以下别改－－－－－－－
+    //转换文本
+    function StranText(txt, toFT, chgTxt) {
+        if (txt == "" || txt == null) return "";
+        toFT = toFT == null ? BodyIsFt : toFT;
+        if (chgTxt) txt = txt.replace((toFT ? "简" : "繁"), (toFT ? "繁" : "简"));
+        if (toFT) {
+            return Traditionalized(txt);
+        }
+        else {
+            return Simplized(txt);
+        }
+    }
+    //转换对象，使用递归，逐层剥到文本
+    function StranBody(fobj) {
+        if (typeof (fobj) == "object") {
+            var obj = fobj.childNodes;
+        }
+        else if (fobj) {
+            //        if (fobj.indexOf("简") > 0) {
+            //            BodyIsFt = 1
+            //        }
+            //        else {
+            //            BodyIsFt = 0
+            //        }
+            //        setCookie(JF_cn, BodyIsFt, 7)
+            //        var obj = document.body.childNodes
+            var tmptxt = StranLink_Obj.innerHTML.toString();
+            if (tmptxt.indexOf("简") >= 0) {
+                BodyIsFt = 1;
+            }
+            else {
+                BodyIsFt = 0;
+            }
+            var obj = document.body.childNodes;
+        }
+        else {
+            var tmptxt = StranLink_Obj.innerHTML.toString();
+            if (tmptxt.indexOf("简") < 0) {
+                BodyIsFt = 1;
+                StranLink_Obj.innerHTML = StranText(tmptxt, 0, 1);
+                StranLink.title = StranText(StranLink.title, 0, 1);
+            }
+            else {
+                BodyIsFt = 0;
+                StranLink_Obj.innerHTML = StranText(tmptxt, 1, 1);
+                StranLink.title = StranText(StranLink.title, 1, 1);
+            }
+            setCookie(JF_cn, BodyIsFt, 7)
+            var obj = document.body.childNodes;
+        }
+        for (var i = 0; i < obj.length; i++) {
+            var OO = obj.item(i);
+            if ("||BR|HR|TEXTAREA|".indexOf("|" + OO.tagName + "|") > 0 || OO == StranLink_Obj) continue;
+            if (OO.title != "" && OO.title != null) OO.title = StranText(OO.title);
+            if (OO.alt != "" && OO.alt != null) OO.alt = StranText(OO.alt);
+            if (OO.tagName == "INPUT" && OO.value != "" && OO.type != "text" && OO.type != "hidden") OO.value = StranText(OO.value);
+            if (OO.nodeType == 3) {
+                OO.data = StranText(OO.data);
+            } else StranBody(OO);
+        }
+    } //欢迎来到站长特效网，我们的网址是www.zzjs.net，很好记，zz站长，js就是js特效，本站收集大量高质量js代码，还有许多广告代码下载。
+    function JTPYStr() {
+        return '万与丑专业丛东丝丢两严丧个丬丰临为丽举么义乌乐乔习乡书买乱争于亏云亘亚产亩亲亵亸亿仅从仑仓仪们价众优伙会伛伞伟传伤伥伦伧伪伫体余佣佥侠侣侥侦侧侨侩侪侬俣俦俨俩俪俭债倾偬偻偾偿傥傧储傩儿兑兖党兰关兴兹养兽冁内冈册写军农冢冯冲决况冻净凄凉凌减凑凛几凤凫凭凯击凼凿刍划刘则刚创删别刬刭刽刿剀剂剐剑剥剧劝办务劢动励劲劳势勋勐勚匀匦匮区医华协单卖卢卤卧卫却卺厂厅历厉压厌厍厕厢厣厦厨厩厮县参叆叇双发变叙叠叶号叹叽吁后吓吕吗吣吨听启吴呒呓呕呖呗员呙呛呜咏咔咙咛咝咤咴咸哌响哑哒哓哔哕哗哙哜哝哟唛唝唠唡唢唣唤唿啧啬啭啮啰啴啸喷喽喾嗫呵嗳嘘嘤嘱噜噼嚣嚯团园囱围囵国图圆圣圹场坂坏块坚坛坜坝坞坟坠垄垅垆垒垦垧垩垫垭垯垱垲垴埘埙埚埝埯堑堕塆墙壮声壳壶壸处备复够头夸夹夺奁奂奋奖奥妆妇妈妩妪妫姗姜娄娅娆娇娈娱娲娴婳婴婵婶媪嫒嫔嫱嬷孙学孪宁宝实宠审宪宫宽宾寝对寻导寿将尔尘尧尴尸尽层屃屉届属屡屦屿岁岂岖岗岘岙岚岛岭岳岽岿峃峄峡峣峤峥峦崂崃崄崭嵘嵚嵛嵝嵴巅巩巯币帅师帏帐帘帜带帧帮帱帻帼幂幞干并广庄庆庐庑库应庙庞废庼廪开异弃张弥弪弯弹强归当录彟彦彻径徕御忆忏忧忾怀态怂怃怄怅怆怜总怼怿恋恳恶恸恹恺恻恼恽悦悫悬悭悯惊惧惨惩惫惬惭惮惯愍愠愤愦愿慑慭憷懑懒懔戆戋戏戗战戬户扎扑扦执扩扪扫扬扰抚抛抟抠抡抢护报担拟拢拣拥拦拧拨择挂挚挛挜挝挞挟挠挡挢挣挤挥挦捞损捡换捣据捻掳掴掷掸掺掼揸揽揿搀搁搂搅携摄摅摆摇摈摊撄撑撵撷撸撺擞攒敌敛数斋斓斗斩断无旧时旷旸昙昼昽显晋晒晓晔晕晖暂暧札术朴机杀杂权条来杨杩杰极构枞枢枣枥枧枨枪枫枭柜柠柽栀栅标栈栉栊栋栌栎栏树栖样栾桊桠桡桢档桤桥桦桧桨桩梦梼梾检棂椁椟椠椤椭楼榄榇榈榉槚槛槟槠横樯樱橥橱橹橼檐檩欢欤欧歼殁殇残殒殓殚殡殴毁毂毕毙毡毵氇气氢氩氲汇汉污汤汹沓沟没沣沤沥沦沧沨沩沪沵泞泪泶泷泸泺泻泼泽泾洁洒洼浃浅浆浇浈浉浊测浍济浏浐浑浒浓浔浕涂涌涛涝涞涟涠涡涢涣涤润涧涨涩淀渊渌渍渎渐渑渔渖渗温游湾湿溃溅溆溇滗滚滞滟滠满滢滤滥滦滨滩滪漤潆潇潋潍潜潴澜濑濒灏灭灯灵灾灿炀炉炖炜炝点炼炽烁烂烃烛烟烦烧烨烩烫烬热焕焖焘煅煳熘爱爷牍牦牵牺犊犟状犷犸犹狈狍狝狞独狭狮狯狰狱狲猃猎猕猡猪猫猬献獭玑玙玚玛玮环现玱玺珉珏珐珑珰珲琎琏琐琼瑶瑷璇璎瓒瓮瓯电画畅畲畴疖疗疟疠疡疬疮疯疱疴痈痉痒痖痨痪痫痴瘅瘆瘗瘘瘪瘫瘾瘿癞癣癫癯皑皱皲盏盐监盖盗盘眍眦眬睁睐睑瞒瞩矫矶矾矿砀码砖砗砚砜砺砻砾础硁硅硕硖硗硙硚确硷碍碛碜碱碹磙礼祎祢祯祷祸禀禄禅离秃秆种积称秽秾稆税稣稳穑穷窃窍窑窜窝窥窦窭竖竞笃笋笔笕笺笼笾筑筚筛筜筝筹签简箓箦箧箨箩箪箫篑篓篮篱簖籁籴类籼粜粝粤粪粮糁糇紧絷纟纠纡红纣纤纥约级纨纩纪纫纬纭纮纯纰纱纲纳纴纵纶纷纸纹纺纻纼纽纾线绀绁绂练组绅细织终绉绊绋绌绍绎经绐绑绒结绔绕绖绗绘给绚绛络绝绞统绠绡绢绣绤绥绦继绨绩绪绫绬续绮绯绰绱绲绳维绵绶绷绸绹绺绻综绽绾绿缀缁缂缃缄缅缆缇缈缉缊缋缌缍缎缏缐缑缒缓缔缕编缗缘缙缚缛缜缝缞缟缠缡缢缣缤缥缦缧缨缩缪缫缬缭缮缯缰缱缲缳缴缵罂网罗罚罢罴羁羟羡翘翙翚耢耧耸耻聂聋职聍联聩聪肃肠肤肷肾肿胀胁胆胜胧胨胪胫胶脉脍脏脐脑脓脔脚脱脶脸腊腌腘腭腻腼腽腾膑臜舆舣舰舱舻艰艳艹艺节芈芗芜芦苁苇苈苋苌苍苎苏苘苹茎茏茑茔茕茧荆荐荙荚荛荜荞荟荠荡荣荤荥荦荧荨荩荪荫荬荭荮药莅莜莱莲莳莴莶获莸莹莺莼萚萝萤营萦萧萨葱蒇蒉蒋蒌蓝蓟蓠蓣蓥蓦蔷蔹蔺蔼蕲蕴薮藁藓虏虑虚虫虬虮虽虾虿蚀蚁蚂蚕蚝蚬蛊蛎蛏蛮蛰蛱蛲蛳蛴蜕蜗蜡蝇蝈蝉蝎蝼蝾螀螨蟏衅衔补衬衮袄袅袆袜袭袯装裆裈裢裣裤裥褛褴襁襕见观觃规觅视觇览觉觊觋觌觍觎觏觐觑觞触觯詟誉誊讠计订讣认讥讦讧讨让讪讫训议讯记讱讲讳讴讵讶讷许讹论讻讼讽设访诀证诂诃评诅识诇诈诉诊诋诌词诎诏诐译诒诓诔试诖诗诘诙诚诛诜话诞诟诠诡询诣诤该详诧诨诩诪诫诬语诮误诰诱诲诳说诵诶请诸诹诺读诼诽课诿谀谁谂调谄谅谆谇谈谊谋谌谍谎谏谐谑谒谓谔谕谖谗咨谙谚谛谜谝谞谟谠谡谢谣谤谥谦谧谨谩谪谫谬谭谮谯谰谱谲谳谴谵谶谷豮贝贞负贠贡财责贤败账货质贩贪贫贬购贮贯贰贱贲贳贴贵贶贷贸费贺贻贼贽贾贿赀赁赂赃资赅赆赇赈赉赊赋赌赍赎赏赐赑赒赓赔赕赖赗赘赙赚赛赜赝赞赟赠赡赢赣赪赵赶趋趱趸跃跄跖跞践跶跷跸跹跻踊踌踪踬踯蹑蹒蹰蹿躏躜躯车轧轨轩轪轫转轭轮软轰轱轲轳轴轵轶轷轸轹轺轻轼载轾轿辀辁辂较辄辅辆辇辈辉辊辋辌辍辎辏辐辑辒输辔辕辖辗辘辙辚辞辩辫边辽达迁过迈运还这进远违连迟迩迳迹适选逊递逦逻遗遥邓邝邬邮邹邺邻郁郄郏郐郑郓郦郧郸酝酦酱酽酾酿释里鉅鉴銮錾钆钇针钉钊钋钌钍钎钏钐钑钒钓钔钕钖钗钘钙钚钛钝钞钟钠钡钢钣钤钥钦钧钨钩钪钫钬钭钮钯钰钱钲钳钴钵钶钷钸钹钺钻钼钽钾钿铀铁铂铃铄铅铆铈铉铊铋铍铎铏铐铑铒铕铗铘铙铚铛铜铝铞铟铠铡铢铣铤铥铦铧铨铪铫铬铭铮铯铰铱铲铳铴铵银铷铸铹铺铻铼铽链铿销锁锂锃锄锅锆锇锈锉锊锋锌锍锎锏锐锑锒锓锔锕锖锗错锚锜锞锟锠锡锢锣锤锥锦锨锩锫锬锭键锯锰锱锲锳锴锵锶锷锸锹锺锻锼锽锾锿镀镁镂镃镆镇镈镉镊镌镍镎镏镐镑镒镕镖镗镙镚镛镜镝镞碹镠镡镢镣镤镥镦镧镨镩镪镫镬镭镮镯镰镱镲镳镴镶长门闩闪闫闬闭问闯闰闱闲闳间闵闶闷闸闹闺闻闼闽闾闿阀阁阂阃阄阅阆阇阈阉阊阋阌阍阎阏阐阑阒阓阔阕阖阗阘阙阚阛队阳阴阵阶际陆陇陈陉陕陧陨险随隐隶隽难雏雠雳雾霁霉霭靓静靥鞑鞒鞯鞴韦韧韨韩韪韫韬韵页顶顷顸项顺须顼顽顾顿颀颁颂颃预颅领颇颈颉颊颋颌颍颎颏颐频颒颓颔颕颖颗题颙颚颛颜额颞颟颠颡颢颣颤颥颦颧风飏飐飑飒飓飔飕飖飗飘飙飚飞飨餍饤饥饦饧饨饩饪饫饬饭饮饯饰饱饲饳饴饵饶饷饸饹饺饻饼饽饾饿馀馁馂馃馄馅馆馇馈馉馊馋馌馍馎馏馐馑馒馓馔馕马驭驮驯驰驱驲驳驴驵驶驷驸驹驺驻驼驽驾驿骀骁骂骃骄骅骆骇骈骉骊骋验骍骎骏骐骑骒骓骔骕骖骗骘骙骚骛骜骝骞骟骠骡骢骣骤骥骦骧髅髋髌鬓魇魉鱼鱽鱾鱿鲀鲁鲂鲄鲅鲆鲇鲈鲉鲊鲋鲌鲍鲎鲏鲐鲑鲒鲓鲔鲕鲖鲗鲘鲙鲚鲛鲜鲝鲞鲟鲠鲡鲢鲣鲤鲥鲦鲧鲨鲩鲪鲫鲬鲭鲮鲯鲰鲱鲲鲳鲴鲵鲶鲷鲸鲹鲺鲻鲼鲽鲾鲿鳀鳁鳂鳃鳄鳅鳆鳇鳈鳉鳊鳋鳌鳍鳎鳏鳐鳑鳒鳓鳔鳕鳖鳗鳘鳙鳛鳜鳝鳞鳟鳠鳡鳢鳣鸟鸠鸡鸢鸣鸤鸥鸦鸧鸨鸩鸪鸫鸬鸭鸮鸯鸰鸱鸲鸳鸴鸵鸶鸷鸸鸹鸺鸻鸼鸽鸾鸿鹀鹁鹂鹃鹄鹅鹆鹇鹈鹉鹊鹋鹌鹍鹎鹏鹐鹑鹒鹓鹔鹕鹖鹗鹘鹚鹛鹜鹝鹞鹟鹠鹡鹢鹣鹤鹥鹦鹧鹨鹩鹪鹫鹬鹭鹯鹰鹱鹲鹳鹴鹾麦麸黄黉黡黩黪黾鼋鼌鼍鼗鼹齄齐齑齿龀龁龂龃龄龅龆龇龈龉龊龋龌龙龚龛龟志制咨只里系范松没尝尝闹面准钟别闲乾尽脏';
+    }
+    function FTPYStr() {
+        return '万与丑专业丛东丝丢两严丧个丬丰临为丽举么义乌乐乔习乡书买乱争于亏云亘亚产亩亲亵亸亿仅从仑仓仪们价众优伙会伛伞伟传伤伥伦伧伪伫体余佣佥侠侣侥侦侧侨侩侪侬俣俦俨俩俪俭债倾偬偻偾偿傥傧储傩儿兑兖党兰关兴兹养兽冁内冈册写军农冢冯冲决况冻净凄凉凌减凑凛几凤凫凭凯击凼凿刍划刘则刚创删别刬刭刽刿剀剂剐剑剥剧劝办务劢动励劲劳势勋勐勚匀匦匮区医华协单卖卢卤卧卫却卺厂厅历厉压厌厍厕厢厣厦厨厩厮县参叆叇双发变叙叠叶号叹叽吁后吓吕吗吣吨听启吴呒呓呕呖呗员呙呛呜咏咔咙咛咝咤咴咸哌响哑哒哓哔哕哗哙哜哝哟唛唝唠唡唢唣唤唿啧啬啭啮啰啴啸喷喽喾嗫呵嗳嘘嘤嘱噜噼嚣嚯团园囱围囵国图圆圣圹场坂坏块坚坛坜坝坞坟坠垄垄垆垒垦垧垩垫垭垯垱垲垴埘埙埚垫埯堑堕塆墙壮声壳壶壸处备复够头夸夹夺奁奂奋奖奥妆妇妈妩妪妫姗姜娄娅娆娇娈娱娲娴婳婴婵婶媪嫒嫔嫱嬷孙学孪宁宝实宠审宪宫宽宾寝对寻导寿将尔尘尧尴尸尽层屃屉届属屡屦屿岁岂岖岗岘岙岚岛岭岳岽岿峃峄峡峣峤峥峦崂崃崄崭嵘嵚嵛嵝嵴巅巩巯币帅师帏帐帘帜带帧帮帱帻帼幂幞干并广庄庆庐庑库应庙庞废庼廪开异弃张弥弪弯弹强归当录彟彦彻径徕御忆忏忧忾怀态怂怃怄怅怆怜总怼怿恋恳恶恸恹恺恻恼恽悦悫悬悭悯惊惧惨惩惫惬惭惮惯愍愠愤愦愿慑慭憷懑懒懔戆戋戏戗战戬户扎扑扦执扩扪扫扬扰抚抛抟抠抡抢护报担拟拢拣拥拦拧拨择挂挚挛挜挝挞挟挠挡挢挣挤挥挦捞损捡换捣据捻掳掴掷掸掺掼揸揽揿搀搁搂搅携摄摅摆摇摈摊撄撑撵撷撸撺擞攒敌敛数斋斓斗斩断无旧时旷旸昙昼昽显晋晒晓晔晕晖暂暧札术朴机杀杂权条来杨杩杰极构枞枢枣枥枧枨枪枫枭柜柠柽栀栅标栈栉栊栋栌栎栏树栖样栾桊桠桡桢档桤桥桦桧桨桩梦梼梾检棂椁椟椠椤椭楼榄榇榈榉槚槛槟槠横樯樱橥橱橹橼檐檩欢欤欧歼殁殇残殒殓殚殡殴毁毂毕毙毡毵氇气氢氩氲汇汉污汤汹沓沟没沣沤沥沦沧沨沩沪沵泞泪泶泷泸泺泻泼泽泾洁洒洼浃浅浆浇浈浉浊测浍济浏浐浑浒浓浔浕涂涌涛涝涞涟涠涡涢涣涤润涧涨涩淀渊渌渍渎渐渑渔渖渗温游湾湿溃溅溆溇滗滚滞滟滠满滢滤滥滦滨滩滪滥潆潇潋潍潜潴澜濑濒灏灭灯灵灾灿炀炉炖炜炝点炼炽烁烂烃烛烟烦烧烨烩烫烬热焕焖焘煅煳熘爱爷牍牦牵牺犊强状犷犸犹狈狍狝狞独狭狮狯狰狱狲猃猎猕猡猪猫猬献獭玑玙玚玛玮环现玱玺珉珏珐珑珰珲琎琏琐琼瑶瑷璇璎瓒瓮瓯电画畅畲畴疖疗疟疠疡疬疮疯疱疴痈痉痒痖痨痪痫痴瘅瘆瘗瘘瘪瘫瘾瘿癞癣癫癯皑皱皲盏盐监盖盗盘眍眦眬睁睐睑瞒瞩矫矶矾矿砀码砖砗砚砜砺砻砾础硁硅硕硖硗硙硚确硷碍碛碜碱碹滚礼祎祢祯祷祸禀禄禅离秃秆种积称秽秾稆税稣稳穑穷窃窍窑窜窝窥窦窭竖竞笃笋笔笕笺笼笾筑筚筛筜筝筹签简箓箦箧箨箩箪箫篑篓篮篱簖籁籴类籼粜粝粤粪粮糁糇紧絷纟纠纡红纣纤纥约级纨纩纪纫纬纭纮纯纰纱纲纳纴纵纶纷纸纹纺纻纼纽纾线绀绁绂练组绅细织终绉绊绋绌绍绎经绐绑绒结绔绕绖绗绘给绚绛络绝绞统绠绡绢绣绤绥绦继绨绩绪绫绬续绮绯绰绱绲绳维绵绶绷绸绹绺绻综绽绾绿缀缁缂缃缄缅缆缇缈缉缊缋缌缍缎缏线缑缒缓缔缕编缗缘缙缚缛缜缝缞缟缠缡缢缣缤缥缦缧缨缩缪缫缬缭缮缯缰缱缲缳缴缵罂网罗罚罢罴羁羟羡翘翙翚耢耧耸耻聂聋职聍联聩聪肃肠肤肷肾肿胀胁胆胜胧胨胪胫胶脉脍脏脐脑脓脔脚脱脶脸腊腌腘腭腻腼腽腾膑臜舆舣舰舱舻艰艳艹艺节芈芗芜芦苁苇苈苋苌苍苎苏苘苹茎茏茑茔茕茧荆荐荙荚荛荜荞荟荠荡荣荤荥荦荧荨荩荪荫荬荭荮药莅莜莱莲莳莴莶获莸莹莺莼萚萝萤营萦萧萨葱蒇蒉蒋蒌蓝蓟蓠蓣蓥蓦蔷蔹蔺蔼蕲蕴薮藁藓虏虑虚虫虬虮虽虾虿蚀蚁蚂蚕蚝蚬蛊蛎蛏蛮蛰蛱蛲蛳蛴蜕蜗蜡蝇蝈蝉蝎蝼蝾螀螨蟏衅衔补衬衮袄袅袆袜袭袯装裆裈裢裣裤裥褛褴襁襕见观觃规觅视觇览觉觊觋觌觍觎觏觐觑觞触觯詟誉誊讠计订讣认讥讦讧讨让讪讫训议讯记讱讲讳讴讵讶讷许讹论讻讼讽设访诀证诂诃评诅识诇诈诉诊诋诌词诎诏诐译诒诓诔试诖诗诘诙诚诛诜话诞诟诠诡询诣诤该详诧诨诩诪诫诬语诮误诰诱诲诳说诵诶请诸诹诺读诼诽课诿谀谁谂调谄谅谆谇谈谊谋谌谍谎谏谐嚯谒谓谔谕谖谗谘谙谚谛谜谝谞谟谠谡谢谣谤谥谦谧谨谩谪谫谬谭谮谯谰谱谲谳谴谵谶谷豮贝贞负贠贡财责贤败账货质贩贪贫贬购贮贯贰贱贲贳贴贵贶贷贸费贺贻贼贽贾贿赀赁赂赃资赅赆赇赈赉赊赋赌赍赎赏赐赑赒赓赔赕赖赗赘赙赚赛赜赝赞赟赠赡赢赣赪赵赶趋趱趸跃跄跖跞践跶跷跸跹跻踊踌踪踬踯蹑蹒蹰蹿躏躜躯车轧轨轩轪轫转轭轮软轰轱轲轳轴轵轶轷轸轹轺轻轼载轾轿辀辁辂较辄辅辆辇辈辉辊辋辌辍辎辏辐辑辒输辔辕辖辗辘辙辚辞辩辫边辽达迁过迈运还这进远违连迟迩迳迹适选逊递逦逻遗遥邓邝邬邮邹邺邻郁郄郏郐郑郓郦郧郸酝酦酱酽酾酿释里鉅鉴銮錾钆钇针钉钊钋钌钍钎钏钐钑钒钓钔钕钖钗钘钙钚钛钝钞钟钠钡钢钣钤钥钦钧钨钩钪钫钬钭钮钯钰钱钲钳钴钵钶钷钸钹钺钻钼钽钾钿铀铁铂铃铄铅铆铈铉铊铋铍铎铏铐铑铒铕铗铘铙铚铛铜铝铞铟铠铡铢铣铤铥铦铧铨铪铫铬铭铮铯铰铱铲铳铴铵银铷铸铹铺铻铼铽链铿销锁锂锃锄锅锆锇锈锉锊锋锌锍锎锏锐锑锒锓锔锕锖锗错锚锜锞锟锠锡锢锣锤锥锦锨锩锫锬锭键锯锰锱锲锳锴锵锶锷锸锹钟锻锼锽锾锿镀镁镂镃镆镇镈镉镊镌镍镎镏镐镑镒镕镖镗镙镚镛镜镝镞镟镠镡镢镣镤镥镦镧镨镩镪镫镬镭镮镯镰镱镲镳镴镶长门闩闪闫闬闭问闯闰闱闲闳间闵闶闷闸闹闺闻闼闽闾闿阀阁阂阃阄阅阆阇阈阉阊阋阌阍阎阏阐阑阒阓阔阕阖阗阘阙阚阛队阳阴阵阶际陆陇陈陉陕陧陨险随隐隶隽难雏雠雳雾霁霉霭靓静靥鞑鞒鞯鞴韦韧韨韩韪韫韬韵页顶顷顸项顺须顼顽顾顿颀颁颂颃预颅领颇颈颉颊颋颌颍颎颏颐频颒颓颔颕颖颗题颙颚颛颜额颞颟颠颡颢颣颤颥颦颧风飏飐飑飒飓飔飕飖飗飘飙飙飞飨餍饤饥饦饧饨饩饪饫饬饭饮饯饰饱饲饳饴饵饶饷饸饹饺饻饼饽饾饿余馁馂馃馄馅馆馇馈馉馊馋馌馍馎馏馐馑馒馓馔馕马驭驮驯驰驱驲驳驴驵驶驷驸驹驺驻驼驽驾驿骀骁骂骃骄骅骆骇骈骉骊骋验骍骎骏骐骑骒骓骔骕骖骗骘骙骚骛骜骝骞骟骠骡骢骣骤骥骦骧髅髋髌鬓魇魉鱼鱽鱾鱿鲀鲁鲂鲄鲅鲆鲇鲈鲉鲊鲋鲌鲍鲎鲏鲐鲑鲒鲓鲔鲕鲖鲗鲘鲙鲚鲛鲜鲝鲞鲟鲠鲡鲢鲣鲤鲥鲦鲧鲨鲩鲪鲫鲬鲭鲮鲯鲰鲱鲲鲳鲴鲵鲇鲷鲸鲹鲺鲻鲼鲽鲾鲿鳀鳁鳂鳃鳄鳅鳆鳇鳈鳉鳊鳋鳌鳍鳎鳏鳐鳑鳒鳓鳔鳕鳖鳗鳘鳙鳛鳜鳝鳞鳟鳠鳡鳢鳣鸟鸠鸡鸢鸣鸤鸥鸦鸧鸨鸩鸪鸫鸬鸭鸮鸯鸰鸱鸲鸳鸴鸵鸶鸷鸸鸹鸺鸻鸼鸽鸾鸿鹀鹁鹂鹃鹄鹅鹆鹇鹈鹉鹊鹋鹌鹍鹎鹏鹐鹑鹒鹓鹔鹕鹖鹗鹘鹚鹛鹜鹝鹞鹟鹠鹡鹢鹣鹤鹥鹦鹧鹨鹩鹪鹫鹬鹭鹯鹰鹱鹲鹳鹴鹾麦麸黄黉黡黩黪黾鼋鼌鼍鼗鼹齄齐齑齿龀龁龂龃龄龅龆龇龈龉龊龋龌龙龚龛龟志制咨只里系范松没尝尝闹面准钟别闲乾尽脏';
+    }
+    function Traditionalized(cc) {
+        var str = '', ss = JTPYStr(), tt = FTPYStr();
+        for (var i = 0; i < cc.length; i++) {
+            if (cc.charCodeAt(i) > 10000 && ss.indexOf(cc.charAt(i)) != -1) str += tt.charAt(ss.indexOf(cc.charAt(i)));
+            else str += cc.charAt(i);
+        }
+        return str;
+    } //欢迎来到站长特效网，我们的网址是www.zzjs.net，很好记，zz站长，js就是js特效，本站收集大量高质量js代码，还有许多广告代码下载。
+    function Simplized(cc) {
+        var str = '', ss = JTPYStr(), tt = FTPYStr();
+        for (var i = 0; i < cc.length; i++) {
+            if (cc.charCodeAt(i) > 10000 && tt.indexOf(cc.charAt(i)) != -1) str += ss.charAt(tt.indexOf(cc.charAt(i)));
+            else str += cc.charAt(i);
+        }
+        return str;
+    } //欢迎来到站长特效网，我们的网址是www.zzjs.net，很好记，zz站长，js就是js特效，本站收集大量高质量js代码，还有许多广告代码下载。
+    function setCookie(name, value)        //cookies设置
+    {
+        var argv = setCookie.arguments;
+        var argc = setCookie.arguments.length;
+        var expires = (argc > 2) ? argv[2] : null;
+        if (expires != null) {
+            var LargeExpDate = new Date();
+            LargeExpDate.setTime(LargeExpDate.getTime() + (expires * 1000 * 3600 * 24));
+        }
+        document.cookie = name + "=" + escape(value) + ((expires == null) ? "" : ("; expires=" + LargeExpDate.toGMTString())) + ";path=/";
+    } //欢迎来到站长特效网，我们的网址是www.zzjs.net，很好记，zz站长，js就是js特效，本站收集大量高质量js代码，还有许多广告代码下载。
+    function getCookie(Name)            //cookies读取
+    {
+        var search = Name + "=";
+        if (document.cookie.length > 0) {
+            offset = document.cookie.indexOf(search);
+            if (offset != -1) {
+                offset += search.length;
+                end = document.cookie.indexOf(";", offset);
+                if (end == -1) end = document.cookie.length;
+                return unescape(document.cookie.substring(offset, end));
+            } else return "";
+        }
+    }
+
+    var StranLink_Obj = document.getElementById("StranLink");
+    if (StranLink_Obj) {
+        var JF_cn = "ft" + self.location.hostname.toString().replace(/\./g, "");
+        var BodyIsFt = getCookie(JF_cn);
+        if (BodyIsFt != "1") BodyIsFt = Default_isFT;
+        with (StranLink_Obj) {
+            if (typeof (document.all) != "object")     //非IE浏览器
+            {
+                href = "javascript:StranBody()";
+            }
+            else {
+                href = "#";
+                onclick = new Function("StranBody();return false");
+            }
+            title = StranText("点击以繁体中文方式浏览", 1, 1);
+            innerHTML = StranText(innerHTML, 1, 1);
+        }
+        if (BodyIsFt == "1") {
+            setTimeout("StranBody()", StranIt_Delay);
+        }
+    }
+
+</script>
+
+    <!--===========网站头部end===========-->
+    <!--===========内容部分============-->
+    <div class="innertopbg innertopbg_educat">
+    </div>
+    <div class="innerbg">
+        <div class="allcenter">
+            <div class="continner">
+                <ul class="actlist" id="ulActivityList"><li><div class="actlisttop"><img src="http://file.hbww.org/ThumbCover/活动讲座管理图片/20190529025046eoqH61.jpg"><div class="actlisttopbg"></div><h3>荆楚文明讲坛第三十三讲预告： 追迹古芮——从梁带村到刘家洼</h3><div class="actlisttop_link"><i></i><a>活动已结束</a><a href="/Views/ActivityDetail.aspx?PNo=Education&amp;No=JZ&amp;Guid=92063de2-475e-46bc-80ee-e04da1a9a928&amp;Type=Detail" class="detail">查看详情</a></div></div><div class="actlistintro"><p><strong>时间：</strong>2019年5月31日（周五） 10:00-12:00</p><p><strong>地点：</strong>湖北省博物馆学术报告厅（综合馆一楼东侧）</p><p><strong>简介：</strong>
+	 
+
+
+	
+讲座讯息
+题目：2018年全国十大考古新发现解读：追迹古芮——从梁带村到刘家洼
+主讲人：种建荣（陕西省考古研究院副院长、研究员）
+主持人：王先福...</p></div></li><li style="margin-right: 0;"><div class="actlisttop"><img src="http://file.hbww.org/ThumbCover/活动讲座管理图片/20190516113234bLuQWd.jpg"><div class="actlisttopbg"></div><h3>荆楚文明讲坛第三十二讲预告：现代中国人的祖先来自何方——近年的古人类化石新发现与研究进展</h3><div class="actlisttop_link"><i></i><a>活动已结束</a><a href="/Views/ActivityDetail.aspx?PNo=Education&amp;No=JZ&amp;Guid=aba13a88-849e-490e-b9ec-8a07f86a190e&amp;Type=Detail" class="detail">查看详情</a></div></div><div class="actlistintro"><p><strong>时间：</strong>2019年5月21日（周二） 14:30-16:30</p><p><strong>地点：</strong>湖北省博物馆学术报告厅（综合馆一楼东侧）</p><p><strong>简介：</strong>
+	
+
+
+	讲座讯息
+	
+		题目：现代中国人的祖先来自何方——近年的古人类化石新发现与研究进展
+	
+	
+		主讲人：刘武（中国科学院古嵴椎动物与古人类研究所研...</p></div></li><li><div class="actlisttop"><img src="http://file.hbww.org/ThumbCover/活动讲座管理图片/2019051502454955yW6P.jpg"><div class="actlisttopbg"></div><h3>荆楚文明讲坛第三十一讲预告：罗布荒原考古之旅——神秘的小河墓地</h3><div class="actlisttop_link"><i></i><a>活动已结束</a><a href="/Views/ActivityDetail.aspx?PNo=Education&amp;No=JZ&amp;Guid=841e7695-297f-43ad-8735-1292113b4faa&amp;Type=Detail" class="detail">查看详情</a></div></div><div class="actlistintro"><p><strong>时间：</strong>2019年5月19日（周日） 14:30-16:30</p><p><strong>地点：</strong>湖北省博物馆学术报告厅（综合馆一楼东侧）</p><p><strong>简介：</strong>
+	 
+
+
+	
+
+
+	讲座讯息 
+
+
+	题目：罗布荒原考古之旅——神秘的小河墓地 
+
+
+	主讲人：朱 泓（吉林大学考古学院教授、博士生导师） 
+
+
+	主持人：孟...</p></div></li><li style="margin-right: 0;"><div class="actlisttop"><img src="http://file.hbww.org/ThumbCover/活动讲座管理图片/20190509032844nvszMb.jpg"><div class="actlisttopbg"></div><h3>荆楚文明讲坛第三十讲预告：2018年全国十大考古新发现解读：“鱼游沸鼎”之山西酒务头商代墓地</h3><div class="actlisttop_link"><i></i><a>活动已结束</a><a href="/Views/ActivityDetail.aspx?PNo=Education&amp;No=JZ&amp;Guid=e6d83e98-8e61-4708-a6d6-fb772c63f66d&amp;Type=Detail" class="detail">查看详情</a></div></div><div class="actlistintro"><p><strong>时间：</strong>2019年5月12日（周日） 10:00-12:00</p><p><strong>地点：</strong>湖北省博物馆学术报告厅（综合馆一楼东侧）</p><p><strong>简介：</strong>
+	 
+
+
+	
+
+
+	讲座讯息 
+
+
+	题目：2018年全国十大考古新发现解读：“鱼游沸鼎”之山西酒务头商代墓地 
+
+
+	主讲人：韩炳华（山西省考古研究所研究员...</p></div></li></ul>
+                <div id="pager" class="digg"><ul class="pages"><li class="First pgEmpty">首页</li><li class="pgPrev pgEmpty"></li><li class="page-number pgCurrent">1</li><li class="page-number">2</li><li class="page-number">3</li><li class="page-number">4</li><li class="page-number">5</li><li class="pgNext"></li><li class="Last">末页</li><input id="txtToPage" class="pgTxt"><span id="btnPagerGo" class="pgGoTo">跳转</span></ul></div>
+            </div>
+        </div>
+    </div>
+    <!--===========内容部分end============-->
+    <!--网站底部-->
+    <script src="../Scripts/inputbox.js" type="text/javascript"></script>
+<link href="../Styles/bottom.css" rel="stylesheet" type="text/css">
+<div class="bottom">
+    <div class="headline bottomline">
+    </div>
+    <div class="bottom_t">
+        <div class="bottom_tc">
+            <a href="/Views/Detail.aspx?PNo=CGZN&amp;No=CGZN&amp;type=Single">参观指南</a> <a href="../Views/Link.aspx" class="linked">友情链接</a><a href="http://mail.hbww.org/" target="_blank" class="mail">邮箱登录</a>
+            <div class="opentime">
+                <strong>开放时间：</strong>周二至周日 09:00—17:00（16:00后停止入馆），周一（法定节假日除外）、除夕当日闭馆
+            </div>
+        </div>
+    </div>
+    <div class="bottom_c">
+        <div class="allcenter">
+            <div class="bottom_chome">
+                <a href="/Home/Index.aspx"></a>
+            </div>
+            <ul>
+                <li><span><a href="/Views/Detail.aspx?PNo=Service&amp;No=JJ&amp;type=Single">概况</a> </span>|
+                    <a href="/Views/Detail.aspx?PNo=Service&amp;No=GZZC&amp;type=Single">馆所长致辞</a> <a href="/Views/Detail.aspx?PNo=Service&amp;No=JJ&amp;type=Single">
+                        馆所简介</a> <a href="/Views/Detail.aspx?PNo=Service&amp;No=JG&amp;type=Single">组织机构</a>
+                    <a href="/Views/Detail.aspx?PNo=Service&amp;No=YG&amp;type=Single">历史沿革</a> <a href="/Views/Detail.aspx?PNo=Service&amp;No=DSJ&amp;type=List">
+                        大事记</a> <a href="/Views/XswyhList.aspx?PNo=Service&amp;No=XSWYH">学术委员会</a>
+                    <!-- <a href="javascript:void(0);" onclick="layer.alert('闭馆期间暂停预约...', { icon: 6 });">网上预约</a> -->
+                </li>
+                <li><span><a href="/Views/News.aspx?PNo=News&amp;No=BWGJX&amp;type=List">资讯</a> </span>| <a href="/Views/News.aspx?PNo=News&amp;No=BWGJX&amp;type=List">新闻动态</a> <a href="/Views/News.aspx?PNo=News&amp;No=DFJS&amp;type=List">
+                        党风建设</a> <a href="/Views/News.aspx?PNo=News&amp;No=KGJX&amp;type=List">招标公告</a> <a href="/Views/News.aspx?PNo=News&amp;No=FLFG&amp;type=List">
+                            法律法规</a> <a href="/Views/News.aspx?PNo=News&amp;No=MTGZ&amp;type=List">媒体关注</a>
+                </li>
+                <li><span><a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=CSZL&amp;type=List">展览</a> </span>
+                    | <a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=LSZL&amp;type=List">临时展览</a> <a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=ZLHG&amp;type=List">
+                        国内交流</a> <a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=WZJL&amp;type=List">境外交流</a>
+                    <a href="/Views/Exhibition.aspx?PNo=Exhibition&amp;No=CSZL&amp;type=List">常设展览</a> <a href="javascript:void(0);" onclick="layer.alert('正在建设中...', { icon: 6 });">虚拟展览</a> </li>
+                <li><span><a href="/Views/News.aspx?PNo=Archaeology&amp;No=KGCZ&amp;type=List">考古</a> </span>
+                    | <a href="/Views/News.aspx?PNo=Archaeology&amp;No=KGCZ&amp;type=List">考古传真</a>
+                    <!--<a href="/Views/News.aspx?PNo=Archaeology&No=KGYJ&type=List">考古研究</a> -->
+                    <a href="http://kg.hbww.org/Home/Index" target="_blank">江汉考古</a> </li>
+                <li><span><a href="/Views/CollectionIndex.aspx?PNo=Collection&amp;No=Collection&amp;type=Default">
+                    研究</a> </span>| <a href="/Views/News.aspx?PNo=Yanjiu&amp;No=BwgYanjiu&amp;type=List">博物馆研究</a>
+                    <a href="/Views/News.aspx?PNo=Yanjiu&amp;No=KgYanjiu&amp;type=List">考古研究</a> <a href="/Views/News.aspx?PNo=Yanjiu&amp;No=WbYanjiu&amp;type=List">
+                        文保研究</a> </li>
+            </ul>
+            <ul>
+                <li><span><a href="/Views/Activity.aspx?PNo=Education&amp;No=HD&amp;type=List">教育</a> </span>
+                    | <a href="/Views/Activity.aspx?PNo=Education&amp;No=HD&amp;type=List">礼乐学堂</a> <a href="/Views/Activity.aspx?PNo=Education&amp;No=JZ&amp;type=List">
+                        讲座</a> <a href="/Views/News.aspx?PNo=Education&amp;No=ZYZ&amp;type=List">志愿者</a> <a href="/Views/Detail.aspx?PNo=Education&amp;No=BWGZY&amp;type=Single">
+                            博物馆之友</a> </li>
+                <li><span><a href="/Views/ArtGoodsIndex.aspx?PNo=Winchance&amp;No=Winchance&amp;type=Default">
+                    文创</a> </span>| <a href="/Views/ArtGoods.aspx?PNo=Winchance&amp;No=ZBCP&amp;type=List">文化创意产品</a>
+                    <a href="/Views/ArtGoods.aspx?PNo=Winchance&amp;No=CQ&amp;type=List">传统仿制经典</a> </li>
+                <li><span><a href="/Views/CollectionIndex.aspx?PNo=Collection&amp;No=Collection&amp;type=Default">
+                    典藏</a> </span>| <a href="/Views/Collection.aspx?PNo=Collection&amp;No=GZZQ&amp;type=List">镇馆之宝</a>
+                    <a href="/Views/Collection.aspx?PNo=Collection&amp;No=QT&amp;type=List">青铜器</a> <a href="/Views/Collection.aspx?PNo=Collection&amp;No=CQMQ&amp;type=List">
+                        漆木器</a> <a href="/Views/Collection.aspx?PNo=Collection&amp;No=JYQ&amp;type=List">金、银器
+                    </a><a href="/Views/Collection.aspx?PNo=Collection&amp;No=ZJ&amp;type=List">竹简</a> <a href="/Views/Collection.aspx?PNo=Collection&amp;No=YQ&amp;type=List">
+                        玉器</a> <a href="/Views/Collection.aspx?PNo=Collection&amp;No=TCQ&amp;type=List">陶、瓷器</a>
+                    <a href="/Views/Collection.aspx?PNo=Collection&amp;No=SH&amp;type=List">书画</a><!-- <a href="/Views/News.aspx?PNo=Collection&No=WB&type=List">文保</a>-->
+                </li>
+                <li><span><a href="/Views/Detail.aspx?PNo=leam&amp;No=JJ&amp;type=Single">学会</a> </span>
+                </li>
+            </ul>
+        </div>
+
+      
+      
+    </div>
+    <div class="bottom_b">
+         <a href="http://www.beian.miit.gov.cn" target=" _blank">鄂ICP备05016010号</a><div class="gongan">
+            <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42010602000809">
+                <img src="../images/gongan.png"><p>
+                 42010602000809号</p>
+            </a>
+        </div>
+        <script type="text/javascript">
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1257391399'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1257391399%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+        </script><span id="cnzz_stat_icon_1257391399"><a href="https://www.cnzz.com/stat/website.php?web_id=1257391399" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></span><script src=" http://s11.cnzz.com/z_stat.php?id=1257391399&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1257391399&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+        总浏览数：<span id="spVisitCount">2362698</span>
+    </div>
+</div>
+ <ul class="sidebar" id="sidebar">
+      <li class="wx">
+        <div class="ewmbox">
+          <i class="iconfont icon-weixin"></i>
+          <p>微信</p>
+        </div>
+        <div class="ewm">
+          <img src="../images/index/ewm-weixin.jpg" alt="">
+          <p>扫一扫关注官方微信</p>
+        </div>
+      </li>
+      <li class="wx">
+        <div class="ewmbox">
+          <i class="iconfont icon-huodong"></i>
+          <p>社教</p>
+        </div>
+        <div class="ewm">
+          <img src="../images/index/ewm-sjb.jpeg" alt="">
+          <p>扫一扫关注社教部微信</p>
+        </div>
+      </li>
+      <li class="wx">
+        <div class="ewmbox">
+          <i class="iconfont icon-app"></i>
+          <p>APP</p>
+        </div>
+        <div class="ewm">
+          <img src="../images/index/ewm-app.jpg" alt="">
+          <p>下载5G智慧博物馆APP</p>
+        </div>
+      </li>
+      <li id="totop" style="display: none;">
+        <div class="ewmbox">
+          <i class="iconfont icon-fanhuidingbu"></i>
+          <p>顶 部</p>
+        </div>
+      </li>
+    </ul>
+<!--<div class="totop" id="totop">
+</div>-->
+<script src="../Scripts/ScrollToTop.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        getVisitCount();
+    });
+    function getVisitCount() {
+        $.ajax({
+            url: '../ashx/ajax.ashx?type=VisitCount&rnd=' + Math.random(),
+            type: 'POST',
+            success: function (data) {
+                var jdata = $.parseJSON(data);
+                $("#spVisitCount").html(jdata);
+            },
+            error: function () {
+            }
+        });
+    }
+</script>
+
+    <!--网站底部end-->
+
+
+<script type="text/javascript">
+    var tmptxt = $("#StranLink").html();
+    var startTime = null; //报名开始时间
+    var endTime = null; //报名截止时间
+    var actEndTime = null; //活动结束时间
+    var resNumber = null; //报名人数
+    var number = null; //场馆容纳人数
+    var otherNumber = 0; //弹性人数
+    var reserveSeatNum = 0; //预留座位
+    var yearTemp = ""; //年份
+    var dateTemp = ""; //时间
+    var datatype = ""; //类型
+
+    $(function () {
+
+        switch (No) {
+            case "HD": //活动
+                datatype = "Activity";
+                break;
+            case "JZ": //讲座
+                datatype = "Lecture";
+                break;
+            default:
+                datatype = "Activity"; //活动
+                break;
+        }
+
+        InitActivityList();
+    });
+
+    //获取列表数据
+    function InitActivityList() {
+        $.ajax({
+            url: '../ashx/ajax.ashx?type=' + datatype + '&year=' + yearTemp + '&page=1&PageSize=4&fldSort=StartTime&Sort=1&rnd=' + Math.random(),
+            type: 'POST',
+            success: function (data) {
+                var jdata = $.parseJSON(data);
+                GetActHtml(jdata);
+
+                if (jdata.PageCount > 1) {
+                    $("#pager").show();
+
+                    $("select").change(function () {
+                        $("#pager").addClass($("select").find("option:selected").text());
+                    });
+
+                    //加载分页控件
+                    $("#pager").pager({
+                        pagenumber: jdata.CurrentPage,
+                        pagecount: jdata.PageCount,
+                        buttonClickCallback: PageClick
+                    });
+                } else {
+                    $("#pager").hide();
+                }
+            },
+            error: function () {
+            }
+        });
+    }
+
+    //分页方法
+    PageClick = function (pageclickednumber) {
+        $.ajax({
+            url: '../ashx/ajax.ashx?type=' + datatype + '&year=' + yearTemp + '&page=' + pageclickednumber + '&PageSize=4&fldSort=StartTime&Sort=1&rnd=' + Math.random(),
+            type: 'POST',
+            success: function (data) {
+                var jdata = $.parseJSON(data);
+                GetActHtml(jdata);
+
+                //加载分页控件
+                $("#pager").pager({
+                    pagenumber: pageclickednumber,
+                    pagecount: jdata.PageCount,
+                    buttonClickCallback: PageClick
+                });
+            },
+            error: function () {
+            }
+        });
+    };
+
+    //生成教育活动html
+    function GetActHtml(jdata) {
+        var strHtml = '';
+
+        for (var i = 0; i < jdata.Rows.length; i++) {
+            reserveSeatNum = jdata.Rows[i].ReserveSeatNum == null ? "0" : jdata.Rows[i].ReserveSeatNum;
+            startTime = jdata.Rows[i].MAppointStartTime;
+            endTime = jdata.Rows[i].MAppointEndTime;
+            actEndTime = jdata.Rows[i].EndTime;
+            resNumber = (jdata.Rows[i].ReservationCount == null ? "" : jdata.Rows[i].ReservationCount) == "" ? 0 : jdata.Rows[i].ReservationCount;
+            number = (jdata.Rows[i].Number == null ? "" : jdata.Rows[i].Number) == "" ? 0 : jdata.Rows[i].Number;
+            otherNumber = (jdata.Rows[i].ElasticityNumber == null ? "" : jdata.Rows[i].ElasticityNumber) == "" ? 0 : jdata.Rows[i].ElasticityNumber;
+            var tempClass = 'actnow'; //样式
+
+            if ((i + 1) % 2 == 0) {
+                strHtml += '<li style="margin-right: 0;">';
+            } else {
+                strHtml += '<li>';
+            }
+
+            strHtml += '<div class="actlisttop">';
+            strHtml += '<img src="' + jdata.ImagesThumbCoverUrl + jdata.Rows[i].WebCoverImg + '" />';
+            strHtml += '<div class="actlisttopbg">';
+            strHtml += '</div>';
+            strHtml += '<h3>' + jdata.Rows[i].Name + '</h3>';
+            strHtml += '<div class="actlisttop_link">';
+
+            //需要预约的活动才判断预约状态
+            if (jdata.Rows[i].IsAppoint == 0 || jdata.Rows[i].IsAppoint == null) {
+                if (comparisonDate() == 0) {
+                    if (parseInt(resNumber) + parseInt(reserveSeatNum) >= parseInt(number) + parseInt(otherNumber)) {
+                        tempClass = "actused";
+                        strHtml += '<i></i><a>报名人数已满</a>';
+                    } else {
+                        if (resNumber == number) {
+                            if (otherNumber == 0) {
+                                tempClass = "actused";
+                                strHtml += '<i></i><a>报名人数已满</a>';
+                            } else {
+                                strHtml += '<i class="icon1"></i><a href="/Views/ActivityDetail.aspx?PNo=' + PNo + '&No=' + No + '&Guid=' + jdata.Rows[i].Guid + '&Type=Detail" class="appoint">+ 预约</a> ';
+                            }
+                        } else {
+                            strHtml += '<i class="icon1"></i><a href="/Views/ActivityDetail.aspx?PNo=' + PNo + '&No=' + No + '&Guid=' + jdata.Rows[i].Guid + '&Type=Detail" class="appoint">+ 预约</a> ';
+                        }
+                    }
+                } else if (comparisonDate() == 1) {
+                    tempClass = "actused";
+                    strHtml += '<i></i><a>报名未开始</a>';
+                } else if (comparisonDate() == 2) {
+                    tempClass = "actused";
+                    strHtml += '<i></i><a>报名已结束</a>';
+                } else {
+                    tempClass = "actused";
+                    strHtml += '<i></i><a>活动已结束</a>';
+                }
+            } else {
+                tempClass = "none"; //标记为无需预约，不显示预约人数
+                if (comparisonDate() == 3) {
+                    strHtml += '<i></i><a>活动已结束</a>';
+                } else {
+                    strHtml += '<i></i><a>无需预约</a>';
+                }
+            }
+
+            strHtml += '<a href="/Views/ActivityDetail.aspx?PNo=' + PNo + '&No=' + No + '&Guid=' + jdata.Rows[i].Guid + '&Type=Detail" class="detail">查看详情</a></div>';
+            strHtml += '</div>';
+            strHtml += '<div class="actlistintro">';
+            strHtml += '<p><strong>时间：</strong>' + showDateTime(jdata.Rows[i].StartTime, jdata.Rows[i].EndTime) + '</p>';
+
+            //需要预约的活动才显示报名时间
+            if (jdata.Rows[i].IsAppoint == 0 || jdata.Rows[i].IsAppoint == null) {
+                strHtml += '<p><strong>报名时间：</strong>' + jdata.Rows[i].MAppointStartTime + ' - ' + jdata.Rows[i].MAppointEndTime + '</p>';
+            }
+            strHtml += '<p><strong>地点：</strong>' + jdata.Rows[i].PlaceName + '</p>';
+
+            if (tempClass != "none") {
+                strHtml += '<p><strong>简介：</strong>' + getSubString(ReplaceHtmlLael(ReplaceHtml(jdata.Rows[i].Describe)), 30) + '</p>';
+                strHtml += '<p class="' + tempClass + '">已预约' + jdata.Rows[i].ReservationCount + '人/总人数' + jdata.Rows[i].Number + '人</p>';
+            } else {
+                strHtml += '<p><strong>简介：</strong>' + getSubString(ReplaceHtmlLael(ReplaceHtml(jdata.Rows[i].Describe)), 80) + '</p>';
+            }
+            strHtml += '</div>';
+            strHtml += '</li>';
+        }
+        $("#ulActivityList").html(strHtml);
+        //简繁体转换
+        StranBody(tmptxt);
+    }
+
+    //比较日期
+    //返回值：0-表示可以预约；1-表示预约未开始；2-表示预约已结束；3-活动已结束
+    function comparisonDate() {
+        var result = 0;
+        if (comptime('', actEndTime)) {
+            result = 3;
+        } else if (comptime('', endTime)) {
+            result = 2;
+        } else if (!comptime('', startTime)) {
+            result = 1;
+        }
+        return result;
+    }
+    
+</script>
+</body></html>

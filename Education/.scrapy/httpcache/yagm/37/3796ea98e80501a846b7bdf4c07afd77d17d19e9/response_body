@@ -1,0 +1,567 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>宣教博览</title>
+<link href="/rsf/site/jinianguan/resources/css/layout.css" rel="stylesheet" test="text/css">
+<script type="text/javascript" src="/rsf/site/jinianguan/resources/js/jquery.js"></script>
+
+<script type="text/javascript" src="/rsf/site/jinianguan/resources/js/jquery2.js"></script>
+<script type="text/javascript" src="/rsf/site/jinianguan/resources/js/scroll.js"></script>
+
+<script type="text/javascript" src="/rsf/site/jinianguan/resources/js/jquery.SuperSlide.js"></script>
+
+<script type="text/javascript" src="/rsf/site/jinianguan/resources/js/zzsc.js"></script>
+<script type="text/javascript"> 
+// 设置为主页 
+function SetHome(obj,vrl){ 
+try{ 
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
+} 
+catch(e){ 
+if(window.netscape) { 
+try { 
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+} 
+catch (e) { 
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。"); 
+} 
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
+prefs.setCharPref('browser.startup.homepage',vrl); 
+}else{ 
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。"); 
+} 
+} 
+} 
+// 加入收藏 兼容360和IE6 
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} 
+catch (e) 
+{ 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) 
+{ 
+alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+} 
+} 
+} 
+</script>
+<script type="text/javascript">
+<!--
+function setTab(name,cursel,n){
+ for(i=1;i<=n;i++){
+  var menu=document.getElementById(name+i);
+  var con=document.getElementById("con_"+name+"_"+i);
+  menu.className=i==cursel?"hover":"";
+  con.style.display=i==cursel?"block":"none";
+ }
+}
+//-->
+function searchInfo(){
+	var keyStr = $("#key").val();
+    if(keyStr!=null&&keyStr.trim()!=""){
+    	var fm = $("#searchForm");
+    	fm.submit();
+    }
+}
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.list_lh li:even').addClass('lieven');
+})
+$(function(){
+	$("div.list_lh").myScroll({
+		speed:40, //数值越大，速度越慢
+		rowHeight:75 //li的高度
+	});
+});
+</script>
+
+
+
+
+<script>
+<!--
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);/* zzjs1 */
+var con=document.getElementById("con_"+name+"_"+i);/* con_zzjs_1 */
+menu.className=i==cursel?"hover":"";/*三目运算 等号优先*/
+con.style.display=i==cursel?"block":"none";
+}
+}
+//-->
+</script>
+
+
+
+
+
+<script>
+<!--
+function setTab(name,cursel,n){
+ for(i=1;i<=n;i++){
+  var menu=document.getElementById(name+i);
+  var con=document.getElementById("con_"+name+"_"+i);
+  menu.className=i==cursel?"hover":"";
+  con.style.display=i==cursel?"block":"none";
+ }
+}
+//-->
+</script>
+
+
+
+
+<script type="text/javascript">
+function banner(){	
+	var bn_id = 0;
+	var bn_id2= 1;
+	var speed33=5000;
+	var qhjg = 1;
+    var MyMar33;
+	$("#banner .d1").hide();
+	$("#banner .d1").eq(0).fadeIn("slow");
+	if($("#banner .d1").length>1)
+	{
+		$("#banner_id li").eq(0).addClass("nuw");
+		function Marquee33(){
+			bn_id2 = bn_id+1;
+			if(bn_id2>$("#banner .d1").length-1)
+			{
+				bn_id2 = 0;
+			}
+			$("#banner .d1").eq(bn_id).css("z-index","2");
+			$("#banner .d1").eq(bn_id2).css("z-index","1");
+			$("#banner .d1").eq(bn_id2).show();
+			$("#banner .d1").eq(bn_id).fadeOut("slow");
+			$("#banner_id li").removeClass("nuw");
+			$("#banner_id li").eq(bn_id2).addClass("nuw");
+			bn_id=bn_id2;
+		};
+	
+		MyMar33=setInterval(Marquee33,speed33);
+		
+		$("#banner_id li").click(function(){
+			var bn_id3 = $("#banner_id li").index(this);
+			if(bn_id3!=bn_id&&qhjg==1)
+			{
+				qhjg = 0;
+				$("#banner .d1").eq(bn_id).css("z-index","2");
+				$("#banner .d1").eq(bn_id3).css("z-index","1");
+				$("#banner .d1").eq(bn_id3).show();
+				$("#banner .d1").eq(bn_id).fadeOut("slow",function(){qhjg = 1;});
+				$("#banner_id li").removeClass("nuw");
+				$("#banner_id li").eq(bn_id3).addClass("nuw");
+				bn_id=bn_id3;
+			}
+		})
+		$("#banner_id").hover(
+			function(){
+				clearInterval(MyMar33);
+			}
+			,
+			function(){
+				MyMar33=setInterval(Marquee33,speed33);
+			}
+		)	
+	}
+	else
+	{
+		$("#banner_id").hide();
+	}
+}
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+
+
+
+</head>
+
+<body>
+<!--头部开始--> 
+
+
+<div id="top">
+
+<div class="tb0">
+
+<div class="bzxx">
+
+
+<div class="wh0" style="font-family:微软雅黑;font-size:14px;">
+
+<script language="JavaScript">
+today=new Date();
+year=today.getYear();
+month=today.getMonth()+1;
+day=today.getDate();
+if (year < 2000) year += 1900;
+document.write(year+"年"+month+"月"+day+"日");
+</script>2020年5月21日
+星期<script language="JavaScript">
+today=new Date();
+dayofweek=today.getDay();
+Day=new Array(7);
+Day[0]="日"; Day[1]="一";
+Day[2]="二"; Day[3]="三";
+Day[4]="四"; Day[5]="五";
+Day[6]="六";
+document.write(Day[dayofweek]);
+</script>四
+
+</div>
+
+
+
+<div class="wh" style="font-family:微软雅黑;font-size:14px;">
+<script language="javaScript">
+<!--
+now = new Date(),hour = now.getHours()
+if(hour < 6){document.write("凌晨好!欢迎您光临延安革命纪念馆官网！")}
+else if (hour < 9){document.write("早上好!欢迎您光临延安革命纪念馆官网！")}
+else if (hour < 12){document.write("上午好!欢迎您光临延安革命纪念馆官网！")}
+else if (hour < 14){document.write("中午好!欢迎您光临延安革命纪念馆官网！")}
+else if (hour < 17){document.write("下午好!欢迎您光临延安革命纪念馆官网！")}
+else if (hour < 19){document.write("傍晚好!欢迎您光临延安革命纪念馆官网！")}
+else if (hour < 22){document.write("晚上好!欢迎您光临延安革命纪念馆官网！")}
+else {document.write("夜里好!欢迎您光临延安革命纪念馆官网！")}
+// -->
+</script>夜里好!欢迎您光临延安革命纪念馆官网！
+</div>
+
+<div id="bt1" style="font-family:微软雅黑;font-size:14px;">
+
+<ul>
+<li><a href="#"><img style="border:0px;margin-top:2px;" src="/rsf/site/jinianguan/resources/Images/fbr.png"></a></li>
+<li style="margin-right:10px;"><a style="font-family:微软雅黑;" href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a></li>
+<li><a href="#"><img style="border:0px;margin-top:2px;" src="/rsf/site/jinianguan/resources/Images/152.gif"></a></li>
+<li><a style="font-family:微软雅黑;" href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a></li>
+</ul>
+</div>
+
+
+</div>
+
+</div>
+
+<div class="tb">
+<div class="banner">
+
+<img style="float:left;margin-top:40px;" src="/rsf/site/jinianguan/resources/Images/logo.gif">
+<img style="float:right;margin-top:5px;" src="/rsf/site/jinianguan/resources/Images/banner.jpg">
+
+</div>
+</div>
+
+
+<div class="nav" style="font-family:微软雅黑;">
+
+
+<ul>
+	<li style="margin-right:0px;"><a href="/rsf/site/jinianguan/index.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">首页</a>
+
+
+	</li>
+					<li>
+						<a href="/rsf/site/jinianguan/zhanguanjianjie/index.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">展馆简介</a>
+						<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+							<a href="/rsf/site/jinianguan/xinguanjianshe/index.html">新馆建设</a>
+							<a href="/rsf/site/jinianguan/lishiyange/index.html">历史沿革</a>
+							<a href="/rsf/site/jinianguan/jigoushezhi/index.html">机构设置</a>
+						</div>
+					</li>
+				<!-- <li><a href="/rsf/site/jinianguan/lingdaoguanhuai/index.html" target="_blank"><span class="menu2"></span>领导关怀</a></li> -->
+				<li><a href="/rsf/site/jinianguan/lingdaoguanhuai/index.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">领导关怀</a></li>
+				<li>
+					<a href="/rsf/site/jinianguan/wangshangguanzhan/index.html" onmouseover="mopen('m４')" onmouseout="mclosetime()">网上观展</a>
+					<div id="m４" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="/rsf/site/jinianguan/jibenchenlie/index.html">基本陈列</a>
+						<a href="/rsf/site/jinianguan/zhongdianjieshao/index.html">重点介绍</a>
+					</div>
+				</li>
+				<li>
+					<a href="/rsf/site/jinianguan/xinwenzhongxin/index.html" onmouseover="mopen('m11')" onmouseout="mclosetime()">新闻中心</a>
+					<div id="m11" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="/rsf/site/jinianguan/gongzuodongtai/index.html">工作动态</a>
+						<a href="/rsf/site/jinianguan/tupianxinwen/index.html">图片新闻</a>
+						<a href="/rsf/site/jinianguan/wenboyaowen/index.html">文博要闻</a>
+					</div>
+				</li>
+				<li>
+					<a href="/rsf/site/jinianguan/guancangzhenpin/index.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">馆藏珍品</a>
+					<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="/rsf/site/jinianguan/juanzengtongdao/index.html">捐赠通道</a>
+						<a href="/rsf/site/jinianguan/wenwujianshang/index.html">文物鉴赏</a>
+					</div>
+				</li>
+				<li>
+					<a href="/rsf/site/jinianguan/xuanjiaobolan/index.html" onmouseover="mopen('m6')" onmouseout="mclosetime()">宣教博览</a>
+					<div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="/rsf/site/jinianguan/huojianglueying/index.html">获奖掠影</a>
+					</div>
+				</li>
+				<li>
+					<a href="/rsf/site/jinianguan/hongsezhilv/index.html" onmouseover="mopen('m8')" onmouseout="mclosetime()">红色之旅</a>
+					<div id="m8" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="/rsf/site/jinianguan/jingdianluxian/index.html">经典路线</a>
+						<a href="/rsf/site/jinianguan/bianminchaxun/index.html">便民查询</a>
+					</div>
+				</li>
+				<li>
+					<a href="/rsf/site/jinianguan/ziliaochayue/index.html" onmouseover="mopen('m9')" onmouseout="mclosetime()">资料查阅</a>
+					<div id="m9" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="/rsf/site/jinianguan/yanjiuchengguo/index.html">研究成果</a>
+						<a href="/rsf/site/jinianguan/shiliaodangan/index.html">史料档案</a>
+						<a href="/rsf/site/jinianguan/shengdiguankan/index.html">圣地馆刊</a>
+						<a href="/rsf/site/jinianguan/zhongguozhiwang/index.html">中国知网</a>
+					</div>
+				</li>
+				<li>
+					<a href="/rsf/site/jinianguan/dangdejianshe/index.html" onmouseover="mopen('m10')" onmouseout="mclosetime()">党群工作</a>
+					<div id="m10" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="/rsf/site/jinianguan/quntuangongzuo/index.html">群团工作</a>
+						<a href="/rsf/site/jinianguan/xuexiyuandi/index.html">学习园地</a>
+						<a href="/rsf/site/jinianguan/825/index.html">联系地址</a>
+					</div>
+				</li>
+
+</ul>
+
+
+</div>
+
+</div>
+<!--头部结束-->
+
+<!--主页面开始-->
+
+
+<div id="middle">
+
+<div class="lm0"></div>
+
+<div class="lm9">
+
+
+<div class="lm9-right">
+
+		
+		<div class="btlm">
+			<div style="height:2px;"></div>
+			<p style="font-family:微软雅黑;font-size:20px;color:#fff;margin-top:10px;">宣教博览</p>	
+		</div>
+		<div class="nav22">
+			<ul>
+					<li><a style="font-family:微软雅黑;" href="/rsf/site/jinianguan/huojianglueying/index.html">获奖掠影</a></li>
+			</ul>
+		</div>
+		
+<div class="btlm">
+<div style="height:2px;"></div>
+<p style="font-family:微软雅黑;font-size:20px;color:#fff;margin-top:10px;">热点排行</p>
+
+</div>
+
+
+
+<div id="zcnr0" style="font-family:微软雅黑;">
+
+<ul>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/tupianxinwen/info/2016/81049.html"><font color="000000">“纪念中国共产党诞辰</font>...[2016-07-08]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/tupianxinwen/info/2016/81045.html"><font color="000000">延安革命纪念馆隆重举</font>...[2016-07-01]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/tupianxinwen/info/2016/81048.html"><font color="000000">延安革命纪念馆举办“</font>...[2016-06-16]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/tupianxinwen/info/2016/81047.html"><font color="000000">我馆邀请党史、文博专</font>...[2016-06-24]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/tupianxinwen/info/2016/81046.html"><font color="000000">延安革命纪念馆成立微</font>...[2016-07-01]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/shiliaodangan/info/2016/81413.html"><font color="000000">2016未展出藏品信</font>...[2016-09-23]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/shiliaodangan/info/2016/81201.html"><font color="000000">论《讲话》中的“为人</font>...[2016-07-09]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/shiliaodangan/info/2016/81200.html"><font color="000000">沿着《讲话》开辟的道</font>...[2016-07-09]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/wenboyaowen/info/2020/81600.html"><font color="000000">延安革命纪念馆闭馆公</font>...[2020-01-23]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/wenboyaowen/info/2019/81574.html"><font color="000000">延安革命纪念馆举行陕</font>...[2019-06-13]</a>
+		</li>
+		<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt3.gif">
+			<a href="/rsf/site/jinianguan/wenboyaowen/info/2019/81573.html"><font color="000000">延安革命纪念馆党委 </font>...[2019-06-12]</a>
+		</li>
+
+</ul>
+
+</div>
+
+
+
+</div>
+
+
+<div class="lm9-left">
+
+
+
+<div class="nrl">
+
+<div style="font-family:微软雅黑;" class="zcbt0">
+&nbsp;&nbsp;当前位置：<a href="/rsf/site/jinianguan/index.html">首页</a>
+&gt; <a href="/rsf/site/jinianguan/xuanjiaobolan/index.html">宣教博览</a>
+
+</div>
+
+
+			
+									<div id="zcnr" style="font-family:微软雅黑;">
+				
+									<ul>
+										<li><img style="margin-right:8px;" src="/rsf/site/jinianguan/resources/Images/bt33.gif">
+											<a href="/rsf/site/jinianguan/huojianglueying/info/2020/81615.html" target="_blank"><font color="000000">2019年度延安革命纪念馆宣教部成果显著</font></a>
+											<span class="date">[2020-03-20]</span>
+										</li>
+										</ul>
+									</div>
+								<!--分页开始-->
+									<br>
+									共&nbsp;<b>1</b>&nbsp;条&nbsp;首页&nbsp;上一页&nbsp;下一页&nbsp;尾页&nbsp;每页&nbsp;<b>15</b>&nbsp;条&nbsp;当前第&nbsp;<b>1</b>&nbsp;页/共&nbsp;<b>1</b>&nbsp;页&nbsp;第&nbsp;<input id="pageNum" type="text" value="1" class="ts_box4" size="1" style="text-align:center">&nbsp;页&nbsp;<a href="javascript:void(0)">跳转</a>&nbsp;
+								<!--分页结束-->
+						
+				
+		
+
+</div>
+
+
+
+</div>
+
+<div style="clear:both;"></div>
+
+
+</div>
+
+
+
+<div class="lm7"></div>
+
+
+</div>
+
+
+
+
+<!--主页面结束-->
+
+<!-- 修改当前栏目标题 -->
+<script>
+$(function(){
+	document.title="宣教博览";
+});
+</script>
+<!-- 修改当前栏目标题 -->
+
+<!-- 页脚开始 -->
+<!-- <%@include file="inc/foot.html"%> -->
+<div id="bottom">
+
+<div class="bz">
+
+<img style="float:left;margin-top:10px;margin-left:12%;border:0px;" src="/rsf/site/jinianguan/resources/Images/wx.gif">
+
+<div class="gd">
+<ul style="font-family:微软雅黑;">
+<li>主办单位：延安革命纪念馆  <h style="margin-left:5px;">邮编:716000 </h></li>
+<li><h style="margin-right:5px;">版权所有：延安革命纪念馆</h></li>
+<li><h style="margin-right:5px;">技术支持：陕西迈联电子科技有限公司
+</h></li>
+</ul>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+</body></html>

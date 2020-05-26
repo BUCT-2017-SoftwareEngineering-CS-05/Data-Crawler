@@ -1,0 +1,659 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ZH" lang="ZH"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=640px,user-scalable=yes">
+    <meta name="viewport" content="width=device-height" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)">
+    <meta name="format-detection" content="telephone=no">
+    <script src="https://hm.baidu.com/hm.js?03fe744b0138609671189bda7b76f601"></script><script type="text/javascript" src="/skin/statics/js/YH_jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/skin/statics/js/YH_jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="/skin/statics/js/YH_jquery.bxslider.min.js"></script>
+    <title>宣传教育—宁夏固原博物馆官方网站</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/skin/statics/css/YH_reset.css" type="text/css">
+    <link rel="stylesheet" href="/skin/statics/css/YH_global.css" type="text/css">
+    <link rel="stylesheet" href="/skin/statics/css/YH_layout.css" type="text/css">
+    <link rel="stylesheet" href="/skin/statics/css/YH_main.css" type="text/css">
+	<link rel="stylesheet" href="/skin/statics/css/YH_sh.css" type="text/css">
+	
+<script type="text/javascript">
+try {var urlhash = window.location.hash;if (!urlhash.match("fromapp"))
+{if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i)))
+{window.location="http://m.nxgybwg.com/e/action/ListInfo/?classid=45";}}}
+catch(err)
+{
+}</script>
+</head>
+
+  <body>
+    <div class="appendbox"></div>
+    <header id="hd">
+      <div id="head_wrap" class="main">
+        <div class="util">
+          <div class="container">
+            <div class="">
+              <div class="pull-left">
+        
+                  <div id="wysj"></div>
+	<script>setInterval("wysj.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+		</script>
+                  <div class="wytq">
+                  <iframe allowtransparency="true" frameborder="0" width="280" height="36" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&amp;z=2&amp;t=0&amp;v=0&amp;d=3&amp;bd=0&amp;k=&amp;f=000000&amp;ltf=009944&amp;htf=cc0000&amp;q=1&amp;e=1&amp;a=0&amp;c=53817&amp;w=180&amp;h=36&amp;align=center"></iframe>
+</div>
+
+              </div>
+              <div class="pull-right">
+               <div class="qzss">
+               	
+               	 <form action="/e/search/index.php" method="post" name="search_news" id="search_news">
+                       <input type="hidden" name="show" value="title">
+                  <input name="keyboard" type="text" id="keyboard" class="search-input-inner" placeholder="请输入关键字" maxlength="255" utocomplete="off">
+                  <input type="submit" name="Submit22" value="搜索"> </form>
+
+<script>
+        function Focus(){
+            var tag=document.getElementById('keyboard');
+            var val=tag.value;
+            if(val=='请输入关键字'){
+                tag.value='';
+            }
+        }
+        function Blur(){
+            var tag=document.getElementById('keyboard');
+            var val=tag.value;
+            if(val.length==0){
+                tag.value='请输入关键字';
+            }
+        }
+    </script>
+
+
+               	
+               </div>
+                <div id="topquick">
+                  <ul class="list-inline">
+                    
+                    <li>
+                      <a href="#" rel="sidebar" onclick="javascript:addFavorite2()">加入收藏 丨 </a></li>
+
+	<script type="text/javascript"> 
+				function addFavorite2() {
+    var url = window.location;
+    var title = document.title;
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.indexOf("360se") > -1) {
+        alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+    }
+    else if (ua.indexOf("msie 8") > -1) {
+        window.external.AddToFavoritesBar(url, title); //IE8
+    }
+    else if (document.all) {
+  try{
+   window.external.addFavorite(url, title);
+  }catch(e){
+   alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+  }
+    }
+    else if (window.sidebar) {
+        window.sidebar.addPanel(title, url, "");
+    }
+    else {
+  alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+    }
+}
+		</script>
+                    <li>
+                      <script type="text/javascript" src="/skin/statics/js/language.js"></script> <a name="StranLink" id="StranLink" style="cursor:pointer" href="javascript:StranBody()" title="點擊以繁體中文方式浏覽">繁體中文</a>
+</li>
+                    <li>
+                      <a href="/e/action/ShowInfo.php?classid=1&amp;id=165"> 丨 联系我们</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gnb">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-xs-12">
+                  <div id="toplogo">
+                    <a href="/">
+                      <img src="/skin/statics/images/toplogo.png" title="宁夏固原博物馆" alt="Logo"></a>
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-12">
+                  <nav>
+                    <div id="topmenu_box">
+                      <div class="">
+                        <div id="topmenu">
+                          <ul id="top1menu">
+                           <li>
+                              <a href="/" id="top1m0" class="noimg" title="网站首页">网站首页</a></li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=1" id="top1m0" title="固博概况">固博概况</a></li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=7" id="top1m1" title="新闻资讯">新闻资讯</a> </li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=25" id="top1m2" title="党建工作">党建工作</a> </li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=12" id="top1m2" title="展览信息">展览信息</a> </li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=17" id="top1m3" title="文物赏析">文物赏析</a> </li>
+                             <li>
+                              <a href="/e/action/ListInfo/?classid=42" id="top1m2" title="宣教服务">宣教服务</a> </li>
+                             <li>
+                              <a href="/e/action/ListInfo/?classid=39" id="top1m2" title="学术研究">学术研究</a> </li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=28" id="top1m4" title="古今固原">古今固原</a> </li>
+                           
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+
+        </div>
+    </div></div></div></header>
+    <div id="body_wrap" class="main">
+      <script type="text/javascript">var myScroll;
+        $(document).ready(function() {
+
+          $("#topmenu_box").on('mouseenter',
+          function() {
+
+            if ($("body").width() > 1223) {
+
+              $("#topmenu_box").addClass("on");
+              $("#topmenu_box.on").stop().slideDown('fast');
+              $("#topmenu ul ul").stop().slideDown('fast');
+
+              $(".bg_menuover").stop().animate({
+                height: '360px'
+              },
+              {
+                queue: false,
+                duration: 200,
+                easing: 'easeInSine'
+              });
+              $("#hd").addClass("menuopen")
+            }
+
+          });
+          $("#topmenu_box").on('mouseleave',
+          function() {
+
+            if ($("body").width() > 1223) {
+
+              $("#topmenu_box").removeClass("on");
+              $("#topmenu_box.on").stop().slideUp('fast');
+              $("#topmenu ul ul").stop().slideUp('fast');
+
+              $(".bg_menuover").stop().animate({
+                height: '0'
+              },
+              {
+                duration: 200,
+                easing: 'easeInSine'
+              });
+              $("#hd").removeClass("menuopen");
+
+            }
+
+          });
+
+        });</script>
+         
+      <div class="main_body">
+		
+        
+                    <div class="main_visual">
+   
+          <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 640px;"><div class="slideVisual" style="width: auto; position: relative;">
+               <div class="conBox" style="background: url(&quot;/skin/statics/images/nCJ1.gif&quot;) center top no-repeat; float: none; list-style: none; position: absolute; width: 1019px; z-index: 50; display: block;">
+           
+            </div>
+      <div class="conBox" style="background: url(&quot;/skin/statics/images/nCJ1.gif&quot;) center top no-repeat; float: none; list-style: none; position: absolute; width: 1019px; z-index: 0; display: none;">
+           
+            </div>
+    
+          </div></div><div class="bx-controls bx-has-pager"><div class="bx-pager bx-custom-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active"></a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">undefined</a></div></div></div></div>
+          <script>$('.slideVisual').bxSlider({
+              mode: 'fade',
+              auto: true,
+              autoControls: false,
+              easing: 'easeOutElastic',
+              nextSelector: '#slider-next',
+              prevSelector: '#slider-prev',
+              prevText: '<img src="skin/statics/images/btn_main_prev.png" alt=""/>',
+              nextText: '<img src="skin/statics/images/btn_main_next.png" alt=""/>',
+              speed: 1000,
+
+              buildPager: function(slideIndex) {
+                switch (slideIndex) {
+
+                case 0:
+                  return '';
+
+                }
+              }
+
+            });</script>
+        </div>
+        
+        
+        
+        
+         <div class="container  nlh">
+
+					<div class="lnb">	<div class="lnb_inner">
+					<div class="btn_lnb">
+						<h3>宣传教育 </h3>
+					</div>
+					<ul class="depth1">
+					                     <li><a href="/e/action/ListInfo/?classid=34">教育项目</a></li>
+<li><a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a></li>
+<li><a href="/e/action/ListInfo/?classid=37">志愿者活动</a></li>
+<li><a href="/e/action/ListInfo/?classid=38">研学实践教育</a></li>
+</ul>
+					
+				</div>			
+			</div>
+					
+					<div class="body_content">
+						
+						
+						<div class="content_head">
+						<div class="location">您当前的位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;<a href="/e/action/ListInfo/?classid=42">宣教服务</a>&nbsp;&gt;&nbsp;<a href="/e/action/ListInfo/?classid=45">宣传教育</a></div>
+				</div>
+						
+						<div class="section">
+							
+
+
+							
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=236 "><img src="/d/file/p/2018/11-27/ca92623ebc7d4156ca33d105e7bcbd03.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2017-11-28</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=236 " target="_blank"> 宁夏固原博物馆参加中央电视台少儿频道《赢在博物馆》节目录制活动</a> </dt> 
+                    <dd>　　2017年11月17日—24日，宁夏固原博物馆代表队与邯郸市博物馆、洛阳博物馆、荆州博物馆、苏州博物馆、宝鸡青铜器博物院选拨的36位文博小达人齐聚北京，参加了由中央电...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=236 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=38">研学实践教育</a>】--> <span class="news_date">2017-08-16</span><a href="/e/action/ShowInfo.php?classid=38&amp;id=235 " target="_blank"> 我是小小讲解员</a> </dt> 
+                    <dd>　　2017年7月19日到8月15日，宁夏固原博物馆宣教部特在暑假期间举办小小讲解员夏令营活动，此次活动分为前期招募，培训和讲解比赛三个部分，共招收小小讲解员14名。宣教部工作人员...[<a href="/e/action/ShowInfo.php?classid=38&amp;id=235 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=234 "><img src="/d/file/p/2018/11-28/ea7f2f7dfdac37926be51622f4e92e4d.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2017-05-19</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=234 " target="_blank"> 宁夏固原博物馆开展“5·18国际博物馆日”宣传活动</a> </dt> 
+                    <dd>　　5月18日上午，宁夏固原博物馆围绕“博物馆与有争议的历史：博物馆讲述难以言说的历史(Museums and contested histories: Saying the unspeakable in museums)”...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=234 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=35&amp;id=233 "><img src="/d/file/p/2018/11-28/2cf79f86c98509ffa76b83c58545227e.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2017-03-13</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=233 " target="_blank"> 宁夏固原博物馆开展“学雷锋、送温暖、关爱农村儿童”社教服务活动</a> </dt> 
+                    <dd>　　三月是一年一度的学雷锋月，时逢我馆2017年扶贫工作启动，为此，我馆决定将扶贫工作与宣传雷锋精神社教活动放在一起进行。　　2017年3月2日上午，在党办和宣教部的组织下，固原博...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=233 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=232 "><img src="/d/file/p/2018/11-27/df889f11a421e2b036ef448c2b8b9c2f.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2017-02-04</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=232 " target="_blank"> 固原博物馆开展“迎鸡年新春 送吉庆春联”活动</a> </dt> 
+                    <dd>　　为配合《千年固原 丝路华章》展览的重新开放，吸引更多观众走进博物馆、参观博物馆、丰富公众文化生活，在2017年新春来临之际，宁夏固原博物馆于1月20日——22日开...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=232 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=35&amp;id=201 "><img src="/d/file/p/2018/11-27/42d7f6e6c753850649b921b91795cddd.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2016-11-12</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=201 " target="_blank"> 固原博物馆开展送文化进农村活动</a> </dt> 
+                    <dd>　　2016年11月11日，固原博物馆宣教部工作人员走进西吉县马建乡台子村小学，开展送文化进农村活动。工作人员在学校的操场摆放内容丰富的宣传展板，陪着同学们做课间操，课间操结束...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=201 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=200 "><img src="/d/file/p/2018/11-27/6d12ec885b9abf73966d4c113ed75d60.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2016-11-06</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=200 " target="_blank"> 固原博物馆深入宁夏师范学院政法学院开展传统文化系列宣讲课</a> </dt> 
+                    <dd>　　为了更好地宣传中华传统文化，宣传固原历史，宁夏固原博物馆宣教部于2016年6月至11月走进宁夏师范学院政法学院，开展《我们身边的文化------传统文化系列宣讲课》活动。　　...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=200 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=35&amp;id=231 "><img src="/d/file/p/2018/11-27/c4f7ec9f3b1e4772590cd2a578e8850d.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2016-11-02</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=231 " target="_blank"> 固原博物馆开展送文化进军营活动</a> </dt> 
+                    <dd>　　2016年10月28日下午，固原博物馆副馆长王泽华带领宣教部工作人员走进固原市8672部队，在部队的会堂开展了《国之瑰宝在固原》专题讲座，讲解员杨雪形象生动的向在座官兵详细的...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=231 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=199 "><img src="/d/file/p/2018/11-27/27d39a8207b5613eafb6650146892267.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2016-11-01</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=199 " target="_blank"> 固原博物馆与宁夏师范学院美术系联合举办“妙笔生花展情思——玉器纹饰设计比赛”</a> </dt> 
+                    <dd>　　10月15日——29日，固原博物馆与宁夏师范学院美术系联合举办了“妙笔生花展情思——玉器纹饰设计比赛”活动。　　活动分为两项内容，首先在...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=199 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=35&amp;id=198 "><img src="/d/file/p/2018/11-27/30f1f610f68eab7bf996be8ff5c763cc.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2016-11-01</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=198 " target="_blank"> 固原博物馆开展“送文化 进社区”服务活动</a> </dt> 
+                    <dd>　　2016年11月30日下午3点，宁夏固原博物馆宣教部工作人员走进原州区荣华园社区开展“送文化 进社区”服务活动。　　本次活动主要借助展板向社区群众详细的介绍了...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=198 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=228 "><img src="/d/file/p/2018/11-27/02f0037663dc861986e2f8e3eca0c477.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2016-10-18</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=228 " target="_blank"> 固原博物馆举办《古籍版本鉴赏》讲座</a> </dt> 
+                    <dd>　　10月17日下午，《古籍版本鉴赏》讲座在固原博物馆三楼会议室成功举办，本次讲座邀请自治区图书馆副研究员宋玉军，从宁夏古籍保护工作基本情况、了解中国古籍以及历代历朝刻书...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=228 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=230 "><img src="/d/file/p/2018/11-27/b5b67bc96d1c3cc576613b0f90b68a99.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2016-07-22</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=230 " target="_blank"> 瓷器专家禚振西先生莅临固原博物馆举办学术讲座</a> </dt> 
+                    <dd>　　2016年7月19日，禚振西先生不顾年事已高，在义务指导固原博物馆《中国灵武窑》项目实地考察结束后，又受邀为固原博物馆全体职工讲授了瓷器的有关知识。　　禚振西先生从瓷器...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=230 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=229 "><img src="/d/file/p/2018/11-27/0473b06a4c2422ec5e986d924a30cfea.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2016-05-24</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=229 " target="_blank"> “5·18国际博物馆日”宁夏固原博物馆开展宣传活动</a> </dt> 
+                    <dd>　　5月18日上午，宁夏固原博物馆与固原市文物局围绕“5&amp;middot;18国际博物馆日”主题——“博物馆与文化景观(Museums and Cultural Landscapes)&amp;r...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=229 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=38&amp;id=197 "><img src="/d/file/p/2018/11-27/038be91f4629a8232f305f929ef7c2d8.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=38">研学实践教育</a>】--> <span class="news_date">2016-01-29</span><a href="/e/action/ShowInfo.php?classid=38&amp;id=197 " target="_blank"> 固原博物馆举办寒假“小小讲解员培训”活动</a> </dt> 
+                    <dd>　　为了加强未成年人保护历史文化遗产意识，为广大青少年普及文化、文物知识的同时搭建博物馆和青少年交流的桥梁，使更多的青少年走进博物馆，增长文博知识，了解历史文化，锻炼口语...[<a href="/e/action/ShowInfo.php?classid=38&amp;id=197 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2015-11-29</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=211 " target="_blank"> 宁夏固原博物馆进农村开展“送文化、送温暖”活动</a> </dt> 
+                    <dd>　　2015年11月27日，宁夏固原博物馆党支部书记、馆长魏瑾带领办公室、党办及宣教部工作人员深入扶贫点隆德县观庄乡姚套村开展进农村“送文化、送温暖”活动。　　...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=211 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=254 "><img src="/d/file/p/2018/11-27/84d7d587f3e2236edb7455c4746bfd5b.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2015-11-23</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=254 " target="_blank"> 固原博物馆深入宁夏师范学院开展传统文化系列宣讲课活动</a> </dt> 
+                    <dd>　　为更好的宣传中华传统文化，宣传固原历史，发挥博物馆作为青少年第二课堂和终身课堂的作用，宁夏固原博物馆于2015年9月至11月走进宁夏师范学院政法学院，开展了“我们身边...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=254 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=253 "><img src="/d/file/p/2018/11-27/f206b77926ef1b98659cf6bb785ed9b8.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2015-11-23</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=253 " target="_blank"> 固原博物馆举办“丝绸之路在固原”讲座</a> </dt> 
+                    <dd>　　　2015年11月18日，宁夏固原博物馆邀请宁夏社会科学院历史研究所所长、《西夏研究》杂志主编、宁夏历史学副会长薛正昌研究员举办“丝绸之路在固原”讲座。固原...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=253 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=35&amp;id=252 "><img src="/d/file/p/2018/11-27/e9f1913e4d6106cfe27112ce00ff5ffd.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2015-11-23</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=252 " target="_blank"> 宁夏固原博物馆党员进社区开展“送文化 送温暖”服务活动</a> </dt> 
+                    <dd>　　2015年11月17日，宁夏固原博物馆党员深入原州区古雁街道西城路社区开展“送文化 送温暖”服务活动。馆党支部书记魏瑾带领支部班子成员及党员参加了服务活动。...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=252 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=37&amp;id=251 "><img src="/d/file/p/2018/11-27/a20c339ee3290f00de8ec40218fe317a.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=37">志愿者活动</a>】--> <span class="news_date">2015-11-04</span><a href="/e/action/ShowInfo.php?classid=37&amp;id=251 " target="_blank"> 固原博物馆组织职工和志愿者赴固原儿童福利院开展“献爱心、送温暖、关爱遗弃幼儿”社会服务活动</a> </dt> 
+                    <dd>　　2015年10月31日下午，固原博物馆党支部书记、馆长魏瑾带领部分职工和博物馆志愿者来到固原儿童福利院开展“献爱心、送温暖、关爱遗弃幼儿”社会服务活动。在固...[<a href="/e/action/ShowInfo.php?classid=37&amp;id=251 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=38&amp;id=210 "><img src="/d/file/p/2018/11-27/6ab66501abc652c5620b0871649c2684.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=38">研学实践教育</a>】--> <span class="news_date">2015-10-08</span><a href="/e/action/ShowInfo.php?classid=38&amp;id=210 " target="_blank"> 宁夏固原博物馆组织开展“丝绸之路固原段”户外体验活动</a> </dt> 
+                    <dd>　　2015年10月4日，宁夏固原博物馆组织开展了“丝绸之路固原段”户外体验活动。活动在固原博物馆领导的大力支持下，在宣教部工作人员的努力和办公室的大力配合下，得...[<a href="/e/action/ShowInfo.php?classid=38&amp;id=210 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=38&amp;id=209 "><img src="/d/file/p/2018/11-27/723e6d08942dac9f4b965ecd13347565.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=38">研学实践教育</a>】--> <span class="news_date">2015-08-17</span><a href="/e/action/ShowInfo.php?classid=38&amp;id=209 " target="_blank"> 固原博物馆举办“小小讲解员培训”活动</a> </dt> 
+                    <dd>　　为了激发广大青少年对历史文物的兴趣和宣传保护文物的意识，鼓励更多的青少年积极参加我馆教育活动，并且从多方面提升青少年的课外实践、临场应变、语言表达等各项能力，在暑...[<a href="/e/action/ShowInfo.php?classid=38&amp;id=209 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=227 "><img src="/d/file/p/2018/11-27/d50449f74194355564d437254b32a44c.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2015-08-14</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=227 " target="_blank"> 固原博物馆举办“文学与书法漫谈”讲座</a> </dt> 
+                    <dd>　　8月12日，固原博物馆特邀陈继明教授在本馆开展了“文学与书法漫谈”讲座。固原博物馆全体职工、固原市作协、书协部分会员聆听了讲座。　　陈继明教授为北京师...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=227 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=35&amp;id=208 "><img src="/d/file/p/2018/11-27/070d1ab65a4558e02c213f62d83ae54e.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2015-08-05</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=208 " target="_blank"> 宁夏固原博物馆宣教部开展送文化进机关互动活动</a> </dt> 
+                    <dd>　　为了进一步加强新时期警民关系建设，丰富公安机关警衔班学员文化生活，宣传固原悠久历史文化，2015年8月3日下午，宁夏固原博物馆宣教部全体工作人员与固原市公安局民警培训基地...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=208 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=35&amp;id=207 "><img src="/d/file/p/2018/11-27/595bb9561946681460decdeb2afb1b90.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2015-08-01</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=207 " target="_blank"> 固原博物馆开展“送文化进军营”活动</a> </dt> 
+                    <dd>　　2015年7月29日，在第88个建军节来临之际，固原博物馆副馆长程云霞、王效军带领宣教部工作人员、保卫科及办公室相关人员，走进固原市8672部队第七连队，开展“送文化进军营...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=207 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=250 "><img src="/d/file/p/2018/11-27/97887719f19c7517d23f81b0c055c7e6.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2015-07-16</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=250 " target="_blank"> 宁夏固原博物馆与宁夏师范学院、固原市回民中学开展文物汉字听写比赛</a> </dt> 
+                    <dd>　　2015年5月至6月，宁夏固原博物馆分别与宁夏师范学院政法学院、固原市回民中学合作，特别策划开展了主题为“感悟汉字深厚底蕴、弘扬中华传统文明”的汉字听写比赛...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=250 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+							
+				
+							<div class="page-box"><p class="page-hide"><span class="page-form">总共&nbsp;<b>55</b> 条</span>&nbsp;&nbsp;<a href="/e/action/ListInfo/index.php?page=0&amp;classid=45">首页</a>&nbsp;<a href="/e/action/ListInfo/index.php?page=0&amp;classid=45" class="page-sx">上一页</a>&nbsp;<a href="/e/action/ListInfo/index.php?page=0&amp;classid=45">1</a>&nbsp;<a class="page-current">2</a>&nbsp;<a href="/e/action/ListInfo/index.php?page=2&amp;classid=45">3</a>&nbsp;<a href="/e/action/ListInfo/index.php?page=2&amp;classid=45" class="page-sx">下一页</a>&nbsp;<a href="/e/action/ListInfo/index.php?page=2&amp;classid=45">尾页</a></p></div>
+						</div>
+						
+						
+					</div>
+					
+					
+
+
+          </div>
+       
+       
+       
+       
+      </div>
+    
+    </div>
+    <div id="foot_wrap">
+      <div class="container">
+        <div class="footer_top">
+       
+        </div>
+        <div class="footer_addl">
+        
+           <p>版权所有：宁夏固原博物馆&nbsp;&nbsp;技术支持：<a href="http://www.yunhan.info/" title="山西云汉文化传媒有限公司" target="_blank">山西云汉文化传媒有限公司</a>
+            </p>
+           <p>地址：宁夏固原市原州区西城路133号&nbsp;&nbsp;邮编：756000&nbsp;&nbsp;  电子邮箱：gybwgbgs@163.com</p>
+           <p> 电话：0954-2032653（办公室）&nbsp; 0954-2027564（宣教部） 
+            </p>
+           <p>ADD：The Guyuan Museum of Ningxia No. 133, Xicheng Road, Yuanzhou District, Guyuan City, Ningxia，756000，China
+            </p>
+         
+           <p>TEL：0954-2032653 &nbsp;0954-2027564 &nbsp;&nbsp;FAX：0954-2032653&nbsp;&nbsp;E-mail：nxgybwg@163.com
+            </p>
+           <p>备案号：<a href="http://www.beian.miit.gov.cn/" title="备案号" target="_blank">宁ICP备17000122号-1</a>&nbsp;&nbsp;宁公网安备：<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=64040202000022">64040202000022号</a>
+            </p>
+    </div>
+
+        <div class="footer_addr">
+        <ul>
+        	<li><img src="/skin/statics/images/web.jpg"><p>手机微官网</p></li>
+			<li><img src="/skin/statics/images/wx.jpg"><p>官方微信平台</p></li></ul>
+    </div>
+    <div class="scroll" id="scroll" style="display:none;">
+		  <img src="/skin/statics/images/btn_top.png" alt="返回">
+	</div>
+	</div>
+	</div>
+	<script type="text/javascript">
+	$(function(){
+		showScroll();
+		function showScroll(){
+			$(window).scroll( function() { 
+				var scrollValue=$(window).scrollTop();
+				scrollValue > 10 ? $('div[class=scroll]').fadeIn():$('div[class=scroll]').fadeOut();
+			} );	
+			$('#scroll').click(function(){
+				$("html,body").animate({scrollTop:0},200);	
+			});	
+		}
+	})
+	</script>
+    
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?03fe744b0138609671189bda7b76f601";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+  
+
+</body></html>

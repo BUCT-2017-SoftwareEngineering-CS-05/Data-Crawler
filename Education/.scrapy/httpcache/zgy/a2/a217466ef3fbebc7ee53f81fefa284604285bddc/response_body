@@ -1,0 +1,357 @@
+<html xmlns:jsp=""><head>
+<style>article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}</style>
+<title>自贡市盐业历史博物馆</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="stylesheet" type="text/css" href="/css/style.css">
+<script src="/js/html5shiv.js"></script>
+</head>
+<body>
+
+
+
+
+<div class="main_top">
+<div class="logo">
+<div class="msg"><span>预约热线：0813-2202083</span><a href="http://www.meituan.com/xiuxianyule/962243/" target="_blank">票务服务</a> <div class="ico"><img src="images/btm_ewm.png"></div> <a href="English.html" target="_blank">English</a> </div>
+<div class="search"> <style>
+ 
+
+	.qdclass{}
+	.qw_jiansuo { margin: 0px; padding: 0px; height: 23px; width: auto; font-size:12px;}
+	.qw_jiansuo .inputbox {BORDER-TOP: 0px; HEIGHT: 18px; BORDER-RIGHT: 0px; WIDTH: 173px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #fff; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 3px; BORDER-LEFT: 0px; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px}
+	
+		.qw_jiansuo .btn {BORDER-TOP: 0px; HEIGHT: 22px; BORDER-RIGHT: 0px; WIDTH: 25px; BORDER-BOTTOM: 0px; FLOAT: left; BORDER-LEFT: 0px;background-image: url('/images/search_ico.png'); background-repeat: no-repeat;}
+	 
+
+
+</style><div class="qw_jiansuo"><input id="info_title" class="inputbox"> <input onclick="sousuo()" class="btn" type="button">
+<script>
+			        function sousuo(){
+			        	var t=document.getElementById("info_title").value;
+			        	if(null==t||t==""){
+			        		window.open("/systemFile/show.jsp");
+			        	}else{
+			        		window.open("/index/s?query="+encodeURI(encodeURI(document.getElementById("info_title").value))+"&c=0");
+			        	}
+			       }
+			  </script>
+ </div> </div><a href="index.html"><img src="images/main_logo.png"> </a> </div>
+<ul class="nav">
+<li><a href="index.html">首页</a> 
+</li><li><a href="bwggk.html">博物馆概况</a> 
+</li><li><a href="xwzx.html">新闻中心</a> 
+</li><li><a href="clzl.html">陈列展览</a> </li>
+<li><a href="gczp.html">馆藏珍品</a> </li>
+<li><a href="kphd.html">科普教育</a> 
+</li><li><a href="xsyj.html">学术研究</a> 
+</li><li><a href="hdjl.jsp">互动交流</a> 
+</li><li><a href="wstp_list.jsp">网上投票</a> 
+</li></ul></div><!-- end main_top -->
+<div class="pagelist_bg">
+<div class="pagelist_menu"><span> <style></style>活动回顾 </span></div></div>
+<div class="pagelist_con"><style>
+	 
+	
+		.clickstyle4028813e60d98cab0160dec82c0c013a{ LINE-HEIGHT: 150%;COLOR: #cf1e06;FONT-SIZE: 9pt;TEXT-DECORATION: none;margin-left:6px; }
+		.leaderfont4028813e60d98cab0160dec82c0c013a{ FONT-SIZE: 9pt; LINE-HEIGHT: 150% }
+		.titlestyle4028813e60d98cab0160dec82c0c013a{ FONT-SIZE: 14px; COLOR: #8c8c8c; LINE-HEIGHT: 150% }
+		.columnstyle4028813e60d98cab0160dec82c0c013a{ LINE-HEIGHT: 150%;COLOR: #cf1e06;FONT-SIZE: 9pt;TEXT-DECORATION: none; }
+		.timestyle4028813e60d98cab0160dec82c0c013a{ FONT-SIZE: 14px; COLOR: #8c8c8c; LINE-HEIGHT: 150%  }
+		.winstyle1253{ text-align:left; }
+		A.c4028813e60d98cab0160dec82c0c013a {
+		FONT-SIZE: 14px; TEXT-DECORATION: none; LINE-HEIGHT: 150%;
+		color:#4d4d4d;
+		}
+		A.c4028813e60d98cab0160dec82c0c013a:link {
+		color:#4d4d4d;
+		}
+		A.c4028813e60d98cab0160dec82c0c013a:hover {
+		color:#ff0000;
+		}
+
+	
+		.pageDiv{
+	text-align:right;
+	color:#666;
+	font-size:12px;
+	padding:5px;
+	}
+
+.pageBtn{
+	margin:0px;
+	
+	padding-top:2px;
+	background:#fff;
+	height:18px;
+	text-align:center;
+	line-height:18px;
+	cursor:pointer;
+	border:0px #0e557a solid;
+	margin-left:5px;
+	font-size:12px;
+}
+		
+ </style><table width="100%" class="winstyle1253"><tbody><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：“天车杯”自贡青少年足球邀请赛颁奖典礼" 暨盐博馆研学游参观学习活动圆满成功="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26e679f79016fc0be2bdc0060&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">“天车杯”自贡青少年足球邀请赛颁奖典礼 暨盐博馆研学游参观学习活动圆满成功 </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2020-01-20 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：盐博课堂第二十九期｜“巧手剪彩纸" 新春送祝福”自贡小三绝之剪纸体验班圆满收官啦!="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26e679f79016fb130be60005d&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">盐博课堂第二十九期｜“巧手剪彩纸 新春送祝福”自贡小三绝之剪纸体验班圆满收官啦! </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2020-01-17 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：“我与盐博馆共成长”" 自贡市中小学生征文比赛圆满结束="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26e679f79016f5eb21eab003b&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">“我与盐博馆共成长” 自贡市中小学生征文比赛圆满结束 </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2019-12-30 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：【盐博课堂】2019“童声说盐”小小讲解员培训班结业啦！" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26b6e6b6f016ce1c1a9fa0053&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">【盐博课堂】2019“童声说盐”小小讲解员培训班结业啦！ </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2019-08-30 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：【盐博课堂】2019" “童声说盐”小小讲解员培训班开班啦！="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26b6e6b6f016c02e298300019&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">【盐博课堂】2019 “童声说盐”小小讲解员培训班开班啦！ </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2019-07-18 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：端午邂逅“文化和自然遗产日”" 自贡市盐业历史博物馆活动丰富多彩="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26b3f620b016b445f2f3a0008&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">端午邂逅“文化和自然遗产日”  自贡市盐业历史博物馆活动丰富多彩 </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2019-06-11 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：红红火火过大年" 盐博亲子闹元宵="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26817cf85016908905ca60044&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">红红火火过大年 盐博亲子闹元宵 </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2019-02-20 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：盐博课堂" “斗拱之谜——榫卯技艺大比拼”亲子活动="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26817cf850168abf6e47a0031&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">盐博课堂  “斗拱之谜——榫卯技艺大比拼”亲子活动 </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2019-02-02 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：盐博亲子活动" 大家其乐融融="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc26817cf850168787d8ec60020&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">盐博亲子活动 大家其乐融融 </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2019-01-21 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：走进盐业历史博物馆中秋特别活动！" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc266138f5f0166515cd749001d&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">走进盐业历史博物馆中秋特别活动！ </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2018-10-08 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：2018年“全国科普日”自贡市盐业历史博物馆" 系列活动圆满结束="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc266138f5f016613ad2680000b&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">2018年“全国科普日”自贡市盐业历史博物馆 系列活动圆满结束 </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2018-09-26 </td></tr><tr height="56">
+<td height="56"><span class="leaderfont4028813e60d98cab0160dec82c0c013a"></span><a title="标题：盐博课堂第十五期" “童心说盐”小小讲解员培训班结业啦！="" class="c4028813e60d98cab0160dec82c0c013a" href="/content.jsp?id=297e0fc2656abdee016589d2973a000a&amp;classid=b520bed5793544e2804772d5f7432aac" target="_blank">盐博课堂第十五期 “童心说盐”小小讲解员培训班结业啦！ </a></td>
+<td class="timestyle4028813e60d98cab0160dec82c0c013a" valign="middle" width="1%" nowrap="" align="right">2018-08-30 </td></tr></tbody></table></div>
+<div class="pagelist_next">
+
+
+  
+  <style>
+.pageDiv{
+	text-align:right;
+	color:#666;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+	background:url('/systemFile/images/bg.gif') left top repeat-x;
+	border:1px solid #DADADA;
+	height:30px;
+	 line-height:30px;
+	
+	}
+
+.pageBtn{
+	margin:0px;
+	height:16px;
+	text-align:center;
+	line-height:16px;
+	cursor:pointer;
+	border:0px #0e557a solid;
+	margin-left:5px;
+	font-size:12px;
+}
+
+.default_pgCurrentPage {
+
+width: 30px;
+height: 16px;
+line-height: 16px;
+text-align: center;
+border: 1px solid #CCCCCC;
+background: url(/systemFile/images/text_bg.gif) repeat-x;
+}
+.default_container {
+	position: relative;
+}
+
+.default_pgContainer {
+	min-height:100px;
+	_height:100px;
+}
+
+.default_pgToolbar {
+	height:30px;
+	valign:middle;
+	font-size:12px;
+	border:1px solid #DADADA;
+	background: url(/systemFile/images/bg.gif);
+	margin:0px 0 -1px 0;
+}
+
+.default_pgToolbar td {
+	font-size:12px;
+	padding:0 1px 0 1px;
+}
+
+.default_pgPanel {
+	float:left;
+	padding:0;
+}
+
+.default_pgBtn {
+	width: 20px;
+	height: 20px;
+	display: block;
+	cursor: pointer;
+	margin:1px;
+}
+
+.default_pgPress {
+	margin:2px 0 0 2px;
+}
+
+.default_pgPrev {
+	background: url(/systemFile/images/prev.gif) no-repeat center;
+}
+
+
+
+.default_pgNext {
+	background: url(/systemFile/images/next.gif) no-repeat center;
+}
+
+
+
+.default_pgFirst {
+	background: url(/systemFile/images/first.gif) no-repeat center;
+}
+
+
+.default_pgLast {
+	background: url(/systemFile/images/last.gif) no-repeat center;
+}
+
+
+.default_pgCurrentPage {
+	width:25px;
+	height:14px;
+	line-height:14px;
+	text-align:center;
+	border:1px solid #CCCCCC;
+	background-color:#FFF;
+}
+
+.default_pgSearchInfo {
+	padding-left:10px;
+	font-size:12px;
+}
+.default_pgSearchInfotwo {
+	padding-top:-7px;
+	font-size:12px;
+}
+
+.default_separator {
+	width:2px;
+	height:20px;
+	background: url(/systemFile/images/separator.gif) no-repeat center;
+}
+</style>
+  
+  
+    	<div class="pageDiv">
+		<table border="0" cellspadding="0" cellspacing="0" class="default_pgPanel"><tbody>
+		<tr>
+				<td valign="middle" class="default_pgSearchInfo">当前共检索到&nbsp;16&nbsp;条记录&nbsp;&nbsp;</td>
+				<td valign="middle" width="10" align="left"><div class="default_separator"></div></td>
+		<td valign="middle"><div class="default_pgBtn default_pgFirst " style="margin-left:12px;" onclick="SeparatePage('first')" title="首页"></div></td>
+		<td valign="middle"><div class="default_pgBtn default_pgPrev default_pgPrevDisabled" onclick="SeparatePage('previous')" title="上页"></div></td>
+		<td valign="middle" width="10" align="left"><div class="default_separator"></div></td>
+		<td valign="middle" class="default_pgSearchInfotwo">第 <input class="default_pgCurrentPage" type="text" value="1" title="页码"> 页 / 共 <span class="default_pgTotalPage">2</span> 页</td>
+		<td valign="middle" width="10" align="right"><div class="default_separator"></div></td>
+		<td valign="middle"><div class="default_pgBtn default_pgNext" onclick="SeparatePage('next')" title="下页"></div></td>
+		<td valign="middle"><div class="default_pgBtn default_pgLast" style="margin-right:12px;" onclick="SeparatePage('last')" title="尾页"></div></td>
+		
+		<td valign="middle" width="10" align="left"><div class="default_separator"></div></td>
+		<td valign="middle" class="default_pgSearchInfo">跳转到第 <select name="" style="height:19px;" id="jumpTo" onchange="SeparatePage('jumpTo')">
+    	<option value="1">1</option><option value="2">2</option></select> 页
+		<script type="text/javascript">
+    	var obj=document.getElementById("jumpTo");
+    	for(var i=1;i<=2;i++){
+    	   obj.options.add(new Option(i,i)); 
+    	   }
+    	document.getElementById("jumpTo").value=1</script>
+		
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		   <input type="hidden" id="pageye" name="pageBean.page" value="1">
+                  	<input type="hidden" id="pageSize" name="pageBean.pageSize" value="2">
+			</div>
+    <script type="text/javascript">
+    //分类组件实现
+    function SeparatePage(o) {
+    	 var path;
+        var currentPage = document.getElementById("pageye").value;
+        var pageCount = document.getElementById("pageSize").value;
+       
+        var iPage = Number(currentPage);
+        var mPage = Number(pageCount);
+        
+        if (o == 'next') {
+            iPage++;
+        }
+        if (o == 'previous') {
+            iPage--;
+        }
+        if (o == 'first') {
+            iPage = 1;
+        }
+        if (o == 'last') {
+            iPage = Number(pageCount);
+        }
+        if (o == 'jumpTo') {
+            if (isNaN(document.getElementById("jumpTo").value) ||
+			   !(document.getElementById("jumpTo").value.match(/^\d+$/)) ||
+			   document.getElementById("jumpTo").value == 0) {
+                iPage = 1;
+            } else {
+                iPage = document.getElementById("jumpTo").value;
+                if (iPage > mPage) {
+                    iPage = Number(pageCount);
+                }
+            }
+        }
+        if (iPage > mPage) {
+            iPage = Number(pageCount);
+        }
+        if (iPage < 1) {
+            iPage = 1;
+        }
+       
+        document.getElementById("pageye").value = iPage;
+        document.getElementById("jumpTo").value = iPage;
+      	var localhref;
+      	
+      	if(window.location.href.lastIndexOf("?pageye")>-1){
+      		localhref=window.location.href+"?pageye=";
+        	var path = localhref.substring(0, localhref.indexOf("?pageye="));
+           	document.location.href = path+"?pageye=" + iPage + "&pageSize="+mPage+"" ;
+      	}else if(window.location.href.lastIndexOf("?")>-1){
+        	localhref=window.location.href+"&pageye=";
+        	var path = localhref.substring(0, localhref.indexOf("&pageye="));
+           	document.location.href = path+"&pageye=" + iPage + "&pageSize="+mPage+"" ;
+        }else{
+        	document.location.href=window.location.href+"?pageye=" + iPage + "&pageSize="+mPage+"";
+        }
+        
+    }
+    </script>
+  
+
+</div>
+
+
+
+
+  <div class="main_btm"><div class="con">
+    <div class="btm_r">
+      <a href="hdjl.jsp" class="a_link" target="_blank">意见建议</a>
+      <a href="hdjl2.jsp" class="a_link" target="_blank">馆长信箱</a>
+      <div class="a_ico1"> <img src="images/btm_ewm.png"> </div>
+      <a href="http://weibo.com/u/5272022071?refer_flag=1001030101_" class="a_ico2" target="_blank"><img src="images/btm_ewm2.png"></a>
+      <!--<a href="#" class="a_ico3" target="_blank"></a>-->
+    </div>
+    <img src="images/main_btm_logo.png" class="btm_logo">
+    <div class="btm_txt">
+      <p>版权所有：自贡市盐业历史博物馆 　　馆址：中国·四川·自贡市解放路173号</p>
+      <p>电话:+86-0813-2202083　2205577　　传真:+86-0813-2202083　　E-mail:office@zgshm.cn　　预约热线：0813-2202083</p>
+      <p><a href="http://www.easy888.com" target="_blank">技术支持：易极天成科技集团有限公司</a>　　联系电话：028-8600222</p>
+    </div>
+  </div></div><!-- end main_btm --></body></html>

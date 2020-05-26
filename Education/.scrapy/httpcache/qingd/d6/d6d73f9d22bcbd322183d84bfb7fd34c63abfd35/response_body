@@ -1,0 +1,1030 @@
+ <!DOCTYPE html>
+<html lang="zh-EN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>青岛市博物馆</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="http://www.qingdaomuseum.com/uploads/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://www.qingdaomuseum.com/uploads/css/swiper.min.css" rel="stylesheet">
+    <link href="http://www.qingdaomuseum.com/uploads/css/animate.css" rel="stylesheet" />
+    <link href="http://www.qingdaomuseum.com/uploads/css/style.css" rel="stylesheet">
+    <link href="http://www.qingdaomuseum.com/uploads/css/iconfont.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+      <script src="http://www.qingdaomuseum.com/uploads/js/html5shiv.min.js"></script>
+      <script src="http://www.qingdaomuseum.com/uploads/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?bcfbddacb5ac7d08353df289e00e5e7e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> -->
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?298f81b7edbe3b8c3b7c3ac131ac213e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  </head>
+<body>
+
+<style>
+    #msg{
+        width:266px;
+        position: fixed;
+        z-index:999;
+        top: 49%;
+        margin-top:-80px;
+        left:50%;
+        margin-left:-133px;
+        background:#fff;
+        box-shadow:5px 5px 8px #999;
+        font-size:17px;
+        color:#666;
+        border:1px solid #f8f8f8;
+        text-align: center;
+        line-height: 2rem;
+        display:inline-block;
+        padding-bottom:20px;
+        border-radius:2px;
+    }
+    #msg_top{
+        background:#f8f8f8;
+        padding:5px 15px 5px 20px;
+        text-align:left;
+    }
+    #msg_top span{
+        font-size:22px;
+        float:right;
+        cursor:pointer;
+    }
+    #msg_cont{
+        padding:15px 20px 20px;
+        text-align:left;
+    }
+    #msg_clear{
+        display:inline-block;
+        color:#fff;
+        padding:1px 15px;
+        background:#04388e;
+        border-radius:2px;
+        float:right;
+        margin-right:15px;
+        cursor:pointer;
+    }
+</style>
+
+<script>
+    function alert(e){
+        $("body").append('<div id="msg"><div id="msg_top">信息<span class="msg_close">×</span></div><div id="msg_cont">'+e+'</div><div class="msg_close" id="msg_clear">确定</div></div>');
+        $(".msg_close").click(function (){
+            $("#msg").remove();
+        });
+    }
+</script>
+
+<div class="xs_zong"><i class="glyphicon glyphicon-plus"></i></div>
+<div class="xf_zong">
+        <a class="k_ss xf_01" href="javascript:void(0);">搜索</a>
+        
+    <a class="xf_02" href="http://www.qingdaomuseum.com/visit">讲解服务</a>
+    <a class="xf_03" href="http://www.qingdaomuseum.com/volunteer/enroll1">志愿报名</a>
+    <a class="xf_04" href="javascript:void(0);" data-toggle="modal" data-target=".bs-example-modal-sm">微信</a>
+	<a class="xf_05" href="javascript:void(0);" data-toggle="modal" data-target=".appxz">APP下载</a>
+    <a class="xf_06" href="javascript:void(0)" id="top">回到顶部</a>
+    <div class="y_ss">
+        <form action="http://www.qingdaomuseum.com/search/result" method="get">
+        <input name="module" type="hidden" value="education">
+        <input name="keyword" type="text">
+        
+        <input name="page" type="hidden" value="1">
+        <button type="submit">搜索</button>
+        </form>
+    </div>    
+</div>
+    
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <img src="http://www.qingdaomuseum.com/uploads/images/ewm001.jpg" style=" display:block; width:100%;" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade appxz" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <img src="http://www.qingdaomuseum.com/uploads/images/ewm002.png" style=" display:block; width:100%;" />
+        </div>
+      </div>
+    </div>
+
+<header>
+    <div class="nav_logo hidden-xs hidden-sm">
+        <div class="container_1285">
+            <div class="row">
+                <div class="hidden-xs col-md-4">
+                                        <div class="nav_gg" title="">
+                        <b>最新公告：</b>
+                        
+<link rel="stylesheet" href="http://www.qingdaomuseum.com/uploads/css/liMarquee.css">            
+<style type="text/css">
+	.str_wrap{
+
+		background: none;
+
+		font-size: 14px;
+	}
+</style>		
+				<div class="jq22-content">
+                    <div class="str1 str_wrap">
+                                                    1、
+                            开放时间：上午9:00~下午17:00 ，16:30停止入馆，周一闭馆（法定节假日除外）&nbsp;&nbsp;&nbsp;&nbsp;
+                                                </div>
+                </div>
+                        
+                        
+                        
+                        
+<!--<style>
+
+#wrapper {width: 100%;}
+#wrapper > div { width: 100%; height: 20px; overflow: hidden; }
+#wrapper > div.first { border-bottom: none; }
+#wrapper dl { display: block; margin: 0; }
+#wrapper dt, #wrapper dd { display: block; float: left; }
+#wrapper dt { color: #333; font-weight: normal;}
+#wrapper dd { color: #333; margin-right: 50px; }
+
+</style>
+                <div id="wrapper">
+                    <div class="first">
+                        <dl id="pmd-1">
+                                                        <dt>1、</dt>
+                            <dd>开放时间：上午9:00~下午17:00 ，16:30停止入馆，周一闭馆（法定节假日除外）</dd>
+                                                    </dl>
+                    </div>
+                </div>
+                        -->
+                        
+                        
+                        
+                        
+                    </div>
+                                    </div>
+                <div class="col-xs-6 col-md-4"><div class="logo"><a href="http://www.qingdaomuseum.com/"><img src="http://www.qingdaomuseum.com/uploads/images/logo.png" style=" display:block; width:100%;" /></a></div></div>
+                <div class="col-xs-6 col-md-4"><div class="language">I <a href="javascript:;" onclick="alert('此板块正在开发中')">English</a> I <a href="javascript:;" onclick="alert('此板块正在开发中')">Deutsch</a> I <a href="javascript:;" onclick="alert('此板块正在开发中')">日本語</a> I <a href="javascript:;" onclick="alert('此板块正在开发中')">한국어 I</a></div></div>
+            </div>
+        </div>
+    </div>
+	<nav class="hidden-xs hidden-sm">
+    	<div class="container_1285">
+            <ul>
+                <li><a href="http://www.qingdaomuseum.com/" >首页<i class="nav_i01"></i><i class="nav_i02"></i></a></li>
+                <li><a href="http://www.qingdaomuseum.com/service">服务<i class="nav_i01"></i><i class="nav_i02"></i></a>
+                	<div class="nav_eji">
+                        <div class="container_1285">
+                            <div class="ul_span">
+                                <span><a href="http://www.qingdaomuseum.com/service">馆长心声</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/service#tab1">馆情概览</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/visit">讲解服务</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/cultural">文创产品</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/service/survey">问卷调查</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/organization">机构设置</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/service/free">参观指南</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/question">常见问题</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/message">留言板</a></span>
+                                
+                            </div>
+                            <div class="nav_ewm">
+                                    <div class="pull-left n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm001.jpg" style=" display:block; width:100%;"><h6>关注青博微信</h6></div>
+                                    <div class="pull-right n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm002.png" style=" display:block; width:100%;"><h6>下载青博App</h6></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="http://www.qingdaomuseum.com/news">资讯<i class="nav_i01"></i><i class="nav_i02"></i></a>
+                	<div class="nav_eji">
+                        <div class="container_1285">
+                            <div class="ul_span">
+                                                                <span><a href="http://www.qingdaomuseum.com/news/index/46">工作时讯</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/news/index/47">信息公开</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/news/index/48">党工青妇</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/publication">下载中心</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/donation">捐赠名录</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/video">视频中心</a></span>
+                            </div>
+                            <div class="nav_ewm">
+                                    <div class="pull-left n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm001.jpg" style=" display:block; width:100%;"><h6>关注青博微信</h6></div>
+                                    <div class="pull-right n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm002.png" style=" display:block; width:100%;"><h6>下载青博App</h6></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="http://www.qingdaomuseum.com/exhibition">展览<i class="nav_i01"></i><i class="nav_i02"></i></a>
+                	<div class="nav_eji">
+                        <div class="container_1285">
+                            <div class="ul_span">
+                                                                <span><a href="http://www.qingdaomuseum.com/exhibition/category/16">常设展览</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/exhibition/category/28">新展预报</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/exhibition/category/29">热展在线</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/exhibition/category/30">过展留印</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/exhibition/category/31">走出馆门</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/exhibition/category/32">虚拟博物馆</a></span>
+                                                            </div>
+                            <div class="nav_ewm">
+                                    <div class="pull-left n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm001.jpg" style=" display:block; width:100%;"><h6>关注青博微信</h6></div>
+                                    <div class="pull-right n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm002.png" style=" display:block; width:100%;"><h6>下载青博App</h6></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="http://www.qingdaomuseum.com/collection">典藏<i class="nav_i01"></i><i class="nav_i02"></i></a>
+                	<div class="nav_eji">
+                        <div class="container_1285">
+                            <div class="ul_span">
+                                <span><a href="http://www.qingdaomuseum.com/collection">镇馆之宝</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/16">书画</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/28">玉翠玛水</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/29">瓷器</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/30">货币</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/31">铜镜</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/32">竹木牙角</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/33">古籍碑帖</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/34">铜器</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/35">漆器螺钿</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/36">石质类</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/37">印章</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/38">墨砚</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/39">木版年画</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/40">乐器</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/41">珐琅</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/42">陶器</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/43">造像</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/44">近现代文物</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/collection/category/45">其他</a></span>
+                                                            </div>
+                            <div class="nav_ewm">
+                                    <div class="pull-left n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm001.jpg" style=" display:block; width:100%;"><h6>关注青博微信</h6></div>
+                                    <div class="pull-right n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm002.png" style=" display:block; width:100%;"><h6>下载青博App</h6></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="http://www.qingdaomuseum.com/education">活动<i class="nav_i01"></i><i class="nav_i02"></i></a>
+                	<div class="nav_eji">
+                        <div class="container_1285">
+                            <div class="ul_span">
+                                <span><a href="http://www.qingdaomuseum.com/education">社教活动</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/volunteer">志愿星空</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/activity">活动报名</a></span>
+                                <span><a href="http://www.qingdaomuseum.com/volunteer/enroll1">志愿者报名</a></span>
+                            </div>
+                            <div class="nav_ewm">
+                                    <div class="pull-left n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm001.jpg" style=" display:block; width:100%;"><h6>关注青博微信</h6></div>
+                                    <div class="pull-right n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm002.png" style=" display:block; width:100%;"><h6>下载青博App</h6></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="http://www.qingdaomuseum.com/study">研究<i class="nav_i01"></i><i class="nav_i02"></i></a>
+                	<div class="nav_eji">
+                        <div class="container_1285">
+                            <div class="ul_span">
+                                                                <span><a href="http://www.qingdaomuseum.com/study/index/16">学术动态</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/study/index/28">出版园地</a></span>
+                                                                <span><a href="http://www.qingdaomuseum.com/study/index/29">学术成果</a></span>
+                                                            </div>
+                            <div class="nav_ewm">
+                                    <div class="pull-left n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm001.jpg" style=" display:block; width:100%;"><h6>关注青博微信</h6></div>
+                                    <div class="pull-right n_ewm"><img src="http://www.qingdaomuseum.com/uploads/images/ewm002.png" style=" display:block; width:100%;"><h6>下载青博App</h6></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="sj_nav hidden-md hidden-lg">
+    	<div class="container">
+        	<div class="pull-left sj_logo"><a href="http://www.qingdaomuseum.com/"><img src="http://www.qingdaomuseum.com/uploads/images/logo.png" style=" display:block; width:100%;" /></a></div>
+            <div class="pull-right sj_san02 glyphicon glyphicon-menu-hamburger"></div>
+            <div class="sj_san">
+            	<ul>
+                	<li onClick="showCselt_sj(1)"><a href="javascript:void(0)"><img src="http://www.qingdaomuseum.com/uploads/images/nav002.png" />服务</a>
+                    	<div class="sj_er" id="sj_cselt1">
+                        	<div class="row">
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/service">馆长心声</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/service#tab1">馆情概览</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/visit">讲解服务</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/cultural">文创产品</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/service/survey">问卷调查</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/organization">机构设置</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/service/free">参观指南</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/question">常见问题</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/message">留言板</a></div>
+                            </div>
+                        </div>
+                    </li>
+                	<li onClick="showCselt_sj(2)"><a href="javascript:void(0)"><img src="http://www.qingdaomuseum.com/uploads/images/nav003.png" />资讯</a>
+                    	<div class="sj_er" id="sj_cselt2">
+                        	<div class="row">
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/news/index/46">工作时讯</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/news/index/47">信息公开</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/news/index/48">党工青妇</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/publication">下载中心</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/donation">捐赠名录</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/video">视频中心</a></div>
+                            </div>
+                        </div>
+                    </li>
+                	<li onClick="showCselt_sj(3)"><a href="javascript:void(0)"><img src="http://www.qingdaomuseum.com/uploads/images/nav004.png" />展览</a>
+                    	<div class="sj_er" id="sj_cselt3">
+                            <div class="row">
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/exhibition/category/16">常设展览</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/exhibition/category/28">新展预报</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/exhibition/category/29">热展在线</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/exhibition/category/30">过展留印</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/exhibition/category/31">走出馆门</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/exhibition/category/32">虚拟博物馆</a></div>
+                                	
+                            </div>
+                        </div>
+                    </li>
+                	<li onClick="showCselt_sj(4)"><a href="javascript:void(0)"><img src="http://www.qingdaomuseum.com/uploads/images/nav005.png" />典藏</a>
+                    	<div class="sj_er" id="sj_cselt4">
+                        	<div class="row">
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection">镇馆之宝</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/16">书画</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/28">玉翠玛水</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/29">瓷器</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/30">货币</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/31">铜镜</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/32">竹木牙角</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/33">古籍碑帖</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/34">铜器</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/35">漆器螺钿</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/36">石质类</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/37">印章</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/38">墨砚</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/39">木版年画</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/40">乐器</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/41">珐琅</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/42">陶器</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/43">造像</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/44">近现代文物</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/collection/category/45">其他</a></div>
+                                                            </div>
+                        </div>
+                    </li>
+                	<li onClick="showCselt_sj(5)"><a href="javascript:void(0)"><img src="http://www.qingdaomuseum.com/uploads/images/nav006.png" />活动</a>
+                    	<div class="sj_er" id="sj_cselt5">
+                        	<div class="row">
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/education">社教活动</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/volunteer">志愿星空</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/activity">活动报名</a></div>
+                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/volunteer/enroll1">志愿者报名</a></div>
+                            </div>
+                        </div>
+                    </li>
+                	<li onClick="showCselt_sj(6)"><a href="javascript:void(0)"><img src="http://www.qingdaomuseum.com/uploads/images/nav007.png" />研究</a>
+                    	<div class="sj_er" id="sj_cselt6">
+                        	<div class="row">
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/study/index/16">学术动态</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/study/index/28">出版园地</a></div>
+                                                                <div class="col-xs-6"><a href="http://www.qingdaomuseum.com/study/index/29">学术成果</a></div>
+                                                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>	<div class="n_banner">
+        <!-- Swiper -->
+        <div class="swiper-container swiper1" style="height:100%;">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="bant01" style="background-image:url(http://www.qingdaomuseum.com/uploads/images/n_banner05.jpg)"></div></div>
+            </div>
+            <!-- Add Pagination -->
+            <!--<div class="swiper-pagination swiper-pagination1"></div>-->
+            <!-- Add Arrows -->
+        </div>
+	</div>
+    
+<div class="n_dc">
+	<div class="fw_biao">
+        <div class="container_1285">
+        	<div class="youbj" style=" background:url(http://www.qingdaomuseum.com/uploads/images/biao_bj.png) right top no-repeat; width:1582px; height:79px; position:absolute; top:80px; right:-310px; z-index:-1;"></div>
+            <div class="fw_lg"><img src="http://www.qingdaomuseum.com/uploads/images/hd_biao.png" style=" display:block; width:100%;" /></div>
+            <div class="fw_list">
+                <a class="active" href="http://www.qingdaomuseum.com/education"><span><i></i></span><b>社教活动</b></a>
+                <a href="http://www.qingdaomuseum.com/volunteer"><span><i></i></span><b>志愿星空</b></a>
+                <a href="http://www.qingdaomuseum.com/activity"><span><i></i></span><b>活动报名</b></a>
+                <a href="http://www.qingdaomuseum.com/volunteer/enroll1"><span><i></i></span><b>志愿者报名</b></a>
+                <div class="clear"></div>
+                <p style=" margin-top:60px; padding-right:350px;"><!-- 关于{活动}这个板块的一段综述性文字，关于{活动}这个板块的一段综述性文字，关于{活动}这个板块的一段综述性文字，关于{活动}这个板块的一段综述性文字。 --></p>
+            </div>
+            <div class="clear"></div>
+            <div class="weizhi"><a href="http://www.qingdaomuseum.com/"><i class="iconfont icon-home"></i>首页</a> > <a href="http://www.qingdaomuseum.com/education">活动</a> > <a href="">社教活动</a></div>
+        </div>
+    </div>
+
+	<div class="hd_sj">
+    	<Div class="container_1285">
+        	<div class="sj_sss">
+            	<h3><b>社教活动</b></h3>
+                <form action="http://www.qingdaomuseum.com/education/search" method="get">
+                <div class="form-group">
+                  <select name="year" class="form-control">
+                    <option value="0">*选择发布年份</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select name="month" class="form-control">
+                    <option value="0">*选择发布月份</option>
+                    <option value="1">1月份</option>
+                    <option value="2">2月份</option>
+                    <option value="3">3月份</option>
+                    <option value="4">4月份</option>
+                    <option value="5">5月份</option>
+                    <option value="6">6月份</option>
+                    <option value="7">7月份</option>
+                    <option value="8">8月份</option>
+                    <option value="9">9月份</option>
+                    <option value="10">10月份</option>
+                    <option value="11">11月份</option>
+                    <option value="12">12月份</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                	<input name="keyword" class="form-control" type="text" placeholder="请输入关键词">
+                    <input type="hidden" name="page" value="1" />
+                </div>
+                <div class="form-group">
+                	<button type="submit" class="form-control">检 索</button>
+                </div>
+                </form>
+            </div>
+        </Div>
+    </div>
+	
+
+    	<div class="container_1285" style=" position:relative;">
+        	<div class="zuobj" style=" background:url(http://www.qingdaomuseum.com/uploads/images/zuobj.png) left top no-repeat; width:229px; height:74px; position:absolute; top:300px; left:-310px; z-index:0;"></div>
+        	<Div class="sj_a">
+                <div class="row">
+                                        <div class="col-xs-6 col-md-2 col-md-offset-4">
+                        <div class="caption">
+                            <a class="active" href="http://www.qingdaomuseum.com/education/index/16">活动预告</a>
+                        </div>
+                    </div>
+                                        <div class="col-xs-6 col-md-2 ">
+                        <div class="caption">
+                            <a class="" href="http://www.qingdaomuseum.com/education/index/28">活动回顾</a>
+                        </div>
+                    </div>
+                                    </div>
+            </Div>
+            <div class="row sj_list">
+                                <div class="col-xs-12 col-md-4">
+                    <div class="caption"><a href="http://www.qingdaomuseum.com/education/detail/441">
+                        <img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1551254517.jpg" style=" display:block; width:100%;" />
+                        <div class="sj_text">
+                            <h4>一抹醉红妆 ——女神节传统胭脂口红DIY</h4>
+                            <p>女神节将至，青博小仙们准备了紫草、玫瑰茄、蜂蜡等纯自然原材料&hellip;</p>
+                            <h5>2019-02-27</h5>
+                        </div></a>
+                    </div>
+                </div>
+                                <div class="col-xs-12 col-md-4">
+                    <div class="caption"><a href="http://www.qingdaomuseum.com/education/detail/439">
+                        <img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1549957790.jpg" style=" display:block; width:100%;" />
+                        <div class="sj_text">
+                            <h4>“享”福博物馆之歌舞聚福：疯狂舞龙人 齐聚闹元宵</h4>
+                            <p>错过春节“享”福博物馆班列的乘客朋友们，福利来了！“古代趣味&hellip;</p>
+                            <h5>2019-02-12</h5>
+                        </div></a>
+                    </div>
+                </div>
+                                <div class="col-xs-12 col-md-4">
+                    <div class="caption"><a href="http://www.qingdaomuseum.com/education/detail/433">
+                        <img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1548810990.jpg" style=" display:block; width:100%;" />
+                        <div class="sj_text">
+                            <h4>“享”福博物馆春节总动员</h4>
+                            <p>二三鞭炮入窗来，讶觉新春序幕开。猪年临近， “五福”你可有集&hellip;</p>
+                            <h5>2019-01-30</h5>
+                        </div></a>
+                    </div>
+                </div>
+                                
+                <div class="col-xs-12">
+                                        <div class="js_list_h">
+                        <div class="row">
+                                                        <div class="col-xs-12 col-md-2">
+                                <Div class="caption">
+                                    <A href="http://www.qingdaomuseum.com/education/detail/428"><img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1548403394.jpg" style=" display:block; width:100%;" /></A>
+                                </Div>
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-md-10">
+                                <Div class="caption">
+                                    <h4><A href="http://www.qingdaomuseum.com/education/detail/428">翰墨飘香，以笔会友——品一代帖学书家，迎新春书法笔会</A></h4>
+                                    <p>别光着急拿着手机集五福，惦记瓜分马云爸爸的五个亿，咱们也来换个姿势，以墨迎春，以笔会友，让刘墉带你一&hellip;</p>
+                                </Div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="js_list_h">
+                        <div class="row">
+                                                        <div class="col-xs-12 col-md-2">
+                                <Div class="caption">
+                                    <A href="http://www.qingdaomuseum.com/education/detail/427"><img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1547448388.png" style=" display:block; width:100%;" /></A>
+                                </Div>
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-md-10">
+                                <Div class="caption">
+                                    <h4><A href="http://www.qingdaomuseum.com/education/detail/427">2019文博公益冬令营免费教你 起舞弄“沙”影  指点“程”江山</A></h4>
+                                    <p>寒假来博物馆游历修行吧！在这里展览的精美珍宝，有机会贴上你个性化的标签——可以是抬手间挥洒而就的一幅&hellip;</p>
+                                </Div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="js_list_h">
+                        <div class="row">
+                                                        <div class="col-xs-12 col-md-2">
+                                <Div class="caption">
+                                    <A href="http://www.qingdaomuseum.com/education/detail/425"><img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1545639340.jpg" style=" display:block; width:100%;" /></A>
+                                </Div>
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-md-10">
+                                <Div class="caption">
+                                    <h4><A href="http://www.qingdaomuseum.com/education/detail/425">打开你的定制文人新年</A></h4>
+                                    <p>丝竹管弦奏高山流水，笔墨纸砚作琼浆玉液。有琴有诗有生活的青博文人新年，元旦与君相约成趣。许一场一见如&hellip;</p>
+                                </Div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="js_list_h">
+                        <div class="row">
+                                                        <div class="col-xs-12 col-md-2">
+                                <Div class="caption">
+                                    <A href="http://www.qingdaomuseum.com/education/detail/420"><img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1539307563.jpg" style=" display:block; width:100%;" /></A>
+                                </Div>
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-md-10">
+                                <Div class="caption">
+                                    <h4><A href="http://www.qingdaomuseum.com/education/detail/420">把酒东篱  重阳相约——青岛市博物馆公益培训班报名啦！</A></h4>
+                                    <p>“天与秋光，转转情伤，探金英知近重阳。”东篱边的金菊朵朵绽放，南山后的秋光丛丛流淌。为弘扬尊老爱老敬&hellip;</p>
+                                </Div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="js_list_h">
+                        <div class="row">
+                                                        <div class="col-xs-12 col-md-2">
+                                <Div class="caption">
+                                    <A href="http://www.qingdaomuseum.com/education/detail/416"><img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1537856295.png" style=" display:block; width:100%;" /></A>
+                                </Div>
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-md-10">
+                                <Div class="caption">
+                                    <h4><A href="http://www.qingdaomuseum.com/education/detail/416">青岛市博物馆三大公益活动陪您迎国庆</A></h4>
+                                    <p>谁说“花钱”才是过节的必走程序？简约不简单的“穷游”才是这个国庆的王道。石老人海湾畔的青岛市博物馆，&hellip;</p>
+                                </Div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="js_list_h">
+                        <div class="row">
+                                                        <div class="col-xs-12 col-md-2">
+                                <Div class="caption">
+                                    <A href="http://www.qingdaomuseum.com/education/detail/414"><img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1537164410.jpg" style=" display:block; width:100%;" /></A>
+                                </Div>
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-md-10">
+                                <Div class="caption">
+                                    <h4><A href="http://www.qingdaomuseum.com/education/detail/414">彩绘兔儿爷  共话中秋月</A></h4>
+                                    <p>青博广发拜月匠人帖啦！中秋节手绘见证幻彩兔儿爷的修仙之路，约吗？
+“京中秋节多以泥抟兔形，衣冠踞坐&hellip;</p>
+                                </Div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="js_list_h">
+                        <div class="row">
+                                                        <div class="col-xs-12 col-md-2">
+                                <Div class="caption">
+                                    <A href="http://www.qingdaomuseum.com/education/detail/412"><img src="http://www.qingdaomuseum.com/uploads/images/shejiaohuodong/thumb/1535938499.jpg" style=" display:block; width:100%;" /></A>
+                                </Div>
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-md-10">
+                                <Div class="caption">
+                                    <h4><A href="http://www.qingdaomuseum.com/education/detail/412">致敬流光溢彩的你——教师节玻璃彩饰活动</A></h4>
+                                    <p>送走了炎热的盛夏,迎来了凉爽的金秋，青博为期近2个月的欧洲陶瓷玻璃展也即将走进尾声，要和大家说再见了&hellip;</p>
+                                </Div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+            <div class="fanye">
+                <a class="y_first" href="http://www.qingdaomuseum.com/education/index/16/1">首页</a>
+                                 <a href="http://www.qingdaomuseum.com/education/index/16/1"><i class="glyphicon glyphicon-step-backward"></i></a>
+                                      <a href="http://www.qingdaomuseum.com/education/index/16/1">1</a>
+                                  <a href="http://www.qingdaomuseum.com/education/index/16/2" class="active">2</a>
+                                    <a href="http://www.qingdaomuseum.com/education/index/16/3">3</a>
+                    <a href="http://www.qingdaomuseum.com/education/index/16/4">4</a>
+                    <a href="http://www.qingdaomuseum.com/education/index/16/3"><i class="glyphicon glyphicon-step-forward"></i></a>
+                                  <select id="tz" class=" tz"> 
+                                        <option>1</option> 
+                                        <option>2</option> 
+                                        <option>3</option> 
+                                        <option>4</option> 
+                                    </select>
+                <button onclick="tz()" type="button">跳转</button>
+                <script>
+                function tz() {
+                    var page = $('#tz').val();
+                    var url = "http://www.qingdaomuseum.com/education/index/16/"+page;
+                    location.href = url;
+                }
+                </script>
+                <a class="y_last" href="http://www.qingdaomuseum.com/education/index/16/4">末页</a>
+             </div>
+        </div>
+    
+
+</div>
+	<div class="black">
+    	<div class="container_1285">
+    		<a href="javascript:history.go(-1);"><i class="glyphicon glyphicon-repeat"></i><b>返回</b></a>
+            <div class="row">
+            	<div class="col-xs-4 col-md-2"><img src="http://www.qingdaomuseum.com/uploads/images/yun02.png" style=" display:block; width:100%;" /></div>
+            	<div class="col-xs-8 col-md-4 pull-right"><img src="http://www.qingdaomuseum.com/uploads/images/yun01.png" style=" display:block; width:100%;" /></div>
+            </div>
+        </div>
+    </div><footer>
+	<div class="container_1285" style=" padding-top:30px !important; padding-bottom:30px !important; border-top:3px solid #04388e; transition:all 1s;">
+    	<div class="row">
+        	<div class="col-xs-8 col-sm-4 col-md-3 col-lg-2 ft_logo">
+            	<div class="caption"><img src="http://www.qingdaomuseum.com/uploads/images/footlogo.png" style=" display:block; width:100%;" /></div>
+
+                <div>
+                    <center><br><br>
+                        <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/16/235/0000/60249201/CA162350000602492010001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                    </center>
+                </div>
+            </div>
+        	<div class="col-xs-12 col-md-12 col-lg-8 ft_map">
+            	<div class="row">
+                	<div class="col-xs-4 col-md-2 col-lg-2">
+                    	<h5>服务</h5>
+                        <a href="http://www.qingdaomuseum.com/service">馆长心声</a>
+                        <a href="http://www.qingdaomuseum.com/service#tab1">馆情概览</a>
+                        <a href="http://www.qingdaomuseum.com/visit">讲解服务</a>
+                        <a href="http://www.qingdaomuseum.com/cultural">文创产品</a>
+                        <a href="http://www.qingdaomuseum.com/service/survey">问卷调查</a>
+                        <a href="http://www.qingdaomuseum.com/organization">机构设置</a>
+                        <a href="http://www.qingdaomuseum.com/service/free">参观指南</a>
+                        <a href="http://www.qingdaomuseum.com/question">常见问题</a>
+                        <a href="http://www.qingdaomuseum.com/message">留言板</a>
+                    </div>
+                    <div class="col-xs-4 col-md-2 col-lg-2">
+                    	<h5>资讯</h5>
+                                                <a href="http://www.qingdaomuseum.com/news/index/46">工作时讯</a>
+                                                <a href="http://www.qingdaomuseum.com/news/index/47">信息公开</a>
+                                                <a href="http://www.qingdaomuseum.com/news/index/48">党工青妇</a>
+                                                <a href="http://www.qingdaomuseum.com/publication">下载中心</a>
+                        <a href="http://www.qingdaomuseum.com/donation">捐赠名录</a>
+                        <a href="http://www.qingdaomuseum.com/video">视频中心</a>
+                    </div>
+                    <div class="col-xs-4 col-md-2 col-lg-2">
+                    	<h5>展览</h5>
+                                                <a href="http://www.qingdaomuseum.com/exhibition/category/16">常设展览</a>
+                                                <a href="http://www.qingdaomuseum.com/exhibition/category/28">新展预报</a>
+                                                <a href="http://www.qingdaomuseum.com/exhibition/category/29">热展在线</a>
+                                                <a href="http://www.qingdaomuseum.com/exhibition/category/30">过展留印</a>
+                                                <a href="http://www.qingdaomuseum.com/exhibition/category/31">走出馆门</a>
+                                                <a href="http://www.qingdaomuseum.com/exhibition/category/32">虚拟博物馆</a>
+                                            </div>
+                    <div class="col-xs-4 col-md-2 col-lg-2">
+                    	<h5>典藏</h5>
+                        <a href="http://www.qingdaomuseum.com/collection">镇馆之宝</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/16">书画</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/28">玉翠玛水</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/29">瓷器</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/30">货币</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/31">铜镜</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/32">竹木牙角</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/33">古籍碑帖</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/34">铜器</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/35">漆器螺钿</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/36">石质类</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/37">印章</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/38">墨砚</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/39">木版年画</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/40">乐器</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/41">珐琅</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/42">陶器</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/43">造像</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/44">近现代文物</a>
+                                                <a href="http://www.qingdaomuseum.com/collection/category/45">其他</a>
+                                            </div>
+                    <div class="col-xs-4 col-md-2 col-lg-2">
+                    	<h5>活动</h5>
+                        <a href="http://www.qingdaomuseum.com/education">社教活动</a>
+                        <a href="http://www.qingdaomuseum.com/volunteer">志愿星空</a>
+                        <a href="http://www.qingdaomuseum.com/activity">活动报名</a>
+                        <a href="http://www.qingdaomuseum.com/volunteer/enroll1">志愿者报名</a>
+                    </div>
+                    <div class="col-xs-4 col-md-2 col-lg-2">
+                    	<h5>研究</h5>
+                                                <a href="http://www.qingdaomuseum.com/study/index/16">学术动态</a>
+                                                <a href="http://www.qingdaomuseum.com/study/index/28">出版园地</a>
+                                                <a href="http://www.qingdaomuseum.com/study/index/29">学术成果</a>
+                                            </div>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 ft_logo02">
+            	<div class="caption"><img src="http://www.qingdaomuseum.com/uploads/images/footlogo.png" style=" display:block; width:100%;" /></div>
+            </div>
+            
+        	<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 ft_ewm">
+            	<div class="caption" style=" margin-bottom:20px;">
+                	<h5>友情链接</h5>
+                	<select name="" onchange="window.location=this.value"> 
+                        <option value="">友情链接</option> 
+                                            </select>
+                    <div class="clear"></div>
+                </div>
+            	<div class="caption" style=" float:left; width:46%;">
+                	<img src="http://www.qingdaomuseum.com/uploads/images/ewm001.jpg" style=" display:block; width:100%;" />
+                    关注青博微信
+                </div>
+            	<div class="caption" style=" float:right; width:46%;">
+                	<img src="http://www.qingdaomuseum.com/uploads/images/ewm002.png" style=" display:block; width:100%;" />
+                    下载青博App
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot_ban">
+    	<div class="container_1285" style=" transition:all 1s;">
+            <p>I    <a href="http://www.qingdaomuseum.com/home/help" target="_blank">使用帮助</a>   I    <a href="http://www.qingdaomuseum.com/home/law" target="_blank">版权声明</a>   I    <a href="http://www.qingdaomuseum.com/home/privacy" target="_blank">隐私与安全声明</a>   I    总浏览量：24817757   I    当天浏览量：7   I    技术支持：<a href="http://www.xinshidian.top" target="_blank" title="网站建设">青岛新视点网络科技有限公司</a>I<br><br>
+    版权所有 (C) 青岛市博物馆  2017 All Rights Reserved.   I    备案号：<a href="http://www.beian.miit.gov.cn" target="_blank">鲁ICP备11000819号</a>      
+
+    <div style="width:300px;margin:0 auto; padding:20px 0 5px 0;">
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37021202000531 
+
+" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.qingdaomuseum.com/uploads/images/batb.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#fff;">鲁公网安备 37021202000531号</p></a>
+            </div>
+
+    </p>
+    	</div>
+    </div>
+</footer>
+
+
+    <script src="http://www.qingdaomuseum.com/uploads/js/jquery-1.11.1.min.js"></script>
+    <script src="http://www.qingdaomuseum.com/uploads/js/bootstrap.min.js"></script>
+    <script src="http://www.qingdaomuseum.com/uploads/js/offcanvas.js"></script>
+    <!-- Swiper JS -->
+    <script src="http://www.qingdaomuseum.com/uploads/js/swiper.min.js"></script>
+    
+<!--飘窗-->
+<script src="http://www.qingdaomuseum.com/uploads/js/move_port.js"></script> 
+<!--飘窗-->
+<script src="http://www.qingdaomuseum.com/uploads/js/photor.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.photor').photor();
+	});
+	
+		//飘窗
+		move_obj("#move_port");
+</script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper1 = new Swiper('.swiper1', {
+        pagination: '.swiper-pagination1',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        effect: 'fade',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 7000,
+        autoplayDisableOnInteraction: false
+    });
+    var swiper2 = new Swiper('.swiper2', {
+        pagination: '.swiper-pagination2',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 4000,
+        autoplayDisableOnInteraction: false
+    });
+    var swiper3 = new Swiper('.swiper3', {
+        pagination: '.swiper-pagination3',
+        nextButton: '.swiper-button-next03',
+        prevButton: '.swiper-button-prev03',
+        paginationClickable: true,
+        spaceBetween: 30,
+    });
+    </script>
+    
+
+<script src="http://www.qingdaomuseum.com/uploads/js/zoom.min.js"></script>
+<script type="text/javascript" src="http://www.qingdaomuseum.com/uploads/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	
+	/* 图片滚动效果 */
+	if (document.body.clientWidth < 767) {
+		$(".cp_z").slide({
+			titCell: "",
+			mainCell: ".cp_lb ul",
+			autoPage: true,
+			effect: "leftLoop",
+			autoPlay: true,
+			vis: 1
+		});
+	} else {
+		$(".cp_z").slide({
+			titCell: "",
+			mainCell: ".cp_lb ul",
+			autoPage: true,
+			effect: "leftLoop",
+			autoPlay: true,
+			vis: 3
+		});
+	}
+	
+	if (document.body.clientWidth < 767) {
+		$(".cp_zs").slide({
+			titCell: "",
+			mainCell: ".cp_lbs ul",
+			autoPage: true,
+			effect: "leftLoop",
+			autoPlay: true,
+			vis: 1
+		});
+	} else {
+		$(".cp_zs").slide({
+			titCell: "",
+			mainCell: ".cp_lbs ul",
+			autoPage: true,
+			effect: "leftLoop",
+			autoPlay: true,
+			vis: 4
+		});
+	}
+	
+	/* 鼠标悬停图片效果 */
+/*	$(".mr_zhe_hover").css("top", $('.mr_zhe').eq(0).height());
+	$("li").mouseout(function (e) {
+		if ((e.pageX < $(this).offset().left || e.pageX > ($(this).offset().left + $(this).width())) || (e.pageY < $(this).offset().top || e.pageY > ($(this).offset().top + $(this).height()))) {
+			$(this).find('.mr_zhe_i').show();
+			$(this).find('.mr_zhe_hover').hide().stop().animate({ top: '190px' }, { queue: false, duration: 190 });
+			return false;
+		}
+
+	});
+	$('.mr_zhe').mouseover(function (event) {
+		$(this).find('.mr_zhe_i').hide();
+		$(this).find('.mr_zhe_hover').show().stop().animate({ top: '190px' }, { queue: false, duration: 190 });
+		return false;
+	});*/
+	
+});
+</script>
+    
+
+
+   
+    
+    
+  <script src="http://www.qingdaomuseum.com/uploads/t_js/sscr.min.js"></script>
+  <script src="http://www.qingdaomuseum.com/uploads/t_js/wow.min.js"></script>
+  <script src="http://www.qingdaomuseum.com/uploads/t_js/viewport-units-buggyfill.js"></script>
+  <script src="http://www.qingdaomuseum.com/uploads/t_js/midnight.jquery.js"></script>
+
+  <script>
+
+    $(document).ready(function(){
+      // vh fix for iOS7 (Not that it works well on that anyway)
+      viewportUnitsBuggyfill.init();
+
+      $(window).resize(function(){
+        viewportUnitsBuggyfill.refresh();
+      });
+
+      // Start Midnight!
+      $('nav.fixed').midnight();
+
+      // Start wow.js
+      new WOW().init();
+
+      // The island disappears when the logo moves on top of it
+      var $island = $('#space-island');
+      var islandTop = $island.offset().top;
+      var windowHeight = $(window).height();
+
+      $(window).resize(function(){
+        islandTop = $island.offset().top;
+        windowHeight = $(window).height();
+      });
+
+      $(document).scroll(function(){
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        var minScrollTop = islandTop - windowHeight * 0.4;
+        var maxScrollTop = islandTop;
+
+        // Opacity goes from 1.0 at the bottom 2/3 of the screen to 0.4 at the top
+        if( scrollTop <= islandTop*2 ) {
+          var targetOpacity = 1.0;
+          var minOpacity = 0.4;
+
+          if( scrollTop > minScrollTop && scrollTop < maxScrollTop ) {
+            targetOpacity = ((maxScrollTop - scrollTop) / (maxScrollTop - minScrollTop)) * (1.0 - minOpacity) + minOpacity;
+          }
+          else if( scrollTop > maxScrollTop ) {
+            targetOpacity = minOpacity;
+          }
+          else if( scrollTop < minScrollTop ) {
+            targetOpacity = 1.0;
+          }
+
+          $island.css('opacity', targetOpacity);
+        }
+
+      });
+
+      $('.scroll-prompt').click(function(event){
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: $("section.step-one").offset().top - $('nav').height() * 0.5
+        }, 1000, 'swing');
+      });
+
+      $(window).trigger('resize');
+
+    });
+  </script>
+ 
+
+<script src="http://www.qingdaomuseum.com/uploads/js/jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script> 
+<script src="http://www.qingdaomuseum.com/uploads/js/jquery.liMarquee.js"></script>
+<script>
+$(window).load(function(){
+	$('.str1').liMarquee();
+
+	});
+
+</script> 
+
+
+    <script src="http://www.qingdaomuseum.com/uploads/js/jquery.lazyload.min.js"></script>
+    <script src="http://www.qingdaomuseum.com/uploads/js/jquery.fancybox.min.js"></script>
+    <script src="http://www.qingdaomuseum.com/uploads/js/main.js"></script>
+
+</body>
+</html>

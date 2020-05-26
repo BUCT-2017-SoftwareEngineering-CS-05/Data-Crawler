@@ -1,0 +1,12 @@
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+X-Aspnet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+X-Ua-Compatible: IE=EmulateIE7
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+Date: Wed, 20 May 2020 14:27:36 GMT

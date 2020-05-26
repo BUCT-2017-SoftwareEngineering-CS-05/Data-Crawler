@@ -1,0 +1,215 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="IE=EmulateIE8" http-equiv="X-UA-Compatible" />
+
+<title>旅顺博物馆</title>
+
+<meta name="keywords" content="旅顺博物馆" />
+<meta name="description" content="旅顺博物馆" />
+
+<script>if (top.location!=self.location){top.location = self.location;}</script>
+
+<link rel="stylesheet" type="text/css" href="/Content/Css/style.css"/>
+
+<meta name="Author" content="Naite.com.cn----奈特原动力">
+<meta name="Robots" content= "all"> 
+<meta name="googlebot" content="index, follow" />
+<meta name="Baiduspider" content="index, follow" />
+<meta name="MSNBOT" content="index, follow" />
+<meta name="Slurp" content="index, follow" />
+<meta name="FAST-WebCrawler" content="index, follow" />
+<meta name="ia_archiver" content="index, follow" />
+<meta name="Scooter" content="index, follow" />
+<meta name="MSNBOT" content="index, follow" />
+<meta name="baidu-site-verification" content="gLsobfSU0i" />
+
+    <link rel="stylesheet" href="/Content/Css/tab.css">
+<script type="text/javascript" src="/Script/jQuery1.7.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var $tab_li = $('#tab ul li');
+        $tab_li.click(function () {
+            $(this).addClass('selected').siblings().removeClass('selected');
+            var index = $tab_li.index(this);
+            //$('div.tab_box > div').eq(index).show().siblings().hide();
+            $('.down_arrow').hide();
+            $('.down_arrow').eq(index).show();
+        });
+    });
+</script>
+</head>
+<body>
+<div class="bgbox01">
+<div class="whole_content">
+<div class="inner_content">
+	        <script type="text/javascript">var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");var browser = navigator.userAgent.toLowerCase();var isMobile = false;for (var i = 0; i < mobileAgent.length; i++) {if (browser.indexOf(mobileAgent[i]) != -1) {isMobile = true;window.location.href = '/mobile/';break;}}</script>
+
+
+
+
+<style>
+.headtext{ position:absolute; right:305px; top:47px; width:155px; }
+.ewm_VR{ position:absolute; right:205px; top:24px;}
+.ewm_VRtext{ position:absolute; right:225px; top:112px; color:white;}
+</style>
+    <div class="headbox clear">
+    	<a href="/">
+            <img class="headlogo" src="/Content/Images/logo.png" alt="">
+         </a>
+        <ul class="headbtn">
+        	<li><a href="/login.aspx">登录</a></li>
+        	<li><a href="/register.aspx">注册</a></li>
+        </ul>
+        <div class="headtext">
+        	<div class="text">
+            	<a href="/Service/messages.aspx">公交线路</a><span>|</span><a href="/Service/messages.aspx">联系我们</a>
+            </div>
+            <p>预约电话:0411-86383334</p>
+            <p>办公电话:0411-86382378</p>
+        </div>
+        <img src="/Content/Images/ewm_VR.jpg" class="ewm_VR">
+        <img src="/Content/Images/weibo.jpg" class="head_erweima">
+        <img src="/Content/Images/wexin.jpg" class="weixin">
+        <a class="ewm_VRtext">VR体验</a>
+        <a class="wbtext">微博</a>
+        <a class="wxtext">微信公众平台</a>
+    </div>
+
+
+    <div class="body_content clear">
+    	    
+
+	<div class="body_left">
+        	<ul class="navbox">
+			<li><a href="/aboutUs/ ">馆情总览 </a></li></li><li><a href="/news/">资讯 </a></li></li><li><a href="/Exhibition/">陈列展览 </a></li></li><li><a href="/Collection/">藏品精粹</a></li></li><li><a href="/Academic/">学术研究 </a></li></li><li class="curenta"><a href="/Education/">宣教活动</a></li></li><li><a href="/Conservation/">文物保护 </a></li></li><li><a href="/order/">预约 </a></li></li><li><a href="/Service/">服务指南 </a></li></li><li><a href="/CulturalInnovation/">文创</a></li></li></>
+		</ul>
+		<div class="guide">
+	<p class="p1">参观导览：</p>
+	<p class="p2">开放时间：</p>
+	<p class="p3">4月1日至10月31日</p>
+	<p class="p3">09:00-16:30</p>
+	<p class="p3">16:00 停止入馆</p>
+	<p class="p3"> &nbsp;</p>
+	<p class="p3">11月1日至3月31日</p>
+	<p class="p3">9:00-16:00</p>
+	<p class="p3">15:30 停止入馆</p>
+	<p class="p3"> &nbsp;</p>
+	<p class="p3">每周一闭馆，国家法定节假日另行通知</p>
+	<p class="p3"> &nbsp;</p>
+	<p class="p3" style="margin-top:8px;">详细地址：<br>大连市旅顺口区列宁街42号</p>
+</div>
+        </div>
+        <div class="body_right">
+        	<div class="news_tab">
+            	<div id="tab">
+                	<div style="width:600px;">
+                        <ul class="tab_menu T1">
+                        <ul><li><a href="/Education/page.aspx?ID=6">讲解队伍</a></li><li class="selected"><a href="/Education/news.aspx?SortID=12">博物馆之家</a></li><li><a href="/EducationBBS/">文博论坛</a></li><li><a href="/Education/product.aspx?SortID=21">博物馆之友</a></li><li><a href="/VolunteerHome/">志愿者之家</a></li></ul>
+                        </ul>	
+                        
+                         
+                    </div>
+                    <div class="tab_box">
+                    
+                        <!--讲解队伍建设 -->
+                        
+                        <div style="position:relative">
+                        
+                         <div class="youshangjiao Y5">
+													<a href="/">首页</a>
+													 - <a href="/Education/">宣教活动</a> - <a href="/Education/news.aspx?SortID=12">博物馆之家</a>
+                        </div>
+                        	
+                        	<p class="introduce">  
+                             2014年，旅顺博物馆开设了“博物馆之家”，让更多的观众有机会走进博物馆，了解博物馆。“博物馆之家”充分利用博物馆的资源，举办富有特色的社会教育活动，打造博物馆社教品牌。如利用学生寒暑假举办“旅顺博物馆快乐暑（寒）假系列活动”，下设剪纸手工课、小讲解员实战训练营、亲子阅读、拓片等活动。此外，旅顺博物馆还结合举办的展览，在“博物馆之家”开展相关社会教育活动，通过讲解、讲座、亲子活动等方式让更多的人走进展览，理解展览。
+
+                                 </p>
+							<div class="clear" style="height:70px;"></div>
+                            <ul class="newslist">
+                            <li><a href=" /Education/NewsDetail.aspx?ID=1305"><div class="newstitle"><h1>【教育活动回顾】来博物馆上美术课</h1><span class="date">2019-12-15</span></div></a></li><li><a href=" /Education/NewsDetail.aspx?ID=1283"><div class="newstitle"><h1>【活动回顾】旅顺博物馆举办十一国庆节系列活动</h1><span class="date">2019-10-08</span></div></a></li><li><a href=" /Education/NewsDetail.aspx?ID=1275"><div class="newstitle"><h1>旅顺博物馆举办中秋节系列活动</h1><span class="date">2019-09-16</span></div></a></li><li><a href=" /Education/NewsDetail.aspx?ID=1270"><div class="newstitle"><h1>旅顺博物馆推出《流金溢彩——大连、烟台两地收藏珐琅器精品联展》…</h1><span class="date">2019-08-20</span></div></a></li><li><a href=" /Education/NewsDetail.aspx?ID=1267"><div class="newstitle"><h1>旅顺博物馆“流动博物馆”走进大华社区</h1><span class="date">2019-07-31</span></div></a></li><li><a href=" /Education/NewsDetail.aspx?ID=1251"><div class="newstitle"><h1>“不忘初心，牢记使命”主题教育系列活动——《志愿者走进旅博“文…</h1><span class="date">2019-06-22</span></div></a></li>
+                            </ul>
+                            <div class="pagination">
+                            	<a href="/Education/news.aspx?SortID=12&Page=1" class="page_prev">上一页</a>
+                                <ul class="page_number">
+                                	    <li><a href="/Education/news.aspx?SortID=12&Page=1">1</a></li><li><a href="javascript:;">2</a></li><li><a href="/Education/news.aspx?SortID=12&Page=3">3</a></li><li><a href="/Education/news.aspx?SortID=12&Page=4">4</a></li><li><a href="/Education/news.aspx?SortID=12&Page=5">5</a></li>
+                                </ul>
+                                <a href="/Education/news.aspx?SortID=12&Page=3" class="page_next">下一页</a>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+                    
+
+            <div class="blogroll clear">
+            	<h1 class="blogroll_title">友情链接</h1>
+                <ul class="link">
+                     
+                             <li><a target="_blank" href="http://www.capitalmuseum.org.cn/">首都博物馆 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.dpm.org.cn/index1024768.html">故宫博物院 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.scmuseum.cn/">四川博物院 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.shanximuseum.com/">山西博物院 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.ahm.cn/">安徽博物院 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.qingdaomuseum.com/">青岛市博物馆 </a>|</li>
+                     
+
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="content_foot clear">
+            	<div class="footleft">
+                    <a href="http://weibo.com/lvshunbowuguan">
+                        <img src="/Content/Images/weibo.png">
+                        <p>点此进入官方微博  <!--a href="http://webscan.360.cn/index/checkwebsite/url/lvshunmuseum.org" name="d3d28d7c212717123cec4e996fcbf5a5" >360网站安全检测平台</a--></p>
+                    </a>
+                </div>
+		<div class="footright" style="padding:0 0 1em 1em;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/08/138/0000/40526813/CA081380000405268130002.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+                <div class="footright">
+			<p class="p1">copyright  &copy;  2014 - 2020 &nbsp; www.naite.com.cn</p>
+			<p class="p2">    版权所有 &nbsp;10004061号</p>
+			<p class="p3">design by<a href="http://www.naite.com.cn" target="_blank">奈特原动力</a></p>
+			<div style="margin:0;padding:0 0 12px 0;text-align:right;">
+				<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21021202000107" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><p style="float:right;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">辽公网安备 21021202000107号</p><img src="/content/images/ba.png" style="float:right;"/></a>
+			</div>
+                </div>
+            </div>
+<script src="/script/xss.js" type="text/javascript"></script>
+<script type="text/javascript">
+//console.log(filterXSS('<a href="#" onclick="alert(/xss/)">click me</a>'));
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?697148874d2ba2b57289a24ff5e46d13";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
+

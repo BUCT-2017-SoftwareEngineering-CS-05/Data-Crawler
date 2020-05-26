@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+
+<!-- 判断浏览器及移动端 -->
+<script src="/Contents/Scripts/mobile-detect.min.js"></script>
+<script src="/Contents/Scripts/browser.js"></script>
+
+<script type="text/javascript">
+    var url = "/Activity/NewsList/wbjt";
+    if (url.indexOf("Preview") < 0) {
+        if (browsermd.mobile() && browsermd.phone()) { //手机版
+            if (url == "/") {
+                url = '/Wap/Home/Index';
+            } else {
+                url = '/Wap' + url.replace(/&amp;/g, '&');
+            }
+            window.location = url;
+        } else {
+
+        }
+    }
+</script>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no" />
+<title>安徽博物院-安徽文博讲堂</title>
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta content="安徽、博物院、安博" name="Keywords" />
+<meta name="description" />
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<!--样式表-->
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/reset.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/head-and-foot.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/common.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/animation.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/survey.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/news.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/service.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/exhibition.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/research.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/collection.css" />
+<link rel="stylesheet" type="text/css" href="/Contents/Styles/activity.css" />
+<script src="/Contents/Scripts/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/Contents/Scripts/common.js" type="text/javascript" charset="utf-8"></script>
+
+    <!--搜索框-->
+    <script src="/Contents/Scripts/colSearch.js" type="text/javascript" charset="utf-8"></script>
+<!--提示框-->
+<script src="/Contents/Scripts/jQuery.layer/layer.js"></script>
+<script src="/Contents/Scripts/ScrollToTop.js" type="text/javascript" charset="utf-8"></script>
+<!-- share css & js -->
+<link rel="stylesheet" href="/Contents/Scripts/share/css/share.min.css">
+
+<script src="/Contents/Scripts/share/js/social-share.js"></script>
+<script src="/Contents/Scripts/share/js/qrcode.js"></script>
+
+    <!--局部刷新-->
+    <script type="text/javascript" src="/Contents/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script type="text/javascript" src="/Contents/Scripts/MvcPager.js"></script>
+</head>
+<body>
+    
+<div class="header line">
+    <div class="allcenter">
+        <a href="/Home/Index">
+            <div class="logo"></div>
+        </a>
+        <ul class="menu">
+                        <li class="nochild ">
+                            <a href="/Home/Index" >首页</a>
+                        </li>
+                        <li class=" ">
+                            <a href="/News/Survey/abjj" >概况</a>
+                                <ul class="secmenu">
+                                            <li ><a href="/News/Survey/abjj" >安博简介</a></li>
+                                            <li ><a href="/News/Organization/zzjg" >组织架构</a></li>
+                                            <li ><a href="/News/ListEvents/dsly" >大事掠影</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/News/List/abxw" >资讯</a>
+                                <ul class="secmenu">
+                                            <li ><a href="/News/List/abxw" >安博新闻</a></li>
+                                            <li ><a href="/Activity/List/hdyg" >活动预告</a></li>
+                                            <li ><a href="/News/ListT/tzgg" >最新公开</a></li>
+                                            <li ><a href="/News/PIndex/abdj" >安博党建</a></li>
+                                            <li ><a href="/News/ListT/ddjs" >文明创建</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/Exhibition/TListNow/xztj" >展览</a>
+                                <ul class="secmenu">
+                                            <li ><a href="/Exhibition/TListNow/xztj" >新展推介</a></li>
+                                            <li ><a href="/Exhibition/BList/cszl" >常设展览</a></li>
+                                            <li ><a href="/Exhibition/TListAgo/zlhg" >展览回顾</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/Collection/Index/Collection" >藏品</a>
+                                <ul class="secmenu">
+                                            <li ><a href="/Collection/ListSpecial/tbjj" >特别推荐</a></li>
+                                            <li ><a href="/Collection/Index/dcjx" >典藏精选</a></li>
+                                            <li ><a href="/Collection/DonateList/jzyd" >捐赠园地</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/Research/BookList/qklz" >研究</a>
+                                <ul class="secmenu">
+                                            <li ><a href="/Research/BookList/qklz" >期刊论著</a></li>
+                                            <li ><a href="/News/ListT/xslw" >学术论文</a></li>
+                                            <li ><a href="/News/ListT/kyxm" >科研项目</a></li>
+                                            <li ><a href="http://www.ahm.cn//Preview/NewsDetails/xswy?nid=10405" >学术委员会</a></li>
+                                </ul>
+                        </li>
+                        <li class="  active">
+                            <a href="/Activity/NewsList/sjhd" >活动</a>
+                                <ul class="secmenu">
+                                            <li ><a href="/News/ListT/wkt" >安博微课堂</a></li>
+                                            <li ><a href="/News/ListT/yjxss" >遇见小神兽</a></li>
+                                            <li ><a href="/Activity/NewsList/sjhd" >系列活动</a></li>
+                                            <li class="active"><a href="/Activity/NewsList/wbjt" >安徽文博讲堂</a></li>
+                                            <li ><a href="/Activity/NewsList/whyj" >专题活动</a></li>
+                                </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="/Service/Index/Service" >服务</a>
+                                <ul class="secmenu">
+                                            <li ><a href="/Service/Guide/cgzn" >参观指南</a></li>
+                                            <li ><a href="/Service/DigitalMuseum/szbwg" >数字博物馆</a></li>
+                                            <li ><a href="/Service/Leaveword/zxzx" >在线咨询</a></li>
+                                            <li ><a href="/Service/ArtGoods/whcycp" >文化创意产品</a></li>
+                                            <li ><a href="/Service/ListVideo/spjj" >视频集锦</a></li>
+                                            <li ><a href="/Service/ExhibitApplication/lszbsb" >临时展览申办</a></li>
+                                            <li ><a href="/Service/MuseumFriend/bwgzy" >博物馆之友</a></li>
+                                            <li ><a href="/Service/Volunteer/zyzzc" >志愿者之窗</a></li>
+                                </ul>
+                        </li>
+        </ul>
+        <ul class="quickmenu">
+            <li class="barrierfree">
+                <a href="http://www.ahm.cn:8083/.m/turbowas/wza_ahm.html"><span><i></i>无障碍</span></a>
+            </li>
+            <li class="login">
+                <!--<i class="imgstyle"><img src="../Images/common/iconlogin.png"/></i>-->
+                    <span><i></i>登录</span>
+                    <ul class="down">
+                        <li><a href="/Account/Login?backUrl=https://www.ahm.cn/Activity/NewsList/wbjt">登录</a></li>
+                        <li><a href="/Account/Register">注册</a></li>
+                    </ul>
+                    <input type="hidden" id="isLogin" data-value="0" />
+            </li>
+            <li class="language">
+                <span><i></i>中 / En</span>
+                <ul class="down">
+                    <li><a href="/Home/Index">中文</a></li>
+                    <li><a href="/En/Home/Index" target="_blank">English</a></li>
+                </ul>
+            </li>
+            <li class="search"><a href="/Other/FullTextSearch" target="_blank"><span><i></i>搜索</span></a></li>
+        </ul>
+    </div>
+    <div class="secmenu-bg"></div>
+</div>
+<div class="totop" id="totop"></div>
+
+<!--访问-->
+<input type="hidden" id="channelno" value="wbjt" />
+<input type="hidden" id="channelname" value="安徽文博讲堂" />
+<input type="hidden" id="userid" value="0" />
+<input type="hidden" id="username" value="访客" />
+<script src="/Contents/Scripts/Sata.js" type="text/javascript"></script>
+<script src="/Contents/Scripts/header.js" type="text/javascript"></script>
+<script>
+    //注销
+    function Logout() {
+        $.ajax({
+            url: '/AjaxAccount/LogOut',
+            type: 'POST',
+            success: function () {
+                location.reload();
+            }
+        });
+    }
+</script>
+    <div class="innercont">
+        <div class="allcenter">
+            <!-- 面包屑 -->
+            <div class="breadcrumb">
+    <ul>
+        <li><a href="/Home/Index">首页</a></li>
+
+        <li><i>»</i><a href="/Activity/NewsList/sjhd">活动</a></li>
+            <li><i>»</i><a href="/Activity/NewsList/wbjt">安徽文博讲堂</a></li>
+    </ul>
+    
+</div>
+
+            <!-- 一级标题 -->
+            
+
+<div class="maintitle">
+    <ul>
+        <li id="cszl">安徽文博讲堂</li>
+    </ul>
+    
+</div>
+
+            <!--内容-->
+            <div id="articles">
+                
+
+            <!-- 安徽文博讲堂 -->
+    <div class="activity-classroom nobg">
+        <ul class="font0">
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20200122/6371530115936388143831738.jpg" style="" title="安徽文博讲堂讲述春节习俗的变迁 (1)_副本.jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>01/22</p>
+                        <p>2020</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10686" target="_blank"><h3 class="ellipsis">安徽文博讲堂第五十三讲——安徽文博讲堂讲述春节习俗的变迁</h3></a>
+                        <p>随着传统春节脚步的逼近，各种年俗也被重新提起，值此庚子鼠年来临之际，安徽文博讲堂特邀请安徽大学社会学系副教授王云飞老师为大家进行“中国社会转型与传统春节习俗的变迁”讲...</p>
+                        <a href="/News/Details/wbjt?nid=10686" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20200115/6371467990597983153373066.jpg" title="安徽文博讲堂新年首场成功举办 (3)_副本.jpg" alt="安徽文博讲堂新年首场成功举办 (3)_副本.jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>01/15</p>
+                        <p>2020</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10664" target="_blank"><h3 class="ellipsis">安徽文博讲堂第五十二讲——安徽文博讲堂新年首场成功举办</h3></a>
+                        <p>1月12日下午，为重新唤起人们的年节文化记忆，烘托春节的欢乐祥和气氛，安徽文博讲堂特邀请故宫博物院副研究馆员展梦夏老师以“文物有话说：紫禁城里过大年”为题，向观众们讲...</p>
+                        <a href="/News/Details/wbjt?nid=10664" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  title="安徽文博讲堂倾情讲述淮北历史文化 (2)_副本.jpg" alt="安徽文博讲堂倾情讲述淮北历史文化 (2)_副本.jpg" src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20191218/6371227599307949309733875.jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>12/18</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10620" target="_blank"><h3 class="ellipsis">安徽文博讲堂第五十一讲——安徽文博讲堂倾情讲述淮北历史文化</h3></a>
+                        <p>12月15日下午，安徽博物院新馆一楼报告厅内人头攒动，座无虚席，来自淮北师范大学的傅瑛教授，为大家带来：“远去的辉煌——淮北历史文化谈”的专题讲座。傅瑛老师从大淮北圈...</p>
+                        <a href="/News/Details/wbjt?nid=10620" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  title="安徽文博讲堂揭秘考古学视野下的安徽繁昌窑 (1)_副本.jpg" alt="安徽文博讲堂揭秘考古学视野下的安徽繁昌窑 (1)_副本.jpg" src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20191204/6371105319171914666155949.jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>12/04</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10590" target="_blank"><h3 class="ellipsis">安徽文博讲堂第五十讲——安徽文博讲堂揭秘考古学视野下的安徽繁昌窑</h3></a>
+                        <p>　　11月30日下午，寒冷的冬日细雨没有阻挡观众们的脚步，安徽博物院老馆“文博讲堂”报告厅内座无虚席，来自安徽省文物考古研究所的罗虎老师，为大家带来了“考古学视野下的...</p>
+                        <a href="/News/Details/wbjt?nid=10590" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20191024/6370750678785833482338780.jpg" style="" title="安徽文博讲堂回顾新中国70年安徽文化发展高峰3.jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>10/24</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10516" target="_blank"><h3 class="ellipsis">安徽文博讲堂第四十九讲——安徽文博讲堂回顾新中国70年安徽文化发展高峰</h3></a>
+                        <p>10月20日下午，安徽文博讲堂举办“庆祝新中国成立70周年”专题系列讲座之新中国70年安徽文化发展的三大高峰，邀请安徽省社科院当代安徽研究所所长邢军研究员，带领大家回...</p>
+                        <a href="/News/Details/wbjt?nid=10516" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20191016/6370683835824310022987965.jpg" title="安徽文博讲堂展现一个动态的养心殿 (2)_副本.jpg" alt="安徽文博讲堂展现一个动态的养心殿 (2)_副本.jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>10/16</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10503" target="_blank"><h3 class="ellipsis">安徽文博讲堂第四十八讲——安徽文博讲堂展现一个动态的养心殿</h3></a>
+                        <p>10月13日下午，伴随着空灵的古琴曲《流水》，安徽文博讲堂新一期“打开养心殿之门——倾听策展人不一样的讲述”开讲了，来自故宫博物院的刘国梁老师，为观众们揭开了养心殿—...</p>
+                        <a href="/News/Details/wbjt?nid=10503" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20190926/6370508917023350592802782.jpg" style="" title="庆祝新中国成立70周年 安徽文博讲堂讲述开国文物背后的故事 (2).jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>09/26</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10502" target="_blank"><h3 class="ellipsis">安徽文博讲堂第四十七讲——庆祝新中国成立70周年　安徽文博讲堂讲述开国文物背后的故事</h3></a>
+                        <p>9月22日下午，为庆祝新中国成立70周年，安徽文博讲堂特邀中国国家博物馆党史专家常瑞卿老师为观众讲述五星红旗、国徽、国歌、开国大典油画等中国国家博物馆馆藏开国文物的背...</p>
+                        <a href="/News/Details/wbjt?nid=10502" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20190902/6370303158211865154273908.jpg" style="" title="安徽文博讲堂讲述清皇室藏传佛教信仰 (3).jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>09/02</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10463" target="_blank"><h3 class="ellipsis">安徽文博讲堂第四十六讲——安徽文博讲堂讲述清皇室藏传佛教信仰</h3></a>
+                        <p>8月30日晚，安博暑期夜场活动迎来第二场文博讲堂讲座，再次座无虚席。热情洋溢的观众早早来到报告厅等待主讲老师，来自故宫博物院的文明老师从养心殿佛堂探析清皇室的藏传佛教...</p>
+                        <a href="/News/Details/wbjt?nid=10463" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox fl">
+                        <div class="imgstyle">
+<img  src="https://file.ahm.cn:444/AnHuiMuseum/富文本编辑器文件/EditorImage/20190821/6370200384953683849715971.jpg" title="安徽文博讲堂举办“庆祝新中国成立70周年”专题系列讲座 (2)_副本.jpg" alt="安徽文博讲堂举办“庆祝新中国成立70周年”专题系列讲座 (2)_副本.jpg"/>                        </div>
+                    </div>
+                    <div class="date fr">
+                        <p>08/21</p>
+                        <p>2019</p>
+                    </div>
+                    <div class="cont">
+                        <a href="/News/Details/wbjt?nid=10441" target="_blank"><h3 class="ellipsis">安徽文博讲堂第四十五讲——安徽文博讲堂举办“庆祝新中国成立70周年”专题系列讲座</h3></a>
+                        <p>为庆祝新中国成立70周年，近期安徽博物院安排了系列专题讲座。8月16日下午，安徽文博讲堂邀请原陆军军官学院毛宗山教授为观众带来了一场精彩的国防安全知识讲座，让大家更全...</p>
+                        <a href="/News/Details/wbjt?nid=10441" target="_blank" class="view-more">查看详情</a>
+                    </div>
+                </li>
+        </ul>
+    </div>
+    <div id="pager" class="digg">
+        
+<!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://www.webdiyer.com)-->
+<ul class="pages" data-ajax="true" data-ajax-dataformid="#searchForm" data-ajax-method="Post" data-ajax-update="#articles" data-gotobutton="#btngo" data-invalidpageerrmsg="页索引无效" data-outrangeerrmsg="页索引超出范围" data-pagecount="6" data-pageindexbox="#pid" data-pageparameter="page" data-pagerid="Webdiyer.MvcPager" data-urlformat="/Activity/NewsList/wbjt?page=__page__" id="pager"><li class="disabled"><a>首页</a></li><li class="disabled"><a>上一页</a></li><li class="active"><a href="#">1</a></li><li><a data-pageindex="2" href="/Activity/NewsList/wbjt?page=2">2</a></li><li><a data-pageindex="3" href="/Activity/NewsList/wbjt?page=3">3</a></li><li><a data-pageindex="4" href="/Activity/NewsList/wbjt?page=4">4</a></li><li><a data-pageindex="5" href="/Activity/NewsList/wbjt?page=5">5</a></li><li><a data-pageindex="6" href="/Activity/NewsList/wbjt?page=6">6</a></li><li><a data-pageindex="2" href="/Activity/NewsList/wbjt?page=2">下一页</a></li><li><a data-pageindex="6" href="/Activity/NewsList/wbjt?page=6">尾页</a></li></ul>
+<!--MvcPager v3.0.1 for ASP.NET MVC 4.0+ © 2009-2015 Webdiyer (http://www.webdiyer.com)-->
+
+        
+        <div class="pageinfo">
+            <input type="text" id="pid" value="1" />
+            <input type="button" id="btngo" value="跳转" />
+            <p>总记录数：<span>52</span></p>
+            <p>总页数：<span>6</span></p>
+        </div>
+        
+    </div>
+
+
+<script>
+    $(".act-serieslist li .imgstyle").each(function () {
+        changeSize($(this));
+    });
+    $(".activity-edu .imgstyle").each(function () {
+        changeSize($(this));
+    });
+    $(".activity-classroom .imgstyle").each(function () {
+        changeSize($(this));
+    });
+    $(".exhibition-review .imgstyle").each(function () {
+        changeSize($(this));
+    });
+    $(".activity-culture .imgstyle").each(function () {
+        changeSize($(this));
+    });
+
+    var IsAjax = "False";
+    if (IsAjax == "True") {
+        //重新定位
+        $("html, body").animate({
+            scrollTop: $("#articles").offset().top
+        }, 200);
+    }
+</script>
+            </div>
+        </div>
+    </div>
+    
+<div class="footer">
+    <div class="footer-top clearfix">
+        <div class="left">
+            <a href="/Home/Index" class="logo">
+                <img src="/Contents/Images/common/footer-logo.png" />
+            </a>
+            <a href="/Service/Index/Service?type=old" target="_blank"><p>老馆：安徽省合肥市安庆路268号</p></a>
+            <a href="/Service/Index/Service?type=new" target="_blank"><p>新馆：安徽省合肥市怀宁路268号</p></a>
+
+        </div>
+        <ul class="center">
+            <li>
+                <p><img src="/Contents/Images/common/QR-code.png" /></p>
+                <p>微博</p>
+            </li>
+            <li>
+                <p><img src="/Contents/Images/common/wx-code.png" /></p>
+                <p>微信</p>
+            </li>
+            <li>
+                <p><img src="/Contents/Images/common/wjdc-code.jpg" /></p>
+                <a href="/Other/QuestionnaireList" target="_blank">
+                    <p>问卷调查</p>
+                </a>
+            </li>
+        </ul>
+        <ul class="right clearfix">
+                        <li >
+                            
+                            <span>
+                                <a href="/News/Survey/abjj" >概况</a>
+                            </span>
+                                    <a href="/News/Survey/abjj" >安博简介</a>
+                                    <a href="/News/Organization/zzjg" >组织架构</a>
+                                    <a href="/News/ListEvents/dsly" >大事掠影</a>
+                        </li>
+                        <li >
+                            
+                            <span>
+                                <a href="/News/List/abxw" >资讯</a>
+                            </span>
+                                    <a href="/News/List/abxw" >安博新闻</a>
+                                    <a href="/Activity/List/hdyg" >活动预告</a>
+                                    <a href="/News/ListT/tzgg" >最新公开</a>
+                                    <a href="/News/PIndex/abdj" >安博党建</a>
+                                    <a href="/News/ListT/ddjs" >文明创建</a>
+                        </li>
+                        <li >
+                            
+                            <span>
+                                <a href="/Exhibition/TListNow/xztj" >展览</a>
+                            </span>
+                                    <a href="/Exhibition/TListNow/xztj" >新展推介</a>
+                                    <a href="/Exhibition/BList/cszl" >常设展览</a>
+                                    <a href="/Exhibition/TListAgo/zlhg" >展览回顾</a>
+                        </li>
+                        <li >
+                            
+                            <span>
+                                <a href="/Collection/Index/Collection" >藏品</a>
+                            </span>
+                                    <a href="/Collection/ListSpecial/tbjj" >特别推荐</a>
+                                    <a href="/Collection/Index/dcjx" >典藏精选</a>
+                                    <a href="/Collection/DonateList/jzyd" >捐赠园地</a>
+                        </li>
+                        <li >
+                            
+                            <span>
+                                <a href="/Research/BookList/qklz" >研究</a>
+                            </span>
+                                    <a href="/Research/BookList/qklz" >期刊论著</a>
+                                    <a href="/News/ListT/xslw" >学术论文</a>
+                                    <a href="/News/ListT/kyxm" >科研项目</a>
+                                    <a href="http://www.ahm.cn//Preview/NewsDetails/xswy?nid=10405" >学术委员会</a>
+                        </li>
+                        <li >
+                            
+                            <span>
+                                <a href="/Activity/NewsList/sjhd" >活动</a>
+                            </span>
+                                    <a href="/News/ListT/wkt" >安博微课堂</a>
+                                    <a href="/News/ListT/yjxss" >遇见小神兽</a>
+                                    <a href="/Activity/NewsList/sjhd" >系列活动</a>
+                                    <a href="/Activity/NewsList/wbjt" >安徽文博讲堂</a>
+                                    <a href="/Activity/NewsList/whyj" >专题活动</a>
+                        </li>
+                        <li >
+                            
+                            <span>
+                                <a href="/Service/Index/Service" >服务</a>
+                            </span>
+                                    <a href="/Service/Guide/cgzn" >参观指南</a>
+                                    <a href="/Service/DigitalMuseum/szbwg" >数字博物馆</a>
+                                    <a href="/Service/Leaveword/zxzx" >在线咨询</a>
+                                    <a href="/Service/ArtGoods/whcycp" >文化创意产品</a>
+                                    <a href="/Service/ListVideo/spjj" >视频集锦</a>
+                                    <a href="/Service/ExhibitApplication/lszbsb" >临时展览申办</a>
+                                    <a href="/Service/MuseumFriend/bwgzy" >博物馆之友</a>
+                                    <a href="/Service/Volunteer/zyzzc" >志愿者之窗</a>
+                        </li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <nav>
+            <a href="javascript:void(0);">
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_4531138'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D4531138%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+            </a>
+            <a href="javascript:void(0);" onclick="openNavbar(this)">网站地图</a>
+            <a href="/Other/Link" target="_blank">友情链接</a>
+            
+            <a href="/Service/Leaveword/zxzx" target="_blank">常见问题</a>
+            <a href="/Service/LeavewordForm/zxzx" target="_blank">联系我们</a>
+            <a href="javascript:void(0)" class="visit-a">浏览建议<div class="visit-suggest">火狐 谷歌 360极速浏览器 最佳分辨率(1366*768)</div></a>
+        </nav>
+        <p>
+            安徽博物院版权所有 &nbsp&nbsp;&nbsp;皖ICP备17004114号
+            &nbsp;&nbsp;
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34010302001166" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;" />皖公网安备34010302001166号</a>
+        </p>
+        <p>未经允许不得擅自盗用本网站照片或文字，否则追究法律责任</p>
+
+    </div>
+    <div class="navbar">
+        <a href="javascript:;" class="close" onclick="closeNavbar(this)"></a>
+        <ul class="clearfix">
+                        <li>
+                            <span>
+                                <a href="/Home/Index" >首页</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="/News/Survey/abjj" >概况</a>
+                            </span>
+                                    <a href="/News/Survey/abjj" >安博简介</a>
+                                    <a href="/News/Organization/zzjg" >组织架构</a>
+                                    <a href="/News/ListEvents/dsly" >大事掠影</a>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="/News/List/abxw" >资讯</a>
+                            </span>
+                                    <a href="/News/List/abxw" >安博新闻</a>
+                                    <a href="/Activity/List/hdyg" >活动预告</a>
+                                    <a href="/News/ListT/tzgg" >最新公开</a>
+                                    <a href="/News/PIndex/abdj" >安博党建</a>
+                                    <a href="/News/ListT/ddjs" >文明创建</a>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="/Exhibition/TListNow/xztj" >展览</a>
+                            </span>
+                                    <a href="/Exhibition/TListNow/xztj" >新展推介</a>
+                                    <a href="/Exhibition/BList/cszl" >常设展览</a>
+                                    <a href="/Exhibition/TListAgo/zlhg" >展览回顾</a>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="/Collection/Index/Collection" >藏品</a>
+                            </span>
+                                    <a href="/Collection/ListSpecial/tbjj" >特别推荐</a>
+                                    <a href="/Collection/Index/dcjx" >典藏精选</a>
+                                    <a href="/Collection/DonateList/jzyd" >捐赠园地</a>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="/Research/BookList/qklz" >研究</a>
+                            </span>
+                                    <a href="/Research/BookList/qklz" >期刊论著</a>
+                                    <a href="/News/ListT/xslw" >学术论文</a>
+                                    <a href="/News/ListT/kyxm" >科研项目</a>
+                                    <a href="http://www.ahm.cn//Preview/NewsDetails/xswy?nid=10405" >学术委员会</a>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="/Activity/NewsList/sjhd" >活动</a>
+                            </span>
+                                    <a href="/News/ListT/wkt" >安博微课堂</a>
+                                    <a href="/News/ListT/yjxss" >遇见小神兽</a>
+                                    <a href="/Activity/NewsList/sjhd" >系列活动</a>
+                                    <a href="/Activity/NewsList/wbjt" >安徽文博讲堂</a>
+                                    <a href="/Activity/NewsList/whyj" >专题活动</a>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="/Service/Index/Service" >服务</a>
+                            </span>
+                                    <a href="/Service/Guide/cgzn" >参观指南</a>
+                                    <a href="/Service/DigitalMuseum/szbwg" >数字博物馆</a>
+                                    <a href="/Service/Leaveword/zxzx" >在线咨询</a>
+                                    <a href="/Service/ArtGoods/whcycp" >文化创意产品</a>
+                                    <a href="/Service/ListVideo/spjj" >视频集锦</a>
+                                    <a href="/Service/ExhibitApplication/lszbsb" >临时展览申办</a>
+                                    <a href="/Service/MuseumFriend/bwgzy" >博物馆之友</a>
+                                    <a href="/Service/Volunteer/zyzzc" >志愿者之窗</a>
+                        </li>
+        </ul>
+
+    </div>
+</div>
+<script>
+    function openNavbar() {
+        $(".navbar").fadeIn(300);
+        $(document.body).css("overflow", "hidden");
+    }
+    function closeNavbar() {
+        $(".navbar").fadeOut(300);
+        $(document.body).css("overflow", "auto");
+    }
+</script>
+</body>
+</html>

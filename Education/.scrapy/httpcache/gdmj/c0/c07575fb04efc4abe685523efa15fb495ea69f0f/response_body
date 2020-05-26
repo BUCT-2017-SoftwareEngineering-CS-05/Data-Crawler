@@ -1,0 +1,546 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/MYwebsite/adminManagement/xcxhtml/bowuguan/layui-v2.5.1/layui/css/layui.css">
+<link rel="stylesheet" type="text/css" href="/MYwebsite/adminManagement/mycss/gong.css">
+<title>广东民间工艺博物馆</title>
+		<style type="text/css">
+			.top{
+				background: #11696D !important;
+			}
+			.active{
+				/*background: #148491 !important;*/
+				background-image: url(/MYwebsite/adminManagement/img/选中bj2.png);
+				background-size: 100% 100%;
+			}
+			/*.zhong{
+				height: 00px;
+			}*/
+			
+			.dz h3 span{
+				color: #336970 !important;
+			}
+			.zhong .lb{
+				height: auto !important;
+			}
+			.benguan{  
+				width: 100%;
+				overflow: hidden;
+				min-height: 800px;
+				background-image: url(/MYwebsite/adminManagement/img/详情2bj.png);
+				background-size: 100% 100%;
+				position: relative;
+			}
+			.sz{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+			.biao{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+			.box{
+				width: 62%;
+				min-width: 900px;
+				overflow: hidden;
+				margin:  0 auto;
+				padding: 20px 0 80px 0;
+				box-sizing: border-box;
+			}
+			
+			/*导航*/
+			.daohang{
+				height: 40px;
+			}
+			.daohang a{
+				font-size: 14px;
+				font-weight: 600;
+			}
+			.daohang a:hover{
+				color: #000;
+			}
+			.box2{
+				width: 100%;
+				overflow: hidden;
+			}
+			.zuo{
+				width: 240px;
+				overflow: hidden;
+				float: left;
+				background: #fff;
+				margin-right: 20px;
+			}
+			.zuo img{
+				width: 100%;
+				height: 80px;
+			}
+			.zuo ul{
+				width: 100%;
+				height: 570px;
+				padding: 40px 0;
+				box-sizing: border-box;
+			}
+			.zuo ul li{
+				height: 60px;
+				line-height: 60px;
+				text-align: center;
+				cursor: pointer;
+				font-size:18px;
+				font-family:PingFang SC;
+				font-weight:bold;
+				color:rgba(13,130,142,1);
+			}
+			.xuanze{
+				background: #D0E7E6;
+			}
+			.right{
+				width: calc(100% - 260px);
+				overflow: hidden;
+				background: #fff;
+				float: left;
+				padding: 0 30px;
+				box-sizing: border-box;
+				height: 650px;
+				padding: 30px;
+				box-sizing: border-box;
+			}
+			/*分页*/
+			.fy{text-align: center;margin-top: 10px;}
+			.right .shuju{
+				width: 100%;
+				height: 540px;
+			}
+			.right .shuju li{
+				width: 31%;
+				height: 160px;
+				margin: 1%;
+				float: left;
+				text-align: center;
+				background-image: url(/MYwebsite/adminManagement/img/框3.png);
+				background-size: 100% 100%;
+				position: relative;
+			}
+			.right .shuju li a{
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			.right .shuju li a img{
+				height: 100%;
+				max-width: 100%;
+			}
+			.right .shuju li a p{
+				width: 100%;
+				height: 35px;
+				background:rgba(13,130,142,0.4);
+				color: #fff;
+				line-height: 35px;
+				padding: 0 20px;
+				box-sizing: border-box;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				overflow: hidden;
+				text-overflow:ellipsis;
+				white-space: nowrap;
+			}
+			#kl4 .layui-btn{
+				position: absolute;
+			    right: 15px;
+			    bottom: 26px;
+			}
+		</style>
+<link id="layuicss-laydate" rel="stylesheet" href="http://www.gzchenjiaci.com/MYwebsite/adminManagement/css/modules/laydate/default/laydate.css?v=5.0.9" media="all"><link id="layuicss-layer" rel="stylesheet" href="http://www.gzchenjiaci.com/MYwebsite/adminManagement/css/modules/layer/default/layer.css?v=3.1.1" media="all"><link id="layuicss-skincodecss" rel="stylesheet" href="http://www.gzchenjiaci.com/MYwebsite/adminManagement/css/modules/code.css" media="all"></head>
+<body style="">
+	<div class="top">
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/MYwebsite/adminManagement/xcxhtml/bowuguan/layui-v2.5.1/layui/css/layui.css">
+<link rel="stylesheet" type="text/css" href="/MYwebsite/adminManagement/mycss/gong.css">
+<title>广东民间工艺博物馆</title>
+<style type="text/css">
+	
+</style>
+
+
+	<div class="sousuo">
+		<div class="sousuo1">
+			<!-- <a href="en_index.htm">English</a>&nbsp;&nbsp;&nbsp;丨 -->
+			<p>&nbsp;&nbsp;&nbsp;<a href="javascript:denglu();"><i class="layui-icon" style="font-size: 12px;"></i>&nbsp;<span id="zt">立即登录</span></a>&nbsp;&nbsp;&nbsp;丨&nbsp;&nbsp;&nbsp;<a href="my_zhuce.htm">注册</a></p>
+			<input type="text" id="titles1">
+			<i class="layui-icon ss"></i>
+		</div>	
+	</div>
+	<!--导航-->
+	<div class="dh">
+		<div class="logo">
+			<img src="/MYwebsite/adminManagement/img/logo.png">
+		</div>
+		<ul>
+			<li id="li1"><a href="/MYwebsite/rc/my_index.htm">首页</a></li>
+			<li id="li2"><a href="/MYwebsite/rc/my_jianjie.htm">概况</a></li>
+			<li id="li3"><a href="/MYwebsite/rc/my_guanneizixun.htm">资讯</a></li>
+			<li id="li4"><a href="/MYwebsite/rc/my_gongzhongfuwu.htm">服务</a></li>
+			<li id="li5"><a href="/MYwebsite/rc/my_guanzhigushi.htm">馆址故事</a></li>
+			<li id="li6"><a href="/MYwebsite/rc/my_zhanlan.htm">展览</a></li>
+			<li id="li7"><a href="/MYwebsite/rc/my_cangping.htm">藏品</a></li>
+			<li id="li8" class="active"><a href="/MYwebsite/rc/my_jiaoyu.htm">教育</a></li>
+			<li id="li9"><a href="/MYwebsite/rc/my_yanjiutiandi.htm">研究</a></li>
+		</ul>
+	</div>
+
+<script src="/MYwebsite/adminManagement/layui.all.js"></script>
+<script src="/MYwebsite/adminManagement/xcxhtml/bowuguan/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+		$('.ss').click(function(){
+
+			if($("#titles1").val().replace(/\s/g,"") == ''){
+				return false;
+			}else{
+				window.location.href="my_sosuoliebiao.htm?_htm="+$("#titles1").val();
+			} 
+			
+			
+		})
+		
+		$('.logo').click(function(){
+			window.location.href = '/MYwebsite/rc/my_index.htm';
+		})
+		
+		 var ZPhone = 'null';  
+		function denglu(){
+             if(ZPhone == 'null'){
+            	 window.location.href = '/MYwebsite/rc/my_denglu.htm';
+             }else{
+            	 window.location.href = '/MYwebsite/rc/my_gerenzhongxin.htm';
+             }
+		}
+		
+		
+		if(ZPhone == 'null'){
+			$('#zt').text('立即登录')       		
+        }else{
+       	 	$('#zt').text('个人中心')
+        }
+		
+		//回车事件
+		$('#titles1').bind('keydown',function(event){
+			var event = window.event || arguments.callee.caller.arguments[0];
+			if (event.keyCode == 13){
+                window.location.href="my_sosuoliebiao.htm?_htm="+$("#titles1").val();
+            }
+		})
+		
+	</script>
+</div>
+	<div class="zhong">
+		<!--轮播图-->
+		<div class="lb">
+			<div class="layui-carousel" id="test1" lay-anim="fade" style="width: 100%; height: 318.438px;">
+				<div carousel-item="">
+					<div class="layui-this"><img src="/MYwebsite/adminManagement/img/教育2.png"></div>
+			  	</div>
+			</div>
+		</div>
+		
+		<div class="benguan">
+			<img src="/MYwebsite/adminManagement/img/sz.png" alt="" class="sz">
+			<img src="/MYwebsite/adminManagement/img/biao.png" alt="" class="biao">
+			<div class="box">
+				<h3 class="daohang"><a href="/MYwebsite/rc/my_index.htm">首页</a>&nbsp;&gt;&nbsp;<a href="/MYwebsite/rc/my_jiaoyu.htm">教育</a>&nbsp;&gt;&nbsp;<a href="javascript:;">教育园地</a></h3>
+				
+				<div class="box2">
+					<div class="zuo">
+						<img src="/MYwebsite/adminManagement/img/黄块.png">
+						<ul class="zz">
+							<li id="xzhon1" class="xuanze">教育课程</li>
+							<li id="xzhon2">图片巡展</li>
+							<li id="xzhon3">教育资源</li>
+							<li id="xzhon4">教育顾问团</li>
+						</ul>
+					</div>
+					<div class="right layui-tab-item layui-show" id="kl1">
+						<ul class="shuju shuju1">
+							
+						<li>										<a href="my_jy_xq.htm?_htm=3518a4ab&amp;returnlx=1&amp;lx=j7yk7e&amp;lxs=27">											<img src="/MYwebsite/MY/uploadfile/Article/2020-01-101578623258276/2020-01-101578623517439.jpg">											<p>《广州百年风情》综合实践课程</p>										</a>									</li><li>										<a href="my_jy_xq.htm?_htm=560c3ca6&amp;returnlx=1&amp;lx=j7yk7e&amp;lxs=27">											<img src="/MYwebsite/MY/uploadfile/Article/2020-01-101578623523060/2020-01-101578623790067.jpg">											<p>《外销扇的故事》系列手工课程</p>										</a>									</li><li>										<a href="my_jy_xq.htm?_htm=8dfb1611&amp;returnlx=1&amp;lx=j7yk7e&amp;lxs=27">											<img src="/MYwebsite/MY/uploadfile/Article/2020-01-101578624257871/2020-01-101578624422468.jpg">											<p>《传统工艺课堂之剪纸》课程</p>										</a>									</li><li>										<a href="my_jy_xq.htm?_htm=959f0ccf&amp;returnlx=1&amp;lx=j7yk7e&amp;lxs=27">											<img src="/MYwebsite/MY/uploadfile/Article/2020-01-101578623818817/2020-01-101578624078402.jpg">											<p>《传统工艺课堂之广彩》课程</p>										</a>									</li><li>										<a href="my_jy_xq.htm?_htm=a56677d0&amp;returnlx=1&amp;lx=j7yk7e&amp;lxs=27">											<img src="/MYwebsite/MY/uploadfile/Article/2020-01-101578624084539/2020-01-101578624255188.jpg">											<p>《传统工艺课堂之广绣》课程</p>										</a>									</li><li>										<a href="my_jy_xq.htm?_htm=ebccc727&amp;returnlx=1&amp;lx=j7yk7e&amp;lxs=27">											<img src="/MYwebsite/MY/uploadfile/Article/2020-01-101578624427404/2020-01-101578624623676.jpg">											<p>品古祠建筑装饰中的故事”系列活动</p>										</a>									</li><li>										<a href="my_jy_xq.htm?_htm=251d0e73&amp;returnlx=1&amp;lx=j7yk7e&amp;lxs=27">											<img src="/MYwebsite/MY/uploadfile/Article/2019-12-091575834735189/2019-12-091575834881307.jpg">											<p>《传统工艺课堂之剪纸》</p>										</a>									</li><li>										<a href="my_jy_xq.htm?_htm=c73afbb0&amp;returnlx=1&amp;lx=j7yk7e&amp;lxs=27">											<img src="/MYwebsite/MY/uploadfile/Article/2019-12-091575834238800/2019-12-091575834493281.jpg">											<p>《传统工艺课堂之广彩和广绣》</p>										</a>									</li></ul>
+						<div id="demo1" class="fy"><div class="layui-box layui-laypage layui-laypage-default" id="layui-laypage-1"><a href="javascript:;" class="layui-laypage-prev layui-disabled" data-page="0">&lt;</a><span class="layui-laypage-curr"><em class="layui-laypage-em"></em><em>1</em></span><a href="javascript:;" class="layui-laypage-next layui-disabled" data-page="2">&gt;</a></div></div>
+					</div>
+					<div class="right layui-tab-item" id="kl2">
+						<ul class="shuju shuju2">
+							 
+						</ul>
+						<div id="demo2" class="fy"></div>
+					</div>
+					<div class="right layui-tab-item" id="kl3">
+						<ul class="shuju shuju3">
+							
+						</ul>
+						<div id="demo3" class="fy"></div>
+					</div>
+					<div class="right layui-tab-item" id="kl4" style="position: relative;">
+						<ul class="shuju shuju4">
+							
+						</ul>
+						<div id="demo4" class="fy"></div>
+						<a href="my_zhuce.htm" class="layui-btn">注册教育顾问团</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="xia">
+		<iframe src="/MYwebsite/rc/my_botton.htm" width="100%" height="175px;" frameborder="0"  ="" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+	</div>
+
+<script src="/MYwebsite/adminManagement/layui.all.js"></script>
+<script src="/MYwebsite/adminManagement/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+		$('.top').load('/MYwebsite/rc/my_top.htm',function(){
+			$('#li8').addClass('active').siblings().removeClass('active');
+		});
+		//$('.xia').load('/MYwebsite/rc/my_botton.htm');
+		$('.you li').click(function(){
+			$(this).addClass('active').siblings().removeClass('active');
+			$(this).find('span').css('color','#fff').parent().parent().siblings().find('span').css('color','#3F79AE')
+		})
+		
+		//我的图片比例
+		var b = 1920/600;
+		
+		//获取浏览器宽度
+		var w = $(window).width();
+		var h = $(window).height();
+		
+		var lxs = GetQueryString("lxs")
+		layui.use(['carousel','laypage'], function(){
+				var carousel = layui.carousel,
+					laypage = layui.laypage;
+			//建造实例
+			carousel.render({
+				elem: '#test1',
+				width: '100%', //设置容器宽度
+				height: (w/b).toString()+'px',
+				interval: '3000', //自动切换时间
+				anim: 'fade',//切换动画方式
+			});
+			
+			if(lxs == null){
+				lxs = 27
+			}else if(lxs == 29){
+				$('#xzhon2').addClass('xuanze').siblings().removeClass('xuanze');
+			}else if(lxs == 28){
+				$('#xzhon3').addClass('xuanze').siblings().removeClass('xuanze');
+			}else if(lxs == 30){
+				var returnlx = GetQueryString("returnlx")
+				if(returnlx == null){
+					returnlx = 1;
+				}
+				paging(returnlx,30,'shuju4');
+				$('#kl4').addClass('layui-show').siblings().removeClass('layui-show')
+				
+				$('#xzhon4').addClass('xuanze').siblings().removeClass('xuanze');
+				
+				//教育顾问团
+			  	laypage.render({
+			  		elem: 'demo4',
+			    	prev: '<',
+			    	next: '>',
+			    	curr: returnlx,
+				    limit: 9, //显示当前数据
+			    	count: countnum, //数据总数
+			    	jump: function(obj, first){ //触发分页后的回调
+			    		
+		                 if(!first){ //点击跳页触发函数自身，并传递当前页：obj.curr
+		               	  $(".shuju").html('');//先清空原先内容
+		                     paging(obj.curr,30,'shuju4');
+		                 }
+			  		}
+			  	});
+			}
+			
+			
+			$('.zz li').click(function(){
+				$(this).addClass('xuanze').siblings().removeClass('xuanze');
+				
+				if($(this).text() == '教育课程'){
+					$(".shuju").html('');//先清空原先内容
+					var returnlx = GetQueryString("returnlx")
+					if(returnlx == null){
+						returnlx = 1;
+					}
+					paging(returnlx,27,'shuju1'); 
+					$('#kl1').addClass('layui-show').siblings().removeClass('layui-show')
+					
+					
+					laypage.render({
+				    	elem: 'demo1',
+				    	prev: '<',
+				    	next: '>',
+				    	curr: returnlx,
+				    	limit: 9, //显示当前数据
+				    	count: countnum, //数据总数
+				    	jump: function(obj, first){ //触发分页后的回调
+				    		
+			                 if(!first){ //点击跳页触发函数自身，并传递当前页：obj.curr
+			               	  $(".shuju").html('');//先清空原先内容
+			                     paging(obj.curr,27,'shuju1');
+			                 }
+				  		}
+				  	});
+				}else if($(this).text() == '图片巡展'){
+					$(".shuju2").html('');//先清空原先内容
+					var returnlx = GetQueryString("returnlx")
+					if(returnlx == null){
+						returnlx = 1;
+					}
+					paging(returnlx,29,'shuju2');
+					$('#kl2').addClass('layui-show').siblings().removeClass('layui-show')
+					
+					//图片巡展
+				  	laypage.render({
+				  		elem: 'demo2',
+				    	prev: '<',
+				    	next: '>',
+				    	curr: returnlx,
+				    	limit: 9, //显示当前数据
+				    	count: countnum, //数据总数
+				    	jump: function(obj, first){ //触发分页后的回调
+			                 if(!first){ //点击跳页触发函数自身，并传递当前页：obj.curr
+			               	  $(".shuju").html('');//先清空原先内容
+			                     paging(obj.curr,29,'shuju2');
+			                 }
+				  		}
+				  	});
+				}else if($(this).text() == '教育资源'){
+					$(".shuju3").html('');//先清空原先内容
+					var returnlx = GetQueryString("returnlx")
+					if(returnlx == null){
+						returnlx = 1;
+					}
+					paging(returnlx,28,'shuju3');
+					$('#kl3').addClass('layui-show').siblings().removeClass('layui-show')
+					
+					//教育资源
+				  	laypage.render({
+				  		elem: 'demo3',
+				    	prev: '<',
+				    	next: '>',
+				    	curr: returnlx,
+				    	limit: 9, //显示当前数据
+				    	count: countnum, //数据总数
+				    	jump: function(obj, first){ //触发分页后的回调
+			                 if(!first){ //点击跳页触发函数自身，并传递当前页：obj.curr
+			               	  $(".shuju").html('');//先清空原先内容
+			                     paging(obj.curr,28,'shuju3');
+			                 }
+				  		}
+				  	});
+				}else{
+					$(".shuju4").html('');//先清空原先内容
+					var returnlx = GetQueryString("returnlx")
+					if(returnlx == null){
+						returnlx = 1;
+					}
+					paging(returnlx,30,'shuju4');
+					$('#kl4').addClass('layui-show').siblings().removeClass('layui-show')
+					
+					
+					
+				  	//教育顾问团
+				  	laypage.render({
+				  		elem: 'demo4',
+				    	prev: '<',
+				    	next: '>',
+					    limit: 9, //显示当前数据
+				    	count: countnum, //数据总数
+				    	jump: function(obj, first){ //触发分页后的回调
+				    		
+			                 if(!first){ //点击跳页触发函数自身，并传递当前页：obj.curr
+			               	  $(".shuju").html('');//先清空原先内容
+			                     paging(obj.curr,30,'shuju4');
+			                 }
+				  		}
+				  	});
+				}
+			})
+				
+			//教育课程
+			var countnum = 0;
+			
+			var returnlx = GetQueryString("returnlx")
+			if(returnlx == null){
+				returnlx = 1;
+			}
+			
+			paging(returnlx,lxs,'shuju1'); 
+			function paging(curr,lx,ul,lj){ 
+				$.ajax({
+					url: "/MYwebsite/rc/selectWAT",
+		            type: 'POST',
+		            cache:false,
+		            async:false,
+		            data: {
+		            	page:curr,
+		            	size:9,
+		            	articletype:lx,
+		            	auditstatus:2
+		            },
+		            success: function(obj){
+		            	
+		            	countnum = obj.count; 
+		            	
+		            	var li = '';
+		            	if(obj.data.length == 0){
+							li = '<li style="background: none;width: 100%;font-size: 20px;text-align: center;height: 400px;line-height: 400px;">暂无数据</li>';
+							$('.'+ul+'').append(li);
+		            	}else{
+		            		for(var i=0; i<obj.data.length; i++){
+			            		var li = '<li>\
+										<a href="my_jy_xq.htm?_htm='+obj.data[i].id+'&returnlx='+curr+'&lx=j7yk7e&lxs='+lx+'">\
+											<img src="/MYwebsite'+obj.data[i].imgurl+'"/>\
+											<p>'+obj.data[i].title+'</p>\
+										</a>\
+									</li>';
+							$('.'+ul+'').append(li); 
+			            	}
+		            	} 
+		            }
+				})
+			}
+			
+			
+			laypage.render({
+		    	elem: 'demo1',
+		    	prev: '<',
+		    	next: '>',
+		    	curr: returnlx,
+		    	limit: 9, //显示当前数据
+		    	count: countnum, //数据总数
+		    	jump: function(obj, first){ //触发分页后的回调
+		    		
+	                 if(!first){ //点击跳页触发函数自身，并传递当前页：obj.curr
+	               	  $(".shuju").html('');//先清空原先内容
+	                     paging(obj.curr,27,'shuju1');
+	                 }
+		  		}
+		  	});
+		  	
+		});
+		function GetQueryString(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+			var r = window.location.search.substr(1).match(reg);
+			if (r != null)
+				return unescape(r[2]);
+			return null;
+		}
+		
+		$(window).resize(function(){
+		    // setBanner();
+		    window.location.reload()
+		})
+	</script>
+</body></html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<base href="http://www.hainanmuseum.org/"/>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+		<script src="js/haibo.js" type="text/javascript" charset="utf-8"></script>
+		<title>服务中心 - 宣教之窗</title>
+	</head>
+	<body>
+		<div class="outerwrapper">
+			<div class="topline"></div>
+			<div class="contentbody">
+				
+								<div class="header">
+					<div class="logo"><img src="images/logo.png" /><a href="http://wenbo.cnki.net/" target="_blank;"><img src="images/logo_zw.png" /></a></div>
+					<div class="right">
+
+						
+						<div class="search fix">
+							<form name="form2" action="search" style="">
+							<input type="submit" class="searchbtn" value="" />
+							<input type="text" class="searchbox" name="search" value="" />
+							<input type="hidden" name="searchtype" value="fwzx">
+							</form>
+							
+						</div>
+						<div class="aboutmessage">
+							<span class="time">2020年05月21号&nbsp;星期四  </span>
+							<!--
+							<a class="lau" href="#">中文</a>
+							<span class="lau">/</span>
+							<a class="lau" href="#">English</a>
+							-->
+						</div>
+					</div>
+					<ul class="mainNav fix">
+						<li class=""><a href="" >首页</a></li>
+						<li class=""><a href="hbgk/jj ">海博概况</a></li>
+						<li class=""><a href="xwdt" >动态新闻</a></li>
+						<li class=""><a href="zlhd" >陈列展览</a></li>
+						<li class=""><a href="gcjp/gcjp" >馆藏精品</a></li>
+						<li class=""><a href="hnkg" >海南考古</a></li>
+						<li class=""><a href="wccp" >文创产品</a></li>
+						<li class=""><a href="fwzx"  class="on">服务中心</a></li>
+						<li class=""><a href="zjjs" >专家&学术</a></li>
+						<li class=""><a href="lxwm" >关于我们</a></li>
+					</ul>
+				</div>
+				<div class="heline"><div class="yingarea"></div></div>				
+				<div class="main fix">
+					<div class="content fix">
+						<div class="gleft">
+							<h1><span class="cn">服务中心</span><br /><span class="en">Service</span></h1>
+							<div class="left-nav">
+								<ul>
+									                   	<li><a href="fwzx/?tag_id=1">参观须知</a></li>
+                                    	<li><a href="fwzx/?tag_id=2">服务指南</a></li>
+                                    	<li><a href="fwzx/?tag_id=3">志愿者之家</a></li>
+                                    	<li><a href="fwzx/?tag_id=4">博物馆之友</a></li>
+                                    	<li class="wlcurrent"><a href="fwzx/?tag_id=6">宣教之窗</a></li>
+                                    	<li><a href="fwzx/?tag_id=7">直播讲解</a></li>
+                  
+								</ul>
+							</div>
+							
+                    <div class="aboutserve">
+											<h1 class="phone">服务台电话<br /><span class="tle">0898-65238891</span></h1>
+											<a class="ser-ab" href="lxwm/jtfw"><img src="images/gsb-1.png" alt="" /><br /><span>交通</span></a>
+											<a class="ser-ab" href="fwzx"><img src="images/gsb-2.png" alt="" /><br /><span>周边服务</span></a>
+											<a class="ser-ab" href="lxwm/cgyy"><img src="images/gsb-3.png" alt="" /><br /><span>参观预约</span></a>
+										</div>
+						</div>
+						<div class="gright">
+							<div class="new-header fix">
+								<h1>宣教之窗<br /><span class="en">Service</span></h1>
+							</div>
+							
+														<ul class="new-body">
+								                     <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=132">青花大世界  趣味乐陶陶<span class="time">2017-12-27</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=131"> 海南省博物馆2017年志愿者培训班结业仪式<span class="time">2017-12-19</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=130">海南省博物馆荣获“2017年海南省基层理论宣讲微视频大赛”三...<span class="time">2017-11-24</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=129">首场“青出于蓝 ——少儿社教活动”精彩回顾<span class="time">2017-11-14</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=128">“遇见·青花”系列社教活动<span class="time">2017-10-31</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=127">明月照攀丹 赏月青云桥 ——海南省博物馆中秋之夜特别活动<span class="time">2017-09-28</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=126">诵国学经典，享精彩人生——古代少儿班第二季活动圆满结束<span class="time">2017-09-28</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=125">省博巡展进基层  邀您免费来观展<span class="time">2017-09-15</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=124">省博古代少儿班第二季强势来袭！<span class="time">2017-08-23</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=123">雅言传承文明，经典滋润人生——省博物馆暑期古代少儿班29日正...<span class="time">2017-07-31</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=122">不羡神仙羡少年—古代少儿班招生进行时<span class="time">2017-07-22</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=121">海南省博物馆举办纪念中国共产党建党96周年系列活动<span class="time">2017-07-04</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=120">海南省博物馆举办志愿者表彰大会 <span class="time">2017-06-24</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=119">“红色记忆伴我行”革命故事分享会——纪念中国共产党建党96周...<span class="time">2017-06-21</span></a></li>
+                                    <li><a target="_blank" href="fwzx/view/?tag_id=6&aid=118">保护文化遗产 共创美丽家园——省博物馆“文化和自然遗产日”活...<span class="time">2017-06-08</span></a></li>
+                							</ul>
+														
+							<div class="page fix">
+								<a href="fwzx/?tag_id=6&page=4" class="lastpage">上一页</a><a class="page-item ">第5页</a><a  class="page-item ">共13页</a><a href="fwzx/?tag_id=6&page=6" class="lastpage">下一页</a>				
+								
+							</div>
+						</div>
+						<span class="content-left-icon"></span>
+						<span class="content-right-icon"></span>
+						<span class="mian-br-icon"></span>
+					</div>
+				</div>
+				<span class="cb-left-icon"></span>
+				<span class="cb-right-icon"></span>
+			</div>
+			
+			<div class="footer">
+	<div class="footerwrapper fix" style="padding-left:15px;">
+		<span style="font-size:14px;color:#666;">友情链接: &nbsp;</span>
+		<a style="font-size:14px;color:#666;" href="http://www.mafengwo.cn/" target="_blank">马蜂窝</a> | 
+		<a style="font-size:14px;color:#666;" href="https://www.ctrip.com/?sid=153507&allianceid=5376&ouid=title" target="_blank">携程网</a> | 
+		<a style="font-size:14px;color:#666;" href="https://www.qunar.com/?ex_track=auto_5187810b" target="_blank">去哪网</a>
+	</div>
+				<div class="footerwrapper fix">
+					<p class="about fix">
+						<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='http://dcs.conac.cn/js/22/000/0000/41249733/CA220000000412497330004.js' type='text/javascript'%3E%3C/script%3E"));</script>
+						海南省博物馆<br />
+						联系地址：中国海南海口市国兴大道68号 邮政编码：570203<br />
+						电话：65238880 传真：65238880 Email：hnbwg@vip.163.com<br />
+					</p>
+					<p class="copy">
+						版权为 海南省博物馆 持有 琼ICP备 09002053<br />
+						技术支持：上海江帆网络科技有限公司&nbsp;&nbsp;&nbsp;<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1271873173'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1271873173%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><br />
+						<!--<a href="http://webscan.360.cn/index/checkwebsite/url/www.hainanmuseum.org"><img border="0" src="http://webscan.360.cn/status/pai/hash/7c767163c0ee6731d767ebaf3e8a4a24"/></a>-->
+					</p>
+				</div>
+				<span class="top-left img"></span>
+				<span class="top-right img"></span>
+			</div>			
+		<span class="top-left img"></span>
+		<span class="top-right img"></span>
+		</div>
+	</body>
+</html>

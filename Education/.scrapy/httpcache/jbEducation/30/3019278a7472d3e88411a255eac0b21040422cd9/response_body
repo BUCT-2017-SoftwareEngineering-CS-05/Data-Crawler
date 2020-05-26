@@ -1,0 +1,619 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+<meta name="renderer" content="webkit"/>
+<meta name="keywords" content="中国人民革命军事博物馆" >
+<meta name="description" content="中国人民革命军事博物馆" >
+<title>中国人民革命军事博物馆</title>
+<link href="../../images/main.css" rel="stylesheet" type="text/css">
+<link href="../../images/subpage.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../../images/jquery.min.js"></script>
+<script type="text/javascript" src="../../images/sd.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../../images/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="bodybg_sub subpage_bg2" style="background-image: url(http://www.jb.mil.cn/images/subpage_cyhd.jpg)"><!--背景图根据栏目变化 -->
+<link rel="shortcut icon" href="/logo.ico" />
+<link rel="bookmark"href="/logo.ico" />
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	function escapeTrs(str){//转义trs关键字
+		var arr = new Array("\\\\","!","@","#","\\$","\%","\\^","\&","\\*","\\(","\\)","\\_","\\+","\-","\=","\\{","\\}","\\|","\\[","\\]",";","'",":","\"","\<","\>","\\?","\,","\\.","\/");
+		
+		for(var i=0;i<arr.length;i++){
+		 var re = new RegExp(arr[i],"img");
+		 str = str.replace(re, '\\' + arr[i]);
+		}
+		
+		return str;
+	}
+	function dealKeywords(sword, relation){	
+		var sTemp = "";
+		var swordtemp = ""; 
+		var sArray;
+
+		if(sword.indexOf("*")<0&&sword.indexOf("+")<0&&sword.indexOf(")")<0&&sword.indexOf("(")<0&&sword.indexOf("\\")<0){
+			sword = escapeTrs(sword);
+			//不含trs关键字
+			sArray = sword.split(" ");//输入框空格处理,空格表示 relation 关系
+			for(var i=0; i<sArray.length;i++){	
+				sTemp = sArray[i].replace(/^\s+|\s+$/g,"");//去掉sword前后空格
+				if(sTemp!=""){
+					swordtemp += "'"+ sTemp + "' "+relation+" ";/*加上''符号,处理trs带运算符的检索词报错的问题*/
+				}					
+			}
+			if(swordtemp.lastIndexOf(" "+relation+" ")!=-1){
+				swordtemp = swordtemp.substring(0,swordtemp.length-relation.length-2);
+			}
+		}else{    
+		 if(sword.indexOf("\\")!=-1){
+		 	var re = new RegExp("\\\\","img");
+	 		sword = sword.replace(re, '\\\\');
+		 }
+		 swordtemp = "'"+sword+"'";
+		}
+		return swordtemp;	
+	}
+
+	function search_check() {
+		var sword =document.getElementById("iptSword").value.replace(/^\s+|\s+$/g,"");	
+		document.searchform.searchword.value = dealKeywords(sword, "and");
+		document.searchform.preKeyword.value = document.getElementById("iptSword").value;
+		 if(sword  !="请输入关键字" && sword  !="" ){
+                document.searchform.submit();
+                }
+
+	}
+-->
+</SCRIPT>
+<script>
+function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return null;
+// 中文乱码处理    if(r!=null)return  decodeURIComponent(r[2]); return null;
+
+}
+
+
+function shiftImg() {
+	zh_getLang();
+	$("img").each(function() {
+		if(zh_choose == "s") {
+			if($(this).attr("scsrc")!=""){
+			    $(this).attr("src", $(this).attr("scsrc"))
+                            }
+		} else if(zh_choose == "t") {
+			if($(this).attr("tcsrc")!=""){
+                            $(this).attr("src", $(this).attr("tcsrc"))
+                            }
+		}
+	})
+}
+
+$(document).ready(function(){
+   var cookie=document.cookie.indexOf("UserName=");
+   if(cookie!=-1){
+   $("#loginicon").hide();
+   //$(".header_top").prepend("<li id='loginfo' style='float:right;line-height:40px;color:white;'><a style='color:white;' href='http://www.jb.mil.cn/updateUserinfo/'>"+getCookie("UserName")+"</a> | <a style='color:white;' href='javascript:void(0);' onclick='return logout();'>退出</a></li>");
+    $(".header_top").prepend("<li id='loginfo' style='float:right;line-height:40px;color:white;'><a style='color:white;' href='http://www.jb.mil.cn/updateUserinfo/'>"+getCookie("UserName")+" </a> | <a style='color:white;' href='javascript:void(0);' onclick='return logout();'>退出</a></li>");
+   }
+
+
+var loginbox = GetQueryString("login");
+if(loginbox == "true"){
+
+$(".indexLogin").show();
+$(".closeLogin").show();
+}
+
+
+shiftImg()
+});
+
+
+
+
+</script>
+<div class="logo"><a href="http://www.jb.mil.cn"> <img src="../../images/logo.png" /></a></div>
+<div class="header">
+    <ul class="header_top">
+       <li class="header_top_user" id="loginicon" ></li>
+       <li class="header_top_sch" ></li>
+       <script type="text/javascript" src="../../images/jf.js"></script>
+       <li class="header_top_link"><span>开放时间: 9:00—17:00 （16:00停止发票入馆，每周一闭馆）</span><a id="zh_click_s" href="javascript:zh_tran('s');shiftImg();">中文简体</a><i>|</i>
+<a id="zh_click_t" href="javascript:zh_tran('t');shiftImg();">中文繁体</a><i>|</i><!--<a href="http://eng.jb.mil.cn/">English</a>--></li>
+       <dl class="top_schbox"><dt>
+
+<form name="searchform" id="searchform" method="post" action="http://www.jb.mil.cn/was/web/search?token=39.1499342319463.39&channelid=276101" onSubmit="return search_check();" target="_blank" onkeydown="if(event.keyCode==13 && document.getElementById('iptSword').value.replace(/^\s+|\s+$/g,'')=='')return false;">
+<input class="top_schbox_txt" name="iptSword" id="iptSword" type="text" value="请输入关键词" onfocus="if(this.value=='请输入关键词'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键词';}" /><input type="hidden" name="channelid" value="276101" />
+			<input type="hidden" name="perpage" value="15" />
+			<input type="hidden" name="searchword" value />
+			<input type="hidden" name="preKeyword" value /><input class="top_schbox_btn" name="anniu-1" style="cursor:pointer" type="button" onClick="search_check();" /></form>
+
+</dt></dl>
+    </ul>
+    <!--top -->
+    <ul class="header_menu">
+       <li><a href="../../" class="now" id="iHome">首&nbsp;&nbsp;页</a></li>
+       <li><a  class="chnl2141"  href="../../jbgk/">关于军博</a></li>
+       <li><a  class="chnl2143"  href="../../zxdt/">资讯动态</a></li>
+       <li><a  class="chnl2147" href="../../zlcl/">展览陈列</a></li>
+       <li><a  class="chnl2171" href="../../cgfw/">参观服务</a></li>
+       <li><a  class="chnl2185" href="../">参与互动</a></li>
+       <li><a  class="chnl2162" href="../../gcww/">馆藏文物</a></li>
+       <li><a  class="chnl2226" href="../../yjcz_2226/">研究创作</a></li>
+    </ul>
+
+
+    <div class="header_menu_dropbox">
+    <ul class="header_menu_drop">
+       <li><p></p><i></i></li>
+
+       <li><p>
+             
+             <a href="../../jbgk/jbjj/">军博简介</a>
+             
+             <a href="../../jbgk/zzjg/">组织机构</a>
+             
+             <a href="../../jbgk/hhlc_2190/">辉煌历程</a>
+             
+			 </p>
+             <i></i></li>
+       <li><p></p><i></i></li>
+       <li><p>
+             <a href="../../zlcl/jbcl/">基本陈列</a>
+             
+             <a href="../../zlcl/ztzl/">主题展览</a>
+             
+             <a href="../../zlcl/jdcl/">以往展陈</a>
+             </p><i></i></li>
+       <li><p>
+             <a href="../../cgfw/cgzn/">参观指南</a>
+             
+             <a href="../../cgfw/swzl/">失物招领</a>
+             </p><i></i></li>
+       <li><p>
+             <a href="../wyly/">网友留言</a>
+             
+             <a href="./">讲座/活动</a>
+             
+             <a href="../zyzzj/">志愿者之家</a>
+             
+             <a href="../wycp/">网友藏品</a>
+             </p><i></i></li>
+       <li><p>
+             <a href="../../gcww/wwjs_new/">文物鉴赏</a>
+             
+             <a href="../../gcww/yspjs/">艺术品鉴赏</a>
+             
+             <a href="../../gcww/yxjs/">影像鉴赏</a>
+             
+             <a href="../../gcww/wwzj/">文物征集</a>
+             </p><i></i></li>
+      <li><p>
+             <a href="../../yjcz_2226/ysj/">军博艺术家</a>
+             
+             <a href="../../yjcz_2226/gbtg/">古兵探观</a>
+             </p><i></i></li>
+    </ul>
+    </div>
+</div>
+<!--header -->
+<div class="navibox boxcenter">
+   <p class="navibox_p"></p>
+   <ul class="navibox_ul subUl">
+      <li class="navibox_ul_li1">讲座/活动</li>
+      <li class="navibox_ul_li2">您现在的位置：<a href="../../" target="_blank" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="../" target="_blank" title="参与互动" class="CurrChnlCls">参与互动</a>&nbsp;&gt;&nbsp;<a href="./" target="_blank" title="讲座/活动" class="CurrChnlCls">讲座/活动</a></li>
+   </ul>
+</div>
+<!--navi -->
+
+<div class="main">
+  <div class="research">
+    <div class="collectWay">
+      <div class="conTop"></div>
+      <div class="activeMiddle">
+        <ul>
+        	
+          <li>
+            <div class="activeName">
+              <img src="../../images/academic.png" alt="" />
+              <h3><a href="./sjhd/">社教活动</a></h3>
+            </div>
+            <div class="activeCon">
+               <h3><font>军事博物馆“小小讲解员”夏令营学员招募令</font><a href="http://ticket.jb.mil.cn/Home/Index?globalUniqueID=88951EB34F904C37A1B789525854C79B" class="active">预约活动</a></h3>
+<!--<h3><font>军事博物馆“小小讲解员”夏令营学员招募令</font><a href="http://www.jb.mil.cn/hdyy/index.html?activeId=37761" class="active">预约活动</a></h3>-->
+              <p>2018年“小小讲解员”夏令营活动，以军事博物馆兵器陈列为教育资源，通过课堂授课、实地教学、实践讲解相结合的方式，提升语言表达能力，培养青少年学生对军事知识的兴趣爱好，激发爱国情怀。
+课程时间：7月31日至8月9日（周六、日及周一闭馆时间除外）；
+报名要求：8-12岁青少年，共20人，招满为止；
+报名电话：010-668...<a style="color: #ba2940;" href="./sjhd/201807/t20180723_37761.html">>>详情</a></p>
+            </div>
+          </li>
+          
+          
+        </ul>
+      </div>  
+      <div class="conBottom"></div>
+    </div>
+    <div class="activeMemery lecture"><h3><a>往期回顾</a></h3></div>
+    <div class="researchList oldActiveList">
+      <ul>
+      	
+        <li>
+          <a href="./hdhg/201707/t20170714_33235.html">
+           <img src="./hdhg/201707/W020170714657352205928.jpg" width="170" height="110" />
+            <h3>五一小学国防课堂</h3>
+            <p><font><br/>　　</font></p>
+            <span>2015-05-21 18:13:00</span>
+          </a>
+        </li>
+				
+        <li>
+          <a href="./hdhg/201707/t20170714_33236.html">
+           <img src="./hdhg/201707/W020170714663165314322.jpg" width="170" height="110" />
+            <h3>学雷锋活动</h3>
+            <p><font><br/>　　3月5日，是学习雷锋纪念日，也是中国青年志愿者服务日。为了充分发挥博物馆温暖社会、传递正能量的窗口作用，军博解说队和北京军区某部警卫连等共同在兵器广场开展了“学雷锋活动”。解说员和战士们一起佩戴“向雷锋同志学习”绶带，在广场...</font></p>
+            <span>2015-03-05 18:17:00</span>
+          </a>
+        </li>
+				
+        <li>
+          <a href="./hdhg/201707/t20170714_33237.html">
+           <img src="./hdhg/201707/W020171012377158684476.jpg" width="170" height="110" />
+            <h3>“向雷锋学习 做时代新人”</h3>
+            <p><font><br/>　　</font></p>
+            <span>2015-03-05 18:26:00</span>
+          </a>
+        </li>
+				
+        <li>
+          <a href="./hdhg/201707/t20170702_31858.html">
+           <img src="./hdhg/201707/W020170702603253400215.png" width="170" height="110" />
+            <h3>军博为北京十一学校开设寒假社会实践课程</h3>
+            <p><font><br/>　　开展寒假特色社教服务，吸引青少年群体走进博物馆。 2015年2月3日至2月13日，军博专门为北京市十一学校的学生志愿者开设解说员培训课程，让同学们在轻松愉快的学习氛围中了解文物、参与讲解，近距离全面感受博物馆工作。经过为期两周的培训...</font></p>
+            <span>2015-03-02 15:39:00</span>
+          </a>
+        </li>
+				       
+      </ul>
+    </div>
+    <div class="flip"><ul>
+<script>
+	var currentPage = 3;//所在页从0开始
+	var prevPage = currentPage-1//上一页
+	var nextPage = currentPage+1//下一页
+	var countPage = 5//共多少页
+	
+	//设置上一页代码
+	if(countPage>1 && currentPage!=0 && currentPage!=1)
+		document.write("<li class='prevNextPage'><a href=\" index" + "_" + prevPage +  "." + "html \" class='fya'></a></li>&nbsp; ");
+	else if(countPage>1&&currentPage!=0&&currentPage==1)
+		document.write("<li class='prevNextPage'><a href=\"index.html\" class='fya'></a></li>&nbsp;");
+	else
+		document.write("<li class='prevNextPage'></li>&nbsp;");
+	
+	//循环
+	var num = 5;
+	for(var i=0+(currentPage-1-(currentPage-1)%num) ; i<=(num+(currentPage-1-(currentPage-1)%num))&&(i<countPage) ; i++){
+		if(currentPage==i)
+			document.write("<li class=\"pageOn\"><a href=\"javascript:void(0);\">"+(i+1)+"</a></li>&nbsp;");
+		else if(i==0)
+			document.write("<li><a href=\"index.html\">"+(i+1)+"</a></li>&nbsp;");
+		else
+			document.write("<li><a href=\"index"+"_" + i + "."+"html\">"+(i+1)+"</a></li>&nbsp;");
+	}
+
+	//设置下一页代码 
+	if(countPage>1&&currentPage!=(countPage-1))
+		document.write("<li class='prevNextPage nextPage'><a href=\"index" + "_" + nextPage + "."+ "html\" class='fya'></a></li>");
+	else
+		document.write("<li class='prevNextPage nextPage'></li>");
+
+	//跳转页面
+
+$(function(){
+if($(".fy a").length<2){
+	$(".fy").hide();
+}
+});
+</script>
+</ul>
+<style>
+.xw_fanye{width: 790px;padding: 5px 5px;font-family: "微软雅黑";font-size: 16px;color: #666666;padding-top: 20px;text-align: center;}
+.xw_fanye a[font-family: "微软雅黑";font-size: 14px;color: #666666;]
+</style></div>
+  </div>
+</div>
+<div class="footer">
+    <style>
+
+    .indexLogin{ width: 780px; height: 390px; height:450px; border: 10px solid #b6a37e; background:#f5f5f5 url(../../images/circleBg.png) no-repeat left bottom;
+     position:fixed; top: 94px; left: 50%; margin-left: -390px; z-index: 1000; display: none; }
+    .formTitle{ font-size: 26px; text-align: center; background: url(../../images/loginStar.png) no-repeat center center; color: #353535; margin: 66px 0 32px 0; }
+    .formInput{ text-align: center; }
+    .formInput input{ width: 356px; height: 34px; border: 1px solid #c1c1c1; border-radius: 3px; text-indent: 5px; margin:0 auto 20px auto; display:block; font-size: 14px; color: #636363; }
+    .formInput select{ width: 362px; border: 1px solid #c1c1c1; border-radius: 3px; text-indent: 10px; margin-bottom: 20px; font-size: 14px; color: #636363; line-height: 34px; text-indent: 0px; padding: 6px 0;}
+    #teamInput{ display: none; }
+    .formSubmit{ text-align: center; margin-top: 6px; }
+    .formSubmit input{ border: none; width: 136px; height: 44px; color: #fff; background-color: #b01717; line-height: 44px; text-align: center; font-size: 16px; border-radius: 5px; }
+    .regist{ text-align: center; padding: 30px 0 0 0; }
+    .regist a{ font-size: 14px; color: #ba1c1c; text-decoration: underline; }
+    .closeLogin{ width: 62px; height: 62px; position: absolute; right: 0px; top: 0px; background: url(../../images/closeLogin.png) no-repeat center center; cursor: default; }
+    .mengIndex{ position: fixed; width: 100%; height: 100000px; background-color: #000; opacity: .5; top: 0px; z-index: 999; display: none; }
+    .closeLogin{cursor:pointer;}
+    .footer{ min-width:1200px;}
+	#footerbgfw{  width:144px; height:144px; border:4px #bbaa70 solid; position:absolute;background:url(../../images/jbfwh.jpg) left top no-repeat #fff; z-index:1001; margin-top:-150px; margin-left:-50px;}
+	#footerbgdy{ width:144px; height:144px; border:4px #bbaa70 solid; position:absolute; background: url(../../images/jbdyh.jpg) left top no-repeat #fff; z-index:1001; margin-top:-150px; margin-left:-50px;}
+
+    </style>
+
+    <div class="indexLogin">
+        <div class="closeLogin"></div>
+        <form action="">
+          <div class="formTitle">军博用户登录</div>
+          <div class="formInput">
+            <!--<input type="text" value="团队使用团队名称登录/个人使用手机号登录" onfocus="if(this.value=='团队使用团队名称登录/个人使用手机号登录'){this.value=''}" onblur="if(this.value==''){this.value='团队使用团队名称登录/个人使用手机号登录'}" id="username" /><br>-->
+            <select name="" id="loginType">
+              <option value="">个人登录</option>
+              <!--<option value="">团队登录</option>-->
+            </select><br>
+            <input id="username" type="text" value="手机号" />
+            <input type="text" value="密码" onfocus="if(this.value=='密码'){this.value='';this.type='password';}" onblur="if(this.value==''){this.value='密码'; this.type='text';}" id="password" />
+          </div>
+          <div class="formSubmit">
+            <input type="button" value="登录" id="login" />
+          </div>
+          <div class="regist">
+            <a href="http://www.jb.mil.cn/regist/">个人注册</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.jb.mil.cn/teamregist/">团队注册</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.jb.mil.cn/forgot_pwd/" style="color: #777;">忘记密码？</a>          </div>
+        </form>
+      </div>
+
+      <div class="mengIndex"></div>
+      <script>
+           $(function(){//$-start
+
+            $('.header_top_user').click(function(event) {
+              $('.indexLogin,.mengIndex').css('display','block');
+            });
+            
+            $('.closeLogin').click(function(event) {
+                $('.indexLogin,.mengIndex').css('display','none');
+            });
+            $(".mengIndex").click(function(){
+               $('.indexLogin,.mengIndex').css('display','none');
+            });
+            $('#loginType').change(function(){
+                if(this.selectedIndex==0){
+                    $('#username').val('手机号');
+                }else if(this.selectedIndex==1){
+                    $('#username').val('团队名称');
+                };
+            });
+            var remText='';
+            $('#username').focus(function(event){
+              remText=this.value;
+              if(this.value=='手机号'){this.value='';}
+              if(this.value=='团队名称'){this.value='';}
+            });
+            $('#username').blur(function(event) {
+              if(this.value==''){this.value=remText;}
+            });
+
+
+          })//$-end
+      </script>
+     
+   <dl class="boxcenter">
+      <dt><a href="../../"><img src="../../images/footerbg1.jpg" /></a><a href="javascript:void(0);" title="手机扫一扫"><div class="footerbgmsg" id="footerbgfw"></div><img src="../../images/footerbgmsg.jpg" /><p>服务号</p></a><a href="javascript:void(0);" title="手机扫一扫"><div class="footerbgmsg" id="footerbgdy"></div><img src="../../images/footerbgmsg.jpg" /><p>订阅号</p></a><a href="http://e.weibo.com/milmuseum"><img src="../../images/footerbgsina.jpg" /><p>军博微博</p></a></dt><dd><p style="margin-top: 0px;">
+<a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E9%9D%A9%E5%91%BD%E5%86%9B%E4%BA%8B%E5%8D%9A%E7%89%A9%E9%A6%86/1777424?fr=aladdin">百度百科</a><span>|</span><a href="../../mzsm/">免责声明</a><span>|</span><a href="../../gywm/">关于我们</a><span>|</span><a href="../../yqlj_4628/">友情链接</a></p><i>版权所有：中国人民革命军事博物馆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP备17059306号 <br>地址：北京市海淀区复兴路9号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮编：100038</i></dd>
+   </dl>
+</div>
+<script style="display:none;">
+<!--
+$(function(){//$-start
+
+//导航菜单效果@20170714
+
+//获取当前根栏目
+	var nowchnl = '.chnl2185';
+        console.log(nowchnl);
+//判断是否是当前栏目，并添加class
+	function isNowChnl(){
+		if(nowchnl != '.chnl')
+		{
+			$("#iHome").removeClass("now");
+			$(nowchnl).addClass("now");
+		}
+		else
+		{
+			$("#iHome").addClass("now");
+		}
+	}
+
+	isNowChnl();
+//导航菜单效果
+//鼠标进入导航条栏目
+	$(".header_menu li").mouseover(function(){
+
+		//移除所有栏目的class，
+		$(".header_menu li a").removeClass("now");
+		//鼠标指向栏目添加class
+		$(this).find("a").eq(0).addClass("now");
+		//收起其他所有菜单
+		$(".header_menu_drop li").eq($(this).index()).siblings(".header_menu_drop li").find("p").slideUp(100);
+		//鼠标指向栏目对应菜单显示
+		$(".header_menu_drop li").eq($(this).index()).find("p").eq(0).slideDown(300);
+		//当前栏目class保留
+		isNowChnl();
+	});
+	//鼠标离开导航条以及菜单区域，收起所有菜单
+	$("html,body").mouseover(function(){
+		//移除所有栏目的class，
+		$(".header_menu li a").removeClass("now");
+		//收起所有菜单
+		$(".header_menu_drop li").find("p").slideUp(100);
+		//当前栏目class保留
+		isNowChnl();
+		$(".header_menu,.header_menu_drop li").mouseover(function(e){
+			e.stopPropagation();//阻止冒泡
+		});
+	});
+	//鼠标离开当前指向的导航条栏目
+	$(".header_menu li").mouseout(function(){
+
+		//鼠标离开当前指向的导航条栏目，菜单不收起，鼠标离开菜单区域菜单收起
+		$(".header_menu_drop li,.header_menu_drop li p,.header_menu_drop li i").mouseout(function(e){
+			//移除所有栏目的class
+			//$(".header_menu li a").removeClass("now");
+			//收起所有菜单
+			$(".header_menu_drop li").find("p").slideUp(100);
+			e.stopPropagation();//阻止冒泡
+		});
+		//避免鼠标在菜单选项中滑动的时候导致菜单收起
+		$(".header_menu_drop li a").mouseout(function(e){
+			e.stopPropagation();//阻止冒泡
+		});
+		//当前栏目class保留
+		isNowChnl();
+	});
+
+
+
+//searchbox **************************
+	$(".header_top_sch").hover(function() {
+		$('.top_schbox').animate({width:'224px'});
+	});
+	   $(".top_schbox").mouseleave(function() {
+		$(this).animate({width:'0px'});
+	});
+
+
+
+//userbox **************************
+	$('.header_top_user').hover(function() {
+      $('.top_user').slideDown('slow');
+    });
+	$('.top_user').mouseleave(function() {
+      $(this).slideUp('slow');
+    });
+
+
+})//$-end
+-->
+</script>
+<script src="../../images/md5.js" type="text/javascript" charset="utf-8"></script>
+<script>
+<!--
+function setCookie(name,value)
+{
+var Days = 1;
+var exp = new Date();
+exp.setTime(exp.getTime() + Days*24*60*60*1000);
+document.cookie = name + "="+ escape(value) + ";expires=" + exp.toGMTString()+";path=/";
+}
+
+function getCookie(name)
+{
+var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+if(arr=document.cookie.match(reg))
+return unescape(arr[2]);
+else
+return null;
+}
+
+function delCookie(name)
+{
+var exp = new Date();
+exp.setTime(exp.getTime() - 1);
+var cval=getCookie(name);
+if(cval!=null)
+document.cookie= name + "="+cval+";expires="+exp.toGMTString()+";path=/";
+}
+
+
+  $("#login").click(function(){
+	var username=$.trim($("#username").val());
+	var password=$.trim($("#password").val());
+        password=hex_md5(password);
+var randid=Math.random();
+	if(username=="" || password==""){
+		alert("用户名或密码不能为空");
+	}else{
+		$.get("/smartbus/interuser_loginNetUPK?method=loginNetNew&username="+username+"&password="+password+"&channel=111&"+randid,
+  		function(data){
+                   data=data.replace(/\r\n/g,"")
+                   data=eval("("+data+")");
+  		   if(!data.Succeed){
+                     alert(data.Msg);
+                   }else{
+                     //alert(data.Result.UserName);
+                     setCookie("UserName",data.Result.UserName);
+                     setCookie("phone",data.Result.Phone);
+                     setCookie("globalUniqueID",data.globalUniqueID);
+                     setCookie("RealName",data.Result.RealName);
+                     setCookie("CardNo",data.Result.CardNo);
+                     setCookie("email",data.Result.Email);
+                     setCookie("UserType",data.Result.UserType);
+                     $(".indexLogin").hide();
+                     $(".mengIndex").hide();
+                     $("#loginicon").hide();
+   $(".header_top").prepend("<li id='loginfo' style='float:right;line-height:40px;color:white;'><a style='color:white;' href='http://www.jb.mil.cn/updateUserinfo/'>"+getCookie("UserName")+"</a> | <a style='color:white;' href='javascript:void(0);' onclick='return logout();'>退出</a></li>");
+                     //window.location.href="http://www.jb.mil.cn";
+                     //$("#pop").hide();
+                     //$("#loginbox").hide();
+                     //$(".y_head").children("ul").append("<li id='loginfo'>"+getCookie("UserName")+" | <a href='javascript:void(0);' onclick='return logout();'>退出</a></li>");
+                     //$(".click").css({ background: "transparent" });
+                   }
+  		});
+        }
+  });
+
+function logout(){
+$.ajax({
+	    	          url:"/smartbus/logoutNet?method=logoutNet&globalUniqueID="+getCookie("globalUniqueID"),
+	    	          dataType: 'json',
+			  data:'',
+                          type:'post',
+                          success:function(data){
+                             if(data['result']==true){
+                	            alert('帐号成功退出！');
+                             }else{
+                	         alert('退出失败');
+                             }
+                          }
+	           });
+   delCookie("UserName");
+   delCookie("globalUniqueID");
+   $("#loginfo").remove();
+   $("#loginicon").show();
+}
+
+var loginstate = GetQueryString("login");
+if(loginstate == "false"){
+  logout();
+}
+function go2book(){
+   var cookie=document.cookie.indexOf("globalUniqueID=");
+   if(cookie!=-1){
+      window.location.href="http://ticket.jb.mil.cn/Home/Index?globalUniqueID="+getCookie("globalUniqueID");
+   }else{
+   $(".indexLogin").show();
+   $(".closeLogin").show();
+$(".mengIndex").show();
+   }
+};
+-->
+</script>
+</body>
+<!-- PHPStat Start -->
+<script language="javascript">var __$nodeid='4176';</script>
+<script language="JavaScript" charset="utf-8" src="http://www.jb.mil.cn/phpstat/count/10000005/10000005.js"></script>
+<!-- /PHPStat End -->
+</html>

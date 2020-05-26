@@ -1,0 +1,415 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ZH" lang="ZH"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=640px,user-scalable=yes">
+    <meta name="viewport" content="width=device-height" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)">
+    <meta name="format-detection" content="telephone=no">
+    <script src="https://hm.baidu.com/hm.js?03fe744b0138609671189bda7b76f601"></script><script type="text/javascript" src="/skin/statics/js/YH_jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/skin/statics/js/YH_jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="/skin/statics/js/YH_jquery.bxslider.min.js"></script>
+    <title>宣传教育—宁夏固原博物馆官方网站</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/skin/statics/css/YH_reset.css" type="text/css">
+    <link rel="stylesheet" href="/skin/statics/css/YH_global.css" type="text/css">
+    <link rel="stylesheet" href="/skin/statics/css/YH_layout.css" type="text/css">
+    <link rel="stylesheet" href="/skin/statics/css/YH_main.css" type="text/css">
+	<link rel="stylesheet" href="/skin/statics/css/YH_sh.css" type="text/css">
+	
+<script type="text/javascript">
+try {var urlhash = window.location.hash;if (!urlhash.match("fromapp"))
+{if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i)))
+{window.location="http://m.nxgybwg.com/e/action/ListInfo/?classid=45";}}}
+catch(err)
+{
+}</script>
+</head>
+
+  <body>
+    <div class="appendbox"></div>
+    <header id="hd">
+      <div id="head_wrap" class="main">
+        <div class="util">
+          <div class="container">
+            <div class="">
+              <div class="pull-left">
+        
+                  <div id="wysj"></div>
+	<script>setInterval("wysj.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+		</script>
+                  <div class="wytq">
+                  <iframe allowtransparency="true" frameborder="0" width="280" height="36" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=3&amp;z=2&amp;t=0&amp;v=0&amp;d=3&amp;bd=0&amp;k=&amp;f=000000&amp;ltf=009944&amp;htf=cc0000&amp;q=1&amp;e=1&amp;a=0&amp;c=53817&amp;w=180&amp;h=36&amp;align=center"></iframe>
+</div>
+
+              </div>
+              <div class="pull-right">
+               <div class="qzss">
+               	
+               	 <form action="/e/search/index.php" method="post" name="search_news" id="search_news">
+                       <input type="hidden" name="show" value="title">
+                  <input name="keyboard" type="text" id="keyboard" class="search-input-inner" placeholder="请输入关键字" maxlength="255" utocomplete="off">
+                  <input type="submit" name="Submit22" value="搜索"> </form>
+
+<script>
+        function Focus(){
+            var tag=document.getElementById('keyboard');
+            var val=tag.value;
+            if(val=='请输入关键字'){
+                tag.value='';
+            }
+        }
+        function Blur(){
+            var tag=document.getElementById('keyboard');
+            var val=tag.value;
+            if(val.length==0){
+                tag.value='请输入关键字';
+            }
+        }
+    </script>
+
+
+               	
+               </div>
+                <div id="topquick">
+                  <ul class="list-inline">
+                    
+                    <li>
+                      <a href="#" rel="sidebar" onclick="javascript:addFavorite2()">加入收藏 丨 </a></li>
+
+	<script type="text/javascript"> 
+				function addFavorite2() {
+    var url = window.location;
+    var title = document.title;
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.indexOf("360se") > -1) {
+        alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+    }
+    else if (ua.indexOf("msie 8") > -1) {
+        window.external.AddToFavoritesBar(url, title); //IE8
+    }
+    else if (document.all) {
+  try{
+   window.external.addFavorite(url, title);
+  }catch(e){
+   alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+  }
+    }
+    else if (window.sidebar) {
+        window.sidebar.addPanel(title, url, "");
+    }
+    else {
+  alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+    }
+}
+		</script>
+                    <li>
+                      <script type="text/javascript" src="/skin/statics/js/language.js"></script> <a name="StranLink" id="StranLink" style="cursor:pointer" href="javascript:StranBody()" title="點擊以繁體中文方式浏覽">繁體中文</a>
+</li>
+                    <li>
+                      <a href="/e/action/ShowInfo.php?classid=1&amp;id=165"> 丨 联系我们</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gnb">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-xs-12">
+                  <div id="toplogo">
+                    <a href="/">
+                      <img src="/skin/statics/images/toplogo.png" title="宁夏固原博物馆" alt="Logo"></a>
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-12">
+                  <nav>
+                    <div id="topmenu_box">
+                      <div class="">
+                        <div id="topmenu">
+                          <ul id="top1menu">
+                           <li>
+                              <a href="/" id="top1m0" class="noimg" title="网站首页">网站首页</a></li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=1" id="top1m0" title="固博概况">固博概况</a></li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=7" id="top1m1" title="新闻资讯">新闻资讯</a> </li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=25" id="top1m2" title="党建工作">党建工作</a> </li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=12" id="top1m2" title="展览信息">展览信息</a> </li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=17" id="top1m3" title="文物赏析">文物赏析</a> </li>
+                             <li>
+                              <a href="/e/action/ListInfo/?classid=42" id="top1m2" title="宣教服务">宣教服务</a> </li>
+                             <li>
+                              <a href="/e/action/ListInfo/?classid=39" id="top1m2" title="学术研究">学术研究</a> </li>
+                            <li>
+                              <a href="/e/action/ListInfo/?classid=28" id="top1m4" title="古今固原">古今固原</a> </li>
+                           
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+
+        </div>
+    </div></div></div></header>
+    <div id="body_wrap" class="main">
+      <script type="text/javascript">var myScroll;
+        $(document).ready(function() {
+
+          $("#topmenu_box").on('mouseenter',
+          function() {
+
+            if ($("body").width() > 1223) {
+
+              $("#topmenu_box").addClass("on");
+              $("#topmenu_box.on").stop().slideDown('fast');
+              $("#topmenu ul ul").stop().slideDown('fast');
+
+              $(".bg_menuover").stop().animate({
+                height: '360px'
+              },
+              {
+                queue: false,
+                duration: 200,
+                easing: 'easeInSine'
+              });
+              $("#hd").addClass("menuopen")
+            }
+
+          });
+          $("#topmenu_box").on('mouseleave',
+          function() {
+
+            if ($("body").width() > 1223) {
+
+              $("#topmenu_box").removeClass("on");
+              $("#topmenu_box.on").stop().slideUp('fast');
+              $("#topmenu ul ul").stop().slideUp('fast');
+
+              $(".bg_menuover").stop().animate({
+                height: '0'
+              },
+              {
+                duration: 200,
+                easing: 'easeInSine'
+              });
+              $("#hd").removeClass("menuopen");
+
+            }
+
+          });
+
+        });</script>
+         
+      <div class="main_body">
+		
+        
+                    <div class="main_visual">
+   
+          <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 640px;"><div class="slideVisual" style="width: auto; position: relative;">
+               <div class="conBox" style="background: url(&quot;/skin/statics/images/nCJ1.gif&quot;) center top no-repeat; float: none; list-style: none; position: absolute; width: 1019px; z-index: 50; display: block;">
+           
+            </div>
+      <div class="conBox" style="background: url(&quot;/skin/statics/images/nCJ1.gif&quot;) center top no-repeat; float: none; list-style: none; position: absolute; width: 1019px; z-index: 0; display: none;">
+           
+            </div>
+    
+          </div></div><div class="bx-controls bx-has-pager"><div class="bx-pager bx-custom-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active"></a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">undefined</a></div></div></div></div>
+          <script>$('.slideVisual').bxSlider({
+              mode: 'fade',
+              auto: true,
+              autoControls: false,
+              easing: 'easeOutElastic',
+              nextSelector: '#slider-next',
+              prevSelector: '#slider-prev',
+              prevText: '<img src="skin/statics/images/btn_main_prev.png" alt=""/>',
+              nextText: '<img src="skin/statics/images/btn_main_next.png" alt=""/>',
+              speed: 1000,
+
+              buildPager: function(slideIndex) {
+                switch (slideIndex) {
+
+                case 0:
+                  return '';
+
+                }
+              }
+
+            });</script>
+        </div>
+        
+        
+        
+        
+         <div class="container  nlh">
+
+					<div class="lnb">	<div class="lnb_inner">
+					<div class="btn_lnb">
+						<h3>宣传教育 </h3>
+					</div>
+					<ul class="depth1">
+					                     <li><a href="/e/action/ListInfo/?classid=34">教育项目</a></li>
+<li><a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a></li>
+<li><a href="/e/action/ListInfo/?classid=37">志愿者活动</a></li>
+<li><a href="/e/action/ListInfo/?classid=38">研学实践教育</a></li>
+</ul>
+					
+				</div>			
+			</div>
+					
+					<div class="body_content">
+						
+						
+						<div class="content_head">
+						<div class="location">您当前的位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;<a href="/e/action/ListInfo/?classid=42">宣教服务</a>&nbsp;&gt;&nbsp;<a href="/e/action/ListInfo/?classid=45">宣传教育</a></div>
+				</div>
+						
+						<div class="section">
+							
+
+
+							
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=249 "><img src="/d/file/p/2018/11-27/a757b068950cfc70de56f50872373733.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2015-07-06</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=249 " target="_blank"> 宁夏固原博物馆开展“文化遗产日”宣传活动</a> </dt> 
+                    <dd>　　2015年6月14日，是我国第十个“文化遗产日”，今年活动的主题是“保护成果&amp;middot;全民共享”，为此，宁夏固原博物馆和原州区非物质文化遗产保护中心联合...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=249 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=248 "><img src="/d/file/p/2018/11-27/9d7a09bf87ff5f18e6072dcb6abb5227.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2014-11-24</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=248 " target="_blank"> “鲁迅散文”朗诵比赛在固原五中圆满结束</a> </dt> 
+                    <dd>　　中小学生是博物馆进行社会教育的重要群体，开展与学校教育的有机结合已成为博物馆社会教育的主要内容之一。为配合馆内正在展出的《人间鲁迅》大型图片展览，固原博物馆与原...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=248 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=247 "><img src="/d/file/p/2018/11-27/ea35f45119d7da64373fc8dffe4f72e3.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2014-11-24</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=247 " target="_blank"> 宁夏固原博物馆与固原六中联合举办《人间鲁迅》手抄报比赛</a> </dt> 
+                    <dd>　　由北京鲁迅博物馆和宁夏固原博物馆联合举办的《人间鲁迅》大型图片展览现正在宁夏固原博物馆展出，为发挥青少年第二课堂的作用，更好的弘扬鲁迅精神，让同学们对鲁迅先生的一...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=247 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=35&amp;id=206 "><img src="/d/file/p/2018/11-27/b3387e2777db9fece7a98625a9c9bf95.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=35">流动展览“五进”</a>】--> <span class="news_date">2014-09-25</span><a href="/e/action/ShowInfo.php?classid=35&amp;id=206 " target="_blank"> 宁夏固原博物馆开展“进乡村”活动</a> </dt> 
+                    <dd>　　2014年9月24日，宁夏固原博物馆宣教部工作人员来到安西王府遗址所在地——固原市原州区开城镇开展博物馆 “进乡村”活动。　　在活动现场，宣教部工作...[<a href="/e/action/ShowInfo.php?classid=35&amp;id=206 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+          
+           <dl>
+
+
+
+  <dd class="m"><a href="/e/action/ShowInfo.php?classid=34&amp;id=246 "><img src="/d/file/p/2018/11-27/beff63fad5a59a4841f2df4fc2395796.jpg"></a></dd>
+                    <dt><!--【<a href="/e/action/ListInfo/?classid=34">教育项目</a>】--> <span class="news_date">2014-09-17</span><a href="/e/action/ShowInfo.php?classid=34&amp;id=246 " target="_blank"> 我馆举办普法知识讲座</a> </dt> 
+                    <dd>　　为加强我馆职工的法律意识，作为我馆今年的“六五”普法宣传活动之一，9月11日下午，固原博物馆法律知识讲座在三楼会议室举行，来自我馆30余名工作人员聆听了讲座。...[<a href="/e/action/ShowInfo.php?classid=34&amp;id=246 " target="_blank">详情</a>]</dd>
+
+                  
+                  </dl>
+
+							
+				
+							<div class="page-box"><p class="page-hide"><span class="page-form">总共&nbsp;<b>55</b> 条</span>&nbsp;&nbsp;<a href="/e/action/ListInfo/index.php?page=0&amp;classid=45">首页</a>&nbsp;<a href="/e/action/ListInfo/index.php?page=1&amp;classid=45" class="page-sx">上一页</a>&nbsp;<a href="/e/action/ListInfo/index.php?page=0&amp;classid=45">1</a>&nbsp;<a href="/e/action/ListInfo/index.php?page=1&amp;classid=45">2</a>&nbsp;<a class="page-current">3</a></p></div>
+						</div>
+						
+						
+					</div>
+					
+					
+
+
+          </div>
+       
+       
+       
+       
+      </div>
+    
+    </div>
+    <div id="foot_wrap">
+      <div class="container">
+        <div class="footer_top">
+       
+        </div>
+        <div class="footer_addl">
+        
+           <p>版权所有：宁夏固原博物馆&nbsp;&nbsp;技术支持：<a href="http://www.yunhan.info/" title="山西云汉文化传媒有限公司" target="_blank">山西云汉文化传媒有限公司</a>
+            </p>
+           <p>地址：宁夏固原市原州区西城路133号&nbsp;&nbsp;邮编：756000&nbsp;&nbsp;  电子邮箱：gybwgbgs@163.com</p>
+           <p> 电话：0954-2032653（办公室）&nbsp; 0954-2027564（宣教部） 
+            </p>
+           <p>ADD：The Guyuan Museum of Ningxia No. 133, Xicheng Road, Yuanzhou District, Guyuan City, Ningxia，756000，China
+            </p>
+         
+           <p>TEL：0954-2032653 &nbsp;0954-2027564 &nbsp;&nbsp;FAX：0954-2032653&nbsp;&nbsp;E-mail：nxgybwg@163.com
+            </p>
+           <p>备案号：<a href="http://www.beian.miit.gov.cn/" title="备案号" target="_blank">宁ICP备17000122号-1</a>&nbsp;&nbsp;宁公网安备：<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=64040202000022">64040202000022号</a>
+            </p>
+    </div>
+
+        <div class="footer_addr">
+        <ul>
+        	<li><img src="/skin/statics/images/web.jpg"><p>手机微官网</p></li>
+			<li><img src="/skin/statics/images/wx.jpg"><p>官方微信平台</p></li></ul>
+    </div>
+    <div class="scroll" id="scroll" style="display:none;">
+		  <img src="/skin/statics/images/btn_top.png" alt="返回">
+	</div>
+	</div>
+	</div>
+	<script type="text/javascript">
+	$(function(){
+		showScroll();
+		function showScroll(){
+			$(window).scroll( function() { 
+				var scrollValue=$(window).scrollTop();
+				scrollValue > 10 ? $('div[class=scroll]').fadeIn():$('div[class=scroll]').fadeOut();
+			} );	
+			$('#scroll').click(function(){
+				$("html,body").animate({scrollTop:0},200);	
+			});	
+		}
+	})
+	</script>
+    
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?03fe744b0138609671189bda7b76f601";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+  
+
+</body></html>

@@ -1,0 +1,1202 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class="__noGmain g_html" style=""><head><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style><script src="http://push.zhanzhang.baidu.com/push.js"></script><script src="http://1.ss.faisys.com/js/faiFloatPanel_bindEvent.min.js?v=201912041339"></script><script src="http://1.ss.faisys.com/js/faiFloatPanel.min.js?v=202003041818"></script><script src="http://1.ss.faisys.com/js/dist/svg.min.js?v=202005201142"></script><script src="http://1.ss.faisys.com/js/imageEffect.min.js?v=202003181523"></script><script src="http://1.ss.faisys.com/js/photoSlide.min.js?v=202003181523"></script><script src="http://1.ss.faisys.com/js/bookingSubmitPanel.min.js?v=201911061324"></script><script src="http://1.ss.faisys.com/js/comm/video.js/video.min.js?v=202004011336"></script>
+<title>安源路矿工人运动纪念馆</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no,email=no,address=no">
+<meta name="renderer" content="webkit">
+<meta property="og:url" content="http://www.aymuseum.com//sr.jsp">
+
+
+
+<script src="//fe.faisys.com/jssdk_1_0/js/hawkEye.min.js?v=202005091703"></script><script type="text/javascript" language="javascript">
+(function() { 
+var fs = document.createElement("script"); 
+fs.src = "//fe.faisys.com/jssdk_1_0/js/hawkEye.min.js?v=202005091703";
+window.FAI_HAWK_EYE = {}; 
+window.FAI_HAWK_EYE.jssdk_report_url = "//report.fkw.com/js/report"; 
+window.FAI_HAWK_EYE.jssdk_appid = 3004; 
+window.FAI_HAWK_EYE.fai_is_oem = 0; 
+window.FAI_HAWK_EYE.fai_aid = 18964519; 
+window.FAI_HAWK_EYE.fai_bs_aid = 18964519; 
+window.FAI_HAWK_EYE.fai_bs_id = 0; 
+window.FAI_HAWK_EYE.fai_bs_wid = 0; 
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(fs, s);
+})();
+
+window.FAI_HAWK_EYE && (window.FAI_HAWK_EYE.js_err_filter = function(){
+    var event = arguments[4];
+    if(event && event.innerError){
+        return true;
+    }
+    var url = arguments[1];
+    if(url && ['1.ss.faisys.com/js', 'fe.faisys.com'].some(function(item){
+        return url.indexOf(item) > -1
+    })){
+        return true;
+    };
+    return false;
+}); 
+</script>
+
+<link rel="shortcut icon" href="data:;base64,=">
+<meta name="description" content="安源路矿工人运动纪念馆，安源纪念馆，安源">
+<meta itemprop="name" content="安源路矿工人运动纪念馆">
+<meta name="keywords" content="安源路矿工人运动纪念馆，安源纪念馆，安源">
+
+
+<link type="text/css" href="//2.ss.faisys.com/css/dialog.min.css?v=202005131402" rel="stylesheet">
+
+<link type="text/css" href="//2.ss.faisys.com/css/siteBase2.min.css?v=202005131402" rel="stylesheet">
+<link type="text/css" href="//2.ss.faisys.com/css/base2.min.css?v=202005131844" rel="stylesheet">
+<link type="text/css" href="//2.ss.faisys.com/css/dist/module.min.css?v=202005151553" rel="stylesheet">
+<link type="text/css" href="//jzs.faisys.com/1015/fkTheme.min.css?v=20200513154410&amp;aid=18964519&amp;wid=0&amp;isNavV2=true&amp;isBannerV2=true&amp;isGrayTest=true" rel="stylesheet">
+
+
+	<link type="text/css" href="//2.ss.faisys.com/css/newSearchBoxStyle.min.css?v=201907171253" rel="stylesheet">
+
+<link type="text/css" href="//2.ss.faisys.com/css/site/poshytipAndmCustomScrollbar.min.css?v=201905221254" rel="stylesheet">
+
+
+
+
+
+
+
+	<link type="text/css" href="jzcusstyle.jsp?colId=23&amp;extId=0&amp;_csw=0" rel="stylesheet">
+
+
+
+
+<script>
+
+var _portalHost = "i.fkw.com";
+var _wid = 0;
+if (typeof Fai == 'undefined'){
+    Fai = {};
+    Fai.top = window;
+}
+var _lcid = 2052,
+	defaultLcid = 2052,
+	_aid = 18964519,
+	statId = -1,
+	_debug = false,
+	_isPre = false,
+	_siteDomain = '//www.aymuseum.com',
+	_resRoot = '//0.ss.faisys.com',
+	_colId = 23,
+	newsDetailPage = 7,
+	productDetailPage = 8,
+	photoDetailPage = 22,
+	_fromColId = -1,
+	_designAuth = false,
+	_manageMode = false,
+	_oem = false,
+	siteVipBeforeExpireDays = 1034,
+	_getVipVipStartTime = {"siteVipStartMoreThan7Days":true,"siteVipStartMoreThan30DaysAllSite":true,"siteVipVipStartTime":"2019-03-21 11:09:30"},                          
+	_siteVer = 40,
+	_manageStatus = false,
+    __noTable = true,
+    __noGmain = true,
+    _vueStyleGrayTest = false,
+    _mutationObLog = false,
+	_simpleTextGrayTest = true,
+	_mutationObGrayTest = true,
+	newUserHasAddModule = true,		
+	_floatImgLazyLoadGrayTest = true,
+	_showFirstOpenRapid = true;
+    Fai.top._oldFooterGuideUrl = '//jz.fkw.com/blog/5405';  
+    _cusSiteWidth = 1100;
+
+</script>
+
+
+
+<script type="text/javascript" src="//1.ss.faisys.com/js/jzUtils.min.js?v=202005131402"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/comm/polyfill.min.js?v=202003181523"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-core.min.js?v=201912231451"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-mousewheel.min.js?v=201912181508"></script>
+<!-- <script type="text/javascript" src="//fe.faisys.com/faUtil_1_0/js/fai.all.min.js?v=202003051758"></script> -->
+<script type="text/javascript" src="//1.ss.faisys.com/js/dist/frontend.min.js?v=202005131402"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-ui-core.min.js?v=202004151600"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-parallax.min.js?v=202001151456"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/dist/monitor.min.js?v=202005131402"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/site.min.js?v=202005191818"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/locale/2052.min.js?v=202004131227"></script>
+
+
+<script type="text/javascript" src="//1.ss.faisys.com/js/dist/site.min.js?v=202005191819"></script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-effects.min.js?v=201912041339"></script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//2.ss.faisys.com/css/comm/video.js/video-js.min.css?v=201910231607"><link rel="stylesheet" type="text/css" href="//2.ss.faisys.com/css/video.min.css?v=202005131402"><link rel="stylesheet" type="text/css" href="//2.ss.faisys.com/css/datepicker.min.css?v=201910231607"><style type="text/css" id="styleWebSite">#bannerV2 .fk-inBannerListZone{width:1100px;}
+#bannerV2 .fk-inBannerListZone{margin-left:-550px;}</style><style type="text/css" id="styleBannerBg">.webBannerTable{background:none !important;}
+.webBanner{background:none !important;}</style><style type="text/css" id="stylebacktotop">.fk_siteBackToTop{position:fixed;}
+.fk_siteBackToTop{width:50px;}
+.fk_siteBackToTop{height:50px;}
+.fk_siteBackToTop{margin:1px;}
+.fk_siteBackToTop{background-image:url(//0.ss.faisys.com/image/backToTop/secondStyle/02.png?v=201505251717);}</style><link rel="stylesheet" type="text/css" href="//2.ss.faisys.com/css/faiFloatPanel.min.css?v=201907171253"></head>
+<body class="g_body  g_locale2052  g_cusSiteWidth  bUserWrap "><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; width: 0; height: 0" id="__SVG_SPRITE_NODE__"><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="icon_alipay"><path d="M35,25.42l-9.65-3.25a16.81,16.81,0,0,0,1.53-3.28,15,15,0,0,0,.91-3.38l-6.25,0V13.33l7.57-.06v-1.5H21.54V8.33h-3.7v3.44H10.78v1.51l7.06-.06v2.29H12.17v1.2H23.83a11.24,11.24,0,0,1-.58,2.18c-.44,1.2-.9,2.26-.9,2.26S16.87,19.23,14,19.23,7.6,20.39,7.26,23.75s1.63,5.18,4.41,5.85a11,11,0,0,0,7.58-1.1,17.59,17.59,0,0,0,4.42-3.57l11.25,5.46A5.55,5.55,0,0,1,29.44,35H10.56A5.55,5.55,0,0,1,5,29.46V10.56A5.55,5.55,0,0,1,10.54,5h18.9A5.55,5.55,0,0,1,35,10.54ZM20.94,23.54S17.43,28,13.29,28s-5-2.11-5-3.62.86-3.16,4.38-3.4,8.28,2.59,8.28,2.59Zm0,0" fill="currentColor"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 12" id="icon_arrow"><path class="st0" d="M1.2,6.4C1,6.2,1,5.8,1.2,5.6l4.9-4.9c0.2-0.2,0.5-0.2,0.7,0C7,0.9,7,1.2,6.8,1.4L2.2,6l4.6,4.6 c0.2,0.2,0.2,0.5,0,0.7c-0.2,0.2-0.5,0.2-0.7,0L1.2,6.4C1.2,6.4,1.2,6.4,1.2,6.4z" fill="currentColor"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 12" id="icon_arrow1"><path d="M6.8,6.4C7,6.2,7,5.8,6.8,5.6L1.9,0.7c-0.2-0.2-0.5-0.2-0.7,0S1,1.2,1.2,1.4L5.8,6l-4.6,4.6 c-0.2,0.2-0.2,0.5,0,0.7s0.5,0.2,0.7,0L6.8,6.4C6.8,6.4,6.8,6.4,6.8,6.4z" fill="currentColor"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="icon_checked2"><path d="M18,0,0,18H18Z" fill="currentColor" fill-rule="evenodd"></path><path d="M12.07,15.22a.57.57,0,0,1-.39-.2L9,12.3a.69.69,0,0,1,0-.84.53.53,0,0,1,.78,0l2.34,2.33,4.15-4.86a.58.58,0,0,1,.78,0h0a.55.55,0,0,1,0,.84l-4.54,5.32a.59.59,0,0,1-.39.13Z" fill="#fff"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="icon_elevator"><style>#icon_elevator .icon_elevator{fill:#191919}</style><path class="icon_elevator" d="M2,5h16c0.6,0,1-0.4,1-1s-0.4-1-1-1H2C1.4,3,1,3.4,1,4S1.4,5,2,5z"></path><path class="icon_elevator" d="M18,9H2c-0.6,0-1,0.4-1,1s0.4,1,1,1h16c0.6,0,1-0.4,1-1S18.6,9,18,9z"></path><path class="icon_elevator" d="M18,15H2c-0.6,0-1,0.4-1,1s0.4,1,1,1h16c0.6,0,1-0.4,1-1S18.6,15,18,15z"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon_form"><path d="M14,0H12V1a1,1,0,0,1-2,0V0H6V1A1,1,0,0,1,4,1V0H2A2,2,0,0,0,0,2V14a2,2,0,0,0,2,2H14a2,2,0,0,0,2-2V2A2,2,0,0,0,14,0ZM9,12H4a1,1,0,0,1,0-2H9a1,1,0,0,1,0,2Zm3-5H4A1,1,0,0,1,4,5h8a1,1,0,0,1,0,2Z" fill="currentColor"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon_more"><path d="M7.5,9.79,3.85,6.15a.48.48,0,0,0-.7,0,.48.48,0,0,0,0,.7l4,4a.48.48,0,0,0,.7,0l4-4a.5.5,0,1,0-.7-.7Z" fill="currentColor"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon_next"><path d="M10.85,8.15l-4-4a.48.48,0,0,0-.7,0,.48.48,0,0,0,0,.7L9.79,8.5,6.15,12.15a.5.5,0,1,0,.7.7l4-4a.48.48,0,0,0,0-.7Z" fill="currentColor"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" id="icon_online_pay"><path d="M17,8.5A8.5,8.5,0,1,1,8.5,0,8.49,8.49,0,0,1,17,8.5Z" fill="currentColor"></path><path d="M5.5,8.5h6m-6,2h6m-3,2V7m-3-2.5L8.5,7m0,0,3-2.5" fill="currentColor" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon_phone"><path d="M17.62,14a2.39,2.39,0,0,0-.65-.23,2.7,2.7,0,0,0-2.51.84.9.9,0,0,1-.78.3l-.36-.06A5.48,5.48,0,0,1,9,8.94a.93.93,0,0,1,.62-.79,2.8,2.8,0,0,0,1.76-2,2.61,2.61,0,0,0-.07-1.47A2.48,2.48,0,0,0,9.42,3.06,2.75,2.75,0,0,0,6.28,5l0,.14a1.87,1.87,0,0,0-.07.4,11.46,11.46,0,0,0,9,13.3l.41.07.19.05a2.47,2.47,0,0,0,.54.05,2.75,2.75,0,0,0,2.63-2.13A2.54,2.54,0,0,0,17.62,14"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon_prev"><path d="M7.21,8.5l3.64-3.65a.48.48,0,0,0,0-.7.48.48,0,0,0-.7,0l-4,4a.48.48,0,0,0,0,.7l4,4a.5.5,0,1,0,.7-.7Z" fill="currentColor"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon_top0"><path d="M8.34,16A6.06,6.06,0,0,1,2,9.78,9.86,9.86,0,0,1,3.18,5.71a.5.5,0,0,1,.49-.25.49.49,0,0,1,.41.37,7.83,7.83,0,0,0,.71,1.81c.27.43.43.15.73.36a6.85,6.85,0,0,1,0-3.12A6,6,0,0,1,9.36,0a.48.48,0,0,1,.47.11A.52.52,0,0,1,10,.59a9.54,9.54,0,0,0,.55,5.07c.1.21.23.46.37.71a7.8,7.8,0,0,1,.21-1,2.93,2.93,0,0,1,1.44-1.86.47.47,0,0,1,.51.06.51.51,0,0,1,.18.49,3.73,3.73,0,0,0,.64,2.29,5.76,5.76,0,0,1,.91,3.47A6.13,6.13,0,0,1,8.34,16Z" fill="currentColor" data-name="图层 2"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon_top1"><path d="M8,0A8,8,0,1,1,0,8,8,8,0,0,1,8,0Z" fill="currentColor"></path><path d="M12.35,8.11,8.62,6.46l1.06-2.6c.06-.14,0-.29-.2-.37a.64.64,0,0,0-.57,0l-5.3,3a.32.32,0,0,0-.18.29.37.37,0,0,0,.24.27L6.9,8.4,5.66,12.16a.27.27,0,0,0,.1.29.55.55,0,0,0,.39.12.67.67,0,0,0,.34-.09l5.93-3.84a.29.29,0,0,0-.07-.53Z" fill="#fff"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 20" id="icon_top3"><path d="M4.51,2H33a2,2,0,0,1,2,2.41l-2.52,12A2,2,0,0,1,30.49,18H2a2,2,0,0,1-2-2.41l2.52-12A2,2,0,0,1,4.51,2Z" fill="currentColor" fill-rule="evenodd"></path><path d="M6.68,6H8.31l1.41,4.24L10.15,12h0c.09-.83.2-1.88.39-2.79L11.27,6h1.5l-1.69,8H9.47L8.07,9.72,7.63,8H7.57c-.1.86-.2,1.86-.39,2.78L6.5,14H5Zm8.06,0h4.89l-.28,1.32h-3.3l-.39,1.84h2.8l-.28,1.34h-2.8l-.45,2.13h3.41L18.05,14h-5Zm5.83,0H22.2L22,9.9c-.06.84-.11,1.69-.18,2.54h.05c.34-.85.69-1.71,1-2.54L24.67,6H26l.1,3.88c0,.82,0,1.68,0,2.54h.06L27,9.9,28.49,6H30l-3.17,8h-2L24.81,10c0-.62,0-1.23,0-1.84h0c-.23.61-.47,1.22-.73,1.84L22.37,14H20.42Z" fill="#fff"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 16" id="icon_top4"><path d="M26.6,15.5H1.4a.9.9,0,0,1-.9-.9V1.4A.9.9,0,0,1,1.4.5H26.6a.9.9,0,0,1,.9.9V14.6A.9.9,0,0,1,26.6,15.5Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><text transform="translate(2.9 12.2)" font-size="11" font-family="MicrosoftYaHei, Microsoft YaHei" fill="currentColor">热门</text></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 16" id="icon_top5"><path d="M24.24,16H2.76A1.76,1.76,0,0,1,1,14.24V2.76A1.76,1.76,0,0,1,2.76,1H24.24A1.76,1.76,0,0,1,26,2.76V14.24A1.76,1.76,0,0,1,24.24,16Z" fill="currentColor" fill-rule="evenodd"></path><path d="M9,5h1v7H9V9H6v3H5V5H6V8H9Zm9,0V6h2v6h1V6h2V5ZM12,7h1V6H12Zm1-2V6h2V5Zm2,1V7h1V6Zm0,5h1V10H15Zm1-4v3h1V7Zm-3,5h2V11H13Zm-1-2v1h1V10Zm-1,0h1V7H11Z" fill="#fff" fill-rule="evenodd"></path></symbol><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="icon_wechat_pay"><path d="M34.33,13A12.41,12.41,0,0,1,36,19.23c0,7.71-7.16,14-16,14a18,18,0,0,1-5.91-1c-1.17.77-3.12,2-3.89,2.39-1.13.51-.8-.6-.8-.6l.67-3.82A13.34,13.34,0,0,1,4,19.23c0-7.7,7.16-13.94,16-13.94a16.75,16.75,0,0,1,13.09,5.93L17.4,18.44a3,3,0,0,1-2.4-.2c-1.12-.68-2.6-1.8-2.6-1.8s-1.72-1.45-.8,1.2L14,23.22s.29,1.66,2.2.6C17.7,23,29.33,16,34.33,13Z" fill="currentColor"></path></symbol></svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="web" class="g_web  " style="width: 1100px;">
+
+        <div class="webTopTable">
+            <div id="webTop" class="webTop">
+                
+
+            </div>
+        </div>
+        <div class="absTopTable">
+            <div id="absTopForms" class="forms sideForms absForms">
+                <div style="position:absolute;"></div><!-- for ie6 -->
+                
+            </div>
+        </div>
+        <div class="webNavTable">
+            <div id="webNav" class="webNav">
+                <div id="navV2Wrap"><div id="navV2" class="nav navV2 ">
+<div class="navMainContent"><div class="navContent">
+<div id="navCenterContent" class="navCenterContent">
+<div id="navCenter" class="navCenter" style="width: 1086px;">
+<div class="itemPrev" style="display: none;"></div>
+<div class="itemContainer">
+<div title="" id="nav2" class="item itemCol2 itemIndex1" colid="2" onclick="window.open(&quot;/&quot;, &quot;_self&quot;)" _jump="window.open(&quot;/&quot;, &quot;_self&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="/" onclick=";return false;"><span class="itemName0 J_nav_item_name">网站首页</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Home</span></a></div></div>
+<div class="itemSep"><span class="itemSepLine"></span></div><div title="" id="nav101" class="item itemCol101 itemIndex2" colid="101" onclick="window.open(&quot;nd.jsp?id=51#_jcp=1&amp;_np=101_0&quot;, &quot;_self&quot;)" _jump="window.open(&quot;nd.jsp?id=51#_jcp=1&amp;_np=101_0&quot;, &quot;_self&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="nd.jsp?id=51#_jcp=1&amp;_np=101_0" onclick=";return false;"><span class="itemName0 J_nav_item_name">馆况概述</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Nav</span></a></div></div>
+<div class="itemSep"><span class="itemSepLine"></span></div><div title="" id="nav106" class="item itemCol106 itemIndex3" colid="106" onclick="window.open(&quot;nr.jsp?_jcp=4_4#_np=106_0&quot;, &quot;_self&quot;)" _jump="window.open(&quot;nr.jsp?_jcp=4_4#_np=106_0&quot;, &quot;_self&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="nr.jsp?_jcp=4_4#_np=106_0" onclick=";return false;"><span class="itemName0 J_nav_item_name">新闻资讯</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Nav</span></a></div></div>
+<div class="itemSep"><span class="itemSepLine"></span></div><div title="" id="nav105" class="item itemCol105 itemIndex4" colid="105" onclick="window.open(&quot;nr.jsp?_jcp=4_77#_np=105_0&quot;, &quot;_blank&quot;)" _jump="window.open(&quot;nr.jsp?_jcp=4_77#_np=105_0&quot;, &quot;_blank&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="nr.jsp?_jcp=4_77#_np=105_0" onclick=";return false;"><span class="itemName0 J_nav_item_name">红色旧址</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Nav</span></a></div></div>
+<div class="itemSep"><span class="itemSepLine"></span></div><div title="" id="nav120" class="item itemCol120 itemIndex5" colid="120" onclick="window.open(&quot;nr.jsp?_jcp=4_2#_np=120_0&quot;, &quot;_blank&quot;)" _jump="window.open(&quot;nr.jsp?_jcp=4_2#_np=120_0&quot;, &quot;_blank&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="nr.jsp?_jcp=4_2#_np=120_0" onclick=";return false;"><span class="itemName0 J_nav_item_name">馆藏精品</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Nav</span></a></div></div>
+<div class="itemSep"><span class="itemSepLine"></span></div><div title="" id="nav121" class="item itemCol121 itemIndex6" colid="121" onclick="window.open(&quot;nr.jsp?_jcp=4_78#_np=121_0&quot;, &quot;_blank&quot;)" _jump="window.open(&quot;nr.jsp?_jcp=4_78#_np=121_0&quot;, &quot;_blank&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="nr.jsp?_jcp=4_78#_np=121_0" onclick=";return false;"><span class="itemName0 J_nav_item_name">服务指南</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Nav</span></a></div></div>
+<div class="itemSep"><span class="itemSepLine"></span></div><div title="" id="nav107" class="item itemCol107 itemIndex7" colid="107" onclick="window.open(&quot;nr.jsp?_jcp=4_1#_np=107_0&quot;, &quot;_blank&quot;)" _jump="window.open(&quot;nr.jsp?_jcp=4_1#_np=107_0&quot;, &quot;_blank&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="nr.jsp?_jcp=4_1#_np=107_0" onclick=";return false;"><span class="itemName0 J_nav_item_name">安源往事</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Nav</span></a></div></div>
+<div class="itemSep"><span class="itemSepLine"></span></div><div title="" id="nav102" class="item itemCol102 itemIndex8" colid="102" onclick="window.open(&quot;/col.jsp?id=102&quot;, &quot;_self&quot;)" _jump="window.open(&quot;/col.jsp?id=102&quot;, &quot;_self&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="/col.jsp?id=102" onclick=";return false;"><span class="itemName0 J_nav_item_name">联系我们</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Nav</span></a></div></div>
+<div class="itemSep"><span class="itemSepLine"></span></div><div title="" id="nav122" class="item itemCol122 itemIndex9" colid="122" onclick="window.open(&quot;/col.jsp?id=122&quot;, &quot;_self&quot;)" _jump="window.open(&quot;/col.jsp?id=122&quot;, &quot;_self&quot;)">
+<div class="itemCenter navItem"><a hidefocus="true" style="outline:none;" class="J_nav_item_link " href="/col.jsp?id=122" onclick=";return false;"><span class="itemName0 J_nav_item_name">安源工运时期廉政建设数据库</span><span style="display:none;" class="navItemSubName J_nav_item_subname">Nav</span></a></div></div>
+</div>
+<div class="itemNext" style="display: none;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+            </div>
+        </div>
+		
+             <div class="webHeaderTable J_webHeaderTable" id="webHeaderTable">
+                <div id="webHeaderContent" class="J_webHeaderTable webHeaderTd fk-moduleZoneWrap web_header_td J_webHeaderTd">
+       
+                
+                <div id="fk-webHeaderZone" class="elemZone elemZoneModule J_moduleZone fk-webHeaderZone fk-moduleZone forms sideForms">
+                    <div class="fk-moduleZoneBg fk-elemZoneBg J_zoneContentBg elemZoneBg"></div>
+                    
+                </div>
+                
+                <div id="webHeader" class="webHeader">
+                    <div class="headerTable">
+                        <div class="headerCusLeft"></div>
+                        <div class="headerCusMiddle">
+
+                            <div class="headerNav ">
+                            
+                            </div>
+                        </div>
+                        <div class="headerCusRight"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="webHeaderContentBg" class="J_webHeaderTable webHeaderTd web_header_td J_webHeaderTd webHeaderContentBg"></div>
+		</div>
+		<div class="webBannerTable J_webBannerTable">
+			<div class="fk-moduleZoneWrap">
+					
+					
+					<div id="webBanner" class="webBanner">
+						<div class="bannerTable">
+                            <div class="bannerLeft"></div>
+                            <div class="bannerCenter">
+                                		
+                                        <div style="visibility:hidden;" class="fk-inBannerListZone-tmp forms">
+
+                                
+
+
+
+			
+                                        </div>	
+                                <div class="bannerTop"></div>
+<div id="bannerV2" class="banner extBanner" fbheight="500" defaultwidth="0" style="height: 500px; background: none; overflow: hidden;">	
+<div class="imageSwitchShowName"><span class="spanHiddenName spanShowName"></span></div><div class="imageSwitchBtnArea clearFix" style="position: absolute; z-index: 3; display: none;"><div class="fk_adsorptionRound_current"></div><a class="fk_imageSwitchBtn_adsorptionRound"><span class="fk_adsorptionRound_num fk_adsorptionRound_num_current">1</span></a><svg style="height: 0;" xmlns="http://www.w3.org/2000/svg" version="1.1" width="740"><defs><filter id="AR"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -5" result="AR"></feColorMatrix><feBlend in="SourceGraphic" in2="AR"></feBlend></filter></defs></svg></div><div></div><div class="switchGroup switchGroup_bannerV2 " style="width: 100%; position: relative; height: 500px; overflow: hidden; margin: 0px auto;"><div class="J_billboardItem adsorptionRoundImg" id="adsorptionRoundImg0" style="position: absolute; width: 1100px;">
+<div class="J_bannerItem f-bannerItem" title="" style="width: 1100px; height: 500px; cursor: default; background-position: 50% 50%; background-repeat: no-repeat; overflow: hidden; display: block; outline: none; margin: 0px auto; position: relative; z-index: 1; background-size: cover; background-image: url(&quot;//18964519.s21i.faiusr.com/2/ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM.jpg&quot;);">
+<div id="fk-inBannerListZone-0" _sys="1" _banid="ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM" style="text-align: left;" class="elemZone elemZoneModule fk-moduleZone fk-inBannerListZone forms sideForms J_moduleZone ">
+<div class="fk-inBannerListZoneBg fk-elemZoneBg J_zoneContentBg elemZoneBg"></div>
+<div id="module409" bannertitle="图片" _indexclass="formIndex1" _moduletype="1" _modulestyle="79" _moduleid="409" class="form form409 formIndex1 formStyle79 formInZone " title="" _sys="1" _banid="ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM" _pdir="1" _pdist="0.4" style="position:absolute;top:276px;left:163px;width:66px;" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="0" _global="false" _independent="false" data-scrollbar="0">
+<div class="lightModuleOuterContent lightModuleOuterContent409"><div class="floatImg floatImg_J floatImg_J_special"><a hidefocus="true" class="J_floatImg_jump f_floatImg_jump ">
+<div class="floatImgWrap"><div class="forMargin"><img id="float_img_409" class="lazyload_transparent float_in_img J_defImage" data-original="//16576699.s61i.faiusr.com/4/AD0Iu_HzBxAEGAAg3oHS1gUoycHIwAMwQjgg.png" src="//16576699.s61i.faiusr.com/4/AD0Iu_HzBxAEGAAg3oHS1gUoycHIwAMwQjgg.png.webp" alt="AD0Iu_HzBxAEGAAg3oHS1gUoycHIwAMwQjgg" data-imgloaded="true"></div></div></a>
+</div></div>
+</div><div id="module998" _indexclass="formIndex2" _moduletype="1" _modulestyle="62" _moduleid="998" class="form  formIndex2 formStyle62 formInZone " title="" _sys="1" _banid="ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM" _pdir="1" _pdist="0.4" style="position: absolute; top: 65px; left: 690px; width: 365px; height: 50px;" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="0" _global="true" _independent="false" data-scrollbar="0">
+<div class="formTop formTop998"><div class="left"></div><div class="center"></div><div class="right"></div></div>
+<div class=" formMiddle formMiddle998" style="height:50px; ">
+<div class="formMiddleLeft formMiddleLeft998"></div>
+<div class="formMiddleCenter formMiddleCenter998 " valign="top">
+<div class="formMiddleContent formMiddleContent998 fk-formContentOtherPadding" tabstyle="0" style="height: 40px; overflow-y: hidden;">
+<div class="J_newSearchBox fk-newSearchBox fk-newSearchBox5 fk-useFontIconBtn " style=";
+background:#ffffff;
+background:#ffffff;
+height:36px;" _type="5" _stylecolor="#c40000" _bordertype="0" _bgcolor="#ffffff" _usethemecolor="1"><div class="fk-newSearchSelectWrap" style=""><div class="fk-newSearchSelect" style=""><div class="fk-newSearchBoxContainer" style="width:294px;height:36px;"><input class="fk-newSearchInput" type="text" maxlength="100" value="教育" placeholder="全站搜索：请输入您要搜索的关键字" _nsl="[]"></div>
+</div></div><div id="fk-newSearchFontIcon5" class="fk-searchBoxBtn" style="height:36px;" href="javascript:void(0)" onclick="Site.searchInSite(998);return false;"><span class=" faisco-icons-newSearch3 " style="line-height:36px;"> </span>
+</div>
+</div>
+</div>
+</div>
+<div class="formMiddleRight formMiddleRight998"></div>
+</div>
+<div class="formBottom formBottom998"><div class="left left998"></div><div class="center center998"></div><div class="right right998"></div></div>
+<div class="clearfloat clearfloat998"></div>
+</div></div>
+</div>
+</div>
+</div><div class="J_specialEffects f-specialEffects" style="position: absolute;top: 0;width: 100%;height:100%;z-index:2;pointer-events: none;"><canvas width="1100" height="500" class="meteor-canvas"></canvas></div></div>
+
+                            </div>
+                            <div class="bannerRight"></div>
+						</div>
+					</div>
+	    		</div>
+	    	</div>
+
+		<div class="absMiddleTable">
+            <div id="absForms" class="forms sideForms absForms">
+                
+            </div>
+		</div>
+		<div id="fullmeasureTopForms" class="fullmeasureContainer forms fk-fullmeasureForms fullmeasureForms fullmeasureTopForms" style="display:none">
+			
+		<wbr style="display:none;"></div>
+		<div id="webContainerTable" class="webContainerTable">
+            <div id="webContainer" class="webContainer">
+                <div id="container" class="container">
+    <div class="containerTop">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="containerMiddle">
+        <div id="containerMiddleLeft" class="containerMiddleLeft">
+                
+                
+                
+                
+        </div>
+
+        <div class="containerMiddleCenter">
+            <div id="containerMiddleCenterTop" class="containerMiddleCenterTop">
+                
+            </div>
+
+            <div id="containerForms" class="containerForms">
+                <div id="topForms" class="column forms mainForms topForms" style="display:none">
+                    
+                </div>
+
+                <table class="containerFormsMiddle" cellpadding="0" cellspacing="0">
+                    <tbody><tr>
+                        <td valign="top" id="containerFormsLeft" class="containerFormsLeft">
+                            <div class="containerFormsLeftTop">
+                            </div>
+                            <div id="leftForms" class="column forms sideForms leftForms">
+                                
+                            </div>
+                            <div class="containerFormsLeftBottom">
+                            </div>
+                        </td>
+
+                        <td valign="top" id="containerFormsCenter" class="containerFormsCenter">
+                
+                            <div id="centerTopForms" class="column forms mainForms centerTopForms">
+                                <div id="module411" _indexclass="formIndex1" _moduletype="1" _modulestyle="56" _moduleid="411" class="form  formIndex1 formStyle56 jz-moduleSide" title="" _sys="0" _banid="" style="" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="1" _global="true" _independent="false" data-scrollbar="0"><div class="formTop formTop411"><div class="left"></div><div class="center"></div><div class="right"></div></div>
+<div class="formMiddle formMiddle411 jz-moduleSide-content" style="">
+<div class="formMiddleLeft formMiddleLeft411"></div>
+<div class="formMiddleCenter formMiddleCenter411 " valign="top">
+<div class="formMiddleContent formMiddleContent411 fk-formContentOtherPadding" tabstyle="0">
+<div class="location">
+当前位置：&nbsp;<a hidefocus="true" href="/index.jsp">网站首页</a><span class="locationSep">&gt;</span><span class="locationNow">全站搜索结果</span></div></div>
+</div>
+<div class="formMiddleRight formMiddleRight411"></div>
+</div>
+<div class="formBottom formBottom411"><div class="left left411"></div><div class="center center411"></div><div class="right right411"></div></div>
+<div class="clearfloat clearfloat411"></div>
+
+
+
+
+
+</div>
+
+<div id="module35" _indexclass="formIndex2" _moduletype="35" _modulestyle="63" _moduleid="35" class="form form35 formIndex2 formStyle63" title="" _sys="0" _banid="" style="" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="1" _global="false" _independent="false" data-scrollbar="0">
+<div class="formTop formTop35"><div class="left"></div><div class="center"></div><div class="right"></div></div>
+<div class="formBanner formBanner35" style="">
+<div class="left left35"></div>
+<div class="center center35" valign="top">
+<div class="formBannerTitle formBannerTitle35">
+<span class="titleLeft titleLeft35" valign="top">
+</span>
+<div class="titleCenter titleCenter35" valign="top">
+<div class="titleText titleText35"><span class="bannerNormalTitle fk_mainTitle mainTitle mainTitle35">搜索结果</span></div>
+</div>
+<span class="titleRight titleRight35" valign="top">
+</span>
+</div>
+</div>
+<div class="right right35"></div>
+</div>
+<div class=" formMiddle formMiddle35" style="">
+<div class="formMiddleLeft formMiddleLeft35"></div>
+<div class="formMiddleCenter formMiddleCenter35 " valign="top">
+<div class="formMiddleContent formMiddleContent35 fk-formContentOtherPadding" tabstyle="0">
+<div class="newsList">
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=30#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>春节假期安源纪念馆拍全家福 送文创产品 看家教家风展</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=31#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>开国将军吴烈子女向安源路矿工人运动纪念馆无偿捐赠239件/套文物</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=22#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>认识中国工人“主人翁”地位 安源 中国工人运动的策源地</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=50#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>传承红色基因 讲好安源故事——安源路矿工人运动纪念馆迎来“七一”参观热潮（组图）</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=29#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>擦亮安源品牌 打造红色地标</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=33#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>萍安钢公司走进安源纪念馆开展“传承红色精神 不忘初心 砥砺奋进”主题活动（组图）</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=42#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>安源路矿工人运动纪念馆荣获市级“青年文明号”称号（组图）</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=44#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>著名收藏家姚嘉康先生向安源路矿工人运动纪念馆捐赠红色连环画（组图）</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=47#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>开国将军吴烈子女向安源路矿工人运动纪念馆捐赠文物</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=48#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>著名油画《毛主席去安源》作者刘春华和其夫人参观安源纪念馆</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=51#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>安源路矿工人运动纪念馆简介</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+<div class="line g_item">
+<table class="lineBody" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td class="newsTitle" style="width: 100%;">
+<a hidefocus="true" class="word" sf="2" href="/nd.jsp?id=49#skeyword=%E6%95%99%E8%82%B2&amp;_np=0_35" target="_blank" style="display: block; width: 100%;"><strong style="padding:8px;">[文章]</strong>安源纪念馆举办第一届讲解员导游员培训班</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="separatorLine g_separator"></div>
+</div>
+<div id="pagenation35" class="pagenation pagination_1">
+<span class="pagePrev">
+<a hidefocus="true" class="g_border js_pagination" href="/sr.jsp?m35pageno=2&amp;skeyword=%E6%95%99%E8%82%B2&amp;moduleId=998&amp;nSL=%5B%5D" data-href=""><span>上一页</span></a></span>
+<span class="pageNo"><a hidefocus="true" class="g_border js_pagination" href="/sr.jsp?m35pageno=1&amp;skeyword=%E6%95%99%E8%82%B2&amp;moduleId=998&amp;nSL=%5B%5D" data-href=""><span>1</span></a></span>
+<span class="pageNo"><a hidefocus="true" class="g_border js_pagination" href="/sr.jsp?m35pageno=2&amp;skeyword=%E6%95%99%E8%82%B2&amp;moduleId=998&amp;nSL=%5B%5D" data-href=""><span>2</span></a></span>
+<span class="pageNo J_pageSelect fk-pageSelect"><span>3</span></span>
+<span class="pageNext"><span>下一页</span></span>
+</div>
+</div>
+</div>
+<div class="formMiddleRight formMiddleRight35"></div>
+</div>
+<div class="formBottom formBottom35"><div class="left left35"></div><div class="center center35"></div><div class="right right35"></div></div>
+<div class="clearfloat clearfloat35"></div>
+</div>
+
+
+                            </div>
+                            <div class="containerFormsCenterMiddle J_containerFormsCenterMiddle">
+                                <div id="middleLeftForms" class="column forms mainForms middleLeftForms" style="display:none">
+                                
+                                </div>
+                                <div id="middleRightForms" class="column forms mainForms middleRightForms" style="display:none">
+                                
+                                </div>	
+                                <div class="clearfloat"></div>
+                            </div>
+                            <div id="centerBottomForms" class="column forms mainForms centerBottomForms" style="display:none">
+                                
+                            </div>
+                        </td>
+
+                        <td valign="top" id="containerFormsRight" class="containerFormsRight" style="display:none">
+                            <div class="containerFormsRightTop">
+                            </div>
+                            <div id="rightForms" class="column forms sideForms rightForms">
+                                
+                            </div>
+                            <div class="containerFormsRightBottom">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody></table>
+
+                <div id="bottomForms" class="column forms mainForms bottomForms" style="display:none">
+                    
+                </div>
+
+                <div id="containerPlaceholder" class="containerPlaceholder" style="height: 0px;"></div>
+                
+            </div>
+
+            <div id="containerMiddleCenterBottom" class="containerMiddleCenterBottom">
+            </div>
+
+        </div>
+
+        <div id="containerMiddleRight" class="containerMiddleRight"></div>
+    </div>
+    
+    <div class="containerBottom">
+            <div class="left"></div>
+            <div class="center"></div>
+            <div class="right"></div>
+    </div>
+</div>
+            </div>
+		</div>
+		<div id="fullmeasureBottomForms" class="fullmeasureContainer forms fk-fullmeasureForms fullmeasureForms fullmeasureBottomForms" style="display: none;">
+			
+		<wbr style="display:none;"></div>
+        <div class="absBottomTable">
+            <div id="absBottomForms" class="forms sideForms absForms">
+                <div style="position:absolute;"></div><!-- for ie6 -->
+                
+            </div>
+        </div>
+		
+		<div id="webFooterTable" class="webFooterTable J_webFooterTable">
+            <div class="fk-moduleZoneWrap">
+                <div id="fk-webFooterZone" class="elemZone elemZoneModule J_moduleZone fk-webFooterZone fk-moduleZone forms sideForms">
+                    <div class="fk-moduleZoneBg fk-elemZoneBg J_zoneContentBg elemZoneBg"></div>
+                    <div id="module403" bannertitle="图片" _indexclass="formIndex1" _moduletype="1" _modulestyle="79" _moduleid="403" class="form form403 formIndex1 formStyle79 formInZone " title="" _sys="0" _banid="" style="position:absolute;top:50px;left:242px;width:631px;" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="0" _global="false" _independent="false" data-scrollbar="0">
+<div class="lightModuleOuterContent lightModuleOuterContent403"><div class="floatImg floatImg_J floatImg_J_special"><a hidefocus="true" class="J_floatImg_jump f_floatImg_jump ">
+<div class="floatImgWrap"><div class="forMargin"><img id="float_img_403" class=" lazyload_transparent float_in_img J_defImage " data-original="//16576699.s61i.faiusr.com/4/AD0Iu_HzBxAEGAAgkuvR1gUogIDokgUw9AQ4Fw.png" src="//0.ss.faisys.com/image/loading/dot.gif" alt="AD0Iu_HzBxAEGAAgkuvR1gUogIDokgUw9AQ4Fw"></div></div></a>
+</div></div>
+</div>
+
+<div id="module405" bannertitle="文本" _indexclass="formIndex2" _moduletype="1" _modulestyle="86" _moduleid="405" class="form form405 formIndex2 formStyle86 formInZone  siteEditor " title="" _sys="0" _banid="" style="position:absolute;top:18px;left:261px;width:586px;" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="0" _global="false" _independent="false" data-scrollbar="0">
+<div class="lightModuleOuterContent lightModuleOuterContent405"><div class="fk-editor simpleText fk-editor-break-word  "><div style="text-align: center;"><span style="color: rgb(227, 227, 227); background-color: transparent; font-size: 15px;"><a href="/index.jsp" _ltype="100" _lide="AGQIAhIA" _lname="首页" target="_blank"> 网站首页</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=""><a href="nd.jsp?id=51#_jcp=1" _ltype="102" _lide="AGYIMxIA" _lname="安源路矿工人运动纪念馆概况" target="_blank">关于我们</a></span></span><span style="color: rgb(227, 227, 227); background-color: transparent; font-size: 15px;"> </span><span style="color: rgb(227, 227, 227); background-color: transparent; font-size: 15px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="/col.jsp?id=102" _ltype="100" _lide="AGQIZhIA" _lname="联系我们" target="_blank">联系我们</a></span></div></div></div>
+</div>
+
+<div id="module478" bannertitle="文本" _indexclass="formIndex3" _moduletype="1" _modulestyle="86" _moduleid="478" class="form form478 formIndex3 formStyle86 formInZone  siteEditor " title="" _sys="0" _banid="" style="position:absolute;top:77px;left:276px;width:547px;" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="0" _global="false" _independent="false" data-scrollbar="0">
+<div class="lightModuleOuterContent lightModuleOuterContent478"><div class="fk-editor simpleText fk-editor-break-word  "><span style="color: rgb(119, 119, 119); text-align: center; display: block;"><span style="font-size: 14px;">Copyright&nbsp; <span style="background-color: transparent;">© </span><span style="background-color: transparent;"> </span><span style="background-color: transparent;">2012-现在 安源路矿工人运动纪念馆</span></span></span></div></div>
+</div>
+
+<div id="module999" bannertitle="图片" _indexclass="formIndex4" _moduletype="1" _modulestyle="79" _moduleid="999" class="form form999 formIndex4 formStyle79 formInZone " title="" _sys="0" _banid="" style="position:absolute;top:0px;left:69px;width:130px;" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="0" _global="false" _independent="false" data-scrollbar="0">
+<div class="lightModuleOuterContent lightModuleOuterContent999"><div class="floatImg floatImg_J floatImg_J_special"><a hidefocus="true" class="J_floatImg_jump f_floatImg_jump ">
+<div class="floatImgWrap"><div class="forMargin"><img id="float_img_999" class=" lazyload_transparent float_in_img J_defImage " data-original="//18964519.s21i.faiusr.com/4/ABUIABAEGAAgtp705wUo0uOVkwQwggE4ggE.png" src="//0.ss.faisys.com/image/loading/dot.gif" alt="ABUIABAEGAAgtp705wUo0uOVkwQwggE4ggE"></div></div></a>
+</div></div>
+</div>
+
+<div id="module1000" bannertitle="图片" _indexclass="formIndex5" _moduletype="1" _modulestyle="79" _moduleid="1000" class="form form1000 formIndex5 formStyle79 formInZone " title="" _sys="0" _banid="" style="position:absolute;top:3px;left:915px;width:110px;" _side="0" _intab="0" _inmulmcol="0" _infullmeasure="0" _inpack="0" _inpopupzone="0" _infullmeasurepack="0" _intabpack="0" _inaccordionpack="0" _autoheight="0" _global="false" _independent="false" data-scrollbar="0">
+<div class="lightModuleOuterContent lightModuleOuterContent1000"><div class="floatImg floatImg_J floatImg_J_special"><a hidefocus="true" class="J_floatImg_jump f_floatImg_jump floatImgALink" href="http://www.scopsr.gov.cn/shpt/" target="_blank">
+<div class="floatImgWrap"><div class="forMargin"><img id="float_img_1000" class=" lazyload_transparent float_in_img J_defImage " data-original="//18964519.s21i.faiusr.com/4/ABUIABAEGAAg2PXz5wUo4IzuvgIwbjhu.png" src="//0.ss.faisys.com/image/loading/dot.gif" alt="ABUIABAEGAAg2PXz5wUo4IzuvgIwbjhu"></div></div></a>
+</div></div>
+</div>
+
+
+                </div>
+                
+                
+                    <div id="webFooter" class="webFooter">
+                        <div id="footer" class="footer"><div class="footerTop"><div class="topLeft"></div><div class="topCenter"></div><div class="topRight"></div></div><div class="footerMiddle"><div class="middleLeft"></div><div class="middleCenter" align="center"><div class="footerContent"><div class="footerSupport" id="footerSupport" style="display: none;">                    <span class="bgplayerButton" id="bgplayerButton" style="display:none;"></span></div></div></div><div class="middleRight"></div></div><div class="footerBottom"><div class="bottomLeft"></div><div class="bottomCenter"></div><div class="bottomRight"></div></div></div>
+
+                    </div>
+                
+        
+		     </div>
+		 </div>
+		
+		<div class="clearfloat"></div>
+	</div><div id="siteBackToTop_small_box" class="fk_siteBackToTop" title="回到顶部" _style="secondStyle_02" style="right: 57px; bottom: 50px;"></div>	
+	
+	
+
+
+<div class="floatLeftTop manageTranTop" style="top: 0px;">
+	<div id="floatLeftTopForms" class="forms sideForms floatForms">
+		
+	</div>
+</div>
+<div class="floatRightTop manageTranTop" style="top: 0px;">
+	<div id="floatRightTopForms" class="forms sideForms floatForms">
+		
+	</div>
+</div>
+<div class="floatLeftBottom">
+	<div id="floatLeftBottomForms" class="forms sideForms floatForms">
+		
+	</div>
+</div>
+<div class="floatRightBottom">
+	<div id="floatRightBottomForms" class="forms sideForms floatForms">
+		
+	</div>
+</div>
+<div id="popupLevel" class="popupLevel">
+	<div id="popupLevelWrap" class="popupLevelWrap">
+		<div id="popupLevelEditToolArea" class="popupLevelEditToolArea">
+			<div id="popupLevelEditPanel" class="popupLevelEditPanel"></div>
+			<div id="popupLevelEditTool" class="popupLevelEditTool"></div>
+		</div>
+		<div id="popupLevelForms" class="forms sideForms popupLevelForms"></div>
+	</div>
+</div>
+
+
+
+	<div id="bgMusic" class="bgMusic"></div>	
+	
+	
+    
+
+
+<script type="text/javascript">
+
+
+	var mainDomainId = 2;
+	var fk_sale = {};	
+	fk_sale._proSiteQueryStr = '';
+	fk_sale.cid = 18964519;
+	fk_sale.siteVer = 40;
+	fk_sale.popupWindowSiteVer = 10;	
+	fk_sale.isLuckyGuyFlag = false;
+	fk_sale.popupWindowEndYear = 2018;
+	fk_sale.popupWindowEndMonth = 1;
+	fk_sale.popupWindowEndDay = 31;
+	fk_sale.popupWindowDays = -840;
+	fk_sale.popupWindowMs = -72576423374;
+	fk_sale.openDays = 432;
+	fk_sale.siteCreateDays = 432; 
+	fk_sale.siteCreateMinutes = 622550;
+	fk_sale.openMinutes = 622550;
+	fk_sale.popupWindowEndSignupHours = 720.0;
+
+	var queryStr = "";
+	if(fk_sale._proSiteQueryStr !== void 0 && fk_sale._proSiteQueryStr !== ""){
+		queryStr = '&' + fk_sale._proSiteQueryStr;
+	}
+
+	fk_sale.url = '//i.fkw.com/jump.jsp?t=40&siteVersion=0&buySiteVer=true&siteSid=0#appId=shop';	
+	fk_sale.showDomainWindowFlag = false;
+	fk_sale.cacct = 'newspx';
+	fk_sale.imgBigSrc = '//jz.faisys.com/image/pro/20170101/salesPromotion.png?v=201701101133';
+	fk_sale.imgBigBtn = '//jz.faisys.com/image/pro/20170101/btn_buy.png?v=201701101133';
+	fk_sale.imgClose = '//jz.faisys.com/image/pro/20170101/close.png?v=201701101133';
+	fk_sale.siteFirstLogin = false;
+	fk_sale.isShowAdvertisementWindowThreeMinute = false;
+	fk_sale.textUrl = '//i.fkw.com/jump.jsp?t=40&siteVersion=0&buySiteVer=true&siteSid=0#appId=shop';
+	fk_sale.domainImgBigBg = '//jz.faisys.com/image/pro/20160101/domainSearchImg.png';
+	fk_sale.domainImgClose = '//jz.faisys.com/image/pro/20160101/close.png?v=201601181937';
+	fk_sale.siteBizBigClose = '//jz.faisys.com/image/pro/20160701/close_popup.png';
+	fk_sale.siteBizBigBg = '//jz.faisys.com/image/pro/20160701/popup02.png';
+	fk_sale.siteBizBigBg1 = '//jz.faisys.com/image/pro/20160701/popup02.png';
+	fk_sale.siteBizBigBg2 = '//jz.faisys.com/image/pro/20160701/popup02.png';
+	fk_sale.siteBizBigBg3 = '//jz.faisys.com/image/pro/20160701/popup02.png';
+	fk_sale.siteBizBigBg4 = '//jz.faisys.com/image/pro/20160701/popup02.png';
+
+
+
+	fk_sale.showSiteBizWindow = false;
+	fk_sale.showSitePopWindow = false;
+	fk_sale.showDJPopWindow = false;
+	fk_sale.needDelayToShowDj = false;
+	fk_sale.openFlyer = false;
+	
+	if(Fai.top._proSiteQueryStr === undefined){
+		Fai.top._proSiteQueryStr = '';   
+	}
+</script>
+
+
+	
+<link type="text/css" href="//2.ss.faisys.com/css/fontsIco.min.css?v=201908141252" rel="stylesheet">
+
+
+
+
+<script type="text/javascript">
+try{
+
+
+
+
+
+
+
+Fai.top = window;
+Fai.top.manageAuth = false;
+Fai.top.mobiDesignAuth = false;
+Fai.top._onlyHasBannerEditAuth = false;
+Fai.top._formManageAuth = false;
+Fai.top.openMsgSearch = false; 
+Fai.top.pageName = "全站搜索结果";   
+
+Fai.top.isNeed = false;  
+Fai.top.businessId = 2;  
+Fai.top.sceneId104 = 104;  
+Fai.top.sceneId105 = 105;  
+Fai.top.sceneId106 = 106;  
+Fai.top.siteHost = "newspx.jz.fkw.com";      
+Fai.top._isLoginO = false; 
+Fai.top.isSale = false; 
+
+Fai.top.domainBind = 0;
+Fai.top.enableGuide = false;
+Fai.top._templateFrame = 1015;
+Fai.top._majorColorData = "#c40000";
+Fai.top.isJzAllSiteV2 = true;
+
+
+
+var _Global = {},
+	_newRapidSite = true,
+	_canNewsScore = false,
+	bgmCloseToOpen = false,
+	_newsGuideJumpToTemplateUrl = 'sf16590494.jz.fkw.com',
+	isGuide_sample = false,
+	_showNewUsersGuide = false,
+	_newsGuideClickHelp = false,
+	_newsGuideCopyDemo = false,
+	_newsGuideReplaceImg = false,
+	_newsGuideAddModule = false,
+	_newsGuideClickPanel = false,
+	newGuideCreateCol = false,
+	newGuideEditBanner = false,
+	_loginDays = 1,
+	_devMode = false,
+	_guideNewUserStep = -1,
+	_inGuideNewUser = false,
+	_isSupportPreTestUser = false,
+	optingStep = 0,
+	guide_continue = 0,
+	_creatNewSite = false,
+	_isOpenRapid = false,
+	isEnterRapidFirst = false,												
+	_newUser = false,
+	_colOtherStyleData = {"y":0,"h":0,"independentList":[],"layout4Width":0,"layout5Width":0,"hh":false,"fh":false},					   
+	_templateOtherStyleData = {"independentList":[],"hh":false,"fh":false,"h":1084,"y":0,"layout4Width":0,"layout5Width":0},		
+	_allowedHtmlUrl = true,
+	_openHtmlUrl = false,
+	_advertType = 1,
+	_isBUser = true,
+	_isCliIdBUse = false,
+	manageClose = false,
+	isFirstLogin = false,										
+	_isMallWeb = false,
+	_proSiteQueryStr = '',//by jser
+	httpStr = 'https://',
+    _fromModuleCenter = false,
+    _fromJzAllSite = false,
+	vipExpireTime = '2023-03-21 11:09:30';
+	_companyGoalIsSite = true;  
+	_companyGoal11 = 1;  
+	
+	_Global.visitorAdData = {};
+    _Global.isSiteAgentDesign = false;
+    _Global.useElevatorNav = false;
+    _Global.isUseElevatorNav =true;
+    _Global.isHomePage =false;
+    _Global.moduleManage = false;
+	_Global.newsManage = false;
+	
+
+	
+	var _homeHost = "www.fkw.com";
+
+var _templateDefLayout = {BANNER_NAV:0,NAV_FLOAT:1,LEFT_NAV_BANNER_RIGHT_HIDE:3,LEFT_NAV_CENTER_BANNER_RIGHT_HIDE:4,LEFT_BANNER_NAV_RIGHT_HIDE:5,LEFT_NAV_EXPEND_CENTER_BANNER:6,CENTER_TOP_BANNER_RIGHT_HIDE:7,LEFT_HIDE_CENTER_TOP_BANNER:8,NAV_FLOAT_ON_BANNER:9,NAV_BANNER:10}; 
+Fai.top.isIncToVue = false;
+
+
+
+
+
+$(function() {
+	
+		Site.ajaxLoadModuleDom(23, 0, {"_ajaxLoadModuleList":[{"id":411,"valid":true,"special":false,"inCol":{"id":411,"bi":"","bs":0,"pdirt":1,"pdist":0.4,"s":0,"it":0,"imc":0,"ifm":0,"ifp":0,"itp":0,"ip":0,"ipz":0,"iap":0,"x":0,"o":2}}],"_partDomInfoList":[],"fullUrl":"http://www.aymuseum.com/sr.jsp?m35pageno=3&skeyword=%E6%95%99%E8%82%B2&moduleId=998&nSL=%5B%5D"});
+	
+	Site.showOrHideMailBox();
+		
+	
+	
+	
+	
+
+	Site.loadLastLoginAcct('newspx');
+	if(Fai.top._manageMode) {
+		Fai.top._bigAdOptions = {
+			"popupUrl": Fai.top._isMallWeb ? '//'+ Fai.top._homeHost +'/marketing/site.html?siteType=2' : "http://i.fkw.com/jump.jsp?t=40&purchaseFrom=jzFirstPurchasePop#appId=shop&tab=0?fromPageId=3"
+		}
+	}
+	if(false || false) {
+		if(Fai.top.$(".drawLottery").length == 0){
+			Site.popBigAdWindow(false, false);	
+		}
+	}
+	Site.bindBeforeUnloadEvent(false, false, false);
+	Site.initTemplateLayout(_templateDefLayout.NAV_FLOAT, true, true );
+	
+
+
+
+	
+	// ajax统计
+	Site.total({colId:-1, pdId:-1, ndId:-1, sc:0, rf:"http://www.aymuseum.com/sr.jsp?m35pageno=2&skeyword=%E6%95%99%E8%82%B2&moduleId=998&nSL=%5B%5D", statId:statId});
+	//保留旧用户的初始化版式区域4 和区域5 中，区域4的padding-right空间
+	Site.colLayout45Width();
+	//各个模块inc吐出脚本
+	Site.initCorpTitle({"fontList":[]});
+jzModule.Module.install({"id":409,"type":1,"style":79});
+
+Site.initModuleSiteSearch('998');Site.fixCusWidthSearchBox('998');Site.bindSearchBtnEvent('998');jzModule.Module.install({"id":998,"type":1,"style":62});
+
+Site.bannerV2.init({"_open":true,"data":[{"tip":"","desc":"","imgWidth":1920,"imgHeight":500,"ot":0,"i":"ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM","src":"//18964519.s21i.faiusr.com/2/ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM.jpg"}],"width":1920,"cusBannerWidth":0,"widthType":0,"height":500,"playTime":4000,"animateTime":1500,"from":"banner","btnType":6,"wideScreen":true,"backgroundType":0,"backgroundColor":"","backgroundOpacity":100});
+jzModule.Module.install({"id":411,"type":1,"style":56});
+
+Site.loadNewsList(35, {"y":0,"s":0,"w":1});
+jzModule.Module.install({"id":35,"type":35,"style":63});
+
+jzModule.Module.install({"id":403,"type":1,"style":79});
+
+jzModule.SimpleTextModule.initSimpleTextLazyLoad( {"fontList":[],"isExecInitSimpleText":false,"initSimpleTextData":{},"writingMode":0,"moduleId":405});jzModule.Module.install({"id":405,"type":1,"style":86});
+
+jzModule.SimpleTextModule.initSimpleTextLazyLoad( {"fontList":[],"isExecInitSimpleText":false,"initSimpleTextData":{},"writingMode":0,"moduleId":478});jzModule.Module.install({"id":478,"type":1,"style":86});
+
+jzModule.Module.install({"id":999,"type":1,"style":79});
+
+jzModule.Module.install({"id":1000,"type":1,"style":79});
+
+
+	
+        //输出百度自动推送js
+        Site.printBaiduPushJs();
+	
+	Site.ajaxLogDog();
+	Site.sendBrowerInfo(false);
+	
+	
+	Site.initPage();	
+	
+	
+	setTimeout(afterModuleLoaded, 0);
+	
+	
+	
+	Site.triggerGobalEvent("siteReadyLoad");
+	
+	
+});
+function afterModuleLoaded() {
+	
+	Site.initPage2();
+Site.initBackToTopTool(false,false,true,'回到顶部','secondStyle_02');
+	
+	
+	
+	
+	
+	
+} // afterModuleLoaded end
+var _jzProUrl = '', _mallProUrl;
+var _flyerManageDomain = '';
+var _siteAdmDomain = '',
+	_jzHomeUrl = '',
+	_oemDocumentDomain; 
+Fai.top._jzAllSiteDomain = 'i.jz.fkw.com';
+var _allSiteDomain = '', _allMallDomain = '', _homeDomain = '';
+
+	_jzProUrl = 'jz.fkw.com';
+	_mallProUrl = 'mall.fkw.com';
+	_flyerManageDomain = 'cdm.faisco.cn';
+	_siteAdmDomain = 'fkw.com';
+	_jzHomeUrl = 'jz.fkw.com';
+	_mallHomeUrl = 'mall.fkw.com';
+	_allSiteDomain = 'i.jz.fkw.com';
+	_allMallDomain = 'i.mall.fkw.com';
+	_homeDomain = 'fkw.com';
+
+_oemDocumentDomain = 'webportal.top';
+_Global._webRightBar = false;
+var _isMemberLogin = false;		
+var _noCover = 0; 					
+_Global._footerHidden = false;		
+_Global._footerHiddenAllowed = true;	
+
+
+
+
+var _headerTopStyle = {"hts":0,"hg":{"c":"transparent","f":"","r":3,"ps":0,"p":"","y":0},"zh":false,"hf":false,"hfb":{"c":"","f":"","r":3,"ps":0,"p":"","y":0},"m":{},"bb":{"y":0}};			  // 顶部样式（模板）
+_Global._memberTopBar = false;							// 顶部登录条
+var _navPositionFixTop =  false;        		  // 导航栏固定到顶部
+var _elevatorNavStyleChanged = 0;
+if( _Global.isHomePage){
+	var _elevatorNav = {"s":0,"sc":"#fff","eil":[{"img":"","hoverImg":"","fileId":"","hoverFileId":"","link":{},"name":"电梯项1"},{"img":"","hoverImg":"","fileId":"","hoverFileId":"","link":{},"name":"电梯项2"},{"img":"","hoverImg":"","fileId":"","hoverFileId":"","link":{},"name":"电梯项3"}],"sm":0,"eifc":{"y":0,"ic":"#fff","sc":"#fff"},"eif":{"y":0,"s":14,"f":"微软雅黑","c":"#000","ac":"#fff","w":0,"d":0,"i":0},"eis":{"y":0,"w":80,"h":40},"eiis":{"y":0,"w":20,"h":20},"eisp":{"y":0,"s":0,"h":0,"c":"#000"},"eir":{"y":0,"s":0},"eib":{"y":0,"c":"#000","sc":"#000","s":0,"t":true,"b":true,"l":true,"r":true},"eirs":0,"ebg":{"y":0,"f":"","p":"","c":"#000","linear":"","bg":{"backgroundColor":"","backgroundPositionX":"","backgroundPositionY":"","backgroundRepeat":"","backgroundSize":""}},"er":{"y":0,"s":0},"eb":{"y":0,"c":"#000","s":0,"t":true,"b":true,"l":true,"r":true},"ep":{"r":-1,"t":-1}};						
+}
+
+var nav2SubMenu=[];
+var nav101SubMenu=[];
+var nav106SubMenu=[];
+var nav105SubMenu=[];
+var nav120SubMenu=[];
+var nav121SubMenu=[];
+var nav107SubMenu=[];
+var nav102SubMenu=[];
+var nav122SubMenu=[];
+
+
+var _useBannerVersionTwo = true; 				
+var _customBackgroundData = {"styleDefault":true,"s":true,"h":false,"r":3,"ps":0,"o":"","sw":-1,"swt":0,"e":0,"wbh":-1,"wbw":-1,"clw":-1,"crw":-1,"wbws":-1,"wbs":0,"id":"","p":"","bBg":{"y":0,"r":3,"ps":0,"f":"","p":"","c":""},"cBg":{"y":0,"r":3,"ps":0,"f":"","p":"","c":""},"cmBg":{"y":0,"r":3,"ps":0,"f":"","p":"","c":""},"bm":{},"cm":{},"cp":{"y":0}};          	
+var _templateBackgroundData = {"id":"","s":false,"o":"#efefef","bBg":{"c":"","f":"","r":3,"ps":0,"p":"","y":0},"cBg":{"c":"","f":"","r":3,"ps":0,"p":"","y":0},"cmBg":{"y":2,"c":"rgb(255,255,255)","f":"","r":3,"ps":0,"p":""},"cp":{"y":1,"t":30,"b":30},"sw":1100,"swt":3,"h":false,"r":3,"ps":0,"e":0,"wbh":-1,"wbw":-1,"clw":-1,"crw":-1,"wbws":-1,"wbs":0,"p":"","bm":{},"cm":{}};	
+var _resImageRoot = '//2.ss.faisys.com';
+var _useBannerNewType = false; 				
+var _templateBannerData = {"ce":{},"pl":0,"s":0,"i":4000,"a":1500,"h":false,"o":false,"t":1,"p":0,"pt":0,"bt":1,"ws2":false,"l":[],"f":{},"n":[],"c":3,"at":0,"tt":false,"ws":false};			
+var _pageBannerData = {"s":0,"i":4000,"a":1500,"h":false,"o":false,"t":1,"p":0,"pt":0,"pl":0,"bt":1,"ws2":false,"l":[],"f":{},"ce":{},"n":[],"c":3,"at":0,"tt":false,"ws":false};						
+var _bannerData = _templateBannerData;
+var _templateBannerV2Data = {"bl":[{"t":1,"i":"ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM","ot":0,"p":"//18964519.s21i.faiusr.com/2/ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM.jpg","w":1920,"h":500,"tp":"//18964519.s21i.faiusr.com/2/ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM!100x100.jpg","du":"http://18964519.s21d-18.faiusrd.com/0/ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM?f=ABUIABACGAAgsIyI6AUohNKR6gYwgA849AM.jpg&v=","e":0,"u":""}],"s":1,"bt":6,"at":0,"i":4000,"a":1500,"blh":{"t":0},"blw":{"t":0},"bzb":{"t":0,"o":100,"c":""},"bla":0,"ble":{"t":0,"at":2},"blpe":0,"plx":{"o":0,"obg":0,"dir":0,"dist":0.4}};		
+var _pageBannerV2Data = {"s":0,"bl":[],"bt":1,"at":0,"i":4000,"a":1500,"blh":{"t":0},"blw":{"t":0},"bzb":{"t":0},"bla":0,"ble":{"t":0,"at":0},"blpe":0,"plx":{"o":0,"obg":0,"dir":0,"dist":0.4}};					
+var _bannerV2Data = _templateBannerV2Data;
+var _closePhotoDetailEditSettings = true;	
+var _siteSeachRangeLength = 12;  			
+var _useTemplateHeaderZone = true;				
+var _useTemplateFooterZone = true;				
+var _useTemplateBottomFloatLayer = true;	
+var _useTemplateTopAdv = true;						
+var _mallOpen = false;
+var _couponOpen = false
+var toolBoxShowView = false;
+var toolBoxShowSet = false;
+var toolBoxShowABTool = false;
+var _wideBanner = true;		
+var _navStyleData = {"ncp":{"y":1,"l":437,"t":-1,"r":-1,"b":-1,"hl":-1,"ht":-1},"v":0,"no":true,"s":0,"ns":{"w":-1,"h":-1},"cs":{"w":-1,"h":-1},"gt":{"y":0},"ht":{"y":0},"np":{},"nb":{"y":0},"cb":{"y":0},"cp":{"y":0,"t":-1,"l":-1},"nis":{"w":-1,"h":-1},"nib":{"y":0},"nihb":{"y":0},"niss":{"w":-1,"h":-1},"nisb":{"y":0},"nsigt":{"y":0},"nsiht":{"y":0},"nsis":{"w":-1,"h":-1},"nsib":{"y":0},"nsihb":{"y":0},"nsiho":0,"nmove":0,"nsmt":{},"nsmb":{},"nrs":{"n":{"t":0},"c":{"t":0},"i":{"t":0},"smt":{"t":0},"smb":{"t":0},"si":{"t":0},"is":{"t":0},"sis":{"t":0},"tmt":{"t":0},"tmb":{"t":0},"ti":{"t":0},"tis":{"t":0}},"nsw":{"n":{"t":0},"c":{"t":0},"i":{"t":0},"sm":{"t":0},"si":{"t":0},"is":{"t":0},"sis":{"t":0}},"nbr":{"n":{"t":0},"i":{"t":0},"sm":{"t":0},"si":{"t":0},"is":{"t":0},"sis":{"t":0},"tm":{"t":0},"ti":{"t":0},"tis":{"t":0}},"ntf":{},"ntmt":{},"ntmb":{},"onft":false};				      		
+var _navStyleV2Data = {"no":true,"s":0,"snt":0,"onft":false,"nmove":1,"oinc":false,"nhi":true,"ns":{"y":0,"w":-1,"h":50},"np":{"y":1,"t":502},"nbg":{"f":"","p":"","y":0},"nct":{"y":0,"h":50,"cw":1084},"nal":{"y":0,"a":0},"nifc":{"y":0,"sc":"rgb(255, 255, 255)"},"nif":{"y":0,"fs":16,"ff":"微软雅黑","ic":"rgb(255, 255, 255)","sc":"rgb(196, 0, 0)","w":0,"i":0,"d":0},"nis":{"y":1,"w":106,"h":50},"nisp":{"y":0,"s":1,"h":50,"c":"rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box"},"nir":{"y":0,"s":0},"nib":{"y":0,"c":"#000","s":1,"t":true,"b":true,"l":true,"r":true},"snfc":{"y":0},"snf":{"y":0,"fs":14,"ff":"微软雅黑","ic":"rgb(255, 255, 255)","sc":"rgb(196, 0, 0)","ta":1,"w":0,"i":0,"d":0},"snr":{"y":0},"snb":{"y":0,"c":"#000","t":true,"b":true,"l":true,"r":true},"ncb":true,"nsif":{"y":0,"fs":14,"ff":"微软雅黑","ic":"rgb(255, 255, 255)","sc":"rgb(196, 0, 0)","w":0,"i":0,"d":0},"ndl":false,"ndls":0,"nst":1,"nmw":1100};				  		
+var _useNavVersionTwo = true;					  		
+var _memberTopBar = false;                           		
+var _memberTopBar_versionTwo = false;     		
+_Global._navHidden =false;                                  	
+_Global._topBarV2 = false;                                  	
+_Global._stylePanelV1 = false;                             
+_Global._stylePanelV2 = false;                             
+var _useFooterVersionTwo = true;
+
+Fai.top._isDevDebug = false;  
+
+Fai.top.checkUPlanAcct = false;
+Fai.top._isShowFkAuthTips = true;
+Fai.top._fkAuth = false;
+Fai.top._fkAuthTitle = "凡科认证";
+Fai.top.staffClose=true;
+Fai.top._footerInfo = "";
+_Global._oemHiddenSupport = false;
+_Global._hideSupportAllowed = true;
+_Global._hiddenSupport = true;
+_Global._hiddenLogin = true;
+_Global._openManageSite = true;
+_Global._hiddenMobile = true;
+_Global._hiddenICP = false;
+_Global._hiddenFooterInfo = true;
+_Global._footerInfoV2 = "©2020 - 安源路矿工人运动纪念馆 版权所有";
+_Global.isFreeVer = false;
+_Global._hasBeiAn = false; 
+_Global._hiddenMps = false; 
+_defaultFooterInfo = "©2020 - 安源路矿工人运动纪念馆 版权所有";
+var _cityJsLink = "//1.ss.faisys.com/js/city2.min.js?v=201912181508";
+var _floatBtnCssLink = "//2.ss.faisys.com/css/floatBtn1.min.css?v=201910231607";
+var _themeColorType = 4;
+var _siteDemo = false;
+
+var _isRealDemo = false;
+_Global._backToTop = true;
+
+
+var _isGrayTestUser = false;
+
+var _newLinkForSite = false;
+var _siteType = 1;
+var _usePrem = true;
+var _acctCreateTime = 1552637768000;
+var _siteId = 0;
+var _isUseNewPanel = _isBUser && !_oem && !_isMallWeb; // 是否使用新的面板
+var _isMallDesigner = false; 
+var _hideHelp = false;
+var _templateLayout = _templateDefLayout.NAV_FLOAT;
+var _webBannerHeight = -1;
+var _isTemplateVersion2 = true;
+var _uiMode= false;
+var _isNewUserForLayoutToNewVersion = true;
+var _undo = {allow: {undo:0, redo:0} };
+var _choiceCurrencyVal = "￥";
+var _moduleAnimationPercent = -1;
+var file_size_limit = parseInt("500");
+_Global.styleChangeNum = 0;
+_Global.showSaveGuide = false; 				
+_Global.saveBtnState = 0; 					
+_Global.previewBtnState = 0; 				
+_Global.saveClickConut = 0;					
+_Global._useTemplateBackground = true;		
+var carousel3D = {};
+var isJuly3FreeUser = false;
+var _newUserGuide = false; 						
+if( false ){						
+	if(_aid > 9855603 && !true){ 	
+		_newUserGuide = true; 					
+	}
+}else{
+	if(_aid > 15971536 && !true){ 	// undefined and false	
+		_newUserGuide = true; 					//传到全局，当前
+	}
+}
+_newUserGuide = _isMallDesigner ? false : _newUserGuide;
+Site.getCouponByHdJump(0);
+Site.receiveCouponFromHd(false, 0, 0.0);
+var _executedCountForUserGuide = 1; 
+var jzOpenTime = 1552637768000;
+
+var loginMemberSucJumpUrlIllegality = false;
+_Global._siteAdvancedSetting = true;
+
+var fk_old_onload = window.onload;
+$(window).load(function(){
+	
+	Site.checkUserDomainAction();
+	
+	
+		Site.cacheModuleFunc.runSiteInit();
+	
+	
+		if(typeof fk_old_onload == "function"){
+			fk_old_onload.apply(this, arguments);
+		}
+		
+		
+		
+		Site.pageOnload();
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+});
+jzUtils.run({
+    "name": "Pre.errorReport",
+    "base": window
+});
+
+
+
+	Site.beforeUnloadFunc();
+
+
+
+
+
+
+
+// 在线视频模块
+
+Site.loadCss("//2.ss.faisys.com/css/comm/video.js/video-js.min.css?v=201910231607");
+Site.loadCss("//2.ss.faisys.com/css/video.min.css?v=202005131402");
+$LAB.script("//1.ss.faisys.com/js/comm/video.js/video.min.js?v=202004011336");
+Site.loadCss("//2.ss.faisys.com/css/datepicker.min.css?v=201910231607");
+	
+
+	$LAB.script("//1.ss.faisys.com/js/bookingSubmitPanel.min.js?v=201911061324");
+	$LAB.script("//1.ss.faisys.com/js/photoSlide.min.js?v=202003181523");
+	$LAB.script("//1.ss.faisys.com/js/imageEffect.min.js?v=202003181523")
+		.wait(function () {
+			jzUtils.trigger({
+				"name": "ImageEffect.FUNC.BASIC.Init",
+				"base":Site
+			});
+		});
+		
+
+
+if(!Fai.isIE8() && !Fai.isIE7() ){
+	$LAB.script("//1.ss.faisys.com/js/dist/svg.min.js?v=202005201142");
+}
+
+	$LAB.script("//1.ss.faisys.com/js/faiFloatPanel.min.js?v=202003041818")
+		.script("//1.ss.faisys.com/js/faiFloatPanel_bindEvent.min.js?v=201912041339")
+		
+		.wait(function(){
+			Site.loadCss("//2.ss.faisys.com/css/faiFloatPanel.min.css?v=201907171253", function(){
+
+				
+					
+			});
+		});
+	
+
+
+	
+	
+	
+}catch(e){
+  e.innerError = true;
+  throw(e);
+}
+
+
+
+</script>
+	
+	
+	
+
+
+
+
+
+
+
+
+</body></html>

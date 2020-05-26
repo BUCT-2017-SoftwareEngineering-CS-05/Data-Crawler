@@ -1,0 +1,394 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><meta name="renderer" content="webkit" /><title>
+	宣教活动
+</title>
+
+    <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+    <link href="css/main.css" rel="stylesheet" type="text/css" /><link href="css/public.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+    <script type="text/javascript" language="javascript">
+
+        //加入收藏
+
+        function AddFavorite(sURL, sTitle) {
+
+            sURL = encodeURI(sURL);
+            try {
+                window.external.addFavorite(sURL, sTitle);
+            } catch (e) {
+                try {
+                    window.sidebar.addPanel(sTitle, sURL, "");
+                } catch (e) {
+                    alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+                }
+            }
+        }
+        //设为首页
+        function SetHome(url) {
+            if (document.all) {
+                document.body.style.behavior = 'url(#default#homepage)';
+                document.body.setHomePage(url);
+            } else {
+                alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+            }
+        }
+
+        function noNumbers(e) {
+            var keynum
+            var keychar
+            var numcheck
+
+            if (window.event) // IE
+            {
+                keynum = e.keyCode
+            }
+            else if (e.which) // Netscape/Firefox/Opera
+            {
+                keynum = e.which
+            }
+            if (keynum == 13)
+            {
+
+                document.getElementById("btnsearch").click();
+                return false;
+
+            }
+
+        }
+
+    </script>
+    
+    <title>新闻列表</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/public.css" rel="stylesheet" type="text/css" />
+    <link href="css/subpage.css" rel="stylesheet" type="text/css" />
+    <!--<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/97zzw.js"></script>-->
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+</head>
+<body>
+    <form method="post" action="newlist.aspx?type=382" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKHkf6DCgLE5MLVAgL9n+DvAYQbQKJbE23fBKvGWP5c13riQg/HjETPXTl0HufPzt+J" />
+</div>
+
+        <div class="tbg">
+            <div class="top_k">
+                <div class="top">
+                    <div class="top_width">
+                        <div class="search_box r">
+                            <div class="intro">
+                                <ul>
+                                    <li><a href="index.aspx">中文</a></li>
+                                    <li>|</li>
+                                    <li><a href="EN/ENindex.aspx?type=422">英文</a></li>
+                                    <li>|</li>
+                                    <li><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a></li>
+                                    <li>|</li>
+                                    <li><a href="#" target="_self" onclick="AddFavorite()">加入收藏</a></li>
+                                </ul>
+                                <div style="clear: both"></div>
+                            </div>
+                            <div class="search_bg">
+                                <div class="text_width l">
+                                    <input name="ctl00$txtsearch" type="text" id="txtsearch" class="stext" onkeypress="return noNumbers(event);" />
+                                </div>
+                                <div class="sbtn_width l">
+                                    <input type="submit" name="ctl00$btnsearch" value="搜索" id="btnsearch" class="sbtn" />
+                                </div>
+                            </div>
+                        </div>
+                        <div style="clear: both"></div>
+                        <div class="nav">
+                            <ul>
+                                <li><a href="index.aspx">网站首页</a></li>
+                                <li><a href="content.aspx?type=350">关于本馆</a></li>
+                                <li><a href="newlist.aspx?type=355">新闻时讯</a></li>
+                               
+                                <li><a href="show_index.aspx?type=347">网上展厅</a></li>
+                                <li><a href="imglist.aspx?type=377">馆藏精品</a></li>
+                                <li><a href="newlist.aspx?type=382">宣教之窗</a></li>
+                                <li><a href="xzlist.aspx?type=390">网络课堂</a></li>
+                                <li><a href="newlist.aspx?type=362">学术研究</a></li>
+                                <li><a href="imglist.aspx?type=381">文化产品</a></li>
+                                <li><a href="canguan.aspx?type=388">公众服务</a></li>
+                                <li><a href="messagelist.aspx?type=2">交流互动</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <meta name="renderer" content="webkit"> 
+
+<div class="banner">
+    <!-- jianjie-->
+    <div class="ai_about" style=" width:966px; height:356px; margin:0 auto; position:relative; z-index:300;">
+        <div class="about_bg" style="width:254px; height:356px; float:right;background:url(/images/about_bg1.png) repeat-y;">
+            <h2 style=" margin-top:20px; overflow:hidden; font-size:16px; color:#fff; text-align:center; font-weight:bold">瑷珲历史陈列馆</h2>
+            <div class="ai_about_con" style=" margin-top:10px; overflow:hidden; font-size:12px; color:#fff; padding:5px; line-height:24px;">瑷珲历史陈列馆坐落于祖国东北边陲黑龙江中游右岸、全国重点文物保护单位——瑷珲新城遗址内，是全国唯一一处以全面反映中俄东部关系史为基本陈列内容的专题性遗址博物馆。现为全国首批爱国主义教育示范基地、首批国家一级博物馆、首批国家级国防教育示范基地、国家AAAA级旅游景区（点），基本陈列《瑷珲历史陈列》荣获第五届全国十大陈列展览精品奖。</div>
+            <div class="ai_about_more">
+            <a href="/content.aspx?type=350">查看详细</a>
+
+        </div>
+        </div>
+        
+    </div>
+    <!-- -->
+    <div class="focusBox">
+        <ul class="pic">
+            
+                    <li><a href="http://" target="_blank">
+                        <img src="/manager/Public/Newsfile/2015052601134316a6.jpg" width="1600" height="356" /></a></li>
+                   
+                
+                    <li><a href="http://" target="_blank">
+                        <img src="/manager/Public/Newsfile/20150526011336ee02.jpg" width="1600" height="356" /></a></li>
+                   
+                
+                    <li><a href="http://" target="_blank">
+                        <img src="/manager/Public/Newsfile/20150526011327cae8.jpg" width="1600" height="356" /></a></li>
+                   
+                
+                    <li><a href="http://" target="_blank">
+                        <img src="/manager/Public/Newsfile/201505260113193858.jpg" width="1600" height="356" /></a></li>
+                   
+                
+                    <li><a href="http://" target="_blank">
+                        <img src="/manager/Public/Newsfile/20150526011311abd2.jpg" width="1600" height="356" /></a></li>
+                   
+                
+        </ul>
+        <a class="prev" href="javascript:void(0)"></a><a class="next" href="javascript:void(0)"></a>
+    </div>
+    <script type="text/javascript">
+        /*鼠标移过，左右按钮显示*/
+        jQuery(".focusBox").hover(function () { jQuery(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.2) }, function () { jQuery(this).find(".prev,.next").fadeOut() });
+        /*SuperSlide图片切换*/
+        jQuery(".focusBox").slide({ mainCell: ".pic", effect: "fold", autoPlay: true, delayTime: 600, trigger: "click" });
+    </script>
+</div>
+
+        </div>
+
+        <div class="main_body">
+            <div>
+                
+    <div class="main">
+        
+
+<div class="sidebar l">
+    <div class="sub_t">
+        <div class="common_bgtitle addsty"><span class="title_bg l"><span id="ContentPlaceHolder1_lefts_title">宣教之窗</span></span></div>
+    </div>
+    <div class="sub_c">
+        <ul>
+           <li><a href=newlist.aspx?type=382>宣教活动</a></li><li><a href=newlist.aspx?type=383>志愿者园地</a></li><li><a href=newlist.aspx?type=384>博物馆之友</a></li>
+        </ul>
+    </div>
+    <div class="sub_td"></div>
+    
+<div class="sub_box">
+    <div class="sub_dt">
+        <div class="common_bgtitle"><span class="title_bg l">公众服务</span></div>
+    </div>
+    <div class="sub_dc">
+        <div class="sub_service_pic">
+            <a href="../canguan.aspx?type=388">
+                <img src="/Manager/Public/Newsfile/20150526024510187b.jpg" width="206" height="80" /></a>
+        </div>
+        <div class="sub_word">
+            <p>
+                <span class="sty_1">开放时间：</span>常年开放<br />
+            </p>
+            <p>
+                <span class="sty_1">咨询电话：</span>0456-8201907<br />
+            </p>
+        </div>
+        <div class="lane">
+            <span class="l"><a href="../map.aspx?type=389">
+                <img src="images/lane1.jpg" width="102" height="28" /></a>
+            </span>
+            <span class="r"><a href="../floor.aspx">
+                <img src="images/lane2.jpg" width="102" height="28" /></a>
+            </span>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    <div class="sub_dtd"></div>
+</div>
+
+</div>
+
+        <div class="sub_right r">
+            <div class="sub_short"><span class="s_end r">当前位置：<span><a href="index.aspx">网站首页</a></span> -><span><a href="#"><span id="ContentPlaceHolder1_Label1">宣教活动</span></a></span></span><span id="ContentPlaceHolder1_Label2">宣教活动</span></div>
+            <div class="sub_con">
+                <ul class="new_list">
+                    
+                            <li><span class="data">2020-05-06</span><a target="_blank" href="concon.aspx?id=2078">宣教活动 | 不可磨灭的五四精神</a></li>
+                        
+                            <li><span class="data">2020-04-01</span><a target="_blank" href="concon.aspx?id=2066">瑷珲研学 | 打卡新功能——瑷珲馆线上研学等你来！</a></li>
+                        
+                            <li><span class="data">2020-04-01</span><a target="_blank" href="concon.aspx?id=2065">宣教活动 | 瑷珲历史陈列馆清明节线上祭奠活动——“纪念庚子俄乱抗俄卫国英烈和死...</a></li>
+                        
+                            <li><span class="data">2019-10-31</span><a target="_blank" href="concon.aspx?id=1963">瑷珲历史陈列馆在2019年中小学生社会实践大课堂（研学）教育基地  首届全国经验...</a></li>
+                        
+                            <li><span class="data">2019-08-24</span><a target="_blank" href="concon.aspx?id=1886">瑷珲研学 | “我是文物小医生”暑期研学活动</a></li>
+                        
+                            <li><span class="data">2019-08-08</span><a target="_blank" href="concon.aspx?id=1884">瑷珲研学 | 9个国家华裔青少年走进瑷珲馆</a></li>
+                        
+                            <li><span class="data">2019-08-08</span><a target="_blank" href="concon.aspx?id=1883">宣教活动 | 如何让孩子的博物馆之旅更有收获</a></li>
+                        
+                            <li><span class="data">2019-07-19</span><a target="_blank" href="concon.aspx?id=1876">瑷珲研学 | 瑷珲馆迎来暑期研学之旅高峰</a></li>
+                        
+                            <li><span class="data">2019-06-15</span><a target="_blank" href="concon.aspx?id=1863">宣教活动 | 瑷珲历史陈列馆开展文化和自然遗产日活动</a></li>
+                        
+                            <li><span class="data">2019-06-06</span><a target="_blank" href="concon.aspx?id=1859">瑷珲研学 | 六一儿童节，您带孩子去哪了？</a></li>
+                        
+                            <li><span class="data">2019-06-06</span><a target="_blank" href="concon.aspx?id=1858">宣教活动 | “讲瑷珲故事 传红色基因 筑新时代梦想” 瑷珲历史陈列馆2019百...</a></li>
+                        
+                            <li><span class="data">2019-05-17</span><a target="_blank" href="concon.aspx?id=1850">瑷珲研学 | 从首都到瑷珲 ，跨越1700公里的研学之旅</a></li>
+                        
+                            <li><span class="data">2019-05-17</span><a target="_blank" href="concon.aspx?id=1849">宣教活动 | “讲瑷珲故事 传红色基因 筑新时代梦想 ——瑷珲历史陈列馆2019...</a></li>
+                        
+                            <li><span class="data">2019-05-06</span><a target="_blank" href="concon.aspx?id=1846">宣教活动 | 瑷珲历史陈列馆开展“青年兴则国家兴，青年强则国家强” 纪念五四运动...</a></li>
+                        
+                            <li><span class="data">2019-05-06</span><a target="_blank" href="concon.aspx?id=1845">瑷珲研学 | 瑷珲历史陈列馆研学简报</a></li>
+                        
+                            <li><span class="data">2019-05-01</span><a target="_blank" href="concon.aspx?id=1838">五一特辑 | 瑷珲研学——“听故事 观古迹 忆兴衰”瑷珲小学堂研学课程</a></li>
+                        
+                            <li><span class="data">2019-04-11</span><a target="_blank" href="concon.aspx?id=1806">宣教活动 | “讲瑷珲故事 传红色基因 筑新时代梦想——瑷珲历史陈列馆2019百...</a></li>
+                        
+                            <li><span class="data">2019-04-05</span><a target="_blank" href="concon.aspx?id=1834">瑷珲历史陈列馆举办“纪念庚子俄乱抗俄卫国英烈和死难同胞”研学活动</a></li>
+                        
+                            <li><span class="data">2019-02-27</span><a target="_blank" href="concon.aspx?id=1808">瑷珲历史陈列馆国家级研学实践教育基地欢迎你！</a></li>
+                        
+                            <li><span class="data">2019-02-20</span><a target="_blank" href="concon.aspx?id=1789">宣教活动 | 元宵节活动回顾</a></li>
+                        
+                            <li><span class="data">2018-12-07</span><a target="_blank" href="concon.aspx?id=1621">【宣教活动】“讲瑷珲故事 传红色基因”瑷珲宣讲团进校园活动走进黑河小学</a></li>
+                        
+                            <li><span class="data">2018-11-01</span><a target="_blank" href="concon.aspx?id=1595">【宣教活动】瑷珲馆宣教部《博物馆开放服务规范》集中学习讨论</a></li>
+                        
+                            <li><span class="data">2018-10-09</span><a target="_blank" href="concon.aspx?id=1588">【宣教活动】“十一”回顾</a></li>
+                        
+                            <li><span class="data">2018-10-01</span><a target="_blank" href="concon.aspx?id=1590">【宣教活动】"十一"活动 早知道！</a></li>
+                        
+                            <li><span class="data">2018-09-30</span><a target="_blank" href="concon.aspx?id=1587">【活动预告】瑷珲馆“迎国庆弘扬爱国主义教育”宣讲活动</a></li>
+                        
+                            <li><span class="data">2018-09-30</span><a target="_blank" href="concon.aspx?id=1586">【活动预告】“我口中的故事、你笔下的古迹”青少年体验社教活动</a></li>
+                        
+                </ul>
+                <div class="fanye">
+                    
+<!-- AspNetPager V6.0.0 for VS2005  Copyright:2003-2006 Webdiyer (www.webdiyer.com) -->
+<div id="ContentPlaceHolder1_Pager">
+	<table width="100%" border="0" cellpadding="5" cellspacing="0">
+		<tr>
+			<td valign="bottom" align="left" nowrap="true" style="width:40%;">总记录：41  页码：1/2  每页：26</td><td valign="bottom" align="Right" nowrap="true" class="" style="width:60%;"><a disabled="true" style="margin-right:5px;">首页</a><a disabled="true" style="margin-right:5px;">上一页</a><span style="margin-right:5px;font-weight:Bold;color:red;">1</span><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$Pager&#39;,&#39;2&#39;)" style="margin-right:5px;">2</a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$Pager&#39;,&#39;2&#39;)" style="margin-right:5px;">下一页</a><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$Pager&#39;,&#39;2&#39;)" style="margin-right:5px;">尾页</a></td>
+		</tr>
+	</table>
+</div>
+<!-- AspNetPager V6.0.0 for VS2005 End -->
+
+
+                </div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+            </div>
+            <!-------------footer start--------->
+            <div class="footer">
+                <div class="footerc">
+                    <div class="footer_box">
+                        <div class="f_r r">
+                            <div class="flist">
+                                <ul>
+                                    
+                                   
+                                    
+                                    <li><a href="#">掌上瑷珲</a></li>
+                                    <li>|</li>
+                                    <li><a href="messagelist.aspx">留言板</a></li>
+                                    <li>|</li>
+                                    <li><a href="contactus.aspx?id=325">联系瑷珲</a></li>
+                                </ul>
+                                <div style="clear: both"></div>
+                            </div>
+                            <div class="l">
+                                <div class="f_zi ">
+                                    ◎2003-2014 黑龙江省黑河市瑷珲历史陈列馆版权所有<br />
+                                    黑ICP备08002263号　　技术支持：哈尔滨市银河天鼎科技
+                                </div>
+                                <div class="f_xinlang ">
+                                    <a target="_blank" href="http://">
+                                        <img src="images/xinlang.jpg" width="144" height="38" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="f_weix r">
+                                      <img src="/Manager/Public/Newsfile/201408211004186cc5.jpg" width="80" height="95"/> 
+                                         
+                            </div>
+                        </div>
+                        <div style="clear: both"></div>
+                        <div id="a" class="link_img">
+                            <ul>
+                                
+                                        <li><a target="_blank" href="http://www.hongbowang.net/">
+                                            <img src="/manager/Public/Newsfile/20150611022832b3d9.jpg" width="153" height="44" /></a></li>
+                                    
+                                <li>
+                                    <p style="margin-bottom: 10px;">
+                                        <select onChange="if(this.options[this.selectedIndex].value != ''){ window.open(this.options[this.selectedIndex].value)}" class="select_more"><option value="" selected="true">各地市博物馆</option></select><select onChange="if(this.options[this.selectedIndex].value != ''){ window.open(this.options[this.selectedIndex].value)}" class="select_more"><option value="" selected="true">更多相关链接</option></select><select onChange="if(this.options[this.selectedIndex].value != ''){ window.open(this.options[this.selectedIndex].value)}" class="select_more"><option value="" selected="true">其他链接</option><option value="http://">111</option></select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                                    <!-- 20171116-->
+                <div class="tblogo" style="text-align:center"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/10/162/0000/60889012/CA101620000608890120003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                     <span style="text-align:center; margin:0 auto; color:#fff">黑公网安备：23110202231141</span>
+                </div>
+                   
+
+                </div>
+            </div>
+        </div>
+
+        <div id="Fixed">
+            <a id="goChat" class="fl" title="" href="#"></a>
+            <a id="goTop" class="fl" title="去顶部" href="javascript:;">去顶部</a>
+        </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+</form>
+</body>
+</html>

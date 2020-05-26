@@ -1,0 +1,11 @@
+Date: Sun, 17 May 2020 12:38:36 GMT
+Content-Type: text/html
+Set-Cookie: acw_tc=7b39758815897191161483173e5d37b404197a70e0a8eac36fcb66cd0319c6;path=/;HttpOnly;Max-Age=1800
+Set-Cookie: Secure
+Strict-Transport-Security: max-age=31536000
+Referer-Policy: origin
+Content-Security-Policy: frame-ancestors 'self'
+X-Permitted-Cross-Domain-Policies:  "master-only"
+X-Xss-Protection: 1; mode=block;
+X-Download-Options: SAMEORIGIN
+Content-Encoding: gzip

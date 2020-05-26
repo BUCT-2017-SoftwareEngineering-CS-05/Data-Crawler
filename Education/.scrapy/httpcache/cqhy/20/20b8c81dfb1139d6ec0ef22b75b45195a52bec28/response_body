@@ -1,0 +1,574 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>重庆红岩联线文化发展管理中心（重庆红岩革命历史博物馆）</title>
+<link rel="icon" href="/Public/style/lihong/images/favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="/Public/style/lihong/images/favicon.ico" type="image/x-icon"> 
+<link href="/Public/style/lihong/css/public.css" type="text/css" rel="stylesheet">
+<link href="/Public/style/lihong/css/content.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <!--<script type="text/javascript" src="/Public/style/lihong/js/jquery-1.10.1.min.js"></script>-->
+<script src="/Public/style/lihong/mFocus/js/jquery-1.8.3.min.js"></script>
+<script src="/Public/style/sister/js/wow.min.js"></script>
+<link href="/Public/style/sister/css/animate.css" rel="stylesheet" type="text/css">
+<script>
+	new WOW().init();
+</script>
+<style>
+body {
+    min-width: 1024px;
+}
+</style>
+<div class="header">
+    <div class="header-main">
+
+        <div class="clearBoth20"></div>
+
+        <div class="header-top">
+            <div class="logo fl wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceInLeft;"><a href="#"><img src="/Public/style/lihong/images/public/logo.png"></a></div>
+            <div class="header-right fr wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceInRight;">
+            	<div class="clearBoth5"></div>
+                <div class="header-guide"><a href="http://hongyan.hcwqq.com/cont/4585" target="_blank"><img src="/Public/style/lihong/images/public/icon-18.png"></a></div>
+                <div class="clearBoth10"></div>
+                <div class="header-link"><p><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a>|<a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a>|<a href="javascript:void(0)">咨询热线：023-65312300</a><!--|<a href="#">中文</a>-->|<a target="_blank" href="/Index/enindex">English</a></p></div>
+                <div class="clearBoth10"></div>
+                <div class="search">
+                   <form name="search_con" id="search_con" class="form-search form-horizontal" method="post" action="/index/search_con.html">
+                    <input class="search-text" placeholder="请输入搜索关键词" type="text" name="key" id="key" value="">
+                    <span><a href="javascript:;" id="search_on">搜索</a></span>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="nav" data-wow-delay="0.6s" id="nav">
+    <ul class="nav-list">
+        <li>
+            <a href="/">首页<span>Home</span></a>
+        </li>
+        <li>
+           
+            <a href="/toplist/19">关于红岩<span>HongYan</span></a>
+            
+            <ul class="nav-list-menu">
+            	<li><a href="/list/32">红岩文化</a> </li><li><a href="/list/34">博物馆机构</a> </li><li><a href="/list/33">历史沿革</a> </li>            </ul>        </li><li>
+           
+            <a href="/toplist/18">公告动态<span>Dynamics</span></a>
+            
+            <ul class="nav-list-menu">
+            	<li><a href="/list/29">文博信息</a> </li><li><a href="/list/30">政务平台</a> </li><li><a href="/list/31">公告</a> </li><li><a href="/list/58">专题报道</a> </li>            </ul>        </li><li>
+           
+            <a href="/toplist/20">馆藏精品<span>Collections</span></a>
+            
+            <ul class="nav-list-menu">
+            	<li><a href="/list/35">一级文物</a> </li><li><a href="/list/36">二级文物</a> </li><li><a href="/list/37">三级文物</a> </li>            </ul>        </li><li>
+           
+            <a href="/toplist/21">陈列展览<span>Exhibition</span></a>
+            
+            <ul class="nav-list-menu">
+            	<li><a href="/list/86">虚拟展览</a> </li><li><a href="/list/39">基本陈列</a> </li><li><a href="/list/40">复原陈列</a> </li><li><a href="/list/41">临时展览</a> </li><li><a href="/list/42">展览交流</a> </li>            </ul>        </li><li>
+           
+            <a href="/toplist/22">研究开发<span>Research</span></a>
+            
+            <ul class="nav-list-menu">
+            	<li><a href="/list/43">历史研究</a> </li><li><a href="/list/44">艺术创作</a> </li><li><a href="/list/53">影音在线</a> </li><li><a href="/list/45">文创产品</a> </li>            </ul>        </li><li>
+           
+            <a href="/toplist/23" class="on">公共教育<span>Education</span></a>
+            
+            <ul class="nav-list-menu">
+            	<li><a href="/list/46">党性教育</a> </li><li><a href="/list/47">爱国主义教育</a> </li><li><a href="/list/59">研学实践教育</a> </li><li><a href="/list/48">科普教育</a> </li>            </ul>        </li><li>
+           
+            <a href="/toplist/25">参观服务<span>Service</span></a>
+            
+            <ul class="nav-list-menu">
+            	<li><a href="/list/49">景点介绍</a> </li><li><a href="/list/50">服务内容</a> </li><li><a href="/list/51" target="_blank">网上预约</a> </li><li><a href="/list/87">志愿服务</a> </li>            </ul>        </li><li>
+           
+            <a href="http://hongyan-period-static.1000fun.com/html/hy_index.html" target="_blank">网上预约<span>Reservation</span></a>
+            
+                    </li>        
+        <!--<li>
+            <a href="#">关于红岩<span>HongYan</span></a>
+            <ul class="nav-list-menu">
+                <li><a href="#">红岩文化</a> </li>
+                <li><a href="#">历史沿革</a> </li>
+                <li><a href="#">博物馆机构</a> </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">馆藏精品<span>Collections</span></a>
+            <ul class="nav-list-menu">
+                <li><a href="#">一级文物</a> </li>
+                <li><a href="#">二级文物</a> </li>
+                <li><a href="#">三级文物</a> </li>
+                <li><a href="#">其他文物</a> </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">陈列展览<span>Exhibition</span></a>
+            <ul class="nav-list-menu">
+                <li><a href="#">基本陈列</a> </li>
+                <li><a href="#">复原陈列</a> </li>
+                <li><a href="#">临时陈列</a> </li>
+                <li><a href="#">展览交流</a> </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">研究开发<span>Research</span></a>
+            <ul  class="nav-list-menu">
+                <li><a href="#">历史研究</a> </li>
+                <li><a href="#">艺术创作</a> </li>
+                <li><a href="#">文创产品</a> </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">公共教育<span>Education</span></a>
+            <ul class="nav-list-menu">
+                <li><a href="#">党性教育</a> </li>
+                <li><a href="#">爱国主义教育</a> </li>
+                <li><a href="#">科普教育</a> </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">参观服务<span>Service</span></a>
+            <ul class="nav-list-menu">
+                <li><a href="#">景点介绍</a> </li>
+                <li><a href="#">服务内容</a> </li>
+                <li><a href="#">网上预约</a> </li>
+            </ul>
+        </li>-->
+    </ul>
+    <div class="clearBoth"></div>
+</div>
+
+<script>
+	var is_on = $(".nav-list > li").find('a.on:first').parent().index();
+	$(".nav-list > li:not(.nav-list li:eq(0))").hover(function(){
+		var index =$(this).index();
+		$(".nav-list-menu").eq(index-1).show();
+		$(".nav-list > li").eq(index).find('a:first').addClass('on');	
+	},function(){
+		$(".nav-list-menu").hide();
+		$(".nav-list > li").find('a:first').removeClass('on');	
+		$(".nav-list > li").eq(is_on).find('a:first').addClass('on');	
+	});
+	
+	//搜索
+	$("#search_on").click(function () {
+		$("#search_con").submit();
+	});
+	
+	//加入收藏
+	function AddFavorite(sURL, sTitle) {
+            sURL = encodeURI(sURL); 
+        try{   
+            window.external.addFavorite(sURL, sTitle);   
+        }catch(e) {   
+            try{   
+                window.sidebar.addPanel(sTitle, sURL, "");   
+            }catch (e) {   
+                alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+            }   
+        }
+    }
+	//设为首页
+	function SetHome(url){
+        if (document.all) {
+            document.body.style.behavior='url(#default#homepage)';
+               document.body.setHomePage(url);
+        }else{
+            alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+        }
+    }
+</script>       
+
+        <div class="clearBoth"></div>
+
+    <div class="banner">
+        <div class="banner-main"><img src="/Public//uploads/Ad/2018-06-01/5b10ef90e78da.jpg"></div>
+    </div>
+
+    <div class="content-header">
+        <div class="content-header-main">
+            <h2>公共教育</h2>
+        </div>
+    </div>
+
+    <div class="clearBoth20"></div>
+    <div class="clearBoth20"></div>
+
+    <div class="main">
+        <div class="main-left fl">
+            <div class="sub-nav">
+                <ul>
+                	<li><a href="/list/46">党性教育</a> </li><li><a href="/list/47">爱国主义教育</a> </li><li><a href="/list/59">研学实践教育</a> </li><li><a href="/list/48" class="on">科普教育</a> </li>                    <!--<li><a href="#">历史沿革</a> </li>
+                    <li><a href="#">博物馆机构</a> </li>-->
+                </ul>
+            </div>
+            			<div class="main-ad">
+                <img src="/Public/style/lihong/images/advert/pic-201.jpg">
+            </div>
+
+            <div class="clearBoth10"></div>
+
+            <!--<div class="main-guide">
+                <h2>参观指南</h2>
+                <p>开放时间：<em>9:00-17:00 16:30停止入馆
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;景区全年免费开放</em></p>
+                <p>地址：<em>重庆市渝中区红岩村52号</em></p>
+                <p>咨询电话：<b>023-63303065</b></p>
+            </div>-->
+			<div class="main-guide">
+                <h2>参观指南</h2>
+                <div class="main-guide-list" style="overflow: hidden;">
+                    <ul style="position: relative; width: 783px;">
+                        <li>
+                            <p>馆&nbsp;&nbsp;名：<em>红岩革命纪念馆</em></p>
+                            <p>地&nbsp;&nbsp;址：<em>重庆市渝中区红岩村52号</em></p>
+                            <p>开放时间：<em>9:00-17:00 16:30停止入馆
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;景区全年免费开放</em></p>
+                            <p>咨询电话：<b>023-63303457</b></p>
+                            <img src="/Public/style/lihong/images/advert/pic-21.jpg">
+                        </li>
+                        <li>
+                            <p>馆&nbsp;&nbsp;名：<em>重庆歌乐山革命纪念馆</em></p>
+                            <p>地&nbsp;&nbsp;址：<em>重庆沙坪坝烈士墓政法三村63号</em></p>
+                            <p>开放时间：<em>9:00-17:00 16:30停止入馆
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;景区全年免费开放</em></p>
+                            <p>咨询电话：<b>023-65312300</b></p>
+                            <img src="/Public/style/lihong/images/advert/pic-212.jpg">
+                        </li>
+                        <li>
+                            <p>馆&nbsp;&nbsp;名：<em>中国民主党派历史陈列馆</em></p>
+                            <p>地&nbsp;&nbsp;址：<em>重庆渝中区上清寺嘉陵桥东村1号</em></p>
+                            <p>开放时间：<em>9:00-17:00 16:30停止入馆
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;景区全年免费开放</em></p>
+                            <p>咨询电话：<b>023-63621155</b></p>
+                            <img src="/Public/style/lihong/images/advert/pic-213.jpg">
+                        </li>
+                    </ul>
+                    <div class="clearBoth"></div>
+                    <div class="tab-dot">
+        				<span class="on"></span><span></span><span></span>        
+               	    </div>
+                	</div>
+            </div>
+            
+            <script>
+				$(function () {
+				  var sWidth_new = $(".main-guide-list ul li").width(); //获取焦点图的宽度（显示面积）
+				  var len_new = $(".main-guide-list ul li").length; //获取焦点图个数
+				  var index_new = 0;
+				  var picTimer_new = 0;
+				  //本例为左右滚动，即所有li元素都是在同一排向左浮动，所以这里需要计算出外围ul元素的宽度
+				  $(".main-guide-list ul").css("width", sWidth_new * len_new);
+
+				  //鼠标滑上焦点图时停止自动播放，滑出时开始自动播放
+				  $(".main-guide-list").hover(function () {
+					  clearInterval(picTimer_new);
+				  }, function () {
+					  picTimer_new = setInterval(function () {
+						  if (index_new < len_new-1) {
+							  index_new++;
+						  } else {
+							  index_new = 0;
+						  }
+						  //alert(index_new);
+						  showPics(index_new);
+					  }, 
+					  3000); //此3000代表自动播放的间隔，单位：毫秒
+				  }).trigger("mouseleave");
+
+				  /*$(".focus-abs span a:first").click(function () {
+					  var num = index_new-1;
+					  if( num < 0 ){
+						  index_new = len_new-1;
+					  }else{
+						  index_new = num;
+					  }
+					  picTimer_new = 0;
+					  showPics(index_new);
+				  });
+
+				  $(".focus-abs span a:last").click(function () {
+					  var num = index_new+1;
+					  if( num > len_new-1){
+						  index_new = 0;
+					  }else{
+						  index_new = num;
+					  }
+					  picTimer_new = 0;
+					  showPics(index_new);
+				  });*/
+
+				  //显示图片函数，根据接收的index值显示相应的内容
+				  function showPics(index_new) { //普通切换
+					  var nowLeft = -index_new * sWidth_new; //根据index值计算ul元素的left值
+					  $(".main-guide-list ul").stop(true, false).animate({"left": nowLeft}, 800); //通过animate()调整ul元素滚动到计算出的position
+					  
+					  //var url_on = $(".main-guide-list ul li").eq(index_new).find('a').attr('href');
+					  //$("#url_on").attr('href',url_on);
+					  //alert(url_on); 
+					  $(".tab-dot span").removeClass('on');
+					  $(".tab-dot span").eq(index_new).addClass('on');
+				  }
+				});
+			</script>
+
+
+            
+            
+            <div class="clearBoth10"></div>
+
+            <!--<div class="main-ad">
+                <img src="/Public/style/lihong/images/advert/pic-21.jpg">
+            </div>-->
+        </div>
+
+        <div class="main-right fr">
+          	           
+            <div class="news-list">
+                <dl>
+                    <dt><a target="_blank" href="/cont/8152"><img src="/Public/uploads/2019-04-29/5cc69990a10736.53408786.gif"></a></dt>
+                    <dd>
+                        <h2><a target="_blank" href="/cont/8152"></a><a href="#"></a>科普讲解大赛再开赛  红岩科普达人展风采</h2>
+                        <p>2019年4月26日“云软杯”第六届重庆科普讲解大赛决赛落下帷幕。红岩科普达人张丽佳、赵露、易琴与...</p>
+                        <span><a target="_blank" href="/cont/8152">查看详情</a> </span>
+                    </dd>
+                </dl>                <div class="clearBoth20"></div>
+                <ul>
+                    <li><a target="_blank" href="/cont/7446">全国科普大赛再创佳绩</a><em>2018-06-27</em></li><li><a target="_blank" href="/cont/4428">我馆讲解员荣获“第五届重庆市十佳科普使者”荣誉称号</a><em>2018-04-28</em></li><li><a target="_blank" href="/cont/4427">全国科普大赛再创辉煌</a><em>2017-06-13</em></li><li><a target="_blank" href="/cont/4426">不断拓宽讲解领域  科普大赛屡获佳绩</a><em>2017-05-17</em></li><li><a target="_blank" href="/cont/4425">2016年全国科普日开幕</a><em>2016-09-18</em></li><li><a target="_blank" href="/cont/4424">第三届全国科普讲解大赛　红岩讲解员再创佳绩</a><em>2016-06-01</em></li><li><a target="_blank" href="/cont/4423">第27届国际科学与和平周系列活动之一《向二战援华飞虎群英致敬》图片巡回展...</a><em>2015-11-17</em></li><li><a target="_blank" href="/cont/4422">红岩巾帼不辱使命　科普大赛再续辉煌</a><em>2015-04-28</em></li><li><a target="_blank" href="/cont/4421">为大众展示科普水平　发挥科普传播能力</a><em>2014-08-26</em></li><li><a target="_blank" href="/cont/4420">“科学生活 创新圆梦”----首届“全国十佳科普使者”捧杯的风采</a><em>2014-05-27</em></li><li><a target="_blank" href="/cont/4419">传科普知识　获比赛佳绩</a><em>2014-04-30</em></li><li><a target="_blank" href="/cont/4418">红岩联线参加全市社科普及工作会</a><em>2013-04-01</em></li><li><a target="_blank" href="/cont/4417">重庆红岩革命历史博物馆荣获“重庆市科普基地”称号</a><em>2010-06-01</em></li>                    <!--<li><a href="#">5.18国际博物馆日 红岩文化大餐等你来  </a><em>2017-05-17</em></li>
+                    <li><a href="#">不断拓宽讲解领域 科普大赛屡获佳绩 </a><em>2017-04-01</em></li>
+                    <li><a href="#">重庆市各界隆重举行“清明祭英烈”活动 </a><em>2017-05-19</em></li>
+                    <li><a href="#">春暖花开季 交流学习忙——韩国馆讲解员到红岩交流学习 </a><em>2017-05-19</em></li>
+                    <li><a href="#">重庆红岩文化产业（集团）有限公司举办“三•八”国际劳动妇女节专题讲座</a><em>2017-05-19</em></li>
+                    <li><a href="#">渝中区政府与红岩联线管理中心联合召开创建国家5A级景区现场工作推进会 </a><em>2017-05-19</em></li>
+                    <li><a href="#">撸起袖子加油干 实现新年开门红  </a><em>2017-05-19</em></li>
+                    <li><a href="#">红岩党性教育基地召开2016年度工作总结会暨精品课程比赛颁奖典礼 </a><em>2017-05-19</em></li>
+                    <li><a href="#">央视来渝拍摄真实江姐——93高龄幸存者忆江竹筠 </a><em>2017-05-19</em></li>
+                    <li><a href="#">以赛促教提升水平 取长补短共同进步 </a><em>2017-05-19</em></li>
+                    <li><a href="#">市委宣传部副部长、市文化委主任张洪斌一行赴红岩联线慰问一线干部职工 </a><em>2017-05-19</em></li>
+                    <li><a href="#">创新组织生活，唱响中国梦主旋律</a><em>2017-04-01</em></li>
+                    <li><a href="#">继往开来 扬鞭奋蹄 </a><em>2017-05-19</em></li>
+                    <li><a href="#">《国家记忆》之《重庆谈判》在渝开拍 </a><em>2017-05-19</em></li>-->
+                </ul>
+                <div class="clearBoth20"></div>
+                <div class="clearBoth20"></div>
+                
+                
+            </div>
+            <div id="news-page">
+                   <div class="pagination"><ul><li><span> 13 条记录 1/1 页</span></li>          </ul></div>                    <!--<a href="#" class="page_left">首页</a>
+                    <a href="#" class="page_left">上一页</a>
+                    <a class='current'>1</a>
+                    <a  href='#'>2</a>
+                    <a  href='#'>3</a>
+                    <a  href='#'>4</a>
+                    <a  href='#'>5</a>
+                    <a class='page_left' href='#'>下一页</a>
+                    <a class='page_left' href='#' >末页</a>-->
+            </div>
+            </div>
+    </div>
+
+
+    <div class="clearBoth80"></div>
+
+    <div class="friend-link">
+    <div class="friend-link-main fl">
+        <dl style="padding: 0 22px 0 0;">
+            <dt><a target="_blank" href="/toplist/19">关于红岩</a></dt>
+            <dd><a target="_blank" href="/list/32">红岩文化</a></dd>
+            <dd><a target="_blank" href="/list/50">服务内容</a></dd>
+        </dl>
+        <dl style="display:none;">
+            <dt><a target="_blank" href="/toplist/25">服务内容</a></dt>
+            <dd><a target="_blank" href="/list/50">参观指南</a></dd>
+            <dd><a target="_blank" href="/list/51">网上预约</a></dd>
+        </dl>
+        <dl>
+            <dt><a href="javascript:void(0);">友情链接</a></dt>
+            <dd>
+                <select onchange="javascript:window.open(this.options[this.selectedIndex].value)">
+                  	<option>博物馆相关链接</option>
+                   	<option value="http://www.hcyqq.com">中国红村网</option><option value="http://www.cqwhw.gov.cn/">重庆市文化委员会</option><option value="http://hongyan19.com/">重庆红岩文化产业集团</option><option value="http://www.mzdp.org/">特园中国民主党派历史陈列馆</option><option value="http://www.mcprc.gov.cn/">中华人民共和国文化部</option><option value="http://www.people.com.cn/">人民网</option><option value="http://www.cq.xinhuanet.com/">新华网</option><option value="http://www.cqnews.net/">华龙网</option><option value="http://www.gmw.cn/">光明网</option><option value="http://www.cbg.cn/">视界网</option><option value="http://www.crt.com.cn/">中红网</option><option value="http://www.sczyz.org/">山城志愿服务网</option><option value="http://www.youth.cn/">中国青年网</option><option value="http://www.sach.gov.cn/">国家文物局</option>                </select>
+            </dd>
+        </dl>
+        <dl>
+        	<dd>重庆红岩革命历史博物馆</dd>
+            <dd>电话：023-63300192 63303065</dd>
+            <dd>传真：023-63303075</dd>
+        </dl>
+        <dl style="border:none;">
+        	<dd>地址：重庆市渝中区红岩村52号</dd>
+            <dd>邮编：400043</dd>
+            <dd>邮箱：hongyanlianxian@126.com</dd>
+        </dl>
+        
+    </div>
+    <div class="index-contact fl" style="display:none;">
+        <div class="index-contact-top">
+            <img src="/Public/style/lihong/images/public/icon-07.png">
+            <span>
+                <h2>咨询电话</h2>
+                <p>023-63300192</p>
+            </span>
+        </div>
+        <div class="clearBoth10"></div>
+        <div class="index-contact-add"><p>地址：重庆市渝中区红岩村52号</p></div>
+    </div>
+
+    <div class="footer-ewm fr">
+        <img src="/Public/style/lihong/images/public/ewm.png">
+        <h2>关注官方微信号</h2>
+    </div>
+</div>
+
+
+<div class="clearBoth20"></div>
+<div class="clearBoth20"></div>
+
+<div class="copyright">
+    <div class="copyright-main">
+        <p>版权所有 © 2002-2020 重庆红岩联线文化发展管理中心 重庆红岩革命历史博物馆</p>
+        <p><a style="color:#fff;" target="_blank" href="http://beian.miit.gov.cn/state/outPortal/loginPortal.action;jsessionid=MLMMaKgPMz1RIa3kMwQroJPeSrsXzhaki_Ta-y9u-NEUYsSebYJ-!-767317885">渝ICP备12000583号-3</a>    信息网络传播视听节目许可证号：2210490
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275011832'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275011832%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1275011832"><a href="https://www.cnzz.com/stat/website.php?web_id=1275011832" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="https://icon.cnzz.com/img/pic1.gif"></a></span><script src=" https://s19.cnzz.com/z_stat.php?id=1275011832&amp;show=pic1" type="text/javascript"></script><script src="https://c.cnzz.com/core.php?web_id=1275011832&amp;show=pic1&amp;t=z" charset="utf-8" type="text/javascript"></script>
+        </p>
+		<div style="width:240px;margin:0 auto; padding:0px 0;">
+			<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50010302001961" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/Public/style/lihong/images/备案图标(1).png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#fff;font-size:14px;">渝公网安备 50010302001961号</p></a>
+		</div>
+	</div>
+</div>
+	<style type="text/css">
+	#winpop {
+	 width:220px;
+	 height:0px;
+	 position:fixed;
+	 right:0;
+	 bottom:0;
+	 margin:0;
+	 border:1px solid #F0F0F0;
+	 border-radius:6px;
+	 overflow:hidden;
+	 display:none;
+	 z-index: 111;
+	}
+	#winpop .title{
+	 width:100%;
+	 height:40px;
+	 line-height:40px;
+	 background:#ed1d24;
+	 font-weight:bold;
+	 text-align:center;
+	 font-size:14px;
+	 color: #fff;
+	}
+	
+	#winpop .con {
+	 width:100%;
+	 background: #fff;
+	}
+
+	#winpop .con a {
+	 display:block;
+	 padding:20px 10px;
+	 line-height:24px;
+	 text-align:center;
+	 font-size:16px;
+	 color:#ed1d24;	
+	}
+	
+	.con_pic {
+		width:220px;
+		height:130px;
+	}
+	
+	.pic-title {
+		position:absolute;
+		right:0;
+		top:0;
+		width:100%;
+	}
+	
+	.pic-title span{
+	 font-weight:bold;
+	 font-size:14px;
+	 color: #fff;
+	}
+
+	#silu{
+	 font-size:16px;
+	 color:#666;
+	 position:absolute;
+	 right:0;
+	 text-decoration:underline;
+	 line-height:22px;
+	}
+	.close{
+	 position:absolute;
+	 right:12px;
+	 top:12px;
+	 color:#FFF;
+	 cursor:pointer
+	}
+	</style>    
+	<script type="text/javascript">
+	function tips_pop(){
+	 var MsgPop=document.getElementById("winpop");
+	 var popH=parseInt(MsgPop.style.height);//将对象的高度转化为数字
+	 if(popH==0){
+	 MsgPop.style.display="block";//显示隐藏的窗口
+	 show=setInterval("changeH('up')",2);
+	 }
+	 else{ 
+	 hide=setInterval("changeH('down')",2);
+	 }
+	}
+	function changeH(str){
+	 var MsgPop=document.getElementById("winpop");
+	 var popH=parseInt(MsgPop.style.height);
+	 if(str=="up"){
+	 if(popH<=130){
+	 MsgPop.style.height=(popH+4).toString()+"px";
+	 }
+	 else{ 
+	 clearInterval(show);
+	 }
+	 }
+	 if(str=="down"){ 
+	 if(popH>=4){ 
+	 MsgPop.style.height=(popH-4).toString()+"px";
+	 }
+	 else{ 
+	 clearInterval(hide); 
+	 MsgPop.style.display="none"; //隐藏DIV
+	 }
+	 }
+	}
+	window.onload=function(){
+	 var oclose=document.getElementById("close");
+	 var bt=document.getElementById("bt");
+	 document.getElementById('winpop').style.height='0px';
+	 setTimeout("tips_pop()",2000);
+	 oclose.onclick=function(){tips_pop()}
+	 bt.onclick=function(){tips_pop()}
+	}
+	</script>
+
+	<div id="silu">
+	 <button style="display: none;" id="bt">3秒后会在右下角自动弹出窗口，如果没有弹出请点击这个按钮</button>
+	</div>
+	<div id="winpop" style="border: none; height: 0px;">
+	 	<div class="pic-title"><span class="close" id="close">X</span>
+        <!--<div class="title">消息提醒<span class="close" id="close">X</span>
+		<div class="con"><a title="“11•27”烈士殉难70周年祭扫活动通告" target="_blank" href="/cont/8643">“11•27”烈士殉难70周年祭扫活动通告</a></div></div>-->
+        <div class="con_pic"><a title="“寻找红岩发声人——“红岩故事厅”系列活动" target="_blank" href="
+https://h5.cbgcloud.com/xytemplate/super/hongyangushi/apply/index.html?scene=1&amp;clicktime=1578473539&amp;enterid=1578473539&amp;from=singlemessage&amp;isappinstalled=0
+"><img src="/Public/style/lihong/images/红岩发声人.jpg"></a></div>
+	</div>
+
+</div></body></html>

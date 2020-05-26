@@ -1,0 +1,263 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>文化弘扬</title>
+<link rel="stylesheet" type="text/css" href="/templets/dhskgzw/css/css.css">
+<link rel="stylesheet" type="text/css" href="/templets/dhskgzw/css/style.css">
+<script>
+        //初始化
+        var def = "1";
+        function mover(object) {
+            //主菜单 选中
+            var mm = document.getElementById("m_" + object);
+            mm.className = "m_li_a";
+            //初始主菜单 其他的不选中
+            for (var i = 1; i <= 9; i++) {
+                if (i != object) {
+                    var mdef = document.getElementById("m_" + i);
+                    mdef.className = "m_li";
+                }
+            }
+        }
+    </script>
+<!--<script type="text/javascript">
+        stepcarousel.setup({
+            galleryid: 'mygallery', //id of carousel DIV
+            beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+            panelclass: 'panel', //class of panel DIVs each holding content
+            panelbehavior: { speed: 300, wraparound: false, persist: true },
+            autostep: { enable: true, moveby: 4, pause: 10000 },
+            defaultbuttons: { enable: true, moveby: 4, leftnav: ['/templets/dhskgzw/images/butt-left.gif', 0, 20], rightnav: ['/templets/dhskgzw/images/butt-right.gif', -11, 20] },
+            statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+            contenttype: ['inline'], //content setting ['inline'] or ['external', 'path_to_external_file']
+            oninit: function () {
+                isloaded = true
+                document.getElementById('displaycssbelt').style.visibility = "visible";
+               
+            }
+        })
+    </script>-->
+<style type="text/css">
+ a {
+	color:#004276;
+	text-decoration:none;
+}
+a:hover {
+	color:red;
+	text-decoration:none;
+}
+.m_li_a a {
+	color:#FFFFFF;
+}
+.m_li_a a:hover {
+	color:#FFFFFF;
+}
+.m_li a {
+	color:#FF0000;
+}
+ body
+    {
+        margin:0px auto; padding:0px; color:#666666; font-size:12px;
+        background-image:url(/templets/dhskgzw/images/bg.jpg);
+
+    }
+.daohangs{padding:0px 5px; border:#999999 1px solid; background-color:#FF0000; font-size:10px; color:#FFFFFF; margin-right:5px;
+}
+</style>
+</head>
+<!--Created by SWCMS v4.0 at 2020/5/21 23:03:31-->
+<body style=" background-color:#f1f5fa;" oncontextmenu="self.event.returnValue=false">
+<!--头顶开始-->
+        <div style="margin:0 auto;">
+            <div style="background-image: url(../templets/dhskgzw/images/topimg.jpg);  height:226px; margin:0 auto; width:auto;background-repeat:no-repeat;background-position:center 50%;">
+<div style=" width: 945px;height:30px; margin-left:auto;margin-right:auto;">
+                           <div style="width:220px; height:20px;  padding-top:10px; float:right; margin:0px;auto;  text-align:center; vertical-align:middle;" id="gle">
+             
+             <a href="http://tour.dha.ac.cn" target="_blank"><img src="../templets/dhskgzw/images/tour.png" border="0"></a>&nbsp;&nbsp;
+             <a href="http://dh.dha.ac.cn" target="_blank"><img src="../templets/dhskgzw/images/ziyuanw.png" border="0"></a>&nbsp;&nbsp;
+             <a href="http://en.dha.ac.cn" target="_blank"><img src="../templets/dhskgzw/images/english.png" border="0"></a> 
+<br><br><br><br><br><br><br><br>
+<div class="search"><form id="Search_Form" name="Search_Form" method="get" action="Search.aspx"><span class="search_1"><input name="tags" id="tags" alt="请输入要搜索的关键词" type="text" class="" size="20" maxlength="20" onkeydown="javascript:if(event.keyCode==13){return false;}"></span><span class="search_2"> <input name="buttongo" id="buttongo" class="" type="button" value="搜索" onclick="javascript:SearchGo98588(this.form);"></span></form></div><script language="javascript" type="text/javascript">function SearchGo98588(obj){if(document.getElementById('tags').value.length<2||document.getElementById('tags').value.length>50){ alert('搜索最小长度2字符，最大长度50字符。');return false;}if(document.getElementById('tags').value==''){ alert('请填写关键字');return false;}window.location.href='http://public.dha.ac.cn/Search.aspx?type=news&tags='+escape(document.getElementById('tags').value)+'';}</script>
+             </div>
+    </div>
+ </div>
+<div style="background-image:url(../templets/dhskgzw/images/red1.jpg); width:auto; height:3px; margin:0 auto;background-repeat:no-repeat;background-position:center 50%;"></div>
+  <div align="center" style="background-image:url(../templets/dhskgzw/images/red1.jpg); width:auto; margin:0 auto;background-repeat:no-repeat;background-position:center 50%;">
+
+             <div id="menu" align="center">
+                    <ul>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_1" class="m_li_a" onmouseover="mover(1);"><a href="http://public.dha.ac.cn">首页</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_2" class="m_li" onmouseover="mover(2);"><a href="/list.aspx?id=142223442522" target="_blank">走进莫高窟</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_3" class="m_li" onmouseover="mover(3);"><a href="/list.aspx?id=680408652308" target="_blank">石窟保护</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_4" class="m_li" onmouseover="mover(4);"><a href="/list.aspx?id=896339635046" target="_blank">敦煌学研究</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_5" class="m_li" onmouseover="mover(5);"><a href="/list.aspx?id=752571666216" target="_blank">文化弘扬</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_6" class="m_li" onmouseover="mover(6);"><a href="/list.aspx?id=133060247353" target="_blank">敦煌研究院</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_7" class="m_li" onmouseover="mover(7);"><a href="/list.aspx?id=560243142507" target="_blank">《敦煌研究》</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_8" class="m_li" onmouseover="mover(8);"><a href="http://fund.dha.ac.cn/" target="_blank">基金会</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                        <li id="m_9" class="m_li" onmouseover="mover(9);"><a href="http://www.dha.ac.cn/" target="_blank">文化产业</a></li>
+                        <li class="m_line">
+                            <img src="/templets/dhskgzw/images/line1.gif"></li>
+                    </ul>
+                </div>
+                <div align="center" style="widht:auot; height:4px;background-image:url(../templets/dhskgzw/images/top2.jpg); background-repeat:no-repeat;background-position:center 50%;"></div>
+            </div>
+       </div> 
+<!--头顶结束-->
+<!--中间开始-->
+<div style="width: 1000px; height:auto; margin: 5px auto;">
+  <div style="width: 730px; height: 40px; float: left; background-image: url(/templets/dhskgzw/images/content1.jpg);
+                line-height: 35px; padding-left: 0px; font-weight: bold; color:#000000;"><div style=" padding-left: 10px;">当前位置：<a href="http://public.dha.ac.cn">首页</a> &gt;&gt; <a href="http://public.dha.ac.cn/list.aspx?id=752571666216">文化弘扬</a> &gt;&gt; 列表</div></div>
+  <div style="width: 730px; height: auto; float: left; font-size:14px;">
+  <div style=" height:auto; width:730px; font-size:14px;">
+    <ul type="square" style=" width:auto;line-height: 30px; margin-left:0px;">
+      <table border="0" cellspacing="0" cellpadding="0" width="100%"><tbody><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-03-30</span><a href="http://public.dha.ac.cn/content.aspx?id=666205776120" target="_blank" title="可移动文物普查2014年度成果展">可移动文物普查2014年度成果展</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-03-19</span><a href="http://public.dha.ac.cn/content.aspx?id=863199647431" target="_blank" title="敦煌壁画中“跳出”的纯美舞步——《莲花》唯美绽放">敦煌壁画中“跳出”的纯美舞步——《莲花》唯美绽放</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-03-12</span><a href="http://public.dha.ac.cn/content.aspx?id=676196198930" target="_blank" title="甘肃舞剧《丝路花雨》惊艳首尔 创演35年来首登韩国舞台">甘肃舞剧《丝路花雨》惊艳首尔 创演35年来首登韩国舞台</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-03-09</span><a href="http://public.dha.ac.cn/content.aspx?id=610658154116" target="_blank" title="敦煌研究院联合市教育局组织全市中小学生参观莫高窟数字展示中心">敦煌研究院联合市教育局组织全市中小学生参观莫高窟数字展示中心</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-02-13</span><a href="http://public.dha.ac.cn/content.aspx?id=212677547925" target="_blank" title="新技术，让你过年更嗨——电脑上游敦煌，足不出户饱眼福">新技术，让你过年更嗨——电脑上游敦煌，足不出户饱眼福</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-02-13</span><a href="http://public.dha.ac.cn/content.aspx?id=191496552969" target="_blank" title="花开敦煌——常沙娜图案研究与应用展深圳开幕">花开敦煌——常沙娜图案研究与应用展深圳开幕</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-02-09</span><a href="http://public.dha.ac.cn/content.aspx?id=201478966087" target="_blank" title="谭盾将以敦煌石窟文化为新创作题材">谭盾将以敦煌石窟文化为新创作题材</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-02-04</span><a href="http://public.dha.ac.cn/content.aspx?id=747682078105" target="_blank" title="“花开敦煌——常沙娜图案研究与应用展”第二站即将开展">“花开敦煌——常沙娜图案研究与应用展”第二站即将开展</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-02-04</span><a href="http://public.dha.ac.cn/content.aspx?id=308962309142" target="_blank" title="" 敦煌韵·丝路情"首场文艺演出轰动达卡"="">"敦煌韵·丝路情"首场文艺演出轰动达卡</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-02-03</span><a href="http://public.dha.ac.cn/content.aspx?id=589809992220" target="_blank" title="丝绸之路文明的历史思考">丝绸之路文明的历史思考</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-02-03</span><a href="http://public.dha.ac.cn/content.aspx?id=606128449947" target="_blank" title="文化部文化产业司征集2015年文化产业项目">文化部文化产业司征集2015年文化产业项目</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-02-03</span><a href="http://public.dha.ac.cn/content.aspx?id=442062441895" target="_blank" title="甘肃博物馆纪念馆总数首超200 跨入博物馆大省行列">甘肃博物馆纪念馆总数首超200 跨入博物馆大省行列</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-29</span><a href="http://public.dha.ac.cn/content.aspx?id=608301423291" target="_blank" title=" 《丝路花雨》在韩国“中国旅游年”开幕式压轴演出"> 《丝路花雨》在韩国“中国旅游年”开幕式压轴演出</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-28</span><a href="http://public.dha.ac.cn/content.aspx?id=770175943303" target="_blank" title="敦煌星图入选“中国古代重要科技发明创造”">敦煌星图入选“中国古代重要科技发明创造”</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-27</span><a href="http://public.dha.ac.cn/content.aspx?id=818531985027" target="_blank" title="丝路新雨：两代敦煌人的文化遗产保护">丝路新雨：两代敦煌人的文化遗产保护</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-26</span><a href="http://public.dha.ac.cn/content.aspx?id=956713847968" target="_blank" title="敦煌遗产保护的创新发展">敦煌遗产保护的创新发展</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-26</span><a href="http://public.dha.ac.cn/content.aspx?id=282212401626" target="_blank" title="莫高窟壁画“搬出”石窟数字化展示  可360度欣赏">莫高窟壁画“搬出”石窟数字化展示  可360度欣赏</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-21</span><a href="http://public.dha.ac.cn/content.aspx?id=117136411598" target="_blank" title="莫高窟数字展示中心如梦幻佛宫">莫高窟数字展示中心如梦幻佛宫</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-19</span><a href="http://public.dha.ac.cn/content.aspx?id=910005389348" target="_blank" title="敦煌画派藏品潜力初现端倪">敦煌画派藏品潜力初现端倪</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-14</span><a href="http://public.dha.ac.cn/content.aspx?id=014751130605" target="_blank" title="全国首套地域文化遗产中小学教材出版">全国首套地域文化遗产中小学教材出版</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-13</span><a href="http://public.dha.ac.cn/content.aspx?id=139109036992" target="_blank" title="千年敦煌大秀巴黎  《敦煌》建时尚" 新丝路""="">千年敦煌大秀巴黎  《敦煌》建时尚"新丝路"</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-13</span><a href="http://public.dha.ac.cn/content.aspx?id=945213889909" target="_blank" title="让文物活起来，让监管硬起来">让文物活起来，让监管硬起来</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-13</span><a href="http://public.dha.ac.cn/content.aspx?id=986704709402" target="_blank" title="守护文化之根&nbsp;&nbsp;烛照复兴之路">守护文化之根&nbsp;&nbsp;烛照复兴之路</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-12</span><a href="http://public.dha.ac.cn/content.aspx?id=991467221424" target="_blank" title="中国启动面向欧亚大陆的丝绸之路旅游年">中国启动面向欧亚大陆的丝绸之路旅游年</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-12</span><a href="http://public.dha.ac.cn/content.aspx?id=296091581272" target="_blank" title="将文化遗产保护提升为基本国策">将文化遗产保护提升为基本国策</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-12</span><a href="http://public.dha.ac.cn/content.aspx?id=318268954730" target="_blank" title="守护文化遗产才能开创未来">守护文化遗产才能开创未来</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-12</span><a href="http://public.dha.ac.cn/content.aspx?id=462854426987" target="_blank" title="留住历史根脉　传承中华文明——习近平总书记关心历史文物保护工作纪实">留住历史根脉　传承中华文明——习近平总书记关心历史文物保护工作纪实</a></li>
+</td></tr><tr class=""><td>  <li style="list-style-type: disc; border-bottom:dashed #666666 1px;"><span style="float: right;">2015-01-12</span><a href="http://public.dha.ac.cn/content.aspx?id=343123778891" target="_blank" title="让文化遗产活起来">让文化遗产活起来</a></li>
+</td></tr></tbody></table><div style="text-align:center; padding-top:14px; font-size: 12px; clear:both;">&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=5"><font color="#000000">上一页</font></a>&nbsp;&nbsp;<a href="list.aspx?ID=752571666216"><font color="#000000">1</font></a>&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=2"><font color="#000000">2</font></a>&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=3"><font color="#000000">3</font></a>&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=4"><font color="#000000">4</font></a>&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=5"><font color="#000000">5</font></a>&nbsp;<strong><font color="#000000">6</font></strong>&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=7"><font color="#000000">7</font></a>&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=8"><font color="#000000">8</font></a>&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=9"><font color="#000000">9</font></a>&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=10"><font color="#000000">10</font></a>&nbsp;&nbsp;&nbsp;<a href="list.aspx?ID=752571666216&amp;Page=7"><font color="#000000">下一页</font></a>&nbsp;</div>   
+    </ul>
+      </div>
+  </div>
+<div style="width: 245px; height: auto; float: left; margin-left: 15px;
+             display: inline;  margin-top:-40px;">
+    <div style="width:243px; height:auto;  border:1px #999999 solid; float:left;">
+      <div style="width: 205px; height: 39px; padding-left: 35px; line-height: 40px; float: left; background-image: url(templets/dhskgzw/images/content2.jpg);font-weight:bold; font-size:14px;"> 当前栏目</div>
+      <div style="width: 240px; height: auto; float: left; line-height:18px;">
+        <ul style=" float:left; display:inline; margin:12px;padding-left:0px; list-style-type:none;vertical-align:middle;text-align:position;">
+         <li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=752571666216" class=" style=" vertical-align:middle;"="">   文化弘扬</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=280656885092" class="style=" vertical-align:middle;"="">   &nbsp;&nbsp;--陈列展览</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=117966766664" class="style=" vertical-align:middle;"="">   &nbsp;&nbsp;--洞窟开放</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=891715832102" class="style=" vertical-align:middle;"="">   &nbsp;&nbsp;--文化产业</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=133060247353" class=" style=" vertical-align:middle;"="">   敦煌研究院</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=896339635046" class=" style=" vertical-align:middle;"="">   敦煌学研究</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=680408652308" class=" style=" vertical-align:middle;"="">   石窟保护</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=142223442522" class=" style=" vertical-align:middle;"="">   走进莫高窟</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=811883862888" class=" style=" vertical-align:middle;"="">   新闻动态</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=294885210346" class=" style=" vertical-align:middle;"="">   数字敦煌</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=519108499460" class=" style=" vertical-align:middle;"="">   视频专辑</a></li><li><span><img src="http://public.dha.ac.cn/sysImages/list-2.gif " style="vertical-align:middle;"></span> <a href="http://public.dha.ac.cn/list.aspx?id=560243142507" class=" style=" vertical-align:middle;"="">   敦煌研究</a></li>  
+        </ul>
+      </div>
+    </div>
+  <div style="width:243px; height:auto;  border:1px #999999 solid; float:left; margin-top:20px;">
+      <div style="width: 205px; height: 39px; padding-left: 35px; line-height: 40px; float: left; background-image: url(templets/dhskgzw/images/content2.jpg);font-weight:bold; font-size:14px;"> 推荐内容</div>
+      <div style="width: 240px; height: auto; float: left; line-height:18px;">
+       <div style=" float:left; width:245px;">
+                   <div style="width:100px; height:auto; float:left; padding:10px;">
+                       <a href="http://public.dha.ac.cn/content.aspx?id=503837238617" target="_blank" title="敦煌研究院“5·18国际博物馆日”主题教育活动之一">
+                            <img src="../../files/editorfile/20200517/6372532467047788095305589.jpg" width="105" height="90"> 
+                        </a>
+                    </div>
+            <div style="width:110px; height:100px; float:left; padding:10px 2px;  overflow:hidden;">  
+                               <div style="width:110px; height:20px; float:right; padding-top:10; overflow:hidden;font-weight: bold; line-height:20px;"><a href="http://public.dha.ac.cn/content.aspx?id=503837238617" target="_blank" title="敦煌研究院“5·18国际博物馆日”主题教育活动之一">敦煌研究院“5·18国</a></div>   
+                  <div style="width:110px; height:85px; float:left; text-indent: 2em;  overflow:hidden;"><a href="http://public.dha.ac.cn/content.aspx?id=503837238617" target="_blank"> 春和日暖，万象更新，一年一度的“5·18国际博物馆日”即将来临。...</a></div>
+                        </div>
+             </div><div style=" float:left; width:245px;">
+                   <div style="width:100px; height:auto; float:left; padding:10px;">
+                       <a href="http://public.dha.ac.cn/content.aspx?id=286526232216" target="_blank" title="新时代文化遗产科技发展的思考">
+                            <img src="../../files/editorfile/20191205/0wechatimg267847042.jpg" width="105" height="90"> 
+                        </a>
+                    </div>
+            <div style="width:110px; height:100px; float:left; padding:10px 2px;  overflow:hidden;">  
+                               <div style="width:110px; height:20px; float:right; padding-top:10; overflow:hidden;font-weight: bold; line-height:20px;"><a href="http://public.dha.ac.cn/content.aspx?id=286526232216" target="_blank" title="新时代文化遗产科技发展的思考">新时代文化遗产科技发</a></div>   
+                  <div style="width:110px; height:85px; float:left; text-indent: 2em;  overflow:hidden;"><a href="http://public.dha.ac.cn/content.aspx?id=286526232216" target="_blank"> 早在 2014 年，习近平总书记就指出：“要坚持古为今用、以古鉴今...</a></div>
+                        </div>
+             </div><div style=" float:left; width:245px;">
+                   <div style="width:100px; height:auto; float:left; padding:10px;">
+                       <a href="http://public.dha.ac.cn/content.aspx?id=212296163199" target="_blank" title="缅怀先辈代代传承  不辱使命砥砺前行">
+                            <img src="../../files/editorfile/20200327/6372092533788939328902040.jpg" width="105" height="90"> 
+                        </a>
+                    </div>
+            <div style="width:110px; height:100px; float:left; padding:10px 2px;  overflow:hidden;">  
+                               <div style="width:110px; height:20px; float:right; padding-top:10; overflow:hidden;font-weight: bold; line-height:20px;"><a href="http://public.dha.ac.cn/content.aspx?id=212296163199" target="_blank" title="缅怀先辈代代传承  不辱使命砥砺前行">缅怀先辈代代传承  不</a></div>   
+                  <div style="width:110px; height:85px; float:left; text-indent: 2em;  overflow:hidden;"><a href="http://public.dha.ac.cn/content.aspx?id=212296163199" target="_blank"> 三危山下，宕泉河畔，在与莫高窟九层楼相望的公墓区，安葬着敦煌...</a></div>
+                        </div>
+             </div><div style=" float:left; width:245px;">
+                   <div style="width:100px; height:auto; float:left; padding:10px;">
+                       <a href="http://public.dha.ac.cn/content.aspx?id=466701216849" target="_blank" title="择一事终一生诠释“莫高精神”，薪火相传感召代代莫高窟人">
+                            <img src="../../files/editorfile/20200118/6371494398663037455180719.jpg" width="105" height="90"> 
+                        </a>
+                    </div>
+            <div style="width:110px; height:100px; float:left; padding:10px 2px;  overflow:hidden;">  
+                               <div style="width:110px; height:20px; float:right; padding-top:10; overflow:hidden;font-weight: bold; line-height:20px;"><a href="http://public.dha.ac.cn/content.aspx?id=466701216849" target="_blank" title="择一事终一生诠释“莫高精神”，薪火相传感召代代莫高窟人">择一事终一生诠释“莫</a></div>   
+                  <div style="width:110px; height:85px; float:left; text-indent: 2em;  overflow:hidden;"><a href="http://public.dha.ac.cn/content.aspx?id=466701216849" target="_blank"> 1月17日，中共中央宣传部通过中央电视台综合频道《时代楷模发布厅...</a></div>
+                        </div>
+             </div><div style=" float:left; width:245px;">
+                   <div style="width:100px; height:auto; float:left; padding:10px;">
+                       <a href="http://public.dha.ac.cn/content.aspx?id=000831975039" target="_blank" title="理想·信念·青春——樊锦诗先生在敦煌研究院作“莫高精神”故事分享会">
+                            <img src="../../files/editorfile/20191210/6371161065417092264851524.jpg" width="105" height="90"> 
+                        </a>
+                    </div>
+            <div style="width:110px; height:100px; float:left; padding:10px 2px;  overflow:hidden;">  
+                               <div style="width:110px; height:20px; float:right; padding-top:10; overflow:hidden;font-weight: bold; line-height:20px;"><a href="http://public.dha.ac.cn/content.aspx?id=000831975039" target="_blank" title="理想·信念·青春——樊锦诗先生在敦煌研究院作“莫高精神”故事分享会">理想·信念·青春——</a></div>   
+                  <div style="width:110px; height:85px; float:left; text-indent: 2em;  overflow:hidden;"><a href="http://public.dha.ac.cn/content.aspx?id=000831975039" target="_blank"> “莫高窟已经成了我生命中不可分割的一部分”樊锦诗简单朴素的一...</a></div>
+                        </div>
+             </div>
+      <!--<ul style=" float:left; display:inline; margin:12px;padding-left:5px;list-style-type:none;">
+        <li style="line-height: 23px;"><a href="http://public.dha.ac.cn/content.aspx?id=503837238617" terget="_blank" ><span class="daohangs">1</span> 敦煌研究院“5·18国际博</a></li>
+<li style="line-height: 23px;"><a href="http://public.dha.ac.cn/content.aspx?id=640288228350" terget="_blank" ><span class="daohangs">2</span> 数字莫高：千年等一回</a></li>
+<li style="line-height: 23px;"><a href="http://public.dha.ac.cn/content.aspx?id=245514905009" terget="_blank" ><span class="daohangs">3</span> 花开敦煌：常沙娜回顾展</a></li>
+<li style="line-height: 23px;"><a href="http://public.dha.ac.cn/content.aspx?id=247359009135" terget="_blank" ><span class="daohangs">4</span> 文化交流融会，文明共存</a></li>
+<li style="line-height: 23px;"><a href="http://public.dha.ac.cn/content.aspx?id=217547392790" terget="_blank" ><span class="daohangs">5</span> 莫高窟游客中心运行方案</a></li>
+<li style="line-height: 23px;"><a href="http://public.dha.ac.cn/content.aspx?id=933266374522" terget="_blank" ><span class="daohangs">6</span> 敦煌研究院接待部举办201</a></li>
+
+
+
+
+
+        </ul>-->
+        </div>
+  </div>
+  </div>
+</div>
+<!--中间结束-->
+<!--底部开始-->
+<div style="width: 1000px; height: 50px; clear:both; margin:5px auto;"> <img src="/templets/dhskgzw/images/bottom1.jpg"></div>
+<div style="width: 1000px;  clear:both; margin:5px auto; padding-top:5px;" align="center">
+<div class="piclink"><ul><li><a href="http://www.sach.gov.cn/" target="_blank"><img src="/files/link/国家文物局.jpg" alt="国家文物局" border="0"></a></li><li><a href="http://www.gsww.gov.cn/" target="_blank"><img src="/files/link/ddjjh/甘肃省文物局.jpg" alt="甘肃省文物局" border="0"></a></li><li><a href="http://www.siluyou.org" target="_blank"><img src="/files/link/丝绸之路.jpg" alt="丝绸之路文化之旅" border="0"></a></li><li><a href="http://www.dhyj.net.cn/" target="_blank"><img src="/files/link/敦煌研究.jpg" alt="敦煌研究" border="0"></a></li><li><a href="http://idp.nlc.gov.cn/" target="_blank"><img src="/files/link/国际敦煌项目.jpg" alt="国际敦煌项目" border="0"></a></li><li><a href="http://www.gansumuseum.com/" target="_blank"><img src="/files/link/甘肃省博物馆.jpg" alt="甘肃博物馆" border="0"></a></li><li><a href="http://www.qiucinews.com/qcsk/node_3360.htm" target="_blank"><img src="/files/link/龟兹研究院.jpg" alt="龟兹石窟研究院" border="0"></a></li><li><a href="http://www.maijishan.com.cn/" target="_blank"><img src="/files/link/麦积山石窟.jpg" alt="麦积山石窟" border="0"></a></li><li><a href="http://www.lmsk.cn/index.asp" target="_blank"><img src="/files/link/龙门石窟.jpg" alt="龙门石窟" border="0"></a></li><li><a href="http://www.yungang.org/" target="_blank"><img src="/files/link/云冈石窟.jpg" alt="云岗石窟研究院" border="0"></a></li><li><a href="http://fund.dha.ac.cn/" target="_blank"><img src="/files/link/中国敦煌石窟保护研究基金会.jpg" alt="中国敦煌石窟保护研究基金会" border="0"></a></li><li><a href="http://www.fodhk.org.hk/" target="_blank"><img src="/files/link/香港敦煌之友.jpg" alt="香港敦煌之友" border="0"></a></li><li><a href="http://www.getty.edu/conservation/" target="_blank"><img src="/files/link/盖茨保护所.jpg" alt="盖茨保护所" border="0"></a></li><li><a href="http://dunhuangfoundation.us/" target="_blank"><img src="/files/link/敦煌基金会.jpg" alt="敦煌基金会" border="0"></a></li><li><a href="https://chiculture.org.hk/" target="_blank"><img src="/files/link/中国文化研究院.jpg" alt="中国文化研究院" border="0"></a></li></ul></div>
+
+
+
+ <table style="width:100%" border="0"><tbody><tr></tr></tbody></table>
+ </div>
+ <div style="width: 1000px; height: 100px; clear:both; margin:5px auto; padding-top:10px;" align="center">
+      <p> 敦煌研究院版权所有 陇ICP11000088号-1号 敦煌研究院网站投稿邮箱 tougao@dha.ac.cn</p>
+      <p> Copyright For Dunhuang Academy (C) www.dha.ac.cn Tel:(86) 0937-8869852 </p>
+      <p>
+<script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F42261dc0f8038cf9af0f8fd957b2921e' type='text/javascript'%3E%3C/script%3E"));</script><script src=" http://hm.baidu.com/h.js?42261dc0f8038cf9af0f8fd957b2921e" type="text/javascript"></script>
+<script src="http://s19.cnzz.com/stat.php?id=4881541&amp;web_id=4881541&amp;show=pic" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=4881541&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=4881541" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></p>
+    </div>
+<!--底部结束-->
+
+
+</body></html>

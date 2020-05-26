@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="keywords" content="王府课堂">
+	<meta name="description" content="王府课堂">
+	<meta name="ColumnName" content="王府课堂">
+	<meta name="ColumnDescription" content="王府课堂">
+	<meta name="ColumnKeywords" content="王府课堂">
+	<meta name="ColumnType" content="王府课堂">
+    <title>王府课堂-文化和旅游部恭王府博物馆</title>
+<meta name="others" content="页面生成时间 2020-01-21 17:54:52" />
+	<link href="../xhtml/css/reset.css"  rel="stylesheet" />
+	<link href="../xhtml/css/style.css" rel="stylesheet" />
+	<script src="../xhtml/js/jquery-1.11.1.min.js"></script>
+	<script src="../xhtml/js/jquery.SuperSlide.2.1.1.js"></script>
+   
+</head>
+<body>
+<div class="bodybg">
+    <!-- Top -->
+    <link rel="stylesheet" href="../xhtml/css/reset.css">
+	<link rel="stylesheet" href="../xhtml/css/style.css">
+<div class="inTop w1200 auto">
+	<div class="inlogo fl"><img src="/pgm/xhtml/images/inlogo.png" alt="" /></div>
+	<ul class="innav fl">
+		<li id="m1" class="m on">
+			<h3><a href="../../pgm/index.shtml" target="_parent">首页</a></h3>
+		</li>
+		<li id="m2" class="m">
+			<h3><a href="../../pgm/daolan/daolan.shtml"  target="_parent">	导览	</a></h3>
+			<ul class="sub">
+				<li><a href="../../pgm/daolan/daolan.shtml#d1k" TARGET='_parent'>
+ 
+参观指南
+</a></li>
+ 
+
+				<li><a href="http://web.pgm.org.cn/login" TARGET='_parent'>在线购票</a></li>
+
+				
+				<li><a href="../../pgm/daolan/daolan.shtml#d3k" TARGET='_parent'>
+ 
+讲解服务
+</a></li>
+				
+				
+				<li><a href="../../pgm/daolan/daolan.shtml#d4k" TARGET='_parent'>
+ 
+游览路线
+</a></li>
+				
+ 
+
+				<li><a href="http://www.pgm.org.cn/vr/tmp002/#d3k#d3k" TARGET='_parent'>虚拟游览</a></li>
+
+				
+			</ul>
+		</li>
+		<li id="m3" class="m">
+			<h3><a href="../../pgm/zixun/zixun.shtml"  target="_parent">	资讯	</a></h3>
+			<ul class="sub">
+				<li><a href="../../pgm/zixun/zixun.shtml#d1k" TARGET='_parent'>
+ 
+公告
+</a></li>
+				<li><a href="../../pgm/zixun/zixun.shtml#d2k" TARGET='_parent'>
+ 
+王府动态
+</a></li>
+				<li><a href="../../pgm/zixun/zixun.shtml#d2k" TARGET='_parent'>
+ 
+王府视频
+</a></li>
+				<li><a href="../../pgm/zixun/zixun.shtml#d3k" TARGET='_parent'>
+ 
+媒体关注
+</a></li>
+				<li><a href="../../pgm/zixun/zixun.shtml#d4k" TARGET='_parent'>
+ 
+府讯
+</a></li>
+			</ul>
+		</li>
+		<li id="m4" class="m">
+			<h3><a href="../../pgm/zhanlan/zhanlan.shtml"  target="_parent">	展览	</a></h3>
+			<ul class="sub">
+				<li><a href="../../pgm/zhanlan/zhanlan.shtml#d2k" TARGET='_parent'>
+ 
+正在展出
+</a></li>
+				<li><a href="../../pgm/zhanlan/zhanlan.shtml#d2k" TARGET='_parent'>
+ 
+常设展览
+</a></li>
+				<li><a href="../../pgm/zhanlan/zhanlan.shtml#d3k" TARGET='_parent'>
+ 
+展览回顾
+</a></li>
+			</ul>
+		</li>
+		<li id="m5" class="m">
+			<h3><a href="../../pgm/shoucang/shoucang.shtml"  target="_parent">	收藏	</a></h3>
+			<ul class="sub">
+				<li><a href="../../pgm/shoucang/shoucang.shtml#d1k" TARGET='_parent'>
+ 
+馆藏精品
+</a></li>
+				<li><a href="../../pgm/shoucang/shoucang.shtml#d2k" TARGET='_parent'>
+ 
+王府文物
+</a></li>
+				<li><a href="../../pgm/shoucang/shoucang.shtml#d2k" TARGET='_parent'>
+ 
+收藏捐赠
+</a></li>
+				<li><a href="../../pgm/shoucang/shoucang.shtml#d3k" TARGET='_parent'>
+ 
+文物博览
+</a></li>
+			</ul>
+		</li>
+		<li id="m6" class="m">
+			<h3><a href="../../pgm/yanjiu/yanjiu.shtml"  target="_parent">	研究	</a></h3>
+			<ul class="sub">
+				<li><a href="../../pgm/yanjiu/yanjiu.shtml#d1k" TARGET='_parent'>
+ 
+王府历史
+</a></li>
+				<li><a href="../../pgm/yanjiu/yanjiu.shtml#d2k" TARGET='_parent'>
+ 
+王府文化
+</a></li>
+				<li><a href="../../pgm/yanjiu/yanjiu.shtml#d3k" TARGET='_parent'>
+ 
+王府影像
+</a></li>
+				<li><a href="../../pgm/yanjiu/yanjiu.shtml#d2k" TARGET='_parent'>学术研究</a></li>
+			</ul>
+		</li>
+		<li id="m7" class="m">
+			<h3><a href="../../pgm/jiaoyu/gongjiao.shtml"  target="_parent">	公教	</a></h3>
+			<ul class="sub">
+				<li><a href="../../pgm/jiaoyu/gongjiao.shtml#d1k" TARGET='_parent'>
+ 
+公教活动
+</a></li>
+				<li><a href="../../pgm/jiaoyu/gongjiao.shtml#d2k" TARGET='_parent'>
+ 
+王府志愿者
+</a></li>
+ 
+
+				<li><a href="http://www.pgm.org.cn/game/index.html"  target="_parent" title='互动游戏' >互动游戏</a></li>
+
+			</ul>
+		</li>
+		<li id="m7" class="m">
+			<h3><a href="../../pgm/wenchuang/wenchuang.shtml"  target="_parent">	文创	</a></h3>
+			<ul class="sub">
+				<li><a href="../../pgm/wenchuang/wenchuang.shtml#d1k" TARGET='_parent'>
+ 
+资讯
+</a></li>
+ 
+
+				<li><a href="/pgm/wenchuang/wenchuang.shtml#fwh"  target="_parent" title='产品' >产品</a></li>
+
+				<li><a href="../../pgm/wenchuang/wenchuang.shtml#d3k" TARGET='_parent'>
+ 
+壁纸
+</a></li>
+			</ul>
+		</li>
+		<li id="m8" class="m">
+			<h3><a href="../../pgm/guanyu/guanyu.shtml"  target="_parent">	关于	</a></h3>
+			<ul class="sub">
+				<li><a href="../../pgm/guanyu/guanyu.shtml#d1k" TARGET='_parent'>
+ 
+现任领导
+</a></li>
+				<li><a href="../../pgm/guanyu/guanyu.shtml#d1k" TARGET='_parent'>
+ 
+机构设置
+</a></li>
+				<li><a href="../../pgm/guanyu/guanyu.shtml#d2k" TARGET='_parent'>
+ 
+大事记
+</a></li>
+				<li><a href="../../pgm/guanyu/guanyu.shtml#d2k" TARGET='_parent'>
+ 
+馆史
+</a></li>
+			</ul>
+		</li>
+		<div class="cl"></div>
+	</ul>
+	<script language="javascript" type="text/javascript">
+	$(document).ready(function (){
+		$(".innav>li").hover(function(){
+			$(this).find("ul").stop(false,true).fadeIn();//slideDown()展开   .stop(false,true)停止动画  false禁止添加到动画序列中   true将当前动画执行完毕    fadeIn()渐现   fadeOut()渐隐
+		},function(){
+			$(this).find("ul").stop(false,true).fadeOut()	//slideUp()折叠
+		})
+		$(".innav>li h3 a").each(function(){
+			if($.trim($(this).text())==$.trim($(".channel").text())){
+				$(this).parent().parent().addClass("on").siblings().removeClass("on");
+			}
+			
+		});
+		$('.innav').find('a').each(function(){
+			$(this).attr('href',$(this).attr('href').replace(/..\/..\/pgm/g,'/pgm'));
+			//$(this).attr('href',$(this).attr('href').replace(/pgm\/pgm/gi,'pgm'));
+			
+		})
+
+	});
+	</script>
+	<div class="intright fr">
+		<a href="http://so.pgm.org.cn:8090/s?qt=恭王府博物馆&siteCode=N000000219" class="insous" target="_blank">搜索</a> 
+		<a href="https://mail.pgm.org.cn/" target="_blank" class="inyouj">邮箱</a>
+		<a href="http://en.pgm.org.cn/" target="_blank">EN</a> 
+		<span><iframe width="130" scrolling="no" height="22" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=1&amp;icon=2&amp;wind=1&amp;num=1" style="z-index:-1; margin-top:15px;"></iframe></span>
+	</div>
+	<div class="cl"></div>
+</div>
+	<div class="channel" style="display:none;">王府课堂</div>
+    <div class="w1200">
+        <div class="wz">
+<a href='../../pgm/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='../../pgm/jiaoyu/gongjiao.shtml'  target="_parent">公教</a>&nbsp;>&nbsp;<a href='../../pgm/gjhd/list.shtml'  target="_parent">公教活动</a>&nbsp;>&nbsp;王府课堂
+</div>
+        <div class="bke4 p18 mb40">
+            <div class="lmtit">王府课堂</div>
+            <ul class="lmlist" style="min-height:500px;">
+ 
+
+                    <li><span class="time fr">2020-01-21</span>· <a href="../../pgm/wfkt/202001/e51dbee9c1974d4f9567931dafdc2c2b.shtml" target="_blank" title='庚子鼠萌萌 王府年味浓'  >	庚子鼠萌萌 王府年味浓	</a></li>
+
+                    <li><span class="time fr">2020-01-08</span>· <a href="../../pgm/wfkt/202001/c5b04ebf978543e691804748dfd40865.shtml" target="_blank" title='进校园 品文化 迎新春'  >	进校园 品文化 迎新春	</a></li>
+
+                    <li><span class="time fr">2019-12-31</span>· <a href="../../pgm/wfkt/201912/e421e70c994d4d8694b7cc4e941d9743.shtml" target="_blank" title='进社区 迎元旦 共话非遗小知识'  >	进社区 迎元旦 共话非遗小知识	</a></li>
+
+                    <li><span class="time fr">2019-11-25</span>· <a href="../../pgm/wfkt/201911/b57f3ac06ee8405e8191af72619e68df.shtml" target="_blank" title='探索恭王府——最美不过四合院'  >	探索恭王府——最美不过四合院	</a></li>
+
+                    <li><span class="time fr">2019-11-14</span>· <a href="../../pgm/wfkt/201911/813313e8a05b4b9cb87f4e5f38f35a97.shtml" target="_blank" title='彩画探秘 拓片拾趣——争做小小传承人'  >	彩画探秘 拓片拾趣——争做小小传承人	</a></li>
+
+                    <li><span class="time fr">2019-10-10</span>· <a href="../../pgm/wfkt/201910/0b2042de92204613b146442ebbe5f803.shtml" target="_blank" title='游王府 学历史 品非遗 ——北京加拿大国际学校走进恭王府'  >	游王府 学历史 品非遗 ——北京加拿大国际学校走进恭王府	</a></li>
+
+                    <li><span class="time fr">2019-09-24</span>· <a href="../../pgm/wfkt/201909/ae00a971772746d58ed9e41f0819bf51.shtml" target="_blank" title='探索恭王府 ——“老房子”的建筑知识小课堂'  >	探索恭王府 ——“老房子”的建筑知识小课堂	</a></li>
+
+                    <li><span class="time fr">2019-09-16</span>· <a href="../../pgm/wfkt/201909/2ebc90f047d6407e9b9c9d0558a96817.shtml" target="_blank" title='中秋送福 情满王府'  >	中秋送福 情满王府	</a></li>
+
+                    <li><span class="time fr">2019-08-20</span>· <a href="../../pgm/wfkt/201908/eccc264fda1842fd9ce3b657ca70d7a8.shtml" target="_blank" title='“王府小主人——绚烂暑期王府课堂” 第二期圆满结束'  >	“王府小主人——绚烂暑期王府课堂” 第二期圆满结束	</a></li>
+
+                    <li><span class="time fr">2019-08-01</span>· <a href="../../pgm/wfkt/201908/e047659c00214395a898acde5cc96597.shtml" target="_blank" title='“王府小主人——绚烂暑期王府课堂” 第一期圆满结束'  >	“王府小主人——绚烂暑期王府课堂” 第一期圆满结束	</a></li>
+
+                    <li><span class="time fr">2019-07-25</span>· <a href="../../pgm/wfkt/201907/71a41d23b8ba4f07bc44bd876c3fc879.shtml" target="_blank" title='交流实践 增知益智——2019年港澳大学生恭王府博物馆实践记实'  >	交流实践 增知益智——2019年港澳大学生恭王府博物馆实践记实	</a></li>
+
+                    <li><span class="time fr">2019-07-25</span>· <a href="../../pgm/wfkt/201907/88b447b69ca04666b4aaa9dff92f0fb8.shtml" target="_blank" title='大同市口泉中学学生走进恭王府博物馆研学基地'  >	大同市口泉中学学生走进恭王府博物馆研学基地	</a></li>
+
+                    <li><span class="time fr">2019-07-25</span>· <a href="../../pgm/wfkt/201907/43d3bab71681499c859168dc9bbbae10.shtml" target="_blank" title='崇文小学学生走进恭王府博物馆'  >	崇文小学学生走进恭王府博物馆	</a></li>
+
+                    <li><span class="time fr">2019-07-10</span>· <a href="../../pgm/wfkt/201907/a06e82de2f5c4e1d9bf0a44f3172592b.shtml" target="_blank" title='王府文化进社区 建筑彩画共分享'  >	王府文化进社区 建筑彩画共分享	</a></li>
+
+                    <li><span class="time fr">2019-07-02</span>· <a href="../../pgm/wfkt/201907/e73088fbfa4946fc9bd14ca91212e6fd.shtml" target="_blank" title='非遗进校园 文化润童心'  >	非遗进校园 文化润童心	</a></li>
+
+                    <li><span class="time fr">2019-05-21</span>· <a href="../../pgm/wfkt/201905/415813dc8b144ab2817793f504792f7a.shtml" target="_blank" title='传统的未来——恭王府博物馆“5·18国际博物馆日系列活动”精彩呈现'  >	传统的未来——恭王府博物馆“5·18国际博物馆日系列活动”精彩呈现	</a></li>
+
+                    <li><span class="time fr">2019-05-09</span>· <a href="../../pgm/wfkt/201905/0423e22d1aa4485c9659059dd401dae3.shtml" target="_blank" title='“518国际博物馆日”系列活动报名通道'  >	“518国际博物馆日”系列活动报名通道	</a></li>
+
+                    <li><span class="time fr">2019-05-07</span>· <a href="../../pgm/wfkt/201905/e4a2fbb9d31d4bfd8575a4387bd80fd4.shtml" target="_blank" title='雕梁画栋恭王府——彩画的秘密'  >	雕梁画栋恭王府——彩画的秘密	</a></li>
+
+                    <li><span class="time fr">2019-04-12</span>· <a href="../../pgm/wfkt/201904/3214f37cf6c241358a8bcf078e434f09.shtml" target="_blank" title='妙剪生花 传承文化 ——陈经纶中学附小走进恭王府'  >	妙剪生花 传承文化 ——陈经纶中学附小走进恭王府	</a></li>
+
+                    <li><span class="time fr">2019-04-01</span>· <a href="../../pgm/wfkt/201904/3664eff4dc944cb39438c9213360db17.shtml" target="_blank" title='恭王府非遗探究式课程走进十三中'  >	恭王府非遗探究式课程走进十三中	</a></li>
+<script type="text/javascript" src="/pgm/xhtml/js/page.js"></script><script>window.onload=function() {createPageHTML('page_div',3, 1,'list','shtml',52);}</script>
+            </ul>
+            <script src="../xhtml/js/page.js"></script>
+            <div class="page_num"><div id="page_div"></div></div>
+        </div>
+    </div>
+    <!-- Bottom -->
+    <div class="inBottom fz12 textc"><p>
+ 
+<a href="../../pgm/bottom/201912/c3fb4047864a4dc885ed7dc9f300dfe7.shtml" target="_blank" title='版权声明'  >	版权声明	</a>
+ | 
+ 
+<a href="../../pgm/bottom/201912/d9309f54275748fc9780bf47e45dbbf9.shtml" target="_blank" title='隐私保护'  >	隐私保护	</a>
+ | <a href="../../pgm/wzdt/wzdt.shtml"  target="_blank">	网站地图	</a></p>
+<p>友情链接：<a href="http://www.mct.gov.cn" target="_blank">中华人民共和国文化和旅游部</a> | <a href="http://www.ncha.gov.cn" target="_blank">国家文物局</a> | <a href="http://www.dpm.org.cn/Home.html" target="_blank">故宫博物院</a> | <a href="http://www.chnmuseum.cn/" target="_blank">中国国家博物馆</a></p>
+ 
+<p>地址：北京市西城区前海西街17号 &nbsp;邮编：100009 &nbsp;联系电话：010-83288149 &nbsp;<span style="font-size: 9pt;">(c) 2018 文化和旅游部恭王府博物馆 - 版权所有 &nbsp;文化和旅游部恭王府博物馆 京ICP备15030189号-2 &nbsp;</span><span style="font-size: 9pt;">京公网安备110102000082&nbsp;</span>   <a title="站长统计" target="_blank" href="http://www.cnzz.com/stat/website.php?web_id=4453276"><img border="0" vspace="0" hspace="0" src="http://icon.cnzz.com/img/pic1.gif"></a></p>
+<p>网站维护：恭王府博物馆行政办公室&nbsp;</p>
+</div>
+
+
+<!-- right -->
+<div class="inright">
+	<!--
+ 
+
+	<a href="/pgm/wzdt/wzdt.shtml" target="_blank" title="网站地图">
+		<div>网站地图</div>
+	</a>
+-->
+	<!--<a href="../../pgm/wzdt/wzdt.shtml" target="_blank" title="网站地图">
+		<div>网站地图</div>
+	</a>-->
+ 
+	<a class="ingfwx" title="官方微信">
+		<div><img src='/pgm/wzyc/201808/9580dbe5be4f4eb6ae4e3bf8b927730a/images/550dd40c83664842a6e67399a2a5e0f3.jpg' width="130" height="129" />
+<img src='/pgm/wzyc/201808/9580dbe5be4f4eb6ae4e3bf8b927730a/images/c71c96bff8a14b8288b037de9cb66187.jpg' width="130" height="129" />
+</div>
+	</a>
+
+ 
+
+	<a href="http://weibo.com/beijinggongwangfu" target="_blank" title="官方微博">
+		<div>官方微博</div>
+	</a>
+
+	<a href="#" target="_blank" title="网上商城">
+		<div>网上商城</div>
+	</a>
+
+	<a href="http://www.pgm.org.cn/gwf-survey/survey.do?method=findSurveyBySurveyIdBuildHTML&surveyId=4028c94b628f768e01628f8d5b540002" target="_blank" title="调查问卷">
+		<div>调查问卷</div>
+	</a>
+
+	<a href="https://mail.pgm.org.cn/" target="_blank" title="工作邮件">
+		<div>工作邮件</div>
+	</a>
+
+	<!--<a href="#" target="_blank" title="网上商城">
+		<div>网上商城</div>
+	</a>
+	<a href="#" target="_blank" title="调查问卷">
+		<div>调查问卷</div>
+	</a>-->
+	</CMSPRO_DOCUMENTS>
+	<a class="arrow" title="返回顶部"></a>
+</div>
+<!-- right js -->
+<script type="text/javascript">
+$(function(){
+	// 返回顶部js
+	$(".inright a.arrow").eq(0).click(function(){
+		$("html,body").animate({scrollTop :0}, 800);
+		return false;
+	});
+	//收藏图片滑过js
+	$('.boxgrid.caption').hover(function(){
+		$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:500});
+		$(".cover", this).children("h3").css("padding-top","110px");
+		$(".cover", this).children("dl").show();
+	}, function() {
+		$(".cover", this).stop().animate({top:'378px'},{queue:false,duration:500});
+		$(".cover", this).children("h3").css("padding-top","0");
+	});
+	
+});
+</script>
+
+
+<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10001341" src="//fxsjcj.kaipuyun.cn/count/10001341/10001341.js"></script>
+
+
+
+<iframe id="rank" name="rank" width="0" height="0" 
+ src="/website-rank/addVoteRecord?id=" 
+ scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+</div>
+<script>
+$(function(){
+   // $('.lmlist li:nth-child(5n)').addClass('line')
+})
+</script>
+</body>
+</html>

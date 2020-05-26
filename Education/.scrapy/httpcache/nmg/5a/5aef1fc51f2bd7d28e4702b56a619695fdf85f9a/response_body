@@ -1,0 +1,433 @@
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>博苑讲坛 - 内蒙古博物院</title>
+
+<link href="/r/cms/www/default/css/bootstrap.min.css" rel="stylesheet">
+<script src="/r/cms/jquery.js" type="text/javascript"></script>
+<script src="/r/cms/www/default/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="/r/cms/www/default/js/html5shiv.js" type="text/javascript"></script>
+<script src="/r/cms/www/default/js/respond.js" type="text/javascript"></script>
+ <script src="/r/cms/www/default/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="/r/cms/www/default/js/indexshow.js" type="text/javascript"></script>
+<script src="/r/cms/www/default/js/imgFlip.js" type="text/javascript"></script>
+<!-- <link href="/r/cms/front.css" rel="stylesheet" type="text/css"/> -->
+<link href="/r/cms/jqueryUI/jquery.ui.css" rel="stylesheet" type="text/css">
+<script src="/r/cms/jqueryUI/jquery-ui.js" type="text/javascript"></script>
+<script src="/r/cms/front.js" type="text/javascript"></script>
+<script src="/r/cms/www/default/js/slideScript.js" type="text/javascript"></script>
+<link href="/r/cms/www/default/css/slideCss.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.zzsc {
+	width:186px;
+	height:186px;
+	margin:auto;
+	position:relative;
+}
+.text {
+	width:186px;
+	height:auto;
+	background-color:#000;
+	FILTER:alpha(opacity=60);
+	opacity:0.7;
+	-moz-opacity:0.7;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+.imgbt {
+	width:186px;
+	height:30px;
+	padding:0px 10px;
+}
+.imgbt span {
+	display:block;
+}
+.span_a {
+	width:186px;
+	line-height:30px;
+	float:left;
+	font-size:14px;
+	color:#FF3366;
+	padding-right:10px;
+}
+.span_b {
+	width:60px;
+	line-height:30px;
+	float:left;
+	font-size:16px;
+	color:#FF3366;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:right;
+}
+.imgtext {
+	width:186px;
+	height:auto;
+	float:left;
+	padding:10px;
+	color:#fff;
+	font-size:12px;
+	line-height:200%;
+}
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+		 $(".imgtext").hide();
+		 $(".zzsc").hover(function(){
+		  	$(".imgtext",this).slideToggle(500);
+		 });
+	});
+</script>
+</head>
+<body style="">
+<script src="/r/cms/front.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+        function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+
+	$(function() {
+
+                var _contentId = getQueryVariable('contentId');
+                Cms.viewCount("", _contentId)
+		Cms.siteFlow("", location.href, document.referrer);
+	});
+</script>
+<link href="/r/cms/www/default/css/header.css" rel="stylesheet">
+<script src="/r/cms/www/default/js/header.js"></script>
+<div style="width:100%;height:120px;background-color:#F8F8F8;" id="top">
+	<div style="background:url(../../r/cms/www/default/img/index/topblue.jpg) repeat-x left top;width:100%;height:22px; "></div>
+	<div style="height:98px;text-align:center;margin:auto;">
+		<div class="hidden-topMenu" style="background:url(../../r/cms/www/default/img/index/logo.png) no-repeat left top;width:477px;height:162px;position:absolute;top:0px;z-index:2200;margin-left: 25px"></div>
+		<!-- 导航开始 -->
+		<div class="navbar navbar-default" role="navigation" style="position:absolute; right:11px;border:0px;display:block;margin:0px;text-align:center; z-index:2100; ">
+	
+			   <div class="navbar-header">
+			       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+			         
+			         <span class="sr-only"> 切换导航 </span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			         <span class="icon-bar"></span>
+			         
+			      </button>
+			     
+			   </div>
+			   <div class="collapse navbar-collapse" id="example-navbar-collapse" style="z-index:1; background-color: transparent;">
+			      <ul class="nav navbar-nav topMenu" style=" z-index:1199; margin-top: 20px">
+			     	<li style="list-style:none;">
+						<a href="/" target="_self">
+							<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000; ">
+						&nbsp; &nbsp;首&nbsp;页&nbsp;&nbsp;
+							</p>
+							<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;  display: none  ">
+						</a>
+					</li>
+						<li style="list-style:none;">
+							<a href="http://www.nmgbwy.com:80/news/index.jhtml?contentId=146" target="_self">
+								<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000;">
+								    &nbsp;新&nbsp;闻&nbsp; 
+								</p>
+								<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;    display: none  ">
+							</a>
+						</li>
+						<li style="list-style:none;">
+							<a href="http://www.nmgbwy.com:80/gk/index.jhtml?contentId=147" target="_self">
+								<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000;">
+								    &nbsp;概&nbsp;况&nbsp;
+								</p>
+								<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;    display: none  ">
+							</a>
+						</li>
+						<li style="list-style:none;">
+							<a href="http://dj.nmgbwy.com/?contentId=223" target="_self">
+								<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000;">
+								    党建工作
+								</p>
+								<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;    display: none  ">
+							</a>
+						</li>
+						<li style="list-style:none;">
+							<a href="http://www.nmgbwy.com:80/zxzt/index.jhtml?contentId=225" target="_self">
+								<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000;">
+								    在线展厅
+								</p>
+								<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;    display: none  ">
+							</a>
+						</li>
+						<li style="list-style:none;">
+							<a href="http://www.nmgbwy.com:80/whcy/index.jhtml?contentId=149" target="_self">
+								<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000;">
+								    文化产业
+								</p>
+								<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;    display: none  ">
+							</a>
+						</li>
+						<li style="list-style:none;">
+							<a href="http://www.nmgbwy.com:80/xsjl/index.jhtml?contentId=150" target="_self">
+								<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000;">
+								    学术交流
+								</p>
+								<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;    display: none  ">
+							</a>
+						</li>
+						<li style="list-style:none;">
+							<a href="http://www.nmgbwy.com:80/shjy/index.jhtml?contentId=151" target="_self">
+								<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000;">
+								    社会教育
+								</p>
+								<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;    ">
+							</a>
+						</li>
+						<li style="list-style:none;">
+							<a href="http://www.nmgbwy.com:80/gzfw/index.jhtml?contentId=152" target="_self">
+								<p style="font-family: Microsoft Yahei;font-size: 16px;color: #000000;">
+								    公众服务
+								</p>
+								<img src="../../r/cms/www/default/img/selected.png" style=" width:45px;    display: none  ">
+							</a>
+						</li>
+			      </ul>
+			   </div>
+			</div>
+		<!-- 导航结束 -->
+		</div>
+	</div>
+<div class="container-fluid" style="margin-bottom: 20px;">
+		<!-- 大图      开始 -->
+		<div>
+		<!--  <img src="../../r/cms/www/default/img/news/xinwendongtaidatu.jpg" style="width:100%;"/> -->	
+					<img src="/bqcms/u/cms/www/201506/18170501bhuj.jpg" style="width: 100%">
+		</div>
+		<!-- 大图     结束 -->	
+		<div class="row " style="margin-top:20px">
+			<div class="dropdown smallMenu">
+				   <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" style="width: 75%;">
+				     	导航
+				      <span class="caret"></span>
+				   </button>
+				   <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" style="width: 75%;">
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/hldkt/index.jhtml?contentId=173" target="_self">欢乐大课堂</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/zhsj/index.jhtml?contentId=174" target="_self">综合实践</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/ldszbwy/index.jhtml?contentId=175" target="_self">流动数字博物院</a>
+									     </li>	
+								     	
+								    	 <li role="presentation active ">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/byjt/index.jhtml?contentId=176" target="_self">博苑讲坛</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/xzzdbwg/index.jhtml?contentId=177" target="_self">行走中的博物馆</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/xjjypxb/index.jhtml?contentId=178" target="_self">小讲解员培训班</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/xyzm/index.jhtml?contentId=179" target="_self">相约周末</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/hdkj/index.jhtml?contentId=180" target="_self">互动空间</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/jqhd/index.jhtml?contentId=181" target="_self">节庆活动</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/sjfc/index.jhtml?contentId=182" target="_self">社教风采</a>
+									     </li>	
+								     	
+								     	 <li role="presentation">
+									         <a role="menuitem" tabindex="-1" href="http://www.nmgbwy.com:80/zyzpt/index.jhtml?contentId=183" target="_self">志愿者平台</a>
+									     </li>	
+								     	
+				     
+				   </ul>
+			</div>
+			<!-- 左侧导航 -->
+			<div class="col-sm-1 col-md-1 col-sm-offset-0 col-md-offset-1  hidden-desktop">
+				<ul class="ulMenu">
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/hldkt/index.jhtml?contentId=173" target="_self"><b>欢乐大课堂</b></a>
+									</div>
+						    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/zhsj/index.jhtml?contentId=174" target="_self"><b>综合实践</b></a>
+									</div>
+						    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/ldszbwy/index.jhtml?contentId=175" target="_self"><b>流动数字博物院</b></a>
+									</div>
+						    	</li>
+					    	<li class="menuSelected tag">
+					    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png">
+					    		<div style="margin-left: 20px; margin-top: 10px;">
+								<a href="http://www.nmgbwy.com:80/byjt/index.jhtml?contentId=176" target="_self" style="color:white"><b>博苑讲坛</b></a>
+					    		</div>
+					    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/xzzdbwg/index.jhtml?contentId=177" target="_self"><b>行走中的博物馆</b></a>
+									</div>
+						    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/xjjypxb/index.jhtml?contentId=178" target="_self"><b>小讲解员培训班</b></a>
+									</div>
+						    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/xyzm/index.jhtml?contentId=179" target="_self"><b>相约周末</b></a>
+									</div>
+						    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/hdkj/index.jhtml?contentId=180" target="_self"><b>互动空间</b></a>
+									</div>
+						    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/jqhd/index.jhtml?contentId=181" target="_self"><b>节庆活动</b></a>
+									</div>
+						    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/sjfc/index.jhtml?contentId=182" target="_self"><b>社教风采</b></a>
+									</div>
+						    	</li>
+						    	<li class="menuClass">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuBg.png">
+						    		<img alt="" src="../../r/cms/www/default/img/shjy/menuSelected.png" style="width: 10px;">
+						    		<div style="margin-left: 20px; margin-top: 10px;">
+									<a href="http://www.nmgbwy.com:80/zyzpt/index.jhtml?contentId=183" target="_self"><b>志愿者平台</b></a>
+									</div>
+						    	</li>
+				</ul>
+			</div>
+			<!-- 左侧导航结束 -->
+			<div class="col-sm-1 col-md-1">
+			</div>
+			<!-- 右侧内容 -->
+			<div class=" col-md-8 col-sm-9 col-xs-10 col-xs-offset-1 col-md-offset-0 ">
+				<div class="row" style="position:relative;min-width:100px;min-height:200px;border:1px #085faa solid;">
+					<img src="../../r/cms/www/default/img/news/xinwenxiangqingzuoshang.jpg" style="position:absolute;top:-1px;left:-1px;z-index:0;">
+					<img src="../../r/cms/www/default/img/news/xinwenxiangqingyoushang.jpg" style="position:absolute;top:-1px;right:-1px;z-index:0;">
+					<img src="../../r/cms/www/default/img/news/xinwenxiangqingzuoxia.jpg" style="position:absolute;bottom:-1px;left:-1px;z-index:0;">
+					<img src="../../r/cms/www/default/img/news/xinwenxiangqingyouxia.jpg" style="position:absolute;bottom:-1px;right:-1px;z-index:0;">
+					<div style="margin:33px;text-align:left;">
+					     <div style="margin-left: auto;margin-right: auto;margin-top:10px;margin-bottom: 10px;text-align:center;"><font style="font-size:28px;">“博苑”讲坛</font></div>
+						 <p style="margin-left: auto;margin-right: auto;margin-top:10px;margin-bottom: 10px;text-align:center;">发布时间： 2016-01-29 10:52:56 </p>
+						 <p></p><p>&nbsp; &nbsp; &nbsp; “博苑”讲坛是创新教育形式、提升教育水平、扩大教育内容的重要活动。它依托博物院文物资源优势、区内外专家学者优势以及科学研究成果优势，采用专家专题讲座、观众互动研讨及现场交流讨论等形式，观众也可申请讲题，抒发个人文物收藏体会和历史感悟。“博苑”讲坛自2009年6月开办至今，已成功举办73期80场讲座，其丰富充实的内容和新颖灵活的形式，受到广大观众的欢迎与喜爱。</p>
+<p>&nbsp; &nbsp; &nbsp; 2015年“博苑”讲坛共开展了8期10场公益讲座，参与观众3000余人，其中，流动数字博物馆随展车举办《秦汉长城在巴彦淖尔的分布情况以及在历史上发挥的作用》、《阴山岩画》、《美丽固阳，我的家乡》、《包头古代文化遗存》4场公益讲座。《火神的馈赠》、《红山文化玉器与中华五千年文明形成的标志》、《由祀到礼：中国文明起源的玉学观察》、《龙传天下》、《围鹿棋》、《红山系玉器与中国天人感应说》专题讲座从少数民族传统民俗、红山文化方面，向广大观众展示了浓郁的民族风情和悠久的历史文化。</p>
+<p></p>
+						　 <ul>
+				            <li style="list-style:none;"><strong>上一篇：</strong><a href="http://www.nmgbwy.com:80/byjt/1223.jhtml">内蒙古博物院第69期博苑讲坛 ——红山玉器与中国天人感应说</a></li>
+				            <li style="list-style:none;"><strong>下一篇：</strong><a href="http://www.nmgbwy.com:80/byjt/1056.jhtml">《见证文明——红山与中国史前玉文化特展》隆重开幕 </a></li>
+			            </ul>
+					</div>
+				</div>
+			</div>
+			<!-- 右侧内容 结束-->
+		</div>
+		<!-- 大图结束  -->
+</div>
+<div class="clear"></div>
+<div class="container-fluid">
+	<div class="row" style="background-color:#464E63;width: 100%;margin:0px auto">
+		<div class="col-lg-8 col-xs-12" style="color:white;font-family: Microsoft Yahei;font-size: 16px;padding-left:100px; padding-top: 20px">
+							<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://wlt.nmg.gov.cn" target="_blank" style="font-size: large;color:white;">内蒙古自治区文化和旅游厅</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.chnmuseum.cn/" target="_blank" style="font-size: large;color:white;">中国国家博物馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.capitalmuseum.org.cn/" target="_blank" style="font-size: large;color:white;">首都博物馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.sxhm.com/" target="_blank" style="font-size: large;color:white;">陕西历史博物馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://chifengbowuguan.meishujia.cn/" target="_blank" style="font-size: large;color:white;">赤峰博物馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.jb.mil.cn/" target="_blank" style="font-size: large;color:white;">中国人民革命军事博物馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.ordosbwg.com/" target="_blank" style="font-size: large;color:white;">鄂尔多斯博物馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.bjp.org.cn/" target="_blank" style="font-size: large;color:white;">北京天文馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.paleozoo.cn/" target="_blank" style="font-size: large;color:white;">中国古动物馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.shanghaimuseum.net/museum/frontend/" target="_blank" style="font-size: large;color:white;">上海博物馆</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" style="white-space:nowrap;margin-top:8px;"> 	
+					<a href="http://www.tjbwg.com/" target="_blank" style="font-size: large;color:white;">天津博物馆</a>
+				</div>
+		</div>
+		<div class="col-lg-4 col-xs-12" style="color:white;font-family: Microsoft Yahei;font-size: 16px;padding-top: 7px">
+			<div style="white-space:nowrap;margin-top:16px;"> 	
+					<p>地址：内蒙古呼和浩特市新城区新华东街27号
+</p>
+						<p>咨询电话：0471-4614000</p>	
+						<p>预约电话：0471-4614333</p>
+						<img alt="" width="70px" src="/u/cms/www/201508/18083304wxdu.jpg">
+				<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/07/000/0000/60054422/CA070000000600544220001.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=3ABB454A50CF3E33E053012819AC39AF" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1"></a></span><script src="http://dcs.conac.cn/js/07/000/0000/60054422/CA070000000600544220001.js" type="text/javascript"></script><span id="_ideConac"></span>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="background-color:#212936;text-align:center;height: 40px;width: 100%;margin: 0px auto;">
+		<div style="margin:0px auto;color:white;font-size: 16px; margin-top: 10px;">
+					<p>蒙ICP备10002526号-1&nbsp;Copyright© 内蒙古博物院&nbsp; All Rights Reserved (2013-2015) &nbsp; 版权所有&nbsp; 复制必究&nbsp; 郑重声明：内蒙古博物院版权所有，未经书面授权禁止使用<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260618339'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260618339%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1260618339"><a href="https://www.cnzz.com/stat/website.php?web_id=1260618339" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic1.gif"></a></span><script src=" http://s4.cnzz.com/z_stat.php?id=1260618339&amp;show=pic1" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1260618339&amp;show=pic1&amp;t=z" charset="utf-8" type="text/javascript"></script></p>
+
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260618339'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260618339%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1260618339"></span><script src=" http://s4.cnzz.com/z_stat.php?id=1260618339&amp;show=pic1" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1260618339&amp;show=pic1&amp;t=z" charset="utf-8" type="text/javascript"></script>
+
+</body></html>

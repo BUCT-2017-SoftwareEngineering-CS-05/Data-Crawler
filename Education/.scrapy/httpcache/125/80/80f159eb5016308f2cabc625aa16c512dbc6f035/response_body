@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class=""> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <title>宣传教育 - 宁夏回族自治区博物馆</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" media="screen" href="/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" media="screen" href="/assets/libs/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" media="screen" href="/assets/libs/fastadmin-layer/dist/theme/default/layer.css"/>
+	<link rel="stylesheet" media="screen" href="/assets/css/cms/layout.css"/>
+	<link rel="stylesheet" media="screen" href="/assets/css/cms/layout-middle.css"/>
+	<link rel="stylesheet" media="screen" href="/assets/css/cms/layout-mobile.css"/>
+    <link rel="stylesheet" media="screen" href="/assets/addons/cms/css/swiper.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/addons/cms/css/common.css?v=1.0.1"/>
+	<link rel="stylesheet" media="screen" href="/assets/addons/cms/css/pubu.css"/>
+
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1104524_z1zcv22ej09.css">
+
+    <!--[if lt IE 9]>
+    <script src="/libs/html5shiv.js"></script>
+    <script src="/libs/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="">
+
+<header class="header">
+    <!-- S 导航 -->
+    <nav class="navbar navbar-inverse navbar-fixed-top nx-header" role="navigation">
+        <div class="container container-nx">
+
+            <div class="navbar-header m-logo">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/" ><img src="/assets/addons/cms/img/logo-nx.png" width="200" alt="宁夏博物馆"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav nav-nx">
+                    <!--如果你需要自定义NAV,可使用channellist标签来完成,这里只设置了2级,如果显示无限级,请使用cms:nav标签-->
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class="dropdown navnx-li">
+                        <a href="/c/gqgk.html" >馆情概况</a>
+												<span class="fa fa-angle-right m-jt" aria-hidden="true" data-toggle="dropdown" ></span>
+						<span class="fa fa-angle-down m-jt" aria-hidden="true" data-toggle="dropdown" ></span>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                        <li><a href="/c/gqjs.html">馆情介绍</a></li>
+                                                        <li><a href="/c/xrld.html">现任领导</a></li>
+                                                        <li><a href="/c/zzjg.html">组织机构</a></li>
+                                                        <li><a href="/c/dsjy.html">大事纪要</a></li>
+                                                    </ul>
+                    </li>
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class="dropdown navnx-li">
+                        <a href="/c/dtxx.html" >动态信息</a>
+												<span class="fa fa-angle-right m-jt" aria-hidden="true" data-toggle="dropdown" ></span>
+						<span class="fa fa-angle-down m-jt" aria-hidden="true" data-toggle="dropdown" ></span>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                        <li><a href="/c/bgyw.html">本馆要闻</a></li>
+                                                        <li><a href="/c/tzgg.html">通知公告</a></li>
+                                                        <li><a href="/c/wbdt.html">文博动态</a></li>
+                                                    </ul>
+                    </li>
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class=" navnx-li">
+                        <a href="/c/djgz.html" >党建工作</a>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                    </ul>
+                    </li>
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class="dropdown navnx-li">
+                        <a href="/c/zlzs.html" >展览展示</a>
+												<span class="fa fa-angle-right m-jt" aria-hidden="true" data-toggle="dropdown" ></span>
+						<span class="fa fa-angle-down m-jt" aria-hidden="true" data-toggle="dropdown" ></span>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                        <li><a href="/c/cszl.html">常设展览</a></li>
+                                                        <li><a href="/c/lszl.html">临时展览</a></li>
+                                                        <li><a href="/c/jqzl.html">近期展览</a></li>
+                                                        <li><a href="/c/szzt.html">数字展厅</a></li>
+                                                    </ul>
+                    </li>
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class=" navnx-li">
+                        <a href="/c/gzfw.html" >公众服务</a>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                    </ul>
+                    </li>
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class=" navnx-li">
+                        <a href="/c/jpww.html" >精品文物</a>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                    </ul>
+                    </li>
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class="dropdown navnx-li">
+                        <a href="/c/xsyj.html" >学术研究</a>
+												<span class="fa fa-angle-right m-jt" aria-hidden="true" data-toggle="dropdown" ></span>
+						<span class="fa fa-angle-down m-jt" aria-hidden="true" data-toggle="dropdown" ></span>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                        <li><a href="/c/xscg.html">学术成果</a></li>
+                                                        <li><a href="/c/lswh.html">历史文化</a></li>
+                                                        <li><a href="/c/wwbh.html">文物保护</a></li>
+                                                    </ul>
+                    </li>
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class=" active navnx-li">
+                        <a href="/c/xcjy.html" >宣传教育</a>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                    </ul>
+                    </li>
+                                        <!--判断是否有子级或高亮当前栏目-->
+                    <li class=" navnx-li">
+                        <a href="/c/whcy.html" >文化创意</a>
+						                        <ul class="dropdown-menu nav-son" role="menu">
+                                                    </ul>
+                    </li>
+                                    </ul>
+                <ul class="nav navbar-right hidden">
+                    <ul class="nav navbar-nav">
+                        <li><a href="javascript:;" class="addbookbark"><i class="fa fa-star"></i> 加入收藏</a></li>
+                        <li><a href="javascript:;" class=""><i class="fa fa-phone"></i> 联系我们</a></li>
+                    </ul>
+                </ul>
+                <!-- <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form class="form-inline navbar-form" action="/s.html" method="get">
+                            <div class="form-search hidden-sm hidden-md">
+                                <input class="form-control" name="q" data-suggestion-url="/addons/cms/search/suggestion.html" type="text" id="searchinput" value="" placeholder="搜索">
+                            </div>
+                        </form>
+                    </li>
+                    <li class="dropdown">
+                                                <a href="/index/user/index" class="dropdown-toggle" data-toggle="dropdown">会员<span class="hidden-sm">中心</span> <b class="caret"></b></a>
+                                                <ul class="dropdown-menu">
+                                                        <li><a href="/index/user/login"><i class="fa fa-sign-in fa-fw"></i>登录</a></li>
+                            <li><a href="/index/user/register"><i class="fa fa-user-o fa-fw"></i>注册</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul> -->
+            </div>
+
+        </div>
+    </nav>
+    <!-- E 导航 -->
+
+</header>
+
+
+
+<div class="container container-other" id="content-container">
+	<div class="left-channel">
+		<h2>宣传教育</h2>
+		<ul class="lnb">
+					</ul>
+	</div>
+	<div class="container-right">
+		<div class="breadcrumb-box">
+			<ul class="breadcrumb">
+				<!-- S 面包屑导航 -->
+								<li><a href="/">首页</a></li>
+								<li><a href="/c/xcjy.html">宣传教育</a></li>
+								<!-- E 面包屑导航 -->
+			</ul>
+		</div>
+				<div class="row">
+
+			<main class="col-xs-12 col-sm-12">
+				<div class="panel panel-default">
+					<div class="panel-body py-0">
+						<div class="article-list">
+
+							<!-- S 列表 -->
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/162.html" >演绎宁夏博物馆国宝今生乐章 再现唐代最炫时尚舞姿</a>
+		</h3>
+		<span class="article-data" itemprop="date">2020.01.19</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/a1a9783582e4d6edd11194147b86f684_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			国宝音乐会-宁夏探班花絮宁夏!这里黄河九曲回转，横越塞上!这里修渠筑道，引黄灌溉，成就“天下黄河富宁夏”!这里是泪泉、是塞北、是西夏，是黄沙古渡，是贺兰晴雪，是汉渠春水，是良田晚照，是大漠孤烟直，长河落日圆!在这里，为您讲述黄河故事的国宝，它就是石刻胡旋舞墓门。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/161.html" >宁夏博物馆镇馆之宝将惊艳亮相央视《国家宝藏》新春特别节目</a>
+		</h3>
+		<span class="article-data" itemprop="date">2020.01.18</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/fdd3a09a6a0e7e73fdaa9217669465c5_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			北京奥运会开幕式“飞天独舞”演员演绎宁夏博物馆镇馆之宝“石刻胡旋舞墓门”的今生乐章宣传片：宁夏黄河水样亮相《国家宝藏》中央广播电视总台文化综艺《国家宝藏》在之前的两季节目中热播，引发“博物馆热”。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/160.html" >黄河流域博物馆联盟之宁夏：弘扬黄河文化 礼赞塞上江南</a>
+		</h3>
+		<span class="article-data" itemprop="date">2020.01.17</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/671934f629e2febd7fecb2983aa7cd2a_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			2019年9月18日，习近平总书记在郑州主持召开黄河流域生态保护和高质量发展座谈会，把黄河流域生态保护和高质量发展确定为重大国家战略，特别指出黄河文化作为中华文明组成部分的历史地位，强调挖掘黄河文化时代价值对中华民族伟大复兴的重要作用。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/159.html" >宁夏5家博物馆采集黄河水样亮相《国家宝藏》2020新春特别节目</a>
+		</h3>
+		<span class="article-data" itemprop="date">2020.01.17</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/37ca3abae69b006d7c8ef9e8f34c3c7b_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			九曲黄河天高水阔，雄浑安澜。中央广播电视总台《国家宝藏》2020 新春特别节目“黄河之水天上来”国宝音乐会，邀请黄河流域博物馆联盟首批 48 家文博机构，在5464 公里的黄河各段采集黄河水。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/158.html" >黄河流域博物馆联盟齐聚央视《国家宝藏》，“再看我们的母亲河”！</a>
+		</h3>
+		<span class="article-data" itemprop="date">2020.01.12</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/d516c4339d2f375c9122c9e289184505_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			君不见，黄河之水天上来，奔流到海不复回。千百年来，黄河作为中华民族的母亲河，哺育了一代又一代的中华儿女。作为儿女的我们，是否真正了解这位母亲?在人们的固有认知中，黄河是咆哮的、是浑浊的。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/157.html" >黄河流域博物馆联盟在京举行研讨会 共商如何讲好“黄河故事”</a>
+		</h3>
+		<span class="article-data" itemprop="date">2020.01.08</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/bf45eda37406071f2e1933f1c30486d3_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			2019年9月，习近平总书记在河南郑州主持召开黄河流域生态保护和高质量发展座谈会，强调要“保护、传承、弘扬黄河文化。”2020 年元旦前，黄河流域博物馆联盟成立，黄河沿线九省48家博物馆加入其中。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/156.html" >宁夏博物馆2019年举办多项展览让文物“活”起来</a>
+		</h3>
+		<span class="article-data" itemprop="date">2019.12.27</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/0cbdf0297cd79693f3dd219cd6bc9106_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			宁夏博物馆深入学习贯彻习近平总书记关于文物工作的重要指示批示精神，努力为传承中华优秀传统文化、提升社会文明程度、服务经济社会发展做出积极贡献。2019年多措并举让文物“活”起来，充分挖掘馆藏文物资源优势，推出一批彰显社会主义核心价值观的陈列展览。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/155.html" >【宁夏日报客户端】坚守文化根脉 讲好黄河故事</a>
+		</h3>
+		<span class="article-data" itemprop="date">2019.12.27</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/89436e48880e627dfc3d1b5981ef92e2_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			黄河流域九省区博物馆负责人围绕“博物馆与保护传承弘扬黄河文化”主题展开研讨，宁夏博物馆馆长李进增作主旨发言"12月23日，黄河流域博物馆联盟(以下简称“联盟”)在郑州成立，沿黄九省(区)45家博物馆将深入挖掘。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/154.html" >黄河流域博物馆联盟成立 宁夏博物馆将在《国家宝藏》国宝音乐会首秀</a>
+		</h3>
+		<span class="article-data" itemprop="date">2019.12.24</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/95774d89be08cee379b2df9ed194141d_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			12月23日，由国家文物局指导，黄河流域九省区文化和旅游厅、文物局支持，河南博物院承办的“黄河流域博物馆联盟成立暨黄河文化保护传承弘扬研讨会”在郑州召开。		</div>
+				
+	</div>
+	
+	
+</article>
+														<article class="article-item article-item-nx">
+	<div class="article-title-box">
+		<h3 class="article-title">
+			<a href="/a/153.html" >黄河流域博物馆联盟厉兵秣马 宁夏5家博物馆首批入列</a>
+		</h3>
+		<span class="article-data" itemprop="date">2019.12.06</span>
+	</div>
+	
+	<div class="article-body">
+				<div class="article-left">
+			<img src="https://www.nxbwg.com/uploads/thumbs/3c9cf8b1b4f4be2c4d8c0ddaaa66ae9a_thumb.jpg">
+		</div>
+		
+		<div class="article-intro hidden-xs article-right">
+			黄河是孕育中华文明的摇篮，是养育中华民族的母亲河。黄河文化是中华文明的重要组成部分，是中华民族的根和魂。		</div>
+				
+	</div>
+	
+	
+</article>
+														<!-- E 列表 -->
+
+							<!-- S 分页栏 -->
+							<div class="text-center pager">
+								<ul class="pagination"><li class="disabled"><span>&laquo;</span></li> <li class="active"><span>1</span></li><li><a href="/c/xcjy.html?filter%5B0%5D=&amp;id=2&amp;diyname=xcjy&amp;page=2">2</a></li> <li><a href="/c/xcjy.html?filter%5B0%5D=&amp;id=2&amp;diyname=xcjy&amp;page=2">&raquo;</a></li></ul>							</div>
+							<!-- E 分页栏 -->
+
+													</div>
+					</div>
+				</div>
+			</main>
+
+		</div>
+	</div>
+    
+    
+
+    
+</div>
+
+
+<footer style="padding: 0;">
+    <div id="footer">
+		<div class="footerBox02">
+			<div class="box">
+				<h4 class="logo"> <a href="/"><img src="/assets/addons/cms/img/footer_logo.jpg" alt="宁夏博物馆" style="padding-top:10px;"/></a> </h4>
+				<div class="copyright">
+					<span>宁夏回族自治区博物馆 版权所有</span>
+					<span>山西云汉文化传媒有限公司 技术支持</span>
+					<span>地址：宁夏回族自治区银川市金凤区人民广场东街</span>
+					网站备案：<a href="http://www.beian.miit.gov.cn/" target="_blank">宁ICP备20000299号-1</a>
+				</div>
+				<div class="erweima">
+					<img src="/assets/addons/cms/img/wx.png">
+					<p>微信公众号</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div id="floatbtn">
+    <!-- S 浮动按钮 -->
+
+        <!-- <a href="javascript:;">
+        <i class="iconfont icon-wxapp"></i>
+        <div class="floatbtn-wrapper">
+            <div class="qrcode"><img src="/assets/addons/cms/img/qrcode.png"></div>
+            <p>微信小程序</p>
+            <p>微信扫一扫体验</p>
+        </div>
+    </a> -->
+    
+    <!-- <a class="hover" href="/index/cms.archives/post" target="_blank">
+        <i class="iconfont icon-pencil"></i>
+        <em>立即<br>投稿</em>
+    </a> -->
+
+        <!-- <a href="javascript:;">
+        <i class="iconfont icon-qrcode"></i>
+        <div class="floatbtn-wrapper">
+            <div class="qrcode"><img src="/assets/addons/cms/img/qrcode.png"></div>
+            <p>微信公众账号</p>
+            <p>微信扫一扫加关注</p>
+        </div>
+    </a> -->
+    
+    <a id="back-to-top" class="hover" href="javascript:;">
+        <i class="iconfont icon-backtotop"></i>
+        <em>返回<br>顶部</em>
+    </a>
+    <!-- E 浮动按钮 -->
+</div>
+
+
+<script type="text/javascript" src="/assets/libs/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/libs/fastadmin-layer/dist/layer.js"></script>
+<script type="text/javascript" src="/assets/libs/art-template/dist/template-native.js"></script>
+<script type="text/javascript" src="/assets/addons/cms/js/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="/assets/addons/cms/js/swiper.min.js"></script>
+<script type="text/javascript" src="/assets/addons/cms/js/cms.js?r=1.0.1"></script>
+<script type="text/javascript" src="/assets/addons/cms/js/common.js?r=1.0.1"></script>
+<script >
+	$(function () {
+		//浮动按钮
+		$(document).scroll(function() {
+			var scroH = $(document).scrollTop();  //滚动高度
+			if(scroH >100){  //距离顶部大于100px时
+				$("#floatbtn").css("display","block");
+			}else{
+				$("#floatbtn").css("display","none");
+			}
+		});
+	})
+</script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?b4c77f51c76cba327416cacd747c1200";
+		var s = document.getElementsByTagName("script")[0]; 
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+</body>
+</html>

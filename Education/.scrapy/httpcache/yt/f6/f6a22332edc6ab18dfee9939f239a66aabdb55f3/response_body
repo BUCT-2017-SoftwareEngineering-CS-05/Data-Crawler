@@ -1,0 +1,335 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<title>文博知识信息列表 - 烟台市博物馆</title>
+<link href="/superman/ytMuseum/css/common.css" rel="stylesheet" type="text/css">
+<link type="text/css" href="/superman/ytMuseum/css/jj.css" rel="stylesheet">
+
+<script type="text/javascript" src="/superman/ytMuseum/js/caidan.min.js"></script>
+<script type="text/javascript" src="/superman/ytMuseum/js/caidan.js"></script>
+<style type="text/css">
+<!--
+.STYLE1 {	font-size: 12px;
+	color: #000000;
+}
+-->
+</style>
+</head>
+
+<body>
+ <!--<div style="width:100%; height:160px; background:#bf000c; text-align:center;position:relative;">
+    <img src="/superman/ytMuseum/images/newyear.jpg" /> 
+</div>-->
+<div id="header1">
+    <div id="header">
+
+        <div id="caidan1">
+            <ul class="menu">
+                <li class="no_sub"><a href="/" class="tablink nosub">首 页</a></li>
+                <li>
+                    <a href="/aboutus/Psort_guanqing/Article.html">烟博概览</a>
+                    <ul>
+                        <li><a href="/aboutus/Psort_zhici/Article.html">馆长致辞</a></li>
+                        <li><a href="/aboutus/Psort_guanqing/Article.html">馆情概况</a></li>
+                        <li><a href="/aboutus/Psort_zuzhi/Article.html">组织结构</a></li>
+                        <li><a href="/zixun/Psort_jishi/List.html">烟博记事</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="/zhanting.html" class="tablink">网上展厅</a>
+                    <ul>
+                        <li><a href="/zhanting/Psort_yugao/List.html">展览预告</a></li>
+                        <li><a href="/zhanting/Psort_jiben/List.html">基本陈列</a></li>
+                        <li><a href="/zhanting/Psort_zhuanti/List.html">专题陈列</a></li>
+                        <li><a href="/zhanting/Psort_tebie/List.html">特别展览</a></li>
+                        <li><a href="/zhanting/Psort_huigu/List.html">展览回顾</a></li>
+                        <li><a href="/zhanting/Psort_xunzhan/List.html">文物巡展</a></li>
+                        <li><a href="/zhanting/Psort_canguan/List.html">在线参观</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/diancang.html" class="tablink">典藏精粹</a>
+                    <ul>
+                        <li><a href="/diancang/Psort_zhenguan/List.html">镇馆之宝</a></li>
+                        <li><a href="/diancang/Psort_ciqi/List.html">瓷器</a></li>
+                        <li><a href="/diancang/Psort_qingtongqi/List.html">青铜器</a></li>
+                        <li><a href="/diancang/Psort_yuqi/List.html">玉器</a></li>
+                        <li><a href="/diancang/Psort_zihua/List.html">字画</a></li>
+                        <li><a href="/diancang/Psort_wenwu/List.html">近现代文物</a></li>
+                        <li><a href="/diancang/Psort_qita/List.html">其他</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/zixun.html" class="tablink">新闻资讯</a>
+                    <ul>
+                        <li><a href="/zixun/Psort_dongtai/List.html">烟博动态</a></li>
+                        <li><a href="/zixun/Psort_guanwai/List.html">馆外资讯</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="/xveshu.html" class="tablink">学术研究</a>
+                    <ul>
+                        <!--   <li><a href="/xveshu/Psort_yuandi/List.html">文博园地</a></li>-->
+                        <li><a href="/xveshu/Psort_jiaodong/List.html">胶东文博</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="/fuwu.html" class="tablink">服务指南</a>
+                    <ul>
+                        <li><a href="/xxgk/List.html">信息公开</a></li>
+                        <li><a href="/liuyan/list.html">观众留言</a></li>
+                        <li><a href="/help/Psort_kaifang/Article.html">开放时间</a></li>
+                        <li><a href="/help/Psort_richeng/Article.html">日程安排</a></li>
+                        <li><a href="/help/Psort_piaowu/Article.html">票务服务</a></li>
+                        <li><a href="/help/Psort_canguan/Article.html">参观须知</a></li>
+                        <li><a href="/help/Psort_jiangjie/Article.html">讲解服务</a></li>
+                        <li><a href="/help/Psort_jiaotong/Article.html">地理交通</a></li>
+                        <li><a href="/help/Psort_lianxi/Article.html">联系烟博</a></li>
+                        <li><a href="/zhiyuan/List.html">志愿者服务</a></li>
+                        <li><a href="/diaocha/List.html">观众调查</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="/mszhanting.html" class="tablink">烟台民俗博物馆</a>
+                    <ul>
+                        <li><a href="/aboutms/Psort_msjieshao/Article.html">会馆介绍</a></li>
+                        <li><a href="/mszhanting/Psort_yugao/List.html">展览预告</a></li>
+                        <li><a href="/mszhanting/Psort_linshi/List.html">临时展览</a></li>
+                        <li><a href="/mszhanting/Psort_huigu/List.html">展览回顾</a></li>
+                        <li><a href="/mszhanting/Psort_changshe/List.html">常设展览</a></li>
+                        <li><a href="/aboutms/Psort_mscanguan/Article.html">参观须知</a></li>
+                        <li><a href="/aboutms/Psort_mslianxi/Article.html">联系方式</a></li>
+                        <li><a href="/aboutms/Psort_msjiaotong/Article.html">地理交通</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/shaoer/Article.html" class="tablink">趣味课堂</a>
+
+                    <ul>
+                        <li><a href="/huodong/list.html">活动预告</a></li>
+                        <li><a href="/youxi/list.html">趣味学习</a></li>
+                        <li><a href="/zhishi/list.html">文博知识</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+     <div class="xxcontent">
+	     <div class="xxcona">
+		      <img src="/superman/ytMuseum/images/qw_banner_05.jpg">
+		 </div>
+          <div class="qw_menu">
+              <img src="/superman/ytMuseum/images/wb_menu04_05.jpg" usemap="#Map" border="0">
+           <map name="Map" id="Map">
+             <area shape="rect" coords="44,5,227,49" href="/shaoer/Article.html" target="_self">
+             <area shape="rect" coords="333,5,537,52" href="/huodong/list.html" target="_self">
+             <area shape="rect" coords="629,3,820,50" href="/youxi/list.html" target="_self">
+             <area shape="rect" coords="918,5,1112,49" href="/zhishi/list.html" target="_self">
+           </map>
+         </div>
+		 <div class="xxconb1">
+			     <div class="qtcon">
+                 <div class="hd_leftcon">
+                   <div class="szwz">您现在的位置:&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="/">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;文博知识</div>
+                  <ul class="listul hd_ul">   
+                         <li><span>2015/9/16 11:19:19</span> <a href="/zhishi/1859/Detail.html" target="_blank"> ·文博小常识（八）木器、漆器的保养</a></li>
+                           
+                          
+                         <li><span>2015/9/15 10:59:10</span> <a href="/zhishi/1856/Detail.html" target="_blank"> ·文博小常识（七）中国古代工艺品</a></li>
+                           
+                          
+                         <li><span>2015/9/15 10:56:48</span> <a href="/zhishi/1855/Detail.html" target="_blank"> ·文博小常识（六） 山东民间木版年画</a></li>
+                           
+                          
+                         <li><span>2015/9/14 11:35:53</span> <a href="/zhishi/1853/Detail.html" target="_blank"> ·文博小常识（五）金属类器物</a></li>
+                           
+                          
+                         <li><span>2015/9/14 11:33:48</span> <a href="/zhishi/1852/Detail.html" target="_blank"> ·文博小常识（四）中国玉器</a></li>
+                           
+                          
+                         <li><span>2015/9/15 10:49:55</span> <a href="/zhishi/1854/Detail.html" target="_blank"> ·文博小常识（三）中国瓷器（下）</a></li>
+                           
+                          
+                         <li><span>2015/9/14 11:31:19</span> <a href="/zhishi/1851/Detail.html" target="_blank"> ·文博小常识（三）中国瓷器（上）</a></li>
+                           
+                          
+                         <li><span>2015/9/14 11:12:22</span> <a href="/zhishi/1845/Detail.html" target="_blank"> ·文博小常识（二）中国古代书法和绘画</a></li>
+                           
+                          
+                         <li><span>2015/9/14 10:52:05</span> <a href="/zhishi/1842/Detail.html" target="_blank"> ·文博小常识（一） 中国古代钱币</a></li>
+                           
+                          
+                         <li><span>2014/2/26 15:15:20</span> <a href="/zhishi/1042/Detail.html" target="_blank"> ·文博知识栏目开通啦！</a></li>
+                           
+                           
+                     </ul>
+               
+                                </div> 
+                 <div class="hd_rightcon">
+                     <img src="/superman/ytMuseum/images/hd_img_18.jpg">
+                   <p><a href="/youxi/448/Detail.html"> <img src="/superman/ytMuseum/images/hd_img_28.jpg"></a></p><br>
+                        <p><a href="/youxi/321/Detail.html"> <img src="/superman/ytMuseum/images/hd_img_38.jpg"></a></p>
+                 </div> 
+                 <div style="clear:both">  </div>
+                  <div class="pager"><a disabled="disabled">首页</a>
+<a disabled="disabled">上一页</a>
+<a disabled="disabled">下一页</a>
+<a disabled="disabled">末页</a>
+<span>&nbsp;1/1页<span class="msdn_red">&nbsp;10</span>条记录</span>
+第<input type="text" id="txtPageing" value="1" size="1" maxlength="6" disabled="disabled">页
+<a disabled="disabled">转</a>
+<input type="hidden" id="hiddenPageCount" value="1">
+<script language="javascript" type="text/javascript">function onclick_GoZhuan(url){var obj = document.getElementById('txtPageing');var flag = onblur_CheckNum(obj,'请输入转向页码!!','页码只能填写整数!!');if(flag){var pagecount=document.getElementById('hiddenPageCount').value;var pageing=document.getElementById('txtPageing').value;if(Number(pagecount)<Number(pageing)){pageing = 1;}else{if(pageing<1)pageing = 1;}window.location.href = url+pageing+'/List.html';}return flag;}function onblur_CheckNum(obj,str1,str2){var flag = false;var order = obj.value;if(order!=null && order!=''){if(!order.match('^[0-9]{1,}$')){alert(str2);}else{flag = true;}}else{if(str1!='undefined' && str1!='')alert(str1);}return flag;}</script></div>
+
+                 <div class="wbzs">
+                     <h2>
+                     <img src="/superman/ytMuseum/images/wb_item_18.jpg">精彩活动</h2>
+                     <ul class="wbzsul">
+                         <li><a href="/huodong/5300/Detail.html" target="_blank">·2019年9-11月趣味活动日程安排 </a></li>
+                          
+                         <li><a href="/huodong/4784/Detail.html" target="_blank">·2019年1-3月趣味活动日程安排 </a></li>
+                          
+                         <li><a href="/huodong/4625/Detail.html" target="_blank">·2018年10-12月趣味活动日程安排 </a></li>
+                          
+                         <li><a href="/huodong/4411/Detail.html" target="_blank">·2018年7-9月趣味活动日程安排 </a></li>
+                          
+                         <li><a href="/huodong/4227/Detail.html" target="_blank">·2018年4-6月趣味活动日程安排 </a></li>
+                          
+                         <li><a href="/huodong/4031/Detail.html" target="_blank">·2018年1-3月趣味活动日程安排 </a></li>
+                          
+                         <li><a href="/huodong/3779/Detail.html" target="_blank">·2017年10-12月趣味活动日程安排 </a></li>
+                          
+                         <li><a href="/huodong/3421/Detail.html" target="_blank">·2017年7-9月趣味活动日程安排 </a></li>
+                          
+                         <li><a href="/huodong/3189/Detail.html" target="_blank">·2017年4-6月趣味活动日程安排 </a></li>
+                          
+                         
+                        
+                     </ul>
+                 </div>
+
+             </div>
+	
+		 </div>
+		 <div style="clear:both;"></div>
+	 </div>
+	 
+	 
+	 <div id="youlian"><div class="cong">
+		    <div class="cong1">
+			    <div class="cong11">
+				    <div class="yqlj"><img src="/superman/ytMuseum/images/21.png"></div>
+				</div>	
+				<div class="cong12">
+				    <ul> 
+					    <li> <a href="http://www.ccrnews.com.cn" target="_blank">中国文物信息网</a></li>
+						
+					    <li> <a href="http://www.chnmuseum.cn" target="_blank">国家博物馆</a></li>
+						
+					    <li> <a href="http://www.dpm.org.cn" target="_blank">故宫博物院</a></li>
+						
+					    <li> <a href="http://www.sdwenbo.com" target="_blank">山东文博网</a></li>
+						
+					    <li> <a href="http://www.sdmuseum.com" target="_blank">山东博物馆</a></li>
+						
+					    <li> <a href="http://www.capitalmuseum.org.cn" target="_blank">首都博物馆</a></li>
+						
+					    <li> <a href="http://yt.wenming.cn/" target="_blank"><font color="red">烟台文明网</font></a></li>
+						
+					    <li> <a href="http://www.shanghaimuseum.net" target="_blank">上海博物馆</a></li>
+						
+					    <li> <a href="http://www.zhejiangmuseum.com" target="_blank">浙江博物馆</a></li>
+						
+					    <li> <a href="http://www.hnmuseum.com" target="_blank">湖南省博物馆</a></li>
+						
+					    <li> <a href="http://www.njmuseum.com" target="_blank">南京博物院</a></li>
+						
+					    <li> <a href="http://www.tjbwg.com" target="_blank">天津博物馆</a></li>
+						
+					    <li> <a href="http://www.qingdaomuseum.com" target="_blank">青岛市博物馆</a></li>
+						
+					    <li> <a href="http://www.sxhm.com" target="_blank">陕西历史博物馆</a></li>
+						
+					    <li> <a href="http://hbbbwg.orgcc.com" target="_blank">河北省博物馆</a></li>
+						
+					    <li> <a href="http://www.3gmuseum.cn" target="_blank">重庆博物馆</a></li>
+						
+					    <li> <a href="http://www.ynbwg.cn" target="_blank">云南省博物馆</a></li>
+						
+					    <li> <a href="http://www.lnmuseum.com.cn" target="_blank">辽宁省博物馆</a></li>
+						
+					    <li> <a href="http://www.hljmuseum.com" target="_blank">黑龙江省博物馆</a></li>
+						
+					    <li> <a href="http://www.shanximuseum.com" target="_blank">山西博物馆</a></li>
+						
+					    <li> <a href="http://www.scmuseum.cn" target="_blank">四川博物馆</a></li>
+						
+					    <li> <a href="http://www.gxmn.org" target="_blank">广西民族博物馆</a></li>
+						
+					    <li> <a href="http://www.jxmuseum.cn" target="_blank">江西省博物馆</a></li>
+						
+					    <li> <a href="http://www.ahm.cn" target="_blank">安徽博物馆</a></li>
+						
+					    <li> <a href="http://www.gansumuseum.com" target="_blank">甘肃省博物馆</a></li>
+						
+					    <li> <a href="http://www.jlmuseum.org" target="_blank">吉林省博物馆</a></li>
+						
+					    <li> <a href="http://www.chnmus.net" target="_blank">河南博物院</a></li>
+						
+					    <li> <a href="http://www.hbww.org" target="_blank">湖北省博物馆</a></li>
+						
+					    <li> <a href="http://www.nmgbwy.com" target="_blank">内蒙古博物院</a></li>
+						
+					    <li> <a href="http://www.njmuseum.com" target="_blank">南京博物院</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div></div>
+<!--页面底部-->
+<div id="feet" style="position:relative;">
+<!--<div style="position:absolute; right:100px; bottom:50px;">
+
+<div id="ckepop">
+<span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_weixin">微信</a> 
+<a href="http://www.jiathis.com/share"  class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+<a class="jiathis_counter_style"></a>
+</div> 
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1" charset="utf-8"></script>
+
+</div>
+-->
+   <div id="feet1"> 
+      <a href="/">网站首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/aboutus/Psort_guanqing/Article.html" target="_blank">走进烟博</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/zhanting.html" target="_blank">网上展厅</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/diancang.html" target="_blank">典藏精粹</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/zixun.html" target="_blank">最新资讯</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/xveshu.html" target="_blank"> 学术研究 </a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/fuwu.html" target="_blank">服务指南</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/mszhanting.html" target="_blank">民俗博物馆</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/liuyan/list.html" target="_blank"> 在线留言</a>
+   </div>   
+   <div id="feet2" style="position:relative;">
+   <style>
+   .aaa img{ width:60px; height:60px;}
+   </style>
+   <div style="position:absolute; left:130px; top:0px;" class="aaa">
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/16/239/0000/60330170/CA162390000603301700003.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=0B0146B8AB123421E053012819ACA4EB" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1"></a></span><script src="http://dcs.conac.cn/js/16/239/0000/60330170/CA162390000603301700003.js" type="text/javascript"></script><span id="_ideConac"></span>
+</div>
+     <p>烟台市博物馆版权所有 鲁ICP备11027144&nbsp;&nbsp;&nbsp;技术支持：<a href="http://www.chinafoods.com.cn" target="_blank">直线智能科技</a>&nbsp;&nbsp;&nbsp;
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253321107'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/stat.php%3Fid%3D1253321107%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1253321107"><a href="https://www.cnzz.com/stat/website.php?web_id=1253321107" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></span><script src=" http://s5.cnzz.com/stat.php?id=1253321107&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1253321107&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+     </p>
+     <p>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         开放时间：5月—10月 9：00-17：00（16:30停止入场）&nbsp;&nbsp;&nbsp;
+         11月—4月 9：00-16：30（16:00停止入场）&nbsp;&nbsp;&nbsp;
+         每周一闭馆（法定节假日除外）
+     </p>
+     <p>联系电话：0535-6232976&nbsp;&nbsp;&nbsp;馆址：烟台市南大街61号</p>
+   </div>   
+ </div>
+ 
+	 
+
+
+</body></html>

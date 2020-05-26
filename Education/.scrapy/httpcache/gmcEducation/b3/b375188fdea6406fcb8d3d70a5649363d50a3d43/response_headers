@@ -1,0 +1,18 @@
+Server: Tengine
+Content-Type: text/html; charset=utf-8
+Date: Sun, 17 May 2020 13:45:25 GMT
+Vary: Accept-Encoding
+Set-Cookie: PHPSESSID=l6e30bgti3smpd31lr4341t6j2; path=/
+Set-Cookie: saw_terminal=default; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache
+X-Powered-By: Qinsoft.net
+Content-Encoding: gzip
+Ali-Swift-Global-Savetime: 1589723125
+Via: cache32.l2cn1817[305,200-0,M], cache8.l2cn1817[306,0], kunlun9.cn171[336,200-0,M], kunlun3.cn171[357,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Savetime: Sun, 17 May 2020 13:45:25 GMT
+X-Swift-Cachetime: 0
+Timing-Allow-Origin: *
+Eagleid: ddb5c89a15897231254544833e
